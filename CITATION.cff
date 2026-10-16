@@ -9,7 +9,7 @@ authors:
     given-names: "Andrés Felipe"
     orcid: "https://orcid.org/0009-0004-7680-6585"
     affiliation: "Independent Researcher, Mexico City"
-# repository-code: to be added when the public repository exists
+repository-code: "https://github.com/andrestellez84/m-unit-root-calibration"
 # MIT for the code; CC BY 4.0 for the results, the supplement, the figures and the documentation (see README.md, License)
 license:
   - MIT
