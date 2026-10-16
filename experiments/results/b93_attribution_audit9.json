@@ -1,0 +1,6775 @@
+{
+  "provenance": {
+    "script": "experiments/audit9_b93_attribution.py",
+    "script_sha256": "0c6a42942f19a4b0f07cf102704a98e4c17f76815a53bbb1e0407bb3119dd6ee",
+    "commit": "2600a8d27763b4a4f7a1a0dfa24702d94ef2e4b7",
+    "worktree_dirty": false,
+    "dirty_files": [],
+    "generated_utc": "2026-09-19T05:36:04.306888+00:00",
+    "seed_family": 103,
+    "versions": {
+      "python": "3.11.0",
+      "platform": "Windows-10-10.0.26200-SP0",
+      "numpy": "2.2.4",
+      "scipy": "1.15.2",
+      "numba": "0.65.0",
+      "statsmodels": "0.14.6",
+      "arch": "8.0.0",
+      "pandas": "2.2.3",
+      "joblib": "1.4.2",
+      "matplotlib": "3.10.1",
+      "pytest": "9.0.3"
+    },
+    "code": {
+      "experiments/audit8_b0_inventory.py": {
+        "sha256": "6405cc166459c296fb32c86fed1abff150afc4889ba0598502d8c4e41ea07add",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_np_diagnostic.py": {
+        "sha256": "959b18541923f504c4178fdedd3a7d519a62487930c1de4dbcc8e476e0a43df0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_np_gate.py": {
+        "sha256": "93064f87f144776c7c83ee95d23bdbd7eadf5cbaff08af57297eda3ef37348f0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_regression_child.py": {
+        "sha256": "350b1389b64fdc89098d17861b7196671be9fe66123fb1f0702ddd5229fee150",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_validate.py": {
+        "sha256": "6a268b6ac14f5d05f2dfa26b5430328246f34893439ff6004b308d9a163170b0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2_size.py": {
+        "sha256": "74b1cdbd9f0bba3c77cb495b6c53393ba49eef75ff4f88d41257679ee2d4ff93",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2b_diagnostic.py": {
+        "sha256": "f89de9ed47612633614546168cb1887b0fb1c2faa37283276d03e45dd8096802",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2b_indep.py": {
+        "sha256": "47eb0f404478d0bac66bab7ea2002a24956ceeb287bdcb5bd441ee5fc0c8dda5",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b3_comparators.py": {
+        "sha256": "a4589a8ab3fe02284549b02f9c2078ad34172ddab47b268ce5c1ce4c444fc363",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b4_local_power.py": {
+        "sha256": "4de18b53c2f31d3d2f7e04fee1d786d42df0ba7998bdf30278b8029acea904c7",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b5_power.py": {
+        "sha256": "561c9dd52313c70d193ebe7ea772b3dbf91db2e691019eec3f5e76c4c8c28092",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b6_application.py": {
+        "sha256": "917157d7367c201cb4e92c2eafd1cb4f3d6f68d44dfbc9f6713c0ecb7e28de07",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b7_critical_values.py": {
+        "sha256": "1a228203fb9b1ed38020fe40ec4e6e690ea05c6bf152ceca42a82cc7f2d1c801",
+        "git_state": "committed"
+      },
+      "experiments/audit8_cache_fix_validate.py": {
+        "sha256": "01d88be3d99d27ddb32abdc63bbb5fad3ab6129300ba8cfe638b1790a60d314a",
+        "git_state": "committed"
+      },
+      "experiments/audit8_common.py": {
+        "sha256": "5718ec2cfa7f5f5c5f7f8d68ed26198e00ac827fb562cee67b234857e5719f0d",
+        "git_state": "committed"
+      },
+      "experiments/audit8_design.py": {
+        "sha256": "ad80aeae74d44ff4cecbd10dbfc480d24c146b81ec8f9d6561f95b7ba7079ae0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_environment.py": {
+        "sha256": "9b323700e91302ad0090e876b922a38a1dd6b23ef5f19fcc7748d947e617d21e",
+        "git_state": "committed"
+      },
+      "experiments/audit8_figconfig.py": {
+        "sha256": "eb516777a764ee78828acf7a5c743c4e9d8f5aab57b98550606354793d467e12",
+        "git_state": "committed"
+      },
+      "experiments/audit8_generate_report.py": {
+        "sha256": "91157e2576bec679f9f826423f55b6de104a01380651c9648a3aa25adac78819",
+        "git_state": "committed"
+      },
+      "experiments/audit8_unitroot.py": {
+        "sha256": "9d0842a342f12b9c8a7e3870127768590c53d98c8ca90dbb3a2715ddb16748ef",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b90_protocol.py": {
+        "sha256": "5e0a7109f7d1a7737ed2558ccc1766b36c61e0ead19738e9da6512af0d58e590",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b91_equalized.py": {
+        "sha256": "66be775e81bb3ddeadc202237f1343a4d231138274eb8387cc5ac48c1366b9b9",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b92_theta.py": {
+        "sha256": "56b784b7534e466897a6b31400dc17906ad101d2d114e93f9d5bb95b55c65af5",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b93_attribution.py": {
+        "sha256": "0c6a42942f19a4b0f07cf102704a98e4c17f76815a53bbb1e0407bb3119dd6ee",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b94_finite_sample.py": {
+        "sha256": "b5c5b0acc0792baaec3499d386bbce7768142ca4e37ca1ac03fb23914a0daae5",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b95_awb.py": {
+        "sha256": "f60dcb418bb045ef40684fc8572d74e578459d40d28925dd7c30bbac79dbf0c0",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b96_application.py": {
+        "sha256": "d8929ce6a1d7bf68743c927e58efb539aa1eec6881ef9621dcee49f68ccc0ed4",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b97_critical_values.py": {
+        "sha256": "774956681a4c6536cfab497326e032518cb97c10a0aacf9bffd38ee92aef14f3",
+        "git_state": "committed"
+      },
+      "experiments/audit9_calibrate.py": {
+        "sha256": "d2f7ac2cd3d5fa866fac21379f79a60535749e8db61d02135aaea99ec0b75bbd",
+        "git_state": "committed"
+      },
+      "experiments/audit9_common.py": {
+        "sha256": "39fbee3c398de920ba2f9c4400ac6254c58d9fb537c6f97649c8299ea39e78f7",
+        "git_state": "committed"
+      },
+      "experiments/audit9_design.py": {
+        "sha256": "4edf340c4a6cd130199655998d492c92d9376b1318d498f1df48540b5a31b571",
+        "git_state": "committed"
+      },
+      "experiments/audit9_engine.py": {
+        "sha256": "8f8bd7a817178056d2e55a4c518bfc2188737c02c3f56cf467d15972ac651e1b",
+        "git_state": "committed"
+      },
+      "experiments/audit9_figconfig.py": {
+        "sha256": "502fc40d79bdec85ad4ebac69ee33949903c4c8b5e14ed5558ab3b6b985b8080",
+        "git_state": "committed"
+      },
+      "experiments/audit9_generate_report.py": {
+        "sha256": "91987d26ab5cbd07a7c665d1b2be9013250c2c2aa2e6ef0859482727e4488fb9",
+        "git_state": "committed"
+      },
+      "experiments/make_figures_audit9.py": {
+        "sha256": "8af6329fe284ee528882db6cf39a1b0ae1e046806376c60cfd026bfb2b7e587e",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/__init__.py": {
+        "sha256": "20ebf29ab1a9a64bb428f25ff0170d67db2354662efb8b973922c3f455f56582",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/constants.py": {
+        "sha256": "de8bd2282ff09c41fc6eae12fcca6695c1fd3a0c9def7628a9b76e9361058907",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/davies.py": {
+        "sha256": "cfad047d0b0676cc83a41208cd600f4224ce61bf03930228a5a80d1d6556c9b9",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/deterministics.py": {
+        "sha256": "31db116abc80e5cab8c97317a31d6f22f1a4ca40c885eef86c134db598dac6b2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/empirical_eigenvalues.py": {
+        "sha256": "f749e2e2de8b807421d6e74836bd5d539eccb314f18821bd38b80e72b5ee72a1",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/full_pipeline.py": {
+        "sha256": "cdbd5405caa50bc83c7348a0a8be9963b522ef4d808024f078f648bb1de89170",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/hac_estimator.py": {
+        "sha256": "f7c22540e6a8e862258cb70e4a839b841453ca9490a01671176431ee4bf678f2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/kl_eigenvalues.py": {
+        "sha256": "c0fb0a90795c904cb2876aa16eff64948e0abf5a27d3a57c6612c2b9ec198903",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/null_quantiles.py": {
+        "sha256": "655458f05815621d015984080169663d2310d26e588a83e2c5a62549ba5a1ae8",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/optimal_weight.py": {
+        "sha256": "47632d98ed256b2364a2ac99de64780e0cd8d42a69c68b4552c6ea0564f86ba4",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/rm_core.py": {
+        "sha256": "4d3ee3f59c569233a5e9a9ed8ffd3032364188545bac04a0cc619ccac39e04e0",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/standardization.py": {
+        "sha256": "cc8cb146d28ea63be86bc11db6cc6c345fbf5fd412055e2e58a33a40f3e8936b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/statistic.py": {
+        "sha256": "f0baf1d99ac4311ca854d350f18a3d3416974bf5d13e662d05149f87183d92ef",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/theta_selection.py": {
+        "sha256": "23eba50e85d0db917d14b4d3d844c42e5ee566dfd326a0fad7feae0dd113f40b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/utils.py": {
+        "sha256": "8a3e0b972da519b3c39ca0e0326953dbae1bf048845c05c1fb3a23a001b72717",
+        "git_state": "committed"
+      }
+    },
+    "code_all_committed": true
+  },
+  "config": {
+    "a": "gls_t0 (sigma_hat HAC) + nula hac simulada",
+    "b": "glsb_t0 (s2_AR MAIC) + nula simulada con s2_AR",
+    "c": "MSB-GLS (MAIC) + valor asintotico de Ng-Perron",
+    "control": "MSB-GLS + valor simulado",
+    "rule": "(a) - (b) = escala; (b) - (c) = calibracion (protocolo)",
+    "se": "pareado: sd(d_i)/sqrt(N); en Delta, cuadratura con la parte gaussiana; medias por n con sqrt(sum se^2)/k",
+    "size_n": [
+      100,
+      200,
+      500,
+      1000
+    ],
+    "local_c": [
+      5.0,
+      10.0,
+      15.0,
+      20.0
+    ]
+  },
+  "exact_region_20000": [
+    0.047,
+    0.05305
+  ],
+  "exact_region_5000": [
+    0.044,
+    0.0562
+  ],
+  "gaussian_size": {
+    "c|100": {
+      "n": 100,
+      "case": "c",
+      "rates": {
+        "a": {
+          "rate": 0.0501,
+          "rejections": 1002,
+          "n": 20000,
+          "wilson_lower": 0.04716208578848323,
+          "wilson_upper": 0.053210708254799705,
+          "se": 0.0015425626405433266,
+          "in_region": true
+        },
+        "b": {
+          "rate": 0.05145,
+          "rejections": 1029,
+          "n": 20000,
+          "wilson_lower": 0.0484735676630238,
+          "wilson_upper": 0.054598707882907674,
+          "se": 0.0015620963078504476,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.04965,
+          "rejections": 993,
+          "n": 20000,
+          "wilson_lower": 0.04672505899619379,
+          "wilson_upper": 0.05274790787953965,
+          "se": 0.0015359830321328423,
+          "in_region": true
+        },
+        "msb_sim": {
+          "rate": 0.052,
+          "rejections": 1040,
+          "n": 20000,
+          "wilson_lower": 0.04900804401912483,
+          "wilson_upper": 0.05516402028714491,
+          "se": 0.001569968152543229,
+          "in_region": true
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": -0.00135,
+          "se": 0.0011346687836820192,
+          "n": 20000
+        },
+        "b_minus_c": {
+          "delta": 0.0018,
+          "se": 0.00045260163765956546,
+          "n": 20000
+        },
+        "b_minus_msb_sim": {
+          "delta": -0.00055,
+          "se": 0.0003905028804310939,
+          "n": 20000
+        }
+      }
+    },
+    "ct|100": {
+      "n": 100,
+      "case": "ct",
+      "rates": {
+        "a": {
+          "rate": 0.0498,
+          "rejections": 996,
+          "n": 20000,
+          "wilson_lower": 0.046870727042488985,
+          "wilson_upper": 0.05290218222242761,
+          "se": 0.0015381800934871053,
+          "in_region": true
+        },
+        "b": {
+          "rate": 0.0495,
+          "rejections": 990,
+          "n": 20000,
+          "wilson_lower": 0.04657939854423662,
+          "wilson_upper": 0.05259362594231365,
+          "se": 0.0015337820901288421,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.02245,
+          "rejections": 449,
+          "n": 20000,
+          "wilson_lower": 0.020486753547163367,
+          "wilson_upper": 0.024596660090022156,
+          "se": 0.0010475208231820502,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.0496,
+          "rejections": 992,
+          "n": 20000,
+          "wilson_lower": 0.04667650466678262,
+          "wilson_upper": 0.05269648141255642,
+          "se": 0.0015352498168050698,
+          "in_region": true
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.0003,
+          "se": 0.0012688877033844206,
+          "n": 20000
+        },
+        "b_minus_c": {
+          "delta": 0.02705,
+          "se": 0.0011471620086255041,
+          "n": 20000
+        },
+        "b_minus_msb_sim": {
+          "delta": -0.0001,
+          "se": 0.00043590021845603893,
+          "n": 20000
+        }
+      }
+    },
+    "c|200": {
+      "n": 200,
+      "case": "c",
+      "rates": {
+        "a": {
+          "rate": 0.05015,
+          "rejections": 1003,
+          "n": 20000,
+          "wilson_lower": 0.047210648502146166,
+          "wilson_upper": 0.05326212633753116,
+          "se": 0.0015432915716092018,
+          "in_region": true
+        },
+        "b": {
+          "rate": 0.0504,
+          "rejections": 1008,
+          "n": 20000,
+          "wilson_lower": 0.04745347452539701,
+          "wilson_upper": 0.053519204296252273,
+          "se": 0.0015469298626634629,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.046,
+          "rejections": 920,
+          "n": 20000,
+          "wilson_lower": 0.04318289247636304,
+          "wilson_upper": 0.04899147626257996,
+          "se": 0.001481283227475421,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.0502,
+          "rejections": 1004,
+          "n": 20000,
+          "wilson_lower": 0.047259212047703,
+          "wilson_upper": 0.05331354358836872,
+          "se": 0.0015440200775896666,
+          "in_region": true
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": -0.00025,
+          "se": 0.0009206189504689757,
+          "n": 20000
+        },
+        "b_minus_c": {
+          "delta": 0.0044,
+          "se": 0.0004785848432332648,
+          "n": 20000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0002,
+          "se": 0.0002645779659665629,
+          "n": 20000
+        }
+      }
+    },
+    "ct|200": {
+      "n": 200,
+      "case": "ct",
+      "rates": {
+        "a": {
+          "rate": 0.04655,
+          "rejections": 931,
+          "n": 20000,
+          "wilson_lower": 0.043716336085480374,
+          "wilson_upper": 0.04955782141380092,
+          "se": 0.001489682810198198,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.04695,
+          "rejections": 939,
+          "n": 20000,
+          "wilson_lower": 0.044104365474235976,
+          "wilson_upper": 0.049969638396200416,
+          "se": 0.0014957556200796973,
+          "in_region": false
+        },
+        "c": {
+          "rate": 0.026,
+          "rejections": 520,
+          "n": 20000,
+          "wilson_lower": 0.02388389875712033,
+          "wilson_upper": 0.028298151424066848,
+          "se": 0.0011252555265360842,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.0465,
+          "rejections": 930,
+          "n": 20000,
+          "wilson_lower": 0.04366783655902985,
+          "wilson_upper": 0.04950634014385705,
+          "se": 0.0014889215896077268,
+          "in_region": false
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": -0.0004,
+          "se": 0.0010416555343839033,
+          "n": 20000
+        },
+        "b_minus_c": {
+          "delta": 0.02095,
+          "se": 0.001012722151089708,
+          "n": 20000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.00045,
+          "se": 0.00024998599890790386,
+          "n": 20000
+        }
+      }
+    },
+    "c|500": {
+      "n": 500,
+      "case": "c",
+      "rates": {
+        "a": {
+          "rate": 0.04705,
+          "rejections": 941,
+          "n": 20000,
+          "wilson_lower": 0.044201381985967424,
+          "wilson_upper": 0.05007258347725776,
+          "se": 0.001497269139132975,
+          "in_region": true
+        },
+        "b": {
+          "rate": 0.0473,
+          "rejections": 946,
+          "n": 20000,
+          "wilson_lower": 0.044443939182034535,
+          "wilson_upper": 0.05032993026316259,
+          "se": 0.001501044802795706,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.0417,
+          "rejections": 834,
+          "n": 20000,
+          "wilson_lower": 0.03901641857019241,
+          "wilson_upper": 0.0445596016788331,
+          "se": 0.001413525910622087,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.0473,
+          "rejections": 946,
+          "n": 20000,
+          "wilson_lower": 0.044443939182034535,
+          "wilson_upper": 0.05032993026316259,
+          "se": 0.001501044802795706,
+          "in_region": true
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": -0.00025,
+          "se": 0.0007124059594869738,
+          "n": 20000
+        },
+        "b_minus_c": {
+          "delta": 0.0056,
+          "se": 0.0005276797535400756,
+          "n": 20000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0,
+          "se": 0.00017320941104629318,
+          "n": 20000
+        }
+      }
+    },
+    "ct|500": {
+      "n": 500,
+      "case": "ct",
+      "rates": {
+        "a": {
+          "rate": 0.04865,
+          "rejections": 973,
+          "n": 20000,
+          "wilson_lower": 0.04575413435788266,
+          "wilson_upper": 0.05171921658996299,
+          "se": 0.0015212359695326693,
+          "in_region": true
+        },
+        "b": {
+          "rate": 0.0482,
+          "rejections": 964,
+          "n": 20000,
+          "wilson_lower": 0.045317331021641365,
+          "wilson_upper": 0.05125619275865478,
+          "se": 0.0015145421750482882,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.03365,
+          "rejections": 673,
+          "n": 20000,
+          "wilson_lower": 0.031239038704173924,
+          "wilson_upper": 0.036240073325354866,
+          "se": 0.0012751015155665058,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.04815,
+          "rejections": 963,
+          "n": 20000,
+          "wilson_lower": 0.04526880170100473,
+          "wilson_upper": 0.051204741282897016,
+          "se": 0.0015137961801378677,
+          "in_region": true
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.00045,
+          "se": 0.000817020961274898,
+          "n": 20000
+        },
+        "b_minus_c": {
+          "delta": 0.01455,
+          "se": 0.0008467294269931374,
+          "n": 20000
+        },
+        "b_minus_msb_sim": {
+          "delta": 5e-05,
+          "se": 0.00018028172418468755,
+          "n": 20000
+        }
+      }
+    },
+    "c|1000": {
+      "n": 1000,
+      "case": "c",
+      "rates": {
+        "a": {
+          "rate": 0.05135,
+          "rejections": 1027,
+          "n": 20000,
+          "wilson_lower": 0.04837640053004876,
+          "wilson_upper": 0.05449591342309392,
+          "se": 0.0015606597563210245,
+          "in_region": true
+        },
+        "b": {
+          "rate": 0.05055,
+          "rejections": 1011,
+          "n": 20000,
+          "wilson_lower": 0.04759918006122787,
+          "wilson_upper": 0.053673441149604574,
+          "se": 0.0015491077673938634,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.0461,
+          "rejections": 922,
+          "n": 20000,
+          "wilson_lower": 0.04327987381380474,
+          "wilson_upper": 0.04909445651792704,
+          "se": 0.0014828147220742043,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.0506,
+          "rejections": 1012,
+          "n": 20000,
+          "wilson_lower": 0.047647750219849766,
+          "wilson_upper": 0.05372485178737707,
+          "se": 0.0015498328942179541,
+          "in_region": true
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.0008,
+          "se": 0.0005522528851553954,
+          "n": 20000
+        },
+        "b_minus_c": {
+          "delta": 0.00445,
+          "se": 0.0004706601226443051,
+          "n": 20000
+        },
+        "b_minus_msb_sim": {
+          "delta": -5e-05,
+          "se": 8.660398381426009e-05,
+          "n": 20000
+        }
+      }
+    },
+    "ct|1000": {
+      "n": 1000,
+      "case": "ct",
+      "rates": {
+        "a": {
+          "rate": 0.05105,
+          "rejections": 1021,
+          "n": 20000,
+          "wilson_lower": 0.04808491847371529,
+          "wilson_upper": 0.05418751070106106,
+          "se": 0.0015563402182684864,
+          "in_region": true
+        },
+        "b": {
+          "rate": 0.05,
+          "rejections": 1000,
+          "n": 20000,
+          "wilson_lower": 0.047064962861556744,
+          "wilson_upper": 0.05310786958893743,
+          "se": 0.0015411035007422442,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.0394,
+          "rejections": 788,
+          "n": 20000,
+          "wilson_lower": 0.036791057649980294,
+          "wilson_upper": 0.04218584596490328,
+          "se": 0.0013756387607217237,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.04995,
+          "rejections": 999,
+          "n": 20000,
+          "wilson_lower": 0.04701640265065933,
+          "wilson_upper": 0.05305644900344045,
+          "se": 0.001540373290796747,
+          "in_region": true
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.00105,
+          "se": 0.0006651819287607846,
+          "n": 20000
+        },
+        "b_minus_c": {
+          "delta": 0.0106,
+          "se": 0.0007241603554538322,
+          "n": 20000
+        },
+        "b_minus_msb_sim": {
+          "delta": 5e-05,
+          "se": 4.9999999999999996e-05,
+          "n": 20000
+        }
+      }
+    }
+  },
+  "gaussian_size_by_n": {
+    "c": {
+      "100": {
+        "a_minus_b": {
+          "delta": -0.00135,
+          "se": 0.0011346687836820192,
+          "n": 20000
+        },
+        "b_minus_c": {
+          "delta": 0.0018,
+          "se": 0.00045260163765956546,
+          "n": 20000
+        },
+        "b_minus_msb_sim": {
+          "delta": -0.00055,
+          "se": 0.0003905028804310939,
+          "n": 20000
+        }
+      },
+      "200": {
+        "a_minus_b": {
+          "delta": -0.00025,
+          "se": 0.0009206189504689757,
+          "n": 20000
+        },
+        "b_minus_c": {
+          "delta": 0.0044,
+          "se": 0.0004785848432332648,
+          "n": 20000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0002,
+          "se": 0.0002645779659665629,
+          "n": 20000
+        }
+      },
+      "500": {
+        "a_minus_b": {
+          "delta": -0.00025,
+          "se": 0.0007124059594869738,
+          "n": 20000
+        },
+        "b_minus_c": {
+          "delta": 0.0056,
+          "se": 0.0005276797535400756,
+          "n": 20000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0,
+          "se": 0.00017320941104629318,
+          "n": 20000
+        }
+      },
+      "1000": {
+        "a_minus_b": {
+          "delta": 0.0008,
+          "se": 0.0005522528851553954,
+          "n": 20000
+        },
+        "b_minus_c": {
+          "delta": 0.00445,
+          "se": 0.0004706601226443051,
+          "n": 20000
+        },
+        "b_minus_msb_sim": {
+          "delta": -5e-05,
+          "se": 8.660398381426009e-05,
+          "n": 20000
+        }
+      }
+    },
+    "ct": {
+      "100": {
+        "a_minus_b": {
+          "delta": 0.0003,
+          "se": 0.0012688877033844206,
+          "n": 20000
+        },
+        "b_minus_c": {
+          "delta": 0.02705,
+          "se": 0.0011471620086255041,
+          "n": 20000
+        },
+        "b_minus_msb_sim": {
+          "delta": -0.0001,
+          "se": 0.00043590021845603893,
+          "n": 20000
+        }
+      },
+      "200": {
+        "a_minus_b": {
+          "delta": -0.0004,
+          "se": 0.0010416555343839033,
+          "n": 20000
+        },
+        "b_minus_c": {
+          "delta": 0.02095,
+          "se": 0.001012722151089708,
+          "n": 20000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.00045,
+          "se": 0.00024998599890790386,
+          "n": 20000
+        }
+      },
+      "500": {
+        "a_minus_b": {
+          "delta": 0.00045,
+          "se": 0.000817020961274898,
+          "n": 20000
+        },
+        "b_minus_c": {
+          "delta": 0.01455,
+          "se": 0.0008467294269931374,
+          "n": 20000
+        },
+        "b_minus_msb_sim": {
+          "delta": 5e-05,
+          "se": 0.00018028172418468755,
+          "n": 20000
+        }
+      },
+      "1000": {
+        "a_minus_b": {
+          "delta": 0.00105,
+          "se": 0.0006651819287607846,
+          "n": 20000
+        },
+        "b_minus_c": {
+          "delta": 0.0106,
+          "se": 0.0007241603554538322,
+          "n": 20000
+        },
+        "b_minus_msb_sim": {
+          "delta": 5e-05,
+          "se": 4.9999999999999996e-05,
+          "n": 20000
+        }
+      }
+    }
+  },
+  "misspec": {
+    "c|heavy_t5_n200": {
+      "cell": "heavy_t5_n200",
+      "n": 200,
+      "case": "c",
+      "rates": {
+        "a": {
+          "rate": 0.0438,
+          "rejections": 219,
+          "n": 5000,
+          "wilson_lower": 0.03846909782873126,
+          "wilson_upper": 0.04983135342593886,
+          "se": 0.0028941858958954243,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.044,
+          "rejections": 220,
+          "n": 5000,
+          "wilson_lower": 0.038656640337733486,
+          "wilson_upper": 0.05004350383615862,
+          "se": 0.002900482718445328,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.0402,
+          "rejections": 201,
+          "n": 5000,
+          "wilson_lower": 0.03509903825222041,
+          "wilson_upper": 0.046006940456454135,
+          "se": 0.00277791144567281,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.0442,
+          "rejections": 221,
+          "n": 5000,
+          "wilson_lower": 0.03884421475711896,
+          "wilson_upper": 0.05025562233599513,
+          "se": 0.0029067631482458285,
+          "in_region": true
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": -0.0063500000000000015,
+          "se": 0.003279948303708459
+        },
+        "b": {
+          "delta": -0.006400000000000003,
+          "se": 0.003287216451650241
+        },
+        "c": {
+          "delta": -0.0058,
+          "se": 0.003148172803389293
+        },
+        "msb_sim": {
+          "delta": -0.005999999999999998,
+          "se": 0.003291393321983868
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": 4.9999999999999996e-05,
+          "se": 0.0020416158755233176
+        },
+        "b_minus_c": {
+          "delta": -0.0006000000000000003,
+          "se": 0.0010326291241601635
+        },
+        "b_minus_msb_sim": {
+          "delta": -0.0004,
+          "se": 0.0005916498201444197
+        }
+      }
+    },
+    "ct|heavy_t5_n200": {
+      "cell": "heavy_t5_n200",
+      "n": 200,
+      "case": "ct",
+      "rates": {
+        "a": {
+          "rate": 0.0448,
+          "rejections": 224,
+          "n": 5000,
+          "wilson_lower": 0.03940712743434635,
+          "wilson_upper": 0.05089178841643366,
+          "se": 0.002925507135523686,
+          "in_region": true
+        },
+        "b": {
+          "rate": 0.0486,
+          "rejections": 243,
+          "n": 5000,
+          "wilson_lower": 0.042978532307529155,
+          "wilson_upper": 0.05491454900846843,
+          "se": 0.0030409879973455995,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.0282,
+          "rejections": 141,
+          "n": 5000,
+          "wilson_lower": 0.023961128241689122,
+          "wilson_upper": 0.03316327531366678,
+          "se": 0.0023411433104361637,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.0484,
+          "rejections": 242,
+          "n": 5000,
+          "wilson_lower": 0.04279030408863613,
+          "wilson_upper": 0.05470308430813947,
+          "se": 0.0030350433275325743,
+          "in_region": true
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": -0.0017500000000000016,
+          "se": 0.003282947894042792
+        },
+        "b": {
+          "delta": 0.0016499999999999987,
+          "se": 0.0033889368354987084
+        },
+        "c": {
+          "delta": 0.0022000000000000006,
+          "se": 0.0025975280556713915
+        },
+        "msb_sim": {
+          "delta": 0.001899999999999999,
+          "se": 0.0033805880405633573
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": -0.0034,
+          "se": 0.0024664058617018163
+        },
+        "b_minus_c": {
+          "delta": -0.0005499999999999984,
+          "se": 0.002241243777193919
+        },
+        "b_minus_msb_sim": {
+          "delta": -0.00025,
+          "se": 0.000427210724175579
+        }
+      }
+    },
+    "c|heavy_t5_n500": {
+      "cell": "heavy_t5_n500",
+      "n": 500,
+      "case": "c",
+      "rates": {
+        "a": {
+          "rate": 0.051,
+          "rejections": 255,
+          "n": 5000,
+          "wilson_lower": 0.04523938710267117,
+          "wilson_upper": 0.05745000924399013,
+          "se": 0.003111237695837462,
+          "in_region": true
+        },
+        "b": {
+          "rate": 0.0504,
+          "rejections": 252,
+          "n": 5000,
+          "wilson_lower": 0.0446738140627647,
+          "wilson_upper": 0.056816503526230674,
+          "se": 0.0030938597253269257,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.045,
+          "rejections": 225,
+          "n": 5000,
+          "wilson_lower": 0.03959482746331551,
+          "wilson_upper": 0.05110378130668648,
+          "se": 0.0029317230428538097,
+          "in_region": true
+        },
+        "msb_sim": {
+          "rate": 0.0502,
+          "rejections": 251,
+          "n": 5000,
+          "wilson_lower": 0.04448534215006972,
+          "wilson_upper": 0.05660528251970369,
+          "se": 0.003088040155179333,
+          "in_region": true
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": 0.003949999999999995,
+          "se": 0.00345276916039865
+        },
+        "b": {
+          "delta": 0.0030999999999999986,
+          "se": 0.0034387648218510087
+        },
+        "c": {
+          "delta": 0.0032999999999999974,
+          "se": 0.0032546974513770095
+        },
+        "msb_sim": {
+          "delta": 0.0029,
+          "se": 0.0034335298891956653
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": 0.00085,
+          "se": 0.0014098745674426209
+        },
+        "b_minus_c": {
+          "delta": -0.00019999999999999966,
+          "se": 0.001163111688046952
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0002,
+          "se": 0.000264577965966563
+        }
+      }
+    },
+    "ct|heavy_t5_n500": {
+      "cell": "heavy_t5_n500",
+      "n": 500,
+      "case": "ct",
+      "rates": {
+        "a": {
+          "rate": 0.0512,
+          "rejections": 256,
+          "n": 5000,
+          "wilson_lower": 0.045427963397957266,
+          "wilson_upper": 0.05766112586792603,
+          "se": 0.0031170036894427955,
+          "in_region": true
+        },
+        "b": {
+          "rate": 0.0508,
+          "rejections": 254,
+          "n": 5000,
+          "wilson_lower": 0.04505083668536068,
+          "wilson_upper": 0.05723886674207865,
+          "se": 0.0031054584202658392,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.0374,
+          "rejections": 187,
+          "n": 5000,
+          "wilson_lower": 0.032485950592838445,
+          "wilson_upper": 0.04302432724672842,
+          "se": 0.0026833277846733524,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.051,
+          "rejections": 255,
+          "n": 5000,
+          "wilson_lower": 0.04523938710267117,
+          "wilson_upper": 0.05745000924399013,
+          "se": 0.003111237695837462,
+          "in_region": true
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": 0.0025500000000000037,
+          "se": 0.0034684104248199924
+        },
+        "b": {
+          "delta": 0.002599999999999998,
+          "se": 0.003455099130271084
+        },
+        "c": {
+          "delta": 0.0037500000000000033,
+          "se": 0.002970880656472084
+        },
+        "msb_sim": {
+          "delta": 0.0028499999999999984,
+          "se": 0.003459968045372674
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": -4.999999999999997e-05,
+          "se": 0.0018836314289118034
+        },
+        "b_minus_c": {
+          "delta": -0.00115,
+          "se": 0.0018334578385991874
+        },
+        "b_minus_msb_sim": {
+          "delta": -0.00025,
+          "se": 0.00026926102591166764
+        }
+      }
+    },
+    "c|heavy_t5_n1000": {
+      "cell": "heavy_t5_n1000",
+      "n": 1000,
+      "case": "c",
+      "rates": {
+        "a": {
+          "rate": 0.0486,
+          "rejections": 243,
+          "n": 5000,
+          "wilson_lower": 0.042978532307529155,
+          "wilson_upper": 0.05491454900846843,
+          "se": 0.0030409879973455995,
+          "in_region": true
+        },
+        "b": {
+          "rate": 0.0484,
+          "rejections": 242,
+          "n": 5000,
+          "wilson_lower": 0.04279030408863613,
+          "wilson_upper": 0.05470308430813947,
+          "se": 0.0030350433275325743,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.0438,
+          "rejections": 219,
+          "n": 5000,
+          "wilson_lower": 0.03846909782873126,
+          "wilson_upper": 0.04983135342593886,
+          "se": 0.0028941858958954243,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.0488,
+          "rejections": 244,
+          "n": 5000,
+          "wilson_lower": 0.043166788231898734,
+          "wilson_upper": 0.05512598600332083,
+          "se": 0.00304691844328003,
+          "in_region": true
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": -0.0027500000000000024,
+          "se": 0.0034180794132085343
+        },
+        "b": {
+          "delta": -0.002149999999999999,
+          "se": 0.003407524449655497
+        },
+        "c": {
+          "delta": -0.0023000000000000034,
+          "se": 0.003251930426685048
+        },
+        "msb_sim": {
+          "delta": -0.001799999999999996,
+          "se": 0.003418434436990126
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": -0.0006000000000000001,
+          "se": 0.0012430701095159757
+        },
+        "b_minus_c": {
+          "delta": 0.00014999999999999996,
+          "se": 0.0010665233899383546
+        },
+        "b_minus_msb_sim": {
+          "delta": -0.00035,
+          "se": 0.00029577736020841843
+        }
+      }
+    },
+    "ct|heavy_t5_n1000": {
+      "cell": "heavy_t5_n1000",
+      "n": 1000,
+      "case": "ct",
+      "rates": {
+        "a": {
+          "rate": 0.049,
+          "rejections": 245,
+          "n": 5000,
+          "wilson_lower": 0.04335507170094735,
+          "wilson_upper": 0.055337395453494184,
+          "se": 0.0030528347482299137,
+          "in_region": true
+        },
+        "b": {
+          "rate": 0.0484,
+          "rejections": 242,
+          "n": 5000,
+          "wilson_lower": 0.04279030408863613,
+          "wilson_upper": 0.05470308430813947,
+          "se": 0.0030350433275325743,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.0378,
+          "rejections": 189,
+          "n": 5000,
+          "wilson_lower": 0.032858784642278795,
+          "wilson_upper": 0.04345087903573202,
+          "se": 0.002697078419327106,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.0482,
+          "rejections": 241,
+          "n": 5000,
+          "wilson_lower": 0.042602103737660074,
+          "wilson_upper": 0.054491591739893555,
+          "se": 0.0030290843500965763,
+          "in_region": true
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": -0.0020499999999999963,
+          "se": 0.003426659433763443
+        },
+        "b": {
+          "delta": -0.0016000000000000042,
+          "se": 0.0034038930653003774
+        },
+        "c": {
+          "delta": -0.0015999999999999973,
+          "se": 0.0030276416564712543
+        },
+        "msb_sim": {
+          "delta": -0.0017500000000000016,
+          "se": 0.0033982498252777115
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": -0.00045,
+          "se": 0.0016008807165944626
+        },
+        "b_minus_c": {
+          "delta": 0.0,
+          "se": 0.0016193689542315318
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.00015000000000000001,
+          "se": 0.00020615528128088302
+        }
+      }
+    },
+    "c|heavy_t3_n200": {
+      "cell": "heavy_t3_n200",
+      "n": 200,
+      "case": "c",
+      "rates": {
+        "a": {
+          "rate": 0.0428,
+          "rejections": 214,
+          "n": 5000,
+          "wilson_lower": 0.03753187129513541,
+          "wilson_upper": 0.048770115363424835,
+          "se": 0.0028624520956690267,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.0444,
+          "rejections": 222,
+          "n": 5000,
+          "wilson_lower": 0.03903182088142633,
+          "wilson_upper": 0.05046770913090974,
+          "se": 0.002913027291324268,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.0408,
+          "rejections": 204,
+          "n": 5000,
+          "wilson_lower": 0.035659936585538905,
+          "wilson_upper": 0.046645120880801576,
+          "se": 0.002797690476089162,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.0446,
+          "rejections": 223,
+          "n": 5000,
+          "wilson_lower": 0.039219458507478336,
+          "wilson_upper": 0.050679764424079704,
+          "se": 0.0029192752525241603,
+          "in_region": true
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": -0.007350000000000002,
+          "se": 0.0032519810692868433
+        },
+        "b": {
+          "delta": -0.005999999999999998,
+          "se": 0.0032982904662870434
+        },
+        "c": {
+          "delta": -0.005199999999999996,
+          "se": 0.0031656392719322905
+        },
+        "msb_sim": {
+          "delta": -0.005600000000000001,
+          "se": 0.0033024484855936815
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": -0.00135,
+          "se": 0.0019717087186413816
+        },
+        "b_minus_c": {
+          "delta": -0.0008000000000000004,
+          "se": 0.0010132181234439644
+        },
+        "b_minus_msb_sim": {
+          "delta": -0.0004,
+          "se": 0.000435909971525823
+        }
+      }
+    },
+    "ct|heavy_t3_n200": {
+      "cell": "heavy_t3_n200",
+      "n": 200,
+      "case": "ct",
+      "rates": {
+        "a": {
+          "rate": 0.0416,
+          "rejections": 208,
+          "n": 5000,
+          "wilson_lower": 0.03640829747606612,
+          "wilson_upper": 0.04749553166716225,
+          "se": 0.002823807358868519,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.045,
+          "rejections": 225,
+          "n": 5000,
+          "wilson_lower": 0.03959482746331551,
+          "wilson_upper": 0.05110378130668648,
+          "se": 0.0029317230428538097,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.0254,
+          "rejections": 127,
+          "n": 5000,
+          "wilson_lower": 0.02138975527962131,
+          "wilson_upper": 0.03013894740662692,
+          "se": 0.002225077077316649,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.045,
+          "rejections": 225,
+          "n": 5000,
+          "wilson_lower": 0.03959482746331551,
+          "wilson_upper": 0.05110378130668648,
+          "se": 0.0029317230428538097,
+          "in_region": true
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": -0.004950000000000003,
+          "se": 0.0031926545185785448
+        },
+        "b": {
+          "delta": -0.0019500000000000003,
+          "se": 0.0032912436669137704
+        },
+        "c": {
+          "delta": -0.0005999999999999998,
+          "se": 0.002493424953753371
+        },
+        "msb_sim": {
+          "delta": -0.0015000000000000013,
+          "se": 0.0032881434731471195
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": -0.0029999999999999996,
+          "se": 0.0023159425642822764
+        },
+        "b_minus_c": {
+          "delta": -0.0013500000000000005,
+          "se": 0.00220670409041748
+        },
+        "b_minus_msb_sim": {
+          "delta": -0.00045,
+          "se": 0.00037750364614215666
+        }
+      }
+    },
+    "c|heavy_t3_n500": {
+      "cell": "heavy_t3_n500",
+      "n": 500,
+      "case": "c",
+      "rates": {
+        "a": {
+          "rate": 0.0502,
+          "rejections": 251,
+          "n": 5000,
+          "wilson_lower": 0.04448534215006972,
+          "wilson_upper": 0.05660528251970369,
+          "se": 0.003088040155179333,
+          "in_region": true
+        },
+        "b": {
+          "rate": 0.0502,
+          "rejections": 251,
+          "n": 5000,
+          "wilson_lower": 0.04448534215006972,
+          "wilson_upper": 0.05660528251970369,
+          "se": 0.003088040155179333,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.045,
+          "rejections": 225,
+          "n": 5000,
+          "wilson_lower": 0.03959482746331551,
+          "wilson_upper": 0.05110378130668648,
+          "se": 0.0029317230428538097,
+          "in_region": true
+        },
+        "msb_sim": {
+          "rate": 0.0498,
+          "rejections": 249,
+          "n": 5000,
+          "wilson_lower": 0.04410847786419272,
+          "wilson_upper": 0.05618276096713672,
+          "se": 0.0030763601869742106,
+          "in_region": true
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": 0.00315,
+          "se": 0.003431880952917802
+        },
+        "b": {
+          "delta": 0.0029,
+          "se": 0.0034335298891956653
+        },
+        "c": {
+          "delta": 0.0032999999999999974,
+          "se": 0.0032546974513770095
+        },
+        "msb_sim": {
+          "delta": 0.0024999999999999953,
+          "se": 0.0034230289949107938
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": 0.00025,
+          "se": 0.001681661780481176
+        },
+        "b_minus_c": {
+          "delta": -0.0004000000000000002,
+          "se": 0.0011459689708225409
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0004,
+          "se": 0.00043589161505471033
+        }
+      }
+    },
+    "ct|heavy_t3_n500": {
+      "cell": "heavy_t3_n500",
+      "n": 500,
+      "case": "ct",
+      "rates": {
+        "a": {
+          "rate": 0.0498,
+          "rejections": 249,
+          "n": 5000,
+          "wilson_lower": 0.04410847786419272,
+          "wilson_upper": 0.05618276096713672,
+          "se": 0.0030763601869742106,
+          "in_region": true
+        },
+        "b": {
+          "rate": 0.0482,
+          "rejections": 241,
+          "n": 5000,
+          "wilson_lower": 0.042602103737660074,
+          "wilson_upper": 0.054491591739893555,
+          "se": 0.0030290843500965763,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.0346,
+          "rejections": 173,
+          "n": 5000,
+          "wilson_lower": 0.029880766023927013,
+          "wilson_upper": 0.04003381094653217,
+          "se": 0.0025846794772273023,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.0486,
+          "rejections": 243,
+          "n": 5000,
+          "wilson_lower": 0.042978532307529155,
+          "wilson_upper": 0.05491454900846843,
+          "se": 0.0030409879973455995,
+          "in_region": true
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": 0.0011499999999999982,
+          "se": 0.003431931070840439
+        },
+        "b": {
+          "delta": 0.0,
+          "se": 0.003386619258198358
+        },
+        "c": {
+          "delta": 0.0009499999999999995,
+          "se": 0.0028820915799120613
+        },
+        "msb_sim": {
+          "delta": 0.000449999999999999,
+          "se": 0.0033969378674035236
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": 0.00115,
+          "se": 0.001862141579140662
+        },
+        "b_minus_c": {
+          "delta": -0.0009500000000000012,
+          "se": 0.001844043229286644
+        },
+        "b_minus_msb_sim": {
+          "delta": -0.00045000000000000004,
+          "se": 0.00043874992886039734
+        }
+      }
+    },
+    "c|heavy_t3_n1000": {
+      "cell": "heavy_t3_n1000",
+      "n": 1000,
+      "case": "c",
+      "rates": {
+        "a": {
+          "rate": 0.047,
+          "rejections": 235,
+          "n": 5000,
+          "wilson_lower": 0.04147349616779377,
+          "wilson_upper": 0.053222041794428,
+          "se": 0.002993025225419926,
+          "in_region": true
+        },
+        "b": {
+          "rate": 0.0472,
+          "rejections": 236,
+          "n": 5000,
+          "wilson_lower": 0.041661525804974855,
+          "wilson_upper": 0.053433705076468885,
+          "se": 0.0029990718564249174,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.0422,
+          "rejections": 211,
+          "n": 5000,
+          "wilson_lower": 0.03696993196904638,
+          "wilson_upper": 0.04813297593184793,
+          "se": 0.0028432080472592927,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.0474,
+          "rejections": 237,
+          "n": 5000,
+          "wilson_lower": 0.04184958432057469,
+          "wilson_upper": 0.05364533948009102,
+          "se": 0.0030051036587778464,
+          "in_region": true
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": -0.00435,
+          "se": 0.003375479058593017
+        },
+        "b": {
+          "delta": -0.003349999999999999,
+          "se": 0.003375524681438428
+        },
+        "c": {
+          "delta": -0.0039000000000000007,
+          "se": 0.0032066448977085067
+        },
+        "msb_sim": {
+          "delta": -0.0032000000000000015,
+          "se": 0.003381217236440155
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": -0.001,
+          "se": 0.0014509773670104372
+        },
+        "b_minus_c": {
+          "delta": 0.0005500000000000001,
+          "se": 0.0011030503120236692
+        },
+        "b_minus_msb_sim": {
+          "delta": -0.00015000000000000001,
+          "se": 0.00021794552074429202
+        }
+      }
+    },
+    "ct|heavy_t3_n1000": {
+      "cell": "heavy_t3_n1000",
+      "n": 1000,
+      "case": "ct",
+      "rates": {
+        "a": {
+          "rate": 0.0494,
+          "rejections": 247,
+          "n": 5000,
+          "wilson_lower": 0.04373172063796704,
+          "wilson_upper": 0.055760132354918446,
+          "se": 0.003064625262572897,
+          "in_region": true
+        },
+        "b": {
+          "rate": 0.0474,
+          "rejections": 237,
+          "n": 5000,
+          "wilson_lower": 0.04184958432057469,
+          "wilson_upper": 0.05364533948009102,
+          "se": 0.0030051036587778464,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.0368,
+          "rejections": 184,
+          "n": 5000,
+          "wilson_lower": 0.031927002221443804,
+          "wilson_upper": 0.04238419686045712,
+          "se": 0.002662546149834778,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.0476,
+          "rejections": 238,
+          "n": 5000,
+          "wilson_lower": 0.04203767154178207,
+          "wilson_upper": 0.05385694517810564,
+          "se": 0.0030111207215918795,
+          "in_region": true
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": -0.0016499999999999987,
+          "se": 0.0034371678566808457
+        },
+        "b": {
+          "delta": -0.002600000000000005,
+          "se": 0.0033772248962720855
+        },
+        "c": {
+          "delta": -0.002599999999999998,
+          "se": 0.002996920753039693
+        },
+        "msb_sim": {
+          "delta": -0.002349999999999998,
+          "se": 0.003382247459160846
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": 0.0009500000000000001,
+          "se": 0.0016377163759136787
+        },
+        "b_minus_c": {
+          "delta": 0.0,
+          "se": 0.0016193689542315318
+        },
+        "b_minus_msb_sim": {
+          "delta": -0.00025,
+          "se": 0.00020615528128088302
+        }
+      }
+    },
+    "c|garch_base_n200": {
+      "cell": "garch_base_n200",
+      "n": 200,
+      "case": "c",
+      "rates": {
+        "a": {
+          "rate": 0.05,
+          "rejections": 250,
+          "n": 5000,
+          "wilson_lower": 0.044296896700570555,
+          "wilson_upper": 0.05639403504998087,
+          "se": 0.0030822070014844883,
+          "in_region": true
+        },
+        "b": {
+          "rate": 0.0434,
+          "rejections": 217,
+          "n": 5000,
+          "wilson_lower": 0.038094109375360806,
+          "wilson_upper": 0.049406956040865375,
+          "se": 0.0028815426424052795,
+          "in_region": false
+        },
+        "c": {
+          "rate": 0.0398,
+          "rejections": 199,
+          "n": 5000,
+          "wilson_lower": 0.034725287113523226,
+          "wilson_upper": 0.045581305756707366,
+          "se": 0.0027646323444537792,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.0432,
+          "rejections": 216,
+          "n": 5000,
+          "wilson_lower": 0.037906663853665874,
+          "wilson_upper": 0.049194708643338324,
+          "se": 0.002875195993319412,
+          "in_region": false
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": -0.00014999999999999736,
+          "se": 0.0034469912786370665
+        },
+        "b": {
+          "delta": -0.006999999999999999,
+          "se": 0.003270516778736963
+        },
+        "c": {
+          "delta": -0.006199999999999997,
+          "se": 0.0031364617007067054
+        },
+        "msb_sim": {
+          "delta": -0.006999999999999999,
+          "se": 0.0032635486820331025
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": 0.00685,
+          "se": 0.002315109001764326
+        },
+        "b_minus_c": {
+          "delta": -0.0008000000000000004,
+          "se": 0.0009729311190802095
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0,
+          "se": 0.0005196474828922815
+        }
+      }
+    },
+    "ct|garch_base_n200": {
+      "cell": "garch_base_n200",
+      "n": 200,
+      "case": "ct",
+      "rates": {
+        "a": {
+          "rate": 0.0532,
+          "rejections": 266,
+          "n": 5000,
+          "wilson_lower": 0.04731511889160377,
+          "wilson_upper": 0.05977089956649927,
+          "se": 0.003173948959892077,
+          "in_region": true
+        },
+        "b": {
+          "rate": 0.048,
+          "rejections": 240,
+          "n": 5000,
+          "wilson_lower": 0.042413931418707994,
+          "wilson_upper": 0.05428007113962365,
+          "se": 0.0030231109804305894,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.0284,
+          "rejections": 142,
+          "n": 5000,
+          "wilson_lower": 0.024145272686653944,
+          "wilson_upper": 0.03337882378792394,
+          "se": 0.002349188796159219,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.0478,
+          "rejections": 239,
+          "n": 5000,
+          "wilson_lower": 0.042225787297577644,
+          "wilson_upper": 0.05406852234153203,
+          "se": 0.003017123133052412,
+          "in_region": true
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": 0.006649999999999996,
+          "se": 0.0035061527170104838
+        },
+        "b": {
+          "delta": 0.0010500000000000023,
+          "se": 0.0033729045161403548
+        },
+        "c": {
+          "delta": 0.002400000000000003,
+          "se": 0.0026047817566928716
+        },
+        "msb_sim": {
+          "delta": 0.0013000000000000025,
+          "se": 0.003364508805160124
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": 0.0056,
+          "se": 0.0027057134770973406
+        },
+        "b_minus_c": {
+          "delta": -0.0013500000000000005,
+          "se": 0.00220670409041748
+        },
+        "b_minus_msb_sim": {
+          "delta": -0.00025,
+          "se": 0.0007089238433380438
+        }
+      }
+    },
+    "c|garch_base_n500": {
+      "cell": "garch_base_n500",
+      "n": 500,
+      "case": "c",
+      "rates": {
+        "a": {
+          "rate": 0.0554,
+          "rejections": 277,
+          "n": 5000,
+          "wilson_lower": 0.04939380209328447,
+          "wilson_upper": 0.06208883847626034,
+          "se": 0.0032351457463304493,
+          "in_region": true
+        },
+        "b": {
+          "rate": 0.0512,
+          "rejections": 256,
+          "n": 5000,
+          "wilson_lower": 0.045427963397957266,
+          "wilson_upper": 0.05766112586792603,
+          "se": 0.0031170036894427955,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.0456,
+          "rejections": 228,
+          "n": 5000,
+          "wilson_lower": 0.04015811220817567,
+          "wilson_upper": 0.05173957531949226,
+          "se": 0.0029502759192997527,
+          "in_region": true
+        },
+        "msb_sim": {
+          "rate": 0.0504,
+          "rejections": 252,
+          "n": 5000,
+          "wilson_lower": 0.0446738140627647,
+          "wilson_upper": 0.056816503526230674,
+          "se": 0.0030938597253269257,
+          "in_region": true
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": 0.008349999999999996,
+          "se": 0.003564825784663256
+        },
+        "b": {
+          "delta": 0.0039000000000000007,
+          "se": 0.003459602217018598
+        },
+        "c": {
+          "delta": 0.0039000000000000007,
+          "se": 0.003271419187447552
+        },
+        "msb_sim": {
+          "delta": 0.0030999999999999986,
+          "se": 0.0034387648218510087
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": 0.00445,
+          "se": 0.002074790036943935
+        },
+        "b_minus_c": {
+          "delta": 0.0,
+          "se": 0.0011799986069712738
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0008,
+          "se": 0.00043578145999016867
+        }
+      }
+    },
+    "ct|garch_base_n500": {
+      "cell": "garch_base_n500",
+      "n": 500,
+      "case": "ct",
+      "rates": {
+        "a": {
+          "rate": 0.0602,
+          "rejections": 301,
+          "n": 5000,
+          "wilson_lower": 0.05393858446385878,
+          "wilson_upper": 0.06713668616701347,
+          "se": 0.0033638061775316365,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.0554,
+          "rejections": 277,
+          "n": 5000,
+          "wilson_lower": 0.04939380209328447,
+          "wilson_upper": 0.06208883847626034,
+          "se": 0.0032351457463304493,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.0414,
+          "rejections": 207,
+          "n": 5000,
+          "wilson_lower": 0.036221154800885016,
+          "wilson_upper": 0.04728298142312139,
+          "se": 0.002817305095299407,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.0556,
+          "rejections": 278,
+          "n": 5000,
+          "wilson_lower": 0.049582913854809285,
+          "wilson_upper": 0.06229941963395749,
+          "se": 0.0032406369744233925,
+          "in_region": true
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": 0.011549999999999998,
+          "se": 0.00369179507489243
+        },
+        "b": {
+          "delta": 0.007199999999999998,
+          "se": 0.003572115059737018
+        },
+        "c": {
+          "delta": 0.00775,
+          "se": 0.003092424918247814
+        },
+        "msb_sim": {
+          "delta": 0.007449999999999998,
+          "se": 0.003576773249033268
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": 0.00435,
+          "se": 0.0021963029153127963
+        },
+        "b_minus_c": {
+          "delta": -0.0005500000000000001,
+          "se": 0.0018650209095316375
+        },
+        "b_minus_msb_sim": {
+          "delta": -0.00025,
+          "se": 0.00039053489380034135
+        }
+      }
+    },
+    "c|garch_base_n1000": {
+      "cell": "garch_base_n1000",
+      "n": 1000,
+      "case": "c",
+      "rates": {
+        "a": {
+          "rate": 0.048,
+          "rejections": 240,
+          "n": 5000,
+          "wilson_lower": 0.042413931418707994,
+          "wilson_upper": 0.05428007113962365,
+          "se": 0.0030231109804305894,
+          "in_region": true
+        },
+        "b": {
+          "rate": 0.0494,
+          "rejections": 247,
+          "n": 5000,
+          "wilson_lower": 0.04373172063796704,
+          "wilson_upper": 0.055760132354918446,
+          "se": 0.003064625262572897,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.0432,
+          "rejections": 216,
+          "n": 5000,
+          "wilson_lower": 0.037906663853665874,
+          "wilson_upper": 0.049194708643338324,
+          "se": 0.002875195993319412,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.0496,
+          "rejections": 248,
+          "n": 5000,
+          "wilson_lower": 0.04392008579235035,
+          "wilson_upper": 0.05597146011975712,
+          "se": 0.0030704996336101396,
+          "in_region": true
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": -0.003349999999999999,
+          "se": 0.0034021844269527778
+        },
+        "b": {
+          "delta": -0.0011499999999999982,
+          "se": 0.0034338990775793043
+        },
+        "c": {
+          "delta": -0.0029,
+          "se": 0.0032350411898459655
+        },
+        "msb_sim": {
+          "delta": -0.0010000000000000009,
+          "se": 0.00343946943582873
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": -0.0022,
+          "se": 0.001656828074474325
+        },
+        "b_minus_c": {
+          "delta": 0.0017499999999999998,
+          "se": 0.0012058521728428788
+        },
+        "b_minus_msb_sim": {
+          "delta": -0.00015000000000000001,
+          "se": 0.00021794552074429202
+        }
+      }
+    },
+    "ct|garch_base_n1000": {
+      "cell": "garch_base_n1000",
+      "n": 1000,
+      "case": "ct",
+      "rates": {
+        "a": {
+          "rate": 0.0526,
+          "rejections": 263,
+          "n": 5000,
+          "wilson_lower": 0.046748710224978236,
+          "wilson_upper": 0.05913822947545889,
+          "se": 0.003156999841621789,
+          "in_region": true
+        },
+        "b": {
+          "rate": 0.0522,
+          "rejections": 261,
+          "n": 5000,
+          "wilson_lower": 0.046371228094227626,
+          "wilson_upper": 0.058716325767765545,
+          "se": 0.003145636978419474,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.0402,
+          "rejections": 201,
+          "n": 5000,
+          "wilson_lower": 0.03509903825222041,
+          "wilson_upper": 0.046006940456454135,
+          "se": 0.00277791144567281,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.0522,
+          "rejections": 261,
+          "n": 5000,
+          "wilson_lower": 0.046371228094227626,
+          "wilson_upper": 0.058716325767765545,
+          "se": 0.003145636978419474,
+          "in_region": true
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": 0.0015500000000000028,
+          "se": 0.003519778810522048
+        },
+        "b": {
+          "delta": 0.0022000000000000006,
+          "se": 0.003502860545325777
+        },
+        "c": {
+          "delta": 0.0008000000000000021,
+          "se": 0.003099866771330665
+        },
+        "msb_sim": {
+          "delta": 0.002250000000000002,
+          "se": 0.003502539346674067
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": -0.00065,
+          "se": 0.0018662912724365832
+        },
+        "b_minus_c": {
+          "delta": 0.0014000000000000002,
+          "se": 0.0017017880465198933
+        },
+        "b_minus_msb_sim": {
+          "delta": -5e-05,
+          "se": 0.0002872559889726237
+        }
+      }
+    },
+    "c|garch_p099_n200": {
+      "cell": "garch_p099_n200",
+      "n": 200,
+      "case": "c",
+      "rates": {
+        "a": {
+          "rate": 0.0602,
+          "rejections": 301,
+          "n": 5000,
+          "wilson_lower": 0.05393858446385878,
+          "wilson_upper": 0.06713668616701347,
+          "se": 0.0033638061775316365,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.0614,
+          "rejections": 307,
+          "n": 5000,
+          "wilson_lower": 0.055076678775241784,
+          "wilson_upper": 0.06839674937096234,
+          "se": 0.0033949974963171916,
+          "in_region": false
+        },
+        "c": {
+          "rate": 0.0566,
+          "rejections": 283,
+          "n": 5000,
+          "wilson_lower": 0.05052881403128712,
+          "wilson_upper": 0.06335198405358955,
+          "se": 0.003267917991627085,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.0622,
+          "rejections": 311,
+          "n": 5000,
+          "wilson_lower": 0.055835808265656296,
+          "wilson_upper": 0.06923639155743573,
+          "se": 0.003415586626042443,
+          "in_region": false
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": 0.010049999999999996,
+          "se": 0.0037009378372245055
+        },
+        "b": {
+          "delta": 0.011000000000000003,
+          "se": 0.003730817604761723
+        },
+        "c": {
+          "delta": 0.010599999999999998,
+          "se": 0.003587964325352191
+        },
+        "msb_sim": {
+          "delta": 0.011999999999999997,
+          "se": 0.003748363642978093
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": -0.0009499999999999999,
+          "se": 0.002410029749358037
+        },
+        "b_minus_c": {
+          "delta": 0.0003999999999999993,
+          "se": 0.0011245632805656485
+        },
+        "b_minus_msb_sim": {
+          "delta": -0.001,
+          "se": 0.0006855315386421571
+        }
+      }
+    },
+    "ct|garch_p099_n200": {
+      "cell": "garch_p099_n200",
+      "n": 200,
+      "case": "ct",
+      "rates": {
+        "a": {
+          "rate": 0.0552,
+          "rejections": 276,
+          "n": 5000,
+          "wilson_lower": 0.04920471335898023,
+          "wilson_upper": 0.06187823429134259,
+          "se": 0.0032296427046966045,
+          "in_region": true
+        },
+        "b": {
+          "rate": 0.0562,
+          "rejections": 281,
+          "n": 5000,
+          "wilson_lower": 0.05015038614349224,
+          "wilson_upper": 0.06293102610294048,
+          "se": 0.003257040374327589,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.0336,
+          "rejections": 168,
+          "n": 5000,
+          "wilson_lower": 0.028952430871671923,
+          "wilson_upper": 0.038963681502677365,
+          "se": 0.002548373598984262,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.0556,
+          "rejections": 278,
+          "n": 5000,
+          "wilson_lower": 0.049582913854809285,
+          "wilson_upper": 0.06229941963395749,
+          "se": 0.0032406369744233925,
+          "in_region": true
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": 0.008649999999999998,
+          "se": 0.0035566482641667
+        },
+        "b": {
+          "delta": 0.009250000000000001,
+          "se": 0.0035840754560974297
+        },
+        "c": {
+          "delta": 0.007599999999999999,
+          "se": 0.002785750886206446
+        },
+        "msb_sim": {
+          "delta": 0.009099999999999997,
+          "se": 0.0035663167974816818
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": -0.0006000000000000001,
+          "se": 0.0025151330823530074
+        },
+        "b_minus_c": {
+          "delta": 0.0016499999999999987,
+          "se": 0.0023333105026243366
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.00014999999999999996,
+          "se": 0.0008139662211983387
+        }
+      }
+    },
+    "c|garch_p099_n500": {
+      "cell": "garch_p099_n500",
+      "n": 500,
+      "case": "c",
+      "rates": {
+        "a": {
+          "rate": 0.0596,
+          "rejections": 298,
+          "n": 5000,
+          "wilson_lower": 0.05336981270225661,
+          "wilson_upper": 0.06650637917094972,
+          "se": 0.0033480692943844517,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.0586,
+          "rejections": 293,
+          "n": 5000,
+          "wilson_lower": 0.052422276742432335,
+          "wilson_upper": 0.0654554505346641,
+          "se": 0.003321627312026441,
+          "in_region": false
+        },
+        "c": {
+          "rate": 0.0526,
+          "rejections": 263,
+          "n": 5000,
+          "wilson_lower": 0.046748710224978236,
+          "wilson_upper": 0.05913822947545889,
+          "se": 0.003156999841621789,
+          "in_region": true
+        },
+        "msb_sim": {
+          "rate": 0.0588,
+          "rejections": 294,
+          "n": 5000,
+          "wilson_lower": 0.052611741775343814,
+          "wilson_upper": 0.06566567842097461,
+          "se": 0.0033269373303385203,
+          "in_region": false
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": 0.012549999999999999,
+          "se": 0.0036676126942467627
+        },
+        "b": {
+          "delta": 0.011299999999999998,
+          "se": 0.0036450436897244452
+        },
+        "c": {
+          "delta": 0.0109,
+          "se": 0.0034590032523835533
+        },
+        "msb_sim": {
+          "delta": 0.011499999999999996,
+          "se": 0.003649883217309836
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": 0.00125,
+          "se": 0.0016696641285967658
+        },
+        "b_minus_c": {
+          "delta": 0.0004000000000000002,
+          "se": 0.0012130476206718593
+        },
+        "b_minus_msb_sim": {
+          "delta": -0.0002,
+          "se": 0.000264577965966563
+        }
+      }
+    },
+    "ct|garch_p099_n500": {
+      "cell": "garch_p099_n500",
+      "n": 500,
+      "case": "ct",
+      "rates": {
+        "a": {
+          "rate": 0.0554,
+          "rejections": 277,
+          "n": 5000,
+          "wilson_lower": 0.04939380209328447,
+          "wilson_upper": 0.06208883847626034,
+          "se": 0.0032351457463304493,
+          "in_region": true
+        },
+        "b": {
+          "rate": 0.0554,
+          "rejections": 277,
+          "n": 5000,
+          "wilson_lower": 0.04939380209328447,
+          "wilson_upper": 0.06208883847626034,
+          "se": 0.0032351457463304493,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.0388,
+          "rejections": 194,
+          "n": 5000,
+          "wilson_lower": 0.033791558410704255,
+          "wilson_upper": 0.04451656986341645,
+          "se": 0.0027311008769358926,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.0556,
+          "rejections": 278,
+          "n": 5000,
+          "wilson_lower": 0.049582913854809285,
+          "wilson_upper": 0.06229941963395749,
+          "se": 0.0032406369744233925,
+          "in_region": true
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": 0.006749999999999999,
+          "se": 0.0035749583039526487
+        },
+        "b": {
+          "delta": 0.007199999999999998,
+          "se": 0.003572115059737018
+        },
+        "c": {
+          "delta": 0.005150000000000002,
+          "se": 0.0030140995131216226
+        },
+        "msb_sim": {
+          "delta": 0.007449999999999998,
+          "se": 0.003576773249033268
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": -0.00045,
+          "se": 0.0021606303272875176
+        },
+        "b_minus_c": {
+          "delta": 0.0020499999999999997,
+          "se": 0.001995618157553636
+        },
+        "b_minus_msb_sim": {
+          "delta": -0.00025,
+          "se": 0.00026926102591166764
+        }
+      }
+    },
+    "c|garch_p099_n1000": {
+      "cell": "garch_p099_n1000",
+      "n": 1000,
+      "case": "c",
+      "rates": {
+        "a": {
+          "rate": 0.0614,
+          "rejections": 307,
+          "n": 5000,
+          "wilson_lower": 0.055076678775241784,
+          "wilson_upper": 0.06839674937096234,
+          "se": 0.0033949974963171916,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.0622,
+          "rejections": 311,
+          "n": 5000,
+          "wilson_lower": 0.055835808265656296,
+          "wilson_upper": 0.06923639155743573,
+          "se": 0.003415586626042443,
+          "in_region": false
+        },
+        "c": {
+          "rate": 0.0564,
+          "rejections": 282,
+          "n": 5000,
+          "wilson_lower": 0.05033958885978194,
+          "wilson_upper": 0.06314151630587275,
+          "se": 0.0032624849424939878,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.0626,
+          "rejections": 313,
+          "n": 5000,
+          "wilson_lower": 0.05621549083520565,
+          "wilson_upper": 0.06965609482633033,
+          "se": 0.003425820777565575,
+          "in_region": false
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": 0.010050000000000003,
+          "se": 0.0037365313962283253
+        },
+        "b": {
+          "delta": 0.01165,
+          "se": 0.003750462221513503
+        },
+        "c": {
+          "delta": 0.010299999999999997,
+          "se": 0.003583650024765253
+        },
+        "msb_sim": {
+          "delta": 0.012000000000000004,
+          "se": 0.003760083775662452
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": -0.0016,
+          "se": 0.0016927395918976496
+        },
+        "b_minus_c": {
+          "delta": 0.0013499999999999996,
+          "se": 0.001172614024983353
+        },
+        "b_minus_msb_sim": {
+          "delta": -0.00035,
+          "se": 0.00029577736020841843
+        }
+      }
+    },
+    "ct|garch_p099_n1000": {
+      "cell": "garch_p099_n1000",
+      "n": 1000,
+      "case": "ct",
+      "rates": {
+        "a": {
+          "rate": 0.058,
+          "rejections": 290,
+          "n": 5000,
+          "wilson_lower": 0.051854009739711444,
+          "wilson_upper": 0.06482463877971908,
+          "se": 0.003305631558416636,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.0568,
+          "rejections": 284,
+          "n": 5000,
+          "wilson_lower": 0.050718061546595514,
+          "wilson_upper": 0.06356242945750314,
+          "se": 0.0032733395790843335,
+          "in_region": false
+        },
+        "c": {
+          "rate": 0.0442,
+          "rejections": 221,
+          "n": 5000,
+          "wilson_lower": 0.03884421475711896,
+          "wilson_upper": 0.05025562233599513,
+          "se": 0.0029067631482458285,
+          "in_region": true
+        },
+        "msb_sim": {
+          "rate": 0.0568,
+          "rejections": 284,
+          "n": 5000,
+          "wilson_lower": 0.050718061546595514,
+          "wilson_upper": 0.06356242945750314,
+          "se": 0.0032733395790843335,
+          "in_region": false
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": 0.006950000000000005,
+          "se": 0.003653682371936564
+        },
+        "b": {
+          "delta": 0.0068000000000000005,
+          "se": 0.0036179762298832203
+        },
+        "c": {
+          "delta": 0.004800000000000006,
+          "se": 0.003215844212644636
+        },
+        "msb_sim": {
+          "delta": 0.006850000000000002,
+          "se": 0.003617665251926994
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": 0.00014999999999999996,
+          "se": 0.001970499195220825
+        },
+        "b_minus_c": {
+          "delta": 0.002,
+          "se": 0.0017358438782220165
+        },
+        "b_minus_msb_sim": {
+          "delta": -5e-05,
+          "se": 4.9999999999999996e-05
+        }
+      }
+    },
+    "c|garch_p099_n2000": {
+      "cell": "garch_p099_n2000",
+      "n": 2000,
+      "case": "c",
+      "rates": {
+        "a": {
+          "rate": 0.0548,
+          "rejections": 274,
+          "n": 5000,
+          "wilson_lower": 0.04882660544300012,
+          "wilson_upper": 0.061456956368878754,
+          "se": 0.003218600938296017,
+          "in_region": true
+        },
+        "b": {
+          "rate": 0.054,
+          "rejections": 270,
+          "n": 5000,
+          "wilson_lower": 0.048070671178201296,
+          "wilson_upper": 0.06061411895678967,
+          "se": 0.003196372944448129,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.0506,
+          "rejections": 253,
+          "n": 5000,
+          "wilson_lower": 0.044862312290198145,
+          "wilson_upper": 0.0570276982180192,
+          "se": 0.0030996657884359083,
+          "in_region": true
+        },
+        "msb_sim": {
+          "rate": 0.054,
+          "rejections": 270,
+          "n": 5000,
+          "wilson_lower": 0.048070671178201296,
+          "wilson_upper": 0.06061411895678967,
+          "se": 0.003196372944448129,
+          "in_region": true
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": 0.007800000000000001,
+          "se": 0.0035494988378642982
+        },
+        "b": {
+          "delta": 0.007199999999999998,
+          "se": 0.003528071427848365
+        },
+        "c": {
+          "delta": 0.007550000000000001,
+          "se": 0.0034158107200194803
+        },
+        "msb_sim": {
+          "delta": 0.0072499999999999995,
+          "se": 0.0035277502568917775
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": 0.0006000000000000001,
+          "se": 0.0011790333001147591
+        },
+        "b_minus_c": {
+          "delta": -0.00035000000000000005,
+          "se": 0.0009298547090936885
+        },
+        "b_minus_msb_sim": {
+          "delta": -5e-05,
+          "se": 0.00029583146082379534
+        }
+      }
+    },
+    "ct|garch_p099_n2000": {
+      "cell": "garch_p099_n2000",
+      "n": 2000,
+      "case": "ct",
+      "rates": {
+        "a": {
+          "rate": 0.0546,
+          "rejections": 273,
+          "n": 5000,
+          "wilson_lower": 0.048637586499460476,
+          "wilson_upper": 0.061246282393196426,
+          "se": 0.003213062090903318,
+          "in_region": true
+        },
+        "b": {
+          "rate": 0.0552,
+          "rejections": 276,
+          "n": 5000,
+          "wilson_lower": 0.04920471335898023,
+          "wilson_upper": 0.06187823429134259,
+          "se": 0.0032296427046966045,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.0456,
+          "rejections": 228,
+          "n": 5000,
+          "wilson_lower": 0.04015811220817567,
+          "wilson_upper": 0.05173957531949226,
+          "se": 0.0029502759192997527,
+          "in_region": true
+        },
+        "msb_sim": {
+          "rate": 0.0554,
+          "rejections": 277,
+          "n": 5000,
+          "wilson_lower": 0.04939380209328447,
+          "wilson_upper": 0.06208883847626034,
+          "se": 0.0032351457463304493,
+          "in_region": true
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": 0.006750000000000006,
+          "se": 0.003549899558438239
+        },
+        "b": {
+          "delta": 0.006999999999999999,
+          "se": 0.0035671319011216836
+        },
+        "c": {
+          "delta": 0.005850000000000001,
+          "se": 0.00325770239202417
+        },
+        "msb_sim": {
+          "delta": 0.007199999999999998,
+          "se": 0.003572115059737018
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": -0.00024999999999999995,
+          "se": 0.0017601110324512858
+        },
+        "b_minus_c": {
+          "delta": 0.00115,
+          "se": 0.0015234497734480984
+        },
+        "b_minus_msb_sim": {
+          "delta": -0.0002,
+          "se": 0.00023452238707104674
+        }
+      }
+    },
+    "c|garch_p099_n5000": {
+      "cell": "garch_p099_n5000",
+      "n": 5000,
+      "case": "c",
+      "rates": {
+        "a": {
+          "rate": 0.0546,
+          "rejections": 273,
+          "n": 5000,
+          "wilson_lower": 0.048637586499460476,
+          "wilson_upper": 0.061246282393196426,
+          "se": 0.003213062090903318,
+          "in_region": true
+        },
+        "b": {
+          "rate": 0.0538,
+          "rejections": 269,
+          "n": 5000,
+          "wilson_lower": 0.04788174698389211,
+          "wilson_upper": 0.06040335023187689,
+          "se": 0.0031907854832313627,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.0506,
+          "rejections": 253,
+          "n": 5000,
+          "wilson_lower": 0.044862312290198145,
+          "wilson_upper": 0.0570276982180192,
+          "se": 0.0030996657884359083,
+          "in_region": true
+        },
+        "msb_sim": {
+          "rate": 0.0538,
+          "rejections": 269,
+          "n": 5000,
+          "wilson_lower": 0.04788174698389211,
+          "wilson_upper": 0.06040335023187689,
+          "se": 0.0031907854832313627,
+          "in_region": true
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": 0.005650000000000002,
+          "se": 0.0035568894943475544
+        },
+        "b": {
+          "delta": 0.005200000000000003,
+          "se": 0.003534545798260365
+        },
+        "c": {
+          "delta": 0.005749999999999998,
+          "se": 0.003427805693880562
+        },
+        "msb_sim": {
+          "delta": 0.0051,
+          "se": 0.003535184224336831
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": 0.00045000000000000004,
+          "se": 0.0011630191410632435
+        },
+        "b_minus_c": {
+          "delta": -0.0005499999999999997,
+          "se": 0.000908232256217511
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0001,
+          "se": 7.070891024120918e-05
+        }
+      }
+    },
+    "ct|garch_p099_n5000": {
+      "cell": "garch_p099_n5000",
+      "n": 5000,
+      "case": "ct",
+      "rates": {
+        "a": {
+          "rate": 0.0582,
+          "rejections": 291,
+          "n": 5000,
+          "wilson_lower": 0.052043410621939824,
+          "wilson_upper": 0.06503493081671266,
+          "se": 0.003310974478911005,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.0566,
+          "rejections": 283,
+          "n": 5000,
+          "wilson_lower": 0.05052881403128712,
+          "wilson_upper": 0.06335198405358955,
+          "se": 0.003267917991627085,
+          "in_region": false
+        },
+        "c": {
+          "rate": 0.047,
+          "rejections": 235,
+          "n": 5000,
+          "wilson_lower": 0.04147349616779377,
+          "wilson_upper": 0.053222041794428,
+          "se": 0.002993025225419926,
+          "in_region": true
+        },
+        "msb_sim": {
+          "rate": 0.0566,
+          "rejections": 283,
+          "n": 5000,
+          "wilson_lower": 0.05052881403128712,
+          "wilson_upper": 0.06335198405358955,
+          "se": 0.003267917991627085,
+          "in_region": false
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": 0.006499999999999999,
+          "se": 0.00366250017064846
+        },
+        "b": {
+          "delta": 0.004399999999999994,
+          "se": 0.0036267128367159156
+        },
+        "c": {
+          "delta": 0.004249999999999997,
+          "se": 0.0033172762735412917
+        },
+        "msb_sim": {
+          "delta": 0.004399999999999994,
+          "se": 0.0036267128367159156
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": 0.0021000000000000003,
+          "se": 0.0014282343894015549
+        },
+        "b_minus_c": {
+          "delta": 0.0001499999999999991,
+          "se": 0.0015394825973656964
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0,
+          "se": 0.0
+        }
+      }
+    },
+    "c|garch_p098_n200": {
+      "cell": "garch_p098_n200",
+      "n": 200,
+      "case": "c",
+      "rates": {
+        "a": {
+          "rate": 0.0606,
+          "rejections": 303,
+          "n": 5000,
+          "wilson_lower": 0.054317868264735385,
+          "wilson_upper": 0.06755678820458083,
+          "se": 0.003374244804396978,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.06,
+          "rejections": 300,
+          "n": 5000,
+          "wilson_lower": 0.05374897325570842,
+          "wilson_upper": 0.06692660445594185,
+          "se": 0.0033585711247493327,
+          "in_region": false
+        },
+        "c": {
+          "rate": 0.0558,
+          "rejections": 279,
+          "n": 5000,
+          "wilson_lower": 0.049772048527119625,
+          "wilson_upper": 0.06250997788086914,
+          "se": 0.003246116448927857,
+          "in_region": true
+        },
+        "msb_sim": {
+          "rate": 0.0606,
+          "rejections": 303,
+          "n": 5000,
+          "wilson_lower": 0.054317868264735385,
+          "wilson_upper": 0.06755678820458083,
+          "se": 0.003374244804396978,
+          "in_region": false
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": 0.010450000000000001,
+          "se": 0.0037104281255671834
+        },
+        "b": {
+          "delta": 0.009599999999999997,
+          "se": 0.003697700907320655
+        },
+        "c": {
+          "delta": 0.009800000000000003,
+          "se": 0.003568118832101868
+        },
+        "msb_sim": {
+          "delta": 0.0104,
+          "se": 0.003710731194791668
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": 0.00085,
+          "se": 0.0024836528441797754
+        },
+        "b_minus_c": {
+          "delta": -0.00020000000000000052,
+          "se": 0.0010323191270330033
+        },
+        "b_minus_msb_sim": {
+          "delta": -0.0007999999999999999,
+          "se": 0.0006557449962256699
+        }
+      }
+    },
+    "ct|garch_p098_n200": {
+      "cell": "garch_p098_n200",
+      "n": 200,
+      "case": "ct",
+      "rates": {
+        "a": {
+          "rate": 0.0548,
+          "rejections": 274,
+          "n": 5000,
+          "wilson_lower": 0.04882660544300012,
+          "wilson_upper": 0.061456956368878754,
+          "se": 0.003218600938296017,
+          "in_region": true
+        },
+        "b": {
+          "rate": 0.0534,
+          "rejections": 267,
+          "n": 5000,
+          "wilson_lower": 0.047503970713696914,
+          "wilson_upper": 0.05998174066362813,
+          "se": 0.0031795735563122296,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.0312,
+          "rejections": 156,
+          "n": 5000,
+          "wilson_lower": 0.0267293173446752,
+          "wilson_upper": 0.03639047999901036,
+          "se": 0.0024587216190532835,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.0526,
+          "rejections": 263,
+          "n": 5000,
+          "wilson_lower": 0.046748710224978236,
+          "wilson_upper": 0.05913822947545889,
+          "se": 0.003156999841621789,
+          "in_region": true
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": 0.00825,
+          "se": 0.003546624715838991
+        },
+        "b": {
+          "delta": 0.006450000000000004,
+          "se": 0.003513825959691231
+        },
+        "c": {
+          "delta": 0.0052,
+          "se": 0.0027039807691623843
+        },
+        "msb_sim": {
+          "delta": 0.006100000000000001,
+          "se": 0.0034904921572752458
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": 0.0018,
+          "se": 0.002772359002356972
+        },
+        "b_minus_c": {
+          "delta": 0.0012500000000000011,
+          "se": 0.0023168743201563142
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.00035000000000000005,
+          "se": 0.0006800330801130649
+        }
+      }
+    },
+    "c|garch_p098_n500": {
+      "cell": "garch_p098_n500",
+      "n": 500,
+      "case": "c",
+      "rates": {
+        "a": {
+          "rate": 0.0576,
+          "rejections": 288,
+          "n": 5000,
+          "wilson_lower": 0.051475272851246034,
+          "wilson_upper": 0.06440398982974052,
+          "se": 0.0032949124419322587,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.0536,
+          "rejections": 268,
+          "n": 5000,
+          "wilson_lower": 0.04769284678695339,
+          "wilson_upper": 0.060192557509593625,
+          "se": 0.003185185708871619,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.0476,
+          "rejections": 238,
+          "n": 5000,
+          "wilson_lower": 0.04203767154178207,
+          "wilson_upper": 0.05385694517810564,
+          "se": 0.0030111207215918795,
+          "in_region": true
+        },
+        "msb_sim": {
+          "rate": 0.0538,
+          "rejections": 269,
+          "n": 5000,
+          "wilson_lower": 0.04788174698389211,
+          "wilson_upper": 0.06040335023187689,
+          "se": 0.0031907854832313627,
+          "in_region": true
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": 0.010549999999999997,
+          "se": 0.003619152231531578
+        },
+        "b": {
+          "delta": 0.0063,
+          "se": 0.003521156557155617
+        },
+        "c": {
+          "delta": 0.0059000000000000025,
+          "se": 0.0033263949705349184
+        },
+        "msb_sim": {
+          "delta": 0.006499999999999999,
+          "se": 0.0035262228375416097
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": 0.00425,
+          "se": 0.002196630552418658
+        },
+        "b_minus_c": {
+          "delta": 0.0004000000000000002,
+          "se": 0.0012130476206718593
+        },
+        "b_minus_msb_sim": {
+          "delta": -0.0002,
+          "se": 0.00038732093059327933
+        }
+      }
+    },
+    "ct|garch_p098_n500": {
+      "cell": "garch_p098_n500",
+      "n": 500,
+      "case": "ct",
+      "rates": {
+        "a": {
+          "rate": 0.0546,
+          "rejections": 273,
+          "n": 5000,
+          "wilson_lower": 0.048637586499460476,
+          "wilson_upper": 0.061246282393196426,
+          "se": 0.003213062090903318,
+          "in_region": true
+        },
+        "b": {
+          "rate": 0.051,
+          "rejections": 255,
+          "n": 5000,
+          "wilson_lower": 0.04523938710267117,
+          "wilson_upper": 0.05745000924399013,
+          "se": 0.003111237695837462,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.038,
+          "rejections": 190,
+          "n": 5000,
+          "wilson_lower": 0.03304526128739777,
+          "wilson_upper": 0.04366409530983501,
+          "se": 0.0027039230758288966,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.0512,
+          "rejections": 256,
+          "n": 5000,
+          "wilson_lower": 0.045427963397957266,
+          "wilson_upper": 0.05766112586792603,
+          "se": 0.0031170036894427955,
+          "in_region": true
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": 0.005950000000000004,
+          "se": 0.0035549861989886827
+        },
+        "b": {
+          "delta": 0.002799999999999997,
+          "se": 0.003460294496137576
+        },
+        "c": {
+          "delta": 0.00435,
+          "se": 0.002989495588723957
+        },
+        "msb_sim": {
+          "delta": 0.003050000000000004,
+          "se": 0.0034651538025028553
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": 0.00315,
+          "se": 0.00230344501091213
+        },
+        "b_minus_c": {
+          "delta": -0.001550000000000001,
+          "se": 0.001812088316060964
+        },
+        "b_minus_msb_sim": {
+          "delta": -0.00025,
+          "se": 0.00026926102591166764
+        }
+      }
+    },
+    "c|garch_p098_n1000": {
+      "cell": "garch_p098_n1000",
+      "n": 1000,
+      "case": "c",
+      "rates": {
+        "a": {
+          "rate": 0.0514,
+          "rejections": 257,
+          "n": 5000,
+          "wilson_lower": 0.04561656542843631,
+          "wilson_upper": 0.057872216756668954,
+          "se": 0.0031227564746550444,
+          "in_region": true
+        },
+        "b": {
+          "rate": 0.0492,
+          "rejections": 246,
+          "n": 5000,
+          "wilson_lower": 0.04354338255549715,
+          "wilson_upper": 0.05554877751816637,
+          "se": 0.0030587369942510585,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.0458,
+          "rejections": 229,
+          "n": 5000,
+          "wilson_lower": 0.04034593470149568,
+          "wilson_upper": 0.05195144574539422,
+          "se": 0.0029564289269319497,
+          "in_region": true
+        },
+        "msb_sim": {
+          "rate": 0.0496,
+          "rejections": 248,
+          "n": 5000,
+          "wilson_lower": 0.04392008579235035,
+          "wilson_upper": 0.05597146011975712,
+          "se": 0.0030704996336101396,
+          "in_region": true
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": 5.000000000000143e-05,
+          "se": 0.0034910266219265644
+        },
+        "b": {
+          "delta": -0.001349999999999997,
+          "se": 0.003428645049432793
+        },
+        "c": {
+          "delta": -0.00030000000000000165,
+          "se": 0.0033074478831872766
+        },
+        "msb_sim": {
+          "delta": -0.0010000000000000009,
+          "se": 0.00343946943582873
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": 0.0014000000000000002,
+          "se": 0.0016323256874602613
+        },
+        "b_minus_c": {
+          "delta": -0.0010500000000000002,
+          "se": 0.0009483377645968207
+        },
+        "b_minus_msb_sim": {
+          "delta": -0.00035,
+          "se": 0.00029577736020841843
+        }
+      }
+    },
+    "ct|garch_p098_n1000": {
+      "cell": "garch_p098_n1000",
+      "n": 1000,
+      "case": "ct",
+      "rates": {
+        "a": {
+          "rate": 0.0532,
+          "rejections": 266,
+          "n": 5000,
+          "wilson_lower": 0.04731511889160377,
+          "wilson_upper": 0.05977089956649927,
+          "se": 0.003173948959892077,
+          "in_region": true
+        },
+        "b": {
+          "rate": 0.0548,
+          "rejections": 274,
+          "n": 5000,
+          "wilson_lower": 0.04882660544300012,
+          "wilson_upper": 0.061456956368878754,
+          "se": 0.003218600938296017,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.0424,
+          "rejections": 212,
+          "n": 5000,
+          "wilson_lower": 0.03715721151196373,
+          "wilson_upper": 0.04834538930815256,
+          "se": 0.0028496399772602854,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.0546,
+          "rejections": 273,
+          "n": 5000,
+          "wilson_lower": 0.048637586499460476,
+          "wilson_upper": 0.061246282393196426,
+          "se": 0.003213062090903318,
+          "in_region": true
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": 0.002149999999999999,
+          "se": 0.0035349889497705645
+        },
+        "b": {
+          "delta": 0.004799999999999999,
+          "se": 0.003568527987840365
+        },
+        "c": {
+          "delta": 0.0030000000000000027,
+          "se": 0.0031643056110306415
+        },
+        "msb_sim": {
+          "delta": 0.004650000000000001,
+          "se": 0.003563217348829566
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": -0.00265,
+          "se": 0.001950032571614207
+        },
+        "b_minus_c": {
+          "delta": 0.0017999999999999995,
+          "se": 0.001724571299772943
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.00015000000000000001,
+          "se": 0.00020615528128088302
+        }
+      }
+    },
+    "c|garch_p095_t5_n200": {
+      "cell": "garch_p095_t5_n200",
+      "n": 200,
+      "case": "c",
+      "rates": {
+        "a": {
+          "rate": 0.055,
+          "rejections": 275,
+          "n": 5000,
+          "wilson_lower": 0.049015647769374275,
+          "wilson_upper": 0.06166760696172658,
+          "se": 0.0032241277890307017,
+          "in_region": true
+        },
+        "b": {
+          "rate": 0.0518,
+          "rejections": 259,
+          "n": 5000,
+          "wilson_lower": 0.04599384613067904,
+          "wilson_upper": 0.05829432189287018,
+          "se": 0.003134222710657301,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.0486,
+          "rejections": 243,
+          "n": 5000,
+          "wilson_lower": 0.042978532307529155,
+          "wilson_upper": 0.05491454900846843,
+          "se": 0.0030409879973455995,
+          "in_region": true
+        },
+        "msb_sim": {
+          "rate": 0.0518,
+          "rejections": 259,
+          "n": 5000,
+          "wilson_lower": 0.04599384613067904,
+          "wilson_upper": 0.05829432189287018,
+          "se": 0.003134222710657301,
+          "in_region": true
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": 0.00485,
+          "se": 0.0035744578435057814
+        },
+        "b": {
+          "delta": 0.0013999999999999985,
+          "se": 0.003495188693046486
+        },
+        "c": {
+          "delta": 0.002599999999999998,
+          "se": 0.003382574167701279
+        },
+        "msb_sim": {
+          "delta": 0.0015999999999999973,
+          "se": 0.0034939018303323864
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": 0.00345,
+          "se": 0.002616618253075651
+        },
+        "b_minus_c": {
+          "delta": -0.0012000000000000001,
+          "se": 0.0009732107024156863
+        },
+        "b_minus_msb_sim": {
+          "delta": -0.0002,
+          "se": 0.0005568208955103284
+        }
+      }
+    },
+    "ct|garch_p095_t5_n200": {
+      "cell": "garch_p095_t5_n200",
+      "n": 200,
+      "case": "ct",
+      "rates": {
+        "a": {
+          "rate": 0.0612,
+          "rejections": 306,
+          "n": 5000,
+          "wilson_lower": 0.05488694601595171,
+          "wilson_upper": 0.06818678921103043,
+          "se": 0.0033898247742324378,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.0586,
+          "rejections": 293,
+          "n": 5000,
+          "wilson_lower": 0.052422276742432335,
+          "wilson_upper": 0.0654554505346641,
+          "se": 0.003321627312026441,
+          "in_region": false
+        },
+        "c": {
+          "rate": 0.035,
+          "rejections": 175,
+          "n": 5000,
+          "wilson_lower": 0.03025241786606471,
+          "wilson_upper": 0.040461544942838434,
+          "se": 0.002599038283673405,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.0582,
+          "rejections": 291,
+          "n": 5000,
+          "wilson_lower": 0.052043410621939824,
+          "wilson_upper": 0.06503493081671266,
+          "se": 0.003310974478911005,
+          "in_region": false
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": 0.014649999999999996,
+          "se": 0.00370271074687181
+        },
+        "b": {
+          "delta": 0.01165,
+          "se": 0.0036428687699394274
+        },
+        "c": {
+          "delta": 0.009000000000000005,
+          "se": 0.002832172311142103
+        },
+        "msb_sim": {
+          "delta": 0.011700000000000002,
+          "se": 0.003630349776536691
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": 0.003,
+          "se": 0.002926634634032471
+        },
+        "b_minus_c": {
+          "delta": 0.0026499999999999996,
+          "se": 0.0023738441526959943
+        },
+        "b_minus_msb_sim": {
+          "delta": -4.999999999999997e-05,
+          "se": 0.0005500081843487629
+        }
+      }
+    },
+    "c|garch_p095_t5_n500": {
+      "cell": "garch_p095_t5_n500",
+      "n": 500,
+      "case": "c",
+      "rates": {
+        "a": {
+          "rate": 0.0604,
+          "rejections": 302,
+          "n": 5000,
+          "wilson_lower": 0.054128216165158255,
+          "wilson_upper": 0.06734674738493598,
+          "se": 0.0033690307211422105,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.0596,
+          "rejections": 298,
+          "n": 5000,
+          "wilson_lower": 0.05336981270225661,
+          "wilson_upper": 0.06650637917094972,
+          "se": 0.0033480692943844517,
+          "in_region": false
+        },
+        "c": {
+          "rate": 0.0528,
+          "rejections": 264,
+          "n": 5000,
+          "wilson_lower": 0.04693748851677059,
+          "wilson_upper": 0.05934914410288852,
+          "se": 0.003162662169755094,
+          "in_region": true
+        },
+        "msb_sim": {
+          "rate": 0.059,
+          "rejections": 295,
+          "n": 5000,
+          "wilson_lower": 0.052801227987900407,
+          "wilson_upper": 0.06587588512763998,
+          "se": 0.0033322364862056236,
+          "in_region": false
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": 0.01335,
+          "se": 0.0036867577727591493
+        },
+        "b": {
+          "delta": 0.012299999999999998,
+          "se": 0.003669155693071636
+        },
+        "c": {
+          "delta": 0.011099999999999999,
+          "se": 0.0034641719789871867
+        },
+        "msb_sim": {
+          "delta": 0.011699999999999995,
+          "se": 0.0036547141475086666
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": 0.0010500000000000002,
+          "se": 0.002215462570557815
+        },
+        "b_minus_c": {
+          "delta": 0.0011999999999999997,
+          "se": 0.0012765062188399249
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0006,
+          "se": 0.0003872382864246295
+        }
+      }
+    },
+    "ct|garch_p095_t5_n500": {
+      "cell": "garch_p095_t5_n500",
+      "n": 500,
+      "case": "ct",
+      "rates": {
+        "a": {
+          "rate": 0.0658,
+          "rejections": 329,
+          "n": 5000,
+          "wilson_lower": 0.05925568920703122,
+          "wilson_upper": 0.07301098316205637,
+          "se": 0.003506290347361439,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.06,
+          "rejections": 300,
+          "n": 5000,
+          "wilson_lower": 0.05374897325570842,
+          "wilson_upper": 0.06692660445594185,
+          "se": 0.0033585711247493327,
+          "in_region": false
+        },
+        "c": {
+          "rate": 0.0442,
+          "rejections": 221,
+          "n": 5000,
+          "wilson_lower": 0.03884421475711896,
+          "wilson_upper": 0.05025562233599513,
+          "se": 0.0029067631482458285,
+          "in_region": true
+        },
+        "msb_sim": {
+          "rate": 0.0598,
+          "rejections": 299,
+          "n": 5000,
+          "wilson_lower": 0.05355938263635995,
+          "wilson_upper": 0.06671650215606835,
+          "se": 0.0033533255135760383,
+          "in_region": false
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": 0.01715,
+          "se": 0.003822071542370708
+        },
+        "b": {
+          "delta": 0.011799999999999998,
+          "se": 0.003684268991265431
+        },
+        "c": {
+          "delta": 0.010550000000000004,
+          "se": 0.0031741386036214614
+        },
+        "msb_sim": {
+          "delta": 0.01165,
+          "se": 0.0036791807342124415
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": 0.00535,
+          "se": 0.0027824827382303802
+        },
+        "b_minus_c": {
+          "delta": 0.0012500000000000011,
+          "se": 0.001956436776735679
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.00015000000000000001,
+          "se": 0.00026926102591166764
+        }
+      }
+    },
+    "c|garch_p095_t5_n1000": {
+      "cell": "garch_p095_t5_n1000",
+      "n": 1000,
+      "case": "c",
+      "rates": {
+        "a": {
+          "rate": 0.0576,
+          "rejections": 288,
+          "n": 5000,
+          "wilson_lower": 0.051475272851246034,
+          "wilson_upper": 0.06440398982974052,
+          "se": 0.0032949124419322587,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.0562,
+          "rejections": 281,
+          "n": 5000,
+          "wilson_lower": 0.05015038614349224,
+          "wilson_upper": 0.06293102610294048,
+          "se": 0.003257040374327589,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.0522,
+          "rejections": 261,
+          "n": 5000,
+          "wilson_lower": 0.046371228094227626,
+          "wilson_upper": 0.058716325767765545,
+          "se": 0.003145636978419474,
+          "in_region": true
+        },
+        "msb_sim": {
+          "rate": 0.0566,
+          "rejections": 283,
+          "n": 5000,
+          "wilson_lower": 0.05052881403128712,
+          "wilson_upper": 0.06335198405358955,
+          "se": 0.003267917991627085,
+          "in_region": false
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": 0.006249999999999999,
+          "se": 0.0036458341809522824
+        },
+        "b": {
+          "delta": 0.005650000000000002,
+          "se": 0.003606667003619824
+        },
+        "c": {
+          "delta": 0.006100000000000001,
+          "se": 0.00347761002701568
+        },
+        "msb_sim": {
+          "delta": 0.005999999999999998,
+          "se": 0.003616803837644503
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": 0.0006,
+          "se": 0.0019249081294373455
+        },
+        "b_minus_c": {
+          "delta": -0.0004499999999999999,
+          "se": 0.0010091978710470649
+        },
+        "b_minus_msb_sim": {
+          "delta": -0.00035,
+          "se": 0.00029577736020841843
+        }
+      }
+    },
+    "ct|garch_p095_t5_n1000": {
+      "cell": "garch_p095_t5_n1000",
+      "n": 1000,
+      "case": "ct",
+      "rates": {
+        "a": {
+          "rate": 0.0576,
+          "rejections": 288,
+          "n": 5000,
+          "wilson_lower": 0.051475272851246034,
+          "wilson_upper": 0.06440398982974052,
+          "se": 0.0032949124419322587,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.051,
+          "rejections": 255,
+          "n": 5000,
+          "wilson_lower": 0.04523938710267117,
+          "wilson_upper": 0.05745000924399013,
+          "se": 0.003111237695837462,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.04,
+          "rejections": 200,
+          "n": 5000,
+          "wilson_lower": 0.034912144402327185,
+          "wilson_upper": 0.04579414138712538,
+          "se": 0.0027712812921102037,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.0512,
+          "rejections": 256,
+          "n": 5000,
+          "wilson_lower": 0.045427963397957266,
+          "wilson_upper": 0.05766112586792603,
+          "se": 0.0031170036894427955,
+          "in_region": true
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": 0.00655,
+          "se": 0.0036439872221235904
+        },
+        "b": {
+          "delta": 0.000999999999999994,
+          "se": 0.003472002304146701
+        },
+        "c": {
+          "delta": 0.0006000000000000033,
+          "se": 0.0030939266313214342
+        },
+        "msb_sim": {
+          "delta": 0.0012500000000000011,
+          "se": 0.00347684654176741
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": 0.00555,
+          "se": 0.002415539995869366
+        },
+        "b_minus_c": {
+          "delta": 0.0003999999999999993,
+          "se": 0.0016433634617638395
+        },
+        "b_minus_msb_sim": {
+          "delta": -0.00025,
+          "se": 0.00020615528128088302
+        }
+      }
+    },
+    "c|garch_p095_t5_n2000": {
+      "cell": "garch_p095_t5_n2000",
+      "n": 2000,
+      "case": "c",
+      "rates": {
+        "a": {
+          "rate": 0.056,
+          "rejections": 280,
+          "n": 5000,
+          "wilson_lower": 0.0499612059948101,
+          "wilson_upper": 0.06272051333240064,
+          "se": 0.003251584229264252,
+          "in_region": true
+        },
+        "b": {
+          "rate": 0.0512,
+          "rejections": 256,
+          "n": 5000,
+          "wilson_lower": 0.045427963397957266,
+          "wilson_upper": 0.05766112586792603,
+          "se": 0.0031170036894427955,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.049,
+          "rejections": 245,
+          "n": 5000,
+          "wilson_lower": 0.04335507170094735,
+          "wilson_upper": 0.055337395453494184,
+          "se": 0.0030528347482299137,
+          "in_region": true
+        },
+        "msb_sim": {
+          "rate": 0.0512,
+          "rejections": 256,
+          "n": 5000,
+          "wilson_lower": 0.045427963397957266,
+          "wilson_upper": 0.05766112586792603,
+          "se": 0.0031170036894427955,
+          "in_region": true
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": 0.009000000000000001,
+          "se": 0.0035794343128488894
+        },
+        "b": {
+          "delta": 0.004400000000000001,
+          "se": 0.003456327530775982
+        },
+        "c": {
+          "delta": 0.005950000000000004,
+          "se": 0.0033733714404138777
+        },
+        "msb_sim": {
+          "delta": 0.0044500000000000026,
+          "se": 0.0034559996925636436
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": 0.0046,
+          "se": 0.00181824715135639
+        },
+        "b_minus_c": {
+          "delta": -0.0015499999999999997,
+          "se": 0.0007911548769207951
+        },
+        "b_minus_msb_sim": {
+          "delta": -5e-05,
+          "se": 8.660398381426009e-05
+        }
+      }
+    },
+    "ct|garch_p095_t5_n2000": {
+      "cell": "garch_p095_t5_n2000",
+      "n": 2000,
+      "case": "ct",
+      "rates": {
+        "a": {
+          "rate": 0.061,
+          "rejections": 305,
+          "n": 5000,
+          "wilson_lower": 0.054697233283090105,
+          "wilson_upper": 0.06797680902467006,
+          "se": 0.003384641783113835,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.051,
+          "rejections": 255,
+          "n": 5000,
+          "wilson_lower": 0.04523938710267117,
+          "wilson_upper": 0.05745000924399013,
+          "se": 0.003111237695837462,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.0426,
+          "rejections": 213,
+          "n": 5000,
+          "wilson_lower": 0.03734452469569485,
+          "wilson_upper": 0.04855776904364341,
+          "se": 0.00285605462132642,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.0508,
+          "rejections": 254,
+          "n": 5000,
+          "wilson_lower": 0.04505083668536068,
+          "wilson_upper": 0.05723886674207865,
+          "se": 0.0031054584202658392,
+          "in_region": true
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": 0.013150000000000002,
+          "se": 0.0037059167388110597
+        },
+        "b": {
+          "delta": 0.002799999999999997,
+          "se": 0.003460294496137576
+        },
+        "c": {
+          "delta": 0.0028499999999999984,
+          "se": 0.003172624288345533
+        },
+        "msb_sim": {
+          "delta": 0.002599999999999998,
+          "se": 0.003455099130271084
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": 0.01035,
+          "se": 0.0022800181896152527
+        },
+        "b_minus_c": {
+          "delta": -4.99999999999997e-05,
+          "se": 0.0014440124884466815
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0002,
+          "se": 0.00023452238707104674
+        }
+      }
+    },
+    "c|garch_p095_t5_n5000": {
+      "cell": "garch_p095_t5_n5000",
+      "n": 5000,
+      "case": "c",
+      "rates": {
+        "a": {
+          "rate": 0.0534,
+          "rejections": 267,
+          "n": 5000,
+          "wilson_lower": 0.047503970713696914,
+          "wilson_upper": 0.05998174066362813,
+          "se": 0.0031795735563122296,
+          "in_region": true
+        },
+        "b": {
+          "rate": 0.0496,
+          "rejections": 248,
+          "n": 5000,
+          "wilson_lower": 0.04392008579235035,
+          "wilson_upper": 0.05597146011975712,
+          "se": 0.0030704996336101396,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.0466,
+          "rejections": 233,
+          "n": 5000,
+          "wilson_lower": 0.04109752422905179,
+          "wilson_upper": 0.05279862789472603,
+          "se": 0.002980887116279313,
+          "in_region": true
+        },
+        "msb_sim": {
+          "rate": 0.0496,
+          "rejections": 248,
+          "n": 5000,
+          "wilson_lower": 0.04392008579235035,
+          "wilson_upper": 0.05597146011975712,
+          "se": 0.0030704996336101396,
+          "in_region": true
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": 0.0044500000000000026,
+          "se": 0.0035266673893351494
+        },
+        "b": {
+          "delta": 0.0010000000000000009,
+          "se": 0.00342634936922667
+        },
+        "c": {
+          "delta": 0.0017500000000000016,
+          "se": 0.003320784828169389
+        },
+        "msb_sim": {
+          "delta": 0.000899999999999998,
+          "se": 0.0034270079515519073
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": 0.00345,
+          "se": 0.0014798719552636245
+        },
+        "b_minus_c": {
+          "delta": -0.0007499999999999998,
+          "se": 0.0008860732922527075
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0001,
+          "se": 7.070891024120918e-05
+        }
+      }
+    },
+    "ct|garch_p095_t5_n5000": {
+      "cell": "garch_p095_t5_n5000",
+      "n": 5000,
+      "case": "ct",
+      "rates": {
+        "a": {
+          "rate": 0.0532,
+          "rejections": 266,
+          "n": 5000,
+          "wilson_lower": 0.04731511889160377,
+          "wilson_upper": 0.05977089956649927,
+          "se": 0.003173948959892077,
+          "in_region": true
+        },
+        "b": {
+          "rate": 0.0526,
+          "rejections": 263,
+          "n": 5000,
+          "wilson_lower": 0.046748710224978236,
+          "wilson_upper": 0.05913822947545889,
+          "se": 0.003156999841621789,
+          "in_region": true
+        },
+        "c": {
+          "rate": 0.0434,
+          "rejections": 217,
+          "n": 5000,
+          "wilson_lower": 0.038094109375360806,
+          "wilson_upper": 0.049406956040865375,
+          "se": 0.0028815426424052795,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.0526,
+          "rejections": 263,
+          "n": 5000,
+          "wilson_lower": 0.046748710224978236,
+          "wilson_upper": 0.05913822947545889,
+          "se": 0.003156999841621789,
+          "in_region": true
+        }
+      },
+      "delta_vs_gauss": {
+        "a": {
+          "delta": 0.0014999999999999944,
+          "se": 0.0035391111172157334
+        },
+        "b": {
+          "delta": 0.0003999999999999976,
+          "se": 0.0035270959726097614
+        },
+        "c": {
+          "delta": 0.0006499999999999978,
+          "se": 0.003217049871388381
+        },
+        "msb_sim": {
+          "delta": 0.0003999999999999976,
+          "se": 0.0035270959726097614
+        }
+      },
+      "diffs_of_delta": {
+        "a_minus_b": {
+          "delta": 0.0010999999999999998,
+          "se": 0.0016971922674504376
+        },
+        "b_minus_c": {
+          "delta": -0.0002500000000000002,
+          "se": 0.0015137684648754456
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0,
+          "se": 0.0
+        }
+      }
+    }
+  },
+  "misspec_by_n": {
+    "c": {
+      "200": {
+        "cells": [
+          "c|heavy_t5_n200",
+          "c|heavy_t3_n200",
+          "c|garch_base_n200",
+          "c|garch_p099_n200",
+          "c|garch_p098_n200",
+          "c|garch_p095_t5_n200"
+        ],
+        "a_minus_b": {
+          "mean": 0.0014833333333333332,
+          "se": 0.0009463236800894176,
+          "k": 6
+        },
+        "b_minus_c": {
+          "mean": -0.0005333333333333337,
+          "se": 0.0004188938230475114,
+          "k": 6
+        },
+        "b_minus_msb_sim": {
+          "mean": -0.00046666666666666666,
+          "se": 0.0002368839976100505,
+          "k": 6
+        }
+      },
+      "500": {
+        "cells": [
+          "c|heavy_t5_n500",
+          "c|heavy_t3_n500",
+          "c|garch_base_n500",
+          "c|garch_p099_n500",
+          "c|garch_p098_n500",
+          "c|garch_p095_t5_n500"
+        ],
+        "a_minus_b": {
+          "mean": 0.002016666666666667,
+          "se": 0.0007753444543652659,
+          "k": 6
+        },
+        "b_minus_c": {
+          "mean": 0.00023333333333333336,
+          "se": 0.0004896401053661185,
+          "k": 6
+        },
+        "b_minus_msb_sim": {
+          "mean": 0.0002666666666666666,
+          "se": 0.00015091213179684886,
+          "k": 6
+        }
+      },
+      "1000": {
+        "cells": [
+          "c|heavy_t5_n1000",
+          "c|heavy_t3_n1000",
+          "c|garch_base_n1000",
+          "c|garch_p099_n1000",
+          "c|garch_p098_n1000",
+          "c|garch_p095_t5_n1000"
+        ],
+        "a_minus_b": {
+          "mean": -0.0005666666666666667,
+          "se": 0.0006589293434514583,
+          "k": 6
+        },
+        "b_minus_c": {
+          "mean": 0.00038333333333333324,
+          "se": 0.00044413211576577725,
+          "k": 6
+        },
+        "b_minus_msb_sim": {
+          "mean": -0.00028333333333333335,
+          "se": 0.00011117272438173295,
+          "k": 6
+        }
+      },
+      "2000": {
+        "cells": [
+          "c|garch_p099_n2000",
+          "c|garch_p095_t5_n2000"
+        ],
+        "a_minus_b": {
+          "mean": 0.0026,
+          "se": 0.0010835292135188519,
+          "k": 2
+        },
+        "b_minus_c": {
+          "mean": -0.0009499999999999999,
+          "se": 0.0006104416064004948,
+          "k": 2
+        },
+        "b_minus_msb_sim": {
+          "mean": -5e-05,
+          "se": 0.00015412373537651604,
+          "k": 2
+        }
+      },
+      "5000": {
+        "cells": [
+          "c|garch_p099_n5000",
+          "c|garch_p095_t5_n5000"
+        ],
+        "a_minus_b": {
+          "mean": 0.00195,
+          "se": 0.000941094379758915,
+          "k": 2
+        },
+        "b_minus_c": {
+          "mean": -0.0006499999999999998,
+          "se": 0.0006344311843055759,
+          "k": 2
+        },
+        "b_minus_msb_sim": {
+          "mean": 0.0001,
+          "se": 4.999874992186993e-05,
+          "k": 2
+        }
+      }
+    },
+    "ct": {
+      "200": {
+        "cells": [
+          "ct|heavy_t5_n200",
+          "ct|heavy_t3_n200",
+          "ct|garch_base_n200",
+          "ct|garch_p099_n200",
+          "ct|garch_p098_n200",
+          "ct|garch_p095_t5_n200"
+        ],
+        "a_minus_b": {
+          "mean": 0.0005666666666666667,
+          "se": 0.0010716639761092753,
+          "k": 6
+        },
+        "b_minus_c": {
+          "mean": 0.00038333333333333334,
+          "se": 0.0009310931468573008,
+          "k": 6
+        },
+        "b_minus_msb_sim": {
+          "mean": -8.333333333333333e-05,
+          "se": 0.0002502823973648465,
+          "k": 6
+        }
+      },
+      "500": {
+        "cells": [
+          "ct|heavy_t5_n500",
+          "ct|heavy_t3_n500",
+          "ct|garch_base_n500",
+          "ct|garch_p099_n500",
+          "ct|garch_p098_n500",
+          "ct|garch_p095_t5_n500"
+        ],
+        "a_minus_b": {
+          "mean": 0.0022500000000000003,
+          "se": 0.0009060870947008116,
+          "k": 6
+        },
+        "b_minus_c": {
+          "mean": -0.00015000000000000026,
+          "se": 0.0007698153968415497,
+          "k": 6
+        },
+        "b_minus_msb_sim": {
+          "mean": -0.00021666666666666668,
+          "se": 0.00013281409350946396,
+          "k": 6
+        }
+      },
+      "1000": {
+        "cells": [
+          "ct|heavy_t5_n1000",
+          "ct|heavy_t3_n1000",
+          "ct|garch_base_n1000",
+          "ct|garch_p099_n1000",
+          "ct|garch_p098_n1000",
+          "ct|garch_p095_t5_n1000"
+        ],
+        "a_minus_b": {
+          "mean": 0.0004833333333333334,
+          "se": 0.0007861351433620544,
+          "k": 6
+        },
+        "b_minus_c": {
+          "mean": 0.0009333333333333332,
+          "se": 0.000683714076451343,
+          "k": 6
+        },
+        "b_minus_msb_sim": {
+          "mean": -4.9999999999999996e-05,
+          "se": 8.416518203321637e-05,
+          "k": 6
+        }
+      },
+      "2000": {
+        "cells": [
+          "ct|garch_p099_n2000",
+          "ct|garch_p095_t5_n2000"
+        ],
+        "a_minus_b": {
+          "mean": 0.00505,
+          "se": 0.0014401800053754693,
+          "k": 2
+        },
+        "b_minus_c": {
+          "mean": 0.0005500000000000001,
+          "se": 0.001049532190908054,
+          "k": 2
+        },
+        "b_minus_msb_sim": {
+          "mean": 0.0,
+          "se": 0.00016583237023799346,
+          "k": 2
+        }
+      },
+      "5000": {
+        "cells": [
+          "ct|garch_p099_n5000",
+          "ct|garch_p095_t5_n5000"
+        ],
+        "a_minus_b": {
+          "mean": 0.0016,
+          "se": 0.001109089160500948,
+          "k": 2
+        },
+        "b_minus_c": {
+          "mean": -5.0000000000000565e-05,
+          "se": 0.0010795255477341879,
+          "k": 2
+        },
+        "b_minus_msb_sim": {
+          "mean": 0.0,
+          "se": 0.0,
+          "k": 2
+        }
+      }
+    }
+  },
+  "power": {
+    "dgp1_rho0p8_n200": {
+      "n": 200,
+      "case": "c",
+      "rho": 0.8,
+      "rates": {
+        "a": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson_lower": 0.9992322980549431,
+          "wilson_upper": 1.0000000000000002,
+          "se": 0.0,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.9462,
+          "rejections": 4731,
+          "n": 5000,
+          "wilson_lower": 0.9395966497681233,
+          "wilson_upper": 0.952118253016108,
+          "se": 0.0031907854832313614,
+          "in_region": false
+        },
+        "c": {
+          "rate": 0.9414,
+          "rejections": 4707,
+          "n": 5000,
+          "wilson_lower": 0.9345445494653359,
+          "wilson_upper": 0.9475777232575677,
+          "se": 0.0033216273120264404,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.9458,
+          "rejections": 4729,
+          "n": 5000,
+          "wilson_lower": 0.9391751361905106,
+          "wilson_upper": 0.9517403807552766,
+          "se": 0.003201948156981934,
+          "in_region": false
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.0538,
+          "se": 0.0031911046096494465,
+          "n": 5000
+        },
+        "b_minus_c": {
+          "delta": 0.0048,
+          "se": 0.0009775393171751838,
+          "n": 5000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0004,
+          "se": 0.00039999999999999996,
+          "n": 5000
+        }
+      }
+    },
+    "dgp1_rho0p8_n500": {
+      "n": 500,
+      "case": "c",
+      "rho": 0.8,
+      "rates": {
+        "a": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson_lower": 0.9992322980549431,
+          "wilson_upper": 1.0000000000000002,
+          "se": 0.0,
+          "in_region": false
+        },
+        "b": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson_lower": 0.9992322980549431,
+          "wilson_upper": 1.0000000000000002,
+          "se": 0.0,
+          "in_region": false
+        },
+        "c": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson_lower": 0.9992322980549431,
+          "wilson_upper": 1.0000000000000002,
+          "se": 0.0,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson_lower": 0.9992322980549431,
+          "wilson_upper": 1.0000000000000002,
+          "se": 0.0,
+          "in_region": false
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.0,
+          "se": 0.0,
+          "n": 5000
+        },
+        "b_minus_c": {
+          "delta": 0.0,
+          "se": 0.0,
+          "n": 5000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0,
+          "se": 0.0,
+          "n": 5000
+        }
+      }
+    },
+    "dgp1_rho0p8_n1000": {
+      "n": 1000,
+      "case": "c",
+      "rho": 0.8,
+      "rates": {
+        "a": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson_lower": 0.9992322980549431,
+          "wilson_upper": 1.0000000000000002,
+          "se": 0.0,
+          "in_region": false
+        },
+        "b": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson_lower": 0.9992322980549431,
+          "wilson_upper": 1.0000000000000002,
+          "se": 0.0,
+          "in_region": false
+        },
+        "c": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson_lower": 0.9992322980549431,
+          "wilson_upper": 1.0000000000000002,
+          "se": 0.0,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson_lower": 0.9992322980549431,
+          "wilson_upper": 1.0000000000000002,
+          "se": 0.0,
+          "in_region": false
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.0,
+          "se": 0.0,
+          "n": 5000
+        },
+        "b_minus_c": {
+          "delta": 0.0,
+          "se": 0.0,
+          "n": 5000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0,
+          "se": 0.0,
+          "n": 5000
+        }
+      }
+    },
+    "dgp1_rho0p85_n200": {
+      "n": 200,
+      "case": "c",
+      "rho": 0.85,
+      "rates": {
+        "a": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson_lower": 0.9992322980549431,
+          "wilson_upper": 1.0000000000000002,
+          "se": 0.0,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.9408,
+          "rejections": 4704,
+          "n": 5000,
+          "wilson_lower": 0.9339139292448034,
+          "wilson_upper": 0.9470092647204343,
+          "se": 0.0033375248313683007,
+          "in_region": false
+        },
+        "c": {
+          "rate": 0.9364,
+          "rejections": 4682,
+          "n": 5000,
+          "wilson_lower": 0.929294985071857,
+          "wilson_upper": 0.9428349646704972,
+          "se": 0.0034512328232097003,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.9404,
+          "rejections": 4702,
+          "n": 5000,
+          "wilson_lower": 0.9334936208290503,
+          "wilson_upper": 0.9466301872977434,
+          "se": 0.0033480692943844512,
+          "in_region": false
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.0592,
+          "se": 0.0033378586339226544,
+          "n": 5000
+        },
+        "b_minus_c": {
+          "delta": 0.0044,
+          "se": 0.0009361107096129874,
+          "n": 5000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0004,
+          "se": 0.00039999999999999996,
+          "n": 5000
+        }
+      }
+    },
+    "dgp1_rho0p85_n500": {
+      "n": 500,
+      "case": "c",
+      "rho": 0.85,
+      "rates": {
+        "a": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson_lower": 0.9992322980549431,
+          "wilson_upper": 1.0000000000000002,
+          "se": 0.0,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.9998,
+          "rejections": 4999,
+          "n": 5000,
+          "wilson_lower": 0.9988679109191605,
+          "wilson_upper": 0.9999646942165608,
+          "se": 0.00019997999899988897,
+          "in_region": false
+        },
+        "c": {
+          "rate": 0.9996,
+          "rejections": 4998,
+          "n": 5000,
+          "wilson_lower": 0.9985426134985768,
+          "wilson_upper": 0.9998902987179225,
+          "se": 0.0002827861382741226,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.9998,
+          "rejections": 4999,
+          "n": 5000,
+          "wilson_lower": 0.9988679109191605,
+          "wilson_upper": 0.9999646942165608,
+          "se": 0.00019997999899988897,
+          "in_region": false
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.0002,
+          "se": 0.00019999999999999998,
+          "n": 5000
+        },
+        "b_minus_c": {
+          "delta": 0.0002,
+          "se": 0.00019999999999999998,
+          "n": 5000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0,
+          "se": 0.0,
+          "n": 5000
+        }
+      }
+    },
+    "dgp1_rho0p85_n1000": {
+      "n": 1000,
+      "case": "c",
+      "rho": 0.85,
+      "rates": {
+        "a": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson_lower": 0.9992322980549431,
+          "wilson_upper": 1.0000000000000002,
+          "se": 0.0,
+          "in_region": false
+        },
+        "b": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson_lower": 0.9992322980549431,
+          "wilson_upper": 1.0000000000000002,
+          "se": 0.0,
+          "in_region": false
+        },
+        "c": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson_lower": 0.9992322980549431,
+          "wilson_upper": 1.0000000000000002,
+          "se": 0.0,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson_lower": 0.9992322980549431,
+          "wilson_upper": 1.0000000000000002,
+          "se": 0.0,
+          "in_region": false
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.0,
+          "se": 0.0,
+          "n": 5000
+        },
+        "b_minus_c": {
+          "delta": 0.0,
+          "se": 0.0,
+          "n": 5000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0,
+          "se": 0.0,
+          "n": 5000
+        }
+      }
+    },
+    "dgp1_rho0p9_n200": {
+      "n": 200,
+      "case": "c",
+      "rho": 0.9,
+      "rates": {
+        "a": {
+          "rate": 0.9926,
+          "rejections": 4963,
+          "n": 5000,
+          "wilson_lower": 0.989817257800601,
+          "wilson_upper": 0.9946264022431288,
+          "se": 0.001212042903531056,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.9226,
+          "rejections": 4613,
+          "n": 5000,
+          "wilson_lower": 0.914864343361008,
+          "wilson_upper": 0.9296867949550298,
+          "se": 0.0037791332339572265,
+          "in_region": false
+        },
+        "c": {
+          "rate": 0.9142,
+          "rejections": 4571,
+          "n": 5000,
+          "wilson_lower": 0.9061155260991285,
+          "wilson_upper": 0.9216485096095863,
+          "se": 0.003960766592466665,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.9214,
+          "rejections": 4607,
+          "n": 5000,
+          "wilson_lower": 0.9136130327945199,
+          "wilson_upper": 0.9285399480061861,
+          "se": 0.003805838672355937,
+          "in_region": false
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.07,
+          "se": 0.0037606952237203618,
+          "n": 5000
+        },
+        "b_minus_c": {
+          "delta": 0.0084,
+          "se": 0.001290821925847578,
+          "n": 5000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0012,
+          "se": 0.0005654873607703697,
+          "n": 5000
+        }
+      }
+    },
+    "dgp1_rho0p9_n500": {
+      "n": 500,
+      "case": "c",
+      "rho": 0.9,
+      "rates": {
+        "a": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson_lower": 0.9992322980549431,
+          "wilson_upper": 1.0000000000000002,
+          "se": 0.0,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.9996,
+          "rejections": 4998,
+          "n": 5000,
+          "wilson_lower": 0.9985426134985768,
+          "wilson_upper": 0.9998902987179225,
+          "se": 0.0002827861382741226,
+          "in_region": false
+        },
+        "c": {
+          "rate": 0.9996,
+          "rejections": 4998,
+          "n": 5000,
+          "wilson_lower": 0.9985426134985768,
+          "wilson_upper": 0.9998902987179225,
+          "se": 0.0002827861382741226,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.9996,
+          "rejections": 4998,
+          "n": 5000,
+          "wilson_lower": 0.9985426134985768,
+          "wilson_upper": 0.9998902987179225,
+          "se": 0.0002827861382741226,
+          "in_region": false
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.0004,
+          "se": 0.0002828144211304648,
+          "n": 5000
+        },
+        "b_minus_c": {
+          "delta": 0.0,
+          "se": 0.0,
+          "n": 5000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0,
+          "se": 0.0,
+          "n": 5000
+        }
+      }
+    },
+    "dgp1_rho0p9_n1000": {
+      "n": 1000,
+      "case": "c",
+      "rho": 0.9,
+      "rates": {
+        "a": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson_lower": 0.9992322980549431,
+          "wilson_upper": 1.0000000000000002,
+          "se": 0.0,
+          "in_region": false
+        },
+        "b": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson_lower": 0.9992322980549431,
+          "wilson_upper": 1.0000000000000002,
+          "se": 0.0,
+          "in_region": false
+        },
+        "c": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson_lower": 0.9992322980549431,
+          "wilson_upper": 1.0000000000000002,
+          "se": 0.0,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson_lower": 0.9992322980549431,
+          "wilson_upper": 1.0000000000000002,
+          "se": 0.0,
+          "in_region": false
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.0,
+          "se": 0.0,
+          "n": 5000
+        },
+        "b_minus_c": {
+          "delta": 0.0,
+          "se": 0.0,
+          "n": 5000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0,
+          "se": 0.0,
+          "n": 5000
+        }
+      }
+    },
+    "dgp1_rho0p93_n200": {
+      "n": 200,
+      "case": "c",
+      "rho": 0.93,
+      "rates": {
+        "a": {
+          "rate": 0.9054,
+          "rejections": 4527,
+          "n": 5000,
+          "wilson_lower": 0.8969738997374296,
+          "wilson_upper": 0.9132036475255182,
+          "se": 0.004138860712804914,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.835,
+          "rejections": 4175,
+          "n": 5000,
+          "wilson_lower": 0.8244551438664058,
+          "wilson_upper": 0.8450304958304058,
+          "se": 0.005249285665688238,
+          "in_region": false
+        },
+        "c": {
+          "rate": 0.8162,
+          "rejections": 4081,
+          "n": 5000,
+          "wilson_lower": 0.8052228360849966,
+          "wilson_upper": 0.8266916692049494,
+          "se": 0.005477546165939635,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.8328,
+          "rejections": 4164,
+          "n": 5000,
+          "wilson_lower": 0.8222022030426668,
+          "wilson_upper": 0.8428868145427033,
+          "se": 0.005277199257181787,
+          "in_region": false
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.0704,
+          "se": 0.004627423755192734,
+          "n": 5000
+        },
+        "b_minus_c": {
+          "delta": 0.0188,
+          "se": 0.0019209502882693243,
+          "n": 5000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0022,
+          "se": 0.0007740489844745443,
+          "n": 5000
+        }
+      }
+    },
+    "dgp1_rho0p93_n500": {
+      "n": 500,
+      "case": "c",
+      "rho": 0.93,
+      "rates": {
+        "a": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson_lower": 0.9992322980549431,
+          "wilson_upper": 1.0000000000000002,
+          "se": 0.0,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.9974,
+          "rejections": 4987,
+          "n": 5000,
+          "wilson_lower": 0.9955564171048898,
+          "wilson_upper": 0.9984798730001674,
+          "se": 0.0007201722016295889,
+          "in_region": false
+        },
+        "c": {
+          "rate": 0.9966,
+          "rejections": 4983,
+          "n": 5000,
+          "wilson_lower": 0.9945614552239989,
+          "wilson_upper": 0.9978760632041707,
+          "se": 0.0008232180756032946,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.9974,
+          "rejections": 4987,
+          "n": 5000,
+          "wilson_lower": 0.9955564171048898,
+          "wilson_upper": 0.9984798730001674,
+          "se": 0.0007201722016295889,
+          "in_region": false
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.0026,
+          "se": 0.0007202442296541291,
+          "n": 5000
+        },
+        "b_minus_c": {
+          "delta": 0.0008,
+          "se": 0.0003998799579825916,
+          "n": 5000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0,
+          "se": 0.0,
+          "n": 5000
+        }
+      }
+    },
+    "dgp1_rho0p93_n1000": {
+      "n": 1000,
+      "case": "c",
+      "rho": 0.93,
+      "rates": {
+        "a": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson_lower": 0.9992322980549431,
+          "wilson_upper": 1.0000000000000002,
+          "se": 0.0,
+          "in_region": false
+        },
+        "b": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson_lower": 0.9992322980549431,
+          "wilson_upper": 1.0000000000000002,
+          "se": 0.0,
+          "in_region": false
+        },
+        "c": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson_lower": 0.9992322980549431,
+          "wilson_upper": 1.0000000000000002,
+          "se": 0.0,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson_lower": 0.9992322980549431,
+          "wilson_upper": 1.0000000000000002,
+          "se": 0.0,
+          "in_region": false
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.0,
+          "se": 0.0,
+          "n": 5000
+        },
+        "b_minus_c": {
+          "delta": 0.0,
+          "se": 0.0,
+          "n": 5000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0,
+          "se": 0.0,
+          "n": 5000
+        }
+      }
+    },
+    "dgp1_rho0p95_n200": {
+      "n": 200,
+      "case": "c",
+      "rho": 0.95,
+      "rates": {
+        "a": {
+          "rate": 0.702,
+          "rejections": 3510,
+          "n": 5000,
+          "wilson_lower": 0.689171162942197,
+          "wilson_upper": 0.7145186854719998,
+          "se": 0.006468322811981481,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.6552,
+          "rejections": 3276,
+          "n": 5000,
+          "wilson_lower": 0.641910886261257,
+          "wilson_upper": 0.6682508190549972,
+          "se": 0.006721799758993122,
+          "in_region": false
+        },
+        "c": {
+          "rate": 0.628,
+          "rejections": 3140,
+          "n": 5000,
+          "wilson_lower": 0.6145093066722842,
+          "wilson_upper": 0.6412941616297811,
+          "se": 0.006835437074540296,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.6502,
+          "rejections": 3251,
+          "n": 5000,
+          "wilson_lower": 0.6368703279292213,
+          "wilson_upper": 0.6632990544064835,
+          "se": 0.006744478630702302,
+          "in_region": false
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.0468,
+          "se": 0.004895584270449219,
+          "n": 5000
+        },
+        "b_minus_c": {
+          "delta": 0.0272,
+          "se": 0.0023006717754003128,
+          "n": 5000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.005,
+          "se": 0.001146849184771268,
+          "n": 5000
+        }
+      }
+    },
+    "dgp1_rho0p95_n500": {
+      "n": 500,
+      "case": "c",
+      "rho": 0.95,
+      "rates": {
+        "a": {
+          "rate": 0.9998,
+          "rejections": 4999,
+          "n": 5000,
+          "wilson_lower": 0.9988679109191605,
+          "wilson_upper": 0.9999646942165608,
+          "se": 0.00019997999899988897,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.9926,
+          "rejections": 4963,
+          "n": 5000,
+          "wilson_lower": 0.989817257800601,
+          "wilson_upper": 0.9946264022431288,
+          "se": 0.001212042903531056,
+          "in_region": false
+        },
+        "c": {
+          "rate": 0.991,
+          "rejections": 4955,
+          "n": 5000,
+          "wilson_lower": 0.9879793453009316,
+          "wilson_upper": 0.9932667713890224,
+          "se": 0.0013355897573731246,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.9926,
+          "rejections": 4963,
+          "n": 5000,
+          "wilson_lower": 0.989817257800601,
+          "wilson_upper": 0.9946264022431288,
+          "se": 0.001212042903531056,
+          "in_region": false
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.0072,
+          "se": 0.0011957917810374512,
+          "n": 5000
+        },
+        "b_minus_c": {
+          "delta": 0.0016,
+          "se": 0.0005652892271944303,
+          "n": 5000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0,
+          "se": 0.0,
+          "n": 5000
+        }
+      }
+    },
+    "dgp1_rho0p95_n1000": {
+      "n": 1000,
+      "case": "c",
+      "rho": 0.95,
+      "rates": {
+        "a": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson_lower": 0.9992322980549431,
+          "wilson_upper": 1.0000000000000002,
+          "se": 0.0,
+          "in_region": false
+        },
+        "b": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson_lower": 0.9992322980549431,
+          "wilson_upper": 1.0000000000000002,
+          "se": 0.0,
+          "in_region": false
+        },
+        "c": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson_lower": 0.9992322980549431,
+          "wilson_upper": 1.0000000000000002,
+          "se": 0.0,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson_lower": 0.9992322980549431,
+          "wilson_upper": 1.0000000000000002,
+          "se": 0.0,
+          "in_region": false
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.0,
+          "se": 0.0,
+          "n": 5000
+        },
+        "b_minus_c": {
+          "delta": 0.0,
+          "se": 0.0,
+          "n": 5000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0,
+          "se": 0.0,
+          "n": 5000
+        }
+      }
+    },
+    "dgp1_rho0p97_n200": {
+      "n": 200,
+      "case": "c",
+      "rho": 0.97,
+      "rates": {
+        "a": {
+          "rate": 0.3806,
+          "rejections": 1903,
+          "n": 5000,
+          "wilson_lower": 0.36723843897349046,
+          "wilson_upper": 0.3941448882509893,
+          "se": 0.006866493136965914,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.3642,
+          "rejections": 1821,
+          "n": 5000,
+          "wilson_lower": 0.35097088704825424,
+          "wilson_upper": 0.37763762080002344,
+          "se": 0.006805267959456115,
+          "in_region": false
+        },
+        "c": {
+          "rate": 0.3454,
+          "rejections": 1727,
+          "n": 5000,
+          "wilson_lower": 0.3323433079488894,
+          "wilson_upper": 0.3586940654925223,
+          "se": 0.006724564521216225,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.3628,
+          "rejections": 1814,
+          "n": 5000,
+          "wilson_lower": 0.3495829609811411,
+          "wilson_upper": 0.37622769643258264,
+          "se": 0.006799649402726585,
+          "in_region": false
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.0164,
+          "se": 0.0042836757551891255,
+          "n": 5000
+        },
+        "b_minus_c": {
+          "delta": 0.0188,
+          "se": 0.001941665783084885,
+          "n": 5000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0014,
+          "se": 0.0007744210389633781,
+          "n": 5000
+        }
+      }
+    },
+    "dgp1_rho0p97_n500": {
+      "n": 500,
+      "case": "c",
+      "rho": 0.97,
+      "rates": {
+        "a": {
+          "rate": 0.9544,
+          "rejections": 4772,
+          "n": 5000,
+          "wilson_lower": 0.9482604246805078,
+          "wilson_upper": 0.9598418877918244,
+          "se": 0.002950275919299752,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.9352,
+          "rejections": 4676,
+          "n": 5000,
+          "wilson_lower": 0.9280369064172753,
+          "wilson_upper": 0.9416948858097471,
+          "se": 0.003481406612276135,
+          "in_region": false
+        },
+        "c": {
+          "rate": 0.9196,
+          "rejections": 4598,
+          "n": 5000,
+          "wilson_lower": 0.9117370198945375,
+          "wilson_upper": 0.9268187246331706,
+          "se": 0.0038454086908935965,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.9342,
+          "rejections": 4671,
+          "n": 5000,
+          "wilson_lower": 0.9269890168379437,
+          "wilson_upper": 0.9407443107929688,
+          "se": 0.0035062903473614382,
+          "in_region": false
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.0192,
+          "se": 0.0026995795127962396,
+          "n": 5000
+        },
+        "b_minus_c": {
+          "delta": 0.0156,
+          "se": 0.0017526957489757589,
+          "n": 5000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.001,
+          "se": 0.0004470346384717841,
+          "n": 5000
+        }
+      }
+    },
+    "dgp1_rho0p97_n1000": {
+      "n": 1000,
+      "case": "c",
+      "rho": 0.97,
+      "rates": {
+        "a": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson_lower": 0.9992322980549431,
+          "wilson_upper": 1.0000000000000002,
+          "se": 0.0,
+          "in_region": false
+        },
+        "b": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson_lower": 0.9992322980549431,
+          "wilson_upper": 1.0000000000000002,
+          "se": 0.0,
+          "in_region": false
+        },
+        "c": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson_lower": 0.9992322980549431,
+          "wilson_upper": 1.0000000000000002,
+          "se": 0.0,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson_lower": 0.9992322980549431,
+          "wilson_upper": 1.0000000000000002,
+          "se": 0.0,
+          "in_region": false
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.0,
+          "se": 0.0,
+          "n": 5000
+        },
+        "b_minus_c": {
+          "delta": 0.0,
+          "se": 0.0,
+          "n": 5000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0,
+          "se": 0.0,
+          "n": 5000
+        }
+      }
+    },
+    "dgp1_rho0p99_n200": {
+      "n": 200,
+      "case": "c",
+      "rho": 0.99,
+      "rates": {
+        "a": {
+          "rate": 0.1134,
+          "rejections": 567,
+          "n": 5000,
+          "wilson_lower": 0.10490627721799813,
+          "wilson_upper": 0.12248730992592007,
+          "se": 0.004484204277238048,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.1116,
+          "rejections": 558,
+          "n": 5000,
+          "wilson_lower": 0.1031687392725768,
+          "wilson_upper": 0.12062761159834359,
+          "se": 0.004452986413632991,
+          "in_region": false
+        },
+        "c": {
+          "rate": 0.1006,
+          "rejections": 503,
+          "n": 5000,
+          "wilson_lower": 0.09256663145562494,
+          "wilson_upper": 0.10924660885808668,
+          "se": 0.00425393088801405,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.1104,
+          "rejections": 552,
+          "n": 5000,
+          "wilson_lower": 0.10201077811674307,
+          "wilson_upper": 0.11938741523884545,
+          "se": 0.004431971119039473,
+          "in_region": false
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.0018,
+          "se": 0.002877674095800344,
+          "n": 5000
+        },
+        "b_minus_c": {
+          "delta": 0.011,
+          "se": 0.0015284852807438776,
+          "n": 5000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0012,
+          "se": 0.0007482138496398997,
+          "n": 5000
+        }
+      }
+    },
+    "dgp1_rho0p99_n500": {
+      "n": 500,
+      "case": "c",
+      "rho": 0.99,
+      "rates": {
+        "a": {
+          "rate": 0.3,
+          "rejections": 1500,
+          "n": 5000,
+          "wilson_lower": 0.28745547033435137,
+          "wilson_upper": 0.3128516104436715,
+          "se": 0.00648074069840786,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.2966,
+          "rejections": 1483,
+          "n": 5000,
+          "wilson_lower": 0.2840995774934471,
+          "wilson_upper": 0.3094127236578022,
+          "se": 0.006459542398653329,
+          "in_region": false
+        },
+        "c": {
+          "rate": 0.2698,
+          "rejections": 1349,
+          "n": 5000,
+          "wilson_lower": 0.25767734997090547,
+          "wilson_upper": 0.28227610000459885,
+          "se": 0.006277068742653691,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.2952,
+          "rejections": 1476,
+          "n": 5000,
+          "wilson_lower": 0.28271798279053617,
+          "wilson_upper": 0.3079964679261593,
+          "se": 0.006450689265497138,
+          "in_region": false
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.0034,
+          "se": 0.0031431932700339243,
+          "n": 5000
+        },
+        "b_minus_c": {
+          "delta": 0.0268,
+          "se": 0.0022841618767276144,
+          "n": 5000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0014,
+          "se": 0.0007209104954073547,
+          "n": 5000
+        }
+      }
+    },
+    "dgp1_rho0p99_n1000": {
+      "n": 1000,
+      "case": "c",
+      "rho": 0.99,
+      "rates": {
+        "a": {
+          "rate": 0.7384,
+          "rejections": 3692,
+          "n": 5000,
+          "wilson_lower": 0.7260380233994086,
+          "wilson_upper": 0.750395936313188,
+          "se": 0.0062155521074157205,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.7266,
+          "rejections": 3633,
+          "n": 5000,
+          "wilson_lower": 0.7140754870471763,
+          "wilson_upper": 0.7387765904313238,
+          "se": 0.0063032125142660385,
+          "in_region": false
+        },
+        "c": {
+          "rate": 0.6944,
+          "rejections": 3472,
+          "n": 5000,
+          "wilson_lower": 0.6814861491262658,
+          "wilson_upper": 0.707015368357496,
+          "se": 0.006514731613811884,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.7272,
+          "rejections": 3636,
+          "n": 5000,
+          "wilson_lower": 0.7146834851964738,
+          "wilson_upper": 0.7393676710396921,
+          "se": 0.006298891331020087,
+          "in_region": false
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.0118,
+          "se": 0.0028729432226467875,
+          "n": 5000
+        },
+        "b_minus_c": {
+          "delta": 0.0322,
+          "se": 0.0024967736733142536,
+          "n": 5000
+        },
+        "b_minus_msb_sim": {
+          "delta": -0.0006,
+          "se": 0.00034634085868993225,
+          "n": 5000
+        }
+      }
+    },
+    "ct_power_rho0p9_n200": {
+      "n": 200,
+      "case": "ct",
+      "rho": 0.9,
+      "rates": {
+        "a": {
+          "rate": 0.8128,
+          "rejections": 4064,
+          "n": 5000,
+          "wilson_lower": 0.8017493010587605,
+          "wilson_upper": 0.8233704246044117,
+          "se": 0.005516451033046519,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.7314,
+          "rejections": 3657,
+          "n": 5000,
+          "wilson_lower": 0.7189402649082668,
+          "wilson_upper": 0.7435044426315609,
+          "se": 0.006268238029941109,
+          "in_region": false
+        },
+        "c": {
+          "rate": 0.6168,
+          "rejections": 3084,
+          "n": 5000,
+          "wilson_lower": 0.6032396103699001,
+          "wilson_upper": 0.6301810544557346,
+          "se": 0.006875431041032991,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.7302,
+          "rejections": 3651,
+          "n": 5000,
+          "wilson_lower": 0.7177238999954012,
+          "wilson_upper": 0.7423226500290945,
+          "se": 0.006277068742653692,
+          "in_region": false
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.0814,
+          "se": 0.005628600556874307,
+          "n": 5000
+        },
+        "b_minus_c": {
+          "delta": 0.1146,
+          "se": 0.004505266638668248,
+          "n": 5000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0012,
+          "se": 0.0007482138496398998,
+          "n": 5000
+        }
+      }
+    },
+    "ct_power_rho0p9_n500": {
+      "n": 500,
+      "case": "ct",
+      "rho": 0.9,
+      "rates": {
+        "a": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson_lower": 0.9992322980549431,
+          "wilson_upper": 1.0000000000000002,
+          "se": 0.0,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.9882,
+          "rejections": 4941,
+          "n": 5000,
+          "wilson_lower": 0.9848098377435525,
+          "wilson_upper": 0.9908405780772939,
+          "se": 0.0015271385005951512,
+          "in_region": false
+        },
+        "c": {
+          "rate": 0.9822,
+          "rejections": 4911,
+          "n": 5000,
+          "wilson_lower": 0.9781475738363508,
+          "wilson_upper": 0.9855120544078362,
+          "se": 0.0018699283408729886,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.9882,
+          "rejections": 4941,
+          "n": 5000,
+          "wilson_lower": 0.9848098377435525,
+          "wilson_upper": 0.9908405780772939,
+          "se": 0.0015271385005951512,
+          "in_region": false
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.0118,
+          "se": 0.0015272912373561042,
+          "n": 5000
+        },
+        "b_minus_c": {
+          "delta": 0.006,
+          "se": 0.001092263067086654,
+          "n": 5000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0,
+          "se": 0.0002828710009892144,
+          "n": 5000
+        }
+      }
+    },
+    "ct_power_rho0p9_n1000": {
+      "n": 1000,
+      "case": "ct",
+      "rho": 0.9,
+      "rates": {
+        "a": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson_lower": 0.9992322980549431,
+          "wilson_upper": 1.0000000000000002,
+          "se": 0.0,
+          "in_region": false
+        },
+        "b": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson_lower": 0.9992322980549431,
+          "wilson_upper": 1.0000000000000002,
+          "se": 0.0,
+          "in_region": false
+        },
+        "c": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson_lower": 0.9992322980549431,
+          "wilson_upper": 1.0000000000000002,
+          "se": 0.0,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson_lower": 0.9992322980549431,
+          "wilson_upper": 1.0000000000000002,
+          "se": 0.0,
+          "in_region": false
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.0,
+          "se": 0.0,
+          "n": 5000
+        },
+        "b_minus_c": {
+          "delta": 0.0,
+          "se": 0.0,
+          "n": 5000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0,
+          "se": 0.0,
+          "n": 5000
+        }
+      }
+    },
+    "ct_power_rho0p95_n200": {
+      "n": 200,
+      "case": "ct",
+      "rho": 0.95,
+      "rates": {
+        "a": {
+          "rate": 0.293,
+          "rejections": 1465,
+          "n": 5000,
+          "wilson_lower": 0.28054719438121617,
+          "wilson_upper": 0.30577063422403755,
+          "se": 0.006436629552801684,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.2818,
+          "rejections": 1409,
+          "n": 5000,
+          "wilson_lower": 0.2695014664723687,
+          "wilson_upper": 0.29443355865645426,
+          "se": 0.00636221282259561,
+          "in_region": false
+        },
+        "c": {
+          "rate": 0.1868,
+          "rejections": 934,
+          "n": 5000,
+          "wilson_lower": 0.1762387702652971,
+          "wilson_upper": 0.19784211823308673,
+          "se": 0.005511910013779253,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.2792,
+          "rejections": 1396,
+          "n": 5000,
+          "wilson_lower": 0.2669386307897509,
+          "wilson_upper": 0.2918003863891864,
+          "se": 0.006344247157858843,
+          "in_region": false
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.0112,
+          "se": 0.004460817389039331,
+          "n": 5000
+        },
+        "b_minus_c": {
+          "delta": 0.095,
+          "se": 0.004147100154076048,
+          "n": 5000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0026,
+          "se": 0.0009158688569618634,
+          "n": 5000
+        }
+      }
+    },
+    "ct_power_rho0p95_n500": {
+      "n": 500,
+      "case": "ct",
+      "rho": 0.95,
+      "rates": {
+        "a": {
+          "rate": 0.96,
+          "rejections": 4800,
+          "n": 5000,
+          "wilson_lower": 0.9542058586128747,
+          "wilson_upper": 0.9650878555976729,
+          "se": 0.002771281292110205,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.9096,
+          "rejections": 4548,
+          "n": 5000,
+          "wilson_lower": 0.9013341121830645,
+          "wilson_upper": 0.9172369863835448,
+          "se": 0.004055313551379228,
+          "in_region": false
+        },
+        "c": {
+          "rate": 0.8644,
+          "rejections": 4322,
+          "n": 5000,
+          "wilson_lower": 0.8546301160030333,
+          "wilson_upper": 0.873610382819409,
+          "se": 0.0048417484445187784,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.9096,
+          "rejections": 4548,
+          "n": 5000,
+          "wilson_lower": 0.9013341121830645,
+          "wilson_upper": 0.9172369863835448,
+          "se": 0.004055313551379228,
+          "in_region": false
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.0504,
+          "se": 0.003562935152564565,
+          "n": 5000
+        },
+        "b_minus_c": {
+          "delta": 0.0452,
+          "se": 0.0029382169122998294,
+          "n": 5000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0,
+          "se": 0.00040004000600100015,
+          "n": 5000
+        }
+      }
+    },
+    "ct_power_rho0p95_n1000": {
+      "n": 1000,
+      "case": "ct",
+      "rho": 0.95,
+      "rates": {
+        "a": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson_lower": 0.9992322980549431,
+          "wilson_upper": 1.0000000000000002,
+          "se": 0.0,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.9986,
+          "rejections": 4993,
+          "n": 5000,
+          "wilson_lower": 0.9971127802223416,
+          "wilson_upper": 0.9993216673980476,
+          "se": 0.000528779727296718,
+          "in_region": false
+        },
+        "c": {
+          "rate": 0.9978,
+          "rejections": 4989,
+          "n": 5000,
+          "wilson_lower": 0.9960645913506401,
+          "wilson_upper": 0.9987710845928612,
+          "se": 0.0006625948988635484,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.9986,
+          "rejections": 4993,
+          "n": 5000,
+          "wilson_lower": 0.9971127802223416,
+          "wilson_upper": 0.9993216673980476,
+          "se": 0.000528779727296718,
+          "in_region": false
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.0014,
+          "se": 0.0005288326132024737,
+          "n": 5000
+        },
+        "b_minus_c": {
+          "delta": 0.0008,
+          "se": 0.0003998799579825916,
+          "n": 5000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0,
+          "se": 0.0,
+          "n": 5000
+        }
+      }
+    },
+    "ct_power_rho0p97_n200": {
+      "n": 200,
+      "case": "ct",
+      "rho": 0.97,
+      "rates": {
+        "a": {
+          "rate": 0.1306,
+          "rejections": 653,
+          "n": 5000,
+          "wilson_lower": 0.1215429201688366,
+          "wilson_upper": 0.14022425802817165,
+          "se": 0.0047653675618990815,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.1282,
+          "rejections": 641,
+          "n": 5000,
+          "wilson_lower": 0.11921809675434933,
+          "wilson_upper": 0.13775276641199521,
+          "se": 0.004727890861684521,
+          "in_region": false
+        },
+        "c": {
+          "rate": 0.0808,
+          "rejections": 404,
+          "n": 5000,
+          "wilson_lower": 0.07356392173647128,
+          "wilson_upper": 0.0886797195742646,
+          "se": 0.003854124024989336,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.127,
+          "rejections": 635,
+          "n": 5000,
+          "wilson_lower": 0.1180560830411986,
+          "wilson_upper": 0.13651662260981404,
+          "se": 0.004708948927308513,
+          "in_region": false
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.0024,
+          "se": 0.003124227930230444,
+          "n": 5000
+        },
+        "b_minus_c": {
+          "delta": 0.0474,
+          "se": 0.0030054042142277936,
+          "n": 5000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0012,
+          "se": 0.0007482138496398998,
+          "n": 5000
+        }
+      }
+    },
+    "ct_power_rho0p97_n500": {
+      "n": 500,
+      "case": "ct",
+      "rho": 0.97,
+      "rates": {
+        "a": {
+          "rate": 0.5884,
+          "rejections": 2942,
+          "n": 5000,
+          "wilson_lower": 0.5746964892524404,
+          "wilson_upper": 0.6019677810436737,
+          "se": 0.006959675854520812,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.5624,
+          "rejections": 2812,
+          "n": 5000,
+          "wilson_lower": 0.5486066039927336,
+          "wilson_upper": 0.5760975868045232,
+          "se": 0.007015785629564233,
+          "in_region": false
+        },
+        "c": {
+          "rate": 0.4744,
+          "rejections": 2372,
+          "n": 5000,
+          "wilson_lower": 0.46058409205487477,
+          "wilson_upper": 0.48825521428471225,
+          "se": 0.007061793539887725,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.5624,
+          "rejections": 2812,
+          "n": 5000,
+          "wilson_lower": 0.5486066039927336,
+          "wilson_upper": 0.5760975868045232,
+          "se": 0.007015785629564233,
+          "in_region": false
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.026,
+          "se": 0.004245987009063526,
+          "n": 5000
+        },
+        "b_minus_c": {
+          "delta": 0.088,
+          "se": 0.004006795587770411,
+          "n": 5000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0,
+          "se": 0.0005657420019784288,
+          "n": 5000
+        }
+      }
+    },
+    "ct_power_rho0p97_n1000": {
+      "n": 1000,
+      "case": "ct",
+      "rho": 0.97,
+      "rates": {
+        "a": {
+          "rate": 0.994,
+          "rejections": 4970,
+          "n": 5000,
+          "wilson_lower": 0.9914476466387817,
+          "wilson_upper": 0.995793863839502,
+          "se": 0.0010921538353180842,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.9794,
+          "rejections": 4897,
+          "n": 5000,
+          "wilson_lower": 0.9750792015143168,
+          "wilson_upper": 0.9829847258607627,
+          "se": 0.0020087628033194937,
+          "in_region": false
+        },
+        "c": {
+          "rate": 0.9694,
+          "rejections": 4847,
+          "n": 5000,
+          "wilson_lower": 0.9642539648983366,
+          "wilson_upper": 0.9738253165156439,
+          "se": 0.002435719195638116,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.9794,
+          "rejections": 4897,
+          "n": 5000,
+          "wilson_lower": 0.9750792015143168,
+          "wilson_upper": 0.9829847258607627,
+          "se": 0.0020087628033194937,
+          "in_region": false
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.0146,
+          "se": 0.0018324954591817098,
+          "n": 5000
+        },
+        "b_minus_c": {
+          "delta": 0.01,
+          "se": 0.001407265461530213,
+          "n": 5000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0,
+          "se": 0.0,
+          "n": 5000
+        }
+      }
+    },
+    "ct_power_rho0p99_n200": {
+      "n": 200,
+      "case": "ct",
+      "rho": 0.99,
+      "rates": {
+        "a": {
+          "rate": 0.0612,
+          "rejections": 306,
+          "n": 5000,
+          "wilson_lower": 0.05488694601595171,
+          "wilson_upper": 0.06818678921103043,
+          "se": 0.0033898247742324378,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.061,
+          "rejections": 305,
+          "n": 5000,
+          "wilson_lower": 0.054697233283090105,
+          "wilson_upper": 0.06797680902467006,
+          "se": 0.003384641783113835,
+          "in_region": false
+        },
+        "c": {
+          "rate": 0.0346,
+          "rejections": 173,
+          "n": 5000,
+          "wilson_lower": 0.029880766023927013,
+          "wilson_upper": 0.04003381094653217,
+          "se": 0.0025846794772273023,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.0614,
+          "rejections": 307,
+          "n": 5000,
+          "wilson_lower": 0.055076678775241784,
+          "wilson_upper": 0.06839674937096234,
+          "se": 0.0033949974963171916,
+          "in_region": false
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.0002,
+          "se": 0.0022717887676544594,
+          "n": 5000
+        },
+        "b_minus_c": {
+          "delta": 0.0264,
+          "se": 0.0022675176575421532,
+          "n": 5000
+        },
+        "b_minus_msb_sim": {
+          "delta": -0.0004,
+          "se": 0.0006324934858177753,
+          "n": 5000
+        }
+      }
+    },
+    "ct_power_rho0p99_n500": {
+      "n": 500,
+      "case": "ct",
+      "rho": 0.99,
+      "rates": {
+        "a": {
+          "rate": 0.0994,
+          "rejections": 497,
+          "n": 5000,
+          "wilson_lower": 0.0914118206070568,
+          "wilson_upper": 0.10800326219132297,
+          "se": 0.004231303345306266,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.0996,
+          "rejections": 498,
+          "n": 5000,
+          "wilson_lower": 0.09160426345312381,
+          "wilson_upper": 0.10821051226447792,
+          "se": 0.004235087720461053,
+          "in_region": false
+        },
+        "c": {
+          "rate": 0.0712,
+          "rejections": 356,
+          "n": 5000,
+          "wilson_lower": 0.06439638427486137,
+          "wilson_upper": 0.07866199691321961,
+          "se": 0.0036367721952302702,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.1002,
+          "rejections": 501,
+          "n": 5000,
+          "wilson_lower": 0.09218165360924936,
+          "wilson_upper": 0.10883220086601832,
+          "se": 0.004246409306696659,
+          "in_region": false
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": -0.0002,
+          "se": 0.0023240207000891555,
+          "n": 5000
+        },
+        "b_minus_c": {
+          "delta": 0.0284,
+          "se": 0.0023494237502825407,
+          "n": 5000
+        },
+        "b_minus_msb_sim": {
+          "delta": -0.0006,
+          "se": 0.0003463408586899322,
+          "n": 5000
+        }
+      }
+    },
+    "ct_power_rho0p99_n1000": {
+      "n": 1000,
+      "case": "ct",
+      "rho": 0.99,
+      "rates": {
+        "a": {
+          "rate": 0.3044,
+          "rejections": 1522,
+          "n": 5000,
+          "wilson_lower": 0.29179962329804365,
+          "wilson_upper": 0.31730070170286273,
+          "se": 0.006507543929932398,
+          "in_region": false
+        },
+        "b": {
+          "rate": 0.3014,
+          "rejections": 1507,
+          "n": 5000,
+          "wilson_lower": 0.28883755063934835,
+          "wilson_upper": 0.31426738057322845,
+          "se": 0.0064893457297326975,
+          "in_region": false
+        },
+        "c": {
+          "rate": 0.2458,
+          "rejections": 1229,
+          "n": 5000,
+          "wilson_lower": 0.23406382627796424,
+          "wilson_upper": 0.25792647339090286,
+          "se": 0.006089045245356615,
+          "in_region": false
+        },
+        "msb_sim": {
+          "rate": 0.3008,
+          "rejections": 1504,
+          "n": 5000,
+          "wilson_lower": 0.2882452132866382,
+          "wilson_upper": 0.3136606391682727,
+          "se": 0.006485666658100769,
+          "in_region": false
+        }
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.003,
+          "se": 0.0028495304814640876,
+          "n": 5000
+        },
+        "b_minus_c": {
+          "delta": 0.0556,
+          "se": 0.003240961086738493,
+          "n": 5000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0006,
+          "se": 0.0004471778098236984,
+          "n": 5000
+        }
+      }
+    }
+  },
+  "power_by_n": {
+    "c": {
+      "200": {
+        "cells": [
+          "dgp1_rho0p8_n200",
+          "dgp1_rho0p85_n200",
+          "dgp1_rho0p9_n200",
+          "dgp1_rho0p93_n200",
+          "dgp1_rho0p95_n200",
+          "dgp1_rho0p97_n200",
+          "dgp1_rho0p99_n200"
+        ],
+        "a_minus_b": {
+          "mean": 0.045485714285714296,
+          "se": 0.001481022534188405,
+          "k": 7
+        },
+        "b_minus_c": {
+          "mean": 0.013342857142857142,
+          "se": 0.0006159045366709871,
+          "k": 7
+        },
+        "b_minus_msb_sim": {
+          "mean": 0.0016857142857142856,
+          "se": 0.00027530105037531035,
+          "k": 7
+        }
+      },
+      "500": {
+        "cells": [
+          "dgp1_rho0p8_n500",
+          "dgp1_rho0p85_n500",
+          "dgp1_rho0p9_n500",
+          "dgp1_rho0p93_n500",
+          "dgp1_rho0p95_n500",
+          "dgp1_rho0p97_n500",
+          "dgp1_rho0p99_n500"
+        ],
+        "a_minus_b": {
+          "mean": 0.004714285714285713,
+          "se": 0.0006265559767725676,
+          "k": 7
+        },
+        "b_minus_c": {
+          "mean": 0.0064285714285714285,
+          "se": 0.00042399445892489594,
+          "k": 7
+        },
+        "b_minus_msb_sim": {
+          "mean": 0.0003428571428571429,
+          "se": 0.00012118057957007935,
+          "k": 7
+        }
+      },
+      "1000": {
+        "cells": [
+          "dgp1_rho0p8_n1000",
+          "dgp1_rho0p85_n1000",
+          "dgp1_rho0p9_n1000",
+          "dgp1_rho0p93_n1000",
+          "dgp1_rho0p95_n1000",
+          "dgp1_rho0p97_n1000",
+          "dgp1_rho0p99_n1000"
+        ],
+        "a_minus_b": {
+          "mean": 0.0016857142857142856,
+          "se": 0.0004104204603781125,
+          "k": 7
+        },
+        "b_minus_c": {
+          "mean": 0.0046,
+          "se": 0.0003566819533306077,
+          "k": 7
+        },
+        "b_minus_msb_sim": {
+          "mean": -8.571428571428571e-05,
+          "se": 4.947726552713318e-05,
+          "k": 7
+        }
+      }
+    },
+    "ct": {
+      "200": {
+        "cells": [
+          "ct_power_rho0p9_n200",
+          "ct_power_rho0p95_n200",
+          "ct_power_rho0p97_n200",
+          "ct_power_rho0p99_n200"
+        ],
+        "a_minus_b": {
+          "mean": 0.0238,
+          "se": 0.0020387168202706946,
+          "k": 4
+        },
+        "b_minus_c": {
+          "mean": 0.07085,
+          "se": 0.0017970454569862428,
+          "k": 4
+        },
+        "b_minus_msb_sim": {
+          "mean": 0.0011499999999999998,
+          "se": 0.0003839361683877663,
+          "k": 4
+        }
+      },
+      "500": {
+        "cells": [
+          "ct_power_rho0p9_n500",
+          "ct_power_rho0p95_n500",
+          "ct_power_rho0p97_n500",
+          "ct_power_rho0p99_n500"
+        ],
+        "a_minus_b": {
+          "mean": 0.022,
+          "se": 0.001550334708229648,
+          "k": 4
+        },
+        "b_minus_c": {
+          "mean": 0.0419,
+          "se": 0.0014009006047899686,
+          "k": 4
+        },
+        "b_minus_msb_sim": {
+          "mean": -0.00015,
+          "se": 0.0002061649844182082,
+          "k": 4
+        }
+      },
+      "1000": {
+        "cells": [
+          "ct_power_rho0p9_n1000",
+          "ct_power_rho0p95_n1000",
+          "ct_power_rho0p97_n1000",
+          "ct_power_rho0p99_n1000"
+        ],
+        "a_minus_b": {
+          "mean": 0.00475,
+          "se": 0.0008572312809818705,
+          "k": 4
+        },
+        "b_minus_c": {
+          "mean": 0.0166,
+          "se": 0.0008889645952513081,
+          "k": 4
+        },
+        "b_minus_msb_sim": {
+          "mean": 0.00015,
+          "se": 0.0001117944524559246,
+          "k": 4
+        }
+      }
+    }
+  },
+  "local_power": {
+    "dm|5": {
+      "case": "dm",
+      "c": 5.0,
+      "n": 2000,
+      "power": {
+        "a": 0.2949,
+        "b": 0.2902,
+        "c": 0.27445,
+        "msb_sim": 0.2902
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.0047,
+          "se": 0.0010192877156977654,
+          "n": 20000
+        },
+        "b_minus_c": {
+          "delta": 0.01575,
+          "se": 0.000880417873388307,
+          "n": 20000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0,
+          "se": 0.0002000050001875078,
+          "n": 20000
+        }
+      }
+    },
+    "dm|10": {
+      "case": "dm",
+      "c": 10.0,
+      "n": 2000,
+      "power": {
+        "a": 0.7243,
+        "b": 0.72005,
+        "c": 0.6953,
+        "msb_sim": 0.7198
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.00425,
+          "se": 0.0011561417336059664,
+          "n": 20000
+        },
+        "b_minus_c": {
+          "delta": 0.02475,
+          "se": 0.00109860467030278,
+          "n": 20000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.00025,
+          "se": 0.0001322790606539613,
+          "n": 20000
+        }
+      }
+    },
+    "dm|15": {
+      "case": "dm",
+      "c": 15.0,
+      "n": 2000,
+      "power": {
+        "a": 0.95805,
+        "b": 0.9549,
+        "c": 0.9466,
+        "msb_sim": 0.9549
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.00315,
+          "se": 0.000722516419535795,
+          "n": 20000
+        },
+        "b_minus_c": {
+          "delta": 0.0083,
+          "se": 0.0006415419540481667,
+          "n": 20000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0,
+          "se": 7.071244595190173e-05,
+          "n": 20000
+        }
+      }
+    },
+    "dm|20": {
+      "case": "dm",
+      "c": 20.0,
+      "n": 2000,
+      "power": {
+        "a": 0.99765,
+        "b": 0.9965,
+        "c": 0.9956,
+        "msb_sim": 0.9965
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.00115,
+          "se": 0.00027827638578820216,
+          "n": 20000
+        },
+        "b_minus_c": {
+          "delta": 0.0009,
+          "se": 0.0002120418545650937,
+          "n": 20000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0,
+          "se": 0.0,
+          "n": 20000
+        }
+      }
+    },
+    "ct|5": {
+      "case": "ct",
+      "c": 5.0,
+      "n": 2000,
+      "power": {
+        "a": 0.11235,
+        "b": 0.1135,
+        "c": 0.09345,
+        "msb_sim": 0.11355
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": -0.00115,
+          "se": 0.0008411119119727308,
+          "n": 20000
+        },
+        "b_minus_c": {
+          "delta": 0.02005,
+          "se": 0.0009911856523628015,
+          "n": 20000
+        },
+        "b_minus_msb_sim": {
+          "delta": -5e-05,
+          "se": 8.660398381426009e-05,
+          "n": 20000
+        }
+      }
+    },
+    "ct|10": {
+      "case": "ct",
+      "c": 10.0,
+      "n": 2000,
+      "power": {
+        "a": 0.29645,
+        "b": 0.29745,
+        "c": 0.25615,
+        "msb_sim": 0.2975
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": -0.001,
+          "se": 0.001264922923145942,
+          "n": 20000
+        },
+        "b_minus_c": {
+          "delta": 0.0413,
+          "se": 0.001407058808552271,
+          "n": 20000
+        },
+        "b_minus_msb_sim": {
+          "delta": -5e-05,
+          "se": 0.0001118056350324135,
+          "n": 20000
+        }
+      }
+    },
+    "ct|15": {
+      "case": "ct",
+      "c": 15.0,
+      "n": 2000,
+      "power": {
+        "a": 0.5877,
+        "b": 0.58255,
+        "c": 0.5257,
+        "msb_sim": 0.58245
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.00515,
+          "se": 0.0014564614443908048,
+          "n": 20000
+        },
+        "b_minus_c": {
+          "delta": 0.05685,
+          "se": 0.001637387531067812,
+          "n": 20000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0001,
+          "se": 0.00014142312408160575,
+          "n": 20000
+        }
+      }
+    },
+    "ct|20": {
+      "case": "ct",
+      "c": 20.0,
+      "n": 2000,
+      "power": {
+        "a": 0.84635,
+        "b": 0.8388,
+        "c": 0.79335,
+        "msb_sim": 0.8387
+      },
+      "diffs": {
+        "a_minus_b": {
+          "delta": 0.00755,
+          "se": 0.0012707205088179603,
+          "n": 20000
+        },
+        "b_minus_c": {
+          "delta": 0.04545,
+          "se": 0.0014728622953850976,
+          "n": 20000
+        },
+        "b_minus_msb_sim": {
+          "delta": 0.0001,
+          "se": 0.00012247550780666568,
+          "n": 20000
+        }
+      }
+    }
+  },
+  "elapsed_analysis_sec": 8.7
+}

@@ -1,0 +1,1987 @@
+{
+  "provenance": {
+    "script": "experiments/audit13_claims.py",
+    "script_sha256": "354466be4864c1321e1a7d23f004663ccef1bd1199f592110de2d575122b986f",
+    "commit": "2db4c12432217a39e52832430f38e81cac03c4fe",
+    "worktree_dirty": false,
+    "dirty_files": [],
+    "generated_utc": "2026-09-22T23:38:42.777894+00:00",
+    "seed_family": null,
+    "versions": {
+      "python": "3.11.0",
+      "platform": "Windows-10-10.0.26200-SP0",
+      "numpy": "2.2.4",
+      "scipy": "1.15.2",
+      "numba": "0.65.0",
+      "statsmodels": "0.14.6",
+      "arch": "8.0.0",
+      "pandas": "2.2.3",
+      "joblib": "1.4.2",
+      "matplotlib": "3.10.1",
+      "pytest": "9.0.3"
+    },
+    "code": {
+      "experiments/audit10_b100_protocol.py": {
+        "sha256": "2f4b3351d36f05faafd5a01981278237be31ccbd3a62eb53307d5888c3ab8c47",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b101_theta.py": {
+        "sha256": "c7f65d04c6a2762bcf4fcb7cd6fb3f3ea9f588392e6316175bb88631bd255903",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b102_identity.py": {
+        "sha256": "967ce70c299a9fa87ca467d3885c2c6ae54b11ca7f1a6aac75c94a9bd38125b3",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_application.py": {
+        "sha256": "6e73e4304a88e42b528dc119d56f8a47f3aced0cac6267493b67f96699f4032a",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_awb.py": {
+        "sha256": "c35235023f15eff41059abe196791e6ee57a3f52eb736779b4ed442b70f18f87",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_cv.py": {
+        "sha256": "bc3e2ee08728214ae92b5883e9f3bd067660d99acbeebaf032b8ef7cb289c8a7",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_dgp5.py": {
+        "sha256": "8df807243e62e3c044f4f55ccc9ba909254a15b011fd190d9a6a79c466f2e73e",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_equalized.py": {
+        "sha256": "039b485455232788d7503ff80d09565182b9d5ed696fdaf8c7e27f67ca44ce5d",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_finite.py": {
+        "sha256": "a6fea4ef3e9cab8ab5b2369189497de6ff8fc38abdd3f27b752efeb43935f113",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_lown.py": {
+        "sha256": "61ffc45a0782f9277588e5f3068af89add849a7eb28a87e3902c0df69269b264",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b104_cv5000.py": {
+        "sha256": "64b94cc583c2f45c67910c6f25c5bab49baf77d5d9b4841e49d632bcd4a20493",
+        "git_state": "committed"
+      },
+      "experiments/audit10_common.py": {
+        "sha256": "298e82a217d2dd32ba87245f6056dbb82051fe2985acd644b1e972f6768ca123",
+        "git_state": "committed"
+      },
+      "experiments/audit10_design.py": {
+        "sha256": "d9da80a9c9148338e1031d1a7736180ebffd76409385b5cf7fa0c7af20d28042",
+        "git_state": "committed"
+      },
+      "experiments/audit10_engine.py": {
+        "sha256": "3d2618561538c1afd8daf8224fa230826ae442505877afb8c12a378755911333",
+        "git_state": "committed"
+      },
+      "experiments/audit10_figconfig.py": {
+        "sha256": "522ae90338608ca46d449900388d6eb5c9e152140115dd6be362d17822b8116f",
+        "git_state": "committed"
+      },
+      "experiments/audit10_generate_report.py": {
+        "sha256": "9ebb38589ec72648a1a905a105d3e6cfaa9b486cbd3a4cd9a5800be1436f1d41",
+        "git_state": "committed"
+      },
+      "experiments/audit11_figconfig.py": {
+        "sha256": "3e0ac02a12cb821428036438924ad7d36aa65ef172b6b458b269d484af0fad84",
+        "git_state": "committed"
+      },
+      "experiments/audit12_common.py": {
+        "sha256": "9845605b593b4c07eed4a0ead1b9068951c1b302ca653d7fb410b2ddc84f7b84",
+        "git_state": "committed"
+      },
+      "experiments/audit12_unitroot.py": {
+        "sha256": "36b0bb5a7439cb0fabdfc346d9b1d2fef91fc0bacf54f49c4642538f4c3db3cb",
+        "git_state": "committed"
+      },
+      "experiments/audit13_b130_inventory.py": {
+        "sha256": "6e9e89107e8881c68dc81bc34c91e9b4838b84805adbcb955248abba18af3a75",
+        "git_state": "committed"
+      },
+      "experiments/audit13_claims.py": {
+        "sha256": "354466be4864c1321e1a7d23f004663ccef1bd1199f592110de2d575122b986f",
+        "git_state": "committed"
+      },
+      "experiments/audit13_common.py": {
+        "sha256": "94a6255b99fbd25b19a452147e20c76b9c181848e639ef26a09087b0169d19de",
+        "git_state": "committed"
+      },
+      "experiments/audit13_design.py": {
+        "sha256": "29fea9ecb7e3db08fac745d74779e229d871d5ac3e761d55f6c61c19561f2ab1",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_application.py": {
+        "sha256": "4969da94c823615f05e34dac23a5b5fc60b458dc962eca90d3048510a4da7c23",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_awb.py": {
+        "sha256": "0a95c3a6c42f334e463baf7216b202639ece93ec4080e82ef0067340f77ff373",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_calib.py": {
+        "sha256": "815694a898ff497d578447c1298db7f9772a75f13a088c2f1c2f82fd27af2ca3",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_dgp5.py": {
+        "sha256": "11022366b13d68a9f78a560403ea03221f8bceb999a34cbf68a06fd00a0a48ad",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_equalized.py": {
+        "sha256": "551896f43f6106547f300069fd03e861f57b6ec1c9435d97275f4f649158a6eb",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_size.py": {
+        "sha256": "90d4a4bfb173894cd2cf3f10a363446804a3a6339baec425c39a654fab7a4585",
+        "git_state": "committed"
+      },
+      "experiments/audit13_generate_report.py": {
+        "sha256": "9003c23136c8f3ecefa7c578fe8e50dcbeb2e4c056de215740d867fdfb7d86c8",
+        "git_state": "committed"
+      },
+      "experiments/audit13_t_tables.py": {
+        "sha256": "5bb1b16873c1586eea25efe4c4eb91d4b48e1185bb921f11446ce27fd693119c",
+        "git_state": "committed"
+      },
+      "experiments/audit13_tables.py": {
+        "sha256": "ecdb0d85bfbcbf36a50b4a6d905698ddd38d8cf100ba3e89cf1fc241c698aaa9",
+        "git_state": "committed"
+      },
+      "experiments/audit7_design.py": {
+        "sha256": "fb966e5a334cdd0f1f63632f28fbc5f6d9195d56de34065305639b56f10dc769",
+        "git_state": "committed"
+      },
+      "experiments/audit7_dgp5_analysis.py": {
+        "sha256": "7445da3a421063e937c8e2516167f0d0bb7aa2144ad9c1db263ac0c3df44ab61",
+        "git_state": "committed"
+      },
+      "experiments/audit7_dgp5_runner.py": {
+        "sha256": "bdd056463c63826f3260011e53b06bfb054d6678c0bfed9eca5af562ed92608f",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b0_inventory.py": {
+        "sha256": "6405cc166459c296fb32c86fed1abff150afc4889ba0598502d8c4e41ea07add",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_np_diagnostic.py": {
+        "sha256": "959b18541923f504c4178fdedd3a7d519a62487930c1de4dbcc8e476e0a43df0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_np_gate.py": {
+        "sha256": "93064f87f144776c7c83ee95d23bdbd7eadf5cbaff08af57297eda3ef37348f0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_regression_child.py": {
+        "sha256": "350b1389b64fdc89098d17861b7196671be9fe66123fb1f0702ddd5229fee150",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_validate.py": {
+        "sha256": "6a268b6ac14f5d05f2dfa26b5430328246f34893439ff6004b308d9a163170b0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2_size.py": {
+        "sha256": "74b1cdbd9f0bba3c77cb495b6c53393ba49eef75ff4f88d41257679ee2d4ff93",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2b_diagnostic.py": {
+        "sha256": "f89de9ed47612633614546168cb1887b0fb1c2faa37283276d03e45dd8096802",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2b_indep.py": {
+        "sha256": "47eb0f404478d0bac66bab7ea2002a24956ceeb287bdcb5bd441ee5fc0c8dda5",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b3_comparators.py": {
+        "sha256": "a4589a8ab3fe02284549b02f9c2078ad34172ddab47b268ce5c1ce4c444fc363",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b4_local_power.py": {
+        "sha256": "4de18b53c2f31d3d2f7e04fee1d786d42df0ba7998bdf30278b8029acea904c7",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b5_power.py": {
+        "sha256": "561c9dd52313c70d193ebe7ea772b3dbf91db2e691019eec3f5e76c4c8c28092",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b6_application.py": {
+        "sha256": "917157d7367c201cb4e92c2eafd1cb4f3d6f68d44dfbc9f6713c0ecb7e28de07",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b7_critical_values.py": {
+        "sha256": "1a228203fb9b1ed38020fe40ec4e6e690ea05c6bf152ceca42a82cc7f2d1c801",
+        "git_state": "committed"
+      },
+      "experiments/audit8_cache_fix_validate.py": {
+        "sha256": "01d88be3d99d27ddb32abdc63bbb5fad3ab6129300ba8cfe638b1790a60d314a",
+        "git_state": "committed"
+      },
+      "experiments/audit8_common.py": {
+        "sha256": "5718ec2cfa7f5f5c5f7f8d68ed26198e00ac827fb562cee67b234857e5719f0d",
+        "git_state": "committed"
+      },
+      "experiments/audit8_design.py": {
+        "sha256": "ad80aeae74d44ff4cecbd10dbfc480d24c146b81ec8f9d6561f95b7ba7079ae0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_environment.py": {
+        "sha256": "9b323700e91302ad0090e876b922a38a1dd6b23ef5f19fcc7748d947e617d21e",
+        "git_state": "committed"
+      },
+      "experiments/audit8_figconfig.py": {
+        "sha256": "eb516777a764ee78828acf7a5c743c4e9d8f5aab57b98550606354793d467e12",
+        "git_state": "committed"
+      },
+      "experiments/audit8_generate_report.py": {
+        "sha256": "91157e2576bec679f9f826423f55b6de104a01380651c9648a3aa25adac78819",
+        "git_state": "committed"
+      },
+      "experiments/audit8_unitroot.py": {
+        "sha256": "9d0842a342f12b9c8a7e3870127768590c53d98c8ca90dbb3a2715ddb16748ef",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b90_protocol.py": {
+        "sha256": "5e0a7109f7d1a7737ed2558ccc1766b36c61e0ead19738e9da6512af0d58e590",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b91_equalized.py": {
+        "sha256": "66be775e81bb3ddeadc202237f1343a4d231138274eb8387cc5ac48c1366b9b9",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b92_theta.py": {
+        "sha256": "56b784b7534e466897a6b31400dc17906ad101d2d114e93f9d5bb95b55c65af5",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b93_attribution.py": {
+        "sha256": "0c6a42942f19a4b0f07cf102704a98e4c17f76815a53bbb1e0407bb3119dd6ee",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b94_finite_sample.py": {
+        "sha256": "b5c5b0acc0792baaec3499d386bbce7768142ca4e37ca1ac03fb23914a0daae5",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b95_awb.py": {
+        "sha256": "f60dcb418bb045ef40684fc8572d74e578459d40d28925dd7c30bbac79dbf0c0",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b96_application.py": {
+        "sha256": "0ff5e46367a3f1dfae0a92aa02fd0fdf13b64efab897de61eaafb81599f468b4",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b97_critical_values.py": {
+        "sha256": "774956681a4c6536cfab497326e032518cb97c10a0aacf9bffd38ee92aef14f3",
+        "git_state": "committed"
+      },
+      "experiments/audit9_calibrate.py": {
+        "sha256": "d2f7ac2cd3d5fa866fac21379f79a60535749e8db61d02135aaea99ec0b75bbd",
+        "git_state": "committed"
+      },
+      "experiments/audit9_common.py": {
+        "sha256": "39fbee3c398de920ba2f9c4400ac6254c58d9fb537c6f97649c8299ea39e78f7",
+        "git_state": "committed"
+      },
+      "experiments/audit9_design.py": {
+        "sha256": "e25486561a4c06643807b4035e2beeb0436558b1157bfb3b7a866e5e7cb815ac",
+        "git_state": "committed"
+      },
+      "experiments/audit9_engine.py": {
+        "sha256": "8f8bd7a817178056d2e55a4c518bfc2188737c02c3f56cf467d15972ac651e1b",
+        "git_state": "committed"
+      },
+      "experiments/audit9_figconfig.py": {
+        "sha256": "502fc40d79bdec85ad4ebac69ee33949903c4c8b5e14ed5558ab3b6b985b8080",
+        "git_state": "committed"
+      },
+      "experiments/audit9_generate_report.py": {
+        "sha256": "c8257dc6873c4ef2d5bf1f40ff3906e7bbbd2513b241348583bfb3ec70f6f559",
+        "git_state": "committed"
+      },
+      "experiments/make_figures_audit10.py": {
+        "sha256": "defe405c489e96491a7f9a63e09392c24bce8cc3768b7ec654708eaf244ff560",
+        "git_state": "committed"
+      },
+      "experiments/make_figures_audit11.py": {
+        "sha256": "ae54c12199f80a46f7beb88544743d422d3e982aae3a14aede0a5f9efdf93dc6",
+        "git_state": "committed"
+      },
+      "experiments/make_figures_audit13.py": {
+        "sha256": "9b685b1ee40e89c201a64b3886805e2524de381a5a81be4d71e59dc86f1301ba",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/__init__.py": {
+        "sha256": "20ebf29ab1a9a64bb428f25ff0170d67db2354662efb8b973922c3f455f56582",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/constants.py": {
+        "sha256": "de8bd2282ff09c41fc6eae12fcca6695c1fd3a0c9def7628a9b76e9361058907",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/davies.py": {
+        "sha256": "cfad047d0b0676cc83a41208cd600f4224ce61bf03930228a5a80d1d6556c9b9",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/deterministics.py": {
+        "sha256": "31db116abc80e5cab8c97317a31d6f22f1a4ca40c885eef86c134db598dac6b2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/empirical_eigenvalues.py": {
+        "sha256": "f749e2e2de8b807421d6e74836bd5d539eccb314f18821bd38b80e72b5ee72a1",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/full_pipeline.py": {
+        "sha256": "cdbd5405caa50bc83c7348a0a8be9963b522ef4d808024f078f648bb1de89170",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/hac_estimator.py": {
+        "sha256": "f7c22540e6a8e862258cb70e4a839b841453ca9490a01671176431ee4bf678f2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/kl_eigenvalues.py": {
+        "sha256": "c0fb0a90795c904cb2876aa16eff64948e0abf5a27d3a57c6612c2b9ec198903",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/null_quantiles.py": {
+        "sha256": "655458f05815621d015984080169663d2310d26e588a83e2c5a62549ba5a1ae8",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/optimal_weight.py": {
+        "sha256": "47632d98ed256b2364a2ac99de64780e0cd8d42a69c68b4552c6ea0564f86ba4",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/rm_core.py": {
+        "sha256": "4d3ee3f59c569233a5e9a9ed8ffd3032364188545bac04a0cc619ccac39e04e0",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/standardization.py": {
+        "sha256": "cc8cb146d28ea63be86bc11db6cc6c345fbf5fd412055e2e58a33a40f3e8936b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/statistic.py": {
+        "sha256": "f0baf1d99ac4311ca854d350f18a3d3416974bf5d13e662d05149f87183d92ef",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/theta_selection.py": {
+        "sha256": "23eba50e85d0db917d14b4d3d844c42e5ee566dfd326a0fad7feae0dd113f40b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/utils.py": {
+        "sha256": "8a3e0b972da519b3c39ca0e0326953dbae1bf048845c05c1fb3a23a001b72717",
+        "git_state": "committed"
+      }
+    },
+    "code_all_committed": true
+  },
+  "manuscript": {
+    "zip": "paper_latex_v13.zip",
+    "sha256": "fae1334ba259fc359db4c7922b48a926a8aaf713f37d92e26d1435d8b7109dac"
+  },
+  "claims": {
+    "size_max": {
+      "file": "v13/sec5_montecarlo.tex",
+      "line": 23,
+      "quote": "\\subsection{Size}\\label{sec:size}  \\Cref{tab:size} reports the size of \\RMGLS{} under \\cref{eq:null}. Every cell lies within $0.25$ points of the nominal level, the largest deviation being $0.24$ points at $n = 150$ in the constant case, where the rate of $0.0476$ falls just below the exact region for $5\\times 10^4$ paths.",
+      "printed": [
+        "0.24",
+        "150",
+        "0.0476"
+      ],
+      "v13": [
+        0.2360000000000001,
+        150,
+        0.04764
+      ],
+      "theta0": [
+        0.2359999999999994,
+        100,
+        0.05236
+      ],
+      "extra_v13": {
+        "cell": "dm|150",
+        "all_within_A1prime_tolerance": true,
+        "outside_exact_region": [
+          "dm|150"
+        ]
+      },
+      "extra_theta0": {
+        "cell": "ct|100",
+        "all_within_A1prime_tolerance": true,
+        "outside_exact_region": [
+          "ct|100"
+        ]
+      },
+      "v13_reproduces_printed": [
+        true,
+        true,
+        true
+      ],
+      "reproduced": true
+    },
+    "calib_limit": {
+      "file": "v13/sec5_montecarlo.tex",
+      "line": 63,
+      "quote": "together with DF-GLS and MSB-GLS under their published asymptotic critical values and under simulated ones.  In the constant case the limiting critical value over-rejects in short samples: $0.0785$ at $n = 60$, $0.0638$ at $n = 100$ and $0.0574$ at $n=200$, against $0.0541$, $0.0517$ and $0.0510$ with the value",
+      "printed": [
+        "0.0785",
+        "0.0638",
+        "0.0574",
+        "0.0541",
+        "0.0517",
+        "0.0510"
+      ],
+      "v13": [
+        0.07855,
+        0.06375,
+        0.0574,
+        0.0541,
+        0.0517,
+        0.051
+      ],
+      "theta0": [
+        0.06065,
+        0.05885,
+        0.05555,
+        0.05445,
+        0.0516,
+        0.0514
+      ],
+      "extra_v13": {},
+      "extra_theta0": {},
+      "v13_reproduces_printed": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "reproduced": true
+    },
+    "calib_ks": {
+      "file": "v13/sec5_montecarlo.tex",
+      "line": 70,
+      "quote": "$n=200$, against $0.0541$, $0.0517$ and $0.0510$ with the value calibrated at $n$. The mechanism is the anchor bias of \\cref{rem:anchorbias}: the finite-sample law of \\RMGLS{} is shifted toward zero, and the Kolmogorov--Smirnov distance between it and the $n=20\\,000$ law exceeds the $5\\%$ two-sample threshold at every $n$ up to $5000$ ($D = 0.097$ at $n = 200$, $0.016$ at $n=1000$). In the trend",
+      "printed": [
+        "0.097",
+        "0.016"
+      ],
+      "v13": [
+        0.09729999999999994,
+        0.015749999999999986
+      ],
+      "theta0": [
+        0.09625000000000006,
+        0.01529999999999998
+      ],
+      "extra_v13": {
+        "below_threshold_c": {
+          "60": false,
+          "100": false,
+          "200": false,
+          "500": false,
+          "1000": false,
+          "2000": false,
+          "5000": false
+        },
+        "below_threshold_ct": {
+          "60": false,
+          "100": false,
+          "200": false,
+          "500": false,
+          "1000": false,
+          "2000": true,
+          "5000": true
+        }
+      },
+      "extra_theta0": {
+        "below_threshold_c": {
+          "60": false,
+          "100": false,
+          "200": false,
+          "500": false,
+          "1000": false,
+          "2000": false,
+          "5000": false
+        },
+        "below_threshold_ct": {
+          "60": false,
+          "100": false,
+          "200": false,
+          "500": false,
+          "1000": false,
+          "2000": true,
+          "5000": true
+        }
+      },
+      "v13_reproduces_printed": [
+        true,
+        true
+      ],
+      "reproduced": true
+    },
+    "calib_trend": {
+      "file": "v13/sec5_montecarlo.tex",
+      "line": 70,
+      "quote": "calibrated at $n$. The mechanism is the anchor bias of \\cref{rem:anchorbias}: the finite-sample law of \\RMGLS{} is shifted toward zero, and the Kolmogorov--Smirnov distance between it and the $n=20\\,000$ law exceeds the $5\\%$ two-sample threshold at every $n$ up to $5000$ ($D = 0.097$ at $n = 200$, $0.016$ at $n=1000$). In the trend case the limiting value happens to be close at every $n$ for \\RMGLS{}; it",
+      "printed": [],
+      "v13": [],
+      "theta0": [],
+      "extra_v13": {
+        "trend_size_with_cv_n20000": {
+          "60": 0.05235,
+          "100": 0.04365,
+          "150": 0.048,
+          "200": 0.0467,
+          "500": 0.04945,
+          "1000": 0.0516,
+          "2000": 0.04935,
+          "5000": 0.0505
+        },
+        "trend_outside_exact_region": [
+          100,
+          200
+        ],
+        "cv_n20000": {
+          "c": 0.22973171769033557,
+          "ct": 0.1624369794625622
+        }
+      },
+      "extra_theta0": {
+        "trend_size_with_cv_n20000": {
+          "60": 0.01995,
+          "100": 0.0323,
+          "150": 0.0412,
+          "200": 0.04135,
+          "500": 0.0472,
+          "1000": 0.05085,
+          "2000": 0.04865,
+          "5000": 0.05095
+        },
+        "trend_outside_exact_region": [
+          60,
+          100,
+          150,
+          200
+        ],
+        "cv_n20000": {
+          "c": 0.23696978263052154,
+          "ct": 0.1713737057732921
+        }
+      },
+      "v13_reproduces_printed": [],
+      "reproduced": true
+    },
+    "intro_limit": {
+      "file": "v13/sec1_introduction.tex",
+      "line": 56,
+      "quote": "sense of \\citet{dufour2006monte}. The finite-sample law approaches its limit slowly: the GLS anchor introduces a bias of order $n^{-1}$ in the second moment whose constant is large for the conventional $\\cbar = -7$ (\\cref{rem:anchorbias}). Using the limiting critical value at $n = 200$ gives a rejection rate of $0.0574$; using the one simulated at $n = 200$ gives $0.0510$. The same exercise exposes a larger distortion in",
+      "printed": [
+        "0.0574",
+        "0.0510"
+      ],
+      "v13": [
+        0.0574,
+        0.051
+      ],
+      "theta0": [
+        0.05555,
+        0.0514
+      ],
+      "extra_v13": {},
+      "extra_theta0": {},
+      "v13_reproduces_printed": [
+        true,
+        true
+      ],
+      "reproduced": true
+    },
+    "abstract_limit": {
+      "file": "v13/main.tex",
+      "line": 88,
+      "quote": "parameter, and we show that it should be small. Because the statistic is scale invariant, its null law under Gaussian innovations is pivotal, and we calibrate it as an exact Monte Carlo test with the scale estimator computed inside the calibration loop. The finite-sample law converges slowly to its limit, so calibration is not cosmetic: at $n = 200$ the asymptotic critical value gives a rejection rate of $0.057$, and in the",
+      "printed": [
+        "0.057"
+      ],
+      "v13": [
+        0.0574
+      ],
+      "theta0": [
+        0.05555
+      ],
+      "extra_v13": {},
+      "extra_theta0": {},
+      "v13_reproduces_printed": [
+        true
+      ],
+      "reproduced": true
+    },
+    "lp_gap": {
+      "file": "v13/sec5_montecarlo.tex",
+      "line": 143,
+      "quote": "$P_T$ of \\citet{elliott1996efficient} with $\\cbar = -c$ at each $c$, and with DF-GLS, MZ$_t$-GLS and MSB-GLS. Every procedure uses a critical value simulated at $c=0$.  In the constant case \\RMGLS{} lies $2.3$, $3.5$ and $1.0$ points below the envelope at $c = 5$, $10$ and $15$. It is level with MSB-GLS, which lies",
+      "printed": [
+        "2.3",
+        "3.5",
+        "1.0"
+      ],
+      "v13": [
+        2.2899999999999974,
+        3.489999999999993,
+        0.9649999999999936
+      ],
+      "theta0": [
+        1.8349999999999977,
+        2.619999999999989,
+        0.6850000000000023
+      ],
+      "extra_v13": {
+        "msb_gap": [
+          2.304999999999996,
+          3.069999999999995,
+          1.0000000000000009
+        ],
+        "primary_minus_msb_pp": [
+          0.014999999999998792,
+          -0.41999999999999815,
+          0.03500000000000725
+        ]
+      },
+      "extra_theta0": {
+        "msb_gap": [
+          2.304999999999996,
+          3.069999999999995,
+          1.0000000000000009
+        ],
+        "primary_minus_msb_pp": [
+          0.4699999999999984,
+          0.45000000000000595,
+          0.3149999999999986
+        ]
+      },
+      "v13_reproduces_printed": [
+        true,
+        true,
+        true
+      ],
+      "reproduced": true
+    },
+    "lp_trend": {
+      "file": "v13/sec5_montecarlo.tex",
+      "line": 147,
+      "quote": " In the constant case \\RMGLS{} lies $2.3$, $3.5$ and $1.0$ points below the envelope at $c = 5$, $10$ and $15$. It is level with MSB-GLS, which lies $2.3$, $3.1$ and $1.0$ points below, and behind DF-GLS and MZ$_t$-GLS, which are on the envelope to within Monte Carlo error. In the trend case the four tests are within $1.4$ points of the envelope throughout. The",
+      "printed": [
+        "1.4"
+      ],
+      "v13": [
+        1.3999999999999957
+      ],
+      "theta0": [
+        1.2249999999999983
+      ],
+      "extra_v13": {
+        "c_values": [
+          2.0,
+          5.0,
+          7.0,
+          10.0,
+          13.5,
+          15.0,
+          20.0
+        ]
+      },
+      "extra_theta0": {
+        "c_values": [
+          2.0,
+          5.0,
+          7.0,
+          10.0,
+          13.5,
+          15.0,
+          20.0
+        ]
+      },
+      "v13_reproduces_printed": [
+        true
+      ],
+      "reproduced": true
+    },
+    "lp_theta": {
+      "file": "v13/sec5_montecarlo.tex",
+      "line": 148,
+      "quote": "envelope at $c = 5$, $10$ and $15$. It is level with MSB-GLS, which lies $2.3$, $3.1$ and $1.0$ points below, and behind DF-GLS and MZ$_t$-GLS, which are on the envelope to within Monte Carlo error. In the trend case the four tests are within $1.4$ points of the envelope throughout. The $\\theta = 0$ version is marginally closer than $\\theta=0.02$, by $0.3$ to $0.9$ points, and \\cref{fig:thetaladder} shows the gap growing with",
+      "printed": [
+        "0.3",
+        "0.9"
+      ],
+      "v13": [
+        0.27999999999999137,
+        0.8700000000000041
+      ],
+      "theta0": [
+        0.27999999999999137,
+        0.8700000000000041
+      ],
+      "extra_v13": {
+        "c_values": [
+          5.0,
+          7.0,
+          10.0,
+          13.5,
+          15.0
+        ],
+        "theta0_minus_theta002_pp": [
+          0.45499999999999985,
+          0.5549999999999999,
+          0.8700000000000041,
+          0.4149999999999987,
+          0.27999999999999137
+        ]
+      },
+      "extra_theta0": {
+        "c_values": [
+          5.0,
+          7.0,
+          10.0,
+          13.5,
+          15.0
+        ],
+        "theta0_minus_theta002_pp": [
+          0.45499999999999985,
+          0.5549999999999999,
+          0.8700000000000041,
+          0.4149999999999987,
+          0.27999999999999137
+        ]
+      },
+      "v13_reproduces_printed": [
+        true,
+        true
+      ],
+      "reproduced": true
+    },
+    "intro_lp": {
+      "file": "v13/sec1_introduction.tex",
+      "line": 76,
+      "quote": "autoregressive alternatives at $n = 200$, with no effect on size (\\cref{sec:attribution}). At equalized size \\RMGLS{} exceeds DF-GLS by $6.7$ points at $\\rho = 0.90$ and $5.1$ points at $\\rho = 0.93$ with $n = 200$, ties it at $\\rho = 0.95$, and concedes $1.7$ points at $\\rho = 0.97$. Its local asymptotic power is within $3.5$ points of the Gaussian envelope, level with MSB-GLS and below DF-GLS",
+      "printed": [
+        "3.5"
+      ],
+      "v13": [
+        3.489999999999993
+      ],
+      "theta0": [
+        2.619999999999989
+      ],
+      "extra_v13": {},
+      "extra_theta0": {},
+      "v13_reproduces_printed": [
+        true
+      ],
+      "reproduced": true
+    },
+    "abstract_lp": {
+      "file": "v13/main.tex",
+      "line": 90,
+      "quote": "we calibrate it as an exact Monte Carlo test with the scale estimator computed inside the calibration loop. The finite-sample law converges slowly to its limit, so calibration is not cosmetic: at $n = 200$ the asymptotic critical value gives a rejection rate of $0.057$, and in the trend case the published asymptotic critical values of MSB-GLS give $0.026$. Its local asymptotic power is within $3.5$ percentage points of",
+      "printed": [
+        "3.5"
+      ],
+      "v13": [
+        3.489999999999993
+      ],
+      "theta0": [
+        2.619999999999989
+      ],
+      "extra_v13": {},
+      "extra_theta0": {},
+      "v13_reproduces_printed": [
+        true
+      ],
+      "reproduced": true
+    },
+    "highlights_lp": {
+      "file": "v13/highlights.tex",
+      "line": 5,
+      "quote": "% Highlights (Elsevier limit: 3-5 bullets, max 85 characters each incl. spaces) \\begin{itemize} \\item An M-type unit-root test with a HAC scale and simulated finite-sample critical values \\item Limiting critical values over-reject at n = 200; published M-GLS ones under-reject \\item Local power within 3.5 points of the envelope; ahead of DF-GLS at n = 200 \\item Variance breaks distort the test; a wild-bootstrap calibration removes the distortion",
+      "printed": [
+        "3.5"
+      ],
+      "v13": [
+        3.489999999999993
+      ],
+      "theta0": [
+        2.619999999999989
+      ],
+      "extra_v13": {},
+      "extra_theta0": {},
+      "v13_reproduces_printed": [
+        true
+      ],
+      "reproduced": true
+    },
+    "power_n200": {
+      "file": "v13/sec5_montecarlo.tex",
+      "line": 218,
+      "quote": " At $n = 200$ in the constant case \\RMGLS{} exceeds DF-GLS by $6.7$ points at $\\rho = 0.90$ ($0.993$ against $0.926$) and $5.1$ points at $\\rho = 0.93$, both with McNemar $p < 10^{-4}$, and by $3.5$ and $4.7$ points at $\\rho = 0.80$ and $0.85$. It is level with DF-GLS at $\\rho = 0.95$ ($p = 0.057$) and concedes $1.7$ points at $\\rho = 0.97$ ($p = 0.003$). With",
+      "printed": [
+        "6.7",
+        "0.993",
+        "0.926",
+        "5.1",
+        "3.5",
+        "4.7",
+        "0.057",
+        "1.7",
+        "0.003"
+      ],
+      "v13": [
+        6.740000000000002,
+        0.993,
+        0.9256,
+        5.140000000000001,
+        3.4599999999999964,
+        4.679999999999995,
+        0.05654211697544153,
+        1.6599999999999948,
+        0.002854961820088384
+      ],
+      "theta0": [
+        6.779999999999998,
+        0.9934,
+        0.9256,
+        5.620000000000003,
+        3.4599999999999964,
+        4.679999999999995,
+        0.0020168212662543873,
+        1.0999999999999954,
+        0.044538742562003575
+      ],
+      "extra_v13": {
+        "p_rho090": 1.1444046812180925e-81,
+        "p_rho093": 1.9348277985655835e-24,
+        "p_rho080": 1.6704779438076223e-52,
+        "p_rho085": 7.24454326306137e-71
+      },
+      "extra_theta0": {
+        "p_rho090": 1.930646122713766e-84,
+        "p_rho093": 3.3031753184823884e-30,
+        "p_rho080": 1.6704779438076223e-52,
+        "p_rho085": 7.24454326306137e-71
+      },
+      "v13_reproduces_printed": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "reproduced": true
+    },
+    "intro_power": {
+      "file": "v13/sec1_introduction.tex",
+      "line": 73,
+      "quote": "raises power by $4.6$ percentage points on average over seven autoregressive alternatives at $n = 200$, with no effect on size (\\cref{sec:attribution}). At equalized size \\RMGLS{} exceeds DF-GLS by $6.7$ points at $\\rho = 0.90$ and $5.1$ points at $\\rho = 0.93$ with $n = 200$, ties it at $\\rho = 0.95$, and concedes $1.7$ points at $\\rho = 0.97$. Its local asymptotic power is within $3.5$ points of the",
+      "printed": [
+        "6.7",
+        "5.1",
+        "1.7"
+      ],
+      "v13": [
+        6.740000000000002,
+        5.140000000000001,
+        1.6599999999999948
+      ],
+      "theta0": [
+        6.779999999999998,
+        5.620000000000003,
+        1.0999999999999954
+      ],
+      "extra_v13": {
+        "p_rho095": 0.05654211697544153
+      },
+      "extra_theta0": {
+        "p_rho095": 0.0020168212662543873
+      },
+      "v13_reproduces_printed": [
+        true,
+        true,
+        true
+      ],
+      "reproduced": true
+    },
+    "abstract_power": {
+      "file": "v13/main.tex",
+      "line": 92,
+      "quote": "trend case the published asymptotic critical values of MSB-GLS give $0.026$. Its local asymptotic power is within $3.5$ percentage points of the Gaussian power envelope, matching MSB-GLS and below DF-GLS. At $n = 200$ and equalized size it exceeds DF-GLS by up to $6.7$ points against moderately persistent alternatives, a gain we trace to the HAC scale estimator, and concedes up to $2.6$ points closer to the unit",
+      "printed": [
+        "6.7",
+        "2.6"
+      ],
+      "v13": [
+        6.740000000000002,
+        2.6000000000000023
+      ],
+      "theta0": [
+        6.779999999999998,
+        1.760000000000006
+      ],
+      "extra_v13": {
+        "max_gain_cell_n200": "dgp1_rho0p9_n200",
+        "max_loss_cell": "dgp1_rho0p99_n1000"
+      },
+      "extra_theta0": {
+        "max_gain_cell_n200": "dgp1_rho0p9_n200",
+        "max_loss_cell": "dgp1_rho0p99_n1000"
+      },
+      "v13_reproduces_printed": [
+        true,
+        true
+      ],
+      "reproduced": true
+    },
+    "power_n500": {
+      "file": "v13/sec5_montecarlo.tex",
+      "line": 224,
+      "quote": "$\\rho = 0.80$ and $0.85$. It is level with DF-GLS at $\\rho = 0.95$ ($p = 0.057$) and concedes $1.7$ points at $\\rho = 0.97$ ($p = 0.003$). With $n = 500$ and $1000$ the pattern moves toward the unit root, as local asymptotics predict: \\RMGLS{} is ahead at $\\rho = 0.97$, $n = 500$ by $1.1$ points and behind at $\\rho = 0.99$ by $2.0$ points at $n = 500$ and $2.6$ at $n = 1000$. Against ADF and PP the margin is large everywhere, up to $42$",
+      "printed": [
+        "1.1",
+        "2.0",
+        "2.6"
+      ],
+      "v13": [
+        1.1199999999999988,
+        2.0000000000000018,
+        2.6000000000000023
+      ],
+      "theta0": [
+        1.5599999999999947,
+        1.5000000000000013,
+        1.760000000000006
+      ],
+      "extra_v13": {},
+      "extra_theta0": {},
+      "v13_reproduces_printed": [
+        true,
+        true,
+        true
+      ],
+      "reproduced": true
+    },
+    "power_adf": {
+      "file": "v13/sec5_montecarlo.tex",
+      "line": 226,
+      "quote": "($p = 0.057$) and concedes $1.7$ points at $\\rho = 0.97$ ($p = 0.003$). With $n = 500$ and $1000$ the pattern moves toward the unit root, as local asymptotics predict: \\RMGLS{} is ahead at $\\rho = 0.97$, $n = 500$ by $1.1$ points and behind at $\\rho = 0.99$ by $2.0$ points at $n = 500$ and $2.6$ at $n = 1000$. Against ADF and PP the margin is large everywhere, up to $42$ points at $(\\rho, n) = (0.99, 1000)$. In the trend case \\RMGLS{} leads",
+      "printed": [
+        "42"
+      ],
+      "v13": [
+        41.06
+      ],
+      "theta0": [
+        41.9
+      ],
+      "extra_v13": {
+        "max_margin_cell": "dgp1_rho0p99_n1000",
+        "max_margin_pp": 41.06,
+        "minus_adf_pp": 42.52,
+        "minus_pp_pp": 41.06
+      },
+      "extra_theta0": {
+        "max_margin_cell": "dgp1_rho0p99_n1000",
+        "max_margin_pp": 41.9,
+        "minus_adf_pp": 43.36,
+        "minus_pp_pp": 41.9
+      },
+      "v13_reproduces_printed": [
+        false
+      ],
+      "reproduced": false
+    },
+    "power_trend": {
+      "file": "v13/sec5_montecarlo.tex",
+      "line": 227,
+      "quote": "points and behind at $\\rho = 0.99$ by $2.0$ points at $n = 500$ and $2.6$ at $n = 1000$. Against ADF and PP the margin is large everywhere, up to $42$ points at $(\\rho, n) = (0.99, 1000)$. In the trend case \\RMGLS{} leads DF-GLS by $10.3$ points at $(\\rho, n) = (0.90, 200)$ and by $5.9$ points at $(0.95, 500)$, and the two are statistically level in five of the nine informative cells of \\cref{tab:ctpower}.",
+      "printed": [
+        "10.3",
+        "5.9",
+        "five"
+      ],
+      "v13": [
+        10.340000000000005,
+        5.940000000000001,
+        5
+      ],
+      "theta0": [
+        9.940000000000005,
+        6.16000000000001,
+        5
+      ],
+      "extra_v13": {
+        "level_cells": [
+          "ct_power_rho0p95_n200",
+          "ct_power_rho0p97_n200",
+          "ct_power_rho0p99_n200",
+          "ct_power_rho0p99_n500",
+          "ct_power_rho0p99_n1000"
+        ]
+      },
+      "extra_theta0": {
+        "level_cells": [
+          "ct_power_rho0p95_n200",
+          "ct_power_rho0p97_n200",
+          "ct_power_rho0p99_n200",
+          "ct_power_rho0p99_n500",
+          "ct_power_rho0p99_n1000"
+        ]
+      },
+      "v13_reproduces_printed": [
+        true,
+        true,
+        true
+      ],
+      "reproduced": true
+    },
+    "dgp2": {
+      "file": "v13/sec5_montecarlo.tex",
+      "line": 378,
+      "quote": "\\RMGLS{} and DF-GLS are level ($0.706$ against $0.695$, $p = 0.057$). With a break \\RMGLS{} leads DF-GLS in every cell with $0.5 \\leq \\delta \\leq 3$ in which power is not saturated, with McNemar $p \\leq 0.017$, and the lead grows with the break: $0.474$ against $0.445$ at $(\\delta, n) = (1, 200)$, $0.573$ against $0.441$ at $(2, 500)$, $1.000$ against $0.870$ at $(2, 1000)$ and $0.637$ against $0.376$ at $(3, 1000)$.",
+      "printed": [
+        "0.706",
+        "0.695",
+        "0.057",
+        "0.017",
+        "0.474",
+        "0.445",
+        "0.573",
+        "0.441",
+        "1.000",
+        "0.870",
+        "0.637",
+        "0.376"
+      ],
+      "v13": [
+        0.706,
+        0.6946,
+        0.05683999158980376,
+        0.01749850422572063,
+        0.4738,
+        0.4452,
+        0.5728,
+        0.4406,
+        0.9998,
+        0.8696,
+        0.637,
+        0.3758
+      ],
+      "theta0": [
+        0.7126,
+        0.6946,
+        0.0020393209361064674,
+        0.063568115234375,
+        0.477,
+        0.4452,
+        0.578,
+        0.4406,
+        0.9998,
+        0.8696,
+        0.656,
+        0.3758
+      ],
+      "extra_v13": {
+        "unsaturated_cells": [
+          "dgp2_delta0p5_n200",
+          "dgp2_delta0p5_n500",
+          "dgp2_delta1_n200",
+          "dgp2_delta1_n500",
+          "dgp2_delta2_n1000",
+          "dgp2_delta2_n200",
+          "dgp2_delta2_n500",
+          "dgp2_delta3_n1000",
+          "dgp2_delta3_n200",
+          "dgp2_delta3_n500"
+        ],
+        "cells_where_primary_leads": [
+          "dgp2_delta0p5_n200",
+          "dgp2_delta0p5_n500",
+          "dgp2_delta1_n200",
+          "dgp2_delta1_n500",
+          "dgp2_delta2_n1000",
+          "dgp2_delta2_n200",
+          "dgp2_delta2_n500",
+          "dgp2_delta3_n1000",
+          "dgp2_delta3_n200",
+          "dgp2_delta3_n500"
+        ],
+        "leads_in_every_unsaturated_cell": true
+      },
+      "extra_theta0": {
+        "unsaturated_cells": [
+          "dgp2_delta0p5_n200",
+          "dgp2_delta0p5_n500",
+          "dgp2_delta1_n200",
+          "dgp2_delta1_n500",
+          "dgp2_delta2_n1000",
+          "dgp2_delta2_n200",
+          "dgp2_delta2_n500",
+          "dgp2_delta3_n1000",
+          "dgp2_delta3_n200",
+          "dgp2_delta3_n500"
+        ],
+        "cells_where_primary_leads": [
+          "dgp2_delta0p5_n200",
+          "dgp2_delta0p5_n500",
+          "dgp2_delta1_n200",
+          "dgp2_delta1_n500",
+          "dgp2_delta2_n1000",
+          "dgp2_delta2_n200",
+          "dgp2_delta2_n500",
+          "dgp2_delta3_n1000",
+          "dgp2_delta3_n200",
+          "dgp2_delta3_n500"
+        ],
+        "leads_in_every_unsaturated_cell": true
+      },
+      "v13_reproduces_printed": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "reproduced": true
+    },
+    "za_exceeds": {
+      "file": "v13/sec5_montecarlo.tex",
+      "line": 389,
+      "quote": "The endogenous-break test of \\citet{zivot1992further} behaves differently. It is nearly flat in $\\delta$ and pays for that with power when there is no break ($0.119$ at $\\delta = 0$, $n = 200$, against $0.706$ for \\RMGLS{}); at $\\delta = 5$, where every other test has no power, it rejects $0.092$, $0.497$ and $0.986$ at $n = 200$, $500$ and $1000$, and it exceeds \\RMGLS{} at $\\delta = 3$ for every $n$ and at $(\\delta, n) = (2, 200)$. Its size is correct",
+      "printed": [],
+      "v13": [],
+      "theta0": [],
+      "extra_v13": {
+        "cells_where_za_exceeds_primary": [
+          "dgp2_delta2_n200",
+          "dgp2_delta3_n1000",
+          "dgp2_delta3_n200",
+          "dgp2_delta3_n500",
+          "dgp2_delta5_n1000",
+          "dgp2_delta5_n200",
+          "dgp2_delta5_n500"
+        ]
+      },
+      "extra_theta0": {
+        "cells_where_za_exceeds_primary": [
+          "dgp2_delta2_n200",
+          "dgp2_delta3_n1000",
+          "dgp2_delta3_n200",
+          "dgp2_delta3_n500",
+          "dgp2_delta5_n1000",
+          "dgp2_delta5_n200",
+          "dgp2_delta5_n500"
+        ]
+      },
+      "v13_reproduces_printed": [],
+      "reproduced": true
+    },
+    "za_delta0": {
+      "file": "v13/sec5_montecarlo.tex",
+      "line": 387,
+      "quote": "$0.573$ against $0.441$ at $(2, 500)$, $1.000$ against $0.870$ at $(2, 1000)$ and $0.637$ against $0.376$ at $(3, 1000)$.  The endogenous-break test of \\citet{zivot1992further} behaves differently. It is nearly flat in $\\delta$ and pays for that with power when there is no break ($0.119$ at $\\delta = 0$, $n = 200$, against $0.706$ for \\RMGLS{}); at",
+      "printed": [
+        "0.119",
+        "0.706"
+      ],
+      "v13": [
+        0.1186,
+        0.706
+      ],
+      "theta0": [
+        0.1186,
+        0.7126
+      ],
+      "extra_v13": {},
+      "extra_theta0": {},
+      "v13_reproduces_printed": [
+        true,
+        true
+      ],
+      "reproduced": true
+    },
+    "dgp3": {
+      "file": "v13/sec5_montecarlo.tex",
+      "line": 425,
+      "quote": " \\Cref{tab:dgp3} and \\cref{fig:dgp3} hold the unit-root null true and let the innovation standard deviation change by a factor $r$ at mid-sample. Every rejection is a size distortion. \\RMGLS{} with the calibration of \\cref{def:calib} is among the most distorted procedures: at $r = 4$ it rejects $0.128$, $0.131$ and $0.127$ at $n = 200$, $500$ and $1000$, as",
+      "printed": [
+        "0.128",
+        "0.131",
+        "0.127"
+      ],
+      "v13": [
+        0.1278,
+        0.1306,
+        0.1272
+      ],
+      "theta0": [
+        0.1226,
+        0.1268,
+        0.1252
+      ],
+      "extra_v13": {
+        "rm_below_primary_r4_n200": true,
+        "msb_r4": [
+          0.1296,
+          0.1346,
+          0.131
+        ]
+      },
+      "extra_theta0": {
+        "rm_below_primary_r4_n200": true,
+        "msb_r4": [
+          0.1296,
+          0.1346,
+          0.131
+        ]
+      },
+      "v13_reproduces_printed": [
+        true,
+        true,
+        true
+      ],
+      "reproduced": true
+    },
+    "intro_dgp3": {
+      "file": "v13/sec1_introduction.tex",
+      "line": 81,
+      "quote": "\\textbf{(P3) A complete map of the costs.} Under a mid-sample break in innovation variance with the unit-root null true, \\RMGLS{} rejects $0.128$ at $n = 200$ and a fourfold standard-deviation ratio, as much as MSB-GLS and more than DF-GLS ($0.080$) or ADF ($0.053$); a wild-bootstrap calibration of the same statistic brings the rate to $0.040$, at a power cost of at most $3$ points (\\cref{sec:variancebreaks}). Under GARCH",
+      "printed": [
+        "0.128",
+        "0.040",
+        "3"
+      ],
+      "v13": [
+        0.1278,
+        0.0395,
+        2.9999999999999916
+      ],
+      "theta0": [
+        0.1226,
+        0.0405,
+        2.9000000000000026
+      ],
+      "extra_v13": {},
+      "extra_theta0": {},
+      "v13_reproduces_printed": [
+        true,
+        true,
+        true
+      ],
+      "reproduced": true
+    },
+    "awb_rates": {
+      "file": "v13/sec5_montecarlo.tex",
+      "line": 436,
+      "quote": " The AWB calibration of \\cref{def:awb} removes most of the distortion (\\cref{tab:awb}). On 2000 common paths it rejects $0.054$ and $0.057$ at $r=2$ with $n = 200$ and $500$, against $0.082$ and $0.087$ for the simulated calibration, and $0.040$ at $r = 4$ in both, against $0.124$ and $0.118$; it is conservative there. Under homoskedastic innovations it",
+      "printed": [
+        "0.054",
+        "0.057",
+        "0.082",
+        "0.087",
+        "0.040",
+        "0.124",
+        "0.118"
+      ],
+      "v13": [
+        0.0535,
+        0.0565,
+        0.082,
+        0.087,
+        0.0395,
+        0.124,
+        0.1175
+      ],
+      "theta0": [
+        0.052,
+        0.0505,
+        0.0795,
+        0.0885,
+        0.0405,
+        0.1175,
+        0.117
+      ],
+      "extra_v13": {
+        "awb_r4_n500": 0.0395,
+        "garch_awb_at_or_below_sim_all": true
+      },
+      "extra_theta0": {
+        "awb_r4_n500": 0.04,
+        "garch_awb_at_or_below_sim_all": true
+      },
+      "v13_reproduces_printed": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "reproduced": true
+    },
+    "awb_homosk": {
+      "file": "v13/sec5_montecarlo.tex",
+      "line": 440,
+      "quote": "The AWB calibration of \\cref{def:awb} removes most of the distortion (\\cref{tab:awb}). On 2000 common paths it rejects $0.054$ and $0.057$ at $r=2$ with $n = 200$ and $500$, against $0.082$ and $0.087$ for the simulated calibration, and $0.040$ at $r = 4$ in both, against $0.124$ and $0.118$; it is conservative there. Under homoskedastic innovations it holds size ($0.052$ and $0.043$), and under GARCH it is at or below the",
+      "printed": [
+        "0.052",
+        "0.043"
+      ],
+      "v13": [
+        0.052,
+        0.043
+      ],
+      "theta0": [
+        0.0525,
+        0.0445
+      ],
+      "extra_v13": {},
+      "extra_theta0": {},
+      "v13_reproduces_printed": [
+        true,
+        true
+      ],
+      "reproduced": true
+    },
+    "awb_cost": {
+      "file": "v13/sec5_montecarlo.tex",
+      "line": 441,
+      "quote": "$r=2$ with $n = 200$ and $500$, against $0.082$ and $0.087$ for the simulated calibration, and $0.040$ at $r = 4$ in both, against $0.124$ and $0.118$; it is conservative there. Under homoskedastic innovations it holds size ($0.052$ and $0.043$), and under GARCH it is at or below the simulated calibration in all four cells. Its power cost is $3.0$ points at $(\\rho, n) = (0.95, 200)$ and at most $1.3$ points elsewhere. The rule",
+      "printed": [
+        "3.0",
+        "1.3"
+      ],
+      "v13": [
+        2.9999999999999916,
+        1.3000000000000012
+      ],
+      "theta0": [
+        2.9000000000000026,
+        1.8000000000000016
+      ],
+      "extra_v13": {},
+      "extra_theta0": {},
+      "v13_reproduces_printed": [
+        true,
+        true
+      ],
+      "reproduced": true
+    },
+    "awb_rule": {
+      "file": "v13/sec5_montecarlo.tex",
+      "line": 445,
+      "quote": "holds size ($0.052$ and $0.043$), and under GARCH it is at or below the simulated calibration in all four cells. Its power cost is $3.0$ points at $(\\rho, n) = (0.95, 200)$ and at most $1.3$ points elsewhere. The rule registered for recommending the variant required at least four of six variance-break cells inside the region and at most three points of power loss; both conditions were met with equality, and we report the variant",
+      "printed": [],
+      "v13": [],
+      "theta0": [],
+      "extra_v13": {
+        "i_in_region_dgp3": 4,
+        "i_min": 4,
+        "i_equality": true,
+        "max_power_loss_pp": 2.9999999999999916,
+        "ii_threshold_pp": 3.0,
+        "ii_equality": false,
+        "recommend_awb": true
+      },
+      "extra_theta0": {
+        "i_in_region_dgp3": 4,
+        "i_min": 4,
+        "i_equality": true,
+        "max_power_loss_pp": 2.9000000000000026,
+        "ii_threshold_pp": 3.0,
+        "ii_equality": false,
+        "recommend_awb": true
+      },
+      "v13_reproduces_printed": [],
+      "reproduced": true
+    },
+    "misspec_heavy": {
+      "file": "v13/sec5_montecarlo.tex",
+      "line": 535,
+      "quote": "condition holds in all four GARCH specifications. We summarize the GARCH cells by the mean shift of each test's size relative to its own size under Gaussian innovations at the same $n$ (\\cref{fig:sizeshift}).  Under heavy tails \\RMGLS{} is slightly conservative at $n = 200$ ($0.043$ and $0.042$) and within the region at larger $n$, like DF-GLS and the M",
+      "printed": [
+        "0.043",
+        "0.042"
+      ],
+      "v13": [
+        0.043,
+        0.0422
+      ],
+      "theta0": [
+        0.0438,
+        0.0428
+      ],
+      "extra_v13": {},
+      "extra_theta0": {},
+      "v13_reproduces_printed": [
+        true,
+        true
+      ],
+      "reproduced": true
+    },
+    "misspec_shift200": {
+      "file": "v13/sec5_montecarlo.tex",
+      "line": 539,
+      "quote": " Under heavy tails \\RMGLS{} is slightly conservative at $n = 200$ ($0.043$ and $0.042$) and within the region at larger $n$, like DF-GLS and the M tests, while ADF and PP with asymptotic critical values over-reject. Under GARCH its distortion lies between that of the GLS tests and that of ADF: at $n = 200$ its mean shift is $+0.63$ points, against $+0.28$ for",
+      "printed": [
+        "0.63"
+      ],
+      "v13": [
+        0.6349999999999998
+      ],
+      "theta0": [
+        0.63
+      ],
+      "extra_v13": {},
+      "extra_theta0": {},
+      "v13_reproduces_printed": [
+        true
+      ],
+      "reproduced": true
+    },
+    "misspec_shift1000": {
+      "file": "v13/sec5_montecarlo.tex",
+      "line": 541,
+      "quote": "and $0.042$) and within the region at larger $n$, like DF-GLS and the M tests, while ADF and PP with asymptotic critical values over-reject. Under GARCH its distortion lies between that of the GLS tests and that of ADF: at $n = 200$ its mean shift is $+0.63$ points, against $+0.28$ for DF-GLS, $+0.39$ for MZ$_t$-GLS and $+1.47$ for ADF with simulated critical values; at $n = 1000$ the figures are $+0.36$, $+0.04$, $+0.21$",
+      "printed": [
+        "0.36"
+      ],
+      "v13": [
+        0.3599999999999997
+      ],
+      "theta0": [
+        0.3250000000000001
+      ],
+      "extra_v13": {},
+      "extra_theta0": {},
+      "v13_reproduces_printed": [
+        true
+      ],
+      "reproduced": true
+    },
+    "misspec_inside": {
+      "file": "v13/sec5_montecarlo.tex",
+      "line": 542,
+      "quote": "Under GARCH its distortion lies between that of the GLS tests and that of ADF: at $n = 200$ its mean shift is $+0.63$ points, against $+0.28$ for DF-GLS, $+0.39$ for MZ$_t$-GLS and $+1.47$ for ADF with simulated critical values; at $n = 1000$ the figures are $+0.36$, $+0.04$, $+0.21$ and $+0.85$. It is inside the exact region in nine of the sixteen GARCH cells, against eleven for DF-GLS and MZ$_t$-GLS, nine for MSB-GLS, six for",
+      "printed": [
+        "nine"
+      ],
+      "v13": [
+        9
+      ],
+      "theta0": [
+        9
+      ],
+      "extra_v13": {
+        "garch_cells": 16,
+        "inside": [
+          "c|garch_base_n1000",
+          "c|garch_base_n200",
+          "c|garch_base_n500",
+          "c|garch_p095_t5_n200",
+          "c|garch_p095_t5_n2000",
+          "c|garch_p095_t5_n5000",
+          "c|garch_p098_n1000",
+          "c|garch_p099_n2000",
+          "c|garch_p099_n5000"
+        ]
+      },
+      "extra_theta0": {
+        "garch_cells": 16,
+        "inside": [
+          "c|garch_base_n1000",
+          "c|garch_base_n200",
+          "c|garch_base_n500",
+          "c|garch_p095_t5_n200",
+          "c|garch_p095_t5_n2000",
+          "c|garch_p095_t5_n5000",
+          "c|garch_p098_n1000",
+          "c|garch_p099_n2000",
+          "c|garch_p099_n5000"
+        ]
+      },
+      "v13_reproduces_printed": [
+        true
+      ],
+      "reproduced": true
+    },
+    "dgp5": {
+      "file": "v13/sec5_montecarlo.tex",
+      "line": 644,
+      "quote": "weight on that channel moves the statistic away from rejection when a break is present. No normalization of the channels can turn a second-moment departure into a route to rejection.  The one-channel \\RMGLS{} changes the magnitudes but not the verdict. It exceeds the two-channel statistic by $10$ to $29$ points in every cell,",
+      "printed": [
+        "10",
+        "29"
+      ],
+      "v13": [
+        7.850000000000001,
+        28.499999999999996
+      ],
+      "theta0": [
+        7.950000000000001,
+        28.550000000000004
+      ],
+      "extra_v13": {
+        "cells": 21,
+        "exceeds_bootstrap_r_ge_1.5": true,
+        "exceeds_union_r_le_1.25": true,
+        "union_dominates_interior": true,
+        "min_table_rows_pp": 19.499999999999996,
+        "max_table_rows_pp": 28.499999999999996,
+        "table_rows": 12,
+        "min_cell": "dgp5_n200_rho0.90_r1.1"
+      },
+      "extra_theta0": {
+        "cells": 21,
+        "exceeds_bootstrap_r_ge_1.5": true,
+        "exceeds_union_r_le_1.25": true,
+        "union_dominates_interior": true,
+        "min_table_rows_pp": 19.399999999999995,
+        "max_table_rows_pp": 28.550000000000004,
+        "table_rows": 12,
+        "min_cell": "dgp5_n200_rho0.90_r1.1"
+      },
+      "v13_reproduces_printed": [
+        false,
+        false
+      ],
+      "reproduced": false
+    },
+    "appB_cv": {
+      "file": "v13/appB_critical_values.tex",
+      "line": 10,
+      "quote": "= 0.02$: $H_0$ is rejected at level $\\alpha$ when $\\Stat < q_\\alpha$. Each entry is the empirical quantile of $\\ncal = 10^5$ paths simulated under \\cref{eq:null} by \\cref{def:calib}; the bootstrap standard error of each quantile is below $0.001$. The dependence on $n$ is the anchor effect of \\cref{rem:anchorbias}: in the constant case the $5\\%$ critical value rises from $0.222$ at $n = 100$ to $0.229$ at $n = 1000$. For sample sizes",
+      "printed": [
+        "0.222",
+        "0.229"
+      ],
+      "v13": [
+        0.2219273050252254,
+        0.22903940181819435
+      ],
+      "theta0": [
+        0.23207758675510412,
+        0.23621316320774846
+      ],
+      "extra_v13": {},
+      "extra_theta0": {},
+      "v13_reproduces_printed": [
+        true,
+        true
+      ],
+      "reproduced": true
+    },
+    "appB_se": {
+      "file": "v13/appB_critical_values.tex",
+      "line": 8,
+      "quote": " \\Cref{tab:critB} gives lower-tail critical values of \\RMGLS{} with $\\theta = 0.02$: $H_0$ is rejected at level $\\alpha$ when $\\Stat < q_\\alpha$. Each entry is the empirical quantile of $\\ncal = 10^5$ paths simulated under \\cref{eq:null} by \\cref{def:calib}; the bootstrap standard error of each quantile is below $0.001$. The dependence on $n$ is the anchor effect of",
+      "printed": [
+        "0.001"
+      ],
+      "v13": [
+        0.0007931939434381438
+      ],
+      "theta0": [
+        0.0007955890677737789
+      ],
+      "extra_v13": {},
+      "extra_theta0": {},
+      "v13_reproduces_printed": [
+        true
+      ],
+      "reproduced": true
+    },
+    "app_oos": {
+      "file": "v13/sec6_application.tex",
+      "line": 40,
+      "quote": "protocol did not contain, and it is applied here to the same frozen data with the constant specification, $\\theta = 0.02$ and $\\alpha = 0.05$. \\Cref{tab:deviations} lists every departure from the protocol and its measured effect; the registered statistic's results are reported alongside. Held-out size checks of the deployed configuration give $0.0468$, $0.0478$, $0.0478$ and $0.0490$ at $D = 150$, $200$, $250$ and",
+      "printed": [
+        "0.0468",
+        "0.0478",
+        "0.0478",
+        "0.0490"
+      ],
+      "v13": [
+        0.0468,
+        0.0478,
+        0.0478,
+        0.049
+      ],
+      "theta0": [
+        0.0472,
+        0.0482,
+        0.0468,
+        0.0482
+      ],
+      "extra_v13": {
+        "in_region": {
+          "150": true,
+          "200": true,
+          "250": true,
+          "300": true
+        },
+        "awb": {
+          "150": 0.0428,
+          "200": 0.0466,
+          "250": 0.0436,
+          "300": 0.0468
+        }
+      },
+      "extra_theta0": {
+        "in_region": {
+          "150": true,
+          "200": true,
+          "250": true,
+          "300": true
+        },
+        "awb": {
+          "150": 0.046,
+          "200": 0.0452,
+          "250": 0.0432,
+          "300": 0.0488
+        }
+      },
+      "v13_reproduces_printed": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "reproduced": true
+    },
+    "app_fp": {
+      "file": "v13/sec6_application.tex",
+      "line": 48,
+      "quote": " \\subsection{Results}  \\Cref{tab:fp} reports false-positive rates, detections and latency at the nominal level, and the comparison at a common false-alarm rate. \\RMGLS{} has a mean false-positive rate of $0.0229$ over the 48 control",
+      "printed": [
+        "0.0229"
+      ],
+      "v13": [
+        0.02294713490497557
+      ],
+      "theta0": [
+        0.022442308468472113
+      ],
+      "extra_v13": {},
+      "extra_theta0": {},
+      "v13_reproduces_printed": [
+        true
+      ],
+      "reproduced": true
+    },
+    "app_detections": {
+      "file": "v13/sec6_application.tex",
+      "line": 50,
+      "quote": " \\Cref{tab:fp} reports false-positive rates, detections and latency at the nominal level, and the comparison at a common false-alarm rate. \\RMGLS{} has a mean false-positive rate of $0.0229$ over the 48 control cells, against $0.0535$ for ADF, $0.0532$ for PP and $0.0210$ for DF-GLS with MAIC; it detects 17 of the 88 event cells, against 26, 23 and 23.",
+      "printed": [
+        "17"
+      ],
+      "v13": [
+        17
+      ],
+      "theta0": [
+        17
+      ],
+      "extra_v13": {},
+      "extra_theta0": {},
+      "v13_reproduces_printed": [
+        true
+      ],
+      "reproduced": true
+    },
+    "app_mzt": {
+      "file": "v13/sec6_application.tex",
+      "line": 52,
+      "quote": "\\RMGLS{} has a mean false-positive rate of $0.0229$ over the 48 control cells, against $0.0535$ for ADF, $0.0532$ for PP and $0.0210$ for DF-GLS with MAIC; it detects 17 of the 88 event cells, against 26, 23 and 23. MZ$_t$-GLS dominates it on all three metrics: a lower false-positive rate ($0.0173$), more detections (36) and a shorter mean latency when it detects ($22.1$ against $29.6$ days). The AWB calibration changes",
+      "printed": [
+        "22.1",
+        "29.6"
+      ],
+      "v13": [
+        22.13888888888889,
+        29.58823529411765
+      ],
+      "theta0": [
+        22.13888888888889,
+        29.705882352941178
+      ],
+      "extra_v13": {
+        "mzt_dominates_all_three": true
+      },
+      "extra_theta0": {
+        "mzt_dominates_all_three": true
+      },
+      "v13_reproduces_printed": [
+        true,
+        true
+      ],
+      "reproduced": true
+    },
+    "app_awb": {
+      "file": "v13/sec6_application.tex",
+      "line": 53,
+      "quote": "cells, against $0.0535$ for ADF, $0.0532$ for PP and $0.0210$ for DF-GLS with MAIC; it detects 17 of the 88 event cells, against 26, 23 and 23. MZ$_t$-GLS dominates it on all three metrics: a lower false-positive rate ($0.0173$), more detections (36) and a shorter mean latency when it detects ($22.1$ against $29.6$ days). The AWB calibration changes little ($0.0220$, 15 detections).",
+      "printed": [
+        "0.0220",
+        "15"
+      ],
+      "v13": [
+        0.02197423792673849,
+        15
+      ],
+      "theta0": [
+        0.021721272204897783,
+        13
+      ],
+      "extra_v13": {},
+      "extra_theta0": {},
+      "v13_reproduces_printed": [
+        true,
+        true
+      ],
+      "reproduced": true
+    },
+    "app_target": {
+      "file": "v13/sec6_application.tex",
+      "line": 56,
+      "quote": "MZ$_t$-GLS dominates it on all three metrics: a lower false-positive rate ($0.0173$), more detections (36) and a shorter mean latency when it detects ($22.1$ against $29.6$ days). The AWB calibration changes little ($0.0220$, 15 detections).  At a common false-alarm rate of $0.0227$, with contiguous rejections",
+      "printed": [
+        "0.0227"
+      ],
+      "v13": [
+        0.022742363877822046
+      ],
+      "theta0": [
+        0.022244355909694556
+      ],
+      "extra_v13": {},
+      "extra_theta0": {},
+      "v13_reproduces_printed": [
+        true
+      ],
+      "reproduced": true
+    },
+    "app_episodes": {
+      "file": "v13/sec6_application.tex",
+      "line": 57,
+      "quote": "rate ($0.0173$), more detections (36) and a shorter mean latency when it detects ($22.1$ against $29.6$ days). The AWB calibration changes little ($0.0220$, 15 detections).  At a common false-alarm rate of $0.0227$, with contiguous rejections grouped into alarm episodes, \\RMGLS{} produces 33 false-alarm episodes",
+      "printed": [
+        "33"
+      ],
+      "v13": [
+        33
+      ],
+      "theta0": [
+        33
+      ],
+      "extra_v13": {
+        "dfgls_aic": 33,
+        "adf": 49,
+        "pp": 55
+      },
+      "extra_theta0": {
+        "dfgls_aic": 32,
+        "adf": 48,
+        "pp": 56
+      },
+      "v13_reproduces_printed": [
+        true
+      ],
+      "reproduced": true
+    },
+    "app_latency_c": {
+      "file": "v13/sec6_application.tex",
+      "line": 59,
+      "quote": " At a common false-alarm rate of $0.0227$, with contiguous rejections grouped into alarm episodes, \\RMGLS{} produces 33 false-alarm episodes over the control years, as many as DF-GLS with AIC lag selection and fewer than ADF (49) or PP (55), and a censored latency of $102.5$ days, against $93.6$ for DF-GLS and $79.7$ for MZ$_t$-GLS. Under the",
+      "printed": [
+        "102.5",
+        "93.6",
+        "79.7"
+      ],
+      "v13": [
+        102.5340909090909,
+        93.64772727272727,
+        79.73863636363636
+      ],
+      "theta0": [
+        102.55681818181819,
+        93.64772727272727,
+        79.73863636363636
+      ],
+      "extra_v13": {},
+      "extra_theta0": {},
+      "v13_reproduces_printed": [
+        true,
+        true,
+        true
+      ],
+      "reproduced": true
+    },
+    "app_adverse": {
+      "file": "v13/sec6_application.tex",
+      "line": 62,
+      "quote": "grouped into alarm episodes, \\RMGLS{} produces 33 false-alarm episodes over the control years, as many as DF-GLS with AIC lag selection and fewer than ADF (49) or PP (55), and a censored latency of $102.5$ days, against $93.6$ for DF-GLS and $79.7$ for MZ$_t$-GLS. Under the pre-registered adverse-reporting rule, the rate of \\RMGLS{} exceeds a registered baseline in 7 of the 48 control cells. The registered",
+      "printed": [
+        "7"
+      ],
+      "v13": [
+        7
+      ],
+      "theta0": [
+        7
+      ],
+      "extra_v13": {},
+      "extra_theta0": {},
+      "v13_reproduces_printed": [
+        true
+      ],
+      "reproduced": true
+    },
+    "app_registered": {
+      "file": "v13/sec6_application.tex",
+      "line": 63,
+      "quote": "fewer than ADF (49) or PP (55), and a censored latency of $102.5$ days, against $93.6$ for DF-GLS and $79.7$ for MZ$_t$-GLS. Under the pre-registered adverse-reporting rule, the rate of \\RMGLS{} exceeds a registered baseline in 7 of the 48 control cells. The registered two-channel statistic had fewer false-alarm episodes (11) and fewer detections (13), consistent with its lower power.",
+      "printed": [
+        "11",
+        "13"
+      ],
+      "v13": [
+        11,
+        13
+      ],
+      "theta0": [
+        11,
+        13
+      ],
+      "extra_v13": {},
+      "extra_theta0": {},
+      "v13_reproduces_printed": [
+        true,
+        true
+      ],
+      "reproduced": true
+    },
+    "dev_statistic": {
+      "file": "v13/sec6_application.tex",
+      "line": 129,
+      "quote": "0.02786$; one control cell moves by more than half a point; one detection shifts by one day \\\\ \\addlinespace Statistic & Two-channel statistic, windows $(0.1, 0.1)$, adaptive weight & \\RMGLS{}, $\\theta = 0.02$ & Mean FP $0.0277 \\to 0.0229$; detections $13 \\to 17$; mean latency $33.8 \\to 29.6$ days \\\\",
+      "printed": [
+        "0.0277",
+        "0.0229",
+        "13",
+        "17",
+        "33.8",
+        "29.6"
+      ],
+      "v13": [
+        0.027695742047260757,
+        0.02294713490497557,
+        13,
+        17,
+        33.84615384615385,
+        29.58823529411765
+      ],
+      "theta0": [
+        0.027695742047260757,
+        0.022442308468472113,
+        13,
+        17,
+        33.84615384615385,
+        29.705882352941178
+      ],
+      "extra_v13": {},
+      "extra_theta0": {},
+      "v13_reproduces_printed": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "reproduced": true
+    },
+    "dev_awb": {
+      "file": "v13/sec6_application.tex",
+      "line": 137,
+      "quote": "10^4$ & $\\hacsig$ computed in the loop; $\\ncal = 5\\times10^4$ & Removes the mismatch described in \\cref{sec:calib-def}; uniform error $0.0061$ by \\cref{eq:dkw} \\\\ \\addlinespace Calibration variant & -- & AWB (\\cref{def:awb}), $B = 399$ & Mean FP $0.0229 \\to 0.0220$; detections $17 \\to 15$; latency $29.6 \\to 32.8$ \\\\",
+      "printed": [
+        "0.0229",
+        "0.0220",
+        "17",
+        "15",
+        "29.6",
+        "32.8"
+      ],
+      "v13": [
+        0.02294713490497557,
+        0.02197423792673849,
+        17,
+        15,
+        29.58823529411765,
+        32.8
+      ],
+      "theta0": [
+        0.022442308468472113,
+        0.021721272204897783,
+        17,
+        13,
+        29.705882352941178,
+        40.30769230769231
+      ],
+      "extra_v13": {},
+      "extra_theta0": {},
+      "v13_reproduces_printed": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "reproduced": true
+    }
+  },
+  "not_reproduced": [
+    "power_adf",
+    "dgp5"
+  ],
+  "theta_mentions": {
+    "sec5_montecarlo.tex": {
+      "file": "v13/sec5_montecarlo.tex",
+      "line": 5,
+      "quote": " Unless stated otherwise, \\RMGLS{} uses $\\theta = 0.02$ and the calibration",
+      "groups": []
+    },
+    "sec1_introduction.tex": {
+      "file": "v13/sec1_introduction.tex",
+      "line": 29,
+      "quote": "computed inside the simulation loop, rather than from the limit law. We call it \\RMGLS{} and report everything with $\\theta = 0.02$, a value",
+      "groups": []
+    },
+    "sec6_application.tex": {
+      "file": "v13/sec6_application.tex",
+      "line": 37,
+      "quote": "protocol did not contain, and it is applied here to the same frozen data with the constant specification, $\\theta = 0.02$ and $\\alpha = 0.05$.",
+      "groups": []
+    }
+  }
+}

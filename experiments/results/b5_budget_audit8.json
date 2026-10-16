@@ -1,0 +1,459 @@
+{
+  "provenance": {
+    "script": "experiments/audit8_b5_power.py",
+    "script_sha256": "686b15cd8393fe765727b963154a95ccd50f276a30697c951d365c5153f93195",
+    "commit": "d90c27adfc4b0cde702e5900e909940a3683a87a",
+    "worktree_dirty": true,
+    "dirty_files": [
+      "M experiments/results/logs_audit8/b4_run_audit8.log",
+      " M experiments/results/logs_audit8/chain_audit8.log",
+      " M experiments/results/manifest_audit8.json",
+      " M experiments/results/pytest_audit8.log"
+    ],
+    "generated_utc": "2026-09-18T12:11:31.597387+00:00",
+    "seed_family": 95,
+    "versions": {
+      "python": "3.11.0",
+      "platform": "Windows-10-10.0.26200-SP0",
+      "numpy": "2.2.4",
+      "scipy": "1.15.2",
+      "numba": "0.65.0",
+      "statsmodels": "0.14.6",
+      "arch": "8.0.0",
+      "pandas": "2.2.3",
+      "joblib": "1.4.2",
+      "matplotlib": "3.10.1",
+      "pytest": "9.0.3"
+    },
+    "code": {
+      "experiments/audit8_b0_inventory.py": {
+        "sha256": "6405cc166459c296fb32c86fed1abff150afc4889ba0598502d8c4e41ea07add",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_np_diagnostic.py": {
+        "sha256": "959b18541923f504c4178fdedd3a7d519a62487930c1de4dbcc8e476e0a43df0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_np_gate.py": {
+        "sha256": "93064f87f144776c7c83ee95d23bdbd7eadf5cbaff08af57297eda3ef37348f0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_regression_child.py": {
+        "sha256": "350b1389b64fdc89098d17861b7196671be9fe66123fb1f0702ddd5229fee150",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_validate.py": {
+        "sha256": "6a268b6ac14f5d05f2dfa26b5430328246f34893439ff6004b308d9a163170b0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2_size.py": {
+        "sha256": "74b1cdbd9f0bba3c77cb495b6c53393ba49eef75ff4f88d41257679ee2d4ff93",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2b_diagnostic.py": {
+        "sha256": "f89de9ed47612633614546168cb1887b0fb1c2faa37283276d03e45dd8096802",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2b_indep.py": {
+        "sha256": "47eb0f404478d0bac66bab7ea2002a24956ceeb287bdcb5bd441ee5fc0c8dda5",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b3_comparators.py": {
+        "sha256": "a4589a8ab3fe02284549b02f9c2078ad34172ddab47b268ce5c1ce4c444fc363",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b4_local_power.py": {
+        "sha256": "4de18b53c2f31d3d2f7e04fee1d786d42df0ba7998bdf30278b8029acea904c7",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b5_power.py": {
+        "sha256": "686b15cd8393fe765727b963154a95ccd50f276a30697c951d365c5153f93195",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b6_application.py": {
+        "sha256": "deb1e70e443942b4eb1c2cd0bd99ace58a52cda163277ed31502708fe4d5e5e8",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b7_critical_values.py": {
+        "sha256": "efa960bc70eb1f413071e77b8528adf104d5c486a726f6c15c9c1b12e208e14e",
+        "git_state": "committed"
+      },
+      "experiments/audit8_bootstrap_worker.R": {
+        "sha256": "1cb9168eff403a794d7b3933b12bcca3725cb2aa8f6e93279245c00558fb63c2",
+        "git_state": "committed"
+      },
+      "experiments/audit8_cache_fix_validate.py": {
+        "sha256": "01d88be3d99d27ddb32abdc63bbb5fad3ab6129300ba8cfe638b1790a60d314a",
+        "git_state": "committed"
+      },
+      "experiments/audit8_common.py": {
+        "sha256": "5718ec2cfa7f5f5c5f7f8d68ed26198e00ac827fb562cee67b234857e5719f0d",
+        "git_state": "committed"
+      },
+      "experiments/audit8_design.py": {
+        "sha256": "2ccb821d028036947d51eff7d739976df79b94ca01f01974b3e5761e481420b6",
+        "git_state": "committed"
+      },
+      "experiments/audit8_environment.py": {
+        "sha256": "9b323700e91302ad0090e876b922a38a1dd6b23ef5f19fcc7748d947e617d21e",
+        "git_state": "committed"
+      },
+      "experiments/audit8_figconfig.py": {
+        "sha256": "eb516777a764ee78828acf7a5c743c4e9d8f5aab57b98550606354793d467e12",
+        "git_state": "committed"
+      },
+      "experiments/audit8_generate_report.py": {
+        "sha256": "b02dc7d2ff6e4b1a81d570f7094f7bfb182a082194960f0b8272ed21e2839a09",
+        "git_state": "committed"
+      },
+      "experiments/audit8_unitroot.py": {
+        "sha256": "9d0842a342f12b9c8a7e3870127768590c53d98c8ca90dbb3a2715ddb16748ef",
+        "git_state": "committed"
+      },
+      "experiments/make_figures_audit8.py": {
+        "sha256": "50fbdc4583b2aaf1e5fa4e7dc053dd151a2127ccc422c922db4ebc855daee8a2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/__init__.py": {
+        "sha256": "20ebf29ab1a9a64bb428f25ff0170d67db2354662efb8b973922c3f455f56582",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/constants.py": {
+        "sha256": "de8bd2282ff09c41fc6eae12fcca6695c1fd3a0c9def7628a9b76e9361058907",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/davies.py": {
+        "sha256": "cfad047d0b0676cc83a41208cd600f4224ce61bf03930228a5a80d1d6556c9b9",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/deterministics.py": {
+        "sha256": "31db116abc80e5cab8c97317a31d6f22f1a4ca40c885eef86c134db598dac6b2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/empirical_eigenvalues.py": {
+        "sha256": "f749e2e2de8b807421d6e74836bd5d539eccb314f18821bd38b80e72b5ee72a1",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/full_pipeline.py": {
+        "sha256": "cdbd5405caa50bc83c7348a0a8be9963b522ef4d808024f078f648bb1de89170",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/hac_estimator.py": {
+        "sha256": "f7c22540e6a8e862258cb70e4a839b841453ca9490a01671176431ee4bf678f2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/kl_eigenvalues.py": {
+        "sha256": "c0fb0a90795c904cb2876aa16eff64948e0abf5a27d3a57c6612c2b9ec198903",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/null_quantiles.py": {
+        "sha256": "655458f05815621d015984080169663d2310d26e588a83e2c5a62549ba5a1ae8",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/optimal_weight.py": {
+        "sha256": "47632d98ed256b2364a2ac99de64780e0cd8d42a69c68b4552c6ea0564f86ba4",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/rm_core.py": {
+        "sha256": "4d3ee3f59c569233a5e9a9ed8ffd3032364188545bac04a0cc619ccac39e04e0",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/standardization.py": {
+        "sha256": "cc8cb146d28ea63be86bc11db6cc6c345fbf5fd412055e2e58a33a40f3e8936b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/statistic.py": {
+        "sha256": "f0baf1d99ac4311ca854d350f18a3d3416974bf5d13e662d05149f87183d92ef",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/theta_selection.py": {
+        "sha256": "23eba50e85d0db917d14b4d3d844c42e5ee566dfd326a0fad7feae0dd113f40b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/utils.py": {
+        "sha256": "8a3e0b972da519b3c39ca0e0326953dbae1bf048845c05c1fb3a23a001b72717",
+        "git_state": "committed"
+      }
+    },
+    "code_all_committed": true
+  },
+  "budget_hours": 30.0,
+  "cores": 14,
+  "measured": {
+    "boot_n1000": {
+      "cell": "boot_dgp3_r4_n1000",
+      "series": 2000,
+      "sec_per_series": 3.025245,
+      "kind": "celda completa"
+    },
+    "boot_n200": {
+      "cell": "boot_dgp3_r4_n200",
+      "series": 14,
+      "sec_per_series": 0.18640502861567906,
+      "kind": "sonda"
+    },
+    "boot_n500": {
+      "cell": "boot_dgp3_r4_n500",
+      "series": 14,
+      "sec_per_series": 0.8747866834912982,
+      "kind": "sonda"
+    },
+    "rows_por_celda": {
+      "cells": 101,
+      "series_per_probe": 14,
+      "kind": "sonda por celda",
+      "sec_per_series_max_by_kind": {
+        "ct": 0.4369595732007708,
+        "drift": 0.0030679702758789062,
+        "dm": 0.7751994814191546
+      },
+      "sec_per_series_min_by_kind": {
+        "ct": 0.0025575331279209684,
+        "drift": 0.0020501443317958285,
+        "dm": 0.0024883406502859934
+      }
+    }
+  },
+  "per_cell_projected_sec": {
+    "cal_ct_n200": 21847.978660038538,
+    "ct_garch_base_n200": 15.532970428466797,
+    "ct_garch_p095_t5_n200": 12.787665639604842,
+    "ct_garch_p098_n200": 17.395956175667898,
+    "ct_garch_p099_n200": 15.015176364353724,
+    "ct_indep_gauss_n200": 66.76299231392997,
+    "ct_power_rho0p95_n200": 17.684527805873326,
+    "ct_power_rho0p97_n200": 19.45819173540388,
+    "ct_power_rho0p99_n200": 13.780082975115096,
+    "ct_power_rho0p9_n200": 14.705913407461985,
+    "ct_size_n200": 11.954392705644882,
+    "dgp1_rho0p85_n200": 18.741743905203684,
+    "dgp1_rho0p8_n200": 15.785438673836843,
+    "dgp1_rho0p93_n200": 13.827426092965261,
+    "dgp1_rho0p95_n200": 13.830576624189103,
+    "dgp1_rho0p97_n200": 14.941862651279994,
+    "dgp1_rho0p99_n200": 13.36651188986642,
+    "dgp1_rho0p9_n200": 15.90456281389509,
+    "dgp2_delta0_n200": 17.554589680262975,
+    "dgp2_delta0p5_n200": 18.25460365840367,
+    "dgp2_delta1_n200": 22.5308963230678,
+    "dgp2_delta2_n200": 19.0629277910505,
+    "dgp2_delta3_n200": 20.887425967625212,
+    "dgp2_delta5_n200": 19.875849996294292,
+    "dgp3_r1_n200": 13.119067464556014,
+    "dgp3_r1p5_n200": 13.11455454145159,
+    "dgp3_r2_n200": 13.852885791233607,
+    "dgp3_r3_n200": 12.441703251429967,
+    "dgp3_r4_n200": 14.77386270250593,
+    "za_rw_n200": 24.475199835641043,
+    "za_rwbreak_n200": 21.864005497523713,
+    "cal_ct_n500": 168.8522951943534,
+    "ct_garch_base_n500": 21.09450953347342,
+    "ct_garch_p095_t5_n500": 16.873478889465332,
+    "ct_garch_p098_n500": 17.25588526044573,
+    "ct_garch_p099_n500": 17.307400703430176,
+    "ct_indep_gauss_n500": 69.49152265276227,
+    "ct_power_rho0p95_n500": 16.09827790941511,
+    "ct_power_rho0p97_n500": 12.923479080200195,
+    "ct_power_rho0p99_n500": 17.143828528267996,
+    "ct_power_rho0p9_n500": 18.38411603655134,
+    "ct_size_n500": 10.250721658979142,
+    "dgp1_rho0p85_n500": 20.764555249895366,
+    "dgp1_rho0p8_n500": 17.469184739249094,
+    "dgp1_rho0p93_n500": 16.46782670702253,
+    "dgp1_rho0p95_n500": 17.462287630353654,
+    "dgp1_rho0p97_n500": 18.46449715750558,
+    "dgp1_rho0p99_n500": 17.775978360857284,
+    "dgp1_rho0p9_n500": 20.031843866620747,
+    "dgp2_delta0_n500": 21.986791065761018,
+    "dgp2_delta0p5_n500": 24.350455829075408,
+    "dgp2_delta1_n500": 18.494129180908203,
+    "dgp2_delta2_n500": 20.76191561562674,
+    "dgp2_delta3_n500": 21.595018250601633,
+    "dgp2_delta5_n500": 20.918590681893484,
+    "dgp3_r1_n500": 17.20317772456578,
+    "dgp3_r1p5_n500": 21.075180598667693,
+    "dgp3_r2_n500": 16.859003475734166,
+    "dgp3_r3_n500": 17.52504280635289,
+    "dgp3_r4_n500": 16.417418207441056,
+    "za_rw_n500": 21.41186169215611,
+    "za_rwbreak_n500": 21.2416478565761,
+    "cal_ct_n1000": 210.55511065891812,
+    "ct_garch_base_n1000": 25.086828640529085,
+    "ct_garch_p095_t5_n1000": 28.866870062691824,
+    "ct_garch_p098_n1000": 19.71074513026646,
+    "ct_garch_p099_n1000": 17.971907343183243,
+    "ct_indep_gauss_n1000": 70.561340876988,
+    "ct_power_rho0p95_n1000": 19.987651279994417,
+    "ct_power_rho0p97_n1000": 22.305846214294434,
+    "ct_power_rho0p99_n1000": 18.497790609087264,
+    "ct_power_rho0p9_n1000": 18.453342573983328,
+    "ct_size_n1000": 15.339851379394531,
+    "dgp1_rho0p85_n1000": 18.109423773629324,
+    "dgp1_rho0p8_n1000": 21.43902438027518,
+    "dgp1_rho0p93_n1000": 17.55654811859131,
+    "dgp1_rho0p95_n1000": 19.56292561122349,
+    "dgp1_rho0p97_n1000": 17.21339566367013,
+    "dgp1_rho0p99_n1000": 16.552295003618514,
+    "dgp1_rho0p9_n1000": 20.810876573835102,
+    "dgp2_delta0_n1000": 57.6096773147583,
+    "dgp2_delta0p5_n1000": 55.706415857587544,
+    "dgp2_delta1_n1000": 60.75177873883929,
+    "dgp2_delta2_n1000": 45.7230636051723,
+    "dgp2_delta3_n1000": 44.3652697971889,
+    "dgp2_delta5_n1000": 3875.9974070957733,
+    "dgp3_r1_n1000": 26.01921558380127,
+    "dgp3_r1p5_n1000": 18.31531524658203,
+    "dgp3_r2_n1000": 16.91596848624093,
+    "dgp3_r3_n1000": 17.22684928349086,
+    "dgp3_r4_n1000": 17.63275691441127,
+    "za_rw_n1000": 34.7853558404105,
+    "za_rwbreak_n1000": 43.370553425380166,
+    "cal_ct_n2000": 325.7708890097482,
+    "ct_garch_p095_t5_n2000": 56.867258889334536,
+    "ct_garch_p099_n2000": 35.31115395682199,
+    "ct_indep_gauss_n2000": 156.1910765511649,
+    "cal_ct_n5000": 1078.5128389086042,
+    "ct_garch_p095_t5_n5000": 111.43667357308524,
+    "ct_garch_p099_n5000": 103.20203644888741,
+    "ct_indep_gauss_n5000": 660.2542740958077,
+    "boot_dgp1_rho0p95_n200": 372.81005723135814,
+    "boot_dgp1_rho0p99_n200": 372.81005723135814,
+    "boot_dgp3_r1_n200": 372.81005723135814,
+    "boot_dgp3_r2_n200": 372.81005723135814,
+    "boot_dgp3_r4_n200": 372.81005723135814,
+    "boot_dgp1_rho0p95_n500": 1749.5733669825963,
+    "boot_dgp1_rho0p99_n500": 1749.5733669825963,
+    "boot_dgp3_r1_n500": 1749.5733669825963,
+    "boot_dgp3_r2_n500": 1749.5733669825963,
+    "boot_dgp3_r4_n500": 1749.5733669825963,
+    "boot_dgp1_rho0p95_n1000": 6050.49,
+    "boot_dgp1_rho0p99_n1000": 6050.49,
+    "boot_dgp3_r1_n1000": 6050.49,
+    "boot_dgp3_r2_n1000": 6050.49,
+    "boot_dgp3_r4_n1000": 6050.49
+  },
+  "projected_total_hours": 19.852813575131545,
+  "within_budget": true,
+  "per_cell_projected_sec_upper_bound": {
+    "cal_ct_n200": 21847.978660038538,
+    "ct_garch_base_n200": 2184.797866003854,
+    "ct_garch_p095_t5_n200": 2184.797866003854,
+    "ct_garch_p098_n200": 2184.797866003854,
+    "ct_garch_p099_n200": 2184.797866003854,
+    "ct_indep_gauss_n200": 8739.191464015415,
+    "ct_power_rho0p95_n200": 2184.797866003854,
+    "ct_power_rho0p97_n200": 2184.797866003854,
+    "ct_power_rho0p99_n200": 2184.797866003854,
+    "ct_power_rho0p9_n200": 2184.797866003854,
+    "ct_size_n200": 15.339851379394531,
+    "dgp1_rho0p85_n200": 3875.9974070957733,
+    "dgp1_rho0p8_n200": 3875.9974070957733,
+    "dgp1_rho0p93_n200": 3875.9974070957733,
+    "dgp1_rho0p95_n200": 3875.9974070957733,
+    "dgp1_rho0p97_n200": 3875.9974070957733,
+    "dgp1_rho0p99_n200": 3875.9974070957733,
+    "dgp1_rho0p9_n200": 3875.9974070957733,
+    "dgp2_delta0_n200": 3875.9974070957733,
+    "dgp2_delta0p5_n200": 3875.9974070957733,
+    "dgp2_delta1_n200": 3875.9974070957733,
+    "dgp2_delta2_n200": 3875.9974070957733,
+    "dgp2_delta3_n200": 3875.9974070957733,
+    "dgp2_delta5_n200": 3875.9974070957733,
+    "dgp3_r1_n200": 3875.9974070957733,
+    "dgp3_r1p5_n200": 3875.9974070957733,
+    "dgp3_r2_n200": 3875.9974070957733,
+    "dgp3_r3_n200": 3875.9974070957733,
+    "dgp3_r4_n200": 3875.9974070957733,
+    "za_rw_n200": 3875.9974070957733,
+    "za_rwbreak_n200": 3875.9974070957733,
+    "cal_ct_n500": 21847.978660038538,
+    "ct_garch_base_n500": 2184.797866003854,
+    "ct_garch_p095_t5_n500": 2184.797866003854,
+    "ct_garch_p098_n500": 2184.797866003854,
+    "ct_garch_p099_n500": 2184.797866003854,
+    "ct_indep_gauss_n500": 8739.191464015415,
+    "ct_power_rho0p95_n500": 2184.797866003854,
+    "ct_power_rho0p97_n500": 2184.797866003854,
+    "ct_power_rho0p99_n500": 2184.797866003854,
+    "ct_power_rho0p9_n500": 2184.797866003854,
+    "ct_size_n500": 15.339851379394531,
+    "dgp1_rho0p85_n500": 3875.9974070957733,
+    "dgp1_rho0p8_n500": 3875.9974070957733,
+    "dgp1_rho0p93_n500": 3875.9974070957733,
+    "dgp1_rho0p95_n500": 3875.9974070957733,
+    "dgp1_rho0p97_n500": 3875.9974070957733,
+    "dgp1_rho0p99_n500": 3875.9974070957733,
+    "dgp1_rho0p9_n500": 3875.9974070957733,
+    "dgp2_delta0_n500": 3875.9974070957733,
+    "dgp2_delta0p5_n500": 3875.9974070957733,
+    "dgp2_delta1_n500": 3875.9974070957733,
+    "dgp2_delta2_n500": 3875.9974070957733,
+    "dgp2_delta3_n500": 3875.9974070957733,
+    "dgp2_delta5_n500": 3875.9974070957733,
+    "dgp3_r1_n500": 3875.9974070957733,
+    "dgp3_r1p5_n500": 3875.9974070957733,
+    "dgp3_r2_n500": 3875.9974070957733,
+    "dgp3_r3_n500": 3875.9974070957733,
+    "dgp3_r4_n500": 3875.9974070957733,
+    "za_rw_n500": 3875.9974070957733,
+    "za_rwbreak_n500": 3875.9974070957733,
+    "cal_ct_n1000": 21847.978660038538,
+    "ct_garch_base_n1000": 2184.797866003854,
+    "ct_garch_p095_t5_n1000": 2184.797866003854,
+    "ct_garch_p098_n1000": 2184.797866003854,
+    "ct_garch_p099_n1000": 2184.797866003854,
+    "ct_indep_gauss_n1000": 8739.191464015415,
+    "ct_power_rho0p95_n1000": 2184.797866003854,
+    "ct_power_rho0p97_n1000": 2184.797866003854,
+    "ct_power_rho0p99_n1000": 2184.797866003854,
+    "ct_power_rho0p9_n1000": 2184.797866003854,
+    "ct_size_n1000": 15.339851379394531,
+    "dgp1_rho0p85_n1000": 3875.9974070957733,
+    "dgp1_rho0p8_n1000": 3875.9974070957733,
+    "dgp1_rho0p93_n1000": 3875.9974070957733,
+    "dgp1_rho0p95_n1000": 3875.9974070957733,
+    "dgp1_rho0p97_n1000": 3875.9974070957733,
+    "dgp1_rho0p99_n1000": 3875.9974070957733,
+    "dgp1_rho0p9_n1000": 3875.9974070957733,
+    "dgp2_delta0_n1000": 3875.9974070957733,
+    "dgp2_delta0p5_n1000": 3875.9974070957733,
+    "dgp2_delta1_n1000": 3875.9974070957733,
+    "dgp2_delta2_n1000": 3875.9974070957733,
+    "dgp2_delta3_n1000": 3875.9974070957733,
+    "dgp2_delta5_n1000": 3875.9974070957733,
+    "dgp3_r1_n1000": 3875.9974070957733,
+    "dgp3_r1p5_n1000": 3875.9974070957733,
+    "dgp3_r2_n1000": 3875.9974070957733,
+    "dgp3_r3_n1000": 3875.9974070957733,
+    "dgp3_r4_n1000": 3875.9974070957733,
+    "za_rw_n1000": 3875.9974070957733,
+    "za_rwbreak_n1000": 3875.9974070957733,
+    "cal_ct_n2000": 21847.978660038538,
+    "ct_garch_p095_t5_n2000": 2184.797866003854,
+    "ct_garch_p099_n2000": 2184.797866003854,
+    "ct_indep_gauss_n2000": 8739.191464015415,
+    "cal_ct_n5000": 21847.978660038538,
+    "ct_garch_p095_t5_n5000": 2184.797866003854,
+    "ct_garch_p099_n5000": 2184.797866003854,
+    "ct_indep_gauss_n5000": 8739.191464015415,
+    "boot_dgp1_rho0p95_n200": 372.81005723135814,
+    "boot_dgp1_rho0p99_n200": 372.81005723135814,
+    "boot_dgp3_r1_n200": 372.81005723135814,
+    "boot_dgp3_r2_n200": 372.81005723135814,
+    "boot_dgp3_r4_n200": 372.81005723135814,
+    "boot_dgp1_rho0p95_n500": 1749.5733669825963,
+    "boot_dgp1_rho0p99_n500": 1749.5733669825963,
+    "boot_dgp3_r1_n500": 1749.5733669825963,
+    "boot_dgp3_r2_n500": 1749.5733669825963,
+    "boot_dgp3_r4_n500": 1749.5733669825963,
+    "boot_dgp1_rho0p95_n1000": 6050.49,
+    "boot_dgp1_rho0p99_n1000": 6050.49,
+    "boot_dgp3_r1_n1000": 6050.49,
+    "boot_dgp3_r2_n1000": 6050.49,
+    "boot_dgp3_r4_n1000": 6050.49
+  },
+  "projected_total_hours_upper_bound": 135.43900610259232,
+  "bootstrap_hours": 11.351213089186047,
+  "rows_hours": 8.501600485945502,
+  "rule": "una celda completa de bootstrap (DGP 3, r = 4, n = 1000), sondas de 14 series por n para el resto del bootstrap y una sonda de 14 series por cada celda de filas; se reporta tambien la cota superior que resulta de proyectar cada celda de filas con la sonda mas cara de su tipo"
+}

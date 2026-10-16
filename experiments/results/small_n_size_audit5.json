@@ -1,0 +1,134 @@
+[
+  {
+    "theta": 0.1,
+    "n": 60,
+    "ours_R025": 0.0328,
+    "ours_R050": 0.033,
+    "ours_R075": 0.0298,
+    "adf": 0.0762,
+    "pp": 0.0554,
+    "dfgls": 0.119,
+    "kpss_rw": 0.6978
+  },
+  {
+    "theta": 0.1,
+    "n": 100,
+    "ours_R025": 0.0396,
+    "ours_R050": 0.039,
+    "ours_R075": 0.0372,
+    "adf": 0.0632,
+    "pp": 0.0522,
+    "dfgls": 0.0874,
+    "kpss_rw": 0.7838
+  },
+  {
+    "theta": 0.1,
+    "n": 150,
+    "ours_R025": 0.0398,
+    "ours_R050": 0.0366,
+    "ours_R075": 0.0402,
+    "adf": 0.0588,
+    "pp": 0.0544,
+    "dfgls": 0.0754,
+    "kpss_rw": 0.7816
+  },
+  {
+    "theta": 0.1,
+    "n": 200,
+    "ours_R025": 0.0364,
+    "ours_R050": 0.0358,
+    "ours_R075": 0.036,
+    "adf": 0.056,
+    "pp": 0.055,
+    "dfgls": 0.0672,
+    "kpss_rw": 0.8338
+  },
+  {
+    "theta": 0.3,
+    "n": 60,
+    "ours_R025": 0.0418,
+    "ours_R050": 0.0412,
+    "ours_R075": 0.0354,
+    "adf": null,
+    "pp": null,
+    "dfgls": null,
+    "kpss_rw": null
+  },
+  {
+    "theta": 0.3,
+    "n": 100,
+    "ours_R025": 0.0422,
+    "ours_R050": 0.042,
+    "ours_R075": 0.0414,
+    "adf": null,
+    "pp": null,
+    "dfgls": null,
+    "kpss_rw": null
+  },
+  {
+    "theta": 0.3,
+    "n": 150,
+    "ours_R025": 0.0412,
+    "ours_R050": 0.0378,
+    "ours_R075": 0.04,
+    "adf": null,
+    "pp": null,
+    "dfgls": null,
+    "kpss_rw": null
+  },
+  {
+    "theta": 0.3,
+    "n": 200,
+    "ours_R025": 0.0436,
+    "ours_R050": 0.0432,
+    "ours_R075": 0.0414,
+    "adf": null,
+    "pp": null,
+    "dfgls": null,
+    "kpss_rw": null
+  },
+  {
+    "theta": 0.5,
+    "n": 60,
+    "ours_R025": 0.0432,
+    "ours_R050": 0.0428,
+    "ours_R075": 0.0408,
+    "adf": null,
+    "pp": null,
+    "dfgls": null,
+    "kpss_rw": null
+  },
+  {
+    "theta": 0.5,
+    "n": 100,
+    "ours_R025": 0.0414,
+    "ours_R050": 0.0424,
+    "ours_R075": 0.0438,
+    "adf": null,
+    "pp": null,
+    "dfgls": null,
+    "kpss_rw": null
+  },
+  {
+    "theta": 0.5,
+    "n": 150,
+    "ours_R025": 0.0476,
+    "ours_R050": 0.042,
+    "ours_R075": 0.0434,
+    "adf": null,
+    "pp": null,
+    "dfgls": null,
+    "kpss_rw": null
+  },
+  {
+    "theta": 0.5,
+    "n": 200,
+    "ours_R025": 0.0438,
+    "ours_R050": 0.0422,
+    "ours_R075": 0.0416,
+    "adf": null,
+    "pp": null,
+    "dfgls": null,
+    "kpss_rw": null
+  }
+]

@@ -1,0 +1,336 @@
+{
+  "provenance": {
+    "script": "experiments/audit12_bF_anchor.py",
+    "script_sha256": "7bfe9ca7c9bd99d88676b4003097402c99402b51ba4b5c9c404b4f3e9406bbdc",
+    "commit": "d771ca08daf67545dfcd6b70bf141544bcdea51c",
+    "worktree_dirty": false,
+    "dirty_files": [],
+    "generated_utc": "2026-09-22T03:18:33.034987+00:00",
+    "seed_family": 135,
+    "versions": {
+      "python": "3.11.0",
+      "platform": "Windows-10-10.0.26200-SP0",
+      "numpy": "2.2.4",
+      "scipy": "1.15.2",
+      "numba": "0.65.0",
+      "statsmodels": "0.14.6",
+      "arch": "8.0.0",
+      "pandas": "2.2.3",
+      "joblib": "1.4.2",
+      "matplotlib": "3.10.1",
+      "pytest": "9.0.3"
+    },
+    "code": {
+      "experiments/audit10_common.py": {
+        "sha256": "298e82a217d2dd32ba87245f6056dbb82051fe2985acd644b1e972f6768ca123",
+        "git_state": "committed"
+      },
+      "experiments/audit10_engine.py": {
+        "sha256": "3d2618561538c1afd8daf8224fa230826ae442505877afb8c12a378755911333",
+        "git_state": "committed"
+      },
+      "experiments/audit12_b120_inventory.py": {
+        "sha256": "8336160e0c62006a28b89f6627f9e4e0d3a2c8e108168ee3763925e15df38ac5",
+        "git_state": "committed"
+      },
+      "experiments/audit12_bA_ma.py": {
+        "sha256": "c3a02fc6c4468501b31cd5fed6c5dd9708e0c1fbd3e2f7cc5178707f016457a6",
+        "git_state": "committed"
+      },
+      "experiments/audit12_bB_attrib.py": {
+        "sha256": "961c6c44ff4dbfc449e36f5b5b51d569ce93658003e9a7cf498c983ffc21ec84",
+        "git_state": "committed"
+      },
+      "experiments/audit12_bC_initial.py": {
+        "sha256": "77e5c329a7be36c07705486626ec253416c757836205d54e4b99dfb25941ffbf",
+        "git_state": "committed"
+      },
+      "experiments/audit12_bF_anchor.py": {
+        "sha256": "7bfe9ca7c9bd99d88676b4003097402c99402b51ba4b5c9c404b4f3e9406bbdc",
+        "git_state": "committed"
+      },
+      "experiments/audit12_cal.py": {
+        "sha256": "63a1625faf55edc91a2db0dbcfe4ac8a316e0c4023dac85e8122490be1099346",
+        "git_state": "committed"
+      },
+      "experiments/audit12_claims.py": {
+        "sha256": "3c374109da95f003921fce1588cbe3341ec96cecb15e462e9294045a32967141",
+        "git_state": "committed"
+      },
+      "experiments/audit12_common.py": {
+        "sha256": "9845605b593b4c07eed4a0ead1b9068951c1b302ca653d7fb410b2ddc84f7b84",
+        "git_state": "committed"
+      },
+      "experiments/audit12_design.py": {
+        "sha256": "b55d9ae3f6ff06d746e9e60a36ffc78d73e1171260e6e965001f187623e92838",
+        "git_state": "committed"
+      },
+      "experiments/audit12_generate_report.py": {
+        "sha256": "5b8549fcde02fa6d3e0e3007176db94a3c7a362687a9289c7aebafd3f73a4d82",
+        "git_state": "committed"
+      },
+      "experiments/audit12_runner.py": {
+        "sha256": "01d8ea8b833067be4b631bc60b24741a9b941f127d7e98295f54c215c93c7318",
+        "git_state": "committed"
+      },
+      "experiments/audit12_unitroot.py": {
+        "sha256": "36b0bb5a7439cb0fabdfc346d9b1d2fef91fc0bacf54f49c4642538f4c3db3cb",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b5_power.py": {
+        "sha256": "561c9dd52313c70d193ebe7ea772b3dbf91db2e691019eec3f5e76c4c8c28092",
+        "git_state": "committed"
+      },
+      "experiments/audit8_common.py": {
+        "sha256": "5718ec2cfa7f5f5c5f7f8d68ed26198e00ac827fb562cee67b234857e5719f0d",
+        "git_state": "committed"
+      },
+      "experiments/audit8_design.py": {
+        "sha256": "ad80aeae74d44ff4cecbd10dbfc480d24c146b81ec8f9d6561f95b7ba7079ae0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_unitroot.py": {
+        "sha256": "9d0842a342f12b9c8a7e3870127768590c53d98c8ca90dbb3a2715ddb16748ef",
+        "git_state": "committed"
+      },
+      "experiments/audit9_common.py": {
+        "sha256": "39fbee3c398de920ba2f9c4400ac6254c58d9fb537c6f97649c8299ea39e78f7",
+        "git_state": "committed"
+      },
+      "experiments/audit9_design.py": {
+        "sha256": "e25486561a4c06643807b4035e2beeb0436558b1157bfb3b7a866e5e7cb815ac",
+        "git_state": "committed"
+      },
+      "experiments/audit9_engine.py": {
+        "sha256": "8f8bd7a817178056d2e55a4c518bfc2188737c02c3f56cf467d15972ac651e1b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/__init__.py": {
+        "sha256": "20ebf29ab1a9a64bb428f25ff0170d67db2354662efb8b973922c3f455f56582",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/constants.py": {
+        "sha256": "de8bd2282ff09c41fc6eae12fcca6695c1fd3a0c9def7628a9b76e9361058907",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/davies.py": {
+        "sha256": "cfad047d0b0676cc83a41208cd600f4224ce61bf03930228a5a80d1d6556c9b9",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/deterministics.py": {
+        "sha256": "31db116abc80e5cab8c97317a31d6f22f1a4ca40c885eef86c134db598dac6b2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/empirical_eigenvalues.py": {
+        "sha256": "f749e2e2de8b807421d6e74836bd5d539eccb314f18821bd38b80e72b5ee72a1",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/full_pipeline.py": {
+        "sha256": "cdbd5405caa50bc83c7348a0a8be9963b522ef4d808024f078f648bb1de89170",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/hac_estimator.py": {
+        "sha256": "f7c22540e6a8e862258cb70e4a839b841453ca9490a01671176431ee4bf678f2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/kl_eigenvalues.py": {
+        "sha256": "c0fb0a90795c904cb2876aa16eff64948e0abf5a27d3a57c6612c2b9ec198903",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/null_quantiles.py": {
+        "sha256": "655458f05815621d015984080169663d2310d26e588a83e2c5a62549ba5a1ae8",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/optimal_weight.py": {
+        "sha256": "47632d98ed256b2364a2ac99de64780e0cd8d42a69c68b4552c6ea0564f86ba4",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/rm_core.py": {
+        "sha256": "4d3ee3f59c569233a5e9a9ed8ffd3032364188545bac04a0cc619ccac39e04e0",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/standardization.py": {
+        "sha256": "cc8cb146d28ea63be86bc11db6cc6c345fbf5fd412055e2e58a33a40f3e8936b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/statistic.py": {
+        "sha256": "f0baf1d99ac4311ca854d350f18a3d3416974bf5d13e662d05149f87183d92ef",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/theta_selection.py": {
+        "sha256": "23eba50e85d0db917d14b4d3d844c42e5ee566dfd326a0fad7feae0dd113f40b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/utils.py": {
+        "sha256": "8a3e0b972da519b3c39ca0e0326953dbae1bf048845c05c1fb3a23a001b72717",
+        "git_state": "committed"
+      }
+    },
+    "code_all_committed": true
+  },
+  "config": {
+    "cbar": -7.0,
+    "kappa": 39.66666666666667,
+    "lambda": 1192.3333333333333,
+    "sigma": 1.0,
+    "n": [
+      60,
+      100,
+      200,
+      500,
+      1000,
+      2000,
+      5000,
+      20000
+    ],
+    "dense_max_n": 5000,
+    "gate_tol": 0.002,
+    "gate_n_min": 200,
+    "z_threshold": 3.0,
+    "method": "E[u'u] = tr Sigma - 2 1'Sigma w + (n+1) w'Sigma w; control denso tr(M Sigma M')"
+  },
+  "rows": {
+    "60": {
+      "n": 60,
+      "exact": 0.23928097538241888,
+      "exact_dense": 0.2392809753824187,
+      "dense_minus_fast": -1.942890293094024e-16,
+      "formula": 0.23644193810846442,
+      "formula_minus_exact": -0.002839037273954459,
+      "first_order_A11": -0.1611111111111112,
+      "first_order_minus_exact": -0.4003920864935301
+    },
+    "100": {
+      "n": 100,
+      "exact": 0.28898600738705427,
+      "exact_dense": 0.2889860073870541,
+      "dense_minus_fast": -1.6653345369377348e-16,
+      "formula": 0.2874870501328769,
+      "formula_minus_exact": -0.0014989572541773688,
+      "first_order_A11": 0.10333333333333328,
+      "first_order_minus_exact": -0.185652674053721
+    },
+    "200": {
+      "n": 200,
+      "exact": 0.36045863514298143,
+      "exact_dense": 0.3604586351429814,
+      "dense_minus_fast": -5.551115123125783e-17,
+      "formula": 0.35992699042488563,
+      "formula_minus_exact": -0.0005316447180958028,
+      "first_order_A11": 0.30166666666666664,
+      "first_order_minus_exact": -0.05879196847631479,
+      "sim_A11": {
+        "mean": 0.36029252023775377,
+        "se": 0.0019188573276533926,
+        "N": 40000,
+        "z_vs_exact": -0.08656970105787422,
+        "compatible": true,
+        "source": "t3_anchor_audit11.json cells.200.by_theta.0"
+      }
+    },
+    "500": {
+      "n": 500,
+      "exact": 0.4318121570067785,
+      "exact_dense": 0.43181215700677855,
+      "dense_minus_fast": 5.551115123125783e-17,
+      "formula": 0.43170338961494265,
+      "formula_minus_exact": -0.00010876739183585116,
+      "first_order_A11": 0.42066666666666663,
+      "first_order_minus_exact": -0.011145490340111863,
+      "sim_A11": {
+        "mean": 0.43038586079706026,
+        "se": 0.002408439273043965,
+        "N": 40000,
+        "z_vs_exact": -0.5922076697892311,
+        "compatible": true,
+        "source": "t3_anchor_audit11.json cells.500.by_theta.0"
+      }
+    },
+    "1000": {
+      "n": 1000,
+      "exact": 0.46329949194293685,
+      "exact_dense": 0.46329949194293685,
+      "dense_minus_fast": 0.0,
+      "formula": 0.46326975348077654,
+      "formula_minus_exact": -2.9738462160311396e-05,
+      "first_order_A11": 0.4603333333333333,
+      "first_order_minus_exact": -0.002966158609603531,
+      "sim_A11": {
+        "mean": 0.4631771660740431,
+        "se": 0.002634419210211082,
+        "N": 40000,
+        "z_vs_exact": -0.046433714277374874,
+        "compatible": true,
+        "source": "t3_anchor_audit11.json cells.1000.by_theta.0"
+      }
+    },
+    "2000": {
+      "n": 2000,
+      "exact": 0.4809327476540177,
+      "exact_dense": 0.4809327476540179,
+      "dense_minus_fast": 1.6653345369377348e-16,
+      "formula": 0.4809249600820249,
+      "formula_minus_exact": -7.787571992823317e-06,
+      "first_order_A11": 0.4801666666666667,
+      "first_order_minus_exact": -0.0007660809873510366,
+      "sim_A11": {
+        "mean": 0.4834552104451199,
+        "se": 0.002752797886200336,
+        "N": 40000,
+        "z_vs_exact": 0.9163269137001268,
+        "compatible": true,
+        "source": "t3_anchor_audit11.json cells.2000.by_theta.0"
+      }
+    },
+    "5000": {
+      "n": 5000,
+      "exact": 0.49219171279509355,
+      "exact_dense": 0.49219171279509366,
+      "dense_minus_fast": 1.1102230246251565e-16,
+      "formula": 0.4921904309183483,
+      "formula_minus_exact": -1.2818767452515978e-06,
+      "first_order_A11": 0.49206666666666665,
+      "first_order_minus_exact": -0.00012504612842689777,
+      "sim_A11": {
+        "mean": 0.4936547837023947,
+        "se": 0.0028286782979513427,
+        "N": 40000,
+        "z_vs_exact": 0.5172277485074058,
+        "compatible": true,
+        "source": "t3_anchor_audit11.json cells.5000.by_theta.0"
+      }
+    },
+    "20000": {
+      "n": 20000,
+      "exact": 0.4980245615133029,
+      "exact_dense": null,
+      "dense_minus_fast": null,
+      "formula": 0.4980244802382234,
+      "formula_minus_exact": -8.127507949984292e-08,
+      "first_order_A11": 0.49801666666666666,
+      "first_order_minus_exact": -7.89484663621387e-06,
+      "sim_A11": {
+        "mean": 0.4921775021043992,
+        "se": 0.0028081688827240148,
+        "N": 40000,
+        "z_vs_exact": -2.0821608860047762,
+        "compatible": true,
+        "source": "t3_anchor_audit11.json cells.20000.by_theta.0"
+      }
+    }
+  },
+  "dense_vs_fast_max_abs": 1.942890293094024e-16,
+  "gate": {
+    "rule": "|formula - exacta| < 0.002 para n >= 200",
+    "worst": 0.0005316447180958028,
+    "passes": true
+  },
+  "a11_anomaly_n20000": {
+    "mean": 0.4921775021043992,
+    "se": 0.0028081688827240148,
+    "exact": 0.4980245615133029,
+    "z": -2.0821608860047762,
+    "compatible": true
+  },
+  "elapsed_sec": 3.4
+}

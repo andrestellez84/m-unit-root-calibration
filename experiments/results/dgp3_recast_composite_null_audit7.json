@@ -1,0 +1,511 @@
+{
+  "provenance": {
+    "dgp": "dgp3_recast_composite_null",
+    "n_sim": 5000,
+    "seed_formula": "heredadas de las fuentes; sin computo nuevo",
+    "generated_utc": "2026-09-13T19:34:36.766016+00:00",
+    "commit": "ce3417b378a2b883253ed97a84d9f2688191c18c",
+    "worktree_dirty": false,
+    "entry_point": "experiments/audit7_dgp3_recast.py",
+    "code": {
+      "experiments/audit7_common.py": {
+        "sha256": "763ab4f2a5e129f62fa23fa7d2adb756d2addc458563a2dbc7aaab5a5e7d3100",
+        "git_state": "committed"
+      },
+      "experiments/audit7_design.py": {
+        "sha256": "8d8c601d7debf39cffcd342def4cb0e45e2a0e8cda9bf3dd70d68f4a3ff30b61",
+        "git_state": "committed"
+      },
+      "experiments/audit7_dgp3_recast.py": {
+        "sha256": "81adb35a49691b8ef54da5c4e3c7485daf67a87e1445b70f06816edafeaebef7",
+        "git_state": "committed"
+      },
+      "experiments/audit7_kappa2.py": {
+        "sha256": "c988ed16db23a3023e493fa30aabdf509c259a1186ad89467e8cf7477e92b7fb",
+        "git_state": "committed"
+      },
+      "experiments/audit7_kappa2_diagnosis.py": {
+        "sha256": "45a0870463adc101d485659be88d679694510e80caf0b269ec4fbebfd14bc60c",
+        "git_state": "committed"
+      },
+      "experiments/audit7_kappa2_simcv.py": {
+        "sha256": "2a17238f738e02e99006e9f570d15908b6320e04f88efca78fe116ced86d7942",
+        "git_state": "committed"
+      },
+      "experiments/audit7_kappa2_validation.py": {
+        "sha256": "969bbdd4994484c799653f63a862945cf0401e1811cd51ca7025b1ed48f01e3c",
+        "git_state": "committed"
+      }
+    },
+    "code_all_committed": true,
+    "source_files": {
+      "power_comparison_dgp34_alpha1_audit5b.json": "dadc3dcdc36ef28ed529a6cd190f989f17b80fae699041d6973265c046eb2faa",
+      "power_comparison_dgp3.json": "7b448817a2848c93322c85f76907d516229eaaa7525acaec8c1600db74ab7ad8",
+      "wild_bootstrap_r_audit6.json": "d9269ed73de0fe413d16a369764858d4c1cfe2e8ebe9fd2b830ddbdf0cff480a"
+    },
+    "source_note": "la especificacion revisada citaba wild_bootstrap_r_audit7.json, que no existe; los resultados de A6 estan en wild_bootstrap_r_audit6.json"
+  },
+  "null": "compuesta: raiz unitaria Y innovaciones iid homoscedasticas (Ec. 3 del manuscrito)",
+  "role_note": "la especificacion revisada pedia rotular las ocho celdas como potencia; bajo la nula compuesta la celda r=1 ES la nula, por lo que se rotula como tamano y solo las seis celdas r>1 son potencia",
+  "rates_are": "nominales: cada procedimiento a su propia regla del 5%",
+  "n_sim_note": "test propuesto y DF-GLS: 5000 replicas; bootstrap: las de cada celda (2000 en A6)",
+  "cells": {
+    "n200_r1.0": {
+      "n": 200,
+      "r": 1.0,
+      "role_under_composite_null": "size",
+      "proposed_R050_alpha1": {
+        "rate": 0.0418,
+        "rejections": 209,
+        "n_sim": 5000,
+        "ci_lower": 0.03642179453699366,
+        "ci_upper": 0.047721074898866754
+      },
+      "dfgls_asymptotic": {
+        "rate": 0.0694,
+        "rejections": 347,
+        "n_sim": 5000,
+        "ci_lower": 0.06250890117564799,
+        "ci_upper": 0.07679878395307745
+      },
+      "bootstrap_dfgls": {
+        "rate": 0.045,
+        "rejections": 90,
+        "n_sim": 2000,
+        "ci_lower": 0.036338,
+        "ci_upper": 0.055025,
+        "B": 999
+      }
+    },
+    "n200_r2.0": {
+      "n": 200,
+      "r": 2.0,
+      "role_under_composite_null": "power",
+      "proposed_R050_alpha1": {
+        "rate": 0.057,
+        "rejections": 285,
+        "n_sim": 5000,
+        "ci_lower": 0.05073394736809737,
+        "ci_upper": 0.0637892697513536
+      },
+      "dfgls_asymptotic": {
+        "rate": 0.0974,
+        "rejections": 487,
+        "n_sim": 5000,
+        "ci_lower": 0.08931834439669457,
+        "ci_upper": 0.10595509340166569
+      },
+      "bootstrap_dfgls": {
+        "rate": 0.049,
+        "rejections": 98,
+        "n_sim": 2000,
+        "ci_lower": 0.039957,
+        "ci_upper": 0.059393,
+        "B": 999
+      }
+    },
+    "n200_r3.0": {
+      "n": 200,
+      "r": 3.0,
+      "role_under_composite_null": "power",
+      "proposed_R050_alpha1": {
+        "rate": 0.068,
+        "rejections": 340,
+        "n_sim": 5000,
+        "ci_lower": 0.06117588117515456,
+        "ci_upper": 0.07533354238226644
+      },
+      "dfgls_asymptotic": {
+        "rate": 0.1232,
+        "rejections": 616,
+        "n_sim": 5000,
+        "ci_lower": 0.11421191166458307,
+        "ci_upper": 0.13263050678510532
+      },
+      "bootstrap_dfgls": {
+        "rate": 0.0555,
+        "rejections": 111,
+        "n_sim": 2000,
+        "ci_lower": 0.045874,
+        "ci_upper": 0.066454,
+        "B": 999
+      }
+    },
+    "n200_r4.0": {
+      "n": 200,
+      "r": 4.0,
+      "role_under_composite_null": "power",
+      "proposed_R050_alpha1": {
+        "rate": 0.0802,
+        "rejections": 401,
+        "n_sim": 5000,
+        "ci_lower": 0.07281843237253682,
+        "ci_upper": 0.08807594021659826
+      },
+      "dfgls_asymptotic": {
+        "rate": 0.1476,
+        "rejections": 738,
+        "n_sim": 5000,
+        "ci_lower": 0.13787616203577244,
+        "ci_upper": 0.1577371764832498
+      },
+      "bootstrap_dfgls": {
+        "rate": 0.0545,
+        "rejections": 109,
+        "n_sim": 2000,
+        "ci_lower": 0.044961,
+        "ci_upper": 0.06537,
+        "B": 1999
+      }
+    },
+    "n1000_r1.0": {
+      "n": 1000,
+      "r": 1.0,
+      "role_under_composite_null": "size",
+      "proposed_R050_alpha1": {
+        "rate": 0.0496,
+        "rejections": 248,
+        "n_sim": 5000,
+        "ci_lower": 0.04374642366990666,
+        "ci_upper": 0.05598624936772533
+      },
+      "dfgls_asymptotic": {
+        "rate": 0.0496,
+        "rejections": 248,
+        "n_sim": 5000,
+        "ci_lower": 0.04374642366990666,
+        "ci_upper": 0.05598624936772533
+      },
+      "bootstrap_dfgls": {
+        "rate": 0.049,
+        "rejections": 98,
+        "n_sim": 2000,
+        "ci_lower": 0.039957,
+        "ci_upper": 0.059393,
+        "B": 999
+      }
+    },
+    "n1000_r2.0": {
+      "n": 1000,
+      "r": 2.0,
+      "role_under_composite_null": "power",
+      "proposed_R050_alpha1": {
+        "rate": 0.059,
+        "rejections": 295,
+        "n_sim": 5000,
+        "ci_lower": 0.05262795235752385,
+        "ci_upper": 0.06589273655820585
+      },
+      "dfgls_asymptotic": {
+        "rate": 0.0702,
+        "rejections": 351,
+        "n_sim": 5000,
+        "ci_lower": 0.06327100007394788,
+        "ci_upper": 0.07763569313134623
+      },
+      "bootstrap_dfgls": {
+        "rate": 0.05,
+        "rejections": 100,
+        "n_sim": 2000,
+        "ci_lower": 0.040864,
+        "ci_upper": 0.060482,
+        "B": 399
+      }
+    },
+    "n1000_r3.0": {
+      "n": 1000,
+      "r": 3.0,
+      "role_under_composite_null": "power",
+      "proposed_R050_alpha1": {
+        "rate": 0.08,
+        "rejections": 400,
+        "n_sim": 5000,
+        "ci_lower": 0.07262712334799187,
+        "ci_upper": 0.08786749438677185
+      },
+      "dfgls_asymptotic": {
+        "rate": 0.0934,
+        "rejections": 467,
+        "n_sim": 5000,
+        "ci_lower": 0.08547336591760461,
+        "ci_upper": 0.1018049174776227
+      },
+      "bootstrap_dfgls": {
+        "rate": 0.0545,
+        "rejections": 109,
+        "n_sim": 2000,
+        "ci_lower": 0.044961,
+        "ci_upper": 0.06537,
+        "B": 399
+      }
+    },
+    "n1000_r4.0": {
+      "n": 1000,
+      "r": 4.0,
+      "role_under_composite_null": "power",
+      "proposed_R050_alpha1": {
+        "rate": 0.0938,
+        "rejections": 469,
+        "n_sim": 5000,
+        "ci_lower": 0.08585766541938325,
+        "ci_upper": 0.10222013286490922
+      },
+      "dfgls_asymptotic": {
+        "rate": 0.1132,
+        "rejections": 566,
+        "n_sim": 5000,
+        "ci_lower": 0.10454557012043073,
+        "ci_upper": 0.12230883009881131
+      },
+      "bootstrap_dfgls": {
+        "rate": 0.0555,
+        "rejections": 111,
+        "n_sim": 2000,
+        "ci_lower": 0.045874,
+        "ci_upper": 0.066454,
+        "B": 399
+      }
+    }
+  },
+  "component_diagnostics_section_5_5": {
+    "manuscript_claim": "los diagnosticos de componentes atribuyen la elevacion del rechazo en DGP 3 al canal de MEDIA y no al de varianza",
+    "source": "power_comparison_dgp34_alpha1_audit5b.json",
+    "attribution_rule": "para cada celda r>1 se compara el cambio respecto de r=1 en E[g1_std]^2 y en E[g2_std]^2, que son los dos sumandos del estadistico con R=0.50; el canal de media domina si su cambio es mayor en valor absoluto. Es una comparacion de medias de componentes, no de la cola de la distribucion",
+    "claim_supported_by_values": true,
+    "cells_r_gt_1_where_mean_dominates": "15 de 15",
+    "max_share_of_g2_in_R050_statistic": 0.0046650017095639104,
+    "cells": {
+      "n200_r1.0": {
+        "E_g1_std": 0.3394540437141085,
+        "E_g2_std": 0.014063971080761942,
+        "std_g1": 0.15788996733053723,
+        "std_g2": 0.0049523767449926315,
+        "share_g2_in_R050_statistic": 0.0017135986507883125,
+        "rel_change_E_g1_vs_r1": 0.0,
+        "rel_change_E_g2_vs_r1": 0.0,
+        "change_in_E_g1_sq_vs_r1": 0.0,
+        "change_in_E_g2_sq_vs_r1": 0.0,
+        "proposed_R050_rate": 0.0418
+      },
+      "n200_r1.5": {
+        "E_g1_std": 0.33782644170235937,
+        "E_g2_std": 0.01579232918038689,
+        "std_g1": 0.16046686118524642,
+        "std_g2": 0.006040287968961673,
+        "share_g2_in_R050_statistic": 0.0021805049810642452,
+        "rel_change_E_g1_vs_r1": -0.004794763950786485,
+        "rel_change_E_g2_vs_r1": 0.1228926090433422,
+        "change_in_E_g1_sq_vs_r1": -0.0011023430805822548,
+        "change_in_E_g2_sq_vs_r1": 5.160237838119103e-05,
+        "proposed_R050_rate": 0.046,
+        "mean_channel_dominates_change": true
+      },
+      "n200_r2.0": {
+        "E_g1_std": 0.335706716283145,
+        "E_g2_std": 0.018216148459803325,
+        "std_g1": 0.1642734994647936,
+        "std_g2": 0.007035496063798242,
+        "share_g2_in_R050_statistic": 0.002935730652220854,
+        "rel_change_E_g1_vs_r1": -0.011039277629343758,
+        "rel_change_E_g2_vs_r1": 0.29523506235881936,
+        "change_in_E_g1_sq_vs_r1": -0.0025300484362478365,
+        "change_in_E_g2_sq_vs_r1": 0.0001340327821490868,
+        "proposed_R050_rate": 0.057,
+        "mean_channel_dominates_change": true
+      },
+      "n200_r2.5": {
+        "E_g1_std": 0.33385057831195625,
+        "E_g2_std": 0.0200175602942147,
+        "std_g1": 0.16745519883888532,
+        "std_g2": 0.007511532606588222,
+        "share_g2_in_R050_statistic": 0.0035822794967509198,
+        "rel_change_E_g1_vs_r1": -0.016507287233471613,
+        "rel_change_E_g2_vs_r1": 0.4233220602676475,
+        "change_in_E_g1_sq_vs_r1": -0.0037728391546322376,
+        "change_in_E_g2_sq_vs_r1": 0.00020290743757201272,
+        "proposed_R050_rate": 0.0646,
+        "mean_channel_dominates_change": true
+      },
+      "n200_r3.0": {
+        "E_g1_std": 0.33260256344667566,
+        "E_g2_std": 0.021238941709770552,
+        "std_g1": 0.16979665856523082,
+        "std_g2": 0.007770966167999531,
+        "share_g2_in_R050_statistic": 0.004061133283119004,
+        "rel_change_E_g1_vs_r1": -0.02018382280107167,
+        "rel_change_E_g2_vs_r1": 0.5101667649774413,
+        "change_in_E_g1_sq_vs_r1": -0.0046045825825599546,
+        "change_in_E_g2_sq_vs_r1": 0.00025329736239052306,
+        "proposed_R050_rate": 0.068,
+        "mean_channel_dominates_change": true
+      },
+      "n200_r4.0": {
+        "E_g1_std": 0.33085432312621194,
+        "E_g2_std": 0.02265051494127146,
+        "std_g1": 0.1725678743079139,
+        "std_g2": 0.008002430848466711,
+        "share_g2_in_R050_statistic": 0.0046650017095639104,
+        "rel_change_E_g1_vs_r1": -0.025333975974489498,
+        "rel_change_E_g2_vs_r1": 0.6105348063645426,
+        "change_in_E_g1_sq_vs_r1": -0.005764464662556007,
+        "change_in_E_g2_sq_vs_r1": 0.00031525054454425343,
+        "proposed_R050_rate": 0.0802,
+        "mean_channel_dominates_change": true
+      },
+      "n500_r1.0": {
+        "E_g1_std": 0.33392727279931717,
+        "E_g2_std": 0.013637839481044495,
+        "std_g1": 0.15202120846893502,
+        "std_g2": 0.005105066197073817,
+        "share_g2_in_R050_statistic": 0.001665189188351266,
+        "rel_change_E_g1_vs_r1": 0.0,
+        "rel_change_E_g2_vs_r1": 0.0,
+        "change_in_E_g1_sq_vs_r1": 0.0,
+        "change_in_E_g2_sq_vs_r1": 0.0,
+        "proposed_R050_rate": 0.0446
+      },
+      "n500_r1.5": {
+        "E_g1_std": 0.33153561008386184,
+        "E_g2_std": 0.015295517824597602,
+        "std_g1": 0.15449279261326773,
+        "std_g2": 0.006499890482575084,
+        "share_g2_in_R050_statistic": 0.0021239515332398245,
+        "rel_change_E_g1_vs_r1": -0.007162226359668011,
+        "rel_change_E_g2_vs_r1": 0.12154992334798687,
+        "change_in_E_g1_sq_vs_r1": -0.0015915627655111175,
+        "change_in_E_g2_sq_vs_r1": 4.7962199811847e-05,
+        "proposed_R050_rate": 0.0476,
+        "mean_channel_dominates_change": true
+      },
+      "n500_r2.0": {
+        "E_g1_std": 0.32899159354852126,
+        "E_g2_std": 0.017659440625045167,
+        "std_g1": 0.15873792380467067,
+        "std_g2": 0.007750791491150547,
+        "share_g2_in_R050_statistic": 0.002872994288119708,
+        "rel_change_E_g1_vs_r1": -0.01478070122700681,
+        "rel_change_E_g2_vs_r1": 0.29488550217872667,
+        "change_in_E_g1_sq_vs_r1": -0.0032719548935941783,
+        "change_in_E_g2_sq_vs_r1": 0.00012586517747875968,
+        "proposed_R050_rate": 0.0572,
+        "mean_channel_dominates_change": true
+      },
+      "n500_r2.5": {
+        "E_g1_std": 0.32685752251805344,
+        "E_g2_std": 0.019390040893222476,
+        "std_g1": 0.16208882560784824,
+        "std_g2": 0.00839486142460033,
+        "share_g2_in_R050_statistic": 0.003506830757001477,
+        "rel_change_E_g1_vs_r1": -0.021171527027420978,
+        "rel_change_E_g2_vs_r1": 0.4217824546309612,
+        "change_in_E_g1_sq_vs_r1": -0.004671583492549772,
+        "change_in_E_g2_sq_vs_r1": 0.00018998302013010392,
+        "proposed_R050_rate": 0.069,
+        "mean_channel_dominates_change": true
+      },
+      "n500_r3.0": {
+        "E_g1_std": 0.3254144883445016,
+        "E_g2_std": 0.020581048979779238,
+        "std_g1": 0.16465527582232892,
+        "std_g2": 0.008765751213473852,
+        "share_g2_in_R050_statistic": 0.0039840751762610345,
+        "rel_change_E_g1_vs_r1": -0.025492929593479374,
+        "rel_change_E_g2_vs_r1": 0.5091135959170987,
+        "change_in_E_g1_sq_vs_r1": -0.0056128342946758225,
+        "change_in_E_g2_sq_vs_r1": 0.00023758891139733602,
+        "proposed_R050_rate": 0.0782,
+        "mean_channel_dominates_change": true
+      },
+      "n500_r4.0": {
+        "E_g1_std": 0.32391540316370804,
+        "E_g2_std": 0.021946633901577615,
+        "std_g1": 0.16806411373873997,
+        "std_g2": 0.009120283975468164,
+        "share_g2_in_R050_statistic": 0.004569656047524788,
+        "rel_change_E_g1_vs_r1": -0.02998218609603065,
+        "rel_change_E_g2_vs_r1": 0.6092456530289625,
+        "change_in_E_g1_sq_vs_r1": -0.006586235112482075,
+        "change_in_E_g2_sq_vs_r1": 0.0002956640738991399,
+        "proposed_R050_rate": 0.0896,
+        "mean_channel_dominates_change": true
+      },
+      "n1000_r1.0": {
+        "E_g1_std": 0.33736289653458257,
+        "E_g2_std": 0.013538920380065695,
+        "std_g1": 0.15493350240996137,
+        "std_g2": 0.005278899586396742,
+        "share_g2_in_R050_statistic": 0.0016079574263452097,
+        "rel_change_E_g1_vs_r1": 0.0,
+        "rel_change_E_g2_vs_r1": 0.0,
+        "change_in_E_g1_sq_vs_r1": 0.0,
+        "change_in_E_g2_sq_vs_r1": 0.0,
+        "proposed_R050_rate": 0.0496
+      },
+      "n1000_r1.5": {
+        "E_g1_std": 0.3369141728501702,
+        "E_g2_std": 0.015360132652602516,
+        "std_g1": 0.15874120641107392,
+        "std_g2": 0.006781366536216272,
+        "share_g2_in_R050_statistic": 0.002074195197062849,
+        "rel_change_E_g1_vs_r1": -0.0013300919840968373,
+        "rel_change_E_g2_vs_r1": 0.13451680203528782,
+        "change_in_E_g1_sq_vs_r1": -0.0003025640908890931,
+        "change_in_E_g2_sq_vs_r1": 5.263131004778777e-05,
+        "proposed_R050_rate": 0.0508,
+        "mean_channel_dominates_change": true
+      },
+      "n1000_r2.0": {
+        "E_g1_std": 0.33519010130730065,
+        "E_g2_std": 0.017784047771852884,
+        "std_g1": 0.1634039264680071,
+        "std_g2": 0.008086947918946494,
+        "share_g2_in_R050_statistic": 0.0028071010092830177,
+        "rel_change_E_g1_vs_r1": -0.006440528136321566,
+        "rel_change_E_g2_vs_r1": 0.3135499192415363,
+        "change_in_E_g1_sq_vs_r1": -0.001461319943804995,
+        "change_in_E_g2_sq_vs_r1": 0.0001329699900937873,
+        "proposed_R050_rate": 0.059,
+        "mean_channel_dominates_change": true
+      },
+      "n1000_r2.5": {
+        "E_g1_std": 0.33355820997745195,
+        "E_g2_std": 0.019554070333822726,
+        "std_g1": 0.1671008856122141,
+        "std_g2": 0.008786475981397217,
+        "share_g2_in_R050_statistic": 0.003424846662003319,
+        "rel_change_E_g1_vs_r1": -0.011277726733475046,
+        "rel_change_E_g2_vs_r1": 0.44428579125212675,
+        "change_in_E_g1_sq_vs_r1": -0.002552644514841537,
+        "change_in_E_g2_sq_vs_r1": 0.00019905930156232778,
+        "proposed_R050_rate": 0.0722,
+        "mean_channel_dominates_change": true
+      },
+      "n1000_r3.0": {
+        "E_g1_std": 0.3322273127371956,
+        "E_g2_std": 0.020738665662734083,
+        "std_g1": 0.16983099694058507,
+        "std_g2": 0.009176498347296013,
+        "share_g2_in_R050_statistic": 0.003881521091749144,
+        "rel_change_E_g1_vs_r1": -0.015222728551776421,
+        "rel_change_E_g2_vs_r1": 0.5317813444910333,
+        "change_in_E_g1_sq_vs_r1": -0.0034387366296251137,
+        "change_in_E_g2_sq_vs_r1": 0.00024678988841290745,
+        "proposed_R050_rate": 0.08,
+        "mean_channel_dominates_change": true
+      },
+      "n1000_r4.0": {
+        "E_g1_std": 0.33052584939450114,
+        "E_g2_std": 0.0220894498775537,
+        "std_g1": 0.17319674942342017,
+        "std_g2": 0.009566574611300262,
+        "share_g2_in_R050_statistic": 0.004446553486075553,
+        "rel_change_E_g1_vs_r1": -0.020266150220762613,
+        "rel_change_E_g2_vs_r1": 0.6315517971490217,
+        "change_in_E_g1_sq_vs_r1": -0.0045663868402470165,
+        "change_in_E_g2_sq_vs_r1": 0.0003046414308351989,
+        "proposed_R050_rate": 0.0938,
+        "mean_channel_dominates_change": true
+      }
+    }
+  }
+}

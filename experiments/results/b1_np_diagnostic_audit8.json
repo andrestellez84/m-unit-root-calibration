@@ -1,0 +1,282 @@
+{
+  "D1_arch_identity": {
+    "c": {
+      "series": 200,
+      "n": 500,
+      "max_abs_diff_detrended": 7.105427357601002e-15,
+      "max_abs_diff_t_stat_lag0": 1.3322676295501878e-15
+    },
+    "ct": {
+      "series": 200,
+      "n": 500,
+      "max_abs_diff_detrended": 2.842170943040401e-14,
+      "max_abs_diff_t_stat_lag0": 2.1094237467877974e-15
+    }
+  },
+  "D2_T_stability": {
+    "c": {
+      "reps": 20000,
+      "lag": 0,
+      "by_T_points": {
+        "501": {
+          "MZa": {
+            "q05": -8.37425088232054,
+            "bootstrap_se": 0.10649576805611168,
+            "ng_perron_2001": -8.1,
+            "rel_diff": 0.03385813361981982
+          },
+          "MZt": {
+            "q05": -1.980487649289613,
+            "bootstrap_se": 0.014532080194693377,
+            "ng_perron_2001": -1.98,
+            "rel_diff": 0.0002462875200066112
+          },
+          "MSB": {
+            "q05": 0.23265246875344214,
+            "bootstrap_se": 0.0011951459260970065,
+            "ng_perron_2001": 0.233,
+            "rel_diff": 0.0014915504144114569
+          },
+          "MPT": {
+            "q05": 3.206417474790703,
+            "bootstrap_se": 0.04474316356162277,
+            "ng_perron_2001": 3.17,
+            "rel_diff": 0.011488162394543502
+          }
+        },
+        "10001": {
+          "MZa": {
+            "q05": -8.069815565406367,
+            "bootstrap_se": 0.12142521259151441,
+            "ng_perron_2001": -8.1,
+            "rel_diff": 0.0037264734066212845
+          },
+          "MZt": {
+            "q05": -1.9428675744996304,
+            "bootstrap_se": 0.014664421994333932,
+            "ng_perron_2001": -1.98,
+            "rel_diff": 0.018753750252711893
+          },
+          "MSB": {
+            "q05": 0.23710450946107584,
+            "bootstrap_se": 0.0015564006668196547,
+            "ng_perron_2001": 0.233,
+            "rel_diff": 0.017615920433801814
+          },
+          "MPT": {
+            "q05": 3.307933626097045,
+            "bootstrap_se": 0.0375137558712344,
+            "ng_perron_2001": 3.17,
+            "rel_diff": 0.04351218488865779
+          }
+        }
+      }
+    },
+    "ct": {
+      "reps": 20000,
+      "lag": 0,
+      "by_T_points": {
+        "501": {
+          "MZa": {
+            "q05": -16.197961846867106,
+            "bootstrap_se": 0.11039747578137124,
+            "ng_perron_2001": -17.3,
+            "rel_diff": 0.06370162734872226
+          },
+          "MZt": {
+            "q05": -2.8105827616508985,
+            "bootstrap_se": 0.010036344360996353,
+            "ng_perron_2001": -2.91,
+            "rel_diff": 0.03416399943268098
+          },
+          "MSB": {
+            "q05": 0.1728607350433263,
+            "bootstrap_se": 0.0006469015583965383,
+            "ng_perron_2001": 0.168,
+            "rel_diff": 0.02893294668646602
+          },
+          "MPT": {
+            "q05": 5.835606393162908,
+            "bootstrap_se": 0.04282349149886516,
+            "ng_perron_2001": 5.48,
+            "rel_diff": 0.06489167758447216
+          }
+        },
+        "10001": {
+          "MZa": {
+            "q05": -16.445202122534482,
+            "bootstrap_se": 0.1401149453076417,
+            "ng_perron_2001": -17.3,
+            "rel_diff": 0.04941028193442303
+          },
+          "MZt": {
+            "q05": -2.8226432973287023,
+            "bootstrap_se": 0.011952530614861264,
+            "ng_perron_2001": -2.91,
+            "rel_diff": 0.030019485454054227
+          },
+          "MSB": {
+            "q05": 0.17159496184264733,
+            "bootstrap_se": 0.0006903565889008636,
+            "ng_perron_2001": 0.168,
+            "rel_diff": 0.02139858239671024
+          },
+          "MPT": {
+            "q05": 5.792713784028326,
+            "bootstrap_se": 0.045705089819953845,
+            "ng_perron_2001": 5.48,
+            "rel_diff": 0.057064559129256454
+          }
+        }
+      }
+    }
+  },
+  "D3_ers_pt": {
+    "c": {
+      "T_points": 2001,
+      "reps": 20000,
+      "same_paths_as_V5": true,
+      "cbar": -7.0,
+      "pt_q05": 3.3343029732361,
+      "pt_bootstrap_se": 0.0356546099825487,
+      "ers_1996": 3.26,
+      "pt_rel_diff_vs_ers": 0.02279232307855829,
+      "mpt_q05_same_paths": 3.3179982999619213,
+      "ng_perron_2001_mpt": 3.17,
+      "ers_vs_ng_perron_rel_diff": 0.028391167192428977
+    },
+    "ct": {
+      "T_points": 2001,
+      "reps": 20000,
+      "same_paths_as_V5": true,
+      "cbar": -13.5,
+      "pt_q05": 5.690365104431167,
+      "pt_bootstrap_se": 0.04171123982856624,
+      "ers_1996": 5.62,
+      "pt_rel_diff_vs_ers": 0.012520481215510073,
+      "mpt_q05_same_paths": 5.671950658870232,
+      "ng_perron_2001_mpt": 5.48,
+      "ers_vs_ng_perron_rel_diff": 0.025547445255474394
+    }
+  },
+  "provenance": {
+    "script": "experiments/audit8_b1_np_diagnostic.py",
+    "script_sha256": "959b18541923f504c4178fdedd3a7d519a62487930c1de4dbcc8e476e0a43df0",
+    "commit": "5027fed222b6f8f5a191c1fb083d28faab4dfc66",
+    "worktree_dirty": true,
+    "dirty_files": [
+      "M experiments/results/manifest_audit8.json"
+    ],
+    "generated_utc": "2026-09-17T05:51:02.915985+00:00",
+    "seed_family": 91,
+    "versions": {
+      "python": "3.11.0",
+      "platform": "Windows-10-10.0.26200-SP0",
+      "numpy": "2.2.4",
+      "scipy": "1.15.2",
+      "numba": "0.65.0",
+      "statsmodels": "0.14.6",
+      "arch": "8.0.0",
+      "pandas": "2.2.3",
+      "joblib": "1.4.2",
+      "matplotlib": "3.10.1",
+      "pytest": "9.0.3"
+    },
+    "code": {
+      "experiments/audit8_b0_inventory.py": {
+        "sha256": "6405cc166459c296fb32c86fed1abff150afc4889ba0598502d8c4e41ea07add",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_np_diagnostic.py": {
+        "sha256": "959b18541923f504c4178fdedd3a7d519a62487930c1de4dbcc8e476e0a43df0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_regression_child.py": {
+        "sha256": "350b1389b64fdc89098d17861b7196671be9fe66123fb1f0702ddd5229fee150",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_validate.py": {
+        "sha256": "6a268b6ac14f5d05f2dfa26b5430328246f34893439ff6004b308d9a163170b0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_common.py": {
+        "sha256": "5718ec2cfa7f5f5c5f7f8d68ed26198e00ac827fb562cee67b234857e5719f0d",
+        "git_state": "committed"
+      },
+      "experiments/audit8_design.py": {
+        "sha256": "d196ade42cbe593fbe325b9d9f472d12531225963d00b778e4450dccefc1fe54",
+        "git_state": "committed"
+      },
+      "experiments/audit8_environment.py": {
+        "sha256": "9b323700e91302ad0090e876b922a38a1dd6b23ef5f19fcc7748d947e617d21e",
+        "git_state": "committed"
+      },
+      "experiments/audit8_unitroot.py": {
+        "sha256": "da360cf41dedaf208b376a3ebb153955ad7dc059478047ca5e58db322a2aad00",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/__init__.py": {
+        "sha256": "20ebf29ab1a9a64bb428f25ff0170d67db2354662efb8b973922c3f455f56582",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/constants.py": {
+        "sha256": "de8bd2282ff09c41fc6eae12fcca6695c1fd3a0c9def7628a9b76e9361058907",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/davies.py": {
+        "sha256": "cfad047d0b0676cc83a41208cd600f4224ce61bf03930228a5a80d1d6556c9b9",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/deterministics.py": {
+        "sha256": "31db116abc80e5cab8c97317a31d6f22f1a4ca40c885eef86c134db598dac6b2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/empirical_eigenvalues.py": {
+        "sha256": "6385220b70531e99963aa6e05635fe2b38fcb565024513ec578dbb60a9d68b1c",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/full_pipeline.py": {
+        "sha256": "cdbd5405caa50bc83c7348a0a8be9963b522ef4d808024f078f648bb1de89170",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/hac_estimator.py": {
+        "sha256": "f7c22540e6a8e862258cb70e4a839b841453ca9490a01671176431ee4bf678f2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/kl_eigenvalues.py": {
+        "sha256": "c0fb0a90795c904cb2876aa16eff64948e0abf5a27d3a57c6612c2b9ec198903",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/null_quantiles.py": {
+        "sha256": "655458f05815621d015984080169663d2310d26e588a83e2c5a62549ba5a1ae8",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/optimal_weight.py": {
+        "sha256": "47632d98ed256b2364a2ac99de64780e0cd8d42a69c68b4552c6ea0564f86ba4",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/rm_core.py": {
+        "sha256": "4d3ee3f59c569233a5e9a9ed8ffd3032364188545bac04a0cc619ccac39e04e0",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/standardization.py": {
+        "sha256": "cc8cb146d28ea63be86bc11db6cc6c345fbf5fd412055e2e58a33a40f3e8936b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/statistic.py": {
+        "sha256": "f0baf1d99ac4311ca854d350f18a3d3416974bf5d13e662d05149f87183d92ef",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/theta_selection.py": {
+        "sha256": "23eba50e85d0db917d14b4d3d844c42e5ee566dfd326a0fad7feae0dd113f40b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/utils.py": {
+        "sha256": "8a3e0b972da519b3c39ca0e0326953dbae1bf048845c05c1fb3a23a001b72717",
+        "git_state": "committed"
+      }
+    },
+    "code_all_committed": true
+  },
+  "elapsed_sec": 31.3
+}

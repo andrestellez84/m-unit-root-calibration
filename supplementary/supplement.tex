@@ -1,0 +1,1112 @@
+\documentclass[11pt]{article}
+\usepackage[margin=2cm]{geometry}
+\usepackage{booktabs,graphicx,amsmath,amssymb,amsthm,placeins,adjustbox,threeparttable,multirow,array}
+\usepackage[round,authoryear]{natbib}
+\usepackage[capitalise,noabbrev]{cleveref}
+\graphicspath{{figures/}}
+\renewcommand\thesection{S\arabic{section}}
+\counterwithin{table}{section}
+\counterwithin{figure}{section}
+\counterwithin{equation}{section}
+\renewcommand\thetable{\thesection.\arabic{table}}
+\renewcommand\thefigure{\thesection.\arabic{figure}}
+\renewcommand\theequation{\thesection.\arabic{equation}}
+\newcommand{\rw}{Y}
+\newcommand{\uhat}{\hat{u}}
+\newcommand{\Stat}{S_\theta}
+\newcommand{\StatZero}{S}
+\newcommand{\hacsig}{\hat{\sigma}_{\mathrm{HAC}}}
+\newcommand{\ncal}{N_{\mathrm{cal}}}
+\newcommand{\Nsim}{N_{\mathrm{sim}}}
+\newcommand{\Fnull}{F_0}
+\newcommand{\Fnullhat}{\hat{F}_0}
+\newcommand{\cbar}{\bar{c}}
+\newcommand{\abar}{\bar{a}}
+\newcommand{\sAR}{s^2_{\mathrm{AR}}}
+\newcommand{\Var}{\operatorname{Var}}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Prob}{\mathbb{P}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\convd}{\xrightarrow{d}}
+\newcommand{\convp}{\xrightarrow{p}}
+\newcommand{\weak}{\Rightarrow}
+\newcommand{\iid}{\stackrel{\mathrm{iid}}{\sim}}
+\newcommand{\RMGLS}{MSB-B}
+\newcommand{\bm}{W}
+\newcommand{\rmean}{\bar{e}}
+\newcommand{\Cov}{\operatorname{Cov}}
+\newcommand{\indic}[1]{\mathbf{1}\{#1\}}
+\newcommand{\dgls}{DF-GLS}
+\newcommand{\pending}[1]{\textcolor{red}{[#1]}}
+\title{Supplementary material}
+\date{}
+\begin{document}
+\maketitle
+Sections, tables and figures are numbered S$k$ and S$k.j$. Every table is generated from the machine-readable files in \texttt{data/}; \texttt{README.md} maps each table to its source. References to the main text give the number of the table, section or equation there.
+
+\FloatBarrier
+\section{Power under i.i.d.\ errors at equalized size}\label{supp:s1}
+
+RM: the centred rolling-means statistic with $\theta = 0.1$.
+
+\subsection*{Size}
+
+\Cref{tab:size} reports the size of \RMGLS{} under equation~(2) of the main text. Every
+cell lies within $0.25$ points of the nominal level. The largest deviation,
+$0.24$ points in the trend case at $n = 100$, is a rate of $0.0524$ that
+lies just above the exact region for $5\times 10^4$ paths; the smoothed
+statistic with $\theta = 0.02$ gives $0.0526$ on the same paths and an
+independent replication gives $0.0493$, so the deviation belongs to the
+paths and not to the statistic.
+
+\begin{table}[t]
+\centering
+\caption{Size of \RMGLS{} under the Gaussian random walk, $\alpha = 0.05$,
+with 95\% Wilson intervals.}
+\label{tab:size}
+\begin{threeparttable}
+\input{tables/tab_size_audit13}
+\begin{tablenotes}\footnotesize
+\item $5\times10^4$ independent paths per cell for $n \leq 150$ and
+$10^5$ for $n \geq 200$; the two deterministic cases use independent
+paths; $\ncal = 5\times 10^5$.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\subsection*{Power in finite samples at equalized size}
+
+\Cref{tab:dgp1,tab:ctpower} and \cref{fig:powereq} report power against
+the stationary autoregression $\rw_t = \rho\rw_{t-1} + \varepsilon_t$ with
+i.i.d.\ Gaussian innovations, $\rho \in \{0.80, 0.85, 0.90, 0.93, 0.95,
+0.97, 0.99\}$, and, in the trend case, against the same process around a
+linear trend, with every procedure at its simulated critical value.
+
+At $n = 200$ in the constant case \RMGLS{} exceeds DF-GLS by $6.8$ points
+at $\rho = 0.90$ ($0.993$ against $0.926$) and $5.6$ points at $\rho =
+0.93$, both with McNemar $p < 10^{-4}$, by $3.5$ and $4.7$ points at
+$\rho = 0.80$ and $0.85$, and by $1.8$ points at $\rho = 0.95$ ($p =
+0.002$); it concedes $1.1$ points at $\rho = 0.97$ ($p = 0.045$). With
+$n = 500$ and $1000$ the pattern moves toward the unit root, as local
+asymptotics predict: \RMGLS{} is ahead at $\rho = 0.97$, $n = 500$ by $1.6$
+points and behind at $\rho = 0.99$ by $1.5$ points at $n = 500$ and $1.8$
+at $n = 1000$. Against ADF and PP the margin is large everywhere, up to
+$43$ and $42$ points at $(\rho, n) = (0.99, 1000)$. In the trend case
+\RMGLS{} leads DF-GLS by $9.9$ points at $(\rho, n) = (0.90, 200)$ and by
+$6.2$ points at $(0.95, 500)$, and the two are statistically level in
+five of the nine informative cells of \cref{tab:ctpower}. These are
+comparisons under i.i.d.\ innovations, the only case in which every
+procedure has exact size; Section~4.5 of the main text shows why they do not carry
+over to serially correlated errors.
+
+\begin{table}[t]
+\centering
+\caption{Power against $\rw_t = \rho\rw_{t-1} + \varepsilon_t$, constant
+case, at equalized size, $\alpha = 0.05$.}
+\label{tab:dgp1}
+\begin{threeparttable}
+\small
+\input{tables/s1_tab_dgp1_full}
+\begin{tablenotes}\footnotesize
+\item All comparators at simulated critical values; MZ$_t$ and MSB are
+the GLS versions. $p$: exact McNemar test of \RMGLS{} against DF-GLS.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\begin{table}[t]
+\centering
+\caption{Power against a stationary autoregression around a linear
+trend, trend case, at equalized size, $\alpha = 0.05$.}
+\label{tab:ctpower}
+\begin{threeparttable}
+\small
+\input{tables/s1_tab_ctpower_full}
+\begin{tablenotes}\footnotesize
+\item As in \cref{tab:dgp1}.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{fig_power_equalized_audit13q}
+\caption{Power at equalized size against $\rho$. Top row: constant case;
+bottom row: trend case.}
+\label{fig:powereq}
+\end{figure}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{fig_local_power_audit13q}
+\caption{Local asymptotic power against $c$, $n = 2000$. The curves are
+within a few points of each other; Table~2 of the main text gives the
+values.}
+\label{fig:localpower}
+\end{figure}
+
+\FloatBarrier
+\section{Serially correlated errors, cell by cell}\label{supp:s2}
+
+The simulated critical values of MSB-GLS and MZ$_t$-GLS are exact only under equation~(2) of the main text. On the paths of \cref{tab:serial}, replacing them by the published asymptotic critical values of \citet{ng2001lag} lowers the rejection rate of both tests in all $36$ cells, by at most $0.6$ points in the constant case and by $0.4$ to $4.2$ points in the trend case. Over the $30$ cells with serial correlation the mean absolute deviation of MZ$_t$-GLS from the nominal level is $0.0142$ with simulated and $0.0130$ with asymptotic critical values. In the trend case with positive dependence and $n \leq 200$, MZ$_t$-GLS rejects between $0.062$ and $0.092$ with simulated critical values, against $0.036$ to $0.050$ with the asymptotic ones and with DF-GLS; under moving-average errors of $-0.8$ the ordering reverses, DF-GLS rejecting up to $0.142$. No test in the table controls size across the six error processes.
+
+\begin{table}[p]
+\centering
+\caption{Size under a unit root with serially correlated increments,
+every procedure at its critical value simulated under the i.i.d.\ null,
+$\alpha = 0.05$.}
+\label{tab:serial}
+\footnotesize
+\resizebox{\textwidth}{!}{%
+\input{tables/tab_serial_audit13}}
+\par\medskip\begin{minipage}{\textwidth}\footnotesize
+$2\times10^4$ paths per cell, common to all columns of a row; $\ncal =
+5\times10^5$. (b): the numerator of \RMGLS{} scaled by $s^2_{\mathrm{AR}}$
+with MAIC on GLS-detrended data; (b$'$): lag selected on OLS-detrended data
+\citep{perron2007simple}. MSB-GLS, MZ$_t$-GLS and DF-GLS use the MAIC of
+\citet{ng2001lag}. Last column: population factor
+$\bar\sigma^2_B/\omega^2$ of Remark~2 of the main text at the median bandwidth $B$
+(in parentheses). Bold: outside the exact region $[0.0470, 0.05305]$ for
+$2\times10^4$ paths.
+\end{minipage}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Size with simulated (iid) and published asymptotic critical values.}
+\label{tab:serialasy}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\input{tables/tab_serial_asy_audit15}
+\end{adjustbox}
+\par\medskip\begin{minipage}{\textwidth}\footnotesize Same paths as \cref{tab:serial}; asymptotic critical values of \citet{ng2001lag}.\end{minipage}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Size by the lag chosen by the GLS MAIC.}
+\label{tab:lag}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\input{tables/tab_lag_audit15}
+\end{adjustbox}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Size of MZ$_t$-GLS with five calibrations over the thirty-six designs, $\alpha = 0.05$.}
+\label{tab:boot}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\input{tables/tab_boot_audit15}
+\end{adjustbox}
+\par\medskip\begin{minipage}{\textwidth}\footnotesize
+\input{tables/tab_boot_note_audit15}
+\end{minipage}
+\end{table}
+
+\subsection*{The sieve bootstraps}
+
+Three details of the package are not in the main text. First, the SB draws the residuals with replacement from positions $0, \dots, T - l$ only, with $l = \mathrm{round}(1.75\,T^{1/3})$ the default block length, so the last $l - 1$ residuals are never drawn. Second, the regression that defines the bootstrap data-generating process is not trimmed: its missing initial lags are filled with zeros, so the first $p + 1$ residuals are computed with some regressors set to zero, and the first of them is the detrended first observation itself; the autoregressive recursion that generates the bootstrap increments starts at zero, and $\rw^*_0 = 0$. Third, the package reports the $p$-value $\#\{t^* < t\}/B$, while our calibrations use $(1 + \#\{T^{*(r)} \leq T\})/(R + 1)$ and reject when it is at most $0.05$.
+
+The invariance of Proposition~2 of the main text was checked numerically for MSB-GLS and MZ$_t$-GLS on 6000 Gaussian random walks ($n \in \{100, 200, 500\}$, both deterministic cases), each under 3 affine transformations: the lag selected by the MAIC never changed, and MSB changed by at most a relative $3.8\times10^{-13}$. The relative change of MZ$_t$ reached $5.1\times10^{-10}$, on paths on which MZ$_t$ is close to zero ($-3.1\times10^{-4}$ and $-1.1\times10^{-4}$), because its numerator $T^{-1}\uhat_n^2 - s^2$ is then the difference of two nearly equal terms; the absolute change never exceeded $8.5\times10^{-13}$.
+
+The replication was checked against the package before any bootstrap result was computed. On 200 series of length $n = 200$ with $B = 999$ bootstrap replications, the replicated statistic matched the package to a largest absolute difference of $1.7\times10^{-14}$ and the selected lag in every series (SB and SWB). The mean signed difference between the replicated and the package $p$-values was $-0.0007$ (standard error $0.0013$) for the SB and $-0.0015$ (standard error $0.0013$) for the SWB, and the mean absolute difference, $0.0148$ and $0.0140$, was within the bound implied by two independent bootstrap draws ($0.0168$ and $0.0163$). On 2000 paired paths per case, the rejection rates of the replication and of the package were $0.0465$ and $0.0450$ (SB) and $0.0475$ and $0.0475$ (SWB) in the constant case, and $0.0525$ and $0.0480$ (SB) and $0.0465$ and $0.0510$ (SWB) in the trend case.
+
+\begin{table}[htbp]
+\centering
+\caption{Size of \RMGLS{} with a fixed Bartlett bandwidth.}
+\label{tab:fixedbsize}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\input{tables/tab_fixedb_size_audit15}
+\end{adjustbox}
+\par\medskip\begin{minipage}{\textwidth}\footnotesize
+\input{tables/tab_fixedb_size_note_audit15}
+\end{minipage}
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{Size-adjusted power against near-integrated alternatives with
+serially correlated errors, $\alpha = 0.05$.}
+\label{tab:serialpower}
+\footnotesize
+\resizebox{\textwidth}{!}{%
+\input{tables/tab_serialpower_audit13}}
+\par\medskip\begin{minipage}{\textwidth}\footnotesize
+5000 paths per cell. The error structure of each row is that of the
+corresponding row of \cref{tab:serial}; the autoregressive root $\rho$ is
+$1 + \cbar/n$ with $\cbar = -7$ (constant) or $-13.5$ (trend). Each
+procedure uses the $5\%$ quantile of its own statistic in the size cell
+of the same error structure, $n$ and case, a critical value that is not
+available in practice. Procedures as in \cref{tab:serial}.
+\end{minipage}
+\end{table}
+
+\subsection*{Scale diagnostics}
+
+\Cref{tab:diagnull,tab:diagalt,tab:diagattrib} report, for the designs of \cref{tab:serial,tab:serialpower} and of the attribution experiment, the medians of the Bartlett and autoregressive scale estimates relative to the long-run variance, with the selected bandwidth and lag.
+
+\begin{table}[htbp]
+\centering
+\caption{Diagnostics under each null: median [q25, q75].}
+\label{tab:diagnull}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\input{tables/s2_diag_a_diagnostics_null}
+\end{adjustbox}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{The same diagnostics under the alternatives.}
+\label{tab:diagalt}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\input{tables/s2_diag_b_diagnostics_alt}
+\end{adjustbox}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Diagnostics of the attribution experiment at $n = 200$ (medians).}
+\label{tab:diagattrib}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\input{tables/s2_diag_c_attribution_diagnostics}
+\end{adjustbox}
+\end{table}
+
+\FloatBarrier
+\section{The initial condition}\label{supp:s3}
+
+\Cref{tab:initial} repeats the constant-case power comparison at $n = 200$
+with a non-zero initial condition, $u_0 = \alpha\,\sigma_u$ with $\sigma_u
+= (1-\rho^2)^{-1/2}$ the stationary standard deviation, $\alpha \in \{0,
+1, 2, 4\}$, and with $u_0$ drawn from the stationary distribution. The
+null is unaffected, since under a unit root the constant absorbs $u_0$.
+
+A large initial condition removes the power of every GLS-based test. At
+$\alpha = 2$ and $\rho = 0.90$ none rejects more than $0.058$, and at
+$\alpha = 4$ all reject $0.000$, while ADF rejects $0.855$ and $0.958$ at
+the two values and PP $0.888$ and $0.977$. At a moderate initial
+condition the Bartlett scale loses the least: at $\alpha = 1$ and $\rho =
+0.90$ \RMGLS{} rejects $0.818$, against $0.643$ for DF-GLS, $0.613$ for the
+autoregressive scale (b) and $0.606$ for MSB-GLS, and with a stationary
+draw $0.778$ against $0.678$ for DF-GLS. Closer to the unit root the
+differences among the GLS tests are within Monte Carlo error.
+
+\begin{table}[t]
+\centering
+\caption{Power with a non-zero initial condition, constant case, $n =
+200$, critical values simulated under the i.i.d.\ null, $\alpha = 0.05$.}
+\label{tab:initial}
+\resizebox{\textwidth}{!}{%
+\input{tables/tab_initial_audit13}}
+\par\medskip\begin{minipage}{\textwidth}\footnotesize
+5000 paths per cell; the innovations are common to the five initial
+conditions of each $\rho$. $u_0 = \alpha(1-\rho^2)^{-1/2}$; ``random'':
+$u_0 = z_0(1-\rho^2)^{-1/2}$ with $z_0 \sim \mathcal N(0,1)$. (b), (b$'$)
+as in \cref{tab:serial}. Last two columns: difference from DF-GLS in
+percentage points (standard error) and exact McNemar $p$-value.
+\end{minipage}
+\end{table}
+
+\FloatBarrier
+\section{Mean breaks, variance breaks, heavy tails and GARCH}\label{supp:s4}
+
+\subsection*{Mean breaks}
+
+Against a stationary AR$(0.95)$ with a mid-sample shift in mean of $\delta$
+unconditional standard deviations, $\delta \in \{0, 0.5, 1, 2, 3, 5\}$,
+every test in the M and DF families loses power as $\delta$ grows and none
+rejects at $\delta = 5$ (\cref{tab:dgp2}). Without a break and $n = 200$,
+\RMGLS{} is ahead of DF-GLS ($0.713$ against $0.695$, $p = 0.002$). With a
+break \RMGLS{} leads DF-GLS in every cell with $0.5 \leq \delta \leq 3$ in
+which power is not saturated, with McNemar $p < 0.01$ in all of them but
+$(\delta, n) = (3, 200)$, where both reject less than $0.01$; and the lead
+grows with the break: $0.477$ against $0.445$ at $(\delta, n) = (1, 200)$,
+$0.578$ against $0.441$ at $(2, 500)$, $1.000$ against $0.870$ at $(2,
+1000)$ and $0.656$ against $0.376$ at $(3, 1000)$.
+
+The endogenous-break test of \citet{zivot1992further} behaves differently. It
+is nearly flat in $\delta$ and pays for that with power when there is no
+break ($0.119$ at $\delta = 0$, $n = 200$, against $0.713$ for \RMGLS{}); at
+$\delta = 5$, where every other test has no power, it rejects $0.092$,
+$0.497$ and $0.986$ at $n = 200$, $500$ and $1000$, and it exceeds \RMGLS{} at
+$\delta = 3$ for every $n$ and at $(\delta, n) = (2, 200)$. Its size is correct
+under the two nulls we examined, a pure random walk ($0.0542$, $0.0472$ and
+$0.0522$ at $n = 200$, $500$ and $1000$) and a random walk with a mid-sample
+mean shift of one innovation standard deviation ($0.0558$, $0.0464$ and
+$0.0458$), so the difference is one of power. An applied worker who expects
+breaks of three unconditional standard deviations or more should use a test
+with an endogenous break date.
+
+\begin{table}[t]
+\centering
+\caption{Power under a stationary AR$(0.95)$ with a mid-sample mean
+break of $\delta$ unconditional standard deviations, constant case, at
+equalized size, $\alpha = 0.05$.}
+\label{tab:dgp2}
+\resizebox{\textwidth}{!}{%
+\input{tables/tab_dgp2_audit13}}
+\par\medskip
+\begin{minipage}{\textwidth}\footnotesize
+5000 common paths per cell. Every test uses a critical value simulated
+under equation~(2) of the main text at the same $n$ ($\ncal = 5\times10^5$; $5\times10^4$
+for ZA). ZA is the test of \citet{zivot1992further} with an
+endogenous break in the intercept. $p$: exact McNemar test of \RMGLS{}
+against DF-GLS-sim. The size of ZA reported in the text uses its asymptotic
+$p$-value on separate paths and lies inside the exact region
+$[0.0440, 0.0562]$ in all six cells.
+\end{minipage}
+\end{table}
+
+\subsection*{Variance breaks and the wild-bootstrap calibration}
+
+\Cref{tab:dgp3} and \cref{fig:dgp3} hold the unit-root null true and let
+the innovation standard deviation change by a factor $r$ at mid-sample.
+Every rejection is a size distortion. \RMGLS{} with the calibration of
+Definition~1 of the main text is among the most distorted procedures: at $r = 4$ it
+rejects $0.123$, $0.127$ and $0.125$ at $n = 200$, $500$ and $1000$, as
+much as MSB-GLS and more than MZ$_t$-GLS ($0.117$ at $n = 200$) and DF-GLS
+($0.080$). ADF and PP are close to the nominal level throughout, a
+consequence of their insensitivity to the second moment rather than of
+their design. The mean-anchored RM statistic is less distorted
+($0.097$ at $r = 4$, $n=200$): the GLS anchor that buys local power also
+makes the statistic more sensitive to a change in the diffusion rate of
+the path.
+
+The AWB calibration of Definition~2 of the main text removes most of the distortion
+(\cref{tab:awb}). On 2000 common paths it rejects $0.052$ and $0.051$ at
+$r=2$ with $n = 200$ and $500$, against $0.080$ and $0.089$ for the
+simulated calibration, and $0.041$ and $0.040$ at $r = 4$, against $0.118$
+and $0.117$; it is conservative there. Under homoskedastic innovations it
+holds size ($0.053$ and $0.045$), and under GARCH it is at or below the
+simulated calibration in all four cells. Its power cost is $2.9$ points at
+$(\rho, n) = (0.95, 200)$ and at most $1.8$ points elsewhere. The rule
+registered for recommending the variant required at least four of six
+variance-break cells inside the region and at most three points of power
+loss; the first condition was met with equality and the second with $0.1$
+points to spare, and we report the variant as a recommendation with that
+qualification. It addresses volatility, not serial correlation. For
+reference, the AWB DF-GLS of \citet{cavaliere2008bootstrap} rejects between
+$0.045$ and $0.056$ over $r \in \{1, 2, 3, 4\}$ at $n \in\{200, 1000\}$ in a
+separate experiment on the same design.
+
+\begin{table}[t]
+\centering
+\caption{Rejection frequencies under a random walk with a mid-sample
+change in innovation standard deviation by a factor $r$; the null is true,
+$\alpha = 0.05$.}
+\label{tab:dgp3}
+\begin{threeparttable}
+\small
+\input{tables/tab_dgp3_audit13}
+\begin{tablenotes}\footnotesize
+\item 5000 common paths per cell; all procedures at simulated critical
+values. Bold: outside $[0.0440, 0.0562]$.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\begin{table}[t]
+\centering
+\caption{\RMGLS{} with the AWB calibration of Definition~2 of the main text against the
+simulated calibration of Definition~1 of the main text, on common paths.}
+\label{tab:awb}
+\begin{threeparttable}
+\small
+\input{tables/tab_awb_audit13}
+\begin{tablenotes}\footnotesize
+\item 2000 common paths per cell; $R = 399$. Bold: outside the exact
+region $[0.0405, 0.0600]$ for 2000 paths. The AWB p-value here is $\#\{S^{*} \leq S\}/R$, not the $(1 + \#)/(R + 1)$ of Section~3.5 of the main text.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{fig_dgp3_audit13q}
+\caption{Rejection frequencies under a random walk with a variance break
+of ratio $r$; the null is true.}
+\label{fig:dgp3}
+\end{figure}
+
+\subsection*{Heavy tails and conditional heteroskedasticity}
+
+\Cref{tab:misspec} repeats the size experiment with Student-$t$
+innovations and with GARCH$(1,1)$ innovations of persistence $0.95$,
+$0.98$ and $0.99$ (normal) and $0.95$ ($t(5)$), standardized to unit
+unconditional variance, without recalibrating. The fourth-moment
+condition holds in all four GARCH specifications. We summarize the GARCH
+cells by the mean shift of each test's size relative to its own size
+under Gaussian innovations at the same $n$ (\cref{fig:sizeshift}).
+
+Under heavy tails \RMGLS{} is slightly conservative at $n = 200$ ($0.044$
+and $0.043$) and within the region at larger $n$, like DF-GLS and the M
+tests, while ADF and PP with asymptotic critical values over-reject.
+Under GARCH its distortion lies between that of the GLS tests and that of
+ADF: at $n = 200$ its mean shift is $+0.63$ points, against $+0.28$ for
+DF-GLS, $+0.39$ for MZ$_t$-GLS and $+1.47$ for ADF with simulated
+critical values; at $n = 1000$ the figures are $+0.33$, $+0.04$, $+0.21$
+and $+0.85$. It is inside the exact region in nine of the sixteen GARCH
+cells, against eleven for DF-GLS and MZ$_t$-GLS, nine for MSB-GLS, six for
+ADF with simulated and four with asymptotic critical values, and two for
+PP. We draw no robustness claim from these results: under conditional
+heteroskedasticity \RMGLS{} behaves as a GLS-based M test does, slightly
+worse than DF-GLS.
+
+\begin{table}[t]
+\centering
+\caption{Size under heavy-tailed and GARCH innovations, Gaussian
+calibration unchanged, $\alpha = 0.05$.}
+\label{tab:misspec}
+\footnotesize
+\resizebox{\textwidth}{!}{%
+\input{tables/tab_misspec_audit13}}
+\par\medskip\begin{minipage}{\textwidth}\footnotesize  5000 common paths per cell; constant case. ``G $p$, N'': GARCH(1,1)
+with persistence $p$ and normal innovations; ``G 0.95, $t(5)$'':
+standardized $t(5)$ innovations. DF-GLS, MZ$_t$ and MSB are the GLS
+versions with simulated critical values; ADF and PP without suffix use
+asymptotic critical values. Bold: outside $[0.0440, 0.0562]$. Shifts are
+relative to the size of each test under Gaussian innovations on $2\times
+10^4$ independent paths at the same $n$; the number of cells averaged is
+in parentheses.
+\end{minipage}
+\end{table}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{fig_size_shift_audit13q}
+\caption{Shift in size under GARCH innovations relative to Gaussian
+innovations, in percentage points, for the two specifications evaluated
+up to $n=5000$. Bands: $\pm1.96$ standard errors.}
+\label{fig:sizeshift}
+\end{figure}
+
+The sieve bootstrap (SB) and the sieve wild bootstrap (SWB) calibrations of MZ$_t$-GLS were not evaluated under variance breaks.
+
+\FloatBarrier
+\section{The smoothed family $S_\theta$}\label{supp:s5}
+
+For a window fraction $\theta \in [0, 1/2]$ let $\tau = \mathrm{round}(\theta
+n)$ and define the rolling means of the detrended series,
+\begin{equation}\label{eq:rollmean}
+\rmean_k = \frac{1}{\tau+1}\sum_{i=k}^{k+\tau} \uhat_i,
+\qquad k = 0, 1, \dots, n - \tau,
+\end{equation}
+over $N_k = n - \tau + 1$ overlapping windows, and
+\begin{equation}\label{eq:stat}
+\Stat = \frac{\Big(N_k^{-1}\sum_{k=0}^{n-\tau}\rmean_k^{\,2}\Big)^{1/2}}
+{\hacsig\, n^{1/2}}.
+\end{equation}
+
+\subsection*{The smoothing window}
+
+The smoothed statistics $\Stat$ with $\theta > 0$ were compared with
+$\theta = 0$ under a rule written before the comparison was run.
+Five values $\theta \in \{0, 0.02, 0.05, 0.1, 0.2\}$ were eligible if (A1)
+their size under equation~(2) of the main text lay within $0.25$ percentage points of
+$0.05$ at $n \in \{200, 500, 1000\}$ in both deterministic cases, measured
+on $10^5$ independent paths per cell with $\ncal = 5\times10^5$, and (A2)
+their mean size distortion over sixteen GARCH cells with $n \leq 500$ was
+within $0.3$ points of the best. Among eligible values, the one with the
+highest mean local power at $c \in \{5, 10, 15\}$ was selected, with ties
+within one point broken in favour of the larger window. All five values
+were eligible, with a worst deviation from $0.05$ of $0.10$ points. Mean
+local power was $0.659$, $0.654$, $0.645$, $0.631$ and $0.601$ for the five
+values in increasing order; $\theta = 0$ and $\theta = 0.02$ tied, and the
+rule selected $\theta = 0.02$.
+
+The rule was amended once, and we report the amendment. A first
+evaluation used $2\times10^4$ paths shared between the two deterministic
+cases and $\ncal = 5\times10^4$; in it, four of the five windows failed
+(A1) in a single cell, the trend case at $n=200$, by margins below
+$0.001$, and so did nine of twelve comparator tests evaluated on the same
+paths. A second evaluation with independent paths per case and a tenfold
+larger calibration found every procedure within tolerance in that cell
+(rates from $0.0494$ to $0.0503$), and the amended criterion replaced a
+binomial acceptance region by the equivalence margin stated above. The
+amendment was registered before the second evaluation was run.
+
+The rule's tie-break in favour of the larger window had no stated
+rationale. Its only support in the data is the GARCH criterion (A2), on
+which the two windows differ by $0.01$ points, and every other comparison
+favours $\theta = 0$. On the finite-sample power designs of
+Section~S1 and Section~S4, $\theta = 0$ has higher power than
+$\theta = 0.02$ (McNemar $p < 0.05$) in 12 of the 23
+cells in which at least one of the two rejects with probability strictly
+between $0$ and $0.99$, and lower power in 2, by at most
+$0.4$ points; under a variance break with the null true it is less
+distorted in 5 of 12 cells and more distorted in none; and under a unit
+root with moving-average errors of $-0.8$ at $n = 200$ it rejects $0.420$
+and $0.361$ in the constant and trend cases, against $0.531$ and $0.781$
+with $\theta = 0.02$. We therefore report the statistic without a window.
+This is a departure from the configuration selected by the registered
+rule, not a change of the rule: the rule's output, $\theta = 0.02$, is
+reported here, lies within the rule's own tie margin of $\theta = 0$, and
+its results are in the supplement; \cref{tab:deviations} records the
+departure and its effect on the application.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{fig_theta_ladder_audit13q}
+\caption{Distance to the Gaussian power envelope, in percentage points,
+against the window $\theta$ of the smoothed statistic, at $c \in \{5, 10,
+15\}$.}
+\label{fig:thetaladder}
+\end{figure}
+
+\subsection*{Tables with $\theta = 0.02$}
+
+RM: the centred rolling-means statistic with $\theta = 0.1$.
+
+\begin{table}[htbp]
+\centering
+\caption{As \cref{tab:size}, computed with $\theta = 0.02$. Bold entries follow the rule stated in its note.}
+\label{tab:size02}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\input{tables/s5_tab_size_theta0p02}
+\end{adjustbox}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{As Table~1 of the main text, computed with $\theta = 0.02$. Bold entries follow the rule stated in its note.}
+\label{tab:calib02}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\input{tables/s5_tab_calib_theta0p02}
+\end{adjustbox}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{As Table~2 of the main text, computed with $\theta = 0.02$. Bold entries follow the rule stated in its note.}
+\label{tab:localpower02}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\input{tables/s5_tab_localpower_theta0p02}
+\end{adjustbox}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{As \cref{tab:dgp1}, computed with $\theta = 0.02$. Bold entries follow the rule stated in its note.}
+\label{tab:dgp102}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\input{tables/s5_tab_dgp1_theta0p02}
+\end{adjustbox}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{As \cref{tab:ctpower}, computed with $\theta = 0.02$. Bold entries follow the rule stated in its note.}
+\label{tab:ctpower02}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\input{tables/s5_tab_ctpower_theta0p02}
+\end{adjustbox}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{As \cref{tab:dgp2}, computed with $\theta = 0.02$. Bold entries follow the rule stated in its note.}
+\label{tab:dgp202}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\input{tables/s5_tab_dgp2_theta0p02}
+\end{adjustbox}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{As \cref{tab:dgp3}, computed with $\theta = 0.02$. Bold entries follow the rule stated in its note.}
+\label{tab:dgp302}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\input{tables/s5_tab_dgp3_theta0p02}
+\end{adjustbox}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{As \cref{tab:misspec}, computed with $\theta = 0.02$. Bold entries follow the rule stated in its note.}
+\label{tab:misspec02}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\input{tables/s5_tab_misspec_theta0p02}
+\end{adjustbox}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{As \cref{tab:awb}, computed with $\theta = 0.02$. Bold entries follow the rule stated in its note.}
+\label{tab:awb02}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\input{tables/s5_tab_awb_theta0p02}
+\end{adjustbox}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{As \cref{tab:dgp5}, computed with $\theta = 0.02$. Bold entries follow the rule stated in its note.}
+\label{tab:dgp502}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\input{tables/s5_tab_dgp5_theta0p02}
+\end{adjustbox}
+\par\medskip\begin{minipage}{\textwidth}\footnotesize
+\input{tables/s5_tab_dgp5_theta0p02_note}
+\end{minipage}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{As \cref{tab:fp}, computed with $\theta = 0.02$. Bold entries follow the rule stated in its note.}
+\label{tab:fp02}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\input{tables/s5_tab_fp_theta0p02}
+\end{adjustbox}
+\par\medskip\begin{minipage}{\textwidth}\footnotesize
+\input{tables/s5_tab_fp_theta0p02_note}
+\end{minipage}
+\end{table}
+
+\FloatBarrier
+\section{The two-channel construction and other negative results}\label{supp:s6}
+
+\subsection*{A pre-registered test of a two-channel extension}
+
+The statistic was originally one channel of a two-channel construction
+whose second channel measured the variability of rolling variances. The
+rationale for such a construction cannot be that it detects two kinds of
+departure, since two separate tests also do; it must be that a single
+statistic avoids the multiplicity cost of running two. We registered,
+before running it, an experiment designed to test that claim: a
+stationary AR$(1)$ with $\rho \in \{0.90, 0.93, 0.95\}$ carrying a
+mid-sample variance break of ratio $r \in \{1, 2, 3, 4\}$, $n = 200$,
+2000 paths, every procedure calibrated to exact size $0.05$ under
+equation~(2) of the main text. The comparator was the union of the wild-bootstrap
+DF-GLS and the variance-break statistic $\kappa_2$ of
+\citet{sanso2004testing}, calibrated jointly. The registered prediction
+was that the two-channel statistic would exceed the union in the interior
+of the grid, $r \in \{2, 3\}$; the registered falsification condition was
+failure to do so anywhere in that interior.
+
+The prediction failed in every interior cell (\cref{tab:dgp5}). The union
+rejects with probability $0.9985$ to $1.0000$ there, against $0.47$ to
+$0.90$ for the two-channel statistic. The variance channel carried
+between $0.4$ and $2.0$ per cent of the squared statistic in this design
+at $n = 200$,
+and its power was flat in $r$. The failure has a structural reason that we
+did not recognize when registering the prediction: the test rejects in
+the lower tail, and a variance break raises the variance channel, so any
+weight on that channel moves the statistic away from rejection when a
+break is present. No normalization of the channels can turn a
+second-moment departure into a route to rejection.
+
+The one-channel \RMGLS{} changes the magnitudes but not the verdict. It
+exceeds the two-channel statistic by $19$ to $29$ points in the rows of
+\cref{tab:dgp5} and by at least $7.9$ points in every cell of the full grid,
+exceeds the bootstrap DF-GLS for $r \geq 1.5$, and exceeds the union at $r
+\leq 1.25$, where the variance break is too weak for $\kappa_2$; in the
+registered interior the union still dominates it.
+
+\begin{table}[t]
+\centering
+\caption{Pre-registered experiment: stationary AR$(1)$ with a mid-sample
+variance break of ratio $r$, $n=200$, power at equalized size.}
+\label{tab:dgp5}
+\begin{threeparttable}
+\small
+\input{tables/s6_tab_dgp5_full}
+\begin{tablenotes}\footnotesize
+\item ``Two-channel'': the original
+construction with fixed weight $0.5$ on each channel; $g_2$ share: median
+share of the variance channel in its squared value. The union of the
+wild-bootstrap DF-GLS and $\kappa_2$ is calibrated jointly
+($\alpha^\ast = 0.0256$).
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\subsection*{Other negative results}
+
+Three further elements of the original construction were measured and
+removed. First, the variance channel is inert as well as unhelpful:
+dropping it changes size by at most $0.1$ points in any of the null
+cells examined under Gaussian, heavy-tailed and GARCH innovations. Second, a
+signal-proportional weight between the two channels concentrated at zero
+under the null (mean $0.003$) and handed control to the mean channel;
+rebalancing the channels to a common scale lowered power by $14$ to $28$
+points. Third, measuring the rolling means from their own average rather
+than from the GLS anchor costs $24.8$ points of local power at $c = 10$,
+measured with $\theta = 0.1$; the centered statistic lies $33.4$ points
+below the envelope there. \Cref{tab:negvariance,tab:negweight,tab:negrebal,tab:neganchor} report these experiments in full.
+
+\begin{table}[htbp]
+\centering
+\caption{The variance channel: size with one and with two channels.}
+\label{tab:negvariance}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\input{tables/s6_neg_a_variance_channel}
+\end{adjustbox}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Distribution of the signal-proportional weight under the null.}
+\label{tab:negweight}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\input{tables/s6_neg_b_adaptive_weight}
+\end{adjustbox}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Power of the adaptive and rebalanced combinations.}
+\label{tab:negrebal}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\input{tables/s6_neg_c_rebalancing}
+\end{adjustbox}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Local power with the GLS anchor and with the sample mean.}
+\label{tab:neganchor}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\input{tables/s6_neg_d_mean_anchor}
+\end{adjustbox}
+\end{table}
+
+\FloatBarrier
+\section{Rate of the HAC estimator and the trend case of the consistency theorem}\label{supp:s7}
+
+\begin{table}[htbp]
+\centering
+\caption{Log--log slopes in $n$ (means over replications).}
+\label{tab:hacrates}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\input{tables/s7_hac_a_rates}
+\end{adjustbox}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Median of the HAC estimator and of the bandwidth, AR$(0.5)$. These medians were produced with the previous bandwidth pilot $\hat a = 4\hat\rho^2/(1-\hat\rho)^4$, not the one of the main text.}
+\label{tab:hacmedian}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\input{tables/s7_hac_b_hac_median}
+\end{adjustbox}
+\end{table}
+
+The slope of 1/3 follows from the Andrews rule once $\hat a$ settles; it says nothing about the stochastic part.
+
+\subsection*{The trend case of the consistency theorem}
+
+In the trend case the same argument requires that the quasi-differenced
+estimate of the trend leave residuals with bounded mean square under
+trend-stationary alternatives. We do not prove that here. Numerically the
+condition holds: for stationary AR$(0.5)$ and AR$(0.9)$ processes around a
+linear trend, the median of $n^{-1}\sum_t\uhat_t^2$, which exceeds
+$\gamma(0)$ because the residual carries the offset of the anchor, is
+nearly flat in $n$
+between $200$ and $5000$ (log--log slopes $0.011$ and $0.057$), while the
+median of the trend-case statistic falls with slopes $-0.56$ and $-0.64$;
+and the power of the trend-case test rises to one with $n$ in every design
+of Section~S1.
+
+\FloatBarrier
+\section{Critical values}\label{supp:s8}
+
+\begin{table}[htbp]
+\centering
+\caption{Lower-tail critical values of $S_\theta$, $\theta = 0$ (\RMGLS{}).}
+\label{tab:critB}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\input{tables/s8_critical_theta_0}
+\end{adjustbox}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Lower-tail critical values of $S_\theta$, $\theta = 0.02$.}
+\label{tab:crit0p02}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\input{tables/s8_critical_theta_0p02}
+\end{adjustbox}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Lower-tail critical values of $S_\theta$, $\theta = 0.05$.}
+\label{tab:crit0p05}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\input{tables/s8_critical_theta_0p05}
+\end{adjustbox}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Lower-tail critical values of $S_\theta$, $\theta = 0.1$.}
+\label{tab:crit0p1}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\input{tables/s8_critical_theta_0p1}
+\end{adjustbox}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Lower-tail critical values of $S_\theta$, $\theta = 0.2$.}
+\label{tab:crit0p2}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\input{tables/s8_critical_theta_0p2}
+\end{adjustbox}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Critical values of MSB-GLS and MZ$_t$-GLS with Monte Carlo standard errors.}
+\label{tab:critMSBse}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\input{tables/tab_critMSB_audit14}
+\end{adjustbox}
+\par\medskip\begin{minipage}{\textwidth}\footnotesize
+\input{tables/tab_critMSB_note_audit14}
+\end{minipage}
+\end{table}
+
+\FloatBarrier
+\section{The pre-registered monitoring application}\label{supp:s9}
+
+% =========================================================================
+
+The Monte Carlo evidence validates the test inside its design. The
+application asks how it behaves on data that satisfy none of the
+maintained assumptions: daily equity log-prices, tested on a rolling
+window each trading day. Two quantities matter operationally, the rate of
+alarms in calm periods and the delay in flagging a crisis, and neither
+has a ``correct'' value against which a test can be scored, because
+whether a crisis window contains a unit root is itself unknown. The
+exercise locates the test on the trade-off between the two; it does not
+validate it.
+
+\subsection*{Design}
+
+Every element of the design was fixed in a protocol whose SHA-256
+hash, beginning \texttt{0e267b0b} and ending \texttt{859fd4}, was recorded before any data were
+downloaded; the frozen data files were hashed afterwards, and the hashes
+were verified again before the computations reported here. The
+timestamp is self-asserted and not anchored to a third party. The
+protocol specifies six crisis events (Black Monday, 1987-10-19; Asian
+crisis, 1997-07-02; Russian crisis, 1998-08-17; dot-com peak, 2000-03-10;
+Lehman collapse, 2008-09-15; COVID-19 crash, 2020-02-20); four indices
+(S\&P~500, FTSE~100, Nikkei~225, DAX) at unadjusted daily closes, in
+logs; windows of $D \in \{150, 200, 250, 300\}$ trading days; three
+control years pre-specified as calm (1993, 2005, 2017); the two metrics,
+false-positive rate over the control years and latency from the event
+date to the first rejection; and the rule that adverse cells are
+reported regardless of direction. Two event--index cells were excluded a
+priori for data availability, leaving 48 control cells and 88 event
+cells.
+
+The registered statistic was the two-channel construction with an
+adaptive weight. \RMGLS{} was not in the registered protocol; it is
+applied here to the same frozen data with the constant specification and
+$\alpha = 0.05$. What the registration guarantees is therefore the
+freezing of data, events and metrics, not the choice of the statistic.
+\Cref{tab:deviations} lists every departure from the protocol and its
+measured effect; the registered statistic's results are reported
+alongside. Held-out size checks of the deployed configuration give
+$0.0472$, $0.0482$, $0.0468$ and $0.0482$ at $D = 150$, $200$, $250$ and
+$300$, all inside the exact region; with the AWB calibration the check at
+$D = 250$, $0.0432$, falls just below it.
+
+\subsection*{Results}
+
+\Cref{tab:fp} reports false-positive rates, detections and latency at the
+nominal level, and the comparison at a common false-alarm rate.
+\RMGLS{} has a mean false-positive rate of $0.0224$ over the 48 control
+cells, against $0.0535$ for ADF, $0.0532$ for PP and $0.0210$ for DF-GLS
+with MAIC; it detects 17 of the 88 event cells, against 26, 23 and 23.
+MZ$_t$-GLS dominates it on all three metrics: a lower false-positive
+rate ($0.0173$), more detections (36) and a shorter mean latency when
+it detects ($22.1$ against $29.7$ days). The AWB calibration lowers the
+false-positive rate slightly and detects fewer events ($0.0217$, 13
+detections).
+
+At a common false-alarm rate of $0.0222$, with contiguous rejections
+grouped into alarm episodes, \RMGLS{} produces 33 false-alarm episodes
+over the control years, one more than DF-GLS with AIC lag selection and
+fewer than ADF (48) or PP (56), and a censored latency of $102.6$ days,
+against $93.6$ for DF-GLS and $79.7$ for MZ$_t$-GLS. Under the
+pre-registered adverse-reporting rule, the rate of \RMGLS{} exceeds a
+registered baseline in 7 of the 48 control cells. The registered
+two-channel statistic had fewer false-alarm episodes (11) and fewer
+detections (13), consistent with its lower power.
+
+The application therefore places \RMGLS{} among the GLS-based tests: it
+is quieter than ADF and PP in calm markets and detects fewer crisis
+windows than they do, and within the GLS family the MZ$_t$ test is
+preferable on these data. Daily log-price increments are not i.i.d.,
+and any serial correlation in them is, by Section~4.5 of the main text, the
+circumstance in which the Bartlett scale is least reliable. We draw no further conclusion from the
+application.
+
+\begin{table}[t]
+\centering
+\caption{Pre-registered application: false positives over 48 control
+cells and detections over 88 event cells, $\alpha = 0.05$, and the
+comparison at a common false-alarm rate of $0.0222$.}
+\label{tab:fp}
+\begin{threeparttable}
+\footnotesize
+\input{tables/tab_fp_audit13}
+\begin{tablenotes}\footnotesize
+\item Latency: mean trading days to first rejection, conditional on
+detection. Common rate: each test's threshold is set so that its
+false-alarm rate over the control years is $0.0222$, the rate of
+\RMGLS{} at the nominal level; episodes group
+contiguous rejections; run is the mean number of trading days between
+false-alarm episodes; latency$^c$ is censored at 120 days over all 88
+event cells. The registered statistic is the two-channel construction
+with adaptive weight of the protocol.
+\item[$a$] KPSS tests the null of stationarity; log-prices are
+nonstationary, so its near-universal rejection is correct behaviour and
+disqualifies it as a calm-period monitor.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\begin{table}[t]
+\centering
+\caption{Departures from the registered protocol and their measured
+effect.}
+\label{tab:deviations}
+\begin{threeparttable}
+\footnotesize
+\begin{tabular}{p{0.17\linewidth}p{0.20\linewidth}p{0.22\linewidth}p{0.30\linewidth}}
+\toprule
+Element & Registered & Deployed & Measured effect \\
+\midrule
+HAC bandwidth pilot & $\hat a = 4\hat\rho_1^2/(1-\hat\rho_1)^4$ &
+  $\hat a = 4\hat\rho_1^2/(1-\hat\rho_1^2)^2$, the Bartlett row of
+  Andrews's Table~I & Registered statistic: mean FP $0.02770 \to
+  0.02786$; one control cell moves by more than half a point; one
+  detection shifts by one day \\
+\addlinespace
+Statistic & Two-channel statistic, windows $(0.1, 0.1)$, adaptive
+  weight & \RMGLS{} & Mean FP $0.0277 \to 0.0224$;
+  detections $13 \to 17$; mean latency $33.8 \to 29.7$ days \\
+\addlinespace
+Window & -- & $\theta = 0$ instead of the $\theta = 0.02$ selected by the
+  registered rule of Section~S5 & Mean FP $0.0229 \to 0.0224$;
+  detections $17 \to 17$; mean latency $29.6 \to 29.7$ days \\
+\addlinespace
+Calibration & $\sigma = 1$ in the calibration loop, $\ncal = 5\times
+  10^4$ & $\hacsig$ computed in the loop; $\ncal = 5\times10^4$ &
+  Removes the mismatch described in Section~3.4 of the main text; uniform error
+  $0.0061$ by equation~(8) of the main text \\
+\addlinespace
+Calibration variant & -- & AWB (Definition~2 of the main text), $R = 399$ & Mean FP
+  $0.0224 \to 0.0217$; detections $17 \to 13$; latency $29.7 \to 40.3$ \\
+\addlinespace
+Comparators & ADF, PP, KPSS & Adds DF-GLS (AIC, MAIC) and MZ$_t$-GLS &
+  Post-hoc columns on the frozen data \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}\footnotesize
+\item The first departure corrects an error in the registered code; the
+others follow from the change of statistic that the Monte Carlo evidence
+forced. None was chosen after seeing its effect on the application; the
+window was set to zero on the Monte Carlo evidence of Section~S5
+and Section~4.5 of the main text. An
+earlier version of this analysis deployed the registered statistic with
+$\ncal = 10^4$; raising it to $5\times10^4$ moved its mean FP to
+$0.0301$ with the same 13 detections.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\subsection*{Scope and computation}
+
+Daily log-prices are not Gaussian autoregressions, and the application
+speaks to practical behaviour rather than to the theory. All computations
+use Python~3.11 with NumPy, SciPy, numba, pandas, statsmodels and arch,
+and R with bootUR for the wild-bootstrap DF-GLS, on a 16-core x86-64
+workstation. The registered protocol, frozen data hashes, per-cell
+results, seeds and replication scripts are in the supplementary material,
+together with a manifest giving the SHA-256 hash of every result file
+cited in the paper.
+
+\subsection*{Details}
+
+\begin{table}[htbp]
+\centering
+\caption{Out-of-sample size by window length.}
+\label{tab:oos}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\input{tables/s9_app_a_oos_size}
+\end{adjustbox}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Control cells flagged by the pre-registered adverse-reporting rule.}
+\label{tab:adverse}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\input{tables/s9_app_b_adverse_cells}
+\end{adjustbox}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{False-positive rate by control cell.}
+\label{tab:fpcell}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\input{tables/s9_app_c_fp_by_cell}
+\end{adjustbox}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Detection latency (trading days) by event cell; -- = not detected.}
+\label{tab:latency}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\input{tables/s9_app_d_latency_by_event}
+\end{adjustbox}
+\end{table}
+
+\FloatBarrier
+\section{Protocols, amendments and predictions}\label{supp:s10}
+
+The protocols, amendments and predictions are in \texttt{protocols/}, in the order in which they were committed.
+
+\FloatBarrier
+\bibliographystyle{plainnat}
+\bibliography{references}
+\end{document}

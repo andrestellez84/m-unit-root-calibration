@@ -1,0 +1,51 @@
+{
+  "jobs": {
+    "audit6_compute_ours_size_control.py": {
+      "wall_sec": 12.3,
+      "artifacts": {
+        "dgp2_break_tests_audit6.json": {
+          "status": "REPRODUCIDO",
+          "sha256": "7ab012e6ef7928ac7ebe1c8a5e265083ef4dd074f37184e2096845df317de7a2",
+          "n_leaves": 265,
+          "keys_added": 0,
+          "keys_removed": 0,
+          "values_changed": 0,
+          "changed_sample": [],
+          "added_sample": []
+        }
+      }
+    },
+    "audit6_real_data_roc.py": {
+      "wall_sec": 4.45,
+      "artifacts": {
+        "real_data_arl_roc_audit6.json": {
+          "status": "REPRODUCIDO",
+          "sha256": "6ce6715d9cd1a2f688a4159f341239f8d4ef1eeec6bb3173c4983bda34237e73",
+          "n_leaves": 610,
+          "keys_added": 0,
+          "keys_removed": 0,
+          "values_changed": 0,
+          "changed_sample": [],
+          "added_sample": []
+        }
+      }
+    },
+    "audit6_tables_dkw.py": {
+      "wall_sec": 0.62,
+      "artifacts": {
+        "size_robustness_dkw_audit6.json": {
+          "status": "REPRODUCIDO",
+          "sha256": "a716f8c16093018d7bafdab3c7351363dc96dc702392fa2dce4d1b07047f7858",
+          "n_leaves": 341,
+          "keys_added": 0,
+          "keys_removed": 0,
+          "values_changed": 0,
+          "changed_sample": [],
+          "added_sample": []
+        }
+      }
+    }
+  },
+  "regression": false,
+  "schema_additions": 0
+}

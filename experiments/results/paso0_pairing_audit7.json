@@ -1,0 +1,4200 @@
+{
+  "provenance": {
+    "dgp": "seed_blocks_all_families",
+    "n_sim": null,
+    "seed_formula": "ver 'source' de cada familia",
+    "generated_utc": "2026-09-16T17:02:27.985937+00:00",
+    "commit": "2ac62e82affce88ce3401c3568d7afb2468b8f8b",
+    "worktree_dirty": false,
+    "entry_point": "experiments/audit7_seed_blocks_all.py",
+    "code": {
+      "experiments/audit7_artifact_diffs.py": {
+        "sha256": "6f5a19811b4e9420647fa30270611de7e80f634bf3c4b78724cf8db671271323",
+        "git_state": "committed"
+      },
+      "experiments/audit7_block1_budget.py": {
+        "sha256": "d6925aea8fb5f372eb3ca06d39a7b0d346882fa3513f2d402bab01dfd02fe5e9",
+        "git_state": "committed"
+      },
+      "experiments/audit7_block1_budget_cores.py": {
+        "sha256": "390bb6a177e80b2596c1dec8b7545cb26de17521ecb8f71f8575db1e86c428d1",
+        "git_state": "committed"
+      },
+      "experiments/audit7_bootstrap_cost_diag.py": {
+        "sha256": "a8873dc335ebf7df57090356e609fdf357ad176d4b152f2f7b5924a1264e4fea",
+        "git_state": "committed"
+      },
+      "experiments/audit7_bootstrap_size_diag.py": {
+        "sha256": "13fb2391b0b2b6f4672973829ee1c8b1de2fcbbc5c1d517c9175c192fee6f7b6",
+        "git_state": "committed"
+      },
+      "experiments/audit7_bootstrap_worker.R": {
+        "sha256": "ffb1f51b5cbb4f54486c98d589a83661900cf4352f62e056081977c21d6bdfe2",
+        "git_state": "committed"
+      },
+      "experiments/audit7_common.py": {
+        "sha256": "5226727fc5a7f3b045d54b7ae5d561ff8c04756ad906d12a017d6d49a942e92a",
+        "git_state": "committed"
+      },
+      "experiments/audit7_ct_analysis.py": {
+        "sha256": "938ed2d761a289e9dfab76c9ec9dfb6e1d2c1d3273e26c3bee49936dcc6e53f6",
+        "git_state": "committed"
+      },
+      "experiments/audit7_ct_design.py": {
+        "sha256": "2cd4ee56b6b1e1fe1c4f8a46a4a3b57046a2901fbc509cb9b294e72a0a538647",
+        "git_state": "committed"
+      },
+      "experiments/audit7_ct_runner.py": {
+        "sha256": "c5a08dadd11d6870f2b36f6abc69666ccfe72191dbff50702391447ca7a4a68f",
+        "git_state": "committed"
+      },
+      "experiments/audit7_ct_verify.py": {
+        "sha256": "7da986449f411b4094bb6882b4bb003040477c5cae57555b47d782a316dee3ec",
+        "git_state": "committed"
+      },
+      "experiments/audit7_design.py": {
+        "sha256": "fb966e5a334cdd0f1f63632f28fbc5f6d9195d56de34065305639b56f10dc769",
+        "git_state": "committed"
+      },
+      "experiments/audit7_deviation_table.py": {
+        "sha256": "dec35fc90dfe366bfe998ed2927d72d0928b3b4f1d5fa735289d15cb5e9d2412",
+        "git_state": "committed"
+      },
+      "experiments/audit7_dgp3_recast.py": {
+        "sha256": "81adb35a49691b8ef54da5c4e3c7485daf67a87e1445b70f06816edafeaebef7",
+        "git_state": "committed"
+      },
+      "experiments/audit7_dgp5_analysis.py": {
+        "sha256": "7445da3a421063e937c8e2516167f0d0bb7aa2144ad9c1db263ac0c3df44ab61",
+        "git_state": "committed"
+      },
+      "experiments/audit7_dgp5_runner.py": {
+        "sha256": "bdd056463c63826f3260011e53b06bfb054d6678c0bfed9eca5af562ed92608f",
+        "git_state": "committed"
+      },
+      "experiments/audit7_environment.py": {
+        "sha256": "f8bf86481440907d35d3f7238235e026074176e574a58c24276b94093a0fb501",
+        "git_state": "committed"
+      },
+      "experiments/audit7_figures.py": {
+        "sha256": "5ab3a21d137fa4400242f19d922aeaca9137c98260db87237b06141e24ba2bd8",
+        "git_state": "committed"
+      },
+      "experiments/audit7_garch_size.py": {
+        "sha256": "88a6b42823e28b350773757cb1fb147513ab6a2eac7af4d94ed750af2402c91c",
+        "git_state": "committed"
+      },
+      "experiments/audit7_generate_report.py": {
+        "sha256": "8ae1ddfa228f25537b0c076a43ec778532bb9f50e50f9d9e7dd30f15336f068e",
+        "git_state": "committed"
+      },
+      "experiments/audit7_kappa2.py": {
+        "sha256": "c988ed16db23a3023e493fa30aabdf509c259a1186ad89467e8cf7477e92b7fb",
+        "git_state": "committed"
+      },
+      "experiments/audit7_kappa2_diagnosis.py": {
+        "sha256": "45a0870463adc101d485659be88d679694510e80caf0b269ec4fbebfd14bc60c",
+        "git_state": "committed"
+      },
+      "experiments/audit7_kappa2_handicap.py": {
+        "sha256": "280073a1fdbc290dec084e81ef6428ce1ea376ad9be4f383858a3d25b5af779f",
+        "git_state": "committed"
+      },
+      "experiments/audit7_kappa2_simcv.py": {
+        "sha256": "2a17238f738e02e99006e9f570d15908b6320e04f88efca78fe116ced86d7942",
+        "git_state": "committed"
+      },
+      "experiments/audit7_kappa2_validation.py": {
+        "sha256": "969bbdd4994484c799653f63a862945cf0401e1811cd51ca7025b1ed48f01e3c",
+        "git_state": "committed"
+      },
+      "experiments/audit7_paso0_block1.py": {
+        "sha256": "c337c69c03eb96e9acb62639ca0b2834758b14748739eb5a6f3dbe6eac360ee3",
+        "git_state": "committed"
+      },
+      "experiments/audit7_readout.py": {
+        "sha256": "de17f6047c662fba90dd661efdff26c35d9138fcfd3d48793190283cf9bb0370",
+        "git_state": "committed"
+      },
+      "experiments/audit7_seed_blocks_all.py": {
+        "sha256": "691df09aacc85f0e1a5eda9d65b78ad3f3fd511929835963503304c23953cae6",
+        "git_state": "committed"
+      },
+      "experiments/audit7_seed_control_a6.py": {
+        "sha256": "0d31b5ec0e655cff94a859b0e8fca8dc017fe1e4f005aedc4415b6998dd5cb54",
+        "git_state": "committed"
+      },
+      "experiments/audit7_write_amendment.py": {
+        "sha256": "99afdd70001aaf6570bfa2bc34c7c4b6d27b09b92b021b8a9a089bdc947ab3c3",
+        "git_state": "committed"
+      },
+      "experiments/audit7_write_amendment2.py": {
+        "sha256": "5216549b441b78aa34036611d2ccc3ac6b79864cb9aafbe4146ec1fd57f113fe",
+        "git_state": "committed"
+      }
+    },
+    "code_all_committed": true
+  },
+  "definition": "bloque de una celda = [seed_base, seed_base + N); sorteos compartidos = longitud de la interseccion",
+  "families": {
+    "tabla1_tamano_rw": {
+      "source": "power_comparison.py:355 run_size_verification (seed_base=0)",
+      "n_sim": 5000,
+      "note": "la misma base en los tres n",
+      "by_group": {
+        "n1000": {
+          "cells": [
+            "n1000"
+          ],
+          "seed_bases": [
+            0
+          ],
+          "gaps": [],
+          "overlapping_draws_adjacent": []
+        },
+        "n200": {
+          "cells": [
+            "n200"
+          ],
+          "seed_bases": [
+            0
+          ],
+          "gaps": [],
+          "overlapping_draws_adjacent": []
+        },
+        "n500": {
+          "cells": [
+            "n500"
+          ],
+          "seed_bases": [
+            0
+          ],
+          "gaps": [],
+          "overlapping_draws_adjacent": []
+        }
+      },
+      "overlapping_pairs": 3,
+      "pairs_same_seed_base": 3,
+      "max_shared_seeds": 5000,
+      "pairs": [
+        {
+          "a": "n200",
+          "b": "n500",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n200",
+          "b": "n1000",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n500",
+          "b": "n1000",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        }
+      ]
+    },
+    "tabla1_tamano_kpss_ruido_blanco": {
+      "source": "power_comparison.py:362 (50000 + i)",
+      "n_sim": 5000,
+      "note": "la misma base en los tres n",
+      "by_group": {
+        "n1000": {
+          "cells": [
+            "n1000"
+          ],
+          "seed_bases": [
+            50000
+          ],
+          "gaps": [],
+          "overlapping_draws_adjacent": []
+        },
+        "n200": {
+          "cells": [
+            "n200"
+          ],
+          "seed_bases": [
+            50000
+          ],
+          "gaps": [],
+          "overlapping_draws_adjacent": []
+        },
+        "n500": {
+          "cells": [
+            "n500"
+          ],
+          "seed_bases": [
+            50000
+          ],
+          "gaps": [],
+          "overlapping_draws_adjacent": []
+        }
+      },
+      "overlapping_pairs": 3,
+      "pairs_same_seed_base": 3,
+      "max_shared_seeds": 5000,
+      "pairs": [
+        {
+          "a": "n200",
+          "b": "n500",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n200",
+          "b": "n1000",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n500",
+          "b": "n1000",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        }
+      ]
+    },
+    "dgp1": {
+      "source": "power_comparison.py:408 (100000 + n*100 + int(rho*100))",
+      "n_sim": 5000,
+      "note": "reutilizada por extend_dgp1_dfgls.py y por el bootstrap de A6 (primeras 2000)",
+      "by_group": {
+        "n1000": {
+          "cells": [
+            "n1000_rho0.80",
+            "n1000_rho0.85",
+            "n1000_rho0.90",
+            "n1000_rho0.93",
+            "n1000_rho0.95",
+            "n1000_rho0.97",
+            "n1000_rho0.99",
+            "n1000_rho1.00"
+          ],
+          "seed_bases": [
+            200080,
+            200085,
+            200090,
+            200093,
+            200095,
+            200097,
+            200099,
+            200100
+          ],
+          "gaps": [
+            5,
+            5,
+            3,
+            2,
+            2,
+            2,
+            1
+          ],
+          "overlapping_draws_adjacent": [
+            4995,
+            4995,
+            4997,
+            4998,
+            4998,
+            4998,
+            4999
+          ]
+        },
+        "n200": {
+          "cells": [
+            "n200_rho0.80",
+            "n200_rho0.85",
+            "n200_rho0.90",
+            "n200_rho0.93",
+            "n200_rho0.95",
+            "n200_rho0.97",
+            "n200_rho0.99",
+            "n200_rho1.00"
+          ],
+          "seed_bases": [
+            120080,
+            120085,
+            120090,
+            120093,
+            120095,
+            120097,
+            120099,
+            120100
+          ],
+          "gaps": [
+            5,
+            5,
+            3,
+            2,
+            2,
+            2,
+            1
+          ],
+          "overlapping_draws_adjacent": [
+            4995,
+            4995,
+            4997,
+            4998,
+            4998,
+            4998,
+            4999
+          ]
+        },
+        "n500": {
+          "cells": [
+            "n500_rho0.80",
+            "n500_rho0.85",
+            "n500_rho0.90",
+            "n500_rho0.93",
+            "n500_rho0.95",
+            "n500_rho0.97",
+            "n500_rho0.99",
+            "n500_rho1.00"
+          ],
+          "seed_bases": [
+            150080,
+            150085,
+            150090,
+            150093,
+            150095,
+            150097,
+            150099,
+            150100
+          ],
+          "gaps": [
+            5,
+            5,
+            3,
+            2,
+            2,
+            2,
+            1
+          ],
+          "overlapping_draws_adjacent": [
+            4995,
+            4995,
+            4997,
+            4998,
+            4998,
+            4998,
+            4999
+          ]
+        }
+      },
+      "overlapping_pairs": 84,
+      "pairs_same_seed_base": 0,
+      "max_shared_seeds": 4999,
+      "pairs": [
+        {
+          "a": "n200_rho0.80",
+          "b": "n200_rho0.85",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_rho0.80",
+          "b": "n200_rho0.90",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_rho0.80",
+          "b": "n200_rho0.93",
+          "shared_seeds": 4987,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_rho0.80",
+          "b": "n200_rho0.95",
+          "shared_seeds": 4985,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_rho0.80",
+          "b": "n200_rho0.97",
+          "shared_seeds": 4983,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_rho0.80",
+          "b": "n200_rho0.99",
+          "shared_seeds": 4981,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_rho0.80",
+          "b": "n200_rho1.00",
+          "shared_seeds": 4980,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_rho0.85",
+          "b": "n200_rho0.90",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_rho0.85",
+          "b": "n200_rho0.93",
+          "shared_seeds": 4992,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_rho0.85",
+          "b": "n200_rho0.95",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_rho0.85",
+          "b": "n200_rho0.97",
+          "shared_seeds": 4988,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_rho0.85",
+          "b": "n200_rho0.99",
+          "shared_seeds": 4986,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_rho0.85",
+          "b": "n200_rho1.00",
+          "shared_seeds": 4985,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_rho0.90",
+          "b": "n200_rho0.93",
+          "shared_seeds": 4997,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_rho0.90",
+          "b": "n200_rho0.95",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_rho0.90",
+          "b": "n200_rho0.97",
+          "shared_seeds": 4993,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_rho0.90",
+          "b": "n200_rho0.99",
+          "shared_seeds": 4991,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_rho0.90",
+          "b": "n200_rho1.00",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_rho0.93",
+          "b": "n200_rho0.95",
+          "shared_seeds": 4998,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_rho0.93",
+          "b": "n200_rho0.97",
+          "shared_seeds": 4996,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_rho0.93",
+          "b": "n200_rho0.99",
+          "shared_seeds": 4994,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_rho0.93",
+          "b": "n200_rho1.00",
+          "shared_seeds": 4993,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_rho0.95",
+          "b": "n200_rho0.97",
+          "shared_seeds": 4998,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_rho0.95",
+          "b": "n200_rho0.99",
+          "shared_seeds": 4996,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_rho0.95",
+          "b": "n200_rho1.00",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_rho0.97",
+          "b": "n200_rho0.99",
+          "shared_seeds": 4998,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_rho0.97",
+          "b": "n200_rho1.00",
+          "shared_seeds": 4997,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_rho0.99",
+          "b": "n200_rho1.00",
+          "shared_seeds": 4999,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_rho0.80",
+          "b": "n500_rho0.85",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_rho0.80",
+          "b": "n500_rho0.90",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_rho0.80",
+          "b": "n500_rho0.93",
+          "shared_seeds": 4987,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_rho0.80",
+          "b": "n500_rho0.95",
+          "shared_seeds": 4985,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_rho0.80",
+          "b": "n500_rho0.97",
+          "shared_seeds": 4983,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_rho0.80",
+          "b": "n500_rho0.99",
+          "shared_seeds": 4981,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_rho0.80",
+          "b": "n500_rho1.00",
+          "shared_seeds": 4980,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_rho0.85",
+          "b": "n500_rho0.90",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_rho0.85",
+          "b": "n500_rho0.93",
+          "shared_seeds": 4992,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_rho0.85",
+          "b": "n500_rho0.95",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_rho0.85",
+          "b": "n500_rho0.97",
+          "shared_seeds": 4988,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_rho0.85",
+          "b": "n500_rho0.99",
+          "shared_seeds": 4986,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_rho0.85",
+          "b": "n500_rho1.00",
+          "shared_seeds": 4985,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_rho0.90",
+          "b": "n500_rho0.93",
+          "shared_seeds": 4997,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_rho0.90",
+          "b": "n500_rho0.95",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_rho0.90",
+          "b": "n500_rho0.97",
+          "shared_seeds": 4993,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_rho0.90",
+          "b": "n500_rho0.99",
+          "shared_seeds": 4991,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_rho0.90",
+          "b": "n500_rho1.00",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_rho0.93",
+          "b": "n500_rho0.95",
+          "shared_seeds": 4998,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_rho0.93",
+          "b": "n500_rho0.97",
+          "shared_seeds": 4996,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_rho0.93",
+          "b": "n500_rho0.99",
+          "shared_seeds": 4994,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_rho0.93",
+          "b": "n500_rho1.00",
+          "shared_seeds": 4993,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_rho0.95",
+          "b": "n500_rho0.97",
+          "shared_seeds": 4998,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_rho0.95",
+          "b": "n500_rho0.99",
+          "shared_seeds": 4996,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_rho0.95",
+          "b": "n500_rho1.00",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_rho0.97",
+          "b": "n500_rho0.99",
+          "shared_seeds": 4998,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_rho0.97",
+          "b": "n500_rho1.00",
+          "shared_seeds": 4997,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_rho0.99",
+          "b": "n500_rho1.00",
+          "shared_seeds": 4999,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_rho0.80",
+          "b": "n1000_rho0.85",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_rho0.80",
+          "b": "n1000_rho0.90",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_rho0.80",
+          "b": "n1000_rho0.93",
+          "shared_seeds": 4987,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_rho0.80",
+          "b": "n1000_rho0.95",
+          "shared_seeds": 4985,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_rho0.80",
+          "b": "n1000_rho0.97",
+          "shared_seeds": 4983,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_rho0.80",
+          "b": "n1000_rho0.99",
+          "shared_seeds": 4981,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_rho0.80",
+          "b": "n1000_rho1.00",
+          "shared_seeds": 4980,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_rho0.85",
+          "b": "n1000_rho0.90",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_rho0.85",
+          "b": "n1000_rho0.93",
+          "shared_seeds": 4992,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_rho0.85",
+          "b": "n1000_rho0.95",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_rho0.85",
+          "b": "n1000_rho0.97",
+          "shared_seeds": 4988,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_rho0.85",
+          "b": "n1000_rho0.99",
+          "shared_seeds": 4986,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_rho0.85",
+          "b": "n1000_rho1.00",
+          "shared_seeds": 4985,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_rho0.90",
+          "b": "n1000_rho0.93",
+          "shared_seeds": 4997,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_rho0.90",
+          "b": "n1000_rho0.95",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_rho0.90",
+          "b": "n1000_rho0.97",
+          "shared_seeds": 4993,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_rho0.90",
+          "b": "n1000_rho0.99",
+          "shared_seeds": 4991,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_rho0.90",
+          "b": "n1000_rho1.00",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_rho0.93",
+          "b": "n1000_rho0.95",
+          "shared_seeds": 4998,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_rho0.93",
+          "b": "n1000_rho0.97",
+          "shared_seeds": 4996,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_rho0.93",
+          "b": "n1000_rho0.99",
+          "shared_seeds": 4994,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_rho0.93",
+          "b": "n1000_rho1.00",
+          "shared_seeds": 4993,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_rho0.95",
+          "b": "n1000_rho0.97",
+          "shared_seeds": 4998,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_rho0.95",
+          "b": "n1000_rho0.99",
+          "shared_seeds": 4996,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_rho0.95",
+          "b": "n1000_rho1.00",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_rho0.97",
+          "b": "n1000_rho0.99",
+          "shared_seeds": 4998,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_rho0.97",
+          "b": "n1000_rho1.00",
+          "shared_seeds": 4997,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_rho0.99",
+          "b": "n1000_rho1.00",
+          "shared_seeds": 4999,
+          "same_seed_base": false
+        }
+      ]
+    },
+    "dgp2": {
+      "source": "power_comparison.py:452 (200000 + n*100 + int(delta*10))",
+      "n_sim": 5000,
+      "note": "reutilizada por extend_dgp23_dfgls.py y audit6_dgp2_break_tests.py",
+      "by_group": {
+        "n1000": {
+          "cells": [
+            "n1000_delta0.0",
+            "n1000_delta0.5",
+            "n1000_delta1.0",
+            "n1000_delta2.0",
+            "n1000_delta3.0",
+            "n1000_delta5.0"
+          ],
+          "seed_bases": [
+            300000,
+            300005,
+            300010,
+            300020,
+            300030,
+            300050
+          ],
+          "gaps": [
+            5,
+            5,
+            10,
+            10,
+            20
+          ],
+          "overlapping_draws_adjacent": [
+            4995,
+            4995,
+            4990,
+            4990,
+            4980
+          ]
+        },
+        "n200": {
+          "cells": [
+            "n200_delta0.0",
+            "n200_delta0.5",
+            "n200_delta1.0",
+            "n200_delta2.0",
+            "n200_delta3.0",
+            "n200_delta5.0"
+          ],
+          "seed_bases": [
+            220000,
+            220005,
+            220010,
+            220020,
+            220030,
+            220050
+          ],
+          "gaps": [
+            5,
+            5,
+            10,
+            10,
+            20
+          ],
+          "overlapping_draws_adjacent": [
+            4995,
+            4995,
+            4990,
+            4990,
+            4980
+          ]
+        },
+        "n500": {
+          "cells": [
+            "n500_delta0.0",
+            "n500_delta0.5",
+            "n500_delta1.0",
+            "n500_delta2.0",
+            "n500_delta3.0",
+            "n500_delta5.0"
+          ],
+          "seed_bases": [
+            250000,
+            250005,
+            250010,
+            250020,
+            250030,
+            250050
+          ],
+          "gaps": [
+            5,
+            5,
+            10,
+            10,
+            20
+          ],
+          "overlapping_draws_adjacent": [
+            4995,
+            4995,
+            4990,
+            4990,
+            4980
+          ]
+        }
+      },
+      "overlapping_pairs": 45,
+      "pairs_same_seed_base": 0,
+      "max_shared_seeds": 4995,
+      "pairs": [
+        {
+          "a": "n200_delta0.0",
+          "b": "n200_delta0.5",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_delta0.0",
+          "b": "n200_delta1.0",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_delta0.0",
+          "b": "n200_delta2.0",
+          "shared_seeds": 4980,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_delta0.0",
+          "b": "n200_delta3.0",
+          "shared_seeds": 4970,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_delta0.0",
+          "b": "n200_delta5.0",
+          "shared_seeds": 4950,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_delta0.5",
+          "b": "n200_delta1.0",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_delta0.5",
+          "b": "n200_delta2.0",
+          "shared_seeds": 4985,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_delta0.5",
+          "b": "n200_delta3.0",
+          "shared_seeds": 4975,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_delta0.5",
+          "b": "n200_delta5.0",
+          "shared_seeds": 4955,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_delta1.0",
+          "b": "n200_delta2.0",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_delta1.0",
+          "b": "n200_delta3.0",
+          "shared_seeds": 4980,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_delta1.0",
+          "b": "n200_delta5.0",
+          "shared_seeds": 4960,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_delta2.0",
+          "b": "n200_delta3.0",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_delta2.0",
+          "b": "n200_delta5.0",
+          "shared_seeds": 4970,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_delta3.0",
+          "b": "n200_delta5.0",
+          "shared_seeds": 4980,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_delta0.0",
+          "b": "n500_delta0.5",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_delta0.0",
+          "b": "n500_delta1.0",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_delta0.0",
+          "b": "n500_delta2.0",
+          "shared_seeds": 4980,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_delta0.0",
+          "b": "n500_delta3.0",
+          "shared_seeds": 4970,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_delta0.0",
+          "b": "n500_delta5.0",
+          "shared_seeds": 4950,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_delta0.5",
+          "b": "n500_delta1.0",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_delta0.5",
+          "b": "n500_delta2.0",
+          "shared_seeds": 4985,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_delta0.5",
+          "b": "n500_delta3.0",
+          "shared_seeds": 4975,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_delta0.5",
+          "b": "n500_delta5.0",
+          "shared_seeds": 4955,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_delta1.0",
+          "b": "n500_delta2.0",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_delta1.0",
+          "b": "n500_delta3.0",
+          "shared_seeds": 4980,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_delta1.0",
+          "b": "n500_delta5.0",
+          "shared_seeds": 4960,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_delta2.0",
+          "b": "n500_delta3.0",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_delta2.0",
+          "b": "n500_delta5.0",
+          "shared_seeds": 4970,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_delta3.0",
+          "b": "n500_delta5.0",
+          "shared_seeds": 4980,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_delta0.0",
+          "b": "n1000_delta0.5",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_delta0.0",
+          "b": "n1000_delta1.0",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_delta0.0",
+          "b": "n1000_delta2.0",
+          "shared_seeds": 4980,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_delta0.0",
+          "b": "n1000_delta3.0",
+          "shared_seeds": 4970,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_delta0.0",
+          "b": "n1000_delta5.0",
+          "shared_seeds": 4950,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_delta0.5",
+          "b": "n1000_delta1.0",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_delta0.5",
+          "b": "n1000_delta2.0",
+          "shared_seeds": 4985,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_delta0.5",
+          "b": "n1000_delta3.0",
+          "shared_seeds": 4975,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_delta0.5",
+          "b": "n1000_delta5.0",
+          "shared_seeds": 4955,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_delta1.0",
+          "b": "n1000_delta2.0",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_delta1.0",
+          "b": "n1000_delta3.0",
+          "shared_seeds": 4980,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_delta1.0",
+          "b": "n1000_delta5.0",
+          "shared_seeds": 4960,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_delta2.0",
+          "b": "n1000_delta3.0",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_delta2.0",
+          "b": "n1000_delta5.0",
+          "shared_seeds": 4970,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_delta3.0",
+          "b": "n1000_delta5.0",
+          "shared_seeds": 4980,
+          "same_seed_base": false
+        }
+      ]
+    },
+    "dgp3": {
+      "source": "power_comparison.py:496 (300000 + n*100 + int(ratio*10))",
+      "n_sim": 5000,
+      "note": "reutilizada por extend_dgp23_dfgls.py, audit5b (piloto alpha1) y el bootstrap de A6 (primeras 2000)",
+      "by_group": {
+        "n1000": {
+          "cells": [
+            "n1000_r1.0",
+            "n1000_r1.5",
+            "n1000_r2.0",
+            "n1000_r2.5",
+            "n1000_r3.0",
+            "n1000_r4.0"
+          ],
+          "seed_bases": [
+            400010,
+            400015,
+            400020,
+            400025,
+            400030,
+            400040
+          ],
+          "gaps": [
+            5,
+            5,
+            5,
+            5,
+            10
+          ],
+          "overlapping_draws_adjacent": [
+            4995,
+            4995,
+            4995,
+            4995,
+            4990
+          ]
+        },
+        "n200": {
+          "cells": [
+            "n200_r1.0",
+            "n200_r1.5",
+            "n200_r2.0",
+            "n200_r2.5",
+            "n200_r3.0",
+            "n200_r4.0"
+          ],
+          "seed_bases": [
+            320010,
+            320015,
+            320020,
+            320025,
+            320030,
+            320040
+          ],
+          "gaps": [
+            5,
+            5,
+            5,
+            5,
+            10
+          ],
+          "overlapping_draws_adjacent": [
+            4995,
+            4995,
+            4995,
+            4995,
+            4990
+          ]
+        },
+        "n500": {
+          "cells": [
+            "n500_r1.0",
+            "n500_r1.5",
+            "n500_r2.0",
+            "n500_r2.5",
+            "n500_r3.0",
+            "n500_r4.0"
+          ],
+          "seed_bases": [
+            350010,
+            350015,
+            350020,
+            350025,
+            350030,
+            350040
+          ],
+          "gaps": [
+            5,
+            5,
+            5,
+            5,
+            10
+          ],
+          "overlapping_draws_adjacent": [
+            4995,
+            4995,
+            4995,
+            4995,
+            4990
+          ]
+        }
+      },
+      "overlapping_pairs": 45,
+      "pairs_same_seed_base": 0,
+      "max_shared_seeds": 4995,
+      "pairs": [
+        {
+          "a": "n200_r1.0",
+          "b": "n200_r1.5",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_r1.0",
+          "b": "n200_r2.0",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_r1.0",
+          "b": "n200_r2.5",
+          "shared_seeds": 4985,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_r1.0",
+          "b": "n200_r3.0",
+          "shared_seeds": 4980,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_r1.0",
+          "b": "n200_r4.0",
+          "shared_seeds": 4970,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_r1.5",
+          "b": "n200_r2.0",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_r1.5",
+          "b": "n200_r2.5",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_r1.5",
+          "b": "n200_r3.0",
+          "shared_seeds": 4985,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_r1.5",
+          "b": "n200_r4.0",
+          "shared_seeds": 4975,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_r2.0",
+          "b": "n200_r2.5",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_r2.0",
+          "b": "n200_r3.0",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_r2.0",
+          "b": "n200_r4.0",
+          "shared_seeds": 4980,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_r2.5",
+          "b": "n200_r3.0",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_r2.5",
+          "b": "n200_r4.0",
+          "shared_seeds": 4985,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_r3.0",
+          "b": "n200_r4.0",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_r1.0",
+          "b": "n500_r1.5",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_r1.0",
+          "b": "n500_r2.0",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_r1.0",
+          "b": "n500_r2.5",
+          "shared_seeds": 4985,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_r1.0",
+          "b": "n500_r3.0",
+          "shared_seeds": 4980,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_r1.0",
+          "b": "n500_r4.0",
+          "shared_seeds": 4970,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_r1.5",
+          "b": "n500_r2.0",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_r1.5",
+          "b": "n500_r2.5",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_r1.5",
+          "b": "n500_r3.0",
+          "shared_seeds": 4985,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_r1.5",
+          "b": "n500_r4.0",
+          "shared_seeds": 4975,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_r2.0",
+          "b": "n500_r2.5",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_r2.0",
+          "b": "n500_r3.0",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_r2.0",
+          "b": "n500_r4.0",
+          "shared_seeds": 4980,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_r2.5",
+          "b": "n500_r3.0",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_r2.5",
+          "b": "n500_r4.0",
+          "shared_seeds": 4985,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_r3.0",
+          "b": "n500_r4.0",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_r1.0",
+          "b": "n1000_r1.5",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_r1.0",
+          "b": "n1000_r2.0",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_r1.0",
+          "b": "n1000_r2.5",
+          "shared_seeds": 4985,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_r1.0",
+          "b": "n1000_r3.0",
+          "shared_seeds": 4980,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_r1.0",
+          "b": "n1000_r4.0",
+          "shared_seeds": 4970,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_r1.5",
+          "b": "n1000_r2.0",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_r1.5",
+          "b": "n1000_r2.5",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_r1.5",
+          "b": "n1000_r3.0",
+          "shared_seeds": 4985,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_r1.5",
+          "b": "n1000_r4.0",
+          "shared_seeds": 4975,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_r2.0",
+          "b": "n1000_r2.5",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_r2.0",
+          "b": "n1000_r3.0",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_r2.0",
+          "b": "n1000_r4.0",
+          "shared_seeds": 4980,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_r2.5",
+          "b": "n1000_r3.0",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_r2.5",
+          "b": "n1000_r4.0",
+          "shared_seeds": 4985,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_r3.0",
+          "b": "n1000_r4.0",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        }
+      ]
+    },
+    "dgp4": {
+      "source": "power_comparison.py:548 (400000 + n*100 + int(ratio*10))",
+      "n_sim": 5000,
+      "note": "",
+      "by_group": {
+        "n1000": {
+          "cells": [
+            "n1000_r1.0",
+            "n1000_r1.5",
+            "n1000_r2.0",
+            "n1000_r2.5",
+            "n1000_r3.0",
+            "n1000_r4.0"
+          ],
+          "seed_bases": [
+            500010,
+            500015,
+            500020,
+            500025,
+            500030,
+            500040
+          ],
+          "gaps": [
+            5,
+            5,
+            5,
+            5,
+            10
+          ],
+          "overlapping_draws_adjacent": [
+            4995,
+            4995,
+            4995,
+            4995,
+            4990
+          ]
+        },
+        "n200": {
+          "cells": [
+            "n200_r1.0",
+            "n200_r1.5",
+            "n200_r2.0",
+            "n200_r2.5",
+            "n200_r3.0",
+            "n200_r4.0"
+          ],
+          "seed_bases": [
+            420010,
+            420015,
+            420020,
+            420025,
+            420030,
+            420040
+          ],
+          "gaps": [
+            5,
+            5,
+            5,
+            5,
+            10
+          ],
+          "overlapping_draws_adjacent": [
+            4995,
+            4995,
+            4995,
+            4995,
+            4990
+          ]
+        },
+        "n500": {
+          "cells": [
+            "n500_r1.0",
+            "n500_r1.5",
+            "n500_r2.0",
+            "n500_r2.5",
+            "n500_r3.0",
+            "n500_r4.0"
+          ],
+          "seed_bases": [
+            450010,
+            450015,
+            450020,
+            450025,
+            450030,
+            450040
+          ],
+          "gaps": [
+            5,
+            5,
+            5,
+            5,
+            10
+          ],
+          "overlapping_draws_adjacent": [
+            4995,
+            4995,
+            4995,
+            4995,
+            4990
+          ]
+        }
+      },
+      "overlapping_pairs": 45,
+      "pairs_same_seed_base": 0,
+      "max_shared_seeds": 4995,
+      "pairs": [
+        {
+          "a": "n200_r1.0",
+          "b": "n200_r1.5",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_r1.0",
+          "b": "n200_r2.0",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_r1.0",
+          "b": "n200_r2.5",
+          "shared_seeds": 4985,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_r1.0",
+          "b": "n200_r3.0",
+          "shared_seeds": 4980,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_r1.0",
+          "b": "n200_r4.0",
+          "shared_seeds": 4970,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_r1.5",
+          "b": "n200_r2.0",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_r1.5",
+          "b": "n200_r2.5",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_r1.5",
+          "b": "n200_r3.0",
+          "shared_seeds": 4985,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_r1.5",
+          "b": "n200_r4.0",
+          "shared_seeds": 4975,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_r2.0",
+          "b": "n200_r2.5",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_r2.0",
+          "b": "n200_r3.0",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_r2.0",
+          "b": "n200_r4.0",
+          "shared_seeds": 4980,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_r2.5",
+          "b": "n200_r3.0",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_r2.5",
+          "b": "n200_r4.0",
+          "shared_seeds": 4985,
+          "same_seed_base": false
+        },
+        {
+          "a": "n200_r3.0",
+          "b": "n200_r4.0",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_r1.0",
+          "b": "n500_r1.5",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_r1.0",
+          "b": "n500_r2.0",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_r1.0",
+          "b": "n500_r2.5",
+          "shared_seeds": 4985,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_r1.0",
+          "b": "n500_r3.0",
+          "shared_seeds": 4980,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_r1.0",
+          "b": "n500_r4.0",
+          "shared_seeds": 4970,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_r1.5",
+          "b": "n500_r2.0",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_r1.5",
+          "b": "n500_r2.5",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_r1.5",
+          "b": "n500_r3.0",
+          "shared_seeds": 4985,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_r1.5",
+          "b": "n500_r4.0",
+          "shared_seeds": 4975,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_r2.0",
+          "b": "n500_r2.5",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_r2.0",
+          "b": "n500_r3.0",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_r2.0",
+          "b": "n500_r4.0",
+          "shared_seeds": 4980,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_r2.5",
+          "b": "n500_r3.0",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_r2.5",
+          "b": "n500_r4.0",
+          "shared_seeds": 4985,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_r3.0",
+          "b": "n500_r4.0",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_r1.0",
+          "b": "n1000_r1.5",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_r1.0",
+          "b": "n1000_r2.0",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_r1.0",
+          "b": "n1000_r2.5",
+          "shared_seeds": 4985,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_r1.0",
+          "b": "n1000_r3.0",
+          "shared_seeds": 4980,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_r1.0",
+          "b": "n1000_r4.0",
+          "shared_seeds": 4970,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_r1.5",
+          "b": "n1000_r2.0",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_r1.5",
+          "b": "n1000_r2.5",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_r1.5",
+          "b": "n1000_r3.0",
+          "shared_seeds": 4985,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_r1.5",
+          "b": "n1000_r4.0",
+          "shared_seeds": 4975,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_r2.0",
+          "b": "n1000_r2.5",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_r2.0",
+          "b": "n1000_r3.0",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_r2.0",
+          "b": "n1000_r4.0",
+          "shared_seeds": 4980,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_r2.5",
+          "b": "n1000_r3.0",
+          "shared_seeds": 4995,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_r2.5",
+          "b": "n1000_r4.0",
+          "shared_seeds": 4985,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_r3.0",
+          "b": "n1000_r4.0",
+          "shared_seeds": 4990,
+          "same_seed_base": false
+        }
+      ]
+    },
+    "colas_pesadas": {
+      "source": "size_robustness_heavy_tails.py:162 / audit5b_tarea_r3.py:96 (900000 + n*100 + df*10)",
+      "n_sim": 5000,
+      "note": "",
+      "by_group": {
+        "n1000": {
+          "cells": [
+            "n1000_t3",
+            "n1000_t5"
+          ],
+          "seed_bases": [
+            1000030,
+            1000050
+          ],
+          "gaps": [
+            20
+          ],
+          "overlapping_draws_adjacent": [
+            4980
+          ]
+        },
+        "n200": {
+          "cells": [
+            "n200_t3",
+            "n200_t5"
+          ],
+          "seed_bases": [
+            920030,
+            920050
+          ],
+          "gaps": [
+            20
+          ],
+          "overlapping_draws_adjacent": [
+            4980
+          ]
+        },
+        "n500": {
+          "cells": [
+            "n500_t3",
+            "n500_t5"
+          ],
+          "seed_bases": [
+            950030,
+            950050
+          ],
+          "gaps": [
+            20
+          ],
+          "overlapping_draws_adjacent": [
+            4980
+          ]
+        }
+      },
+      "overlapping_pairs": 3,
+      "pairs_same_seed_base": 0,
+      "max_shared_seeds": 4980,
+      "pairs": [
+        {
+          "a": "n200_t3",
+          "b": "n200_t5",
+          "shared_seeds": 4980,
+          "same_seed_base": false
+        },
+        {
+          "a": "n500_t3",
+          "b": "n500_t5",
+          "shared_seeds": 4980,
+          "same_seed_base": false
+        },
+        {
+          "a": "n1000_t3",
+          "b": "n1000_t5",
+          "shared_seeds": 4980,
+          "same_seed_base": false
+        }
+      ]
+    },
+    "a6_control_tamano_rw": {
+      "source": "audit6_dgp2_break_tests.py:389 (100000 + n*100)",
+      "n_sim": 5000,
+      "note": "",
+      "by_group": {
+        "n1000": {
+          "cells": [
+            "n1000"
+          ],
+          "seed_bases": [
+            200000
+          ],
+          "gaps": [],
+          "overlapping_draws_adjacent": []
+        },
+        "n200": {
+          "cells": [
+            "n200"
+          ],
+          "seed_bases": [
+            120000
+          ],
+          "gaps": [],
+          "overlapping_draws_adjacent": []
+        },
+        "n500": {
+          "cells": [
+            "n500"
+          ],
+          "seed_bases": [
+            150000
+          ],
+          "gaps": [],
+          "overlapping_draws_adjacent": []
+        }
+      },
+      "overlapping_pairs": 0,
+      "pairs_same_seed_base": 0,
+      "max_shared_seeds": 0,
+      "pairs": []
+    },
+    "a6_control_tamano_rw_quiebre_media": {
+      "source": "audit6_dgp2_break_tests.py:423 (150000 + n*100)",
+      "n_sim": 5000,
+      "note": "",
+      "by_group": {
+        "n1000": {
+          "cells": [
+            "n1000"
+          ],
+          "seed_bases": [
+            250000
+          ],
+          "gaps": [],
+          "overlapping_draws_adjacent": []
+        },
+        "n200": {
+          "cells": [
+            "n200"
+          ],
+          "seed_bases": [
+            170000
+          ],
+          "gaps": [],
+          "overlapping_draws_adjacent": []
+        },
+        "n500": {
+          "cells": [
+            "n500"
+          ],
+          "seed_bases": [
+            200000
+          ],
+          "gaps": [],
+          "overlapping_draws_adjacent": []
+        }
+      },
+      "overlapping_pairs": 0,
+      "pairs_same_seed_base": 0,
+      "max_shared_seeds": 0,
+      "pairs": []
+    },
+    "a5_rebalanceo_T13": {
+      "source": "audit5_tarea5.py:40-44 / audit5b_tarea_r4.py:101-105",
+      "n_sim": 5000,
+      "note": "",
+      "by_group": {
+        "todas": {
+          "cells": [
+            "H0_n1000",
+            "H0_n200",
+            "H0_n500",
+            "DGP3_n1000_r4",
+            "DGP4_n500_r3"
+          ],
+          "seed_bases": [
+            70000,
+            70000,
+            70000,
+            80000,
+            90000
+          ],
+          "gaps": [
+            0,
+            0,
+            10000,
+            10000
+          ],
+          "overlapping_draws_adjacent": [
+            5000,
+            5000,
+            0,
+            0
+          ]
+        }
+      },
+      "overlapping_pairs": 3,
+      "pairs_same_seed_base": 3,
+      "max_shared_seeds": 5000,
+      "pairs": [
+        {
+          "a": "H0_n200",
+          "b": "H0_n500",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "H0_n200",
+          "b": "H0_n1000",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "H0_n500",
+          "b": "H0_n1000",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        }
+      ]
+    },
+    "a5_adaptativo_T14": {
+      "source": "audit5b_tarea_r4.py:249-256, bucle en :285",
+      "n_sim": 5000,
+      "note": "",
+      "by_group": {
+        "todas": {
+          "cells": [
+            "H0_n1000",
+            "H0_n200",
+            "H0_n500",
+            "DGP1_rho095_n200",
+            "DGP1_rho097_n500",
+            "DGP1_rho099_n1000",
+            "DGP3_r4_n1000",
+            "DGP4_r3_n500"
+          ],
+          "seed_bases": [
+            100000,
+            100000,
+            100000,
+            200000,
+            200000,
+            200000,
+            300000,
+            400000
+          ],
+          "gaps": [
+            0,
+            0,
+            100000,
+            0,
+            0,
+            100000,
+            100000
+          ],
+          "overlapping_draws_adjacent": [
+            5000,
+            5000,
+            0,
+            5000,
+            5000,
+            0,
+            0
+          ]
+        }
+      },
+      "overlapping_pairs": 6,
+      "pairs_same_seed_base": 6,
+      "max_shared_seeds": 5000,
+      "pairs": [
+        {
+          "a": "H0_n200",
+          "b": "H0_n500",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "H0_n200",
+          "b": "H0_n1000",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "H0_n500",
+          "b": "H0_n1000",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "DGP1_rho095_n200",
+          "b": "DGP1_rho097_n500",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "DGP1_rho095_n200",
+          "b": "DGP1_rho099_n1000",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "DGP1_rho097_n500",
+          "b": "DGP1_rho099_n1000",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        }
+      ]
+    },
+    "a5_muestra_pequena": {
+      "source": "audit5_tarea3.py:58 (N_sim) y :105 (0 + i)",
+      "n_sim": 5000,
+      "note": "la misma base que la Tabla 1 de tamano",
+      "by_group": {
+        "n100": {
+          "cells": [
+            "n100_theta0.1",
+            "n100_theta0.3",
+            "n100_theta0.5"
+          ],
+          "seed_bases": [
+            0,
+            0,
+            0
+          ],
+          "gaps": [
+            0,
+            0
+          ],
+          "overlapping_draws_adjacent": [
+            5000,
+            5000
+          ]
+        },
+        "n150": {
+          "cells": [
+            "n150_theta0.1",
+            "n150_theta0.3",
+            "n150_theta0.5"
+          ],
+          "seed_bases": [
+            0,
+            0,
+            0
+          ],
+          "gaps": [
+            0,
+            0
+          ],
+          "overlapping_draws_adjacent": [
+            5000,
+            5000
+          ]
+        },
+        "n200": {
+          "cells": [
+            "n200_theta0.1",
+            "n200_theta0.3",
+            "n200_theta0.5"
+          ],
+          "seed_bases": [
+            0,
+            0,
+            0
+          ],
+          "gaps": [
+            0,
+            0
+          ],
+          "overlapping_draws_adjacent": [
+            5000,
+            5000
+          ]
+        },
+        "n60": {
+          "cells": [
+            "n60_theta0.1",
+            "n60_theta0.3",
+            "n60_theta0.5"
+          ],
+          "seed_bases": [
+            0,
+            0,
+            0
+          ],
+          "gaps": [
+            0,
+            0
+          ],
+          "overlapping_draws_adjacent": [
+            5000,
+            5000
+          ]
+        }
+      },
+      "overlapping_pairs": 66,
+      "pairs_same_seed_base": 66,
+      "max_shared_seeds": 5000,
+      "pairs": [
+        {
+          "a": "n60_theta0.1",
+          "b": "n100_theta0.1",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n60_theta0.1",
+          "b": "n150_theta0.1",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n60_theta0.1",
+          "b": "n200_theta0.1",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n60_theta0.1",
+          "b": "n60_theta0.3",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n60_theta0.1",
+          "b": "n100_theta0.3",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n60_theta0.1",
+          "b": "n150_theta0.3",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n60_theta0.1",
+          "b": "n200_theta0.3",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n60_theta0.1",
+          "b": "n60_theta0.5",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n60_theta0.1",
+          "b": "n100_theta0.5",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n60_theta0.1",
+          "b": "n150_theta0.5",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n60_theta0.1",
+          "b": "n200_theta0.5",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n100_theta0.1",
+          "b": "n150_theta0.1",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n100_theta0.1",
+          "b": "n200_theta0.1",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n100_theta0.1",
+          "b": "n60_theta0.3",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n100_theta0.1",
+          "b": "n100_theta0.3",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n100_theta0.1",
+          "b": "n150_theta0.3",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n100_theta0.1",
+          "b": "n200_theta0.3",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n100_theta0.1",
+          "b": "n60_theta0.5",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n100_theta0.1",
+          "b": "n100_theta0.5",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n100_theta0.1",
+          "b": "n150_theta0.5",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n100_theta0.1",
+          "b": "n200_theta0.5",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n150_theta0.1",
+          "b": "n200_theta0.1",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n150_theta0.1",
+          "b": "n60_theta0.3",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n150_theta0.1",
+          "b": "n100_theta0.3",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n150_theta0.1",
+          "b": "n150_theta0.3",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n150_theta0.1",
+          "b": "n200_theta0.3",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n150_theta0.1",
+          "b": "n60_theta0.5",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n150_theta0.1",
+          "b": "n100_theta0.5",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n150_theta0.1",
+          "b": "n150_theta0.5",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n150_theta0.1",
+          "b": "n200_theta0.5",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n200_theta0.1",
+          "b": "n60_theta0.3",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n200_theta0.1",
+          "b": "n100_theta0.3",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n200_theta0.1",
+          "b": "n150_theta0.3",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n200_theta0.1",
+          "b": "n200_theta0.3",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n200_theta0.1",
+          "b": "n60_theta0.5",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n200_theta0.1",
+          "b": "n100_theta0.5",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n200_theta0.1",
+          "b": "n150_theta0.5",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n200_theta0.1",
+          "b": "n200_theta0.5",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n60_theta0.3",
+          "b": "n100_theta0.3",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n60_theta0.3",
+          "b": "n150_theta0.3",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n60_theta0.3",
+          "b": "n200_theta0.3",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n60_theta0.3",
+          "b": "n60_theta0.5",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n60_theta0.3",
+          "b": "n100_theta0.5",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n60_theta0.3",
+          "b": "n150_theta0.5",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n60_theta0.3",
+          "b": "n200_theta0.5",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n100_theta0.3",
+          "b": "n150_theta0.3",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n100_theta0.3",
+          "b": "n200_theta0.3",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n100_theta0.3",
+          "b": "n60_theta0.5",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n100_theta0.3",
+          "b": "n100_theta0.5",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n100_theta0.3",
+          "b": "n150_theta0.5",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n100_theta0.3",
+          "b": "n200_theta0.5",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n150_theta0.3",
+          "b": "n200_theta0.3",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n150_theta0.3",
+          "b": "n60_theta0.5",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n150_theta0.3",
+          "b": "n100_theta0.5",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n150_theta0.3",
+          "b": "n150_theta0.5",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n150_theta0.3",
+          "b": "n200_theta0.5",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n200_theta0.3",
+          "b": "n60_theta0.5",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n200_theta0.3",
+          "b": "n100_theta0.5",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n200_theta0.3",
+          "b": "n150_theta0.5",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n200_theta0.3",
+          "b": "n200_theta0.5",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n60_theta0.5",
+          "b": "n100_theta0.5",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n60_theta0.5",
+          "b": "n150_theta0.5",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n60_theta0.5",
+          "b": "n200_theta0.5",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n100_theta0.5",
+          "b": "n150_theta0.5",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n100_theta0.5",
+          "b": "n200_theta0.5",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        },
+        {
+          "a": "n150_theta0.5",
+          "b": "n200_theta0.5",
+          "shared_seeds": 5000,
+          "same_seed_base": true
+        }
+      ]
+    },
+    "a7_bloque1": {
+      "source": "audit7_design.py (familias 60 y 70)",
+      "n_sim": 5000,
+      "note": "N del bloque = N_cal (5000); DGP 5 usa 2000",
+      "by_group": {
+        "todas": {
+          "cells": [
+            "dgp5_n200_rho0.90_r1.0",
+            "dgp5_n200_rho0.90_r2.0",
+            "dgp5_n200_rho0.90_r3.0",
+            "dgp5_n200_rho0.90_r4.0",
+            "dgp5_n200_rho0.93_r1.0",
+            "dgp5_n200_rho0.93_r2.0",
+            "dgp5_n200_rho0.93_r3.0",
+            "dgp5_n200_rho0.93_r4.0",
+            "dgp5_n200_rho0.95_r1.0",
+            "dgp5_n200_rho0.95_r2.0",
+            "dgp5_n200_rho0.95_r3.0",
+            "dgp5_n200_rho0.95_r4.0",
+            "dgp5_n500_rho0.90_r1.0",
+            "dgp5_n500_rho0.90_r2.0",
+            "dgp5_n500_rho0.90_r3.0",
+            "dgp5_n500_rho0.90_r4.0",
+            "dgp5_n500_rho0.93_r1.0",
+            "dgp5_n500_rho0.93_r2.0",
+            "dgp5_n500_rho0.93_r3.0",
+            "dgp5_n500_rho0.93_r4.0",
+            "dgp5_n500_rho0.95_r1.0",
+            "dgp5_n500_rho0.95_r2.0",
+            "dgp5_n500_rho0.95_r3.0",
+            "dgp5_n500_rho0.95_r4.0",
+            "dgp5_n1000_rho0.93_r2.0",
+            "dgp5_n1000_rho0.93_r3.0",
+            "dgp5_n1000_rho0.95_r3.0",
+            "dgp5_n200_rho0.90_r1.1",
+            "dgp5_n200_rho0.90_r1.25",
+            "dgp5_n200_rho0.90_r1.5",
+            "dgp5_n200_rho0.93_r1.1",
+            "dgp5_n200_rho0.93_r1.25",
+            "dgp5_n200_rho0.93_r1.5",
+            "dgp5_n200_rho0.95_r1.1",
+            "dgp5_n200_rho0.95_r1.25",
+            "dgp5_n200_rho0.95_r1.5",
+            "dgp5_n500_rho0.90_r1.1",
+            "dgp5_n500_rho0.90_r1.25",
+            "dgp5_n500_rho0.90_r1.5",
+            "dgp5_n500_rho0.93_r1.1",
+            "dgp5_n500_rho0.93_r1.25",
+            "dgp5_n500_rho0.93_r1.5",
+            "dgp5_n500_rho0.95_r1.1",
+            "dgp5_n500_rho0.95_r1.25",
+            "dgp5_n500_rho0.95_r1.5",
+            "cal_rw_n200",
+            "cal_rw_n500",
+            "cal_rw_n1000"
+          ],
+          "seed_bases": [
+            6000000000,
+            6000100000,
+            6000200000,
+            6000300000,
+            6000400000,
+            6000500000,
+            6000600000,
+            6000700000,
+            6000800000,
+            6000900000,
+            6001000000,
+            6001100000,
+            6001200000,
+            6001300000,
+            6001400000,
+            6001500000,
+            6001600000,
+            6001700000,
+            6001800000,
+            6001900000,
+            6002000000,
+            6002100000,
+            6002200000,
+            6002300000,
+            6002400000,
+            6002500000,
+            6002600000,
+            6002700000,
+            6002800000,
+            6002900000,
+            6003000000,
+            6003100000,
+            6003200000,
+            6003300000,
+            6003400000,
+            6003500000,
+            6003600000,
+            6003700000,
+            6003800000,
+            6003900000,
+            6004000000,
+            6004100000,
+            6004200000,
+            6004300000,
+            6004400000,
+            7000000000,
+            7000100000,
+            7000200000
+          ],
+          "gaps": [
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            995600000,
+            100000,
+            100000
+          ],
+          "overlapping_draws_adjacent": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "overlapping_pairs": 0,
+      "pairs_same_seed_base": 0,
+      "max_shared_seeds": 0,
+      "pairs": []
+    },
+    "a7_caso_ct": {
+      "source": "audit7_ct_design.py (familias 71-76)",
+      "n_sim": 50000,
+      "note": "N del bloque = N_cal de la nula HAC (50000); celdas de 5000",
+      "by_group": {
+        "todas": {
+          "cells": [
+            "ctsize_n200_allmu",
+            "ctsize_n500_allmu",
+            "ctsize_n1000_allmu",
+            "ctdgp1_n200_rho0.90",
+            "ctdgp1_n200_rho0.93",
+            "ctdgp1_n200_rho0.95",
+            "ctdgp1_n200_rho0.97",
+            "ctdgp1_n200_rho0.99",
+            "ctdgp1_n500_rho0.90",
+            "ctdgp1_n500_rho0.93",
+            "ctdgp1_n500_rho0.95",
+            "ctdgp1_n500_rho0.97",
+            "ctdgp1_n500_rho0.99",
+            "ctdgp1_n1000_rho0.90",
+            "ctdgp1_n1000_rho0.93",
+            "ctdgp1_n1000_rho0.95",
+            "ctdgp1_n1000_rho0.97",
+            "ctdgp1_n1000_rho0.99",
+            "ctdgp3_n200_r1.0",
+            "ctdgp3_n200_r2.0",
+            "ctdgp3_n200_r3.0",
+            "ctdgp3_n200_r4.0",
+            "ctdgp3_n1000_r1.0",
+            "ctdgp3_n1000_r2.0",
+            "ctdgp3_n1000_r3.0",
+            "ctdgp3_n1000_r4.0",
+            "ctnull_hac_n200_qd",
+            "ctnull_hac_n200_ols",
+            "ctnull_hac_n500_qd",
+            "ctnull_hac_n500_ols",
+            "ctnull_hac_n1000_qd",
+            "ctnull_hac_n1000_ols",
+            "ctnull_pkg_n200_qd",
+            "ctnull_pkg_n200_ols",
+            "ctnull_pkg_n500_qd",
+            "ctnull_pkg_n500_ols",
+            "ctnull_pkg_n1000_qd",
+            "ctnull_pkg_n1000_ols",
+            "ct_verify"
+          ],
+          "seed_bases": [
+            7100000000,
+            7100100000,
+            7100200000,
+            7200000000,
+            7200100000,
+            7200200000,
+            7200300000,
+            7200400000,
+            7200500000,
+            7200600000,
+            7200700000,
+            7200800000,
+            7200900000,
+            7201000000,
+            7201100000,
+            7201200000,
+            7201300000,
+            7201400000,
+            7300000000,
+            7300100000,
+            7300200000,
+            7300300000,
+            7300400000,
+            7300500000,
+            7300600000,
+            7300700000,
+            7400000000,
+            7400100000,
+            7400200000,
+            7400300000,
+            7400400000,
+            7400500000,
+            7500000000,
+            7500100000,
+            7500200000,
+            7500300000,
+            7500400000,
+            7500500000,
+            7600000000
+          ],
+          "gaps": [
+            100000,
+            100000,
+            99800000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            98600000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            99300000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            99500000,
+            100000,
+            100000,
+            100000,
+            100000,
+            100000,
+            99500000
+          ],
+          "overlapping_draws_adjacent": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "overlapping_pairs": 0,
+      "pairs_same_seed_base": 0,
+      "max_shared_seeds": 0,
+      "pairs": []
+    },
+    "a7_garch": {
+      "source": "audit7_garch_size.py (familia 80)",
+      "n_sim": 5000,
+      "note": "",
+      "by_group": {
+        "n1000": {
+          "cells": [
+            "n1000"
+          ],
+          "seed_bases": [
+            8000200000
+          ],
+          "gaps": [],
+          "overlapping_draws_adjacent": []
+        },
+        "n200": {
+          "cells": [
+            "n200"
+          ],
+          "seed_bases": [
+            8000000000
+          ],
+          "gaps": [],
+          "overlapping_draws_adjacent": []
+        },
+        "n500": {
+          "cells": [
+            "n500"
+          ],
+          "seed_bases": [
+            8000100000
+          ],
+          "gaps": [],
+          "overlapping_draws_adjacent": []
+        }
+      },
+      "overlapping_pairs": 0,
+      "pairs_same_seed_base": 0,
+      "max_shared_seeds": 0,
+      "pairs": []
+    },
+    "a7_garch_ext": {
+      "source": "audit7_garch_size.py --set ext (familia 81)",
+      "n_sim": 5000,
+      "note": "",
+      "by_group": {
+        "n1000": {
+          "cells": [
+            "n1000_p099",
+            "n1000_p098",
+            "n1000_p095_t5"
+          ],
+          "seed_bases": [
+            8100200000,
+            8100500000,
+            8100800000
+          ],
+          "gaps": [
+            300000,
+            300000
+          ],
+          "overlapping_draws_adjacent": [
+            0,
+            0
+          ]
+        },
+        "n200": {
+          "cells": [
+            "n200_p099",
+            "n200_p098",
+            "n200_p095_t5"
+          ],
+          "seed_bases": [
+            8100000000,
+            8100300000,
+            8100600000
+          ],
+          "gaps": [
+            300000,
+            300000
+          ],
+          "overlapping_draws_adjacent": [
+            0,
+            0
+          ]
+        },
+        "n500": {
+          "cells": [
+            "n500_p099",
+            "n500_p098",
+            "n500_p095_t5"
+          ],
+          "seed_bases": [
+            8100100000,
+            8100400000,
+            8100700000
+          ],
+          "gaps": [
+            300000,
+            300000
+          ],
+          "overlapping_draws_adjacent": [
+            0,
+            0
+          ]
+        }
+      },
+      "overlapping_pairs": 0,
+      "pairs_same_seed_base": 0,
+      "max_shared_seeds": 0,
+      "pairs": []
+    },
+    "a7_garch_ext_large": {
+      "source": "audit7_garch_size.py --set ext_large (familia 82)",
+      "n_sim": 5000,
+      "note": "",
+      "by_group": {
+        "n2000": {
+          "cells": [
+            "n2000_p099",
+            "n2000_p095_t5"
+          ],
+          "seed_bases": [
+            8200000000,
+            8200200000
+          ],
+          "gaps": [
+            200000
+          ],
+          "overlapping_draws_adjacent": [
+            0
+          ]
+        },
+        "n5000": {
+          "cells": [
+            "n5000_p099",
+            "n5000_p095_t5"
+          ],
+          "seed_bases": [
+            8200100000,
+            8200300000
+          ],
+          "gaps": [
+            200000
+          ],
+          "overlapping_draws_adjacent": [
+            0
+          ]
+        }
+      },
+      "overlapping_pairs": 0,
+      "pairs_same_seed_base": 0,
+      "max_shared_seeds": 0,
+      "pairs": []
+    }
+  },
+  "within_family_overlapping_pairs_total": 303,
+  "cross_family_overlaps": [
+    {
+      "family_a": "tabla1_tamano_rw",
+      "cell_a": "n200",
+      "family_b": "a5_muestra_pequena",
+      "cell_b": "n60_theta0.1",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "tabla1_tamano_rw",
+      "cell_a": "n200",
+      "family_b": "a5_muestra_pequena",
+      "cell_b": "n100_theta0.1",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "tabla1_tamano_rw",
+      "cell_a": "n200",
+      "family_b": "a5_muestra_pequena",
+      "cell_b": "n150_theta0.1",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "tabla1_tamano_rw",
+      "cell_a": "n200",
+      "family_b": "a5_muestra_pequena",
+      "cell_b": "n200_theta0.1",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "tabla1_tamano_rw",
+      "cell_a": "n200",
+      "family_b": "a5_muestra_pequena",
+      "cell_b": "n60_theta0.3",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "tabla1_tamano_rw",
+      "cell_a": "n200",
+      "family_b": "a5_muestra_pequena",
+      "cell_b": "n100_theta0.3",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "tabla1_tamano_rw",
+      "cell_a": "n200",
+      "family_b": "a5_muestra_pequena",
+      "cell_b": "n150_theta0.3",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "tabla1_tamano_rw",
+      "cell_a": "n200",
+      "family_b": "a5_muestra_pequena",
+      "cell_b": "n200_theta0.3",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "tabla1_tamano_rw",
+      "cell_a": "n200",
+      "family_b": "a5_muestra_pequena",
+      "cell_b": "n60_theta0.5",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "tabla1_tamano_rw",
+      "cell_a": "n200",
+      "family_b": "a5_muestra_pequena",
+      "cell_b": "n100_theta0.5",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "tabla1_tamano_rw",
+      "cell_a": "n200",
+      "family_b": "a5_muestra_pequena",
+      "cell_b": "n150_theta0.5",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "tabla1_tamano_rw",
+      "cell_a": "n200",
+      "family_b": "a5_muestra_pequena",
+      "cell_b": "n200_theta0.5",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "tabla1_tamano_rw",
+      "cell_a": "n500",
+      "family_b": "a5_muestra_pequena",
+      "cell_b": "n60_theta0.1",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "tabla1_tamano_rw",
+      "cell_a": "n500",
+      "family_b": "a5_muestra_pequena",
+      "cell_b": "n100_theta0.1",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "tabla1_tamano_rw",
+      "cell_a": "n500",
+      "family_b": "a5_muestra_pequena",
+      "cell_b": "n150_theta0.1",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "tabla1_tamano_rw",
+      "cell_a": "n500",
+      "family_b": "a5_muestra_pequena",
+      "cell_b": "n200_theta0.1",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "tabla1_tamano_rw",
+      "cell_a": "n500",
+      "family_b": "a5_muestra_pequena",
+      "cell_b": "n60_theta0.3",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "tabla1_tamano_rw",
+      "cell_a": "n500",
+      "family_b": "a5_muestra_pequena",
+      "cell_b": "n100_theta0.3",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "tabla1_tamano_rw",
+      "cell_a": "n500",
+      "family_b": "a5_muestra_pequena",
+      "cell_b": "n150_theta0.3",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "tabla1_tamano_rw",
+      "cell_a": "n500",
+      "family_b": "a5_muestra_pequena",
+      "cell_b": "n200_theta0.3",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "tabla1_tamano_rw",
+      "cell_a": "n500",
+      "family_b": "a5_muestra_pequena",
+      "cell_b": "n60_theta0.5",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "tabla1_tamano_rw",
+      "cell_a": "n500",
+      "family_b": "a5_muestra_pequena",
+      "cell_b": "n100_theta0.5",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "tabla1_tamano_rw",
+      "cell_a": "n500",
+      "family_b": "a5_muestra_pequena",
+      "cell_b": "n150_theta0.5",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "tabla1_tamano_rw",
+      "cell_a": "n500",
+      "family_b": "a5_muestra_pequena",
+      "cell_b": "n200_theta0.5",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "tabla1_tamano_rw",
+      "cell_a": "n1000",
+      "family_b": "a5_muestra_pequena",
+      "cell_b": "n60_theta0.1",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "tabla1_tamano_rw",
+      "cell_a": "n1000",
+      "family_b": "a5_muestra_pequena",
+      "cell_b": "n100_theta0.1",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "tabla1_tamano_rw",
+      "cell_a": "n1000",
+      "family_b": "a5_muestra_pequena",
+      "cell_b": "n150_theta0.1",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "tabla1_tamano_rw",
+      "cell_a": "n1000",
+      "family_b": "a5_muestra_pequena",
+      "cell_b": "n200_theta0.1",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "tabla1_tamano_rw",
+      "cell_a": "n1000",
+      "family_b": "a5_muestra_pequena",
+      "cell_b": "n60_theta0.3",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "tabla1_tamano_rw",
+      "cell_a": "n1000",
+      "family_b": "a5_muestra_pequena",
+      "cell_b": "n100_theta0.3",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "tabla1_tamano_rw",
+      "cell_a": "n1000",
+      "family_b": "a5_muestra_pequena",
+      "cell_b": "n150_theta0.3",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "tabla1_tamano_rw",
+      "cell_a": "n1000",
+      "family_b": "a5_muestra_pequena",
+      "cell_b": "n200_theta0.3",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "tabla1_tamano_rw",
+      "cell_a": "n1000",
+      "family_b": "a5_muestra_pequena",
+      "cell_b": "n60_theta0.5",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "tabla1_tamano_rw",
+      "cell_a": "n1000",
+      "family_b": "a5_muestra_pequena",
+      "cell_b": "n100_theta0.5",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "tabla1_tamano_rw",
+      "cell_a": "n1000",
+      "family_b": "a5_muestra_pequena",
+      "cell_b": "n150_theta0.5",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "tabla1_tamano_rw",
+      "cell_a": "n1000",
+      "family_b": "a5_muestra_pequena",
+      "cell_b": "n200_theta0.5",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n200_rho0.80",
+      "family_b": "a6_control_tamano_rw",
+      "cell_b": "n200",
+      "shared_seeds": 4920
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n200_rho0.85",
+      "family_b": "a6_control_tamano_rw",
+      "cell_b": "n200",
+      "shared_seeds": 4915
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n200_rho0.90",
+      "family_b": "a6_control_tamano_rw",
+      "cell_b": "n200",
+      "shared_seeds": 4910
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n200_rho0.93",
+      "family_b": "a6_control_tamano_rw",
+      "cell_b": "n200",
+      "shared_seeds": 4907
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n200_rho0.95",
+      "family_b": "a6_control_tamano_rw",
+      "cell_b": "n200",
+      "shared_seeds": 4905
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n200_rho0.97",
+      "family_b": "a6_control_tamano_rw",
+      "cell_b": "n200",
+      "shared_seeds": 4903
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n200_rho0.99",
+      "family_b": "a6_control_tamano_rw",
+      "cell_b": "n200",
+      "shared_seeds": 4901
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n200_rho1.00",
+      "family_b": "a6_control_tamano_rw",
+      "cell_b": "n200",
+      "shared_seeds": 4900
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n500_rho0.80",
+      "family_b": "a6_control_tamano_rw",
+      "cell_b": "n500",
+      "shared_seeds": 4920
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n500_rho0.85",
+      "family_b": "a6_control_tamano_rw",
+      "cell_b": "n500",
+      "shared_seeds": 4915
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n500_rho0.90",
+      "family_b": "a6_control_tamano_rw",
+      "cell_b": "n500",
+      "shared_seeds": 4910
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n500_rho0.93",
+      "family_b": "a6_control_tamano_rw",
+      "cell_b": "n500",
+      "shared_seeds": 4907
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n500_rho0.95",
+      "family_b": "a6_control_tamano_rw",
+      "cell_b": "n500",
+      "shared_seeds": 4905
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n500_rho0.97",
+      "family_b": "a6_control_tamano_rw",
+      "cell_b": "n500",
+      "shared_seeds": 4903
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n500_rho0.99",
+      "family_b": "a6_control_tamano_rw",
+      "cell_b": "n500",
+      "shared_seeds": 4901
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n500_rho1.00",
+      "family_b": "a6_control_tamano_rw",
+      "cell_b": "n500",
+      "shared_seeds": 4900
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n1000_rho0.80",
+      "family_b": "a6_control_tamano_rw",
+      "cell_b": "n1000",
+      "shared_seeds": 4920
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n1000_rho0.85",
+      "family_b": "a6_control_tamano_rw",
+      "cell_b": "n1000",
+      "shared_seeds": 4915
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n1000_rho0.90",
+      "family_b": "a6_control_tamano_rw",
+      "cell_b": "n1000",
+      "shared_seeds": 4910
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n1000_rho0.93",
+      "family_b": "a6_control_tamano_rw",
+      "cell_b": "n1000",
+      "shared_seeds": 4907
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n1000_rho0.95",
+      "family_b": "a6_control_tamano_rw",
+      "cell_b": "n1000",
+      "shared_seeds": 4905
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n1000_rho0.97",
+      "family_b": "a6_control_tamano_rw",
+      "cell_b": "n1000",
+      "shared_seeds": 4903
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n1000_rho0.99",
+      "family_b": "a6_control_tamano_rw",
+      "cell_b": "n1000",
+      "shared_seeds": 4901
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n1000_rho1.00",
+      "family_b": "a6_control_tamano_rw",
+      "cell_b": "n1000",
+      "shared_seeds": 4900
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n1000_rho0.80",
+      "family_b": "a6_control_tamano_rw_quiebre_media",
+      "cell_b": "n500",
+      "shared_seeds": 4920
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n1000_rho0.85",
+      "family_b": "a6_control_tamano_rw_quiebre_media",
+      "cell_b": "n500",
+      "shared_seeds": 4915
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n1000_rho0.90",
+      "family_b": "a6_control_tamano_rw_quiebre_media",
+      "cell_b": "n500",
+      "shared_seeds": 4910
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n1000_rho0.93",
+      "family_b": "a6_control_tamano_rw_quiebre_media",
+      "cell_b": "n500",
+      "shared_seeds": 4907
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n1000_rho0.95",
+      "family_b": "a6_control_tamano_rw_quiebre_media",
+      "cell_b": "n500",
+      "shared_seeds": 4905
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n1000_rho0.97",
+      "family_b": "a6_control_tamano_rw_quiebre_media",
+      "cell_b": "n500",
+      "shared_seeds": 4903
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n1000_rho0.99",
+      "family_b": "a6_control_tamano_rw_quiebre_media",
+      "cell_b": "n500",
+      "shared_seeds": 4901
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n1000_rho1.00",
+      "family_b": "a6_control_tamano_rw_quiebre_media",
+      "cell_b": "n500",
+      "shared_seeds": 4900
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n1000_rho0.80",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP1_rho095_n200",
+      "shared_seeds": 4920
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n1000_rho0.80",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP1_rho097_n500",
+      "shared_seeds": 4920
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n1000_rho0.80",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP1_rho099_n1000",
+      "shared_seeds": 4920
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n1000_rho0.85",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP1_rho095_n200",
+      "shared_seeds": 4915
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n1000_rho0.85",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP1_rho097_n500",
+      "shared_seeds": 4915
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n1000_rho0.85",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP1_rho099_n1000",
+      "shared_seeds": 4915
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n1000_rho0.90",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP1_rho095_n200",
+      "shared_seeds": 4910
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n1000_rho0.90",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP1_rho097_n500",
+      "shared_seeds": 4910
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n1000_rho0.90",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP1_rho099_n1000",
+      "shared_seeds": 4910
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n1000_rho0.93",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP1_rho095_n200",
+      "shared_seeds": 4907
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n1000_rho0.93",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP1_rho097_n500",
+      "shared_seeds": 4907
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n1000_rho0.93",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP1_rho099_n1000",
+      "shared_seeds": 4907
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n1000_rho0.95",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP1_rho095_n200",
+      "shared_seeds": 4905
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n1000_rho0.95",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP1_rho097_n500",
+      "shared_seeds": 4905
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n1000_rho0.95",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP1_rho099_n1000",
+      "shared_seeds": 4905
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n1000_rho0.97",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP1_rho095_n200",
+      "shared_seeds": 4903
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n1000_rho0.97",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP1_rho097_n500",
+      "shared_seeds": 4903
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n1000_rho0.97",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP1_rho099_n1000",
+      "shared_seeds": 4903
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n1000_rho0.99",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP1_rho095_n200",
+      "shared_seeds": 4901
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n1000_rho0.99",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP1_rho097_n500",
+      "shared_seeds": 4901
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n1000_rho0.99",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP1_rho099_n1000",
+      "shared_seeds": 4901
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n1000_rho1.00",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP1_rho095_n200",
+      "shared_seeds": 4900
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n1000_rho1.00",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP1_rho097_n500",
+      "shared_seeds": 4900
+    },
+    {
+      "family_a": "dgp1",
+      "cell_a": "n1000_rho1.00",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP1_rho099_n1000",
+      "shared_seeds": 4900
+    },
+    {
+      "family_a": "dgp2",
+      "cell_a": "n500_delta0.0",
+      "family_b": "a6_control_tamano_rw_quiebre_media",
+      "cell_b": "n1000",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "dgp2",
+      "cell_a": "n500_delta0.5",
+      "family_b": "a6_control_tamano_rw_quiebre_media",
+      "cell_b": "n1000",
+      "shared_seeds": 4995
+    },
+    {
+      "family_a": "dgp2",
+      "cell_a": "n500_delta1.0",
+      "family_b": "a6_control_tamano_rw_quiebre_media",
+      "cell_b": "n1000",
+      "shared_seeds": 4990
+    },
+    {
+      "family_a": "dgp2",
+      "cell_a": "n500_delta2.0",
+      "family_b": "a6_control_tamano_rw_quiebre_media",
+      "cell_b": "n1000",
+      "shared_seeds": 4980
+    },
+    {
+      "family_a": "dgp2",
+      "cell_a": "n500_delta3.0",
+      "family_b": "a6_control_tamano_rw_quiebre_media",
+      "cell_b": "n1000",
+      "shared_seeds": 4970
+    },
+    {
+      "family_a": "dgp2",
+      "cell_a": "n500_delta5.0",
+      "family_b": "a6_control_tamano_rw_quiebre_media",
+      "cell_b": "n1000",
+      "shared_seeds": 4950
+    },
+    {
+      "family_a": "dgp2",
+      "cell_a": "n1000_delta0.0",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP3_r4_n1000",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "dgp2",
+      "cell_a": "n1000_delta0.5",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP3_r4_n1000",
+      "shared_seeds": 4995
+    },
+    {
+      "family_a": "dgp2",
+      "cell_a": "n1000_delta1.0",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP3_r4_n1000",
+      "shared_seeds": 4990
+    },
+    {
+      "family_a": "dgp2",
+      "cell_a": "n1000_delta2.0",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP3_r4_n1000",
+      "shared_seeds": 4980
+    },
+    {
+      "family_a": "dgp2",
+      "cell_a": "n1000_delta3.0",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP3_r4_n1000",
+      "shared_seeds": 4970
+    },
+    {
+      "family_a": "dgp2",
+      "cell_a": "n1000_delta5.0",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP3_r4_n1000",
+      "shared_seeds": 4950
+    },
+    {
+      "family_a": "dgp3",
+      "cell_a": "n1000_r1.0",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP4_r3_n500",
+      "shared_seeds": 4990
+    },
+    {
+      "family_a": "dgp3",
+      "cell_a": "n1000_r1.5",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP4_r3_n500",
+      "shared_seeds": 4985
+    },
+    {
+      "family_a": "dgp3",
+      "cell_a": "n1000_r2.0",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP4_r3_n500",
+      "shared_seeds": 4980
+    },
+    {
+      "family_a": "dgp3",
+      "cell_a": "n1000_r2.5",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP4_r3_n500",
+      "shared_seeds": 4975
+    },
+    {
+      "family_a": "dgp3",
+      "cell_a": "n1000_r3.0",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP4_r3_n500",
+      "shared_seeds": 4970
+    },
+    {
+      "family_a": "dgp3",
+      "cell_a": "n1000_r4.0",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP4_r3_n500",
+      "shared_seeds": 4960
+    },
+    {
+      "family_a": "a6_control_tamano_rw",
+      "cell_a": "n1000",
+      "family_b": "a6_control_tamano_rw_quiebre_media",
+      "cell_b": "n500",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "a6_control_tamano_rw",
+      "cell_a": "n1000",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP1_rho095_n200",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "a6_control_tamano_rw",
+      "cell_a": "n1000",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP1_rho097_n500",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "a6_control_tamano_rw",
+      "cell_a": "n1000",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP1_rho099_n1000",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "a6_control_tamano_rw_quiebre_media",
+      "cell_a": "n500",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP1_rho095_n200",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "a6_control_tamano_rw_quiebre_media",
+      "cell_a": "n500",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP1_rho097_n500",
+      "shared_seeds": 5000
+    },
+    {
+      "family_a": "a6_control_tamano_rw_quiebre_media",
+      "cell_a": "n500",
+      "family_b": "a5_adaptativo_T14",
+      "cell_b": "DGP1_rho099_n1000",
+      "shared_seeds": 5000
+    }
+  ],
+  "cross_family_overlaps_by_pair": {
+    "a6_control_tamano_rw|a5_adaptativo_T14": 3,
+    "a6_control_tamano_rw|a6_control_tamano_rw_quiebre_media": 1,
+    "a6_control_tamano_rw_quiebre_media|a5_adaptativo_T14": 3,
+    "dgp1|a5_adaptativo_T14": 24,
+    "dgp1|a6_control_tamano_rw": 24,
+    "dgp1|a6_control_tamano_rw_quiebre_media": 8,
+    "dgp2|a5_adaptativo_T14": 6,
+    "dgp2|a6_control_tamano_rw_quiebre_media": 6,
+    "dgp3|a5_adaptativo_T14": 6,
+    "tabla1_tamano_rw|a5_muestra_pequena": 36
+  }
+}

@@ -1,0 +1,716 @@
+{
+  "provenance": {
+    "script": "experiments/audit11_t5_claims.py",
+    "script_sha256": "c26f764c64ac12e1c5af706ac6cf129fb60e388656ae7766b1add0b9b933ef60",
+    "commit": "5b93502ecdb22832ffbfdfee3e4a164ac9cb9294",
+    "worktree_dirty": true,
+    "dirty_files": [
+      "M experiments/figures/fig_calibration_gain_audit10.pdf",
+      " M experiments/figures/fig_dgp3_audit10.pdf",
+      " M experiments/figures/fig_local_power_audit10.pdf",
+      " M experiments/figures/fig_power_equalized_audit10.pdf",
+      " M experiments/figures/fig_size_shift_audit10.pdf",
+      " M experiments/figures/fig_theta_ladder_audit10.pdf",
+      " M experiments/results/figures_audit11.json",
+      " M experiments/results/logs_audit11/t0_audit11.log",
+      " M experiments/results/logs_audit11/t5_audit11.log",
+      " M experiments/results/manifest_audit11.json",
+      " M experiments/results/t0_protocol_audit11.json",
+      " M experiments/results/t2_dgp2_audit11.json",
+      " M experiments/results/t3_anchor_audit11.json",
+      " M experiments/results/t4_trend_audit11.json",
+      " M paper/figures/fig_calibration_gain_audit10.pdf",
+      " M paper/figures/fig_dgp3_audit10.pdf",
+      " M paper/figures/fig_local_power_audit10.pdf",
+      " M paper/figures/fig_power_equalized_audit10.pdf",
+      " M paper/figures/fig_size_shift_audit10.pdf",
+      " M paper/figures/fig_theta_ladder_audit10.pdf"
+    ],
+    "generated_utc": "2026-09-21T18:13:50.234645+00:00",
+    "seed_family": 125,
+    "versions": {
+      "python": "3.11.0",
+      "platform": "Windows-10-10.0.26200-SP0",
+      "numpy": "2.2.4",
+      "scipy": "1.15.2",
+      "numba": "0.65.0",
+      "statsmodels": "0.14.6",
+      "arch": "8.0.0",
+      "pandas": "2.2.3",
+      "joblib": "1.4.2",
+      "matplotlib": "3.10.1",
+      "pytest": "9.0.3"
+    },
+    "code": {
+      "experiments/audit10_common.py": {
+        "sha256": "298e82a217d2dd32ba87245f6056dbb82051fe2985acd644b1e972f6768ca123",
+        "git_state": "committed"
+      },
+      "experiments/audit11_common.py": {
+        "sha256": "813a677b40af1dfc2cc143fdcdffd5e0e4fc8d4c54a5c878723bb780e220c5b2",
+        "git_state": "committed"
+      },
+      "experiments/audit11_design.py": {
+        "sha256": "1a930997b563d85207abc4c23681a2e97db164e358f3d890b87038a17483b9e5",
+        "git_state": "committed"
+      },
+      "experiments/audit11_figconfig.py": {
+        "sha256": "3e0ac02a12cb821428036438924ad7d36aa65ef172b6b458b269d484af0fad84",
+        "git_state": "committed"
+      },
+      "experiments/audit11_generate_report.py": {
+        "sha256": "07acb9870c3a010dee6c7d08ca17166d69a70330852ac22db509c7fb1462d2c2",
+        "git_state": "committed"
+      },
+      "experiments/audit11_t0_protocol.py": {
+        "sha256": "2f6d789ffe11fa1b21aa52a97432d7dd166100f874520919648f95ea64547f62",
+        "git_state": "committed"
+      },
+      "experiments/audit11_t2_dgp2.py": {
+        "sha256": "4906e00edf8e6846e87c8f507c17082ad9223c3208c8c516689a0537b0ce3630",
+        "git_state": "committed"
+      },
+      "experiments/audit11_t3_anchor.py": {
+        "sha256": "12c84bf43047f8652482b2144625edea5a460d3aad76b0b5e244a8f1ad0682ce",
+        "git_state": "committed"
+      },
+      "experiments/audit11_t4_trend.py": {
+        "sha256": "b0b594e561fa0a525bc2a4972b0ff480a3a165199e24d340bd0ffdc506d6f890",
+        "git_state": "committed"
+      },
+      "experiments/audit11_t5_claims.py": {
+        "sha256": "c26f764c64ac12e1c5af706ac6cf129fb60e388656ae7766b1add0b9b933ef60",
+        "git_state": "committed"
+      },
+      "experiments/audit8_common.py": {
+        "sha256": "5718ec2cfa7f5f5c5f7f8d68ed26198e00ac827fb562cee67b234857e5719f0d",
+        "git_state": "committed"
+      },
+      "experiments/audit8_design.py": {
+        "sha256": "ad80aeae74d44ff4cecbd10dbfc480d24c146b81ec8f9d6561f95b7ba7079ae0",
+        "git_state": "committed"
+      },
+      "experiments/audit9_common.py": {
+        "sha256": "39fbee3c398de920ba2f9c4400ac6254c58d9fb537c6f97649c8299ea39e78f7",
+        "git_state": "committed"
+      },
+      "experiments/audit9_engine.py": {
+        "sha256": "8f8bd7a817178056d2e55a4c518bfc2188737c02c3f56cf467d15972ac651e1b",
+        "git_state": "committed"
+      },
+      "experiments/make_figures_audit10.py": {
+        "sha256": "defe405c489e96491a7f9a63e09392c24bce8cc3768b7ec654708eaf244ff560",
+        "git_state": "committed"
+      },
+      "experiments/make_figures_audit11.py": {
+        "sha256": "ae54c12199f80a46f7beb88544743d422d3e982aae3a14aede0a5f9efdf93dc6",
+        "git_state": "committed"
+      },
+      "experiments/make_figures_audit9.py": {
+        "sha256": "8af6329fe284ee528882db6cf39a1b0ae1e046806376c60cfd026bfb2b7e587e",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/__init__.py": {
+        "sha256": "20ebf29ab1a9a64bb428f25ff0170d67db2354662efb8b973922c3f455f56582",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/constants.py": {
+        "sha256": "de8bd2282ff09c41fc6eae12fcca6695c1fd3a0c9def7628a9b76e9361058907",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/davies.py": {
+        "sha256": "cfad047d0b0676cc83a41208cd600f4224ce61bf03930228a5a80d1d6556c9b9",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/deterministics.py": {
+        "sha256": "31db116abc80e5cab8c97317a31d6f22f1a4ca40c885eef86c134db598dac6b2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/empirical_eigenvalues.py": {
+        "sha256": "f749e2e2de8b807421d6e74836bd5d539eccb314f18821bd38b80e72b5ee72a1",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/full_pipeline.py": {
+        "sha256": "cdbd5405caa50bc83c7348a0a8be9963b522ef4d808024f078f648bb1de89170",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/hac_estimator.py": {
+        "sha256": "f7c22540e6a8e862258cb70e4a839b841453ca9490a01671176431ee4bf678f2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/kl_eigenvalues.py": {
+        "sha256": "c0fb0a90795c904cb2876aa16eff64948e0abf5a27d3a57c6612c2b9ec198903",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/null_quantiles.py": {
+        "sha256": "655458f05815621d015984080169663d2310d26e588a83e2c5a62549ba5a1ae8",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/optimal_weight.py": {
+        "sha256": "47632d98ed256b2364a2ac99de64780e0cd8d42a69c68b4552c6ea0564f86ba4",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/rm_core.py": {
+        "sha256": "4d3ee3f59c569233a5e9a9ed8ffd3032364188545bac04a0cc619ccac39e04e0",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/standardization.py": {
+        "sha256": "cc8cb146d28ea63be86bc11db6cc6c345fbf5fd412055e2e58a33a40f3e8936b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/statistic.py": {
+        "sha256": "f0baf1d99ac4311ca854d350f18a3d3416974bf5d13e662d05149f87183d92ef",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/theta_selection.py": {
+        "sha256": "23eba50e85d0db917d14b4d3d844c42e5ee566dfd326a0fad7feae0dd113f40b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/utils.py": {
+        "sha256": "8a3e0b972da519b3c39ca0e0326953dbae1bf048845c05c1fb3a23a001b72717",
+        "git_state": "committed"
+      }
+    },
+    "code_all_committed": true
+  },
+  "manuscript": {
+    "zip": "paper_latex_v12.zip",
+    "sha256": "236cbb6580dd85fbd16de6b63a7a8d6788fc74569c3df2fd04116f57123887c3"
+  },
+  "claims": {
+    "1": {
+      "quote": {
+        "file": "v12/sec5_montecarlo.tex",
+        "line": 664,
+        "quote": "removed. First, the variance channel is inert as well as unhelpful: dropping it changes size by at most $0.1$ points in any of the null",
+        "groups": [
+          "0.1"
+        ]
+      },
+      "printed": "0.1",
+      "json": "b2_size_audit8.json",
+      "json_path": "B2a.cells.<celda>.delta_pp (max |.| sobre B2a.gate.cells_evaluated); B2a.gate.max_abs_delta_pp",
+      "max_abs_delta_pp": 0.10000000000000009,
+      "gate_max_abs_delta_pp": 0.10000000000000009,
+      "cell": "garch_p095_t5_n1000",
+      "cells_evaluated": 28,
+      "kinds": [
+        "garch",
+        "gauss",
+        "heavy"
+      ],
+      "comparison": "R = 0 frente a R = 0.5, RM theta = 0.1 (A8 B2a)",
+      "min_mcnemar_p": 0.0625,
+      "sign_test_p": 0.0037937056353716074,
+      "N_sim": 5000,
+      "N_cal": 50000,
+      "confirmed": true
+    },
+    "2": {
+      "quote": {
+        "file": "v12/sec5_montecarlo.tex",
+        "line": 668,
+        "quote": "rebalancing the channels to a common scale lowered power by $14$ to $28$",
+        "groups": [
+          "14",
+          "28"
+        ]
+      },
+      "printed": [
+        "14",
+        "28"
+      ],
+      "json": "adaptive_size_power_audit5b.json",
+      "json_path": "alpha1_hac_Ncal50000.<celda>.adaptive - rebalanced",
+      "operative_config": "alpha1_hac_Ncal50000",
+      "operative": {
+        "diff_pp": {
+          "DGP1_rho095_n200": 15.480000000000002,
+          "DGP1_rho097_n500": 27.740000000000002,
+          "DGP1_rho099_n1000": 14.360000000000001
+        },
+        "min": 14.360000000000001,
+        "max": 27.740000000000002,
+        "rates": {
+          "DGP1_rho095_n200": {
+            "adaptive": 0.384,
+            "rebalanced": 0.2292
+          },
+          "DGP1_rho097_n500": {
+            "adaptive": 0.7082,
+            "rebalanced": 0.4308
+          },
+          "DGP1_rho099_n1000": {
+            "adaptive": 0.449,
+            "rebalanced": 0.3054
+          }
+        }
+      },
+      "all_configs": {
+        "sigma_known_Ncal10000": {
+          "diff_pp": {
+            "DGP1_rho095_n200": 10.440000000000005,
+            "DGP1_rho097_n500": 24.980000000000004,
+            "DGP1_rho099_n1000": 13.040000000000001
+          },
+          "min": 10.440000000000005,
+          "max": 24.980000000000004,
+          "rates": {
+            "DGP1_rho095_n200": {
+              "adaptive": 0.403,
+              "rebalanced": 0.2986
+            },
+            "DGP1_rho097_n500": {
+              "adaptive": 0.7236,
+              "rebalanced": 0.4738
+            },
+            "DGP1_rho099_n1000": {
+              "adaptive": 0.4446,
+              "rebalanced": 0.3142
+            }
+          }
+        },
+        "alpha1_hac_Ncal10000": {
+          "diff_pp": {
+            "DGP1_rho095_n200": 15.099999999999996,
+            "DGP1_rho097_n500": 27.199999999999996,
+            "DGP1_rho099_n1000": 14.32
+          },
+          "min": 14.32,
+          "max": 27.199999999999996,
+          "rates": {
+            "DGP1_rho095_n200": {
+              "adaptive": 0.3762,
+              "rebalanced": 0.2252
+            },
+            "DGP1_rho097_n500": {
+              "adaptive": 0.7108,
+              "rebalanced": 0.4388
+            },
+            "DGP1_rho099_n1000": {
+              "adaptive": 0.4434,
+              "rebalanced": 0.3002
+            }
+          }
+        },
+        "alpha2_hac_Ncal10000": {
+          "diff_pp": {
+            "DGP1_rho095_n200": 14.860000000000001,
+            "DGP1_rho097_n500": 27.219999999999995,
+            "DGP1_rho099_n1000": 14.32
+          },
+          "min": 14.32,
+          "max": 27.219999999999995,
+          "rates": {
+            "DGP1_rho095_n200": {
+              "adaptive": 0.379,
+              "rebalanced": 0.2304
+            },
+            "DGP1_rho097_n500": {
+              "adaptive": 0.713,
+              "rebalanced": 0.4408
+            },
+            "DGP1_rho099_n1000": {
+              "adaptive": 0.4436,
+              "rebalanced": 0.3004
+            }
+          }
+        },
+        "sigma_known_Ncal50000": {
+          "diff_pp": {
+            "DGP1_rho095_n200": 10.94,
+            "DGP1_rho097_n500": 25.44,
+            "DGP1_rho099_n1000": 12.86
+          },
+          "min": 10.94,
+          "max": 25.44,
+          "rates": {
+            "DGP1_rho095_n200": {
+              "adaptive": 0.4104,
+              "rebalanced": 0.301
+            },
+            "DGP1_rho097_n500": {
+              "adaptive": 0.7214,
+              "rebalanced": 0.467
+            },
+            "DGP1_rho099_n1000": {
+              "adaptive": 0.4486,
+              "rebalanced": 0.32
+            }
+          }
+        },
+        "alpha1_hac_Ncal50000": {
+          "diff_pp": {
+            "DGP1_rho095_n200": 15.480000000000002,
+            "DGP1_rho097_n500": 27.740000000000002,
+            "DGP1_rho099_n1000": 14.360000000000001
+          },
+          "min": 14.360000000000001,
+          "max": 27.740000000000002,
+          "rates": {
+            "DGP1_rho095_n200": {
+              "adaptive": 0.384,
+              "rebalanced": 0.2292
+            },
+            "DGP1_rho097_n500": {
+              "adaptive": 0.7082,
+              "rebalanced": 0.4308
+            },
+            "DGP1_rho099_n1000": {
+              "adaptive": 0.449,
+              "rebalanced": 0.3054
+            }
+          }
+        },
+        "alpha2_hac_Ncal50000": {
+          "diff_pp": {
+            "DGP1_rho095_n200": 15.24,
+            "DGP1_rho097_n500": 27.82,
+            "DGP1_rho099_n1000": 14.339999999999996
+          },
+          "min": 14.339999999999996,
+          "max": 27.82,
+          "rates": {
+            "DGP1_rho095_n200": {
+              "adaptive": 0.3866,
+              "rebalanced": 0.2342
+            },
+            "DGP1_rho097_n500": {
+              "adaptive": 0.7106,
+              "rebalanced": 0.4324
+            },
+            "DGP1_rho099_n1000": {
+              "adaptive": 0.4486,
+              "rebalanced": 0.3052
+            }
+          }
+        }
+      },
+      "N_sim": null,
+      "N_cal": 50000,
+      "N_note": "el JSON no registra N_sim; N_cal sale del nombre de la configuracion",
+      "confirmed": true
+    },
+    "3": {
+      "quotes": [
+        {
+          "file": "v12/sec1_introduction.tex",
+          "line": 40,
+          "quote": "adaptive weight concentrated at zero under the null; and anchoring at the sample mean cost more than thirty points of local power at $c = 10$.",
+          "groups": [
+            "more than",
+            "thirty"
+          ]
+        },
+        {
+          "file": "v12/sec2_statistic.tex",
+          "line": 51,
+          "quote": "That choice is what makes the statistic a member of the M family and is worth more than thirty points of local power against the centered",
+          "groups": [
+            "more than",
+            "thirty"
+          ]
+        },
+        {
+          "file": "v12/sec5_montecarlo.tex",
+          "line": 670,
+          "quote": "points. Third, measuring the rolling means from their own average rather than from the GLS anchor costs about thirty points of local power at $c",
+          "groups": [
+            "about",
+            "thirty"
+          ]
+        },
+        {
+          "file": "v12/sec7_conclusion.tex",
+          "line": 37,
+          "quote": "concentrated at zero under the null. Centering the rolling means at their own average rather than at the GLS anchor cost about thirty points of local",
+          "groups": [
+            "about",
+            "thirty"
+          ]
+        }
+      ],
+      "json": "b4_local_power_audit8.json",
+      "json_path": "cases.<caso>.power.10.0 y gap_to_envelope; gls_rule.G1",
+      "n": 2000,
+      "c": 10.0,
+      "theta_a8": 0.1,
+      "thetas_available": [
+        "0.05",
+        "0.1",
+        "0.2"
+      ],
+      "N_sim": 20000,
+      "N_cal": 50000,
+      "by_case": {
+        "dm": {
+          "0.05": {
+            "power_rmgls": 0.70705,
+            "power_rm": 0.4792,
+            "cost_pp": 22.784999999999993,
+            "gap_rm_pp": 29.239999999999995,
+            "gap_rmgls_pp": 6.455,
+            "max_cost_pp_over_c": 23.955000000000005,
+            "c_at_max_cost": "11.0"
+          },
+          "0.1": {
+            "power_rmgls": 0.6859,
+            "power_rm": 0.43805,
+            "cost_pp": 24.784999999999997,
+            "gap_rm_pp": 33.355,
+            "gap_rmgls_pp": 8.57,
+            "max_cost_pp_over_c": 26.789999999999992,
+            "c_at_max_cost": "12.0"
+          },
+          "0.2": {
+            "power_rmgls": 0.6441,
+            "power_rm": 0.3818,
+            "cost_pp": 26.230000000000004,
+            "gap_rm_pp": 38.98,
+            "gap_rmgls_pp": 12.749999999999995,
+            "max_cost_pp_over_c": 29.520000000000003,
+            "c_at_max_cost": "12.0"
+          }
+        },
+        "ct": {
+          "0.05": {
+            "power_rmgls": 0.2904,
+            "power_rm": 0.2728,
+            "cost_pp": 1.7600000000000005,
+            "gap_rm_pp": 3.720000000000001,
+            "gap_rmgls_pp": 1.9600000000000006,
+            "max_cost_pp_over_c": 4.180000000000006,
+            "c_at_max_cost": "16.0"
+          },
+          "0.1": {
+            "power_rmgls": 0.28935,
+            "power_rm": 0.2587,
+            "cost_pp": 3.0650000000000013,
+            "gap_rm_pp": 5.130000000000001,
+            "gap_rmgls_pp": 2.0650000000000004,
+            "max_cost_pp_over_c": 6.804999999999994,
+            "c_at_max_cost": "18.0"
+          },
+          "0.2": {
+            "power_rmgls": 0.2824,
+            "power_rm": 0.2336,
+            "cost_pp": 4.879999999999998,
+            "gap_rm_pp": 7.64,
+            "gap_rmgls_pp": 2.7600000000000016,
+            "max_cost_pp_over_c": 11.114999999999997,
+            "c_at_max_cost": "18.0"
+          }
+        }
+      },
+      "G1": {
+        "gap_rmgls_pp": 8.57,
+        "gap_rm_pp": 33.355,
+        "reduction_pp": 24.784999999999997,
+        "threshold_pp": 10.0,
+        "holds": true
+      },
+      "verdicts": [
+        {
+          "file": "v12/sec1_introduction.tex",
+          "line": 40,
+          "kind": "more than",
+          "number": 30,
+          "confirmed": false,
+          "confirmed_if_gap_rm": true
+        },
+        {
+          "file": "v12/sec2_statistic.tex",
+          "line": 51,
+          "kind": "more than",
+          "number": 30,
+          "confirmed": false,
+          "confirmed_if_gap_rm": true
+        },
+        {
+          "file": "v12/sec5_montecarlo.tex",
+          "line": 670,
+          "kind": "about",
+          "number": 30,
+          "confirmed": false,
+          "confirmed_if_gap_rm": true
+        },
+        {
+          "file": "v12/sec7_conclusion.tex",
+          "line": 37,
+          "kind": "about",
+          "number": 30,
+          "confirmed": false,
+          "confirmed_if_gap_rm": true
+        }
+      ],
+      "quantity_for_claim": "coste de centrar = potencia(RM-GLS) - potencia(RM), demeaned, c = 10, theta = 0.1",
+      "confirmed": false
+    },
+    "4": {
+      "quote": {
+        "file": "v12/sec6_application.tex",
+        "line": 87,
+        "quote": "Registered statistic & 0.0277 & 0.437 & 13 & 33.8 & 11 & 199.6 & 109.3 \\\\",
+        "groups": [
+          "0.0277 & 0.437 & 13 & 33.8 & 11 & 199.6 & 109.3"
+        ]
+      },
+      "printed": [
+        "0.0277",
+        "0.437",
+        "13",
+        "33.8",
+        "11",
+        "199.6",
+        "109.3"
+      ],
+      "fields": [
+        "fp_mean",
+        "fp_max",
+        "detections",
+        "mean_latency_detected",
+        "false_alarm_episodes",
+        "mean_run_length",
+        "censored_latency_mean"
+      ],
+      "rate_quote": {
+        "file": "v12/sec6_application.tex",
+        "line": 56,
+        "quote": " At a common false-alarm rate of $0.0227$, with contiguous rejections",
+        "groups": [
+          "0.0227"
+        ]
+      },
+      "printed_rate": "0.0227",
+      "json_paths": [
+        "summary.rhat_prereg.fp_mean",
+        "summary.rhat_prereg.fp_max",
+        "summary.rhat_prereg.detections",
+        "summary.rhat_prereg.mean_latency_detected",
+        "matched_rate.tests.rhat_prereg.false_alarm_episodes",
+        "matched_rate.tests.rhat_prereg.mean_run_length",
+        "matched_rate.tests.rhat_prereg.censored_latency_mean"
+      ],
+      "by_audit": {
+        "A10": {
+          "json": "b103_application_audit10.json",
+          "values": [
+            0.027695742047260757,
+            0.43673469387755104,
+            13,
+            33.84615384615385,
+            11,
+            199.5593220338983,
+            109.26136363636364
+          ],
+          "target_fpr": 0.022742363877822046,
+          "match": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        "A9": {
+          "json": "b96_application_audit9.json",
+          "values": [
+            0.027695742047260757,
+            0.43673469387755104,
+            13,
+            33.84615384615385,
+            11,
+            199.22033898305085,
+            109.19318181818181
+          ],
+          "target_fpr": 0.024236387782204515,
+          "match": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        "A8": {
+          "json": "b6_application_audit8.json",
+          "values": [
+            0.027695742047260757,
+            0.43673469387755104,
+            13,
+            33.84615384615385,
+            11,
+            199.22033898305085,
+            109.19318181818181
+          ],
+          "target_fpr": 0.024236387782204515,
+          "match": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            false
+          ]
+        }
+      },
+      "rate_confirmed": true,
+      "confirmed": true
+    }
+  },
+  "t3_quotes": {
+    "remark_n2000": {
+      "file": "v12/sec3_theory.tex",
+      "line": 65,
+      "quote": "so that $\\kappa(-7) \\approx 39.7$. The expansion is accurate at $n = 2000$ (simulated $0.481$ against $0.480$) but not at $n = 200$ (simulated $0.360$",
+      "groups": [
+        "2000",
+        "0.481",
+        "0.480"
+      ]
+    },
+    "remark_n200": {
+      "file": "v12/sec3_theory.tex",
+      "line": 66,
+      "quote": "(simulated $0.481$ against $0.480$) but not at $n = 200$ (simulated $0.360$ against $0.302$), because the correction is not small there. This is the",
+      "groups": [
+        "200",
+        "0.360",
+        "0.302"
+      ]
+    },
+    "remark_kappa": {
+      "file": "v12/sec3_theory.tex",
+      "line": 65,
+      "quote": "so that $\\kappa(-7) \\approx 39.7$. The expansion is accurate at $n = 2000$",
+      "groups": [
+        "39.7"
+      ]
+    },
+    "appendix": {
+      "file": "v12/appA_proofs.tex",
+      "line": 77,
+      "quote": "$\\E[\\overline{\\rw}^2] = n/3 + O(1)$; and $\\E[\\hat\\beta^2]/n = O(n^{-2})$. A simulation with $4\\times10^4$ paths gives $0.360$, $0.438$ and $0.481$ at",
+      "groups": [
+        "0.360",
+        "0.438",
+        "0.481"
+      ]
+    },
+    "appendix_first_order": {
+      "file": "v12/appA_proofs.tex",
+      "line": 78,
+      "quote": "$n = 200$, $500$ and $2000$, against the first-order values $0.302$, $0.421$ and $0.480$.",
+      "groups": [
+        "0.302",
+        "0.421",
+        "0.480"
+      ]
+    }
+  }
+}

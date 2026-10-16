@@ -1,0 +1,426 @@
+{
+  "dgp3": {
+    "200": {
+      "1.0": {
+        "N_sim": 2000,
+        "n": 200,
+        "B": 999,
+        "elapsed_sec": 1616.3,
+        "adf": {
+          "rejections": 90,
+          "rate": 0.045,
+          "ci_lower": 0.036338,
+          "ci_upper": 0.055025
+        },
+        "union": {
+          "rejections": 105,
+          "rate": 0.0525,
+          "ci_lower": 0.043138,
+          "ci_upper": 0.0632
+        },
+        "dgp": "dgp3",
+        "param_name": "r",
+        "param_val": 1.0,
+        "total_elapsed": 1617.3340632915497
+      },
+      "2.0": {
+        "N_sim": 2000,
+        "n": 200,
+        "B": 999,
+        "elapsed_sec": 1605.58,
+        "adf": {
+          "rejections": 98,
+          "rate": 0.049,
+          "ci_lower": 0.039957,
+          "ci_upper": 0.059393
+        },
+        "union": {
+          "rejections": 101,
+          "rate": 0.0505,
+          "ci_lower": 0.041318,
+          "ci_upper": 0.061026
+        },
+        "dgp": "dgp3",
+        "param_name": "r",
+        "param_val": 2.0,
+        "total_elapsed": 1606.5770828723907
+      },
+      "3.0": {
+        "N_sim": 2000,
+        "n": 200,
+        "B": 999,
+        "elapsed_sec": 1599.76,
+        "adf": {
+          "rejections": 111,
+          "rate": 0.0555,
+          "ci_lower": 0.045874,
+          "ci_upper": 0.066454
+        },
+        "union": {
+          "rejections": 114,
+          "rate": 0.057,
+          "ci_lower": 0.047245,
+          "ci_upper": 0.068078
+        },
+        "dgp": "dgp3",
+        "param_name": "r",
+        "param_val": 3.0,
+        "total_elapsed": 1600.713843345642
+      },
+      "4.0": {
+        "N_sim": 2000,
+        "n": 200,
+        "B": 1999,
+        "elapsed_sec": 3172.11,
+        "adf": {
+          "rejections": 109,
+          "rate": 0.0545,
+          "ci_lower": 0.044961,
+          "ci_upper": 0.06537
+        },
+        "union": {
+          "rejections": 111,
+          "rate": 0.0555,
+          "ci_lower": 0.045874,
+          "ci_upper": 0.066454
+        },
+        "dgp": "dgp3",
+        "param_name": "r",
+        "param_val": 4.0,
+        "total_elapsed": 3173.141516685486
+      }
+    },
+    "1000": {
+      "1.0": {
+        "N_sim": 2000,
+        "n": 1000,
+        "B": 999,
+        "elapsed_sec": 116959.5,
+        "adf": {
+          "rejections": 98,
+          "rate": 0.049,
+          "ci_lower": 0.039957,
+          "ci_upper": 0.059393
+        },
+        "union": {
+          "rejections": 102,
+          "rate": 0.051,
+          "ci_lower": 0.041773,
+          "ci_upper": 0.06157
+        },
+        "dgp": "dgp3",
+        "param_name": "r",
+        "param_val": 1.0,
+        "total_elapsed": 116960.86320877075
+      },
+      "2.0": {
+        "N_sim": 2000,
+        "n": 1000,
+        "B": 399,
+        "cores": 14,
+        "tests": "adf",
+        "n_evaluated": 2000,
+        "complete": true,
+        "seed_base": 400020,
+        "seed_formula": "300000 + n*100 + int(r*10)",
+        "elapsed_sec": 6039.77,
+        "n_chunks": 8,
+        "param_name": "r",
+        "param_val": 2.0,
+        "adf": {
+          "rejections": 100,
+          "n_evaluated": 2000,
+          "rate": 0.05,
+          "ci_lower": 0.040864,
+          "ci_upper": 0.060482,
+          "complete": true
+        }
+      },
+      "3.0": {
+        "N_sim": 2000,
+        "n": 1000,
+        "B": 399,
+        "cores": 14,
+        "tests": "adf",
+        "n_evaluated": 2000,
+        "complete": true,
+        "seed_base": 400030,
+        "seed_formula": "300000 + n*100 + int(r*10)",
+        "elapsed_sec": 6049.31,
+        "n_chunks": 9,
+        "param_name": "r",
+        "param_val": 3.0,
+        "adf": {
+          "rejections": 109,
+          "n_evaluated": 2000,
+          "rate": 0.0545,
+          "ci_lower": 0.044961,
+          "ci_upper": 0.06537,
+          "complete": true
+        }
+      },
+      "4.0": {
+        "N_sim": 2000,
+        "n": 1000,
+        "B": 399,
+        "cores": 14,
+        "tests": "adf",
+        "n_evaluated": 2000,
+        "complete": true,
+        "seed_base": 400040,
+        "seed_formula": "300000 + n*100 + int(r*10)",
+        "elapsed_sec": 5925.01,
+        "n_chunks": 8,
+        "param_name": "r",
+        "param_val": 4.0,
+        "adf": {
+          "rejections": 111,
+          "n_evaluated": 2000,
+          "rate": 0.0555,
+          "ci_lower": 0.045874,
+          "ci_upper": 0.066454,
+          "complete": true
+        }
+      }
+    }
+  },
+  "dgp1": {
+    "200": {
+      "0.95": {
+        "N_sim": 2000,
+        "n": 200,
+        "B": 999,
+        "cores": 14,
+        "tests": "both",
+        "n_evaluated": 2000,
+        "complete": true,
+        "seed_base": 120095,
+        "seed_formula": "100000 + n*100 + int(rho*100)",
+        "elapsed_sec": 1742.7,
+        "n_chunks": 3,
+        "param_name": "rho",
+        "param_val": 0.95,
+        "adf": {
+          "rejections": 1522,
+          "n_evaluated": 2000,
+          "rate": 0.761,
+          "ci_lower": 0.741685,
+          "ci_upper": 0.779547,
+          "complete": true
+        },
+        "union": {
+          "rejections": 1115,
+          "n_evaluated": 2000,
+          "rate": 0.5575,
+          "ci_lower": 0.535411,
+          "ci_upper": 0.57942,
+          "complete": true
+        }
+      },
+      "0.97": {
+        "N_sim": 2000,
+        "n": 200,
+        "B": 999,
+        "cores": 14,
+        "tests": "both",
+        "n_evaluated": 2000,
+        "complete": true,
+        "seed_base": 120097,
+        "seed_formula": "100000 + n*100 + int(rho*100)",
+        "elapsed_sec": 1728.88,
+        "n_chunks": 3,
+        "param_name": "rho",
+        "param_val": 0.97,
+        "adf": {
+          "rejections": 824,
+          "n_evaluated": 2000,
+          "rate": 0.412,
+          "ci_lower": 0.390321,
+          "ci_upper": 0.433937,
+          "complete": true
+        },
+        "union": {
+          "rejections": 518,
+          "n_evaluated": 2000,
+          "rate": 0.259,
+          "ci_lower": 0.239915,
+          "ci_upper": 0.278794,
+          "complete": true
+        }
+      },
+      "0.99": {
+        "N_sim": 2000,
+        "n": 200,
+        "B": 999,
+        "cores": 14,
+        "tests": "both",
+        "n_evaluated": 2000,
+        "complete": true,
+        "seed_base": 120099,
+        "seed_formula": "100000 + n*100 + int(rho*100)",
+        "elapsed_sec": 1634.92,
+        "n_chunks": 3,
+        "param_name": "rho",
+        "param_val": 0.99,
+        "adf": {
+          "rejections": 261,
+          "n_evaluated": 2000,
+          "rate": 0.1305,
+          "ci_lower": 0.116037,
+          "ci_upper": 0.146056,
+          "complete": true
+        },
+        "union": {
+          "rejections": 179,
+          "n_evaluated": 2000,
+          "rate": 0.0895,
+          "ci_lower": 0.077348,
+          "ci_upper": 0.10287,
+          "complete": true
+        }
+      }
+    },
+    "500": {
+      "0.95": {
+        "N_sim": 2000,
+        "n": 500,
+        "B": 399,
+        "cores": 14,
+        "tests": "adf",
+        "n_evaluated": 2000,
+        "complete": true,
+        "seed_base": 150095,
+        "seed_formula": "100000 + n*100 + int(rho*100)",
+        "elapsed_sec": 1386.09,
+        "n_chunks": 3,
+        "param_name": "rho",
+        "param_val": 0.95,
+        "adf": {
+          "rejections": 1998,
+          "n_evaluated": 2000,
+          "rate": 0.999,
+          "ci_lower": 0.996392,
+          "ci_upper": 0.999879,
+          "complete": true
+        }
+      },
+      "0.97": {
+        "N_sim": 2000,
+        "n": 500,
+        "B": 399,
+        "cores": 14,
+        "tests": "adf",
+        "n_evaluated": 2000,
+        "complete": true,
+        "seed_base": 150097,
+        "seed_formula": "100000 + n*100 + int(rho*100)",
+        "elapsed_sec": 1412.46,
+        "n_chunks": 3,
+        "param_name": "rho",
+        "param_val": 0.97,
+        "adf": {
+          "rejections": 1941,
+          "n_evaluated": 2000,
+          "rate": 0.9705,
+          "ci_lower": 0.962111,
+          "ci_upper": 0.977469,
+          "complete": true
+        }
+      },
+      "0.99": {
+        "N_sim": 2000,
+        "n": 500,
+        "B": 399,
+        "cores": 14,
+        "tests": "adf",
+        "n_evaluated": 2000,
+        "complete": true,
+        "seed_base": 150099,
+        "seed_formula": "100000 + n*100 + int(rho*100)",
+        "elapsed_sec": 1417.01,
+        "n_chunks": 3,
+        "param_name": "rho",
+        "param_val": 0.99,
+        "adf": {
+          "rejections": 683,
+          "n_evaluated": 2000,
+          "rate": 0.3415,
+          "ci_lower": 0.320712,
+          "ci_upper": 0.362754,
+          "complete": true
+        }
+      }
+    },
+    "1000": {
+      "0.95": {
+        "N_sim": 2000,
+        "n": 1000,
+        "B": 399,
+        "cores": 14,
+        "tests": "adf",
+        "n_evaluated": 2000,
+        "complete": true,
+        "seed_base": 200095,
+        "seed_formula": "100000 + n*100 + int(rho*100)",
+        "elapsed_sec": 5828.63,
+        "n_chunks": 7,
+        "param_name": "rho",
+        "param_val": 0.95,
+        "adf": {
+          "rejections": 2000,
+          "n_evaluated": 2000,
+          "rate": 1.0,
+          "ci_lower": 0.998157,
+          "ci_upper": 1.0,
+          "complete": true
+        }
+      },
+      "0.97": {
+        "N_sim": 2000,
+        "n": 1000,
+        "B": 399,
+        "cores": 14,
+        "tests": "adf",
+        "n_evaluated": 2000,
+        "complete": true,
+        "seed_base": 200097,
+        "seed_formula": "100000 + n*100 + int(rho*100)",
+        "elapsed_sec": 5976.53,
+        "n_chunks": 8,
+        "param_name": "rho",
+        "param_val": 0.97,
+        "adf": {
+          "rejections": 2000,
+          "n_evaluated": 2000,
+          "rate": 1.0,
+          "ci_lower": 0.998157,
+          "ci_upper": 1.0,
+          "complete": true
+        }
+      },
+      "0.99": {
+        "N_sim": 2000,
+        "n": 1000,
+        "B": 399,
+        "cores": 14,
+        "tests": "adf",
+        "n_evaluated": 2000,
+        "complete": true,
+        "seed_base": 200099,
+        "seed_formula": "100000 + n*100 + int(rho*100)",
+        "elapsed_sec": 5934.24,
+        "n_chunks": 8,
+        "param_name": "rho",
+        "param_val": 0.99,
+        "adf": {
+          "rejections": 1534,
+          "n_evaluated": 2000,
+          "rate": 0.767,
+          "ci_lower": 0.747839,
+          "ci_upper": 0.785375,
+          "complete": true
+        }
+      }
+    }
+  }
+}

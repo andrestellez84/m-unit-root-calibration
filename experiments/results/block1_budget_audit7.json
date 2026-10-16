@@ -1,0 +1,263 @@
+{
+  "provenance": {
+    "dgp": "block1_budget",
+    "n_sim": null,
+    "seed_formula": "sondas sobre la calibracion (familia 70)",
+    "generated_utc": "2026-09-13T20:06:10.397996+00:00",
+    "commit": "bcdef48dab427dedb4d30131eff3c1b274b18ba5",
+    "worktree_dirty": false,
+    "entry_point": "experiments/audit7_block1_budget.py",
+    "code": {
+      "experiments/audit6_wild_bootstrap_worker.R": {
+        "sha256": "dd37bc3f012af925bcbb5fbf34e7bd3a8c8797a2987f2112917d4bfb2221e733",
+        "git_state": "committed"
+      },
+      "experiments/audit7_block1_budget.py": {
+        "sha256": "d6925aea8fb5f372eb3ca06d39a7b0d346882fa3513f2d402bab01dfd02fe5e9",
+        "git_state": "committed"
+      },
+      "experiments/audit7_common.py": {
+        "sha256": "fb7068b362cab2dbec172782d76c13e55f623ccd46415c9610a0598fd1becc8b",
+        "git_state": "committed"
+      },
+      "experiments/audit7_design.py": {
+        "sha256": "8d8c601d7debf39cffcd342def4cb0e45e2a0e8cda9bf3dd70d68f4a3ff30b61",
+        "git_state": "committed"
+      },
+      "experiments/audit7_dgp3_recast.py": {
+        "sha256": "81adb35a49691b8ef54da5c4e3c7485daf67a87e1445b70f06816edafeaebef7",
+        "git_state": "committed"
+      },
+      "experiments/audit7_dgp5_analysis.py": {
+        "sha256": "99e2e500e3fe39b451f1ec331d1bc98524fcfff64004e5a25b94d65075655ded",
+        "git_state": "committed"
+      },
+      "experiments/audit7_dgp5_runner.py": {
+        "sha256": "6dba2a16b7d77b0a8c274f2c6e8550136fa9eb31e8a2a593dda051c01bbb71f7",
+        "git_state": "committed"
+      },
+      "experiments/audit7_kappa2.py": {
+        "sha256": "c988ed16db23a3023e493fa30aabdf509c259a1186ad89467e8cf7477e92b7fb",
+        "git_state": "committed"
+      },
+      "experiments/audit7_kappa2_diagnosis.py": {
+        "sha256": "45a0870463adc101d485659be88d679694510e80caf0b269ec4fbebfd14bc60c",
+        "git_state": "committed"
+      },
+      "experiments/audit7_kappa2_handicap.py": {
+        "sha256": "a6e003e14deaa078c10e4286d4ed173928d429298545afa821401e160ff069e6",
+        "git_state": "committed"
+      },
+      "experiments/audit7_kappa2_simcv.py": {
+        "sha256": "2a17238f738e02e99006e9f570d15908b6320e04f88efca78fe116ced86d7942",
+        "git_state": "committed"
+      },
+      "experiments/audit7_kappa2_validation.py": {
+        "sha256": "969bbdd4994484c799653f63a862945cf0401e1811cd51ca7025b1ed48f01e3c",
+        "git_state": "committed"
+      },
+      "experiments/audit7_paso0_block1.py": {
+        "sha256": "4fdbfb2f367c68f7a27ed9624165afe5001d019b25d73347b1c274abe8b57797",
+        "git_state": "committed"
+      },
+      "experiments/audit7_readout.py": {
+        "sha256": "921bb6f5cf7b80d72bc549d9eacf831343708f9688e2a2f2080a4281d0173886",
+        "git_state": "committed"
+      },
+      "experiments/audit7_write_amendment.py": {
+        "sha256": "99afdd70001aaf6570bfa2bc34c7c4b6d27b09b92b021b8a9a089bdc947ab3c3",
+        "git_state": "committed"
+      }
+    },
+    "code_all_committed": true
+  },
+  "block_cap_sec": 14400,
+  "per_n": {
+    "200": {
+      "probe_wall_sec_per_series": 0.4987008912222726,
+      "bootstrap_steady_sec_per_series": 0.0913,
+      "r_cluster_startup_sec_per_batch": 5.497103569030761,
+      "python_sec_per_series": 0.010104826518467494,
+      "steady_total_sec_per_series": 0.1014048265184675,
+      "k_batch_used_by_runner": 1792,
+      "calibration_cell_sec": 529.0125468684605,
+      "calibration_batches": 4,
+      "dgp5_cell_sec": 219.30096374402729,
+      "dgp5_batches_per_cell": 3,
+      "adaptnull_sec_per_series": 0.001406436063805405,
+      "adaptnull_cell_sec": 70.32180319027024
+    },
+    "500": {
+      "probe_wall_sec_per_series": 3.6570726462772916,
+      "bootstrap_steady_sec_per_series": 3.5883,
+      "r_cluster_startup_sec_per_batch": 0.7319106941223126,
+      "python_sec_per_series": 0.015225461551121302,
+      "steady_total_sec_per_series": 3.603525461551121,
+      "k_batch_used_by_runner": 238,
+      "calibration_cell_sec": 18033.729343026298,
+      "calibration_batches": 22,
+      "dgp5_cell_sec": 7214.370030043466,
+      "dgp5_batches_per_cell": 10,
+      "adaptnull_sec_per_series": 0.0015776485812907315,
+      "adaptnull_cell_sec": 78.88242906453658
+    },
+    "1000": {
+      "probe_wall_sec_per_series": 17.879751358713424,
+      "bootstrap_steady_sec_per_series": 17.7961,
+      "r_cluster_startup_sec_per_batch": 0.7705987968444958,
+      "python_sec_per_series": 0.024019496781485423,
+      "steady_total_sec_per_series": 17.820119496781484,
+      "k_batch_used_by_runner": 42,
+      "calibration_cell_sec": 89193.06933952875,
+      "calibration_batches": 120,
+      "dgp5_cell_sec": 35677.998334608346,
+      "dgp5_batches_per_cell": 49,
+      "adaptnull_sec_per_series": 0.001221183611422169,
+      "adaptnull_cell_sec": 61.05918057110845
+    }
+  },
+  "subtotals_sec": {
+    "nulas_nominales_adaptativo": 210.26341282591525,
+    "calibracion": 107755.8112294235,
+    "dgp5_n200": 2631.6115649283274,
+    "dgp5_n500": 86572.4403605216,
+    "dgp5_n1000": 107033.99500382504,
+    "rho_0.93_primero": 101090.68064436666
+  },
+  "total_sec": 304204.1215715244,
+  "exceeds_10h": true,
+  "order": "nulas adaptativas, calibraciones, DGP 5 con rho=0.93 primero",
+  "blocks": [
+    {
+      "jobs": [
+        "adaptnull n=200",
+        "adaptnull n=500",
+        "adaptnull n=1000",
+        "cal n=200"
+      ],
+      "sec": 739.2759596943757
+    },
+    {
+      "jobs": [
+        "cal n=500"
+      ],
+      "sec": 18033.729343026298
+    },
+    {
+      "jobs": [
+        "cal n=1000"
+      ],
+      "sec": 89193.06933952875
+    },
+    {
+      "jobs": [
+        "dgp5_n200_rho0.93_r1.0",
+        "dgp5_n200_rho0.93_r2.0",
+        "dgp5_n200_rho0.93_r3.0",
+        "dgp5_n200_rho0.93_r4.0",
+        "dgp5_n500_rho0.93_r1.0"
+      ],
+      "sec": 8091.573885019575
+    },
+    {
+      "jobs": [
+        "dgp5_n500_rho0.93_r2.0"
+      ],
+      "sec": 7214.370030043466
+    },
+    {
+      "jobs": [
+        "dgp5_n500_rho0.93_r3.0"
+      ],
+      "sec": 7214.370030043466
+    },
+    {
+      "jobs": [
+        "dgp5_n500_rho0.93_r4.0"
+      ],
+      "sec": 7214.370030043466
+    },
+    {
+      "jobs": [
+        "dgp5_n1000_rho0.93_r2.0"
+      ],
+      "sec": 35677.998334608346
+    },
+    {
+      "jobs": [
+        "dgp5_n1000_rho0.93_r3.0"
+      ],
+      "sec": 35677.998334608346
+    },
+    {
+      "jobs": [
+        "dgp5_n200_rho0.90_r1.0",
+        "dgp5_n200_rho0.90_r2.0",
+        "dgp5_n200_rho0.90_r3.0",
+        "dgp5_n200_rho0.90_r4.0",
+        "dgp5_n200_rho0.95_r1.0",
+        "dgp5_n200_rho0.95_r2.0",
+        "dgp5_n200_rho0.95_r3.0",
+        "dgp5_n200_rho0.95_r4.0",
+        "dgp5_n500_rho0.90_r1.0"
+      ],
+      "sec": 8968.777739995683
+    },
+    {
+      "jobs": [
+        "dgp5_n500_rho0.90_r2.0"
+      ],
+      "sec": 7214.370030043466
+    },
+    {
+      "jobs": [
+        "dgp5_n500_rho0.90_r3.0"
+      ],
+      "sec": 7214.370030043466
+    },
+    {
+      "jobs": [
+        "dgp5_n500_rho0.90_r4.0"
+      ],
+      "sec": 7214.370030043466
+    },
+    {
+      "jobs": [
+        "dgp5_n500_rho0.95_r1.0"
+      ],
+      "sec": 7214.370030043466
+    },
+    {
+      "jobs": [
+        "dgp5_n500_rho0.95_r2.0"
+      ],
+      "sec": 7214.370030043466
+    },
+    {
+      "jobs": [
+        "dgp5_n500_rho0.95_r3.0"
+      ],
+      "sec": 7214.370030043466
+    },
+    {
+      "jobs": [
+        "dgp5_n500_rho0.95_r4.0"
+      ],
+      "sec": 7214.370030043466
+    },
+    {
+      "jobs": [
+        "dgp5_n1000_rho0.95_r3.0"
+      ],
+      "sec": 35677.998334608346
+    }
+  ],
+  "jobs_longer_than_block_cap": [
+    "cal n=500",
+    "cal n=1000",
+    "dgp5_n1000_rho0.93_r2.0",
+    "dgp5_n1000_rho0.93_r3.0",
+    "dgp5_n1000_rho0.95_r3.0"
+  ],
+  "probes_elapsed_sec": 359.7
+}

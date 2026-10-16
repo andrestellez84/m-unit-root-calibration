@@ -1,0 +1,1 @@
+{"N_sim": 100, "n": 200, "B": 999, "elapsed_sec": 231.52, "adf": {"rejections": 5, "rate": 0.050000, "ci_lower": 0.016432, "ci_upper": 0.112835}, "union": {"rejections": 4, "rate": 0.040000, "ci_lower": 0.011004, "ci_upper": 0.099257}}

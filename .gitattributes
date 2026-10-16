@@ -1,0 +1,3 @@
+# Keep every file byte-for-byte: the manifests record sha256 of the exact bytes,
+# so no end-of-line conversion on checkout (e.g. core.autocrlf on Windows).
+* -text

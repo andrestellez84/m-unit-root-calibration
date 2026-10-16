@@ -1,0 +1,255 @@
+{
+  "provenance": {
+    "script": "experiments/audit8_cache_fix_validate.py",
+    "script_sha256": "01d88be3d99d27ddb32abdc63bbb5fad3ab6129300ba8cfe638b1790a60d314a",
+    "commit": "cc90c3f8d64f6f2f3f33ea477c7eecf42e270229",
+    "worktree_dirty": false,
+    "dirty_files": [],
+    "generated_utc": "2026-09-17T16:54:15.937044+00:00",
+    "seed_family": null,
+    "versions": {
+      "python": "3.11.0",
+      "platform": "Windows-10-10.0.26200-SP0",
+      "numpy": "2.2.4",
+      "scipy": "1.15.2",
+      "numba": "0.65.0",
+      "statsmodels": "0.14.6",
+      "arch": "8.0.0",
+      "pandas": "2.2.3",
+      "joblib": "1.4.2",
+      "matplotlib": "3.10.1",
+      "pytest": "9.0.3"
+    },
+    "code": {
+      "experiments/audit8_b0_inventory.py": {
+        "sha256": "6405cc166459c296fb32c86fed1abff150afc4889ba0598502d8c4e41ea07add",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_np_diagnostic.py": {
+        "sha256": "959b18541923f504c4178fdedd3a7d519a62487930c1de4dbcc8e476e0a43df0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_np_gate.py": {
+        "sha256": "93064f87f144776c7c83ee95d23bdbd7eadf5cbaff08af57297eda3ef37348f0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_regression_child.py": {
+        "sha256": "350b1389b64fdc89098d17861b7196671be9fe66123fb1f0702ddd5229fee150",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_validate.py": {
+        "sha256": "6a268b6ac14f5d05f2dfa26b5430328246f34893439ff6004b308d9a163170b0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2_size.py": {
+        "sha256": "74b1cdbd9f0bba3c77cb495b6c53393ba49eef75ff4f88d41257679ee2d4ff93",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2b_diagnostic.py": {
+        "sha256": "f89de9ed47612633614546168cb1887b0fb1c2faa37283276d03e45dd8096802",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b3_comparators.py": {
+        "sha256": "8a3eecf918ab6293da84be112dfd7008c8c694db16f8b3587b83516b18fcf33d",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b4_local_power.py": {
+        "sha256": "4de18b53c2f31d3d2f7e04fee1d786d42df0ba7998bdf30278b8029acea904c7",
+        "git_state": "committed"
+      },
+      "experiments/audit8_bootstrap_worker.R": {
+        "sha256": "1cb9168eff403a794d7b3933b12bcca3725cb2aa8f6e93279245c00558fb63c2",
+        "git_state": "committed"
+      },
+      "experiments/audit8_cache_fix_validate.py": {
+        "sha256": "01d88be3d99d27ddb32abdc63bbb5fad3ab6129300ba8cfe638b1790a60d314a",
+        "git_state": "committed"
+      },
+      "experiments/audit8_common.py": {
+        "sha256": "5718ec2cfa7f5f5c5f7f8d68ed26198e00ac827fb562cee67b234857e5719f0d",
+        "git_state": "committed"
+      },
+      "experiments/audit8_design.py": {
+        "sha256": "fc16ec4aad70f3011486a6855a022544f585117e8cd9b5fd59793e9d363e08f4",
+        "git_state": "committed"
+      },
+      "experiments/audit8_environment.py": {
+        "sha256": "9b323700e91302ad0090e876b922a38a1dd6b23ef5f19fcc7748d947e617d21e",
+        "git_state": "committed"
+      },
+      "experiments/audit8_generate_report.py": {
+        "sha256": "5c125b2b0ae9722ff14cc4f7f691f2550ebb8d1328e3aedbda2add919de8e07a",
+        "git_state": "committed"
+      },
+      "experiments/audit8_unitroot.py": {
+        "sha256": "9d0842a342f12b9c8a7e3870127768590c53d98c8ca90dbb3a2715ddb16748ef",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/__init__.py": {
+        "sha256": "20ebf29ab1a9a64bb428f25ff0170d67db2354662efb8b973922c3f455f56582",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/constants.py": {
+        "sha256": "de8bd2282ff09c41fc6eae12fcca6695c1fd3a0c9def7628a9b76e9361058907",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/davies.py": {
+        "sha256": "cfad047d0b0676cc83a41208cd600f4224ce61bf03930228a5a80d1d6556c9b9",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/deterministics.py": {
+        "sha256": "31db116abc80e5cab8c97317a31d6f22f1a4ca40c885eef86c134db598dac6b2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/empirical_eigenvalues.py": {
+        "sha256": "f749e2e2de8b807421d6e74836bd5d539eccb314f18821bd38b80e72b5ee72a1",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/full_pipeline.py": {
+        "sha256": "cdbd5405caa50bc83c7348a0a8be9963b522ef4d808024f078f648bb1de89170",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/hac_estimator.py": {
+        "sha256": "f7c22540e6a8e862258cb70e4a839b841453ca9490a01671176431ee4bf678f2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/kl_eigenvalues.py": {
+        "sha256": "c0fb0a90795c904cb2876aa16eff64948e0abf5a27d3a57c6612c2b9ec198903",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/null_quantiles.py": {
+        "sha256": "655458f05815621d015984080169663d2310d26e588a83e2c5a62549ba5a1ae8",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/optimal_weight.py": {
+        "sha256": "47632d98ed256b2364a2ac99de64780e0cd8d42a69c68b4552c6ea0564f86ba4",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/rm_core.py": {
+        "sha256": "4d3ee3f59c569233a5e9a9ed8ffd3032364188545bac04a0cc619ccac39e04e0",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/standardization.py": {
+        "sha256": "cc8cb146d28ea63be86bc11db6cc6c345fbf5fd412055e2e58a33a40f3e8936b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/statistic.py": {
+        "sha256": "f0baf1d99ac4311ca854d350f18a3d3416974bf5d13e662d05149f87183d92ef",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/theta_selection.py": {
+        "sha256": "23eba50e85d0db917d14b4d3d844c42e5ee566dfd326a0fad7feae0dd113f40b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/utils.py": {
+        "sha256": "8a3e0b972da519b3c39ca0e0326953dbae1bf048845c05c1fb3a23a001b72717",
+        "git_state": "committed"
+      }
+    },
+    "code_all_committed": true
+  },
+  "regression": {
+    "pre_fix_commit": "319077fa596e51b879f82ea7228c0814988f9615",
+    "fix_commit": "cc90c3f8d64f6f2f3f33ea477c7eecf42e270229",
+    "series": 100,
+    "max_abs_diff_statistic": 0.0,
+    "max_abs_diff_p_value": 0.0,
+    "null_sample_identical": true,
+    "passed": true
+  },
+  "bug_demonstration": {
+    "code": "import json, sys; from stationarity_test.empirical_eigenvalues import build_null_cdf as b; a = b((0.1, 0.1), 0.5, 60, N_cal=10000, seed=42); c = b((0.1, 0.1), 0.5, 60, N_cal=50000, seed=42); json.dump({'first_len': len(a.x), 'second_len': len(c.x), 'same_object': a is c}, sys.stdout)",
+    "pre_fix": {
+      "first_len": 10000,
+      "second_len": 10000,
+      "same_object": true
+    },
+    "post_fix": {
+      "first_len": 10000,
+      "second_len": 50000,
+      "same_object": false
+    }
+  },
+  "scope_affected": [
+    {
+      "script": "experiments/audit5_tarea3.py",
+      "git_tracked": false,
+      "call_lines": {
+        "res = compute_statistic\\(Y, theta, 0\\.5": 33,
+        "cdf_cache\\[r_name\\] = build_null_cdf\\(theta=t, R=r_val, n=n, N_cal=N_cal, seed=42\\)": 99
+      },
+      "order": "compute_statistic (N_cal = 10000 por defecto, en simulate_components) antes de build_null_cdf(N_cal = 50000) para la misma (theta, R = 0.5, n): la tabla usa la CDF de 10000 para R = 0.5; R = 0.25 y 0.75 no se afectan",
+      "outputs": [
+        "experiments/results/small_n_size_audit5.json"
+      ],
+      "paper": [
+        {
+          "file": "paper/sec5_montecarlo.tex",
+          "line": 109,
+          "values": "0.0330, 0.0390, 0.0366 (theta = 0.1; n = 60, 100, 150)",
+          "reproduced_with_wrong_null_N_cal_10000": true,
+          "reproduced_with_correct_null_N_cal_50000": false,
+          "reproduction_source": "b2b_diagnostic_audit8.json D4_small_n_published"
+        },
+        {
+          "file": "paper/sec5_montecarlo.tex",
+          "line": 116,
+          "values": "0.0428, 0.0424, 0.0420 (theta = 0.5; n = 60, 100, 150)",
+          "reproduction_source": "no reproducida: theta = 0.5 fuera del plan de A8"
+        }
+      ]
+    },
+    {
+      "script": "experiments/audit5_tarea10.py",
+      "git_tracked": false,
+      "call_lines": {
+        "compute_statistic\\(Y, theta, 0\\.5, eps=1e-6, andrews_pilot=\\\"alpha1\\\"\\)": 22,
+        "build_null_cdf\\(theta, 0\\.5, n, N_cal=10000, seed=42\\)": 36,
+        "build_null_cdf\\(theta, 0\\.5, n, N_cal=50000, seed=42\\)": 41
+      },
+      "order": "compute_statistic y build_null_cdf(N_cal = 10000) llenan la cache; la medicion de tiempo de N_cal = 50000 cronometra un acierto de cache",
+      "outputs": [
+        "experiments/results/tarea10_audit5.log"
+      ],
+      "paper": [
+        {
+          "file": "paper/sec4_implementation.tex",
+          "line": 115,
+          "values": "1.02 s (calibracion N_cal = 50000, n = 1000)",
+          "reproduction_source": "no depende de audit5_tarea10: la cifra sale de audit5b_tarea_r6.py, que usa use_cache=False"
+        }
+      ]
+    }
+  ],
+  "scope_scanned_no_collision": {
+    "experiments/audit5_tarea1.py": "build_null_cdf(N_cal = 50000) antes de compute_statistic para cada n: la tabla usa la CDF correcta (Tabla 7; reproducida en B2)",
+    "experiments/audit5_tarea2.py": "build_null_cdf(N_cal = 50000) antes de compute_statistic",
+    "experiments/audit5b_tarea_r6.py": "calibraciones cronometradas con use_cache=False; las cacheadas usan N_cal = 10000, igual que compute_statistic",
+    "experiments/audit2_presend_audit2.py": "build_null_cdf con use_cache=False",
+    "experiments/audit5_tarea9.py": "una sola llamada cacheada (N_cal = 1000)",
+    "experiments/audit5_tarea4.py": "solo build_null_cdf(N_cal = 50000)",
+    "experiments/audit5b_tarea_r3.py": "solo build_null_cdf(N_cal = 50000); sin compute_statistic",
+    "experiments/size_robustness_heavy_tails.py": "solo build_null_cdf(N_cal = 50000); sin compute_statistic",
+    "experiments/power_comparison.py": "solo build_null_cdf(N_cal = 50000); sin compute_statistic",
+    "experiments/audit6_compute_ours_size_control.py": "solo build_null_cdf(N_cal = 50000)",
+    "experiments/audit6_dgp2_break_tests.py": "solo build_null_cdf(N_cal = 50000)",
+    "experiments/audit7_dgp5_runner.py": "solo build_null_cdf(N_cal = 50000); sin compute_statistic",
+    "experiments/audit7_garch_size.py": "use_cache=False",
+    "experiments/audit7_ct_analysis.py": "use_cache=False",
+    "experiments/audit5_tarea8.py": "build_null_cdf_adaptive, cuya clave ya incluia N_cal y semilla",
+    "experiments/audit5_tarea6.py": "calibracion adaptativa propia; compute_statistic sin otra N_cal",
+    "experiments/real_data_validation.py": "stationarity_test y build_null_cdf_adaptive con una sola N_cal"
+  },
+  "b2_columns_cache_free": {
+    "functions": {
+      "replicate_row": false,
+      "cal_row": false,
+      "_null_chunk": false,
+      "rm_stats": false,
+      "comparator_row": false,
+      "np_statistics": false
+    },
+    "cache_free": true,
+    "note": "las filas de B2 usan rm_core.path_statistic y la calibracion propia de B2; el Paso 0 compara el estadistico con compute_statistic, que no depende de la nula"
+  }
+}

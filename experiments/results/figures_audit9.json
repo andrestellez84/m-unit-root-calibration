@@ -1,0 +1,271 @@
+{
+  "provenance": {
+    "script": "experiments/make_figures_audit9.py",
+    "script_sha256": "8af6329fe284ee528882db6cf39a1b0ae1e046806376c60cfd026bfb2b7e587e",
+    "commit": "5ed33acbe51bb0e31c682c66f209c5b9413cbb35",
+    "worktree_dirty": false,
+    "dirty_files": [],
+    "generated_utc": "2026-09-19T06:01:56.234388+00:00",
+    "seed_family": 107,
+    "versions": {
+      "python": "3.11.0",
+      "platform": "Windows-10-10.0.26200-SP0",
+      "numpy": "2.2.4",
+      "scipy": "1.15.2",
+      "numba": "0.65.0",
+      "statsmodels": "0.14.6",
+      "arch": "8.0.0",
+      "pandas": "2.2.3",
+      "joblib": "1.4.2",
+      "matplotlib": "3.10.1",
+      "pytest": "9.0.3"
+    },
+    "code": {
+      "experiments/audit8_b0_inventory.py": {
+        "sha256": "6405cc166459c296fb32c86fed1abff150afc4889ba0598502d8c4e41ea07add",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_np_diagnostic.py": {
+        "sha256": "959b18541923f504c4178fdedd3a7d519a62487930c1de4dbcc8e476e0a43df0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_np_gate.py": {
+        "sha256": "93064f87f144776c7c83ee95d23bdbd7eadf5cbaff08af57297eda3ef37348f0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_regression_child.py": {
+        "sha256": "350b1389b64fdc89098d17861b7196671be9fe66123fb1f0702ddd5229fee150",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_validate.py": {
+        "sha256": "6a268b6ac14f5d05f2dfa26b5430328246f34893439ff6004b308d9a163170b0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2_size.py": {
+        "sha256": "74b1cdbd9f0bba3c77cb495b6c53393ba49eef75ff4f88d41257679ee2d4ff93",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2b_diagnostic.py": {
+        "sha256": "f89de9ed47612633614546168cb1887b0fb1c2faa37283276d03e45dd8096802",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2b_indep.py": {
+        "sha256": "47eb0f404478d0bac66bab7ea2002a24956ceeb287bdcb5bd441ee5fc0c8dda5",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b3_comparators.py": {
+        "sha256": "a4589a8ab3fe02284549b02f9c2078ad34172ddab47b268ce5c1ce4c444fc363",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b4_local_power.py": {
+        "sha256": "4de18b53c2f31d3d2f7e04fee1d786d42df0ba7998bdf30278b8029acea904c7",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b5_power.py": {
+        "sha256": "561c9dd52313c70d193ebe7ea772b3dbf91db2e691019eec3f5e76c4c8c28092",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b6_application.py": {
+        "sha256": "917157d7367c201cb4e92c2eafd1cb4f3d6f68d44dfbc9f6713c0ecb7e28de07",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b7_critical_values.py": {
+        "sha256": "1a228203fb9b1ed38020fe40ec4e6e690ea05c6bf152ceca42a82cc7f2d1c801",
+        "git_state": "committed"
+      },
+      "experiments/audit8_cache_fix_validate.py": {
+        "sha256": "01d88be3d99d27ddb32abdc63bbb5fad3ab6129300ba8cfe638b1790a60d314a",
+        "git_state": "committed"
+      },
+      "experiments/audit8_common.py": {
+        "sha256": "5718ec2cfa7f5f5c5f7f8d68ed26198e00ac827fb562cee67b234857e5719f0d",
+        "git_state": "committed"
+      },
+      "experiments/audit8_design.py": {
+        "sha256": "ad80aeae74d44ff4cecbd10dbfc480d24c146b81ec8f9d6561f95b7ba7079ae0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_environment.py": {
+        "sha256": "9b323700e91302ad0090e876b922a38a1dd6b23ef5f19fcc7748d947e617d21e",
+        "git_state": "committed"
+      },
+      "experiments/audit8_figconfig.py": {
+        "sha256": "eb516777a764ee78828acf7a5c743c4e9d8f5aab57b98550606354793d467e12",
+        "git_state": "committed"
+      },
+      "experiments/audit8_generate_report.py": {
+        "sha256": "91157e2576bec679f9f826423f55b6de104a01380651c9648a3aa25adac78819",
+        "git_state": "committed"
+      },
+      "experiments/audit8_unitroot.py": {
+        "sha256": "9d0842a342f12b9c8a7e3870127768590c53d98c8ca90dbb3a2715ddb16748ef",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b90_protocol.py": {
+        "sha256": "5e0a7109f7d1a7737ed2558ccc1766b36c61e0ead19738e9da6512af0d58e590",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b91_equalized.py": {
+        "sha256": "66be775e81bb3ddeadc202237f1343a4d231138274eb8387cc5ac48c1366b9b9",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b92_theta.py": {
+        "sha256": "56b784b7534e466897a6b31400dc17906ad101d2d114e93f9d5bb95b55c65af5",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b93_attribution.py": {
+        "sha256": "0c6a42942f19a4b0f07cf102704a98e4c17f76815a53bbb1e0407bb3119dd6ee",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b94_finite_sample.py": {
+        "sha256": "b5c5b0acc0792baaec3499d386bbce7768142ca4e37ca1ac03fb23914a0daae5",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b95_awb.py": {
+        "sha256": "f60dcb418bb045ef40684fc8572d74e578459d40d28925dd7c30bbac79dbf0c0",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b96_application.py": {
+        "sha256": "0ff5e46367a3f1dfae0a92aa02fd0fdf13b64efab897de61eaafb81599f468b4",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b97_critical_values.py": {
+        "sha256": "774956681a4c6536cfab497326e032518cb97c10a0aacf9bffd38ee92aef14f3",
+        "git_state": "committed"
+      },
+      "experiments/audit9_calibrate.py": {
+        "sha256": "d2f7ac2cd3d5fa866fac21379f79a60535749e8db61d02135aaea99ec0b75bbd",
+        "git_state": "committed"
+      },
+      "experiments/audit9_common.py": {
+        "sha256": "39fbee3c398de920ba2f9c4400ac6254c58d9fb537c6f97649c8299ea39e78f7",
+        "git_state": "committed"
+      },
+      "experiments/audit9_design.py": {
+        "sha256": "e25486561a4c06643807b4035e2beeb0436558b1157bfb3b7a866e5e7cb815ac",
+        "git_state": "committed"
+      },
+      "experiments/audit9_engine.py": {
+        "sha256": "8f8bd7a817178056d2e55a4c518bfc2188737c02c3f56cf467d15972ac651e1b",
+        "git_state": "committed"
+      },
+      "experiments/audit9_figconfig.py": {
+        "sha256": "502fc40d79bdec85ad4ebac69ee33949903c4c8b5e14ed5558ab3b6b985b8080",
+        "git_state": "committed"
+      },
+      "experiments/audit9_generate_report.py": {
+        "sha256": "784e49bcfb6de933352e8ae169c515d06f4f7da4f44fd6b3f9ca4da921b41004",
+        "git_state": "committed"
+      },
+      "experiments/make_figures_audit9.py": {
+        "sha256": "8af6329fe284ee528882db6cf39a1b0ae1e046806376c60cfd026bfb2b7e587e",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/__init__.py": {
+        "sha256": "20ebf29ab1a9a64bb428f25ff0170d67db2354662efb8b973922c3f455f56582",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/constants.py": {
+        "sha256": "de8bd2282ff09c41fc6eae12fcca6695c1fd3a0c9def7628a9b76e9361058907",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/davies.py": {
+        "sha256": "cfad047d0b0676cc83a41208cd600f4224ce61bf03930228a5a80d1d6556c9b9",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/deterministics.py": {
+        "sha256": "31db116abc80e5cab8c97317a31d6f22f1a4ca40c885eef86c134db598dac6b2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/empirical_eigenvalues.py": {
+        "sha256": "f749e2e2de8b807421d6e74836bd5d539eccb314f18821bd38b80e72b5ee72a1",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/full_pipeline.py": {
+        "sha256": "cdbd5405caa50bc83c7348a0a8be9963b522ef4d808024f078f648bb1de89170",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/hac_estimator.py": {
+        "sha256": "f7c22540e6a8e862258cb70e4a839b841453ca9490a01671176431ee4bf678f2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/kl_eigenvalues.py": {
+        "sha256": "c0fb0a90795c904cb2876aa16eff64948e0abf5a27d3a57c6612c2b9ec198903",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/null_quantiles.py": {
+        "sha256": "655458f05815621d015984080169663d2310d26e588a83e2c5a62549ba5a1ae8",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/optimal_weight.py": {
+        "sha256": "47632d98ed256b2364a2ac99de64780e0cd8d42a69c68b4552c6ea0564f86ba4",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/rm_core.py": {
+        "sha256": "4d3ee3f59c569233a5e9a9ed8ffd3032364188545bac04a0cc619ccac39e04e0",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/standardization.py": {
+        "sha256": "cc8cb146d28ea63be86bc11db6cc6c345fbf5fd412055e2e58a33a40f3e8936b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/statistic.py": {
+        "sha256": "f0baf1d99ac4311ca854d350f18a3d3416974bf5d13e662d05149f87183d92ef",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/theta_selection.py": {
+        "sha256": "23eba50e85d0db917d14b4d3d844c42e5ee566dfd326a0fad7feae0dd113f40b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/utils.py": {
+        "sha256": "8a3e0b972da519b3c39ca0e0326953dbae1bf048845c05c1fb3a23a001b72717",
+        "git_state": "committed"
+      }
+    },
+    "code_all_committed": true
+  },
+  "primary_theta": 0.1,
+  "sources": [
+    "b92_theta_audit9.json",
+    "b91_equalized_audit9.json",
+    "b3_comparators_audit8.json",
+    "b5_power_audit8.json",
+    "b95_awb_audit9.json"
+  ],
+  "figures": {
+    "fig_local_power_audit9.pdf": {
+      "sha256": "ba3f8e4e750e4ed11267842791b2770ebb6b50b8d4bb94ca3a950eaad0de4775",
+      "paper_copy": "paper/figures/fig_local_power_audit9.pdf",
+      "paper_copy_sha256": "ba3f8e4e750e4ed11267842791b2770ebb6b50b8d4bb94ca3a950eaad0de4775",
+      "bytes": 20716
+    },
+    "fig_theta_ladder_audit9.pdf": {
+      "sha256": "9ce0ef1ac9659d13140ad8cc1be194d038bc25184d904fbe8266842841485c37",
+      "paper_copy": "paper/figures/fig_theta_ladder_audit9.pdf",
+      "paper_copy_sha256": "9ce0ef1ac9659d13140ad8cc1be194d038bc25184d904fbe8266842841485c37",
+      "bytes": 12788
+    },
+    "fig_power_equalized_audit9.pdf": {
+      "sha256": "873650833377e250200d6b45c75d9e0b74a8a89434bb8c0c196396d2ed7e0afb",
+      "paper_copy": "paper/figures/fig_power_equalized_audit9.pdf",
+      "paper_copy_sha256": "873650833377e250200d6b45c75d9e0b74a8a89434bb8c0c196396d2ed7e0afb",
+      "bytes": 27897
+    },
+    "fig_size_shift_audit9.pdf": {
+      "sha256": "b9ba2d20a5732daabaff96f21d951ebd2c7efd2a5c0f15b2a33a7685d484938c",
+      "paper_copy": "paper/figures/fig_size_shift_audit9.pdf",
+      "paper_copy_sha256": "b9ba2d20a5732daabaff96f21d951ebd2c7efd2a5c0f15b2a33a7685d484938c",
+      "bytes": 19279
+    },
+    "fig_dgp3_audit9.pdf": {
+      "sha256": "60e117b3ed5bcb21e7dde430b1852ca0af1c32addc740f43ffde4acb4d9576fe",
+      "paper_copy": "paper/figures/fig_dgp3_audit9.pdf",
+      "paper_copy_sha256": "60e117b3ed5bcb21e7dde430b1852ca0af1c32addc740f43ffde4acb4d9576fe",
+      "bytes": 19402
+    }
+  },
+  "notes": {
+    "fig_size_shift_audit9.pdf": "AWB DF-GLS arrastrado de A8 (b3_comparators_audit8.json, referencia gaussiana independiente de la familia 92); el resto, referencia de B9.2",
+    "fig_dgp3_audit9.pdf": "ADF y DF-GLS con valor critico simulado; AWB DF-GLS de A8 (b5_power_audit8.json)"
+  }
+}

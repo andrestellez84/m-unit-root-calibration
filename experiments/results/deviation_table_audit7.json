@@ -1,0 +1,348 @@
+{
+  "provenance": {
+    "dgp": "deviation_table",
+    "n_sim": null,
+    "seed_formula": null,
+    "generated_utc": "2026-09-15T19:20:01.379713+00:00",
+    "commit": "724e37a556b91bb64c91d077fe1715cffb8ce032",
+    "worktree_dirty": false,
+    "entry_point": "experiments/audit7_deviation_table.py",
+    "code": {
+      "experiments/audit7_block1_budget.py": {
+        "sha256": "d6925aea8fb5f372eb3ca06d39a7b0d346882fa3513f2d402bab01dfd02fe5e9",
+        "git_state": "committed"
+      },
+      "experiments/audit7_block1_budget_cores.py": {
+        "sha256": "390bb6a177e80b2596c1dec8b7545cb26de17521ecb8f71f8575db1e86c428d1",
+        "git_state": "committed"
+      },
+      "experiments/audit7_bootstrap_cost_diag.py": {
+        "sha256": "a8873dc335ebf7df57090356e609fdf357ad176d4b152f2f7b5924a1264e4fea",
+        "git_state": "committed"
+      },
+      "experiments/audit7_bootstrap_size_diag.py": {
+        "sha256": "13fb2391b0b2b6f4672973829ee1c8b1de2fcbbc5c1d517c9175c192fee6f7b6",
+        "git_state": "committed"
+      },
+      "experiments/audit7_bootstrap_worker.R": {
+        "sha256": "ffb1f51b5cbb4f54486c98d589a83661900cf4352f62e056081977c21d6bdfe2",
+        "git_state": "committed"
+      },
+      "experiments/audit7_common.py": {
+        "sha256": "5226727fc5a7f3b045d54b7ae5d561ff8c04756ad906d12a017d6d49a942e92a",
+        "git_state": "committed"
+      },
+      "experiments/audit7_ct_analysis.py": {
+        "sha256": "938ed2d761a289e9dfab76c9ec9dfb6e1d2c1d3273e26c3bee49936dcc6e53f6",
+        "git_state": "committed"
+      },
+      "experiments/audit7_ct_design.py": {
+        "sha256": "2cd4ee56b6b1e1fe1c4f8a46a4a3b57046a2901fbc509cb9b294e72a0a538647",
+        "git_state": "committed"
+      },
+      "experiments/audit7_ct_runner.py": {
+        "sha256": "c5a08dadd11d6870f2b36f6abc69666ccfe72191dbff50702391447ca7a4a68f",
+        "git_state": "committed"
+      },
+      "experiments/audit7_ct_verify.py": {
+        "sha256": "7da986449f411b4094bb6882b4bb003040477c5cae57555b47d782a316dee3ec",
+        "git_state": "committed"
+      },
+      "experiments/audit7_design.py": {
+        "sha256": "fb966e5a334cdd0f1f63632f28fbc5f6d9195d56de34065305639b56f10dc769",
+        "git_state": "committed"
+      },
+      "experiments/audit7_deviation_table.py": {
+        "sha256": "dec35fc90dfe366bfe998ed2927d72d0928b3b4f1d5fa735289d15cb5e9d2412",
+        "git_state": "committed"
+      },
+      "experiments/audit7_dgp3_recast.py": {
+        "sha256": "81adb35a49691b8ef54da5c4e3c7485daf67a87e1445b70f06816edafeaebef7",
+        "git_state": "committed"
+      },
+      "experiments/audit7_dgp5_analysis.py": {
+        "sha256": "7445da3a421063e937c8e2516167f0d0bb7aa2144ad9c1db263ac0c3df44ab61",
+        "git_state": "committed"
+      },
+      "experiments/audit7_dgp5_runner.py": {
+        "sha256": "bdd056463c63826f3260011e53b06bfb054d6678c0bfed9eca5af562ed92608f",
+        "git_state": "committed"
+      },
+      "experiments/audit7_figures.py": {
+        "sha256": "fe59cba5cc5486ad72f67d776aa60d9b7618008890c2b320a4d9107bee80bb82",
+        "git_state": "committed"
+      },
+      "experiments/audit7_garch_size.py": {
+        "sha256": "25d658df30e2098e8a40c483ff86d514a017ff2b4bc6371c1371483a0ce842dd",
+        "git_state": "committed"
+      },
+      "experiments/audit7_kappa2.py": {
+        "sha256": "c988ed16db23a3023e493fa30aabdf509c259a1186ad89467e8cf7477e92b7fb",
+        "git_state": "committed"
+      },
+      "experiments/audit7_kappa2_diagnosis.py": {
+        "sha256": "45a0870463adc101d485659be88d679694510e80caf0b269ec4fbebfd14bc60c",
+        "git_state": "committed"
+      },
+      "experiments/audit7_kappa2_handicap.py": {
+        "sha256": "280073a1fdbc290dec084e81ef6428ce1ea376ad9be4f383858a3d25b5af779f",
+        "git_state": "committed"
+      },
+      "experiments/audit7_kappa2_simcv.py": {
+        "sha256": "2a17238f738e02e99006e9f570d15908b6320e04f88efca78fe116ced86d7942",
+        "git_state": "committed"
+      },
+      "experiments/audit7_kappa2_validation.py": {
+        "sha256": "969bbdd4994484c799653f63a862945cf0401e1811cd51ca7025b1ed48f01e3c",
+        "git_state": "committed"
+      },
+      "experiments/audit7_paso0_block1.py": {
+        "sha256": "c337c69c03eb96e9acb62639ca0b2834758b14748739eb5a6f3dbe6eac360ee3",
+        "git_state": "committed"
+      },
+      "experiments/audit7_readout.py": {
+        "sha256": "de17f6047c662fba90dd661efdff26c35d9138fcfd3d48793190283cf9bb0370",
+        "git_state": "committed"
+      },
+      "experiments/audit7_seed_blocks_all.py": {
+        "sha256": "3c39650ef1b9b5c4167d7a6a55dcfc762e7b24e76c214e16eab2bf3f25c3a178",
+        "git_state": "committed"
+      },
+      "experiments/audit7_seed_control_a6.py": {
+        "sha256": "0d31b5ec0e655cff94a859b0e8fca8dc017fe1e4f005aedc4415b6998dd5cb54",
+        "git_state": "committed"
+      },
+      "experiments/audit7_write_amendment.py": {
+        "sha256": "99afdd70001aaf6570bfa2bc34c7c4b6d27b09b92b021b8a9a089bdc947ab3c3",
+        "git_state": "committed"
+      },
+      "experiments/audit7_write_amendment2.py": {
+        "sha256": "5216549b441b78aa34036611d2ccc3ac6b79864cb9aafbe4146ec1fd57f113fe",
+        "git_state": "committed"
+      }
+    },
+    "code_all_committed": true,
+    "sources": {
+      "real_data": "b0d9fe841cd94a0613f4f2742569df573ebce10c0aced7fc4233576a4dad2897",
+      "dkw": "a716f8c16093018d7bafdab3c7351363dc96dc702392fa2dce4d1b07047f7858",
+      "k2val": "2630cc7c991c8498368f33477714e3c0d1af49a12cfd0c2e121cf50783f6b720",
+      "k2sim": "1f1ef5468c15fe7c71310b733ab601280c2c995febd28a087f8475a7928cb7a7",
+      "dgp5": "17ddf6cd5fd57d82e126ab09bb97b27733c64992e6686531d7bbdfe71dbfb7d6",
+      "paso0": "4fc74dd7a6c4438b87330cb799b2e2e4085d8d28591ac78adc108e162f6af35f",
+      "ct": "627f1e9397d4a89f00a041b08f04a6f0c424446f7d8e7d8908bd6565d2cbc2ff"
+    }
+  },
+  "format": "Registered Reports deviation table",
+  "rows": [
+    {
+      "id": "i",
+      "audit": "A5bis",
+      "element": "piloto de Andrews del ancho de banda HAC",
+      "preregistered": "alpha(2)",
+      "deployed": "alpha(1) (corregido)",
+      "metric": "FP media del test propuesto en la validacion con datos reales (N_cal 10000 en ambas)",
+      "preregistered_value": 0.027695742047260757,
+      "deployed_value": 0.027858723906671184,
+      "impact": {
+        "difference": 0.00016298185941042778,
+        "max_abs_h0_size_change_by_n": 0.0002
+      },
+      "sources": [
+        {
+          "file": "experiments/results/real_data_comparison_audit5b.json",
+          "path": "summary/{repro,a1_10k}/mean_fp/ours"
+        },
+        {
+          "file": "experiments/results/size_robustness_dkw_audit6.json",
+          "path": "pilot_deviations/h0_size/*/diff"
+        }
+      ]
+    },
+    {
+      "id": "ii",
+      "audit": "A6",
+      "element": "tamano de la calibracion de la nula (N_cal)",
+      "preregistered": "N_cal = 50000",
+      "deployed": "N_cal = 10000",
+      "metric": "cota DKW epsilon de la CDF empirica (95%)",
+      "preregistered_value": 0.0061,
+      "deployed_value": 0.0136,
+      "impact": {
+        "epsilon_exact_preregistered": 0.006073614619083051,
+        "epsilon_exact_deployed": 0.013581015157406196
+      },
+      "sources": [
+        {
+          "file": "experiments/results/size_robustness_dkw_audit6.json",
+          "path": "metadata/dkw_bounds/{N_50000,N_10000}"
+        }
+      ]
+    },
+    {
+      "id": "iii",
+      "audit": "A7",
+      "element": "valor critico de kappa_2 en la union",
+      "preregistered": "asintotico (sup del puente browniano)",
+      "deployed": "simulado por n (N_cal 5000)",
+      "metric": "compuerta nominal de tamano de kappa_2 y valor critico simulado al 5%",
+      "preregistered_value": {
+        "gate_verdict": "FALLA",
+        "failed_cells": 6,
+        "cells": 6
+      },
+      "deployed_value": {
+        "200": 1.2841884385577336,
+        "500": 1.3090397729750363,
+        "1000": 1.3265870773530493
+      },
+      "impact": {
+        "out_of_sample_ar093_in_region": {
+          "200": false,
+          "500": true,
+          "1000": true
+        }
+      },
+      "sources": [
+        {
+          "file": "experiments/results/kappa2_validation_audit7.json",
+          "path": "gate"
+        },
+        {
+          "file": "experiments/results/kappa2_simcv_audit7.json",
+          "path": "cells/*"
+        }
+      ]
+    },
+    {
+      "id": "iv",
+      "audit": "A7",
+      "element": "comparador de la prediccion 1",
+      "preregistered": "union Bonferroni (bootstrap DF-GLS y kappa_2 a alpha/2)",
+      "deployed": "union calibrada conjuntamente como principal; Bonferroni como secundaria",
+      "metric": "tamano empirico sobre la calibracion bajo la nula compuesta",
+      "preregistered_value": {
+        "200": 0.0488,
+        "500": 0.0484
+      },
+      "deployed_value": {
+        "200": {
+          "alpha_star": 0.025599999999999873,
+          "size": 0.05
+        },
+        "500": {
+          "alpha_star": 0.025799999999999573,
+          "size": 0.05
+        }
+      },
+      "impact": "ninguno sobre el veredicto: la prediccion 1 no se cumple frente a ninguna de las dos",
+      "sources": [
+        {
+          "file": "experiments/results/dgp5_mixed_audit7.json",
+          "path": "calibration_by_n/*"
+        }
+      ]
+    },
+    {
+      "id": "v",
+      "audit": "A7",
+      "element": "rejilla de DGP 5",
+      "preregistered": "celdas de la especificacion revisada, con confirmacion a n=1000",
+      "deployed": "n=1000 retirado; extension de quiebres debiles como contraste post-registro",
+      "metric": "celdas",
+      "preregistered_value": 27,
+      "deployed_value": {
+        "analysed": 42,
+        "withdrawn": [
+          "adaptnull_n1000",
+          "cal_rw_n1000",
+          "dgp5_n1000_rho0.93_r2.0",
+          "dgp5_n1000_rho0.93_r3.0",
+          "dgp5_n1000_rho0.95_r3.0"
+        ],
+        "post_registration_extension": 18
+      },
+      "impact": "la condicion de falsacion se evalua literalmente sobre el interior registrado; la extension no la anula",
+      "sources": [
+        {
+          "file": "experiments/results/dgp5_mixed_audit7.json",
+          "path": "cells, withdrawn"
+        },
+        {
+          "file": "experiments/enmienda2_dgp5_audit7.md",
+          "path": "secciones 3-5"
+        }
+      ]
+    },
+    {
+      "id": "vi",
+      "audit": "A7",
+      "element": "formulas de semillas",
+      "preregistered": "formulas aditivas del prompt (p. ej. 700000 + n*100 + int(param*100))",
+      "deployed": "familia*10^8 + celda*10^5",
+      "metric": "colisiones y pares de celdas con bloques solapados en el Bloque 1",
+      "preregistered_value": "no evaluado en este archivo (ver paso0_pairing_audit7.json)",
+      "deployed_value": {
+        "exact_collisions": 0,
+        "overlapping_pairs": 0
+      },
+      "impact": "celdas estadisticamente independientes salvo los numeros aleatorios comunes declarados",
+      "sources": [
+        {
+          "file": "experiments/results/paso0_block1_audit7.json",
+          "path": "seed_overlap_block1"
+        }
+      ]
+    },
+    {
+      "id": "vii",
+      "audit": "A7",
+      "element": "compuerta de tamano del caso ct (verificacion 3)",
+      "preregistered": "tamano en la region binomial exacta en las 9 celdas y sin dependencia de mu",
+      "deployed": "re-especificada por el autor despues de los datos: valida la no dependencia de mu; el tamano se reporta con el caveat de conservadurismo a n=200 del caso c",
+      "metric": "tasa del test ct (nula del paquete, QD) y de la referencia c sobre las mismas innovaciones, mu = 0",
+      "preregistered_value": {
+        "band": [
+          0.044,
+          0.0562
+        ],
+        "passed": false
+      },
+      "deployed_value": {
+        "ctsize_n200_mu0.00": {
+          "ct_qd": 0.0388,
+          "c_reference": 0.04
+        },
+        "ctsize_n500_mu0.00": {
+          "ct_qd": 0.0448,
+          "c_reference": 0.051
+        },
+        "ctsize_n1000_mu0.00": {
+          "ct_qd": 0.0454,
+          "c_reference": 0.0502
+        }
+      },
+      "impact": {
+        "mu_dependence": {
+          "n200": {
+            "max_rel_diff_statistic_vs_mu0": 5.49113800810594e-15,
+            "rejection_vectors_identical": true
+          },
+          "n500": {
+            "max_rel_diff_statistic_vs_mu0": 7.220569122827164e-15,
+            "rejection_vectors_identical": true
+          },
+          "n1000": {
+            "max_rel_diff_statistic_vs_mu0": 9.213288506758312e-15,
+            "rejection_vectors_identical": true
+          }
+        }
+      },
+      "sources": [
+        {
+          "file": "experiments/results/ct_case_audit7.json",
+          "path": "verifications/V3_exact_size, size_ct_under_h0_with_drift"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "provenance": {
+    "dgp": "figures",
+    "n_sim": null,
+    "seed_formula": null,
+    "generated_utc": "2026-09-15T19:21:13.328125+00:00",
+    "commit": "5a9ec03c8f38d23d420ec24ced53898d5c12f77d",
+    "worktree_dirty": true,
+    "entry_point": "experiments/audit7_figures.py",
+    "code": {
+      "experiments/audit7_block1_budget.py": {
+        "sha256": "d6925aea8fb5f372eb3ca06d39a7b0d346882fa3513f2d402bab01dfd02fe5e9",
+        "git_state": "committed"
+      },
+      "experiments/audit7_block1_budget_cores.py": {
+        "sha256": "390bb6a177e80b2596c1dec8b7545cb26de17521ecb8f71f8575db1e86c428d1",
+        "git_state": "committed"
+      },
+      "experiments/audit7_bootstrap_cost_diag.py": {
+        "sha256": "a8873dc335ebf7df57090356e609fdf357ad176d4b152f2f7b5924a1264e4fea",
+        "git_state": "committed"
+      },
+      "experiments/audit7_bootstrap_size_diag.py": {
+        "sha256": "13fb2391b0b2b6f4672973829ee1c8b1de2fcbbc5c1d517c9175c192fee6f7b6",
+        "git_state": "committed"
+      },
+      "experiments/audit7_bootstrap_worker.R": {
+        "sha256": "ffb1f51b5cbb4f54486c98d589a83661900cf4352f62e056081977c21d6bdfe2",
+        "git_state": "committed"
+      },
+      "experiments/audit7_common.py": {
+        "sha256": "5226727fc5a7f3b045d54b7ae5d561ff8c04756ad906d12a017d6d49a942e92a",
+        "git_state": "committed"
+      },
+      "experiments/audit7_ct_analysis.py": {
+        "sha256": "938ed2d761a289e9dfab76c9ec9dfb6e1d2c1d3273e26c3bee49936dcc6e53f6",
+        "git_state": "committed"
+      },
+      "experiments/audit7_ct_design.py": {
+        "sha256": "2cd4ee56b6b1e1fe1c4f8a46a4a3b57046a2901fbc509cb9b294e72a0a538647",
+        "git_state": "committed"
+      },
+      "experiments/audit7_ct_runner.py": {
+        "sha256": "c5a08dadd11d6870f2b36f6abc69666ccfe72191dbff50702391447ca7a4a68f",
+        "git_state": "committed"
+      },
+      "experiments/audit7_ct_verify.py": {
+        "sha256": "7da986449f411b4094bb6882b4bb003040477c5cae57555b47d782a316dee3ec",
+        "git_state": "committed"
+      },
+      "experiments/audit7_design.py": {
+        "sha256": "fb966e5a334cdd0f1f63632f28fbc5f6d9195d56de34065305639b56f10dc769",
+        "git_state": "committed"
+      },
+      "experiments/audit7_deviation_table.py": {
+        "sha256": "dec35fc90dfe366bfe998ed2927d72d0928b3b4f1d5fa735289d15cb5e9d2412",
+        "git_state": "committed"
+      },
+      "experiments/audit7_dgp3_recast.py": {
+        "sha256": "81adb35a49691b8ef54da5c4e3c7485daf67a87e1445b70f06816edafeaebef7",
+        "git_state": "committed"
+      },
+      "experiments/audit7_dgp5_analysis.py": {
+        "sha256": "7445da3a421063e937c8e2516167f0d0bb7aa2144ad9c1db263ac0c3df44ab61",
+        "git_state": "committed"
+      },
+      "experiments/audit7_dgp5_runner.py": {
+        "sha256": "bdd056463c63826f3260011e53b06bfb054d6678c0bfed9eca5af562ed92608f",
+        "git_state": "committed"
+      },
+      "experiments/audit7_figures.py": {
+        "sha256": "5ab3a21d137fa4400242f19d922aeaca9137c98260db87237b06141e24ba2bd8",
+        "git_state": "committed"
+      },
+      "experiments/audit7_garch_size.py": {
+        "sha256": "25d658df30e2098e8a40c483ff86d514a017ff2b4bc6371c1371483a0ce842dd",
+        "git_state": "committed"
+      },
+      "experiments/audit7_kappa2.py": {
+        "sha256": "c988ed16db23a3023e493fa30aabdf509c259a1186ad89467e8cf7477e92b7fb",
+        "git_state": "committed"
+      },
+      "experiments/audit7_kappa2_diagnosis.py": {
+        "sha256": "45a0870463adc101d485659be88d679694510e80caf0b269ec4fbebfd14bc60c",
+        "git_state": "committed"
+      },
+      "experiments/audit7_kappa2_handicap.py": {
+        "sha256": "280073a1fdbc290dec084e81ef6428ce1ea376ad9be4f383858a3d25b5af779f",
+        "git_state": "committed"
+      },
+      "experiments/audit7_kappa2_simcv.py": {
+        "sha256": "2a17238f738e02e99006e9f570d15908b6320e04f88efca78fe116ced86d7942",
+        "git_state": "committed"
+      },
+      "experiments/audit7_kappa2_validation.py": {
+        "sha256": "969bbdd4994484c799653f63a862945cf0401e1811cd51ca7025b1ed48f01e3c",
+        "git_state": "committed"
+      },
+      "experiments/audit7_paso0_block1.py": {
+        "sha256": "c337c69c03eb96e9acb62639ca0b2834758b14748739eb5a6f3dbe6eac360ee3",
+        "git_state": "committed"
+      },
+      "experiments/audit7_readout.py": {
+        "sha256": "de17f6047c662fba90dd661efdff26c35d9138fcfd3d48793190283cf9bb0370",
+        "git_state": "committed"
+      },
+      "experiments/audit7_seed_blocks_all.py": {
+        "sha256": "3c39650ef1b9b5c4167d7a6a55dcfc762e7b24e76c214e16eab2bf3f25c3a178",
+        "git_state": "committed"
+      },
+      "experiments/audit7_seed_control_a6.py": {
+        "sha256": "0d31b5ec0e655cff94a859b0e8fca8dc017fe1e4f005aedc4415b6998dd5cb54",
+        "git_state": "committed"
+      },
+      "experiments/audit7_write_amendment.py": {
+        "sha256": "99afdd70001aaf6570bfa2bc34c7c4b6d27b09b92b021b8a9a089bdc947ab3c3",
+        "git_state": "committed"
+      },
+      "experiments/audit7_write_amendment2.py": {
+        "sha256": "5216549b441b78aa34036611d2ccc3ac6b79864cb9aafbe4146ec1fd57f113fe",
+        "git_state": "committed"
+      }
+    },
+    "code_all_committed": true
+  },
+  "figures": {
+    "dgp1_power_curves.pdf": "3c9fc6a2664bf320a65a3fe58747d4d0fe79993eea5bd1694f7df8b0e8e422ef",
+    "dgp2_mean_break.pdf": "3a52aa790f75acce2b3976559c22e56796d1dc078b31fc7abc5731aecb536dae",
+    "dgp3_variance_break.pdf": "7a934409250b9678638c97872609bf43cb43e40cbb62b4fc0214755fd40aee49",
+    "dgp4_components.pdf": "56af87445b7c76e29f335e1901dc9f7f0dce3831f8340a753b562f2fa62b8ef0",
+    "dgp5_mixed_power.pdf": "406cb97e6a78b85902a00c6750b4a8dac9e78b558ebf5cbc64cd633372eff9a1"
+  },
+  "sources_sha256": {
+    "power_comparison_dgp1.json": "aaba367038da9fbb134fbcbb26bf4b393de8f2e1389bdc37409fef426fb83b26",
+    "wild_bootstrap_r_audit6.json": "d9269ed73de0fe413d16a369764858d4c1cfe2e8ebe9fd2b830ddbdf0cff480a",
+    "power_comparison_dgp2.json": "6d528f3c42e9385e42e63dfb263a83a80f3f1917c61c79b7daeb26689d1e6593",
+    "dgp2_break_tests_audit6.json": "7ab012e6ef7928ac7ebe1c8a5e265083ef4dd074f37184e2096845df317de7a2",
+    "power_comparison_dgp34_alpha1_audit5b.json": "dadc3dcdc36ef28ed529a6cd190f989f17b80fae699041d6973265c046eb2faa",
+    "power_comparison_dgp3.json": "7b448817a2848c93322c85f76907d516229eaaa7525acaec8c1600db74ab7ad8",
+    "dgp5_mixed_audit7.json": "17ddf6cd5fd57d82e126ab09bb97b27733c64992e6686531d7bbdfe71dbfb7d6"
+  }
+}

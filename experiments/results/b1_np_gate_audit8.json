@@ -1,0 +1,347 @@
+{
+  "provenance": {
+    "script": "experiments/audit8_b1_np_gate.py",
+    "script_sha256": "93064f87f144776c7c83ee95d23bdbd7eadf5cbaff08af57297eda3ef37348f0",
+    "commit": "ea8d4acbcc47947e0237f0ff0306ae215640667e",
+    "worktree_dirty": false,
+    "dirty_files": [],
+    "generated_utc": "2026-09-17T08:29:21.182806+00:00",
+    "seed_family": 91,
+    "versions": {
+      "python": "3.11.0",
+      "platform": "Windows-10-10.0.26200-SP0",
+      "numpy": "2.2.4",
+      "scipy": "1.15.2",
+      "numba": "0.65.0",
+      "statsmodels": "0.14.6",
+      "arch": "8.0.0",
+      "pandas": "2.2.3",
+      "joblib": "1.4.2",
+      "matplotlib": "3.10.1",
+      "pytest": "9.0.3"
+    },
+    "code": {
+      "experiments/audit8_b0_inventory.py": {
+        "sha256": "6405cc166459c296fb32c86fed1abff150afc4889ba0598502d8c4e41ea07add",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_np_diagnostic.py": {
+        "sha256": "959b18541923f504c4178fdedd3a7d519a62487930c1de4dbcc8e476e0a43df0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_np_gate.py": {
+        "sha256": "93064f87f144776c7c83ee95d23bdbd7eadf5cbaff08af57297eda3ef37348f0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_regression_child.py": {
+        "sha256": "350b1389b64fdc89098d17861b7196671be9fe66123fb1f0702ddd5229fee150",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_validate.py": {
+        "sha256": "6a268b6ac14f5d05f2dfa26b5430328246f34893439ff6004b308d9a163170b0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_common.py": {
+        "sha256": "5718ec2cfa7f5f5c5f7f8d68ed26198e00ac827fb562cee67b234857e5719f0d",
+        "git_state": "committed"
+      },
+      "experiments/audit8_design.py": {
+        "sha256": "d196ade42cbe593fbe325b9d9f472d12531225963d00b778e4450dccefc1fe54",
+        "git_state": "committed"
+      },
+      "experiments/audit8_environment.py": {
+        "sha256": "9b323700e91302ad0090e876b922a38a1dd6b23ef5f19fcc7748d947e617d21e",
+        "git_state": "committed"
+      },
+      "experiments/audit8_generate_report.py": {
+        "sha256": "1c1b703c14e8d93a850dc643249b13ed0521505c670ff6bca87a058a0b1c3220",
+        "git_state": "committed"
+      },
+      "experiments/audit8_unitroot.py": {
+        "sha256": "9d0842a342f12b9c8a7e3870127768590c53d98c8ca90dbb3a2715ddb16748ef",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/__init__.py": {
+        "sha256": "20ebf29ab1a9a64bb428f25ff0170d67db2354662efb8b973922c3f455f56582",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/constants.py": {
+        "sha256": "de8bd2282ff09c41fc6eae12fcca6695c1fd3a0c9def7628a9b76e9361058907",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/davies.py": {
+        "sha256": "cfad047d0b0676cc83a41208cd600f4224ce61bf03930228a5a80d1d6556c9b9",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/deterministics.py": {
+        "sha256": "31db116abc80e5cab8c97317a31d6f22f1a4ca40c885eef86c134db598dac6b2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/empirical_eigenvalues.py": {
+        "sha256": "6385220b70531e99963aa6e05635fe2b38fcb565024513ec578dbb60a9d68b1c",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/full_pipeline.py": {
+        "sha256": "cdbd5405caa50bc83c7348a0a8be9963b522ef4d808024f078f648bb1de89170",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/hac_estimator.py": {
+        "sha256": "f7c22540e6a8e862258cb70e4a839b841453ca9490a01671176431ee4bf678f2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/kl_eigenvalues.py": {
+        "sha256": "c0fb0a90795c904cb2876aa16eff64948e0abf5a27d3a57c6612c2b9ec198903",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/null_quantiles.py": {
+        "sha256": "655458f05815621d015984080169663d2310d26e588a83e2c5a62549ba5a1ae8",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/optimal_weight.py": {
+        "sha256": "47632d98ed256b2364a2ac99de64780e0cd8d42a69c68b4552c6ea0564f86ba4",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/rm_core.py": {
+        "sha256": "4d3ee3f59c569233a5e9a9ed8ffd3032364188545bac04a0cc619ccac39e04e0",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/standardization.py": {
+        "sha256": "cc8cb146d28ea63be86bc11db6cc6c345fbf5fd412055e2e58a33a40f3e8936b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/statistic.py": {
+        "sha256": "f0baf1d99ac4311ca854d350f18a3d3416974bf5d13e662d05149f87183d92ef",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/theta_selection.py": {
+        "sha256": "23eba50e85d0db917d14b4d3d844c42e5ee566dfd326a0fad7feae0dd113f40b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/utils.py": {
+        "sha256": "8a3e0b972da519b3c39ca0e0326953dbae1bf048845c05c1fb3a23a001b72717",
+        "git_state": "committed"
+      }
+    },
+    "code_all_committed": true
+  },
+  "amendment": "experiments/protocol_audit8_amend1.md",
+  "criteria": {
+    "a": {
+      "c": {
+        "MZt": {
+          "empirical_q05": -1.9332498890800591,
+          "ng_perron_2001": -1.98,
+          "rel_diff": 0.02361116713128326,
+          "passed": true
+        },
+        "MSB": {
+          "empirical_q05": 0.2380068172699227,
+          "ng_perron_2001": 0.233,
+          "rel_diff": 0.02148848613700726,
+          "passed": true
+        }
+      },
+      "ct": {
+        "MZt": {
+          "empirical_q05": -2.850358655031179,
+          "ng_perron_2001": -2.91,
+          "rel_diff": 0.020495307549423063,
+          "passed": true
+        },
+        "MSB": {
+          "empirical_q05": 0.17035000047937338,
+          "ng_perron_2001": 0.168,
+          "rel_diff": 0.013988098091508127,
+          "passed": true
+        }
+      }
+    },
+    "b": {
+      "c": {
+        "paths": 20000,
+        "max_rel_diff": 4.349929309175663e-16,
+        "tolerance": 1e-12,
+        "passed": true
+      },
+      "ct": {
+        "paths": 20000,
+        "max_rel_diff": 4.084335276763523e-16,
+        "tolerance": 1e-12,
+        "passed": true
+      }
+    },
+    "c": {
+      "c": {
+        "MZt": {
+          "q05_T2001": -1.9332498890800591,
+          "se_T2001": 0.011831976254504136,
+          "q05_T10001": -1.9428675744996304,
+          "se_T10001": 0.014664421994333932,
+          "abs_diff": 0.009617685419571309,
+          "combined_se": 0.018842529939343454,
+          "diff_in_se": 0.5104243140667355,
+          "passed": true
+        },
+        "MSB": {
+          "q05_T2001": 0.2380068172699227,
+          "se_T2001": 0.0013130314975293986,
+          "q05_T10001": 0.23710450946107584,
+          "se_T10001": 0.0015564006668196547,
+          "abs_diff": 0.0009023078088468695,
+          "combined_se": 0.002036279634328488,
+          "diff_in_se": 0.44311586367381567,
+          "passed": true
+        }
+      },
+      "ct": {
+        "MZt": {
+          "q05_T2001": -2.850358655031179,
+          "se_T2001": 0.011041786433332899,
+          "q05_T10001": -2.8226432973287023,
+          "se_T10001": 0.011952530614861264,
+          "abs_diff": 0.027715357702476684,
+          "combined_se": 0.016272185954521606,
+          "diff_in_se": 1.7032350650328776,
+          "passed": true
+        },
+        "MSB": {
+          "q05_T2001": 0.17035000047937338,
+          "se_T2001": 0.0005974522774711618,
+          "q05_T10001": 0.17159496184264733,
+          "se_T10001": 0.0006903565889008636,
+          "abs_diff": 0.0012449613632739553,
+          "combined_se": 0.0009129849087987786,
+          "diff_in_se": 1.3636165847603776,
+          "passed": true
+        }
+      }
+    },
+    "d": {
+      "alternative_q05": {
+        "c": {
+          "MZa": {
+            "alternative": -7.994076747192842,
+            "code": -7.990691075469052,
+            "ng_perron_2001": -8.1,
+            "alternative_rel_diff": 0.013076944791007171
+          },
+          "MZt": {
+            "alternative": -1.9359861814336015,
+            "code": -1.9332498890800591,
+            "ng_perron_2001": -1.98,
+            "alternative_rel_diff": 0.02222920129616087
+          },
+          "MSB": {
+            "alternative": 0.23797652986972778,
+            "code": 0.2380068172699227,
+            "ng_perron_2001": 0.233,
+            "alternative_rel_diff": 0.021358497294968967
+          },
+          "MPT": {
+            "alternative": 3.3154901383320285,
+            "code": 3.3179982999619213,
+            "ng_perron_2001": 3.17,
+            "alternative_rel_diff": 0.04589594269149168
+          }
+        },
+        "ct": {
+          "MZa": {
+            "alternative": -16.727926363341197,
+            "code": -16.694783986560022,
+            "ng_perron_2001": -17.3,
+            "alternative_rel_diff": 0.033067840269295
+          },
+          "MZt": {
+            "alternative": -2.854925345323104,
+            "code": -2.850358655031179,
+            "ng_perron_2001": -2.91,
+            "alternative_rel_diff": 0.01892599817075467
+          },
+          "MSB": {
+            "alternative": 0.17031118397466016,
+            "code": 0.17035000047937338,
+            "ng_perron_2001": 0.168,
+            "alternative_rel_diff": 0.013757047468215194
+          },
+          "MPT": {
+            "alternative": 5.676073273763927,
+            "code": 5.671950658870232,
+            "ng_perron_2001": 5.48,
+            "alternative_rel_diff": 0.03577979448246831
+          }
+        }
+      },
+      "code_lines": {
+        "S": [
+          {
+            "line": 134,
+            "text": "S = float(yt[:-1] @ yt[:-1]) / T ** 2"
+          }
+        ],
+        "yT2": [
+          {
+            "line": 135,
+            "text": "yT2 = yt[-1] ** 2 / T"
+          }
+        ],
+        "MZa": [
+          {
+            "line": 136,
+            "text": "mza = (yT2 - s2) / (2.0 * S)"
+          }
+        ],
+        "MSB": [
+          {
+            "line": 137,
+            "text": "msb = math.sqrt(S / s2)"
+          }
+        ],
+        "MZt": [
+          {
+            "line": 138,
+            "text": "mzt = mza * msb"
+          }
+        ],
+        "s2_AR": [
+          {
+            "line": 133,
+            "text": "s2 = (ssr / rows) / (1.0 - bsum) ** 2"
+          }
+        ],
+        "gls_detrend": [
+          {
+            "line": 60,
+            "text": "def gls_detrend(y, case, cbar=None):"
+          }
+        ]
+      },
+      "code_file": "experiments/audit8_unitroot.py",
+      "mapping": "articulo: t = 1..T, sum_{t=1}^{T} yt_{t-1}^2 con yt_0 = 0 y yt_T la ultima observacion; codigo: y[0..T-1], S = T^-2 sum_{j=0}^{T-2} yt[j]^2 e yT = yt[T-1]: coinciden",
+      "code_uses_paper_convention": true,
+      "code_changed": false,
+      "passed": true
+    }
+  },
+  "gates": {
+    "a": true,
+    "b": true,
+    "c": true,
+    "d": true
+  },
+  "passed": true,
+  "other_b1_gates": {
+    "V1_regression": true,
+    "V2_R0_admissible": true,
+    "V3_tau0_vs_msb_hac": true,
+    "V4_gls_invariance": true,
+    "V4_gls_drift": true,
+    "V5_ng_perron": false
+  },
+  "retired_reference_failures": [
+    "c/MPT",
+    "ct/MZa",
+    "ct/MPT"
+  ],
+  "elapsed_sec": 9.9,
+  "b1_passed": true
+}

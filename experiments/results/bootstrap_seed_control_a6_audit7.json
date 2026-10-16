@@ -1,0 +1,137 @@
+{
+  "provenance": {
+    "dgp": "dgp3_rw_variance_break",
+    "n_sim": 2000,
+    "seed_formula": "trayectorias: 300000 + n*100 + int(r*10) + i (A6); semilla de R de la serie i: (93*10^8 + i) mod M",
+    "generated_utc": "2026-09-14T16:23:52.010266+00:00",
+    "commit": "3767f6edb72e28bbe5bf6b80458d50f146890d6a",
+    "worktree_dirty": true,
+    "entry_point": "experiments/audit7_seed_control_a6.py",
+    "code": {
+      "experiments/audit7_block1_budget.py": {
+        "sha256": "d6925aea8fb5f372eb3ca06d39a7b0d346882fa3513f2d402bab01dfd02fe5e9",
+        "git_state": "committed"
+      },
+      "experiments/audit7_block1_budget_cores.py": {
+        "sha256": "67767da90cedfe962a2144594729ffa421295f5ae86ced3d96452e5e6457f0ba",
+        "git_state": "committed"
+      },
+      "experiments/audit7_bootstrap_cost_diag.py": {
+        "sha256": "a8873dc335ebf7df57090356e609fdf357ad176d4b152f2f7b5924a1264e4fea",
+        "git_state": "committed"
+      },
+      "experiments/audit7_bootstrap_worker.R": {
+        "sha256": "ffb1f51b5cbb4f54486c98d589a83661900cf4352f62e056081977c21d6bdfe2",
+        "git_state": "committed"
+      },
+      "experiments/audit7_common.py": {
+        "sha256": "43a06336230ac67d2a438232687698d4544e1808dddb048940085d029830a8f3",
+        "git_state": "committed"
+      },
+      "experiments/audit7_design.py": {
+        "sha256": "7bd466d3aa2b67c6d4e89e515f9e6b51ea33853e07b5d3d5e80891d21d0ce3d2",
+        "git_state": "committed"
+      },
+      "experiments/audit7_dgp3_recast.py": {
+        "sha256": "81adb35a49691b8ef54da5c4e3c7485daf67a87e1445b70f06816edafeaebef7",
+        "git_state": "committed"
+      },
+      "experiments/audit7_dgp5_analysis.py": {
+        "sha256": "9f62301f804b07f9bcf6cdfcfdfdee22442ae940ee148e76fabe6d612f6cc214",
+        "git_state": "committed"
+      },
+      "experiments/audit7_dgp5_runner.py": {
+        "sha256": "bdd056463c63826f3260011e53b06bfb054d6678c0bfed9eca5af562ed92608f",
+        "git_state": "committed"
+      },
+      "experiments/audit7_kappa2.py": {
+        "sha256": "c988ed16db23a3023e493fa30aabdf509c259a1186ad89467e8cf7477e92b7fb",
+        "git_state": "committed"
+      },
+      "experiments/audit7_kappa2_diagnosis.py": {
+        "sha256": "45a0870463adc101d485659be88d679694510e80caf0b269ec4fbebfd14bc60c",
+        "git_state": "committed"
+      },
+      "experiments/audit7_kappa2_handicap.py": {
+        "sha256": "280073a1fdbc290dec084e81ef6428ce1ea376ad9be4f383858a3d25b5af779f",
+        "git_state": "committed"
+      },
+      "experiments/audit7_kappa2_simcv.py": {
+        "sha256": "2a17238f738e02e99006e9f570d15908b6320e04f88efca78fe116ced86d7942",
+        "git_state": "committed"
+      },
+      "experiments/audit7_kappa2_validation.py": {
+        "sha256": "969bbdd4994484c799653f63a862945cf0401e1811cd51ca7025b1ed48f01e3c",
+        "git_state": "committed"
+      },
+      "experiments/audit7_paso0_block1.py": {
+        "sha256": "d64ce5deafca01bf182ec928f83e5b6bea28acb3869fae971c770ac18ec2310f",
+        "git_state": "committed"
+      },
+      "experiments/audit7_readout.py": {
+        "sha256": "f018d028c90f80c07dde4b3a2f451301d54f974749977107a99942b9009749e8",
+        "git_state": "committed"
+      },
+      "experiments/audit7_seed_control_a6.py": {
+        "sha256": "0d31b5ec0e655cff94a859b0e8fca8dc017fe1e4f005aedc4415b6998dd5cb54",
+        "git_state": "committed"
+      },
+      "experiments/audit7_write_amendment.py": {
+        "sha256": "99afdd70001aaf6570bfa2bc34c7c4b6d27b09b92b021b8a9a089bdc947ab3c3",
+        "git_state": "committed"
+      },
+      "experiments/audit7_write_amendment2.py": {
+        "sha256": "de15205bfbe0776db2e1c15c2e3b67a825ec2ee8e4c63cab1a777eb6ad2c4b10",
+        "git_state": "committed"
+      }
+    },
+    "code_all_committed": true
+  },
+  "question": "tasa de A6 sin semilla de R frente a la misma celda con semilla",
+  "a6_reference": {
+    "source": "wild_bootstrap_r_audit6.json",
+    "worker_commit": "62c0772",
+    "n": 200,
+    "r": 4.0,
+    "B": 1999,
+    "n_sim": 2000,
+    "adf": {
+      "rejections": 109,
+      "rate": 0.0545,
+      "ci_lower": 0.044961,
+      "ci_upper": 0.06537
+    }
+  },
+  "test_configuration": {
+    "function": "bootUR::boot_adf",
+    "bootstrap": "AWB",
+    "deterministics": "intercept",
+    "detrend": "QD",
+    "min_lag": 0,
+    "max_lag": 0,
+    "B": 1999,
+    "rejection": "p < 0.05",
+    "cores": 14
+  },
+  "trajectory_pairing_max_abs_diff": 0.0,
+  "r_seed_base": 9300000000,
+  "r_seed_modulus": 2146483647,
+  "seeded": {
+    "rejections": 109,
+    "n": 2000,
+    "rate": 0.0545,
+    "ci_lower": 0.04496077079948498,
+    "ci_upper": 0.06537003226128174,
+    "nan_pvalues": 0
+  },
+  "criterion": {
+    "rule": "tasa con semilla dentro del IC Clopper-Pearson 95% de A6",
+    "inside_a6_ci": true,
+    "difference_seeded_minus_a6": 0.0,
+    "two_sample_bound_conservative": 0.01406944962198817,
+    "inside_two_sample_bound": true
+  },
+  "determinism_first_batch_rerun_identical": true,
+  "cell_elapsed_sec": 1204.96,
+  "verdict": "DENTRO"
+}

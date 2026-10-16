@@ -1,0 +1,602 @@
+{
+  "sigma_known_Ncal10000": {
+    "H0_n200": {
+      "adaptive": 0.0492,
+      "adaptive_ci": [
+        0.0435,
+        0.0555
+      ],
+      "rebalanced": 0.0494,
+      "rebalanced_ci": [
+        0.0437,
+        0.0558
+      ]
+    },
+    "H0_n500": {
+      "adaptive": 0.0466,
+      "adaptive_ci": [
+        0.0411,
+        0.0528
+      ],
+      "rebalanced": 0.0536,
+      "rebalanced_ci": [
+        0.0477,
+        0.0602
+      ]
+    },
+    "H0_n1000": {
+      "adaptive": 0.0512,
+      "adaptive_ci": [
+        0.0454,
+        0.0577
+      ],
+      "rebalanced": 0.0488,
+      "rebalanced_ci": [
+        0.0432,
+        0.0551
+      ]
+    },
+    "DGP1_rho095_n200": {
+      "adaptive": 0.403,
+      "adaptive_ci": [
+        0.3895,
+        0.4167
+      ],
+      "rebalanced": 0.2986,
+      "rebalanced_ci": [
+        0.2861,
+        0.3114
+      ]
+    },
+    "DGP1_rho097_n500": {
+      "adaptive": 0.7236,
+      "adaptive_ci": [
+        0.711,
+        0.7358
+      ],
+      "rebalanced": 0.4738,
+      "rebalanced_ci": [
+        0.46,
+        0.4877
+      ]
+    },
+    "DGP1_rho099_n1000": {
+      "adaptive": 0.4446,
+      "adaptive_ci": [
+        0.4309,
+        0.4584
+      ],
+      "rebalanced": 0.3142,
+      "rebalanced_ci": [
+        0.3015,
+        0.3272
+      ]
+    },
+    "DGP3_r4_n1000": {
+      "adaptive": 0.0004,
+      "adaptive_ci": [
+        0.0001,
+        0.0015
+      ],
+      "rebalanced": 0.0,
+      "rebalanced_ci": [
+        0.0,
+        0.0008
+      ]
+    },
+    "DGP4_r3_n500": {
+      "adaptive": 1.0,
+      "adaptive_ci": [
+        0.9992,
+        1.0
+      ],
+      "rebalanced": 0.0,
+      "rebalanced_ci": [
+        0.0,
+        0.0008
+      ],
+      "r_bal_mean": 0.9891589348375647,
+      "rebal_stat_mean": 0.7518515910267699
+    }
+  },
+  "alpha1_hac_Ncal10000": {
+    "H0_n200": {
+      "adaptive": 0.0428,
+      "adaptive_ci": [
+        0.0375,
+        0.0488
+      ],
+      "rebalanced": 0.0322,
+      "rebalanced_ci": [
+        0.0277,
+        0.0375
+      ]
+    },
+    "H0_n500": {
+      "adaptive": 0.0426,
+      "adaptive_ci": [
+        0.0373,
+        0.0486
+      ],
+      "rebalanced": 0.0456,
+      "rebalanced_ci": [
+        0.0402,
+        0.0517
+      ]
+    },
+    "H0_n1000": {
+      "adaptive": 0.0482,
+      "adaptive_ci": [
+        0.0426,
+        0.0545
+      ],
+      "rebalanced": 0.044,
+      "rebalanced_ci": [
+        0.0387,
+        0.05
+      ]
+    },
+    "DGP1_rho095_n200": {
+      "adaptive": 0.3762,
+      "adaptive_ci": [
+        0.3629,
+        0.3897
+      ],
+      "rebalanced": 0.2252,
+      "rebalanced_ci": [
+        0.2138,
+        0.237
+      ]
+    },
+    "DGP1_rho097_n500": {
+      "adaptive": 0.7108,
+      "adaptive_ci": [
+        0.6981,
+        0.7232
+      ],
+      "rebalanced": 0.4388,
+      "rebalanced_ci": [
+        0.4251,
+        0.4526
+      ]
+    },
+    "DGP1_rho099_n1000": {
+      "adaptive": 0.4434,
+      "adaptive_ci": [
+        0.4297,
+        0.4572
+      ],
+      "rebalanced": 0.3002,
+      "rebalanced_ci": [
+        0.2877,
+        0.3131
+      ]
+    },
+    "DGP3_r4_n1000": {
+      "adaptive": 0.1044,
+      "adaptive_ci": [
+        0.0962,
+        0.1132
+      ],
+      "rebalanced": 0.0068,
+      "rebalanced_ci": [
+        0.0049,
+        0.0095
+      ]
+    },
+    "DGP4_r3_n500": {
+      "adaptive": 1.0,
+      "adaptive_ci": [
+        0.9992,
+        1.0
+      ],
+      "rebalanced": 0.4766,
+      "rebalanced_ci": [
+        0.4628,
+        0.4905
+      ],
+      "r_bal_mean": 0.9810793489545615,
+      "rebal_stat_mean": 0.41635407948047615
+    }
+  },
+  "alpha2_hac_Ncal10000": {
+    "H0_n200": {
+      "adaptive": 0.0432,
+      "adaptive_ci": [
+        0.0379,
+        0.0492
+      ],
+      "rebalanced": 0.0326,
+      "rebalanced_ci": [
+        0.028,
+        0.0379
+      ]
+    },
+    "H0_n500": {
+      "adaptive": 0.0426,
+      "adaptive_ci": [
+        0.0373,
+        0.0486
+      ],
+      "rebalanced": 0.0454,
+      "rebalanced_ci": [
+        0.04,
+        0.0515
+      ]
+    },
+    "H0_n1000": {
+      "adaptive": 0.0484,
+      "adaptive_ci": [
+        0.0428,
+        0.0547
+      ],
+      "rebalanced": 0.044,
+      "rebalanced_ci": [
+        0.0387,
+        0.05
+      ]
+    },
+    "DGP1_rho095_n200": {
+      "adaptive": 0.379,
+      "adaptive_ci": [
+        0.3657,
+        0.3925
+      ],
+      "rebalanced": 0.2304,
+      "rebalanced_ci": [
+        0.2189,
+        0.2423
+      ]
+    },
+    "DGP1_rho097_n500": {
+      "adaptive": 0.713,
+      "adaptive_ci": [
+        0.7003,
+        0.7254
+      ],
+      "rebalanced": 0.4408,
+      "rebalanced_ci": [
+        0.4271,
+        0.4546
+      ]
+    },
+    "DGP1_rho099_n1000": {
+      "adaptive": 0.4436,
+      "adaptive_ci": [
+        0.4299,
+        0.4574
+      ],
+      "rebalanced": 0.3004,
+      "rebalanced_ci": [
+        0.2879,
+        0.3133
+      ]
+    },
+    "DGP3_r4_n1000": {
+      "adaptive": 0.1044,
+      "adaptive_ci": [
+        0.0962,
+        0.1132
+      ],
+      "rebalanced": 0.0066,
+      "rebalanced_ci": [
+        0.0047,
+        0.0093
+      ]
+    },
+    "DGP4_r3_n500": {
+      "adaptive": 1.0,
+      "adaptive_ci": [
+        0.9992,
+        1.0
+      ],
+      "rebalanced": 0.9842,
+      "rebalanced_ci": [
+        0.9804,
+        0.9873
+      ],
+      "r_bal_mean": 0.976095411806076,
+      "rebal_stat_mean": 0.3240619082615472
+    }
+  },
+  "sigma_known_Ncal50000": {
+    "H0_n200": {
+      "adaptive": 0.0502,
+      "adaptive_ci": [
+        0.0445,
+        0.0566
+      ],
+      "rebalanced": 0.0496,
+      "rebalanced_ci": [
+        0.0439,
+        0.056
+      ]
+    },
+    "H0_n500": {
+      "adaptive": 0.046,
+      "adaptive_ci": [
+        0.0405,
+        0.0522
+      ],
+      "rebalanced": 0.0518,
+      "rebalanced_ci": [
+        0.046,
+        0.0583
+      ]
+    },
+    "H0_n1000": {
+      "adaptive": 0.0518,
+      "adaptive_ci": [
+        0.046,
+        0.0583
+      ],
+      "rebalanced": 0.05,
+      "rebalanced_ci": [
+        0.0443,
+        0.0564
+      ]
+    },
+    "DGP1_rho095_n200": {
+      "adaptive": 0.4104,
+      "adaptive_ci": [
+        0.3968,
+        0.4241
+      ],
+      "rebalanced": 0.301,
+      "rebalanced_ci": [
+        0.2884,
+        0.3139
+      ]
+    },
+    "DGP1_rho097_n500": {
+      "adaptive": 0.7214,
+      "adaptive_ci": [
+        0.7088,
+        0.7337
+      ],
+      "rebalanced": 0.467,
+      "rebalanced_ci": [
+        0.4532,
+        0.4808
+      ]
+    },
+    "DGP1_rho099_n1000": {
+      "adaptive": 0.4486,
+      "adaptive_ci": [
+        0.4349,
+        0.4624
+      ],
+      "rebalanced": 0.32,
+      "rebalanced_ci": [
+        0.3072,
+        0.3331
+      ]
+    },
+    "DGP3_r4_n1000": {
+      "adaptive": 0.0008,
+      "adaptive_ci": [
+        0.0003,
+        0.0021
+      ],
+      "rebalanced": 0.0,
+      "rebalanced_ci": [
+        0.0,
+        0.0008
+      ]
+    },
+    "DGP4_r3_n500": {
+      "adaptive": 1.0,
+      "adaptive_ci": [
+        0.9992,
+        1.0
+      ],
+      "rebalanced": 0.0,
+      "rebalanced_ci": [
+        0.0,
+        0.0008
+      ],
+      "r_bal_mean": 0.9891589348375647,
+      "rebal_stat_mean": 0.7518515910267699
+    }
+  },
+  "alpha1_hac_Ncal50000": {
+    "H0_n200": {
+      "adaptive": 0.0442,
+      "adaptive_ci": [
+        0.0388,
+        0.0503
+      ],
+      "rebalanced": 0.0326,
+      "rebalanced_ci": [
+        0.028,
+        0.0379
+      ]
+    },
+    "H0_n500": {
+      "adaptive": 0.0416,
+      "adaptive_ci": [
+        0.0364,
+        0.0475
+      ],
+      "rebalanced": 0.0432,
+      "rebalanced_ci": [
+        0.0379,
+        0.0492
+      ]
+    },
+    "H0_n1000": {
+      "adaptive": 0.049,
+      "adaptive_ci": [
+        0.0434,
+        0.0553
+      ],
+      "rebalanced": 0.0446,
+      "rebalanced_ci": [
+        0.0392,
+        0.0507
+      ]
+    },
+    "DGP1_rho095_n200": {
+      "adaptive": 0.384,
+      "adaptive_ci": [
+        0.3706,
+        0.3976
+      ],
+      "rebalanced": 0.2292,
+      "rebalanced_ci": [
+        0.2178,
+        0.2411
+      ]
+    },
+    "DGP1_rho097_n500": {
+      "adaptive": 0.7082,
+      "adaptive_ci": [
+        0.6954,
+        0.7206
+      ],
+      "rebalanced": 0.4308,
+      "rebalanced_ci": [
+        0.4171,
+        0.4446
+      ]
+    },
+    "DGP1_rho099_n1000": {
+      "adaptive": 0.449,
+      "adaptive_ci": [
+        0.4353,
+        0.4628
+      ],
+      "rebalanced": 0.3054,
+      "rebalanced_ci": [
+        0.2928,
+        0.3183
+      ]
+    },
+    "DGP3_r4_n1000": {
+      "adaptive": 0.1056,
+      "adaptive_ci": [
+        0.0974,
+        0.1144
+      ],
+      "rebalanced": 0.0068,
+      "rebalanced_ci": [
+        0.0049,
+        0.0095
+      ]
+    },
+    "DGP4_r3_n500": {
+      "adaptive": 1.0,
+      "adaptive_ci": [
+        0.9992,
+        1.0
+      ],
+      "rebalanced": 0.4536,
+      "rebalanced_ci": [
+        0.4398,
+        0.4674
+      ],
+      "r_bal_mean": 0.9810793489545615,
+      "rebal_stat_mean": 0.41635407948047615
+    }
+  },
+  "alpha2_hac_Ncal50000": {
+    "H0_n200": {
+      "adaptive": 0.0448,
+      "adaptive_ci": [
+        0.0394,
+        0.0509
+      ],
+      "rebalanced": 0.0328,
+      "rebalanced_ci": [
+        0.0282,
+        0.0381
+      ]
+    },
+    "H0_n500": {
+      "adaptive": 0.042,
+      "adaptive_ci": [
+        0.0368,
+        0.0479
+      ],
+      "rebalanced": 0.0428,
+      "rebalanced_ci": [
+        0.0375,
+        0.0488
+      ]
+    },
+    "H0_n1000": {
+      "adaptive": 0.0492,
+      "adaptive_ci": [
+        0.0435,
+        0.0555
+      ],
+      "rebalanced": 0.0446,
+      "rebalanced_ci": [
+        0.0392,
+        0.0507
+      ]
+    },
+    "DGP1_rho095_n200": {
+      "adaptive": 0.3866,
+      "adaptive_ci": [
+        0.3732,
+        0.4002
+      ],
+      "rebalanced": 0.2342,
+      "rebalanced_ci": [
+        0.2227,
+        0.2461
+      ]
+    },
+    "DGP1_rho097_n500": {
+      "adaptive": 0.7106,
+      "adaptive_ci": [
+        0.6979,
+        0.723
+      ],
+      "rebalanced": 0.4324,
+      "rebalanced_ci": [
+        0.4187,
+        0.4462
+      ]
+    },
+    "DGP1_rho099_n1000": {
+      "adaptive": 0.4486,
+      "adaptive_ci": [
+        0.4349,
+        0.4624
+      ],
+      "rebalanced": 0.3052,
+      "rebalanced_ci": [
+        0.2926,
+        0.3181
+      ]
+    },
+    "DGP3_r4_n1000": {
+      "adaptive": 0.1058,
+      "adaptive_ci": [
+        0.0976,
+        0.1146
+      ],
+      "rebalanced": 0.0068,
+      "rebalanced_ci": [
+        0.0049,
+        0.0095
+      ]
+    },
+    "DGP4_r3_n500": {
+      "adaptive": 1.0,
+      "adaptive_ci": [
+        0.9992,
+        1.0
+      ],
+      "rebalanced": 0.9816,
+      "rebalanced_ci": [
+        0.9775,
+        0.985
+      ],
+      "r_bal_mean": 0.976095411806076,
+      "rebal_stat_mean": 0.3240619082615472
+    }
+  }
+}

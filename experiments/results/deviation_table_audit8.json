@@ -1,0 +1,518 @@
+{
+  "provenance": {
+    "script": "experiments/audit8_b6_application.py",
+    "script_sha256": "917157d7367c201cb4e92c2eafd1cb4f3d6f68d44dfbc9f6713c0ecb7e28de07",
+    "commit": "ec113170caaaee6ac41769a821404b315d826c96",
+    "worktree_dirty": true,
+    "dirty_files": [
+      "M experiments/results/manifest_audit8.json",
+      " M experiments/results/pytest_audit8.log",
+      " M experiments/results/resultados_auditoria_8.md"
+    ],
+    "generated_utc": "2026-09-19T01:27:47.347292+00:00",
+    "seed_family": 96,
+    "versions": {
+      "python": "3.11.0",
+      "platform": "Windows-10-10.0.26200-SP0",
+      "numpy": "2.2.4",
+      "scipy": "1.15.2",
+      "numba": "0.65.0",
+      "statsmodels": "0.14.6",
+      "arch": "8.0.0",
+      "pandas": "2.2.3",
+      "joblib": "1.4.2",
+      "matplotlib": "3.10.1",
+      "pytest": "9.0.3"
+    },
+    "code": {
+      "experiments/audit8_b0_inventory.py": {
+        "sha256": "6405cc166459c296fb32c86fed1abff150afc4889ba0598502d8c4e41ea07add",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_np_diagnostic.py": {
+        "sha256": "959b18541923f504c4178fdedd3a7d519a62487930c1de4dbcc8e476e0a43df0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_np_gate.py": {
+        "sha256": "93064f87f144776c7c83ee95d23bdbd7eadf5cbaff08af57297eda3ef37348f0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_regression_child.py": {
+        "sha256": "350b1389b64fdc89098d17861b7196671be9fe66123fb1f0702ddd5229fee150",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_validate.py": {
+        "sha256": "6a268b6ac14f5d05f2dfa26b5430328246f34893439ff6004b308d9a163170b0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2_size.py": {
+        "sha256": "74b1cdbd9f0bba3c77cb495b6c53393ba49eef75ff4f88d41257679ee2d4ff93",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2b_diagnostic.py": {
+        "sha256": "f89de9ed47612633614546168cb1887b0fb1c2faa37283276d03e45dd8096802",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2b_indep.py": {
+        "sha256": "47eb0f404478d0bac66bab7ea2002a24956ceeb287bdcb5bd441ee5fc0c8dda5",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b3_comparators.py": {
+        "sha256": "a4589a8ab3fe02284549b02f9c2078ad34172ddab47b268ce5c1ce4c444fc363",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b4_local_power.py": {
+        "sha256": "4de18b53c2f31d3d2f7e04fee1d786d42df0ba7998bdf30278b8029acea904c7",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b5_power.py": {
+        "sha256": "561c9dd52313c70d193ebe7ea772b3dbf91db2e691019eec3f5e76c4c8c28092",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b6_application.py": {
+        "sha256": "917157d7367c201cb4e92c2eafd1cb4f3d6f68d44dfbc9f6713c0ecb7e28de07",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b7_critical_values.py": {
+        "sha256": "1a228203fb9b1ed38020fe40ec4e6e690ea05c6bf152ceca42a82cc7f2d1c801",
+        "git_state": "committed"
+      },
+      "experiments/audit8_bootstrap_worker.R": {
+        "sha256": "1cb9168eff403a794d7b3933b12bcca3725cb2aa8f6e93279245c00558fb63c2",
+        "git_state": "committed"
+      },
+      "experiments/audit8_cache_fix_validate.py": {
+        "sha256": "01d88be3d99d27ddb32abdc63bbb5fad3ab6129300ba8cfe638b1790a60d314a",
+        "git_state": "committed"
+      },
+      "experiments/audit8_common.py": {
+        "sha256": "5718ec2cfa7f5f5c5f7f8d68ed26198e00ac827fb562cee67b234857e5719f0d",
+        "git_state": "committed"
+      },
+      "experiments/audit8_design.py": {
+        "sha256": "ad80aeae74d44ff4cecbd10dbfc480d24c146b81ec8f9d6561f95b7ba7079ae0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_environment.py": {
+        "sha256": "9b323700e91302ad0090e876b922a38a1dd6b23ef5f19fcc7748d947e617d21e",
+        "git_state": "committed"
+      },
+      "experiments/audit8_figconfig.py": {
+        "sha256": "eb516777a764ee78828acf7a5c743c4e9d8f5aab57b98550606354793d467e12",
+        "git_state": "committed"
+      },
+      "experiments/audit8_generate_report.py": {
+        "sha256": "91157e2576bec679f9f826423f55b6de104a01380651c9648a3aa25adac78819",
+        "git_state": "committed"
+      },
+      "experiments/audit8_unitroot.py": {
+        "sha256": "9d0842a342f12b9c8a7e3870127768590c53d98c8ca90dbb3a2715ddb16748ef",
+        "git_state": "committed"
+      },
+      "experiments/make_figures_audit8.py": {
+        "sha256": "50fbdc4583b2aaf1e5fa4e7dc053dd151a2127ccc422c922db4ebc855daee8a2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/__init__.py": {
+        "sha256": "20ebf29ab1a9a64bb428f25ff0170d67db2354662efb8b973922c3f455f56582",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/constants.py": {
+        "sha256": "de8bd2282ff09c41fc6eae12fcca6695c1fd3a0c9def7628a9b76e9361058907",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/davies.py": {
+        "sha256": "cfad047d0b0676cc83a41208cd600f4224ce61bf03930228a5a80d1d6556c9b9",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/deterministics.py": {
+        "sha256": "31db116abc80e5cab8c97317a31d6f22f1a4ca40c885eef86c134db598dac6b2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/empirical_eigenvalues.py": {
+        "sha256": "f749e2e2de8b807421d6e74836bd5d539eccb314f18821bd38b80e72b5ee72a1",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/full_pipeline.py": {
+        "sha256": "cdbd5405caa50bc83c7348a0a8be9963b522ef4d808024f078f648bb1de89170",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/hac_estimator.py": {
+        "sha256": "f7c22540e6a8e862258cb70e4a839b841453ca9490a01671176431ee4bf678f2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/kl_eigenvalues.py": {
+        "sha256": "c0fb0a90795c904cb2876aa16eff64948e0abf5a27d3a57c6612c2b9ec198903",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/null_quantiles.py": {
+        "sha256": "655458f05815621d015984080169663d2310d26e588a83e2c5a62549ba5a1ae8",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/optimal_weight.py": {
+        "sha256": "47632d98ed256b2364a2ac99de64780e0cd8d42a69c68b4552c6ea0564f86ba4",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/rm_core.py": {
+        "sha256": "4d3ee3f59c569233a5e9a9ed8ffd3032364188545bac04a0cc619ccac39e04e0",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/standardization.py": {
+        "sha256": "cc8cb146d28ea63be86bc11db6cc6c345fbf5fd412055e2e58a33a40f3e8936b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/statistic.py": {
+        "sha256": "f0baf1d99ac4311ca854d350f18a3d3416974bf5d13e662d05149f87183d92ef",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/theta_selection.py": {
+        "sha256": "23eba50e85d0db917d14b4d3d844c42e5ee566dfd326a0fad7feae0dd113f40b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/utils.py": {
+        "sha256": "8a3e0b972da519b3c39ca0e0326953dbae1bf048845c05c1fb3a23a001b72717",
+        "git_state": "committed"
+      }
+    },
+    "code_all_committed": true
+  },
+  "source_a7": "deviation_table_audit7.json",
+  "rows": [
+    {
+      "id": "i",
+      "audit": "A5bis",
+      "element": "piloto de Andrews del ancho de banda HAC",
+      "preregistered": "alpha(2)",
+      "deployed": "alpha(1) (corregido)",
+      "metric": "FP media del test propuesto en la validacion con datos reales (N_cal 10000 en ambas)",
+      "preregistered_value": 0.027695742047260757,
+      "deployed_value": 0.027858723906671184,
+      "impact": {
+        "difference": 0.00016298185941042778,
+        "max_abs_h0_size_change_by_n": 0.0002
+      },
+      "sources": [
+        {
+          "file": "experiments/results/real_data_comparison_audit5b.json",
+          "path": "summary/{repro,a1_10k}/mean_fp/ours"
+        },
+        {
+          "file": "experiments/results/size_robustness_dkw_audit6.json",
+          "path": "pilot_deviations/h0_size/*/diff"
+        }
+      ]
+    },
+    {
+      "id": "ii",
+      "audit": "A6",
+      "element": "tamano de la calibracion de la nula (N_cal)",
+      "preregistered": "N_cal = 50000",
+      "deployed": "N_cal = 10000",
+      "metric": "cota DKW epsilon de la CDF empirica (95%)",
+      "preregistered_value": 0.0061,
+      "deployed_value": 0.0136,
+      "impact": {
+        "epsilon_exact_preregistered": 0.006073614619083051,
+        "epsilon_exact_deployed": 0.013581015157406196
+      },
+      "sources": [
+        {
+          "file": "experiments/results/size_robustness_dkw_audit6.json",
+          "path": "metadata/dkw_bounds/{N_50000,N_10000}"
+        }
+      ]
+    },
+    {
+      "id": "iii",
+      "audit": "A7",
+      "element": "valor critico de kappa_2 en la union",
+      "preregistered": "asintotico (sup del puente browniano)",
+      "deployed": "simulado por n (N_cal 5000)",
+      "metric": "compuerta nominal de tamano de kappa_2 y valor critico simulado al 5%",
+      "preregistered_value": {
+        "gate_verdict": "FALLA",
+        "failed_cells": 6,
+        "cells": 6
+      },
+      "deployed_value": {
+        "200": 1.2841884385577336,
+        "500": 1.3090397729750363,
+        "1000": 1.3265870773530493
+      },
+      "impact": {
+        "out_of_sample_ar093_in_region": {
+          "200": false,
+          "500": true,
+          "1000": true
+        }
+      },
+      "sources": [
+        {
+          "file": "experiments/results/kappa2_validation_audit7.json",
+          "path": "gate"
+        },
+        {
+          "file": "experiments/results/kappa2_simcv_audit7.json",
+          "path": "cells/*"
+        }
+      ]
+    },
+    {
+      "id": "iv",
+      "audit": "A7",
+      "element": "comparador de la prediccion 1",
+      "preregistered": "union Bonferroni (bootstrap DF-GLS y kappa_2 a alpha/2)",
+      "deployed": "union calibrada conjuntamente como principal; Bonferroni como secundaria",
+      "metric": "tamano empirico sobre la calibracion bajo la nula compuesta",
+      "preregistered_value": {
+        "200": 0.0488,
+        "500": 0.0484
+      },
+      "deployed_value": {
+        "200": {
+          "alpha_star": 0.025599999999999873,
+          "size": 0.05
+        },
+        "500": {
+          "alpha_star": 0.025799999999999573,
+          "size": 0.05
+        }
+      },
+      "impact": "ninguno sobre el veredicto: la prediccion 1 no se cumple frente a ninguna de las dos",
+      "sources": [
+        {
+          "file": "experiments/results/dgp5_mixed_audit7.json",
+          "path": "calibration_by_n/*"
+        }
+      ]
+    },
+    {
+      "id": "v",
+      "audit": "A7",
+      "element": "rejilla de DGP 5",
+      "preregistered": "celdas de la especificacion revisada, con confirmacion a n=1000",
+      "deployed": "n=1000 retirado; extension de quiebres debiles como contraste post-registro",
+      "metric": "celdas",
+      "preregistered_value": 27,
+      "deployed_value": {
+        "analysed": 42,
+        "withdrawn": [
+          "adaptnull_n1000",
+          "cal_rw_n1000",
+          "dgp5_n1000_rho0.93_r2.0",
+          "dgp5_n1000_rho0.93_r3.0",
+          "dgp5_n1000_rho0.95_r3.0"
+        ],
+        "post_registration_extension": 18
+      },
+      "impact": "la condicion de falsacion se evalua literalmente sobre el interior registrado; la extension no la anula",
+      "sources": [
+        {
+          "file": "experiments/results/dgp5_mixed_audit7.json",
+          "path": "cells, withdrawn"
+        },
+        {
+          "file": "experiments/enmienda2_dgp5_audit7.md",
+          "path": "secciones 3-5"
+        }
+      ]
+    },
+    {
+      "id": "vi",
+      "audit": "A7",
+      "element": "formulas de semillas",
+      "preregistered": "formulas aditivas del prompt (p. ej. 700000 + n*100 + int(param*100))",
+      "deployed": "familia*10^8 + celda*10^5",
+      "metric": "colisiones y pares de celdas con bloques solapados en el Bloque 1",
+      "preregistered_value": "no evaluado en este archivo (ver paso0_pairing_audit7.json)",
+      "deployed_value": {
+        "exact_collisions": 0,
+        "overlapping_pairs": 0
+      },
+      "impact": "celdas estadisticamente independientes salvo los numeros aleatorios comunes declarados",
+      "sources": [
+        {
+          "file": "experiments/results/paso0_block1_audit7.json",
+          "path": "seed_overlap_block1"
+        }
+      ]
+    },
+    {
+      "id": "vii",
+      "audit": "A7",
+      "element": "compuerta de tamano del caso ct (verificacion 3)",
+      "preregistered": "tamano en la region binomial exacta en las 9 celdas y sin dependencia de mu",
+      "deployed": "re-especificada por el autor despues de los datos: valida la no dependencia de mu; el tamano se reporta con el caveat de conservadurismo a n=200 del caso c",
+      "metric": "tasa del test ct (nula del paquete, QD) y de la referencia c sobre las mismas innovaciones, mu = 0",
+      "preregistered_value": {
+        "band": [
+          0.044,
+          0.0562
+        ],
+        "passed": false
+      },
+      "deployed_value": {
+        "ctsize_n200_mu0.00": {
+          "ct_qd": 0.0388,
+          "c_reference": 0.04
+        },
+        "ctsize_n500_mu0.00": {
+          "ct_qd": 0.0448,
+          "c_reference": 0.051
+        },
+        "ctsize_n1000_mu0.00": {
+          "ct_qd": 0.0454,
+          "c_reference": 0.0502
+        }
+      },
+      "impact": {
+        "mu_dependence": {
+          "n200": {
+            "max_rel_diff_statistic_vs_mu0": 5.49113800810594e-15,
+            "rejection_vectors_identical": true
+          },
+          "n500": {
+            "max_rel_diff_statistic_vs_mu0": 7.220569122827164e-15,
+            "rejection_vectors_identical": true
+          },
+          "n1000": {
+            "max_rel_diff_statistic_vs_mu0": 9.213288506758312e-15,
+            "rejection_vectors_identical": true
+          }
+        }
+      },
+      "sources": [
+        {
+          "file": "experiments/results/ct_case_audit7.json",
+          "path": "verifications/V3_exact_size, size_ct_under_h0_with_drift"
+        }
+      ]
+    },
+    {
+      "id": "viii",
+      "audit": "A8",
+      "element": "estadistico de la aplicacion",
+      "preregistered": "R-hat adaptativo",
+      "deployed": "RM con R = 0, theta = 0.1, anclado en la media",
+      "preregistered_value": "R-hat",
+      "deployed_value": "R = 0",
+      "effect_before": {
+        "fp_mean": 0.027695742047260757,
+        "fp_max": 0.43673469387755104,
+        "detections": 13,
+        "mean_latency_detected": 33.84615384615385
+      },
+      "effect_after": {
+        "fp_mean": 0.03417772046256865,
+        "fp_max": 0.44081632653061226,
+        "detections": 14,
+        "mean_latency_detected": 28.071428571428573
+      }
+    },
+    {
+      "id": "ix",
+      "audit": "A8",
+      "element": "calibracion de la nula",
+      "preregistered": "sigma = 1 en la calibracion (one)",
+      "deployed": "sigma_hat HAC en cada camino (hac)",
+      "preregistered_value": "one",
+      "deployed_value": "hac",
+      "effect_before": {
+        "fp_mean": 0.028926084222156784,
+        "fp_max": 0.4326530612244898,
+        "detections": 13,
+        "mean_latency_detected": 33.30769230769231
+      },
+      "effect_after": {
+        "fp_mean": 0.03417772046256865,
+        "fp_max": 0.44081632653061226,
+        "detections": 14,
+        "mean_latency_detected": 28.071428571428573
+      }
+    },
+    {
+      "id": "x",
+      "audit": "A8",
+      "element": "N_cal",
+      "preregistered": "10000 por D",
+      "deployed": "50000 por D",
+      "preregistered_value": 10000,
+      "deployed_value": 50000,
+      "effect_before": {
+        "fp_mean": 0.03417167038408636,
+        "fp_max": 0.44081632653061226,
+        "detections": 14,
+        "mean_latency_detected": 28.857142857142858
+      },
+      "effect_after": {
+        "fp_mean": 0.03417772046256865,
+        "fp_max": 0.44081632653061226,
+        "detections": 14,
+        "mean_latency_detected": 28.071428571428573
+      }
+    },
+    {
+      "id": "xi",
+      "audit": "A8",
+      "element": "n de la calibracion",
+      "preregistered": "n = D (convencion publicada)",
+      "deployed": "n = D - 1 (incrementos de la ventana de D puntos)",
+      "preregistered_value": "D",
+      "deployed_value": "D - 1",
+      "effect_before": {
+        "fp_mean": 0.0342573768310449,
+        "fp_max": 0.4489795918367347,
+        "detections": 14,
+        "mean_latency_detected": 28.785714285714285
+      },
+      "effect_after": {
+        "fp_mean": 0.03417772046256865,
+        "fp_max": 0.44081632653061226,
+        "detections": 14,
+        "mean_latency_detected": 28.071428571428573
+      }
+    },
+    {
+      "id": "xii",
+      "audit": "A8",
+      "element": "DF-GLS (comparador post hoc)",
+      "preregistered": "no registrado; publicado con AIC",
+      "deployed": "MAIC de Ng-Perron",
+      "preregistered_value": "AIC",
+      "deployed_value": "MAIC",
+      "effect_before": {
+        "fp_mean": 0.03227342215042778,
+        "fp_max": 0.2693877551020408,
+        "detections": 28,
+        "mean_latency_detected": 30.607142857142858
+      },
+      "effect_after": {
+        "fp_mean": 0.02096944131294987,
+        "fp_max": 0.27346938775510204,
+        "detections": 23,
+        "mean_latency_detected": 33.82608695652174
+      }
+    },
+    {
+      "id": "xiii",
+      "audit": "A8",
+      "element": "anclaje del estadistico (regla GLS de B4)",
+      "preregistered": "RM anclado en la media",
+      "deployed": "RM-GLS (anclado por GLS)",
+      "preregistered_value": "media",
+      "deployed_value": "GLS",
+      "effect_before": {
+        "fp_mean": 0.03417772046256865,
+        "fp_max": 0.44081632653061226,
+        "detections": 14,
+        "mean_latency_detected": 28.071428571428573
+      },
+      "effect_after": {
+        "fp_mean": 0.024463534281547645,
+        "fp_max": 0.2163265306122449,
+        "detections": 19,
+        "mean_latency_detected": 32.473684210526315
+      }
+    }
+  ]
+}

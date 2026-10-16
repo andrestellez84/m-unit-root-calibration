@@ -1,0 +1,2172 @@
+{
+  "provenance": {
+    "script": "experiments/audit17_coherence.py",
+    "script_sha256": "71da64b06229fc045b7375394bff40f7da202e6f0b91a15a74f0b5bf4da834cf",
+    "commit": "21ebdd44cf419585df2ef0da10a51b9d4deac119",
+    "worktree_dirty": true,
+    "dirty_files": [
+      "M experiments/results/manifest_audit17.json"
+    ],
+    "generated_utc": "2026-09-27T23:36:40.962244+00:00",
+    "seed_family": null,
+    "versions": {
+      "python": "3.11.0",
+      "platform": "Windows-10-10.0.26200-SP0",
+      "numpy": "2.2.4",
+      "scipy": "1.15.2",
+      "numba": "0.65.0",
+      "statsmodels": "0.14.6",
+      "arch": "8.0.0",
+      "pandas": "2.2.3",
+      "joblib": "1.4.2",
+      "matplotlib": "3.10.1",
+      "pytest": "9.0.3"
+    },
+    "code": {
+      "experiments/audit10_b100_protocol.py": {
+        "sha256": "2f4b3351d36f05faafd5a01981278237be31ccbd3a62eb53307d5888c3ab8c47",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b101_theta.py": {
+        "sha256": "c7f65d04c6a2762bcf4fcb7cd6fb3f3ea9f588392e6316175bb88631bd255903",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b102_identity.py": {
+        "sha256": "967ce70c299a9fa87ca467d3885c2c6ae54b11ca7f1a6aac75c94a9bd38125b3",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_application.py": {
+        "sha256": "6e73e4304a88e42b528dc119d56f8a47f3aced0cac6267493b67f96699f4032a",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_awb.py": {
+        "sha256": "c35235023f15eff41059abe196791e6ee57a3f52eb736779b4ed442b70f18f87",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_cv.py": {
+        "sha256": "bc3e2ee08728214ae92b5883e9f3bd067660d99acbeebaf032b8ef7cb289c8a7",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_dgp5.py": {
+        "sha256": "8df807243e62e3c044f4f55ccc9ba909254a15b011fd190d9a6a79c466f2e73e",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_equalized.py": {
+        "sha256": "039b485455232788d7503ff80d09565182b9d5ed696fdaf8c7e27f67ca44ce5d",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_finite.py": {
+        "sha256": "a6fea4ef3e9cab8ab5b2369189497de6ff8fc38abdd3f27b752efeb43935f113",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_lown.py": {
+        "sha256": "61ffc45a0782f9277588e5f3068af89add849a7eb28a87e3902c0df69269b264",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b104_cv5000.py": {
+        "sha256": "64b94cc583c2f45c67910c6f25c5bab49baf77d5d9b4841e49d632bcd4a20493",
+        "git_state": "committed"
+      },
+      "experiments/audit10_common.py": {
+        "sha256": "298e82a217d2dd32ba87245f6056dbb82051fe2985acd644b1e972f6768ca123",
+        "git_state": "committed"
+      },
+      "experiments/audit10_design.py": {
+        "sha256": "d9da80a9c9148338e1031d1a7736180ebffd76409385b5cf7fa0c7af20d28042",
+        "git_state": "committed"
+      },
+      "experiments/audit10_engine.py": {
+        "sha256": "3d2618561538c1afd8daf8224fa230826ae442505877afb8c12a378755911333",
+        "git_state": "committed"
+      },
+      "experiments/audit10_figconfig.py": {
+        "sha256": "522ae90338608ca46d449900388d6eb5c9e152140115dd6be362d17822b8116f",
+        "git_state": "committed"
+      },
+      "experiments/audit10_generate_report.py": {
+        "sha256": "9ebb38589ec72648a1a905a105d3e6cfaa9b486cbd3a4cd9a5800be1436f1d41",
+        "git_state": "committed"
+      },
+      "experiments/audit12_b120_inventory.py": {
+        "sha256": "8336160e0c62006a28b89f6627f9e4e0d3a2c8e108168ee3763925e15df38ac5",
+        "git_state": "committed"
+      },
+      "experiments/audit12_bA_ma.py": {
+        "sha256": "c3a02fc6c4468501b31cd5fed6c5dd9708e0c1fbd3e2f7cc5178707f016457a6",
+        "git_state": "committed"
+      },
+      "experiments/audit12_bB_attrib.py": {
+        "sha256": "961c6c44ff4dbfc449e36f5b5b51d569ce93658003e9a7cf498c983ffc21ec84",
+        "git_state": "committed"
+      },
+      "experiments/audit12_bC_initial.py": {
+        "sha256": "77e5c329a7be36c07705486626ec253416c757836205d54e4b99dfb25941ffbf",
+        "git_state": "committed"
+      },
+      "experiments/audit12_bF_anchor.py": {
+        "sha256": "7bfe9ca7c9bd99d88676b4003097402c99402b51ba4b5c9c404b4f3e9406bbdc",
+        "git_state": "committed"
+      },
+      "experiments/audit12_cal.py": {
+        "sha256": "63a1625faf55edc91a2db0dbcfe4ac8a316e0c4023dac85e8122490be1099346",
+        "git_state": "committed"
+      },
+      "experiments/audit12_claims.py": {
+        "sha256": "86511d14d0c9c47c3ff0c9228d7a94c06c0a2429f7e1c3a996ef8824314d136f",
+        "git_state": "committed"
+      },
+      "experiments/audit12_common.py": {
+        "sha256": "9845605b593b4c07eed4a0ead1b9068951c1b302ca653d7fb410b2ddc84f7b84",
+        "git_state": "committed"
+      },
+      "experiments/audit12_design.py": {
+        "sha256": "b55d9ae3f6ff06d746e9e60a36ffc78d73e1171260e6e965001f187623e92838",
+        "git_state": "committed"
+      },
+      "experiments/audit12_generate_report.py": {
+        "sha256": "b7e1377224401ae74eef3a77db3c1b4623409666fd82d6500d4ded16344d4b78",
+        "git_state": "committed"
+      },
+      "experiments/audit12_runner.py": {
+        "sha256": "01d8ea8b833067be4b631bc60b24741a9b941f127d7e98295f54c215c93c7318",
+        "git_state": "committed"
+      },
+      "experiments/audit12_unitroot.py": {
+        "sha256": "36b0bb5a7439cb0fabdfc346d9b1d2fef91fc0bacf54f49c4642538f4c3db3cb",
+        "git_state": "committed"
+      },
+      "experiments/audit13_b130_inventory.py": {
+        "sha256": "6e9e89107e8881c68dc81bc34c91e9b4838b84805adbcb955248abba18af3a75",
+        "git_state": "committed"
+      },
+      "experiments/audit13_claims.py": {
+        "sha256": "354466be4864c1321e1a7d23f004663ccef1bd1199f592110de2d575122b986f",
+        "git_state": "committed"
+      },
+      "experiments/audit13_common.py": {
+        "sha256": "94a6255b99fbd25b19a452147e20c76b9c181848e639ef26a09087b0169d19de",
+        "git_state": "committed"
+      },
+      "experiments/audit13_design.py": {
+        "sha256": "29fea9ecb7e3db08fac745d74779e229d871d5ac3e761d55f6c61c19561f2ab1",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_application.py": {
+        "sha256": "4969da94c823615f05e34dac23a5b5fc60b458dc962eca90d3048510a4da7c23",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_awb.py": {
+        "sha256": "0a95c3a6c42f334e463baf7216b202639ece93ec4080e82ef0067340f77ff373",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_calib.py": {
+        "sha256": "815694a898ff497d578447c1298db7f9772a75f13a088c2f1c2f82fd27af2ca3",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_dgp5.py": {
+        "sha256": "11022366b13d68a9f78a560403ea03221f8bceb999a34cbf68a06fd00a0a48ad",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_equalized.py": {
+        "sha256": "551896f43f6106547f300069fd03e861f57b6ec1c9435d97275f4f649158a6eb",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_size.py": {
+        "sha256": "90d4a4bfb173894cd2cf3f10a363446804a3a6339baec425c39a654fab7a4585",
+        "git_state": "committed"
+      },
+      "experiments/audit13_generate_report.py": {
+        "sha256": "b7093811991b76e414457f15b76294cb1ea85dabf4a6bc80ea01db451c400e3f",
+        "git_state": "committed"
+      },
+      "experiments/audit13_q_attrib.py": {
+        "sha256": "3369031d8a0dac8269549a4902d7ce5503b65fcd59e765a01a405ebb07efe2e9",
+        "git_state": "committed"
+      },
+      "experiments/audit13_q_claims.py": {
+        "sha256": "490147c55b6edb417929d709c745edbd8ccad3e9a586723f5bac65d3257843bf",
+        "git_state": "committed"
+      },
+      "experiments/audit13_q_common.py": {
+        "sha256": "98e1b30eebcb79b4a5edb6e3d4cede9d8d11a274c631eca1ef097da0e90c1ff1",
+        "git_state": "committed"
+      },
+      "experiments/audit13_q_inventory.py": {
+        "sha256": "17ed148ec3a404d9bbc1d21c0fa4926a67756e635e173ed8dfa5034cabca97f6",
+        "git_state": "committed"
+      },
+      "experiments/audit13_q_phrases.py": {
+        "sha256": "96cb95731a0014e299036344f09079e10387d464ea27ed7bb5271580cba77e01",
+        "git_state": "committed"
+      },
+      "experiments/audit13_q_report.py": {
+        "sha256": "ba2b694f351e0f2f92d66dd8907fb4b7955a97dac46a100581a6d0fb6d09cb74",
+        "git_state": "committed"
+      },
+      "experiments/audit13_q_supplement.py": {
+        "sha256": "df66975d8eba1f930ba0137666f60a21f4f593e89cfa4dedce14be617ead7b65",
+        "git_state": "committed"
+      },
+      "experiments/audit13_t_tables.py": {
+        "sha256": "5bb1b16873c1586eea25efe4c4eb91d4b48e1185bb921f11446ce27fd693119c",
+        "git_state": "committed"
+      },
+      "experiments/audit13_tables.py": {
+        "sha256": "ecdb0d85bfbcbf36a50b4a6d905698ddd38d8cf100ba3e89cf1fc241c698aaa9",
+        "git_state": "committed"
+      },
+      "experiments/audit14_b0_inventory.py": {
+        "sha256": "ef4611be5799a45f3735395a10925c518e09cab56b6e380208a1b038c6942521",
+        "git_state": "committed"
+      },
+      "experiments/audit14_b1_critical.py": {
+        "sha256": "50567e82c6b4b51fd7b720bd67d5f67893b4bd9f5f9fbe9cf9abba5a04641ae5",
+        "git_state": "committed"
+      },
+      "experiments/audit14_b2_sources.py": {
+        "sha256": "aedfedb9efcf41da38e008253b854827e4c9f5656450aabecbbd744dceec932f",
+        "git_state": "committed"
+      },
+      "experiments/audit14_b3_verify.py": {
+        "sha256": "66217ac44e6560da179ba56327aaeb7003c4249500c69eead927320f567767ae",
+        "git_state": "committed"
+      },
+      "experiments/audit14_common.py": {
+        "sha256": "653d0edfcf1d481bf5e62a0772a285efcea91be25cf3dbf91b022a0dbc7c25b9",
+        "git_state": "committed"
+      },
+      "experiments/audit14_exact_bootstrap.py": {
+        "sha256": "f7da6ba106a477324dc58495e3ff223e23e22c519c2a1f69a72b0a15b9899645",
+        "git_state": "committed"
+      },
+      "experiments/audit14_generate_report.py": {
+        "sha256": "100fd69829c2f40795e5fc89980d7230309d4bc1227d6869d0a978665de64adc",
+        "git_state": "committed"
+      },
+      "experiments/audit14_tables.py": {
+        "sha256": "3775f924477efa356317b78da651e8982bedf102e31ade4cf85bfeb1e953c78d",
+        "git_state": "committed"
+      },
+      "experiments/audit15_b0_iidasy.py": {
+        "sha256": "02fa47dac801dcb2a30f52d237720487f9336ba2c81879606976a437f560f0f1",
+        "git_state": "committed"
+      },
+      "experiments/audit15_b0_t3.py": {
+        "sha256": "94f2ac3d1c38bdb6e96cf9073e53857d994747bc6519636a3c23d9577a3aee2b",
+        "git_state": "committed"
+      },
+      "experiments/audit15_b0b_lag.py": {
+        "sha256": "0a025363ac7944e33c630ab9ecbe78b8fe9e5dfbc32f87997c1d1fe8bdce7854",
+        "git_state": "committed"
+      },
+      "experiments/audit15_b1_boot.py": {
+        "sha256": "8bc781f2fb0a80c182093f15292ab8bc88796bb68e89610ca3f75f94354ec084",
+        "git_state": "committed"
+      },
+      "experiments/audit15_b1_paso0.py": {
+        "sha256": "400cb33d2836dcd4f849b39cd4d2f0580ffd092bec8cf5534e1994d21a18261e",
+        "git_state": "committed"
+      },
+      "experiments/audit15_b1_paso0_v2.py": {
+        "sha256": "607ac72fb04a05a15e0ab91f4e434ea87f60b98d3e5f49b7d2d03bc35525d14a",
+        "git_state": "committed"
+      },
+      "experiments/audit15_b2_slope.py": {
+        "sha256": "aafcabbb4ff218a2bc0cb6638696fe079ea2145a5f6177f936903ab980118661",
+        "git_state": "committed"
+      },
+      "experiments/audit15_b3_fixedb.py": {
+        "sha256": "6ab5e0bfdfbd0b4eb9fadf17f81c66c67a8c9de6e37d8d47b61e4b8df93e2be3",
+        "git_state": "committed"
+      },
+      "experiments/audit15_b3_paso0.py": {
+        "sha256": "f7ca30b5ea4d3ebe22004485a89b7f9c69cabe0e3c78daddfe3da8ed9989d385",
+        "git_state": "committed"
+      },
+      "experiments/audit15_b5_anon.py": {
+        "sha256": "49135c9831510e5d30c284ef4d2c808f486b383ff08d9d2420ff2d6510b3ed45",
+        "git_state": "committed"
+      },
+      "experiments/audit15_b9.py": {
+        "sha256": "4897566bd4189a27b8a647fb3e39eae0d8f4c568958c33d0fabc61bb3715a949",
+        "git_state": "committed"
+      },
+      "experiments/audit15_boot_engine.py": {
+        "sha256": "f56c8a79c603cb8b2135f0c54ac1885e09eff9202374b2356dc8e49476fd8fe4",
+        "git_state": "committed"
+      },
+      "experiments/audit15_common.py": {
+        "sha256": "bfc94b5c7949cecb344e1ebd2a58734fe16b69a8090481473b9f28296727e509",
+        "git_state": "committed"
+      },
+      "experiments/audit15_design.py": {
+        "sha256": "aca703ac3276717a4e4f79d65ee765f61e88dcc2226cc383b7c51e7540b33da2",
+        "git_state": "committed"
+      },
+      "experiments/audit15_fixedb.py": {
+        "sha256": "f551274d59fd9fb575c1a17ebccda6540d4ab7150468d98f44f81fa5d87c9a8b",
+        "git_state": "committed"
+      },
+      "experiments/audit15_generate_report.py": {
+        "sha256": "f7f6a8066abee1d97cf04d4a0aaf864c06f3a770e61e1165866c0397a3b6e6c9",
+        "git_state": "committed"
+      },
+      "experiments/audit15_inventory.py": {
+        "sha256": "cde3340229d076cbe12020df0dde9fd92638135d4d973c1401849529c8e8d548",
+        "git_state": "committed"
+      },
+      "experiments/audit15_maintenance.py": {
+        "sha256": "e7f2b31ca6e9d023bb1bbf4ba019774c41c6c12b2dc998d2274c91c767045ed4",
+        "git_state": "committed"
+      },
+      "experiments/audit15_probes.py": {
+        "sha256": "279b058722ed2801edbeb769790bb544c9277d3ad74049e2441ae70818a7fd8c",
+        "git_state": "committed"
+      },
+      "experiments/audit15_supplement.py": {
+        "sha256": "00558dad58ceadf26b20e92edc816559b3742360b865369203dd80f137c60aba",
+        "git_state": "committed"
+      },
+      "experiments/audit15_tables.py": {
+        "sha256": "3bf3a6a6b49cc05bedfdb37d433a70e495a307e1893eb0745820a58f27b5dd34",
+        "git_state": "committed"
+      },
+      "experiments/audit15_v17_literals.py": {
+        "sha256": "99d20a3480d1db69986bc32e6dd308f69ffe6b639918625bdf02b313bd5032c8",
+        "git_state": "committed"
+      },
+      "experiments/audit15_v17_tables.py": {
+        "sha256": "d37dbc4a5f648c92240cae45a63f9511cd62a6d777f5e2a679e732f7ade473f1",
+        "git_state": "committed"
+      },
+      "experiments/audit16_code_check.py": {
+        "sha256": "818b61bb9e7622156dd674bb5d4473be7da728ed4143553f5e51e218a8f6ffbf",
+        "git_state": "committed"
+      },
+      "experiments/audit16_coherence.py": {
+        "sha256": "a190d82ad54a5eada597db807be7b31fb76bb8a162ae72dd6a0096c45db3c90f",
+        "git_state": "committed"
+      },
+      "experiments/audit16_common.py": {
+        "sha256": "376cd1e4419cf9e605d49a78d0936fd5fa549afcdbb534657f40976b2f4854de",
+        "git_state": "committed"
+      },
+      "experiments/audit16_generate_report.py": {
+        "sha256": "78ebc0be770389734cd95d1959fdda04f0793c913f17f82caf46359f8d8ee328",
+        "git_state": "committed"
+      },
+      "experiments/audit16_literals.py": {
+        "sha256": "be3216fa509dc64188b9084f347d3a5b6c594a2cd879f9c8432832fbb9d0e0ec",
+        "git_state": "committed"
+      },
+      "experiments/audit16_supplement.py": {
+        "sha256": "905aff818e3e5caca774154ccfa456275c5c23d597013446d3cbbe70c8dc3f18",
+        "git_state": "committed"
+      },
+      "experiments/audit16_v17_tables.py": {
+        "sha256": "bffb3b62c20d01578de7a31bba85f9a0a8fa0ddbe9df81b6a5e4662044404be6",
+        "git_state": "committed"
+      },
+      "experiments/audit17_boot35.py": {
+        "sha256": "a758c2d847e70e5ccccc44431ace1528543c6def7e053b7e5f240813b24a48cd",
+        "git_state": "committed"
+      },
+      "experiments/audit17_coherence.py": {
+        "sha256": "71da64b06229fc045b7375394bff40f7da202e6f0b91a15a74f0b5bf4da834cf",
+        "git_state": "committed"
+      },
+      "experiments/audit17_common.py": {
+        "sha256": "c475218e3510ac31b8dd28334c90a6f9a5988acff26bb8cc35fe2573e7dc01f2",
+        "git_state": "committed"
+      },
+      "experiments/audit17_mstats.py": {
+        "sha256": "66b8f486ac96ef9e86eea782a0d46e8a8eb7f25f6a88c60ae530663444ed10a4",
+        "git_state": "committed"
+      },
+      "experiments/audit17_supplement.py": {
+        "sha256": "25f596414647af5da330887272c34250d2c89eac97e7bb47a20eaaefb5afc5dc",
+        "git_state": "committed"
+      },
+      "experiments/audit4_tarea_E.py": {
+        "sha256": "ac119be7e82257784bb5c8bf77bcca827197c8de3895d9a3ba8cf475154fd23d",
+        "git_state": "committed"
+      },
+      "experiments/audit5_tarea5.py": {
+        "sha256": "ae6a64da025e28ae63e398b5fb19cf7414d988ec2e7c874c1836370fcc24075f",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b0_inventory.py": {
+        "sha256": "6405cc166459c296fb32c86fed1abff150afc4889ba0598502d8c4e41ea07add",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_np_diagnostic.py": {
+        "sha256": "959b18541923f504c4178fdedd3a7d519a62487930c1de4dbcc8e476e0a43df0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_np_gate.py": {
+        "sha256": "93064f87f144776c7c83ee95d23bdbd7eadf5cbaff08af57297eda3ef37348f0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_regression_child.py": {
+        "sha256": "350b1389b64fdc89098d17861b7196671be9fe66123fb1f0702ddd5229fee150",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_validate.py": {
+        "sha256": "6a268b6ac14f5d05f2dfa26b5430328246f34893439ff6004b308d9a163170b0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2_size.py": {
+        "sha256": "74b1cdbd9f0bba3c77cb495b6c53393ba49eef75ff4f88d41257679ee2d4ff93",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2b_diagnostic.py": {
+        "sha256": "f89de9ed47612633614546168cb1887b0fb1c2faa37283276d03e45dd8096802",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2b_indep.py": {
+        "sha256": "47eb0f404478d0bac66bab7ea2002a24956ceeb287bdcb5bd441ee5fc0c8dda5",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b3_comparators.py": {
+        "sha256": "a4589a8ab3fe02284549b02f9c2078ad34172ddab47b268ce5c1ce4c444fc363",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b4_local_power.py": {
+        "sha256": "4de18b53c2f31d3d2f7e04fee1d786d42df0ba7998bdf30278b8029acea904c7",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b5_power.py": {
+        "sha256": "561c9dd52313c70d193ebe7ea772b3dbf91db2e691019eec3f5e76c4c8c28092",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b6_application.py": {
+        "sha256": "917157d7367c201cb4e92c2eafd1cb4f3d6f68d44dfbc9f6713c0ecb7e28de07",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b7_critical_values.py": {
+        "sha256": "1a228203fb9b1ed38020fe40ec4e6e690ea05c6bf152ceca42a82cc7f2d1c801",
+        "git_state": "committed"
+      },
+      "experiments/audit8_cache_fix_validate.py": {
+        "sha256": "01d88be3d99d27ddb32abdc63bbb5fad3ab6129300ba8cfe638b1790a60d314a",
+        "git_state": "committed"
+      },
+      "experiments/audit8_common.py": {
+        "sha256": "5718ec2cfa7f5f5c5f7f8d68ed26198e00ac827fb562cee67b234857e5719f0d",
+        "git_state": "committed"
+      },
+      "experiments/audit8_design.py": {
+        "sha256": "ad80aeae74d44ff4cecbd10dbfc480d24c146b81ec8f9d6561f95b7ba7079ae0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_environment.py": {
+        "sha256": "9b323700e91302ad0090e876b922a38a1dd6b23ef5f19fcc7748d947e617d21e",
+        "git_state": "committed"
+      },
+      "experiments/audit8_figconfig.py": {
+        "sha256": "eb516777a764ee78828acf7a5c743c4e9d8f5aab57b98550606354793d467e12",
+        "git_state": "committed"
+      },
+      "experiments/audit8_generate_report.py": {
+        "sha256": "91157e2576bec679f9f826423f55b6de104a01380651c9648a3aa25adac78819",
+        "git_state": "committed"
+      },
+      "experiments/audit8_unitroot.py": {
+        "sha256": "9d0842a342f12b9c8a7e3870127768590c53d98c8ca90dbb3a2715ddb16748ef",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b90_protocol.py": {
+        "sha256": "5e0a7109f7d1a7737ed2558ccc1766b36c61e0ead19738e9da6512af0d58e590",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b91_equalized.py": {
+        "sha256": "66be775e81bb3ddeadc202237f1343a4d231138274eb8387cc5ac48c1366b9b9",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b92_theta.py": {
+        "sha256": "56b784b7534e466897a6b31400dc17906ad101d2d114e93f9d5bb95b55c65af5",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b93_attribution.py": {
+        "sha256": "0c6a42942f19a4b0f07cf102704a98e4c17f76815a53bbb1e0407bb3119dd6ee",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b94_finite_sample.py": {
+        "sha256": "b5c5b0acc0792baaec3499d386bbce7768142ca4e37ca1ac03fb23914a0daae5",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b95_awb.py": {
+        "sha256": "f60dcb418bb045ef40684fc8572d74e578459d40d28925dd7c30bbac79dbf0c0",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b96_application.py": {
+        "sha256": "0ff5e46367a3f1dfae0a92aa02fd0fdf13b64efab897de61eaafb81599f468b4",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b97_critical_values.py": {
+        "sha256": "774956681a4c6536cfab497326e032518cb97c10a0aacf9bffd38ee92aef14f3",
+        "git_state": "committed"
+      },
+      "experiments/audit9_calibrate.py": {
+        "sha256": "d2f7ac2cd3d5fa866fac21379f79a60535749e8db61d02135aaea99ec0b75bbd",
+        "git_state": "committed"
+      },
+      "experiments/audit9_common.py": {
+        "sha256": "39fbee3c398de920ba2f9c4400ac6254c58d9fb537c6f97649c8299ea39e78f7",
+        "git_state": "committed"
+      },
+      "experiments/audit9_design.py": {
+        "sha256": "e25486561a4c06643807b4035e2beeb0436558b1157bfb3b7a866e5e7cb815ac",
+        "git_state": "committed"
+      },
+      "experiments/audit9_engine.py": {
+        "sha256": "8f8bd7a817178056d2e55a4c518bfc2188737c02c3f56cf467d15972ac651e1b",
+        "git_state": "committed"
+      },
+      "experiments/audit9_figconfig.py": {
+        "sha256": "502fc40d79bdec85ad4ebac69ee33949903c4c8b5e14ed5558ab3b6b985b8080",
+        "git_state": "committed"
+      },
+      "experiments/audit9_generate_report.py": {
+        "sha256": "c8257dc6873c4ef2d5bf1f40ff3906e7bbbd2513b241348583bfb3ec70f6f559",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/__init__.py": {
+        "sha256": "20ebf29ab1a9a64bb428f25ff0170d67db2354662efb8b973922c3f455f56582",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/constants.py": {
+        "sha256": "de8bd2282ff09c41fc6eae12fcca6695c1fd3a0c9def7628a9b76e9361058907",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/davies.py": {
+        "sha256": "cfad047d0b0676cc83a41208cd600f4224ce61bf03930228a5a80d1d6556c9b9",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/deterministics.py": {
+        "sha256": "31db116abc80e5cab8c97317a31d6f22f1a4ca40c885eef86c134db598dac6b2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/empirical_eigenvalues.py": {
+        "sha256": "f749e2e2de8b807421d6e74836bd5d539eccb314f18821bd38b80e72b5ee72a1",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/full_pipeline.py": {
+        "sha256": "cdbd5405caa50bc83c7348a0a8be9963b522ef4d808024f078f648bb1de89170",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/hac_estimator.py": {
+        "sha256": "f7c22540e6a8e862258cb70e4a839b841453ca9490a01671176431ee4bf678f2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/kl_eigenvalues.py": {
+        "sha256": "c0fb0a90795c904cb2876aa16eff64948e0abf5a27d3a57c6612c2b9ec198903",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/null_quantiles.py": {
+        "sha256": "655458f05815621d015984080169663d2310d26e588a83e2c5a62549ba5a1ae8",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/optimal_weight.py": {
+        "sha256": "47632d98ed256b2364a2ac99de64780e0cd8d42a69c68b4552c6ea0564f86ba4",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/rm_core.py": {
+        "sha256": "4d3ee3f59c569233a5e9a9ed8ffd3032364188545bac04a0cc619ccac39e04e0",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/standardization.py": {
+        "sha256": "cc8cb146d28ea63be86bc11db6cc6c345fbf5fd412055e2e58a33a40f3e8936b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/statistic.py": {
+        "sha256": "f0baf1d99ac4311ca854d350f18a3d3416974bf5d13e662d05149f87183d92ef",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/theta_selection.py": {
+        "sha256": "23eba50e85d0db917d14b4d3d844c42e5ee566dfd326a0fad7feae0dd113f40b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/utils.py": {
+        "sha256": "8a3e0b972da519b3c39ca0e0326953dbae1bf048845c05c1fb3a23a001b72717",
+        "git_state": "committed"
+      }
+    },
+    "code_all_committed": true,
+    "assistant": {
+      "herramienta": "Claude Code",
+      "modelo": "claude-opus-5-5",
+      "version": "2.1.265 (Claude Code)"
+    }
+  },
+  "reading": "enmienda 7, lectura E7.4",
+  "inputs": {
+    "v17_zip_sha256": "ab84cc28a4862023ed652f01f6cdedab16cf12ad9d6af49ddedc3fe1f76d650d",
+    "v18_zip_sha256": "b78cf82e25631a7dbcb004041eaffa02f3fab68c622e135f780f54b3c721a653",
+    "supplement_tex_sha256": "7becd364cd20199b0e17b9a701c5d8b051c1e10203390f4ba647c302a4b306f4"
+  },
+  "v18_compile": {
+    "errors": 0,
+    "undefined_references": 0,
+    "undefined_citations": 0,
+    "overfull": 0,
+    "pages": 20
+  },
+  "a_diff": [
+    {
+      "file": "main.tex",
+      "tag": "delete",
+      "v17_lines": [
+        65,
+        71
+      ],
+      "v18_lines": [
+        65,
+        64
+      ],
+      "removed": [
+        "% The generated note of tab_fixedb refers to \\cref{tab:serial}, which is in",
+        "% the supplement (Table S2.1). This stub gives the label its supplementary",
+        "% number until the note is regenerated with plain text (see B16).",
+        "\\makeatletter",
+        "\\def\\@currentlabel{S2.1}\\def\\cref@currentlabel{[table][1][]S2.1}%",
+        "\\label{tab:serial}%",
+        "\\makeatother"
+      ],
+      "added": [],
+      "kind": "stub",
+      "checks": [
+        {
+          "check": "stub de tab:serial retirado de main.tex",
+          "holds": true
+        },
+        {
+          "check": "compilacion del v18 sin referencias indefinidas",
+          "holds": true
+        },
+        {
+          "check": "compilacion del v18 sin errores",
+          "holds": true
+        }
+      ],
+      "numbers": [],
+      "verdict": "coincide"
+    },
+    {
+      "file": "sec2_statistics.tex",
+      "tag": "replace",
+      "v17_lines": [
+        26,
+        29
+      ],
+      "v18_lines": [
+        26,
+        32
+      ],
+      "removed": [
+        "case and $\\cbar = -13.5$ in the trend case, with $T_n = n$ and $T_n = n+1$",
+        "respectively, which is the convention of the replication code; because",
+        "every test is calibrated on the same code, the convention is immaterial",
+        "for size."
+      ],
+      "added": [
+        "case and $\\cbar = -13.5$ in the trend case. For MSB-GLS, MZ$_t$-GLS and",
+        "DF-GLS, $T_n = T = n + 1$, the number of observations, as in",
+        "Elliott, Rothenberg and Stock~\\cite{elliott1996efficient} and Ng and Perron~\\cite{ng2001lag}; for the statistic of",
+        "\\cref{eq:statzero} the replication code uses $T_n = n$ in the constant",
+        "case and $T_n = n + 1$ in the trend case. Each test is calibrated on its",
+        "own code, so the convention does not affect size with simulated critical",
+        "values."
+      ],
+      "kind": "Tn",
+      "checks": [
+        {
+          "check": "M y DF-GLS con T_n = n + 1 (experiments/audit8_unitroot.py:64; arch 8.0.0, arch/unitroot/unitroot.py:942)",
+          "holds": true
+        },
+        {
+          "check": "MSB-B: T_n = n (constante, src/stationarity_test/rm_core.py:67) y n + 1 (tendencia, src/stationarity_test/deterministics.py:57)",
+          "holds": true
+        }
+      ],
+      "numbers": [
+        "-13.5",
+        "1",
+        "1"
+      ],
+      "verdict": "coincide"
+    },
+    {
+      "file": "sec2_statistics.tex",
+      "tag": "replace",
+      "v17_lines": [
+        35,
+        35
+      ],
+      "v18_lines": [
+        38,
+        38
+      ],
+      "removed": [
+        "\\mathrm{MSB} = \\Big(\\frac{n^{-2}\\sum_{t=1}^{n}\\uhat_{t-1}^2}{s^2}\\Big)^{1/2},"
+      ],
+      "added": [
+        "\\mathrm{MSB} = \\Big(\\frac{T^{-2}\\sum_{t=1}^{n}\\uhat_{t-1}^2}{s^2}\\Big)^{1/2},"
+      ],
+      "kind": "mstats",
+      "checks": [
+        {
+          "check": "evaluacion literal de eq:mstats (E7.1): MSB rel <= 1e-12 y MZ_t abs <= 1e-10",
+          "holds": true
+        },
+        {
+          "check": "k_max del texto = codigo",
+          "holds": true
+        },
+        {
+          "check": "MAIC del texto en la muestra comun = k del codigo",
+          "holds": true
+        },
+        {
+          "check": "t de DF-GLS en t = k+1..n = arch.DFGLS",
+          "holds": true
+        }
+      ],
+      "numbers": [
+        "-2",
+        "1",
+        "1",
+        "2",
+        "2",
+        "1",
+        "2"
+      ],
+      "verdict": "coincide"
+    },
+    {
+      "file": "sec2_statistics.tex",
+      "tag": "replace",
+      "v17_lines": [
+        37,
+        37
+      ],
+      "v18_lines": [
+        40,
+        40
+      ],
+      "removed": [
+        "\\mathrm{MZ}_\\alpha = \\frac{n^{-1}\\uhat_n^2 - s^2}{2n^{-2}\\sum_{t=1}^{n}\\uhat_{t-1}^2},"
+      ],
+      "added": [
+        "\\mathrm{MZ}_\\alpha = \\frac{T^{-1}\\uhat_n^2 - s^2}{2T^{-2}\\sum_{t=1}^{n}\\uhat_{t-1}^2},"
+      ],
+      "kind": "mstats",
+      "checks": [
+        {
+          "check": "evaluacion literal de eq:mstats (E7.1): MSB rel <= 1e-12 y MZ_t abs <= 1e-10",
+          "holds": true
+        },
+        {
+          "check": "k_max del texto = codigo",
+          "holds": true
+        },
+        {
+          "check": "MAIC del texto en la muestra comun = k del codigo",
+          "holds": true
+        },
+        {
+          "check": "t de DF-GLS en t = k+1..n = arch.DFGLS",
+          "holds": true
+        }
+      ],
+      "numbers": [
+        "-1",
+        "2",
+        "2",
+        "2",
+        "-2",
+        "1",
+        "1",
+        "2"
+      ],
+      "verdict": "coincide"
+    },
+    {
+      "file": "sec2_statistics.tex",
+      "tag": "replace",
+      "v17_lines": [
+        41,
+        46
+      ],
+      "v18_lines": [
+        44,
+        53
+      ],
+      "removed": [
+        "where $s^2$ is an estimate of $\\omega^2$. MSB-GLS and MZ$_t$-GLS use the autoregressive",
+        "estimate $\\sAR = \\hat\\sigma_k^2/(1 - \\sum_{j=1}^k\\hat b_j)^2$ from the",
+        "regression of $\\Delta\\uhat_t$ on $\\uhat_{t-1}$ and $k$ lagged differences,",
+        "with $k$ chosen by the modified Akaike criterion (MAIC) of",
+        "Ng and Perron~\\cite{ng2001lag}; DF-GLS is the $t$-ratio on $\\uhat_{t-1}$ in the same",
+        "regression. All reject for small values."
+      ],
+      "added": [
+        "with $T = n + 1$ and $s^2$ an estimate of $\\omega^2$. MSB-GLS and",
+        "MZ$_t$-GLS use the autoregressive estimate $\\sAR = \\hat\\sigma_k^2/(1 -",
+        "\\sum_{j=1}^k\\hat b_j)^2$ from the least-squares regression, without",
+        "intercept, of $\\Delta\\uhat_t$ on $\\uhat_{t-1}$ and $\\Delta\\uhat_{t-1},",
+        "\\dots, \\Delta\\uhat_{t-k}$ over the common sample $t = k_{\\max}+1, \\dots,",
+        "n$, with $\\hat\\sigma_k^2$ its residual sum of squares divided by $n -",
+        "k_{\\max}$, $k_{\\max} = \\lfloor 12(T/100)^{1/4}\\rfloor$, and $k$ chosen by",
+        "the modified Akaike criterion (MAIC) of Ng and Perron~\\cite{ng2001lag} over the same",
+        "sample. DF-GLS is the $t$-ratio on $\\uhat_{t-1}$ in the regression with",
+        "the selected $k$, estimated over $t = k+1, \\dots, n$. All reject for small values."
+      ],
+      "kind": "mstats",
+      "checks": [
+        {
+          "check": "evaluacion literal de eq:mstats (E7.1): MSB rel <= 1e-12 y MZ_t abs <= 1e-10",
+          "holds": true
+        },
+        {
+          "check": "k_max del texto = codigo",
+          "holds": true
+        },
+        {
+          "check": "MAIC del texto en la muestra comun = k del codigo",
+          "holds": true
+        },
+        {
+          "check": "t de DF-GLS en t = k+1..n = arch.DFGLS",
+          "holds": true
+        }
+      ],
+      "numbers": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "1",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "2",
+        "12",
+        "100",
+        "1",
+        "4",
+        "1",
+        "1"
+      ],
+      "verdict": "coincide"
+    },
+    {
+      "file": "sec3_theory.tex",
+      "tag": "replace",
+      "v17_lines": [
+        154,
+        159
+      ],
+      "v18_lines": [
+        154,
+        162
+      ],
+      "removed": [
+        "(bootUR 1.0.5): the bootstrap data-generating process is the",
+        "autoregression in first differences implied by an augmented Dickey--Fuller",
+        "regression with the null imposed and the lag chosen by the MAIC; its",
+        "residuals are resampled independently (SB) or multiplied by independent",
+        "random weights (SWB), and the bootstrap series is rebuilt by recursion and",
+        "cumulation. We replicate both in our own code, with"
+      ],
+      "added": [
+        "(bootUR 1.0.5). An augmented Dickey--Fuller regression is estimated",
+        "without restriction on OLS-detrended data, with the lag chosen by the",
+        "MAIC with the rescaling of Perron and Qu~\\cite{perron2007simple}; the null is imposed",
+        "when the bootstrap series is generated, by discarding the coefficient on",
+        "the lagged level, so that the bootstrap increments follow the",
+        "autoregression of the lagged differences and the series is cumulated",
+        "under a unit root. The residuals of the regression, not centred, are",
+        "resampled independently (SB) or multiplied by independent standard",
+        "Gaussian weights (SWB). We replicate both in our own code, with"
+      ],
+      "kind": "boot35",
+      "checks": [
+        {
+          "check": "afirmaciones de la seccion 3.5 frente a bootUR y al motor: 0 'difiere' (E7.2)",
+          "holds": true
+        },
+        {
+          "check": "comprobaciones de la seccion 3.5 sin fallos",
+          "holds": true
+        }
+      ],
+      "numbers": [
+        "1.0"
+      ],
+      "verdict": "coincide"
+    },
+    {
+      "file": "sec4_montecarlo.tex",
+      "tag": "replace",
+      "v17_lines": [
+        105,
+        105
+      ],
+      "v18_lines": [
+        105,
+        105
+      ],
+      "removed": [
+        "Carlo error. In the trend case the four tests are within $1.2$ points of"
+      ],
+      "added": [
+        "Carlo error. In the trend case the four tests are within $1.3$ points of"
+      ],
+      "kind": "within",
+      "checks": [
+        {
+          "check": "'within 1.3' como cota del maximo 1.225",
+          "holds": true,
+          "detail": {
+            "found": true,
+            "line": 1,
+            "quote": "the four tests are within $1.3$ points",
+            "numbers": [
+              {
+                "printed": "1.3",
+                "value": 1.2249999999999983,
+                "conventions": [
+                  "hacia arriba (cota)"
+                ],
+                "bound": "upper",
+                "bound_holds": true,
+                "verdict": "confirma",
+                "correct": null
+              }
+            ],
+            "verdict": "confirma"
+          }
+        }
+      ],
+      "numbers": [
+        "1.3"
+      ],
+      "verdict": "coincide"
+    },
+    {
+      "file": "sec4_montecarlo.tex",
+      "tag": "replace",
+      "v17_lines": [
+        183,
+        183
+      ],
+      "v18_lines": [
+        183,
+        183
+      ],
+      "removed": [
+        "\\input{tables/tab_summary_audit15}}"
+      ],
+      "added": [
+        "\\input{tables/tab_summary_audit16}}"
+      ],
+      "kind": "inputs",
+      "checks": [
+        {
+          "check": "tables/tab_summary_audit16.tex del v18 = tables_audit16/tab_summary_audit16.tex",
+          "holds": true
+        }
+      ],
+      "numbers": [],
+      "verdict": "coincide"
+    },
+    {
+      "file": "sec4_montecarlo.tex",
+      "tag": "replace",
+      "v17_lines": [
+        185,
+        185
+      ],
+      "v18_lines": [
+        185,
+        185
+      ],
+      "removed": [
+        "\\input{tables/tab_summary_note_audit15}"
+      ],
+      "added": [
+        "\\input{tables/tab_summary_note_audit16}"
+      ],
+      "kind": "inputs",
+      "checks": [
+        {
+          "check": "tables/tab_summary_note_audit16.tex del v18 = tables_audit16/tab_summary_note_audit16.tex",
+          "holds": true
+        }
+      ],
+      "numbers": [],
+      "verdict": "coincide"
+    },
+    {
+      "file": "sec4_montecarlo.tex",
+      "tag": "replace",
+      "v17_lines": [
+        302,
+        302
+      ],
+      "v18_lines": [
+        302,
+        302
+      ],
+      "removed": [
+        "\\input{tables/tab_fixedb_audit15}"
+      ],
+      "added": [
+        "\\input{tables/tab_fixedb_audit16}"
+      ],
+      "kind": "inputs",
+      "checks": [
+        {
+          "check": "tables/tab_fixedb_audit16.tex del v18 = tables_audit16/tab_fixedb_audit16.tex",
+          "holds": true
+        }
+      ],
+      "numbers": [],
+      "verdict": "coincide"
+    },
+    {
+      "file": "sec4_montecarlo.tex",
+      "tag": "replace",
+      "v17_lines": [
+        304,
+        304
+      ],
+      "v18_lines": [
+        304,
+        304
+      ],
+      "removed": [
+        "\\input{tables/tab_fixedb_note_audit15}"
+      ],
+      "added": [
+        "\\input{tables/tab_fixedb_note_audit16}"
+      ],
+      "kind": "inputs",
+      "checks": [
+        {
+          "check": "tables/tab_fixedb_note_audit16.tex del v18 = tables_audit16/tab_fixedb_note_audit16.tex",
+          "holds": true
+        }
+      ],
+      "numbers": [],
+      "verdict": "coincide"
+    },
+    {
+      "file": "tables/tab_fixedb_audit15.tex",
+      "tag": "delete",
+      "v17_lines": [
+        1,
+        15
+      ],
+      "v18_lines": [
+        1,
+        0
+      ],
+      "removed": [
+        "% Generado por experiments/audit15_v17_tables.py desde b3_fixedb_audit15.json y bA_ma_audit12.json (no editar a mano)",
+        "\\begin{tabular}{lccccccc}",
+        "\\toprule",
+        "& \\multicolumn{4}{c}{Size, serially correlated errors} & \\multicolumn{3}{c}{Size-adjusted power} \\\\",
+        "\\cmidrule(lr){2-5}\\cmidrule(lr){6-8}",
+        "Long-run variance & min & max & $D$ & $M$ & $\\rho = 0.80$ & $\\rho = 0.90$ & $\\rho = 0.95$ \\\\",
+        "\\midrule",
+        "\\RMGLS{} (Andrews) & 0.004 & 0.570 & 0.0828 & 0.5195 & 1.000 & 0.994 & 0.709 \\\\",
+        "(b) $s^2_{\\mathrm{AR}}$ & 0.013 & 0.098 & 0.0150 & 0.0480 & 0.950 & 0.921 & 0.653 \\\\",
+        "$b = 0.1$ & 0.040 & 0.298 & 0.0199 & 0.2476 & 0.983 & 0.874 & 0.555 \\\\",
+        "LLSW & 0.027 & 0.228 & 0.0284 & 0.1784 & 0.993 & 0.901 & 0.573 \\\\",
+        "$b = 0.3$ & 0.015 & 0.059 & 0.0075 & 0.0354 & 0.156 & 0.187 & 0.181 \\\\",
+        "$b = 1$ & 0.013 & 0.059 & 0.0062 & 0.0372 & 0.089 & 0.088 & 0.081 \\\\",
+        "\\bottomrule",
+        "\\end{tabular}"
+      ],
+      "added": [],
+      "kind": "table_removed",
+      "checks": [
+        {
+          "check": "tables/tab_fixedb_audit15.tex ya no se usa en el v18",
+          "holds": true
+        }
+      ],
+      "numbers": [],
+      "verdict": "coincide"
+    },
+    {
+      "file": "tables/tab_fixedb_audit16.tex",
+      "tag": "insert",
+      "v17_lines": [
+        1,
+        0
+      ],
+      "v18_lines": [
+        1,
+        15
+      ],
+      "removed": [],
+      "added": [
+        "% Generado por experiments/audit16_v17_tables.py desde b3_fixedb_audit15.json y bA_ma_audit12.json (no editar a mano)",
+        "\\begin{tabular}{lccccccc}",
+        "\\toprule",
+        "& \\multicolumn{4}{c}{Size, serially correlated errors} & \\multicolumn{3}{c}{Size-adjusted power} \\\\",
+        "\\cmidrule(lr){2-5}\\cmidrule(lr){6-8}",
+        "Long-run variance & min & max & $D$ & $M$ & $\\rho = 0.80$ & $\\rho = 0.90$ & $\\rho = 0.95$ \\\\",
+        "\\midrule",
+        "\\RMGLS{} (Andrews) & 0.004 & 0.570 & 0.0828 & 0.5195 & 1.000 & 0.994 & 0.709 \\\\",
+        "(b) $s^2_{\\mathrm{AR}}$ & 0.013 & 0.098 & 0.0150 & 0.0480 & 0.950 & 0.921 & 0.653 \\\\",
+        "$b = 0.1$ & 0.040 & 0.298 & 0.0199 & 0.2476 & 0.983 & 0.874 & 0.555 \\\\",
+        "LLSW & 0.027 & 0.228 & 0.0284 & 0.1784 & 0.993 & 0.901 & 0.573 \\\\",
+        "$b = 0.3$ & 0.015 & 0.059 & 0.0075 & 0.0354 & 0.156 & 0.187 & 0.181 \\\\",
+        "$b = 1$ & 0.013 & 0.059 & 0.0062 & 0.0372 & 0.089 & 0.088 & 0.081 \\\\",
+        "\\bottomrule",
+        "\\end{tabular}"
+      ],
+      "kind": "table_added",
+      "checks": [
+        {
+          "check": "tables/tab_fixedb_audit16.tex del v18 = tables_audit16/tab_fixedb_audit16.tex",
+          "holds": true
+        }
+      ],
+      "numbers": [
+        "4",
+        "3",
+        "2",
+        "5",
+        "6",
+        "8",
+        "0.80",
+        "0.90",
+        "0.95",
+        "0.004",
+        "0.570",
+        "0.0828",
+        "0.5195",
+        "1.000",
+        "0.994",
+        "0.709",
+        "2",
+        "0.013",
+        "0.098",
+        "0.0150",
+        "0.0480",
+        "0.950",
+        "0.921",
+        "0.653",
+        "0.1",
+        "0.040",
+        "0.298",
+        "0.0199",
+        "0.2476",
+        "0.983",
+        "0.874",
+        "0.555",
+        "0.027",
+        "0.228",
+        "0.0284",
+        "0.1784",
+        "0.993",
+        "0.901",
+        "0.573",
+        "0.3",
+        "0.015",
+        "0.059",
+        "0.0075",
+        "0.0354",
+        "0.156",
+        "0.187",
+        "0.181",
+        "1",
+        "0.013",
+        "0.059",
+        "0.0062",
+        "0.0372",
+        "0.089",
+        "0.088",
+        "0.081"
+      ],
+      "verdict": "coincide"
+    },
+    {
+      "file": "tables/tab_fixedb_note_audit15.tex",
+      "tag": "delete",
+      "v17_lines": [
+        1,
+        2
+      ],
+      "v18_lines": [
+        1,
+        0
+      ],
+      "removed": [
+        "% Generado por experiments/audit15_v17_tables.py desde b3_fixedb_audit15.json y bA_ma_audit12.json (no editar a mano)",
+        "Size over the 36 cells of \\cref{tab:serial}; $D$ and $M$: mean and maximum of $|\\text{size} - 0.05|$ over the 30 cells with serially correlated errors. Power: AR(1) with iid errors, $n = 200$, constant case, 5000 paths, critical values simulated under iid errors (100000 paths). Fixed-$b$: Bartlett with $B = \\lceil b n\\rceil$; LLSW: $B = \\lceil 1.3 n^{1/2}\\rceil - 1$ (Lazarus, Lewis, Stock and Watson, 2018, eq.~(3)). The size of \\RMGLS{} with the Andrews bandwidth and of (b) is taken from \\cref{tab:serial} ($20000$ paths per cell); all other entries use independent paths ($20000$ per cell)."
+      ],
+      "added": [],
+      "kind": "table_removed",
+      "checks": [
+        {
+          "check": "tables/tab_fixedb_note_audit15.tex ya no se usa en el v18",
+          "holds": true
+        }
+      ],
+      "numbers": [],
+      "verdict": "coincide"
+    },
+    {
+      "file": "tables/tab_fixedb_note_audit16.tex",
+      "tag": "insert",
+      "v17_lines": [
+        1,
+        0
+      ],
+      "v18_lines": [
+        1,
+        2
+      ],
+      "removed": [],
+      "added": [
+        "% Generado por experiments/audit16_v17_tables.py desde b3_fixedb_audit15.json y bA_ma_audit12.json (no editar a mano)",
+        "Size over the 36 cells of Table S2.1 of the supplement; $D$ and $M$: mean and maximum of $|\\text{size} - 0.05|$ over the 30 cells with serially correlated errors. Power: AR(1) with iid errors, $n = 200$, constant case, 5000 paths, critical values simulated under iid errors (100000 paths). Fixed-$b$: Bartlett with $B = \\lceil b n\\rceil$; LLSW: $B = \\lceil 1.3 n^{1/2}\\rceil - 1$ (Lazarus, Lewis, Stock and Watson, 2018, eq.~(3)). The size of \\RMGLS{} with the Andrews bandwidth and of (b) is taken from Table S2.1 of the supplement ($20000$ paths per cell); all other entries use independent paths ($20000$ per cell)."
+      ],
+      "kind": "table_added",
+      "checks": [
+        {
+          "check": "tables/tab_fixedb_note_audit16.tex del v18 = tables_audit16/tab_fixedb_note_audit16.tex",
+          "holds": true
+        }
+      ],
+      "numbers": [
+        "36",
+        "0.05",
+        "30",
+        "1",
+        "200",
+        "5000",
+        "100000",
+        "1.3",
+        "1",
+        "2",
+        "1",
+        "2018",
+        "3",
+        "20000",
+        "20000"
+      ],
+      "verdict": "coincide"
+    },
+    {
+      "file": "tables/tab_summary_audit15.tex",
+      "tag": "delete",
+      "v17_lines": [
+        1,
+        23
+      ],
+      "v18_lines": [
+        1,
+        0
+      ],
+      "removed": [
+        "% Generado por experiments/audit15_v17_tables.py desde bA_ma_audit12.json, b3_fixedb_audit15.json y b1_boot_audit15.json (no editar a mano)",
+        "\\begin{tabular}{llcccccc}",
+        "\\toprule",
+        "& & \\multicolumn{5}{c}{Size} & \\\\",
+        "\\cmidrule(lr){3-7}",
+        "Test & Critical value & $D$ & $M$ & min & max & iid in region & Power \\\\",
+        "\\midrule",
+        "\\RMGLS{} & Andrews & 0.0828 & 0.5195 & 0.004 & 0.570 & 6/6 & 0.997 \\\\",
+        "\\RMGLS{} & fixed-$b$, $b = 0.3$ & 0.0075 & 0.0354 & 0.015 & 0.059 & 6/6 & 0.187 \\\\",
+        "\\addlinespace",
+        "MSB-GLS & iid & 0.0150 & 0.0471 & 0.013 & 0.097 & 5/6 & 0.933 \\\\",
+        "\\addlinespace",
+        "MZ$_t$-GLS & asymptotic & 0.0134 & 0.0408 & 0.009 & 0.083 & 3/6 & 0.922 \\\\",
+        "MZ$_t$-GLS & iid & 0.0135 & 0.0576 & 0.017 & 0.108 & 6/6 & 0.922 \\\\",
+        "MZ$_t$-GLS & SB (bootUR) & 0.0074 & 0.0382 & 0.035 & 0.088 & 6/6 & 0.890 \\\\",
+        "MZ$_t$-GLS & SWB (bootUR) & 0.0072 & 0.0354 & 0.033 & 0.085 & 5/6 & 0.900 \\\\",
+        "MZ$_t$-GLS & AWB & 0.0117 & 0.0408 & 0.013 & 0.091 & 4/6 & 0.906 \\\\",
+        "\\addlinespace",
+        "DF-GLS & iid & 0.0152 & 0.0917 & 0.036 & 0.142 & 5/6 & 0.931 \\\\",
+        "\\addlinespace",
+        "ADF & iid & 0.0731 & 0.6286 & 0.047 & 0.679 & 6/6 & 0.802 \\\\",
+        "\\bottomrule",
+        "\\end{tabular}"
+      ],
+      "added": [],
+      "kind": "table_removed",
+      "checks": [
+        {
+          "check": "tables/tab_summary_audit15.tex ya no se usa en el v18",
+          "holds": true
+        }
+      ],
+      "numbers": [],
+      "verdict": "coincide"
+    },
+    {
+      "file": "tables/tab_summary_audit16.tex",
+      "tag": "insert",
+      "v17_lines": [
+        1,
+        0
+      ],
+      "v18_lines": [
+        1,
+        23
+      ],
+      "removed": [],
+      "added": [
+        "% Generado por experiments/audit16_v17_tables.py desde bA_ma_audit12.json, b3_fixedb_audit15.json y b1_boot_audit15.json (no editar a mano)",
+        "\\begin{tabular}{llcccccc}",
+        "\\toprule",
+        "& & \\multicolumn{5}{c}{Size} & \\\\",
+        "\\cmidrule(lr){3-7}",
+        "Test & Critical value & $D$ & $M$ & min & max & iid in region & Power \\\\",
+        "\\midrule",
+        "\\RMGLS{} & Andrews & 0.0828 & 0.5195 & 0.004 & 0.570 & 6/6 & 0.994 \\\\",
+        "\\RMGLS{} & fixed-$b$, $b = 0.3$ & 0.0075 & 0.0354 & 0.015 & 0.059 & 6/6 & 0.187 \\\\",
+        "\\addlinespace",
+        "MSB-GLS & iid & 0.0150 & 0.0471 & 0.013 & 0.097 & 5/6 & 0.933 \\\\",
+        "\\addlinespace",
+        "MZ$_t$-GLS & asymptotic & 0.0134 & 0.0408 & 0.009 & 0.083 & 3/6 & 0.922 \\\\",
+        "MZ$_t$-GLS & iid & 0.0135 & 0.0576 & 0.017 & 0.108 & 6/6 & 0.922 \\\\",
+        "MZ$_t$-GLS & SB (bootUR) & 0.0074 & 0.0382 & 0.035 & 0.088 & 6/6 & 0.890 \\\\",
+        "MZ$_t$-GLS & SWB (bootUR) & 0.0072 & 0.0354 & 0.033 & 0.085 & 5/6 & 0.900 \\\\",
+        "MZ$_t$-GLS & AWB & 0.0117 & 0.0408 & 0.013 & 0.091 & 4/6 & 0.906 \\\\",
+        "\\addlinespace",
+        "DF-GLS & iid & 0.0152 & 0.0917 & 0.036 & 0.142 & 5/6 & 0.931 \\\\",
+        "\\addlinespace",
+        "ADF & iid & 0.0731 & 0.6286 & 0.047 & 0.679 & 6/6 & 0.802 \\\\",
+        "\\bottomrule",
+        "\\end{tabular}"
+      ],
+      "kind": "table_added",
+      "checks": [
+        {
+          "check": "tables/tab_summary_audit16.tex del v18 = tables_audit16/tab_summary_audit16.tex",
+          "holds": true
+        }
+      ],
+      "numbers": [
+        "5",
+        "3",
+        "7",
+        "0.0828",
+        "0.5195",
+        "0.004",
+        "0.570",
+        "6",
+        "6",
+        "0.994",
+        "0.3",
+        "0.0075",
+        "0.0354",
+        "0.015",
+        "0.059",
+        "6",
+        "6",
+        "0.187",
+        "0.0150",
+        "0.0471",
+        "0.013",
+        "0.097",
+        "5",
+        "6",
+        "0.933",
+        "0.0134",
+        "0.0408",
+        "0.009",
+        "0.083",
+        "3",
+        "6",
+        "0.922",
+        "0.0135",
+        "0.0576",
+        "0.017",
+        "0.108",
+        "6",
+        "6",
+        "0.922",
+        "0.0074",
+        "0.0382",
+        "0.035",
+        "0.088",
+        "6",
+        "6",
+        "0.890",
+        "0.0072",
+        "0.0354",
+        "0.033",
+        "0.085",
+        "5",
+        "6",
+        "0.900",
+        "0.0117",
+        "0.0408",
+        "0.013",
+        "0.091",
+        "4",
+        "6",
+        "0.906",
+        "0.0152",
+        "0.0917",
+        "0.036",
+        "0.142",
+        "5",
+        "6",
+        "0.931",
+        "0.0731",
+        "0.6286",
+        "0.047",
+        "0.679",
+        "6",
+        "6",
+        "0.802"
+      ],
+      "verdict": "coincide"
+    },
+    {
+      "file": "tables/tab_summary_note_audit15.tex",
+      "tag": "delete",
+      "v17_lines": [
+        1,
+        2
+      ],
+      "v18_lines": [
+        1,
+        0
+      ],
+      "removed": [
+        "% Generado por experiments/audit15_v17_tables.py desde bA_ma_audit12.json, b3_fixedb_audit15.json y b1_boot_audit15.json (no editar a mano)",
+        "Nominal level $0.05$. $D$ and $M$: mean and maximum of $|\\text{size} - 0.05|$ over the 30 cells with serially correlated errors; min and max over all 36 cells; iid in region: cells with iid errors whose rejection rate lies in the exact binomial region of its number of paths ($[0.0470, 0.05305]$ for $20000$ paths; $[0.0440, 0.0562]$ for $5000$ paths). Size: rows 1, 3, 9, 10: A12, $20000$ paths per cell; row 2: A15, $20000$ paths per cell; rows 4, 5, 6, 7, 8: A15, $5000$ paths per cell. Power: AR(1) with $\\rho = 0.90$, iid errors, $n = 200$, constant case; rows 1, 3, 9, 10: A12, $5000$ paths, size-adjusted in the null cell with the same errors, $n$ and case; row 2: A15, $5000$ paths, critical values simulated under iid errors ($100000$ paths per $n$), no further size adjustment; rows 4, 5, 6, 7, 8: A15, $2000$ paths, size-adjusted in the null cell with the same errors, $n$ and case. The three power experiments use different paths."
+      ],
+      "added": [],
+      "kind": "table_removed",
+      "checks": [
+        {
+          "check": "tables/tab_summary_note_audit15.tex ya no se usa en el v18",
+          "holds": true
+        }
+      ],
+      "numbers": [],
+      "verdict": "coincide"
+    },
+    {
+      "file": "tables/tab_summary_note_audit16.tex",
+      "tag": "insert",
+      "v17_lines": [
+        1,
+        0
+      ],
+      "v18_lines": [
+        1,
+        2
+      ],
+      "removed": [],
+      "added": [
+        "% Generado por experiments/audit16_v17_tables.py desde bA_ma_audit12.json, b3_fixedb_audit15.json y b1_boot_audit15.json (no editar a mano)",
+        "Nominal level $0.05$. $D$ and $M$: mean and maximum of $|\\text{size} - 0.05|$ over the 30 cells with serially correlated errors; min and max over all 36 cells; iid in region: cells with iid errors whose rejection rate lies in the exact binomial region of its number of paths ($[0.0470, 0.05305]$ for $20000$ paths; $[0.0440, 0.0562]$ for $5000$ paths). Size: rows 1, 3, 9, 10: A12, $20000$ paths per cell; row 2: A15, $20000$ paths per cell; rows 4, 5, 6, 7, 8: A15, $5000$ paths per cell. Power: AR(1) with $\\rho = 0.90$, iid errors, $n = 200$, constant case; rows 1, 2: A15, $5000$ paths, critical values simulated under iid errors ($100000$ paths per $n$), no further size adjustment; rows 3, 9, 10: A12, $5000$ paths, size-adjusted in the null cell with the same errors, $n$ and case; rows 4, 5, 6, 7, 8: A15, $2000$ paths, size-adjusted in the null cell with the same errors, $n$ and case. The three power experiments use different paths."
+      ],
+      "kind": "table_added",
+      "checks": [
+        {
+          "check": "tables/tab_summary_note_audit16.tex del v18 = tables_audit16/tab_summary_note_audit16.tex",
+          "holds": true
+        }
+      ],
+      "numbers": [
+        "0.05",
+        "0.05",
+        "30",
+        "36",
+        "0.0470",
+        "0.05305",
+        "20000",
+        "0.0440",
+        "0.0562",
+        "5000",
+        "1",
+        "3",
+        "9",
+        "10",
+        "20000",
+        "2",
+        "20000",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "5000",
+        "1",
+        "0.90",
+        "200",
+        "1",
+        "2",
+        "5000",
+        "100000",
+        "3",
+        "9",
+        "10",
+        "5000",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "2000"
+      ],
+      "verdict": "coincide"
+    }
+  ],
+  "b_tables": [
+    {
+      "table": "S2.1 (tab:serial)",
+      "regenerated_equals_supplement": true,
+      "cells": 36,
+      "note_checks": [
+        {
+          "check": "region [0.0470, 0.05305] en la nota",
+          "holds": true
+        },
+        {
+          "check": "2x10^4 caminos (config.N_size = 20000)",
+          "holds": true
+        },
+        {
+          "check": "N_cal = 5x10^5 (config.N_cal = 500000)",
+          "holds": true
+        }
+      ]
+    },
+    {
+      "table": "S4.3 (tab:awb)",
+      "identical_to_tables_audit13": true,
+      "a13_gate": {
+        "max_abs": 0.9499999999999953,
+        "signed": 0.9499999999999953,
+        "cell": "dgp1_rho0p95_n200|awb",
+        "cells": 32,
+        "by_cell": {
+          "dgp3_r1_n200|awb": {
+            "theta0": 0.04,
+            "v13": 0.042,
+            "diff": -0.20000000000000018
+          },
+          "dgp3_r1_n200|sim": {
+            "theta0": 0.042,
+            "v13": 0.043,
+            "diff": -0.0999999999999994
+          },
+          "dgp3_r1_n500|awb": {
+            "theta0": 0.042,
+            "v13": 0.0465,
+            "diff": -0.44999999999999973
+          },
+          "dgp3_r1_n500|sim": {
+            "theta0": 0.0515,
+            "v13": 0.0505,
+            "diff": 0.0999999999999994
+          },
+          "dgp3_r2_n200|awb": {
+            "theta0": 0.052,
+            "v13": 0.0535,
+            "diff": -0.15000000000000013
+          },
+          "dgp3_r2_n200|sim": {
+            "theta0": 0.0795,
+            "v13": 0.082,
+            "diff": -0.2500000000000002
+          },
+          "dgp3_r2_n500|awb": {
+            "theta0": 0.0505,
+            "v13": 0.0565,
+            "diff": -0.5999999999999999
+          },
+          "dgp3_r2_n500|sim": {
+            "theta0": 0.0885,
+            "v13": 0.087,
+            "diff": 0.15000000000000013
+          },
+          "dgp3_r4_n200|awb": {
+            "theta0": 0.0405,
+            "v13": 0.0395,
+            "diff": 0.10000000000000009
+          },
+          "dgp3_r4_n200|sim": {
+            "theta0": 0.1175,
+            "v13": 0.124,
+            "diff": -0.6500000000000006
+          },
+          "dgp3_r4_n500|awb": {
+            "theta0": 0.04,
+            "v13": 0.0395,
+            "diff": 0.050000000000000044
+          },
+          "dgp3_r4_n500|sim": {
+            "theta0": 0.117,
+            "v13": 0.1175,
+            "diff": -0.04999999999999866
+          },
+          "garch_base_n200|awb": {
+            "theta0": 0.042,
+            "v13": 0.042,
+            "diff": 0.0
+          },
+          "garch_base_n200|sim": {
+            "theta0": 0.0505,
+            "v13": 0.0505,
+            "diff": 0.0
+          },
+          "garch_p098_n200|awb": {
+            "theta0": 0.0525,
+            "v13": 0.0525,
+            "diff": 0.0
+          },
+          "garch_p098_n200|sim": {
+            "theta0": 0.06,
+            "v13": 0.059,
+            "diff": 0.10000000000000009
+          },
+          "garch_p099_n200|awb": {
+            "theta0": 0.052,
+            "v13": 0.056,
+            "diff": -0.40000000000000036
+          },
+          "garch_p099_n200|sim": {
+            "theta0": 0.061,
+            "v13": 0.059,
+            "diff": 0.20000000000000018
+          },
+          "garch_p095_t5_n200|awb": {
+            "theta0": 0.0425,
+            "v13": 0.045,
+            "diff": -0.24999999999999953
+          },
+          "garch_p095_t5_n200|sim": {
+            "theta0": 0.0515,
+            "v13": 0.0515,
+            "diff": 0.0
+          },
+          "indep_n200|awb": {
+            "theta0": 0.0525,
+            "v13": 0.052,
+            "diff": 0.050000000000000044
+          },
+          "indep_n200|sim": {
+            "theta0": 0.0535,
+            "v13": 0.053,
+            "diff": 0.050000000000000044
+          },
+          "indep_n500|awb": {
+            "theta0": 0.0445,
+            "v13": 0.043,
+            "diff": 0.15000000000000013
+          },
+          "indep_n500|sim": {
+            "theta0": 0.047,
+            "v13": 0.0465,
+            "diff": 0.050000000000000044
+          },
+          "dgp1_rho0p95_n200|awb": {
+            "theta0": 0.6765,
+            "v13": 0.667,
+            "diff": 0.9499999999999953
+          },
+          "dgp1_rho0p95_n200|sim": {
+            "theta0": 0.7055,
+            "v13": 0.697,
+            "diff": 0.8500000000000063
+          },
+          "dgp1_rho0p95_n500|awb": {
+            "theta0": 1.0,
+            "v13": 1.0,
+            "diff": 0.0
+          },
+          "dgp1_rho0p95_n500|sim": {
+            "theta0": 1.0,
+            "v13": 1.0,
+            "diff": 0.0
+          },
+          "dgp1_rho0p99_n200|awb": {
+            "theta0": 0.098,
+            "v13": 0.092,
+            "diff": 0.6000000000000005
+          },
+          "dgp1_rho0p99_n200|sim": {
+            "theta0": 0.102,
+            "v13": 0.1015,
+            "diff": 0.04999999999999866
+          },
+          "dgp1_rho0p99_n500|awb": {
+            "theta0": 0.295,
+            "v13": 0.2955,
+            "diff": -0.050000000000000044
+          },
+          "dgp1_rho0p99_n500|sim": {
+            "theta0": 0.313,
+            "v13": 0.3085,
+            "diff": 0.4500000000000004
+          }
+        },
+        "units": "pp"
+      },
+      "note_checks": [
+        {
+          "check": "2000 caminos comunes (config.N_sim)",
+          "holds": true
+        },
+        {
+          "check": "R = 399 replicas (config.B)",
+          "holds": true
+        },
+        {
+          "check": "sin 'B = 399'",
+          "holds": true
+        },
+        {
+          "check": "region [0.0405, 0.0600] para 2000 caminos",
+          "holds": true
+        }
+      ],
+      "observation": "el p-valor del AWB de A13 es #{stat* <= stat} / B; la seccion 3.5 da (1 + #{T* <= T})/(R + 1) para las tres calibraciones de MZ_t"
+    },
+    {
+      "table": "S7.1 (tab:hacrates)",
+      "rows": [
+        {
+          "process": "RW",
+          "printed": [
+            "0.0090",
+            "0.3518",
+            "0.0096",
+            "0.4842",
+            "0.0109",
+            "-0.0021",
+            "-0.0090"
+          ],
+          "json_binary": [
+            "0.0090",
+            "0.3518",
+            "0.0096",
+            "0.4842",
+            "0.0109",
+            "-0.0021",
+            "-0.0090"
+          ],
+          "equal": true
+        },
+        {
+          "process": "AR 0.95",
+          "printed": [
+            "0.1649",
+            "0.8781",
+            "0.1295",
+            "0.8735",
+            "0.1668",
+            "-0.8121",
+            "-0.9413"
+          ],
+          "json_binary": [
+            "0.1649",
+            "0.8781",
+            "0.1295",
+            "0.8735",
+            "0.1668",
+            "-0.8121",
+            "-0.9413"
+          ],
+          "equal": true
+        },
+        {
+          "process": "AR 0.5",
+          "printed": [
+            "0.3332",
+            "0.9999",
+            "0.3120",
+            "1.0000",
+            "0.3354",
+            "-0.8460",
+            "-1.1711"
+          ],
+          "json_binary": [
+            "0.3332",
+            "0.9999",
+            "0.3120",
+            "1.0000",
+            "0.3354",
+            "-0.8460",
+            "-1.1711"
+          ],
+          "equal": true
+        }
+      ],
+      "all_equal": true,
+      "s7_sentence_present": true,
+      "slopes_vs_one_third": {
+        "RW": {
+          "B_pre_script": 0.008966189024786147,
+          "B_pre_lib": 0.010908685884469528
+        },
+        "AR 0.95": {
+          "B_pre_script": 0.16485421887095925,
+          "B_pre_lib": 0.16680635956635098
+        },
+        "AR 0.5": {
+          "B_pre_script": 0.33322420136351794,
+          "B_pre_lib": 0.335427510791283
+        }
+      }
+    },
+    {
+      "table": "S9.2 (tab:deviations)",
+      "items": [
+        {
+          "found": true,
+          "line": 14,
+          "quote": "Registered statistic: mean FP $0.02770 \\to 0.02786$",
+          "numbers": [
+            {
+              "printed": "0.02770",
+              "value": 0.027695742047260757,
+              "conventions": [
+                "binaria",
+                "mitad hacia arriba"
+              ],
+              "bound": null,
+              "bound_holds": true,
+              "verdict": "confirma",
+              "correct": null
+            },
+            {
+              "printed": "0.02786",
+              "value": 0.027858723906671184,
+              "conventions": [
+                "binaria",
+                "mitad hacia arriba"
+              ],
+              "bound": null,
+              "bound_holds": true,
+              "verdict": "confirma",
+              "correct": null
+            }
+          ],
+          "verdict": "confirma",
+          "key": "pilot",
+          "source": "deviation_table_audit8.json rows[0]"
+        },
+        {
+          "found": true,
+          "line": 19,
+          "quote": "Mean FP $0.0277 \\to 0.0224$; detections $13 \\to 17$; mean latency $33.8 \\to 29.7$ days \\\\ \\addlinespace Window & -- & $\\theta = 0$ instead of the $\\theta = 0.02$ selected by the registered rule of Section~S5 & Mean FP $0.0229 \\to 0.0224$; detections $17 \\to 17$; mean latency $29.6 \\to 29.7$ days",
+          "numbers": [
+            {
+              "printed": "0.0277",
+              "value": 0.027695742047260757,
+              "conventions": [
+                "binaria",
+                "mitad hacia arriba"
+              ],
+              "bound": null,
+              "bound_holds": true,
+              "verdict": "confirma",
+              "correct": null
+            },
+            {
+              "printed": "0.0224",
+              "value": 0.022442308468472113,
+              "conventions": [
+                "binaria",
+                "mitad hacia arriba"
+              ],
+              "bound": null,
+              "bound_holds": true,
+              "verdict": "confirma",
+              "correct": null
+            },
+            {
+              "printed": "13",
+              "value": 13,
+              "conventions": [
+                "binaria",
+                "mitad hacia arriba"
+              ],
+              "bound": null,
+              "bound_holds": true,
+              "verdict": "confirma",
+              "correct": null
+            },
+            {
+              "printed": "17",
+              "value": 17,
+              "conventions": [
+                "binaria",
+                "mitad hacia arriba"
+              ],
+              "bound": null,
+              "bound_holds": true,
+              "verdict": "confirma",
+              "correct": null
+            },
+            {
+              "printed": "33.8",
+              "value": 33.84615384615385,
+              "conventions": [
+                "binaria",
+                "mitad hacia arriba"
+              ],
+              "bound": null,
+              "bound_holds": true,
+              "verdict": "confirma",
+              "correct": null
+            },
+            {
+              "printed": "29.7",
+              "value": 29.705882352941178,
+              "conventions": [
+                "binaria",
+                "mitad hacia arriba"
+              ],
+              "bound": null,
+              "bound_holds": true,
+              "verdict": "confirma",
+              "correct": null
+            },
+            {
+              "printed": "0.0229",
+              "value": 0.02294713490497557,
+              "conventions": [
+                "binaria",
+                "mitad hacia arriba"
+              ],
+              "bound": null,
+              "bound_holds": true,
+              "verdict": "confirma",
+              "correct": null
+            },
+            {
+              "printed": "0.0224",
+              "value": 0.022442308468472113,
+              "conventions": [
+                "binaria",
+                "mitad hacia arriba"
+              ],
+              "bound": null,
+              "bound_holds": true,
+              "verdict": "confirma",
+              "correct": null
+            },
+            {
+              "printed": "17",
+              "value": 17,
+              "conventions": [
+                "binaria",
+                "mitad hacia arriba"
+              ],
+              "bound": null,
+              "bound_holds": true,
+              "verdict": "confirma",
+              "correct": null
+            },
+            {
+              "printed": "17",
+              "value": 17,
+              "conventions": [
+                "binaria",
+                "mitad hacia arriba"
+              ],
+              "bound": null,
+              "bound_holds": true,
+              "verdict": "confirma",
+              "correct": null
+            },
+            {
+              "printed": "29.6",
+              "value": 29.58823529411765,
+              "conventions": [
+                "binaria",
+                "mitad hacia arriba"
+              ],
+              "bound": null,
+              "bound_holds": true,
+              "verdict": "confirma",
+              "correct": null
+            },
+            {
+              "printed": "29.7",
+              "value": 29.705882352941178,
+              "conventions": [
+                "binaria",
+                "mitad hacia arriba"
+              ],
+              "bound": null,
+              "bound_holds": true,
+              "verdict": "confirma",
+              "correct": null
+            }
+          ],
+          "verdict": "confirma",
+          "key": "stat_window",
+          "source": "e_application_audit13.json summary; b103_application_audit10.json summary.final (theta 0.02)"
+        },
+        {
+          "found": true,
+          "line": 28,
+          "quote": "uniform error $0.0061$ by",
+          "numbers": [
+            {
+              "printed": "0.0061",
+              "value": 0.006073614619083051,
+              "conventions": [
+                "binaria",
+                "mitad hacia arriba"
+              ],
+              "bound": null,
+              "bound_holds": true,
+              "verdict": "confirma",
+              "correct": null
+            }
+          ],
+          "verdict": "confirma",
+          "key": "dkw",
+          "source": "formula DKW con N_cal = 5e4"
+        },
+        {
+          "found": true,
+          "line": 31,
+          "quote": "$R = 399$ & Mean FP $0.0224 \\to 0.0217$; detections $17 \\to 13$; latency $29.7 \\to 40.3$",
+          "numbers": [
+            {
+              "printed": "0.0224",
+              "value": 0.022442308468472113,
+              "conventions": [
+                "binaria",
+                "mitad hacia arriba"
+              ],
+              "bound": null,
+              "bound_holds": true,
+              "verdict": "confirma",
+              "correct": null
+            },
+            {
+              "printed": "0.0217",
+              "value": 0.021721272204897783,
+              "conventions": [
+                "binaria",
+                "mitad hacia arriba"
+              ],
+              "bound": null,
+              "bound_holds": true,
+              "verdict": "confirma",
+              "correct": null
+            },
+            {
+              "printed": "17",
+              "value": 17,
+              "conventions": [
+                "binaria",
+                "mitad hacia arriba"
+              ],
+              "bound": null,
+              "bound_holds": true,
+              "verdict": "confirma",
+              "correct": null
+            },
+            {
+              "printed": "13",
+              "value": 13,
+              "conventions": [
+                "binaria",
+                "mitad hacia arriba"
+              ],
+              "bound": null,
+              "bound_holds": true,
+              "verdict": "confirma",
+              "correct": null
+            },
+            {
+              "printed": "29.7",
+              "value": 29.705882352941178,
+              "conventions": [
+                "binaria",
+                "mitad hacia arriba"
+              ],
+              "bound": null,
+              "bound_holds": true,
+              "verdict": "confirma",
+              "correct": null
+            },
+            {
+              "printed": "40.3",
+              "value": 40.30769230769231,
+              "conventions": [
+                "binaria",
+                "mitad hacia arriba"
+              ],
+              "bound": null,
+              "bound_holds": true,
+              "verdict": "confirma",
+              "correct": null
+            }
+          ],
+          "verdict": "confirma",
+          "key": "awb",
+          "source": "e_application_audit13.json summary"
+        },
+        {
+          "found": true,
+          "line": 45,
+          "quote": "moved its mean FP to $0.0301$ with the same 13 detections",
+          "numbers": [
+            {
+              "printed": "0.0301",
+              "value": 0.030095992331827814,
+              "conventions": [
+                "binaria",
+                "mitad hacia arriba"
+              ],
+              "bound": null,
+              "bound_holds": true,
+              "verdict": "confirma",
+              "correct": null
+            },
+            {
+              "printed": "13",
+              "value": 13,
+              "conventions": [
+                "binaria",
+                "mitad hacia arriba"
+              ],
+              "bound": null,
+              "bound_holds": true,
+              "verdict": "confirma",
+              "correct": null
+            }
+          ],
+          "verdict": "confirma",
+          "key": "ncal",
+          "source": "real_data_comparison_audit5b.json summary.a1_50k.<mean_fp|detections>.ours"
+        }
+      ],
+      "R_399": true,
+      "B_399_left": false,
+      "all_confirm": true
+    }
+  ],
+  "summary": {
+    "hunks": 19,
+    "coincide": 19,
+    "revisar": [],
+    "sin_clasificar": []
+  }
+}

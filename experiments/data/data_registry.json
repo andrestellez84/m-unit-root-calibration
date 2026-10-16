@@ -1,0 +1,36 @@
+{
+  "downloaded_at": "2026-06-12T05:48:26.678244+00:00",
+  "source": "Yahoo Finance via yfinance",
+  "price_type": "Close (not Adj Close)",
+  "note": "Frozen after download. Do not re-download.",
+  "indices": {
+    "SP500": {
+      "ticker": "^GSPC",
+      "first_date": "1984-01-03",
+      "last_date": "2024-12-30",
+      "n_rows": 10332,
+      "sha256": "fdeba3f639c2e0203e4afcd356637c323e2e2426079813dc0d0d54f12635f9bf"
+    },
+    "FTSE": {
+      "ticker": "^FTSE",
+      "first_date": "1984-01-03",
+      "last_date": "2024-12-30",
+      "n_rows": 10355,
+      "sha256": "4fe5809f2657fce33dd9d71a2e82c83b2be49bfbcf3159c8a74f48c01a5cc6d0"
+    },
+    "NIKKEI": {
+      "ticker": "^N225",
+      "first_date": "1984-01-04",
+      "last_date": "2024-12-30",
+      "n_rows": 10079,
+      "sha256": "e7f0138e4a369903c7952a707280c11b8497c5a06ae23de51bb93389a98dbfff"
+    },
+    "DAX": {
+      "ticker": "^GDAXI",
+      "first_date": "1987-12-30",
+      "last_date": "2024-12-30",
+      "n_rows": 9356,
+      "sha256": "d877566e3c82361a703a34cde9202f8e6210989e34b504c958d1d9039167af38"
+    }
+  }
+}

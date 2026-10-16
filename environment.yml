@@ -1,0 +1,19 @@
+name: paper_estabilidad
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11.0
+  - pip
+  - pip:
+      - numpy==2.2.4
+      - scipy==1.15.2
+      - numba==0.65.0
+      - statsmodels==0.14.6
+      - arch==8.0.0
+      - pandas==2.2.3
+      - joblib==1.4.2
+      - matplotlib==3.10.1
+      - pytest==9.0.3
+      - PyMuPDF==1.27.1      # supplement and package checks (fitz)
+      - yfinance==1.4.1      # only for experiments/download_data.py
+      - -e .                 # installs src/stationarity_test (pyproject.toml)

@@ -1,0 +1,5813 @@
+{
+  "provenance": {
+    "script": "experiments/audit13_tables.py",
+    "script_sha256": "ecdb0d85bfbcbf36a50b4a6d905698ddd38d8cf100ba3e89cf1fc241c698aaa9",
+    "commit": "2db4c12432217a39e52832430f38e81cac03c4fe",
+    "worktree_dirty": false,
+    "dirty_files": [],
+    "generated_utc": "2026-09-22T23:38:28.237191+00:00",
+    "seed_family": null,
+    "versions": {
+      "python": "3.11.0",
+      "platform": "Windows-10-10.0.26200-SP0",
+      "numpy": "2.2.4",
+      "scipy": "1.15.2",
+      "numba": "0.65.0",
+      "statsmodels": "0.14.6",
+      "arch": "8.0.0",
+      "pandas": "2.2.3",
+      "joblib": "1.4.2",
+      "matplotlib": "3.10.1",
+      "pytest": "9.0.3"
+    },
+    "code": {
+      "experiments/audit10_b100_protocol.py": {
+        "sha256": "2f4b3351d36f05faafd5a01981278237be31ccbd3a62eb53307d5888c3ab8c47",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b101_theta.py": {
+        "sha256": "c7f65d04c6a2762bcf4fcb7cd6fb3f3ea9f588392e6316175bb88631bd255903",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b102_identity.py": {
+        "sha256": "967ce70c299a9fa87ca467d3885c2c6ae54b11ca7f1a6aac75c94a9bd38125b3",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_application.py": {
+        "sha256": "6e73e4304a88e42b528dc119d56f8a47f3aced0cac6267493b67f96699f4032a",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_awb.py": {
+        "sha256": "c35235023f15eff41059abe196791e6ee57a3f52eb736779b4ed442b70f18f87",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_cv.py": {
+        "sha256": "bc3e2ee08728214ae92b5883e9f3bd067660d99acbeebaf032b8ef7cb289c8a7",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_dgp5.py": {
+        "sha256": "8df807243e62e3c044f4f55ccc9ba909254a15b011fd190d9a6a79c466f2e73e",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_equalized.py": {
+        "sha256": "039b485455232788d7503ff80d09565182b9d5ed696fdaf8c7e27f67ca44ce5d",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_finite.py": {
+        "sha256": "a6fea4ef3e9cab8ab5b2369189497de6ff8fc38abdd3f27b752efeb43935f113",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_lown.py": {
+        "sha256": "61ffc45a0782f9277588e5f3068af89add849a7eb28a87e3902c0df69269b264",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b104_cv5000.py": {
+        "sha256": "64b94cc583c2f45c67910c6f25c5bab49baf77d5d9b4841e49d632bcd4a20493",
+        "git_state": "committed"
+      },
+      "experiments/audit10_common.py": {
+        "sha256": "298e82a217d2dd32ba87245f6056dbb82051fe2985acd644b1e972f6768ca123",
+        "git_state": "committed"
+      },
+      "experiments/audit10_design.py": {
+        "sha256": "d9da80a9c9148338e1031d1a7736180ebffd76409385b5cf7fa0c7af20d28042",
+        "git_state": "committed"
+      },
+      "experiments/audit10_engine.py": {
+        "sha256": "3d2618561538c1afd8daf8224fa230826ae442505877afb8c12a378755911333",
+        "git_state": "committed"
+      },
+      "experiments/audit10_figconfig.py": {
+        "sha256": "522ae90338608ca46d449900388d6eb5c9e152140115dd6be362d17822b8116f",
+        "git_state": "committed"
+      },
+      "experiments/audit10_generate_report.py": {
+        "sha256": "9ebb38589ec72648a1a905a105d3e6cfaa9b486cbd3a4cd9a5800be1436f1d41",
+        "git_state": "committed"
+      },
+      "experiments/audit11_figconfig.py": {
+        "sha256": "3e0ac02a12cb821428036438924ad7d36aa65ef172b6b458b269d484af0fad84",
+        "git_state": "committed"
+      },
+      "experiments/audit12_common.py": {
+        "sha256": "9845605b593b4c07eed4a0ead1b9068951c1b302ca653d7fb410b2ddc84f7b84",
+        "git_state": "committed"
+      },
+      "experiments/audit12_unitroot.py": {
+        "sha256": "36b0bb5a7439cb0fabdfc346d9b1d2fef91fc0bacf54f49c4642538f4c3db3cb",
+        "git_state": "committed"
+      },
+      "experiments/audit13_b130_inventory.py": {
+        "sha256": "6e9e89107e8881c68dc81bc34c91e9b4838b84805adbcb955248abba18af3a75",
+        "git_state": "committed"
+      },
+      "experiments/audit13_claims.py": {
+        "sha256": "354466be4864c1321e1a7d23f004663ccef1bd1199f592110de2d575122b986f",
+        "git_state": "committed"
+      },
+      "experiments/audit13_common.py": {
+        "sha256": "94a6255b99fbd25b19a452147e20c76b9c181848e639ef26a09087b0169d19de",
+        "git_state": "committed"
+      },
+      "experiments/audit13_design.py": {
+        "sha256": "29fea9ecb7e3db08fac745d74779e229d871d5ac3e761d55f6c61c19561f2ab1",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_application.py": {
+        "sha256": "4969da94c823615f05e34dac23a5b5fc60b458dc962eca90d3048510a4da7c23",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_awb.py": {
+        "sha256": "0a95c3a6c42f334e463baf7216b202639ece93ec4080e82ef0067340f77ff373",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_calib.py": {
+        "sha256": "815694a898ff497d578447c1298db7f9772a75f13a088c2f1c2f82fd27af2ca3",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_dgp5.py": {
+        "sha256": "11022366b13d68a9f78a560403ea03221f8bceb999a34cbf68a06fd00a0a48ad",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_equalized.py": {
+        "sha256": "551896f43f6106547f300069fd03e861f57b6ec1c9435d97275f4f649158a6eb",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_size.py": {
+        "sha256": "90d4a4bfb173894cd2cf3f10a363446804a3a6339baec425c39a654fab7a4585",
+        "git_state": "committed"
+      },
+      "experiments/audit13_generate_report.py": {
+        "sha256": "9003c23136c8f3ecefa7c578fe8e50dcbeb2e4c056de215740d867fdfb7d86c8",
+        "git_state": "committed"
+      },
+      "experiments/audit13_t_tables.py": {
+        "sha256": "5bb1b16873c1586eea25efe4c4eb91d4b48e1185bb921f11446ce27fd693119c",
+        "git_state": "committed"
+      },
+      "experiments/audit13_tables.py": {
+        "sha256": "ecdb0d85bfbcbf36a50b4a6d905698ddd38d8cf100ba3e89cf1fc241c698aaa9",
+        "git_state": "committed"
+      },
+      "experiments/audit7_design.py": {
+        "sha256": "fb966e5a334cdd0f1f63632f28fbc5f6d9195d56de34065305639b56f10dc769",
+        "git_state": "committed"
+      },
+      "experiments/audit7_dgp5_analysis.py": {
+        "sha256": "7445da3a421063e937c8e2516167f0d0bb7aa2144ad9c1db263ac0c3df44ab61",
+        "git_state": "committed"
+      },
+      "experiments/audit7_dgp5_runner.py": {
+        "sha256": "bdd056463c63826f3260011e53b06bfb054d6678c0bfed9eca5af562ed92608f",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b0_inventory.py": {
+        "sha256": "6405cc166459c296fb32c86fed1abff150afc4889ba0598502d8c4e41ea07add",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_np_diagnostic.py": {
+        "sha256": "959b18541923f504c4178fdedd3a7d519a62487930c1de4dbcc8e476e0a43df0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_np_gate.py": {
+        "sha256": "93064f87f144776c7c83ee95d23bdbd7eadf5cbaff08af57297eda3ef37348f0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_regression_child.py": {
+        "sha256": "350b1389b64fdc89098d17861b7196671be9fe66123fb1f0702ddd5229fee150",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_validate.py": {
+        "sha256": "6a268b6ac14f5d05f2dfa26b5430328246f34893439ff6004b308d9a163170b0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2_size.py": {
+        "sha256": "74b1cdbd9f0bba3c77cb495b6c53393ba49eef75ff4f88d41257679ee2d4ff93",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2b_diagnostic.py": {
+        "sha256": "f89de9ed47612633614546168cb1887b0fb1c2faa37283276d03e45dd8096802",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2b_indep.py": {
+        "sha256": "47eb0f404478d0bac66bab7ea2002a24956ceeb287bdcb5bd441ee5fc0c8dda5",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b3_comparators.py": {
+        "sha256": "a4589a8ab3fe02284549b02f9c2078ad34172ddab47b268ce5c1ce4c444fc363",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b4_local_power.py": {
+        "sha256": "4de18b53c2f31d3d2f7e04fee1d786d42df0ba7998bdf30278b8029acea904c7",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b5_power.py": {
+        "sha256": "561c9dd52313c70d193ebe7ea772b3dbf91db2e691019eec3f5e76c4c8c28092",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b6_application.py": {
+        "sha256": "917157d7367c201cb4e92c2eafd1cb4f3d6f68d44dfbc9f6713c0ecb7e28de07",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b7_critical_values.py": {
+        "sha256": "1a228203fb9b1ed38020fe40ec4e6e690ea05c6bf152ceca42a82cc7f2d1c801",
+        "git_state": "committed"
+      },
+      "experiments/audit8_cache_fix_validate.py": {
+        "sha256": "01d88be3d99d27ddb32abdc63bbb5fad3ab6129300ba8cfe638b1790a60d314a",
+        "git_state": "committed"
+      },
+      "experiments/audit8_common.py": {
+        "sha256": "5718ec2cfa7f5f5c5f7f8d68ed26198e00ac827fb562cee67b234857e5719f0d",
+        "git_state": "committed"
+      },
+      "experiments/audit8_design.py": {
+        "sha256": "ad80aeae74d44ff4cecbd10dbfc480d24c146b81ec8f9d6561f95b7ba7079ae0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_environment.py": {
+        "sha256": "9b323700e91302ad0090e876b922a38a1dd6b23ef5f19fcc7748d947e617d21e",
+        "git_state": "committed"
+      },
+      "experiments/audit8_figconfig.py": {
+        "sha256": "eb516777a764ee78828acf7a5c743c4e9d8f5aab57b98550606354793d467e12",
+        "git_state": "committed"
+      },
+      "experiments/audit8_generate_report.py": {
+        "sha256": "91157e2576bec679f9f826423f55b6de104a01380651c9648a3aa25adac78819",
+        "git_state": "committed"
+      },
+      "experiments/audit8_unitroot.py": {
+        "sha256": "9d0842a342f12b9c8a7e3870127768590c53d98c8ca90dbb3a2715ddb16748ef",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b90_protocol.py": {
+        "sha256": "5e0a7109f7d1a7737ed2558ccc1766b36c61e0ead19738e9da6512af0d58e590",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b91_equalized.py": {
+        "sha256": "66be775e81bb3ddeadc202237f1343a4d231138274eb8387cc5ac48c1366b9b9",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b92_theta.py": {
+        "sha256": "56b784b7534e466897a6b31400dc17906ad101d2d114e93f9d5bb95b55c65af5",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b93_attribution.py": {
+        "sha256": "0c6a42942f19a4b0f07cf102704a98e4c17f76815a53bbb1e0407bb3119dd6ee",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b94_finite_sample.py": {
+        "sha256": "b5c5b0acc0792baaec3499d386bbce7768142ca4e37ca1ac03fb23914a0daae5",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b95_awb.py": {
+        "sha256": "f60dcb418bb045ef40684fc8572d74e578459d40d28925dd7c30bbac79dbf0c0",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b96_application.py": {
+        "sha256": "0ff5e46367a3f1dfae0a92aa02fd0fdf13b64efab897de61eaafb81599f468b4",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b97_critical_values.py": {
+        "sha256": "774956681a4c6536cfab497326e032518cb97c10a0aacf9bffd38ee92aef14f3",
+        "git_state": "committed"
+      },
+      "experiments/audit9_calibrate.py": {
+        "sha256": "d2f7ac2cd3d5fa866fac21379f79a60535749e8db61d02135aaea99ec0b75bbd",
+        "git_state": "committed"
+      },
+      "experiments/audit9_common.py": {
+        "sha256": "39fbee3c398de920ba2f9c4400ac6254c58d9fb537c6f97649c8299ea39e78f7",
+        "git_state": "committed"
+      },
+      "experiments/audit9_design.py": {
+        "sha256": "e25486561a4c06643807b4035e2beeb0436558b1157bfb3b7a866e5e7cb815ac",
+        "git_state": "committed"
+      },
+      "experiments/audit9_engine.py": {
+        "sha256": "8f8bd7a817178056d2e55a4c518bfc2188737c02c3f56cf467d15972ac651e1b",
+        "git_state": "committed"
+      },
+      "experiments/audit9_figconfig.py": {
+        "sha256": "502fc40d79bdec85ad4ebac69ee33949903c4c8b5e14ed5558ab3b6b985b8080",
+        "git_state": "committed"
+      },
+      "experiments/audit9_generate_report.py": {
+        "sha256": "c8257dc6873c4ef2d5bf1f40ff3906e7bbbd2513b241348583bfb3ec70f6f559",
+        "git_state": "committed"
+      },
+      "experiments/make_figures_audit10.py": {
+        "sha256": "defe405c489e96491a7f9a63e09392c24bce8cc3768b7ec654708eaf244ff560",
+        "git_state": "committed"
+      },
+      "experiments/make_figures_audit11.py": {
+        "sha256": "ae54c12199f80a46f7beb88544743d422d3e982aae3a14aede0a5f9efdf93dc6",
+        "git_state": "committed"
+      },
+      "experiments/make_figures_audit13.py": {
+        "sha256": "9b685b1ee40e89c201a64b3886805e2524de381a5a81be4d71e59dc86f1301ba",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/__init__.py": {
+        "sha256": "20ebf29ab1a9a64bb428f25ff0170d67db2354662efb8b973922c3f455f56582",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/constants.py": {
+        "sha256": "de8bd2282ff09c41fc6eae12fcca6695c1fd3a0c9def7628a9b76e9361058907",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/davies.py": {
+        "sha256": "cfad047d0b0676cc83a41208cd600f4224ce61bf03930228a5a80d1d6556c9b9",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/deterministics.py": {
+        "sha256": "31db116abc80e5cab8c97317a31d6f22f1a4ca40c885eef86c134db598dac6b2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/empirical_eigenvalues.py": {
+        "sha256": "f749e2e2de8b807421d6e74836bd5d539eccb314f18821bd38b80e72b5ee72a1",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/full_pipeline.py": {
+        "sha256": "cdbd5405caa50bc83c7348a0a8be9963b522ef4d808024f078f648bb1de89170",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/hac_estimator.py": {
+        "sha256": "f7c22540e6a8e862258cb70e4a839b841453ca9490a01671176431ee4bf678f2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/kl_eigenvalues.py": {
+        "sha256": "c0fb0a90795c904cb2876aa16eff64948e0abf5a27d3a57c6612c2b9ec198903",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/null_quantiles.py": {
+        "sha256": "655458f05815621d015984080169663d2310d26e588a83e2c5a62549ba5a1ae8",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/optimal_weight.py": {
+        "sha256": "47632d98ed256b2364a2ac99de64780e0cd8d42a69c68b4552c6ea0564f86ba4",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/rm_core.py": {
+        "sha256": "4d3ee3f59c569233a5e9a9ed8ffd3032364188545bac04a0cc619ccac39e04e0",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/standardization.py": {
+        "sha256": "cc8cb146d28ea63be86bc11db6cc6c345fbf5fd412055e2e58a33a40f3e8936b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/statistic.py": {
+        "sha256": "f0baf1d99ac4311ca854d350f18a3d3416974bf5d13e662d05149f87183d92ef",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/theta_selection.py": {
+        "sha256": "23eba50e85d0db917d14b4d3d844c42e5ee566dfd326a0fad7feae0dd113f40b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/utils.py": {
+        "sha256": "8a3e0b972da519b3c39ca0e0326953dbae1bf048845c05c1fb3a23a001b72717",
+        "git_state": "committed"
+      }
+    },
+    "code_all_committed": true
+  },
+  "manuscript": {
+    "path": "paper_latex_v13.zip",
+    "sha256": "fae1334ba259fc359db4c7922b48a926a8aaf713f37d92e26d1435d8b7109dac"
+  },
+  "theta": 0.0,
+  "reference_theta": 0.02,
+  "reading": "protocol_audit13.md, lecturas 2, 5, 13 y 15",
+  "tables": {
+    "size": {
+      "v13_file": "sec5_montecarlo.tex",
+      "rows": [
+        {
+          "section": null,
+          "keys": [
+            "60"
+          ],
+          "theta0": [
+            "0.0507 [0.0488, 0.0526]",
+            "0.0503 [0.0484, 0.0523]"
+          ],
+          "v13": [
+            "0.0496 [0.0477, 0.0515]",
+            "0.0489 [0.0471, 0.0508]"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "100"
+          ],
+          "theta0": [
+            "0.0501 [0.0482, 0.0520]",
+            "0.0524 [0.0504, 0.0543]"
+          ],
+          "v13": [
+            "0.0510 [0.0491, 0.0530]",
+            "0.0496 [0.0477, 0.0515]"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "150"
+          ],
+          "theta0": [
+            "0.0487 [0.0469, 0.0507]",
+            "0.0494 [0.0475, 0.0513]"
+          ],
+          "v13": [
+            "0.0476 [0.0458, 0.0495]",
+            "0.0506 [0.0487, 0.0525]"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "200"
+          ],
+          "theta0": [
+            "0.0502 [0.0489, 0.0516]",
+            "0.0499 [0.0486, 0.0513]"
+          ],
+          "v13": [
+            "0.0501 [0.0488, 0.0515]",
+            "0.0500 [0.0486, 0.0513]"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "500"
+          ],
+          "theta0": [
+            "0.0492 [0.0478, 0.0505]",
+            "0.0502 [0.0489, 0.0516]"
+          ],
+          "v13": [
+            "0.0491 [0.0477, 0.0504]",
+            "0.0504 [0.0491, 0.0518]"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "1000"
+          ],
+          "theta0": [
+            "0.0491 [0.0478, 0.0505]",
+            "0.0505 [0.0492, 0.0519]"
+          ],
+          "v13": [
+            "0.0490 [0.0477, 0.0504]",
+            "0.0505 [0.0492, 0.0519]"
+          ]
+        }
+      ],
+      "rounding": "binary",
+      "transcription_v13": {
+        "cells_compared": 12,
+        "number_mismatches": [],
+        "double_rounding_in_v13": [],
+        "bold_mismatches_in_v13": [],
+        "passes": true
+      },
+      "gate": {
+        "max_abs": 0.2779999999999998,
+        "signed": 0.2779999999999998,
+        "cell": "ct|100",
+        "cells": 12,
+        "by_cell": {
+          "dm|60": {
+            "theta0": 0.05068,
+            "v13": 0.0496,
+            "diff": 0.10800000000000046
+          },
+          "ct|60": {
+            "theta0": 0.05032,
+            "v13": 0.04892,
+            "diff": 0.13999999999999985
+          },
+          "dm|100": {
+            "theta0": 0.0501,
+            "v13": 0.05104,
+            "diff": -0.09400000000000033
+          },
+          "ct|100": {
+            "theta0": 0.05236,
+            "v13": 0.04958,
+            "diff": 0.2779999999999998
+          },
+          "dm|150": {
+            "theta0": 0.04874,
+            "v13": 0.04764,
+            "diff": 0.10999999999999968
+          },
+          "ct|150": {
+            "theta0": 0.04936,
+            "v13": 0.05058,
+            "diff": -0.12199999999999989
+          },
+          "dm|200": {
+            "theta0": 0.05023,
+            "v13": 0.05011,
+            "diff": 0.011999999999999511
+          },
+          "ct|200": {
+            "theta0": 0.04989,
+            "v13": 0.04998,
+            "diff": -0.00899999999999998
+          },
+          "dm|500": {
+            "theta0": 0.04917,
+            "v13": 0.04907,
+            "diff": 0.009999999999999593
+          },
+          "ct|500": {
+            "theta0": 0.05024,
+            "v13": 0.0504,
+            "diff": -0.016000000000000042
+          },
+          "dm|1000": {
+            "theta0": 0.04915,
+            "v13": 0.04903,
+            "diff": 0.012000000000000205
+          },
+          "ct|1000": {
+            "theta0": 0.05049,
+            "v13": 0.05053,
+            "diff": -0.003999999999999837
+          }
+        },
+        "units": "pp"
+      },
+      "sources": [
+        "e_size_audit13.json",
+        "b101_theta_audit10.json",
+        "b103_lown_audit10.json"
+      ],
+      "tex": "experiments/results/tables_audit13/tab_size_audit13.tex",
+      "tex_sha256": "8b57a3f1289301aad0bba50c6c2af2bca994b00070f78aafbab364d6eab3698b",
+      "header_substitutions": []
+    },
+    "calib": {
+      "v13_file": "sec5_montecarlo.tex",
+      "rows": [
+        {
+          "section": "Constant",
+          "keys": [
+            "60"
+          ],
+          "theta0": [
+            "0.2328",
+            "\\textbf{0.0544}",
+            "\\textbf{0.0607}",
+            "\\textbf{0.0660}",
+            "0.0520",
+            "0.0502",
+            "0.0503"
+          ],
+          "v13": [
+            "0.2148",
+            "\\textbf{0.0541}",
+            "\\textbf{0.0785}",
+            "\\textbf{0.0660}",
+            "0.0520",
+            "0.0502",
+            "0.0503"
+          ]
+        },
+        {
+          "section": "Constant",
+          "keys": [
+            "100"
+          ],
+          "theta0": [
+            "0.2321",
+            "0.0516",
+            "\\textbf{0.0588}",
+            "\\textbf{0.0568}",
+            "0.0520",
+            "0.0496",
+            "0.0527"
+          ],
+          "v13": [
+            "0.2218",
+            "0.0517",
+            "\\textbf{0.0638}",
+            "\\textbf{0.0568}",
+            "0.0520",
+            "0.0496",
+            "0.0527"
+          ]
+        },
+        {
+          "section": "Constant",
+          "keys": [
+            "150"
+          ],
+          "theta0": [
+            "0.2321",
+            "0.0496",
+            "\\textbf{0.0563}",
+            "\\textbf{0.0536}",
+            "0.0516",
+            "\\textbf{0.0442}",
+            "0.0486"
+          ],
+          "v13": [
+            "0.2228",
+            "0.0499",
+            "\\textbf{0.0592}",
+            "\\textbf{0.0536}",
+            "0.0516",
+            "\\textbf{0.0442}",
+            "0.0486"
+          ]
+        },
+        {
+          "section": "Constant",
+          "keys": [
+            "200"
+          ],
+          "theta0": [
+            "0.2331",
+            "0.0514",
+            "\\textbf{0.0556}",
+            "0.0513",
+            "0.0503",
+            "\\textbf{0.0460}",
+            "0.0509"
+          ],
+          "v13": [
+            "0.2243",
+            "0.0510",
+            "\\textbf{0.0574}",
+            "0.0513",
+            "0.0503",
+            "\\textbf{0.0460}",
+            "0.0509"
+          ]
+        },
+        {
+          "section": "Constant",
+          "keys": [
+            "500"
+          ],
+          "theta0": [
+            "0.2357",
+            "0.0473",
+            "0.0484",
+            "\\textbf{0.0452}",
+            "\\textbf{0.0459}",
+            "\\textbf{0.0417}",
+            "0.0471"
+          ],
+          "v13": [
+            "0.2279",
+            "0.0474",
+            "0.0491",
+            "\\textbf{0.0452}",
+            "\\textbf{0.0459}",
+            "\\textbf{0.0417}",
+            "0.0471"
+          ]
+        },
+        {
+          "section": "Constant",
+          "keys": [
+            "1000"
+          ],
+          "theta0": [
+            "0.2362",
+            "0.0510",
+            "0.0518",
+            "0.0498",
+            "0.0510",
+            "\\textbf{0.0461}",
+            "0.0508"
+          ],
+          "v13": [
+            "0.2288",
+            "0.0517",
+            "0.0528",
+            "0.0498",
+            "0.0510",
+            "\\textbf{0.0461}",
+            "0.0508"
+          ]
+        },
+        {
+          "section": "Constant",
+          "keys": [
+            "2000"
+          ],
+          "theta0": [
+            "0.2360",
+            "0.0470",
+            "0.0478",
+            "0.0478",
+            "0.0481",
+            "\\textbf{0.0430}",
+            "\\textbf{0.0467}"
+          ],
+          "v13": [
+            "0.2287",
+            "\\textbf{0.0464}",
+            "0.0476",
+            "0.0478",
+            "0.0481",
+            "\\textbf{0.0430}",
+            "\\textbf{0.0467}"
+          ]
+        },
+        {
+          "section": "Constant",
+          "keys": [
+            "5000"
+          ],
+          "theta0": [
+            "0.2370",
+            "0.0490",
+            "0.0488",
+            "0.0498",
+            "0.0505",
+            "\\textbf{0.0449}",
+            "0.0487"
+          ],
+          "v13": [
+            "0.2300",
+            "0.0491",
+            "0.0490",
+            "0.0498",
+            "0.0505",
+            "\\textbf{0.0449}",
+            "0.0487"
+          ]
+        },
+        {
+          "section": "Trend",
+          "keys": [
+            "60"
+          ],
+          "theta0": [
+            "0.1847",
+            "0.0520",
+            "\\textbf{0.0199}",
+            "\\textbf{0.0534}",
+            "0.0517",
+            "\\textbf{0.0169}",
+            "0.0513"
+          ],
+          "v13": [
+            "0.1620",
+            "0.0515",
+            "0.0524",
+            "\\textbf{0.0534}",
+            "0.0517",
+            "\\textbf{0.0169}",
+            "0.0513"
+          ]
+        },
+        {
+          "section": "Trend",
+          "keys": [
+            "100"
+          ],
+          "theta0": [
+            "0.1780",
+            "0.0481",
+            "\\textbf{0.0323}",
+            "\\textbf{0.0420}",
+            "0.0496",
+            "\\textbf{0.0225}",
+            "0.0485"
+          ],
+          "v13": [
+            "0.1649",
+            "0.0486",
+            "\\textbf{0.0437}",
+            "\\textbf{0.0420}",
+            "0.0496",
+            "\\textbf{0.0225}",
+            "0.0485"
+          ]
+        },
+        {
+          "section": "Trend",
+          "keys": [
+            "150"
+          ],
+          "theta0": [
+            "0.1755",
+            "0.0507",
+            "\\textbf{0.0412}",
+            "\\textbf{0.0386}",
+            "0.0493",
+            "\\textbf{0.0261}",
+            "0.0504"
+          ],
+          "v13": [
+            "0.1635",
+            "0.0506",
+            "0.0480",
+            "\\textbf{0.0386}",
+            "0.0493",
+            "\\textbf{0.0261}",
+            "0.0504"
+          ]
+        },
+        {
+          "section": "Trend",
+          "keys": [
+            "200"
+          ],
+          "theta0": [
+            "0.1740",
+            "0.0480",
+            "\\textbf{0.0413}",
+            "\\textbf{0.0350}",
+            "0.0474",
+            "\\textbf{0.0260}",
+            "0.0474"
+          ],
+          "v13": [
+            "0.1627",
+            "0.0476",
+            "\\textbf{0.0467}",
+            "\\textbf{0.0350}",
+            "0.0474",
+            "\\textbf{0.0260}",
+            "0.0474"
+          ]
+        },
+        {
+          "section": "Trend",
+          "keys": [
+            "500"
+          ],
+          "theta0": [
+            "0.1722",
+            "0.0490",
+            "0.0472",
+            "\\textbf{0.0381}",
+            "0.0486",
+            "\\textbf{0.0336}",
+            "0.0484"
+          ],
+          "v13": [
+            "0.1623",
+            "0.0490",
+            "0.0495",
+            "\\textbf{0.0381}",
+            "0.0486",
+            "\\textbf{0.0336}",
+            "0.0484"
+          ]
+        },
+        {
+          "section": "Trend",
+          "keys": [
+            "1000"
+          ],
+          "theta0": [
+            "0.1715",
+            "0.0512",
+            "0.0508",
+            "\\textbf{0.0413}",
+            "0.0495",
+            "\\textbf{0.0394}",
+            "0.0503"
+          ],
+          "v13": [
+            "0.1622",
+            "0.0513",
+            "0.0516",
+            "\\textbf{0.0413}",
+            "0.0495",
+            "\\textbf{0.0394}",
+            "0.0503"
+          ]
+        },
+        {
+          "section": "Trend",
+          "keys": [
+            "2000"
+          ],
+          "theta0": [
+            "0.1710",
+            "0.0478",
+            "0.0486",
+            "\\textbf{0.0411}",
+            "0.0484",
+            "\\textbf{0.0398}",
+            "0.0482"
+          ],
+          "v13": [
+            "0.1620",
+            "0.0480",
+            "0.0493",
+            "\\textbf{0.0411}",
+            "0.0484",
+            "\\textbf{0.0398}",
+            "0.0482"
+          ]
+        },
+        {
+          "section": "Trend",
+          "keys": [
+            "5000"
+          ],
+          "theta0": [
+            "0.1717",
+            "0.0517",
+            "0.0510",
+            "\\textbf{0.0440}",
+            "0.0524",
+            "\\textbf{0.0428}",
+            "0.0522"
+          ],
+          "v13": [
+            "0.1629",
+            "0.0512",
+            "0.0505",
+            "\\textbf{0.0440}",
+            "0.0524",
+            "\\textbf{0.0428}",
+            "0.0522"
+          ]
+        }
+      ],
+      "rounding": "binary",
+      "transcription_v13": {
+        "cells_compared": 112,
+        "number_mismatches": [],
+        "double_rounding_in_v13": [],
+        "bold_mismatches_in_v13": [
+          {
+            "row": [
+              "60"
+            ],
+            "section": "Constant",
+            "col": 1,
+            "printed": "0.0541",
+            "mine": "\\textbf{0.0541}"
+          },
+          {
+            "row": [
+              "60"
+            ],
+            "section": "Trend",
+            "col": 3,
+            "printed": "0.0534",
+            "mine": "\\textbf{0.0534}"
+          }
+        ],
+        "passes": true
+      },
+      "gate": {
+        "max_abs": 3.2399999999999998,
+        "signed": -3.2399999999999998,
+        "cell": "ct|60|size_q_20000",
+        "cells": 48,
+        "by_cell": {
+          "c|60|q": {
+            "theta0": 0.23280971075107054,
+            "v13": 0.2148486649104642,
+            "diff": 0.017961045840606343
+          },
+          "c|60|size_q_n": {
+            "theta0": 0.05445,
+            "v13": 0.0541,
+            "diff": 0.034999999999999615
+          },
+          "c|60|size_q_20000": {
+            "theta0": 0.06065,
+            "v13": 0.07855,
+            "diff": -1.7899999999999991
+          },
+          "c|100|q": {
+            "theta0": 0.23209121713932868,
+            "v13": 0.2217961485264423,
+            "diff": 0.010295068612886371
+          },
+          "c|100|size_q_n": {
+            "theta0": 0.0516,
+            "v13": 0.0517,
+            "diff": -0.010000000000000286
+          },
+          "c|100|size_q_20000": {
+            "theta0": 0.05885,
+            "v13": 0.06375,
+            "diff": -0.49000000000000016
+          },
+          "c|150|q": {
+            "theta0": 0.23206074668323526,
+            "v13": 0.22276053164266252,
+            "diff": 0.00930021504057274
+          },
+          "c|150|size_q_n": {
+            "theta0": 0.04965,
+            "v13": 0.0499,
+            "diff": -0.025000000000000022
+          },
+          "c|150|size_q_20000": {
+            "theta0": 0.05635,
+            "v13": 0.05925,
+            "diff": -0.29
+          },
+          "c|200|q": {
+            "theta0": 0.23314720811203546,
+            "v13": 0.22427466799402127,
+            "diff": 0.008872540118014194
+          },
+          "c|200|size_q_n": {
+            "theta0": 0.0514,
+            "v13": 0.051,
+            "diff": 0.04000000000000045
+          },
+          "c|200|size_q_20000": {
+            "theta0": 0.05555,
+            "v13": 0.0574,
+            "diff": -0.18499999999999975
+          },
+          "c|500|q": {
+            "theta0": 0.23567749438834265,
+            "v13": 0.22791279345479085,
+            "diff": 0.007764700933551805
+          },
+          "c|500|size_q_n": {
+            "theta0": 0.0473,
+            "v13": 0.0474,
+            "diff": -0.009999999999999593
+          },
+          "c|500|size_q_20000": {
+            "theta0": 0.0484,
+            "v13": 0.04915,
+            "diff": -0.07500000000000007
+          },
+          "c|1000|q": {
+            "theta0": 0.2362454313524194,
+            "v13": 0.22884717064177781,
+            "diff": 0.007398260710641591
+          },
+          "c|1000|size_q_n": {
+            "theta0": 0.051,
+            "v13": 0.05175,
+            "diff": -0.07500000000000007
+          },
+          "c|1000|size_q_20000": {
+            "theta0": 0.0518,
+            "v13": 0.0528,
+            "diff": -0.10000000000000009
+          },
+          "c|2000|q": {
+            "theta0": 0.2360183786578689,
+            "v13": 0.22868089945851755,
+            "diff": 0.007337479199351349
+          },
+          "c|2000|size_q_n": {
+            "theta0": 0.047,
+            "v13": 0.04645,
+            "diff": 0.05500000000000019
+          },
+          "c|2000|size_q_20000": {
+            "theta0": 0.04775,
+            "v13": 0.04765,
+            "diff": 0.010000000000000286
+          },
+          "c|5000|q": {
+            "theta0": 0.23704134778674082,
+            "v13": 0.22999047284929153,
+            "diff": 0.007050874937449297
+          },
+          "c|5000|size_q_n": {
+            "theta0": 0.04895,
+            "v13": 0.04915,
+            "diff": -0.01999999999999988
+          },
+          "c|5000|size_q_20000": {
+            "theta0": 0.04885,
+            "v13": 0.04895,
+            "diff": -0.010000000000000286
+          },
+          "ct|60|q": {
+            "theta0": 0.18465622094701042,
+            "v13": 0.16201664280398614,
+            "diff": 0.02263957814302428
+          },
+          "ct|60|size_q_n": {
+            "theta0": 0.05205,
+            "v13": 0.0515,
+            "diff": 0.05500000000000019
+          },
+          "ct|60|size_q_20000": {
+            "theta0": 0.01995,
+            "v13": 0.05235,
+            "diff": -3.2399999999999998
+          },
+          "ct|100|q": {
+            "theta0": 0.17804103226036058,
+            "v13": 0.16491838942250342,
+            "diff": 0.013122642837857162
+          },
+          "ct|100|size_q_n": {
+            "theta0": 0.04805,
+            "v13": 0.04865,
+            "diff": -0.05999999999999964
+          },
+          "ct|100|size_q_20000": {
+            "theta0": 0.0323,
+            "v13": 0.04365,
+            "diff": -1.1349999999999998
+          },
+          "ct|150|q": {
+            "theta0": 0.17548937863308153,
+            "v13": 0.16348211846900698,
+            "diff": 0.012007260164074551
+          },
+          "ct|150|size_q_n": {
+            "theta0": 0.05065,
+            "v13": 0.0506,
+            "diff": 0.005000000000000143
+          },
+          "ct|150|size_q_20000": {
+            "theta0": 0.0412,
+            "v13": 0.048,
+            "diff": -0.68
+          },
+          "ct|200|q": {
+            "theta0": 0.17396840964174748,
+            "v13": 0.16271025778604106,
+            "diff": 0.011258151855706416
+          },
+          "ct|200|size_q_n": {
+            "theta0": 0.048,
+            "v13": 0.0476,
+            "diff": 0.03999999999999976
+          },
+          "ct|200|size_q_20000": {
+            "theta0": 0.04135,
+            "v13": 0.0467,
+            "diff": -0.535
+          },
+          "ct|500|q": {
+            "theta0": 0.17215841896908812,
+            "v13": 0.16226852230750288,
+            "diff": 0.00988989666158524
+          },
+          "ct|500|size_q_n": {
+            "theta0": 0.04895,
+            "v13": 0.04895,
+            "diff": 0.0
+          },
+          "ct|500|size_q_20000": {
+            "theta0": 0.0472,
+            "v13": 0.04945,
+            "diff": -0.2250000000000002
+          },
+          "ct|1000|q": {
+            "theta0": 0.17150632412577047,
+            "v13": 0.16221351321061186,
+            "diff": 0.0092928109151586
+          },
+          "ct|1000|size_q_n": {
+            "theta0": 0.05115,
+            "v13": 0.0513,
+            "diff": -0.014999999999999736
+          },
+          "ct|1000|size_q_20000": {
+            "theta0": 0.05085,
+            "v13": 0.0516,
+            "diff": -0.07500000000000007
+          },
+          "ct|2000|q": {
+            "theta0": 0.17102355907567413,
+            "v13": 0.1619701893910211,
+            "diff": 0.009053369684653034
+          },
+          "ct|2000|size_q_n": {
+            "theta0": 0.04785,
+            "v13": 0.048,
+            "diff": -0.01500000000000043
+          },
+          "ct|2000|size_q_20000": {
+            "theta0": 0.04865,
+            "v13": 0.04935,
+            "diff": -0.06999999999999992
+          },
+          "ct|5000|q": {
+            "theta0": 0.17174352994111458,
+            "v13": 0.1629147453593751,
+            "diff": 0.008828784581739468
+          },
+          "ct|5000|size_q_n": {
+            "theta0": 0.0517,
+            "v13": 0.05125,
+            "diff": 0.045000000000000595
+          },
+          "ct|5000|size_q_20000": {
+            "theta0": 0.05095,
+            "v13": 0.0505,
+            "diff": 0.0449999999999999
+          }
+        },
+        "units": "q: unidades del estadistico; tamanos: pp"
+      },
+      "sources": [
+        "e_calib_audit13.json"
+      ],
+      "tex": "experiments/results/tables_audit13/tab_calib_audit13.tex",
+      "tex_sha256": "50386f28974cec10a0339f3f584d60ae53b063011c41030857cbc146ba2b2c24",
+      "header_substitutions": []
+    },
+    "localpower": {
+      "v13_file": "sec5_montecarlo.tex",
+      "rows": [
+        {
+          "section": "Constant",
+          "keys": [
+            "2"
+          ],
+          "theta0": [
+            "0.118",
+            "0.111",
+            "0.110",
+            "0.115",
+            "0.115",
+            "0.109",
+            "0.103"
+          ],
+          "v13": [
+            "0.118",
+            "0.110",
+            "0.111",
+            "0.115",
+            "0.115",
+            "0.109",
+            "0.103"
+          ]
+        },
+        {
+          "section": "Constant",
+          "keys": [
+            "5"
+          ],
+          "theta0": [
+            "0.313",
+            "0.295",
+            "0.290",
+            "0.311",
+            "0.312",
+            "0.290",
+            "0.274"
+          ],
+          "v13": [
+            "0.313",
+            "0.290",
+            "0.295",
+            "0.311",
+            "0.312",
+            "0.290",
+            "0.274"
+          ]
+        },
+        {
+          "section": "Constant",
+          "keys": [
+            "7"
+          ],
+          "theta0": [
+            "0.497",
+            "0.464",
+            "0.458",
+            "0.494",
+            "0.495",
+            "0.460",
+            "0.438"
+          ],
+          "v13": [
+            "0.497",
+            "0.458",
+            "0.464",
+            "0.494",
+            "0.495",
+            "0.460",
+            "0.438"
+          ]
+        },
+        {
+          "section": "Constant",
+          "keys": [
+            "10"
+          ],
+          "theta0": [
+            "0.750",
+            "0.724",
+            "0.716",
+            "0.751",
+            "0.752",
+            "0.720",
+            "0.695"
+          ],
+          "v13": [
+            "0.750",
+            "0.716",
+            "0.724",
+            "0.751",
+            "0.752",
+            "0.720",
+            "0.695"
+          ]
+        },
+        {
+          "section": "Constant",
+          "keys": [
+            "13.5"
+          ],
+          "theta0": [
+            "0.930",
+            "0.919",
+            "0.915",
+            "0.927",
+            "0.927",
+            "0.915",
+            "0.901"
+          ],
+          "v13": [
+            "0.930",
+            "0.915",
+            "0.919",
+            "0.927",
+            "0.927",
+            "0.915",
+            "0.901"
+          ]
+        },
+        {
+          "section": "Constant",
+          "keys": [
+            "15"
+          ],
+          "theta0": [
+            "0.965",
+            "0.958",
+            "0.955",
+            "0.962",
+            "0.963",
+            "0.955",
+            "0.947"
+          ],
+          "v13": [
+            "0.965",
+            "0.955",
+            "0.958",
+            "0.962",
+            "0.963",
+            "0.955",
+            "0.947"
+          ]
+        },
+        {
+          "section": "Constant",
+          "keys": [
+            "20"
+          ],
+          "theta0": [
+            "0.998",
+            "0.998",
+            "0.997",
+            "0.996",
+            "0.996",
+            "0.997",
+            "0.996"
+          ],
+          "v13": [
+            "0.998",
+            "0.997",
+            "0.998",
+            "0.996",
+            "0.996",
+            "0.997",
+            "0.996"
+          ]
+        },
+        {
+          "section": "Trend",
+          "keys": [
+            "2"
+          ],
+          "theta0": [
+            "0.060",
+            "0.061",
+            "0.061",
+            "0.060",
+            "0.061",
+            "0.060",
+            "0.049"
+          ],
+          "v13": [
+            "0.060",
+            "0.061",
+            "0.061",
+            "0.060",
+            "0.061",
+            "0.060",
+            "0.049"
+          ]
+        },
+        {
+          "section": "Trend",
+          "keys": [
+            "5"
+          ],
+          "theta0": [
+            "0.115",
+            "0.112",
+            "0.113",
+            "0.117",
+            "0.116",
+            "0.114",
+            "0.093"
+          ],
+          "v13": [
+            "0.115",
+            "0.113",
+            "0.112",
+            "0.117",
+            "0.116",
+            "0.114",
+            "0.093"
+          ]
+        },
+        {
+          "section": "Trend",
+          "keys": [
+            "7"
+          ],
+          "theta0": [
+            "0.175",
+            "0.171",
+            "0.170",
+            "0.175",
+            "0.175",
+            "0.171",
+            "0.144"
+          ],
+          "v13": [
+            "0.175",
+            "0.170",
+            "0.171",
+            "0.175",
+            "0.175",
+            "0.171",
+            "0.144"
+          ]
+        },
+        {
+          "section": "Trend",
+          "keys": [
+            "10"
+          ],
+          "theta0": [
+            "0.309",
+            "0.296",
+            "0.295",
+            "0.307",
+            "0.306",
+            "0.297",
+            "0.256"
+          ],
+          "v13": [
+            "0.309",
+            "0.295",
+            "0.296",
+            "0.307",
+            "0.306",
+            "0.297",
+            "0.256"
+          ]
+        },
+        {
+          "section": "Trend",
+          "keys": [
+            "13.5"
+          ],
+          "theta0": [
+            "0.506",
+            "0.498",
+            "0.495",
+            "0.506",
+            "0.506",
+            "0.495",
+            "0.437"
+          ],
+          "v13": [
+            "0.506",
+            "0.495",
+            "0.498",
+            "0.506",
+            "0.506",
+            "0.495",
+            "0.437"
+          ]
+        },
+        {
+          "section": "Trend",
+          "keys": [
+            "15"
+          ],
+          "theta0": [
+            "0.591",
+            "0.588",
+            "0.584",
+            "0.591",
+            "0.591",
+            "0.582",
+            "0.526"
+          ],
+          "v13": [
+            "0.591",
+            "0.584",
+            "0.588",
+            "0.591",
+            "0.591",
+            "0.582",
+            "0.526"
+          ]
+        },
+        {
+          "section": "Trend",
+          "keys": [
+            "20"
+          ],
+          "theta0": [
+            "0.846",
+            "0.846",
+            "0.843",
+            "0.846",
+            "0.846",
+            "0.839",
+            "0.793"
+          ],
+          "v13": [
+            "0.846",
+            "0.843",
+            "0.846",
+            "0.846",
+            "0.846",
+            "0.839",
+            "0.793"
+          ]
+        }
+      ],
+      "rounding": "binary",
+      "transcription_v13": {
+        "cells_compared": 98,
+        "number_mismatches": [],
+        "double_rounding_in_v13": [],
+        "bold_mismatches_in_v13": [],
+        "passes": true
+      },
+      "gate": {
+        "max_abs": 0.8700000000000041,
+        "signed": 0.8700000000000041,
+        "cell": "dm|c10.0",
+        "cells": 14,
+        "by_cell": {
+          "dm|c2.0": {
+            "theta0": 0.11075,
+            "v13": 0.1104,
+            "diff": 0.03500000000000031
+          },
+          "dm|c5.0": {
+            "theta0": 0.2949,
+            "v13": 0.29035,
+            "diff": 0.45499999999999985
+          },
+          "dm|c7.0": {
+            "theta0": 0.464,
+            "v13": 0.45845,
+            "diff": 0.5549999999999999
+          },
+          "dm|c10.0": {
+            "theta0": 0.7243,
+            "v13": 0.7156,
+            "diff": 0.8700000000000041
+          },
+          "dm|c13.5": {
+            "theta0": 0.9195,
+            "v13": 0.91535,
+            "diff": 0.4149999999999987
+          },
+          "dm|c15.0": {
+            "theta0": 0.95805,
+            "v13": 0.95525,
+            "diff": 0.27999999999999137
+          },
+          "dm|c20.0": {
+            "theta0": 0.99765,
+            "v13": 0.99745,
+            "diff": 0.0200000000000089
+          },
+          "ct|c2.0": {
+            "theta0": 0.06085,
+            "v13": 0.06105,
+            "diff": -0.01999999999999988
+          },
+          "ct|c5.0": {
+            "theta0": 0.11235,
+            "v13": 0.1127,
+            "diff": -0.03499999999999892
+          },
+          "ct|c7.0": {
+            "theta0": 0.17065,
+            "v13": 0.1696,
+            "diff": 0.10499999999999954
+          },
+          "ct|c10.0": {
+            "theta0": 0.29645,
+            "v13": 0.2947,
+            "diff": 0.17499999999999738
+          },
+          "ct|c13.5": {
+            "theta0": 0.49835,
+            "v13": 0.49495,
+            "diff": 0.3400000000000014
+          },
+          "ct|c15.0": {
+            "theta0": 0.5877,
+            "v13": 0.58415,
+            "diff": 0.3550000000000053
+          },
+          "ct|c20.0": {
+            "theta0": 0.84635,
+            "v13": 0.8434,
+            "diff": 0.2950000000000008
+          }
+        },
+        "units": "pp"
+      },
+      "sources": [
+        "b92_theta_audit9.json"
+      ],
+      "tex": "experiments/results/tables_audit13/tab_localpower_audit13.tex",
+      "tex_sha256": "a0a939eb090ae819641ea658e7642ac22f0732d432af54af6b080671615dce6e",
+      "header_substitutions": [
+        [
+          "$\\theta = 0$",
+          "$\\theta = 0.02$"
+        ]
+      ]
+    },
+    "dgp1": {
+      "v13_file": "sec5_montecarlo.tex",
+      "rows": [
+        {
+          "section": null,
+          "keys": [
+            "0.85",
+            "200"
+          ],
+          "theta0": [
+            "1.000",
+            "0.994",
+            "0.958",
+            "0.995",
+            "0.953",
+            "0.944",
+            "0.941",
+            "$<$0.001"
+          ],
+          "v13": [
+            "1.000",
+            "0.994",
+            "0.958",
+            "0.995",
+            "0.953",
+            "0.944",
+            "0.941",
+            "$<$0.001"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "0.90",
+            "200"
+          ],
+          "theta0": [
+            "0.993",
+            "0.896",
+            "0.798",
+            "0.850",
+            "0.926",
+            "0.928",
+            "0.922",
+            "$<$0.001"
+          ],
+          "v13": [
+            "0.993",
+            "0.896",
+            "0.798",
+            "0.850",
+            "0.926",
+            "0.928",
+            "0.922",
+            "$<$0.001"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "0.93",
+            "200"
+          ],
+          "theta0": [
+            "0.910",
+            "0.647",
+            "0.491",
+            "0.538",
+            "0.854",
+            "0.856",
+            "0.835",
+            "$<$0.001"
+          ],
+          "v13": [
+            "0.905",
+            "0.647",
+            "0.491",
+            "0.538",
+            "0.854",
+            "0.856",
+            "0.835",
+            "$<$0.001"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "0.95",
+            "200"
+          ],
+          "theta0": [
+            "0.708",
+            "0.426",
+            "0.291",
+            "0.313",
+            "0.690",
+            "0.691",
+            "0.654",
+            "0.002"
+          ],
+          "v13": [
+            "0.701",
+            "0.426",
+            "0.291",
+            "0.313",
+            "0.690",
+            "0.691",
+            "0.654",
+            "0.057"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "0.97",
+            "200"
+          ],
+          "theta0": [
+            "0.386",
+            "0.233",
+            "0.147",
+            "0.150",
+            "0.397",
+            "0.393",
+            "0.365",
+            "0.045"
+          ],
+          "v13": [
+            "0.381",
+            "0.233",
+            "0.147",
+            "0.150",
+            "0.397",
+            "0.393",
+            "0.365",
+            "0.003"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "0.99",
+            "200"
+          ],
+          "theta0": [
+            "0.115",
+            "0.092",
+            "0.067",
+            "0.066",
+            "0.111",
+            "0.112",
+            "0.113",
+            "0.244"
+          ],
+          "v13": [
+            "0.114",
+            "0.092",
+            "0.067",
+            "0.066",
+            "0.111",
+            "0.112",
+            "0.113",
+            "0.426"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "0.95",
+            "500"
+          ],
+          "theta0": [
+            "1.000",
+            "0.980",
+            "0.939",
+            "0.955",
+            "0.992",
+            "0.993",
+            "0.992",
+            "$<$0.001"
+          ],
+          "v13": [
+            "1.000",
+            "0.980",
+            "0.939",
+            "0.955",
+            "0.992",
+            "0.993",
+            "0.992",
+            "$<$0.001"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "0.97",
+            "500"
+          ],
+          "theta0": [
+            "0.955",
+            "0.726",
+            "0.577",
+            "0.604",
+            "0.939",
+            "0.940",
+            "0.934",
+            "$<$0.001"
+          ],
+          "v13": [
+            "0.951",
+            "0.726",
+            "0.577",
+            "0.604",
+            "0.939",
+            "0.940",
+            "0.934",
+            "0.001"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "0.99",
+            "500"
+          ],
+          "theta0": [
+            "0.301",
+            "0.187",
+            "0.119",
+            "0.127",
+            "0.316",
+            "0.313",
+            "0.295",
+            "0.001"
+          ],
+          "v13": [
+            "0.296",
+            "0.187",
+            "0.119",
+            "0.127",
+            "0.316",
+            "0.313",
+            "0.295",
+            "$<$0.001"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "0.99",
+            "1000"
+          ],
+          "theta0": [
+            "0.737",
+            "0.434",
+            "0.303",
+            "0.318",
+            "0.755",
+            "0.755",
+            "0.728",
+            "$<$0.001"
+          ],
+          "v13": [
+            "0.729",
+            "0.434",
+            "0.303",
+            "0.318",
+            "0.755",
+            "0.755",
+            "0.728",
+            "$<$0.001"
+          ]
+        }
+      ],
+      "rounding": "binary",
+      "transcription_v13": {
+        "cells_compared": 80,
+        "number_mismatches": [],
+        "double_rounding_in_v13": [],
+        "bold_mismatches_in_v13": [],
+        "passes": true
+      },
+      "gate": {
+        "max_abs": 0.8399999999999963,
+        "signed": 0.8399999999999963,
+        "cell": "dgp1_rho0p99_n1000",
+        "cells": 10,
+        "by_cell": {
+          "dgp1_rho0p85_n200": {
+            "theta0": 1.0,
+            "v13": 1.0,
+            "diff": 0.0
+          },
+          "dgp1_rho0p9_n200": {
+            "theta0": 0.9934,
+            "v13": 0.993,
+            "diff": 0.039999999999995595
+          },
+          "dgp1_rho0p93_n200": {
+            "theta0": 0.9102,
+            "v13": 0.9054,
+            "diff": 0.48000000000000265
+          },
+          "dgp1_rho0p95_n200": {
+            "theta0": 0.708,
+            "v13": 0.7014,
+            "diff": 0.6599999999999939
+          },
+          "dgp1_rho0p97_n200": {
+            "theta0": 0.3864,
+            "v13": 0.3808,
+            "diff": 0.5599999999999994
+          },
+          "dgp1_rho0p99_n200": {
+            "theta0": 0.1148,
+            "v13": 0.1136,
+            "diff": 0.11999999999999927
+          },
+          "dgp1_rho0p95_n500": {
+            "theta0": 0.9998,
+            "v13": 0.9998,
+            "diff": 0.0
+          },
+          "dgp1_rho0p97_n500": {
+            "theta0": 0.955,
+            "v13": 0.9506,
+            "diff": 0.43999999999999595
+          },
+          "dgp1_rho0p99_n500": {
+            "theta0": 0.3008,
+            "v13": 0.2958,
+            "diff": 0.5000000000000004
+          },
+          "dgp1_rho0p99_n1000": {
+            "theta0": 0.737,
+            "v13": 0.7286,
+            "diff": 0.8399999999999963
+          }
+        },
+        "units": "pp"
+      },
+      "sources": [
+        "e_equalized_audit13.json",
+        "b103_equalized_audit10.json"
+      ],
+      "tex": "experiments/results/tables_audit13/tab_dgp1_audit13.tex",
+      "tex_sha256": "1d37d8f8166edb48b3bafb4aa0e3cc51a0d677844e997b8dfb2ee420d22a8cdd",
+      "header_substitutions": []
+    },
+    "ctpower": {
+      "v13_file": "sec5_montecarlo.tex",
+      "rows": [
+        {
+          "section": null,
+          "keys": [
+            "0.90",
+            "200"
+          ],
+          "theta0": [
+            "0.819",
+            "0.740",
+            "0.556",
+            "0.630",
+            "0.720",
+            "0.742",
+            "0.734",
+            "$<$0.001"
+          ],
+          "v13": [
+            "0.823",
+            "0.740",
+            "0.556",
+            "0.630",
+            "0.720",
+            "0.742",
+            "0.734",
+            "$<$0.001"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "0.95",
+            "200"
+          ],
+          "theta0": [
+            "0.297",
+            "0.257",
+            "0.175",
+            "0.189",
+            "0.290",
+            "0.290",
+            "0.284",
+            "0.124"
+          ],
+          "v13": [
+            "0.297",
+            "0.257",
+            "0.175",
+            "0.189",
+            "0.290",
+            "0.290",
+            "0.284",
+            "0.150"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "0.97",
+            "200"
+          ],
+          "theta0": [
+            "0.132",
+            "0.122",
+            "0.098",
+            "0.096",
+            "0.130",
+            "0.132",
+            "0.130",
+            "0.555"
+          ],
+          "v13": [
+            "0.133",
+            "0.122",
+            "0.098",
+            "0.096",
+            "0.130",
+            "0.132",
+            "0.130",
+            "0.450"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "0.99",
+            "200"
+          ],
+          "theta0": [
+            "0.062",
+            "0.060",
+            "0.058",
+            "0.060",
+            "0.062",
+            "0.064",
+            "0.062",
+            "1.000"
+          ],
+          "v13": [
+            "0.062",
+            "0.060",
+            "0.058",
+            "0.060",
+            "0.062",
+            "0.064",
+            "0.062",
+            "1.000"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "0.95",
+            "500"
+          ],
+          "theta0": [
+            "0.960",
+            "0.913",
+            "0.782",
+            "0.815",
+            "0.899",
+            "0.911",
+            "0.910",
+            "$<$0.001"
+          ],
+          "v13": [
+            "0.958",
+            "0.913",
+            "0.782",
+            "0.815",
+            "0.899",
+            "0.911",
+            "0.910",
+            "$<$0.001"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "0.97",
+            "500"
+          ],
+          "theta0": [
+            "0.589",
+            "0.515",
+            "0.355",
+            "0.380",
+            "0.575",
+            "0.578",
+            "0.563",
+            "0.004"
+          ],
+          "v13": [
+            "0.586",
+            "0.515",
+            "0.355",
+            "0.380",
+            "0.575",
+            "0.578",
+            "0.563",
+            "0.030"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "0.99",
+            "500"
+          ],
+          "theta0": [
+            "0.099",
+            "0.089",
+            "0.072",
+            "0.075",
+            "0.102",
+            "0.103",
+            "0.100",
+            "0.311"
+          ],
+          "v13": [
+            "0.099",
+            "0.089",
+            "0.072",
+            "0.075",
+            "0.102",
+            "0.103",
+            "0.100",
+            "0.289"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "0.97",
+            "1000"
+          ],
+          "theta0": [
+            "0.994",
+            "0.977",
+            "0.913",
+            "0.923",
+            "0.975",
+            "0.980",
+            "0.980",
+            "$<$0.001"
+          ],
+          "v13": [
+            "0.994",
+            "0.977",
+            "0.913",
+            "0.923",
+            "0.975",
+            "0.980",
+            "0.980",
+            "$<$0.001"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "0.99",
+            "1000"
+          ],
+          "theta0": [
+            "0.305",
+            "0.270",
+            "0.195",
+            "0.198",
+            "0.304",
+            "0.305",
+            "0.303",
+            "0.657"
+          ],
+          "v13": [
+            "0.304",
+            "0.270",
+            "0.195",
+            "0.198",
+            "0.304",
+            "0.305",
+            "0.303",
+            "1.000"
+          ]
+        }
+      ],
+      "rounding": "binary",
+      "transcription_v13": {
+        "cells_compared": 72,
+        "number_mismatches": [],
+        "double_rounding_in_v13": [
+          {
+            "row": [
+              "0.95",
+              "200"
+            ],
+            "section": null,
+            "col": 7,
+            "printed": "0.151",
+            "mine": "0.150",
+            "value": 0.15046093101472488
+          }
+        ],
+        "bold_mismatches_in_v13": [],
+        "passes": true
+      },
+      "gate": {
+        "max_abs": 0.40000000000000036,
+        "signed": -0.40000000000000036,
+        "cell": "ct_power_rho0p9_n200",
+        "cells": 9,
+        "by_cell": {
+          "ct_power_rho0p9_n200": {
+            "theta0": 0.8194,
+            "v13": 0.8234,
+            "diff": -0.40000000000000036
+          },
+          "ct_power_rho0p95_n200": {
+            "theta0": 0.2974,
+            "v13": 0.297,
+            "diff": 0.040000000000001146
+          },
+          "ct_power_rho0p97_n200": {
+            "theta0": 0.1324,
+            "v13": 0.133,
+            "diff": -0.06000000000000172
+          },
+          "ct_power_rho0p99_n200": {
+            "theta0": 0.0618,
+            "v13": 0.0618,
+            "diff": 0.0
+          },
+          "ct_power_rho0p95_n500": {
+            "theta0": 0.9602,
+            "v13": 0.958,
+            "diff": 0.22000000000000908
+          },
+          "ct_power_rho0p97_n500": {
+            "theta0": 0.5894,
+            "v13": 0.5862,
+            "diff": 0.31999999999999806
+          },
+          "ct_power_rho0p99_n500": {
+            "theta0": 0.0994,
+            "v13": 0.0992,
+            "diff": 0.020000000000000573
+          },
+          "ct_power_rho0p97_n1000": {
+            "theta0": 0.9942,
+            "v13": 0.9936,
+            "diff": 0.05999999999999339
+          },
+          "ct_power_rho0p99_n1000": {
+            "theta0": 0.3054,
+            "v13": 0.3036,
+            "diff": 0.18000000000000238
+          }
+        },
+        "units": "pp"
+      },
+      "sources": [
+        "e_equalized_audit13.json",
+        "b103_equalized_audit10.json"
+      ],
+      "tex": "experiments/results/tables_audit13/tab_ctpower_audit13.tex",
+      "tex_sha256": "afc906a11671c33110ae3fdf366775bcbdd8af626fc55b0aed79d41efbfbb7ac",
+      "header_substitutions": []
+    },
+    "dgp2": {
+      "v13_file": "tab_dgp2_audit11.tex",
+      "rows": [
+        {
+          "section": null,
+          "keys": [
+            "0",
+            "200"
+          ],
+          "theta0": [
+            "0.713",
+            "0.432",
+            "0.299",
+            "0.322",
+            "0.695",
+            "0.689",
+            "0.658",
+            "0.119",
+            "0.002"
+          ],
+          "v13": [
+            "0.706",
+            "0.432",
+            "0.299",
+            "0.322",
+            "0.695",
+            "0.689",
+            "0.658",
+            "0.119",
+            "0.057"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "0",
+            "500"
+          ],
+          "theta0": [
+            "1.000",
+            "0.980",
+            "0.938",
+            "0.949",
+            "0.994",
+            "0.995",
+            "0.994",
+            "0.454",
+            "$3.7\\times10^{-9}$"
+          ],
+          "v13": [
+            "1.000",
+            "0.980",
+            "0.938",
+            "0.949",
+            "0.994",
+            "0.995",
+            "0.994",
+            "0.454",
+            "$3.7\\times10^{-9}$"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "0",
+            "1000"
+          ],
+          "theta0": [
+            "1.000",
+            "1.000",
+            "1.000",
+            "1.000",
+            "1.000",
+            "1.000",
+            "1.000",
+            "0.970",
+            "1.000"
+          ],
+          "v13": [
+            "1.000",
+            "1.000",
+            "1.000",
+            "1.000",
+            "1.000",
+            "1.000",
+            "1.000",
+            "0.970",
+            "1.000"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "0.5",
+            "200"
+          ],
+          "theta0": [
+            "0.640",
+            "0.396",
+            "0.269",
+            "0.290",
+            "0.620",
+            "0.613",
+            "0.594",
+            "0.119",
+            "0.001"
+          ],
+          "v13": [
+            "0.635",
+            "0.396",
+            "0.269",
+            "0.290",
+            "0.620",
+            "0.613",
+            "0.594",
+            "0.119",
+            "0.017"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "0.5",
+            "500"
+          ],
+          "theta0": [
+            "1.000",
+            "0.959",
+            "0.903",
+            "0.914",
+            "0.983",
+            "0.983",
+            "0.987",
+            "0.456",
+            "$2.2\\times10^{-24}$"
+          ],
+          "v13": [
+            "1.000",
+            "0.959",
+            "0.903",
+            "0.914",
+            "0.983",
+            "0.983",
+            "0.987",
+            "0.456",
+            "$4.4\\times10^{-24}$"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "0.5",
+            "1000"
+          ],
+          "theta0": [
+            "1.000",
+            "1.000",
+            "1.000",
+            "1.000",
+            "1.000",
+            "1.000",
+            "1.000",
+            "0.971",
+            "1.000"
+          ],
+          "v13": [
+            "1.000",
+            "1.000",
+            "1.000",
+            "1.000",
+            "1.000",
+            "1.000",
+            "1.000",
+            "0.971",
+            "1.000"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "1",
+            "200"
+          ],
+          "theta0": [
+            "0.477",
+            "0.288",
+            "0.196",
+            "0.198",
+            "0.445",
+            "0.444",
+            "0.439",
+            "0.124",
+            "$1.4\\times10^{-7}$"
+          ],
+          "v13": [
+            "0.474",
+            "0.288",
+            "0.196",
+            "0.198",
+            "0.445",
+            "0.444",
+            "0.439",
+            "0.124",
+            "$3.9\\times10^{-6}$"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "1",
+            "500"
+          ],
+          "theta0": [
+            "0.990",
+            "0.865",
+            "0.784",
+            "0.766",
+            "0.931",
+            "0.935",
+            "0.941",
+            "0.439",
+            "$6.3\\times10^{-73}$"
+          ],
+          "v13": [
+            "0.990",
+            "0.865",
+            "0.784",
+            "0.766",
+            "0.931",
+            "0.935",
+            "0.941",
+            "0.439",
+            "$1.6\\times10^{-71}$"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "1",
+            "1000"
+          ],
+          "theta0": [
+            "1.000",
+            "1.000",
+            "0.995",
+            "1.000",
+            "0.997",
+            "0.997",
+            "0.998",
+            "0.966",
+            "$3.1\\times10^{-5}$"
+          ],
+          "v13": [
+            "1.000",
+            "1.000",
+            "0.995",
+            "1.000",
+            "0.997",
+            "0.997",
+            "0.998",
+            "0.966",
+            "$3.1\\times10^{-5}$"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "2",
+            "200"
+          ],
+          "theta0": [
+            "0.093",
+            "0.080",
+            "0.053",
+            "0.048",
+            "0.083",
+            "0.083",
+            "0.093",
+            "0.104",
+            "0.005"
+          ],
+          "v13": [
+            "0.094",
+            "0.080",
+            "0.053",
+            "0.048",
+            "0.083",
+            "0.083",
+            "0.093",
+            "0.104",
+            "0.002"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "2",
+            "500"
+          ],
+          "theta0": [
+            "0.578",
+            "0.329",
+            "0.266",
+            "0.212",
+            "0.441",
+            "0.442",
+            "0.479",
+            "0.397",
+            "$1.5\\times10^{-87}$"
+          ],
+          "v13": [
+            "0.573",
+            "0.329",
+            "0.266",
+            "0.212",
+            "0.441",
+            "0.442",
+            "0.479",
+            "0.397",
+            "$9.0\\times10^{-78}$"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "2",
+            "1000"
+          ],
+          "theta0": [
+            "1.000",
+            "0.953",
+            "0.915",
+            "0.857",
+            "0.870",
+            "0.882",
+            "0.900",
+            "0.962",
+            "$2.1\\times10^{-196}$"
+          ],
+          "v13": [
+            "1.000",
+            "0.953",
+            "0.915",
+            "0.857",
+            "0.870",
+            "0.882",
+            "0.900",
+            "0.962",
+            "$2.1\\times10^{-196}$"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "3",
+            "200"
+          ],
+          "theta0": [
+            "0.003",
+            "0.006",
+            "0.004",
+            "0.003",
+            "0.001",
+            "0.001",
+            "0.005",
+            "0.088",
+            "0.064"
+          ],
+          "v13": [
+            "0.004",
+            "0.006",
+            "0.004",
+            "0.003",
+            "0.001",
+            "0.001",
+            "0.005",
+            "0.088",
+            "0.017"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "3",
+            "500"
+          ],
+          "theta0": [
+            "0.023",
+            "0.018",
+            "0.015",
+            "0.008",
+            "0.017",
+            "0.017",
+            "0.023",
+            "0.378",
+            "0.007"
+          ],
+          "v13": [
+            "0.024",
+            "0.018",
+            "0.015",
+            "0.008",
+            "0.017",
+            "0.017",
+            "0.023",
+            "0.378",
+            "$7.7\\times10^{-4}$"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "3",
+            "1000"
+          ],
+          "theta0": [
+            "0.656",
+            "0.279",
+            "0.328",
+            "0.127",
+            "0.376",
+            "0.378",
+            "0.456",
+            "0.954",
+            "$4.1\\times10^{-272}$"
+          ],
+          "v13": [
+            "0.637",
+            "0.279",
+            "0.328",
+            "0.127",
+            "0.376",
+            "0.378",
+            "0.456",
+            "0.954",
+            "$1.9\\times10^{-233}$"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "5",
+            "200"
+          ],
+          "theta0": [
+            "0.000",
+            "0.000",
+            "0.000",
+            "0.000",
+            "0.000",
+            "0.000",
+            "0.000",
+            "0.092",
+            "1.000"
+          ],
+          "v13": [
+            "0.000",
+            "0.000",
+            "0.000",
+            "0.000",
+            "0.000",
+            "0.000",
+            "0.000",
+            "0.092",
+            "1.000"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "5",
+            "500"
+          ],
+          "theta0": [
+            "0.000",
+            "0.000",
+            "0.000",
+            "0.000",
+            "0.000",
+            "0.000",
+            "0.000",
+            "0.497",
+            "1.000"
+          ],
+          "v13": [
+            "0.000",
+            "0.000",
+            "0.000",
+            "0.000",
+            "0.000",
+            "0.000",
+            "0.000",
+            "0.497",
+            "1.000"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "5",
+            "1000"
+          ],
+          "theta0": [
+            "0.000",
+            "0.000",
+            "0.000",
+            "0.000",
+            "0.000",
+            "0.000",
+            "0.000",
+            "0.986",
+            "1.000"
+          ],
+          "v13": [
+            "0.000",
+            "0.000",
+            "0.000",
+            "0.000",
+            "0.000",
+            "0.000",
+            "0.000",
+            "0.986",
+            "1.000"
+          ]
+        }
+      ],
+      "rounding": "binary",
+      "transcription_v13": {
+        "cells_compared": 162,
+        "number_mismatches": [],
+        "double_rounding_in_v13": [],
+        "bold_mismatches_in_v13": [],
+        "passes": true
+      },
+      "gate": {
+        "max_abs": 1.9000000000000017,
+        "signed": 1.9000000000000017,
+        "cell": "dgp2_delta3_n1000",
+        "cells": 18,
+        "by_cell": {
+          "dgp2_delta0_n200": {
+            "theta0": 0.7126,
+            "v13": 0.706,
+            "diff": 0.660000000000005
+          },
+          "dgp2_delta0_n500": {
+            "theta0": 1.0,
+            "v13": 1.0,
+            "diff": 0.0
+          },
+          "dgp2_delta0_n1000": {
+            "theta0": 1.0,
+            "v13": 1.0,
+            "diff": 0.0
+          },
+          "dgp2_delta0p5_n200": {
+            "theta0": 0.6396,
+            "v13": 0.6348,
+            "diff": 0.47999999999999154
+          },
+          "dgp2_delta0p5_n500": {
+            "theta0": 0.9998,
+            "v13": 0.9996,
+            "diff": 0.019999999999997797
+          },
+          "dgp2_delta0p5_n1000": {
+            "theta0": 1.0,
+            "v13": 1.0,
+            "diff": 0.0
+          },
+          "dgp2_delta1_n200": {
+            "theta0": 0.477,
+            "v13": 0.4738,
+            "diff": 0.31999999999999806
+          },
+          "dgp2_delta1_n500": {
+            "theta0": 0.9904,
+            "v13": 0.9904,
+            "diff": 0.0
+          },
+          "dgp2_delta1_n1000": {
+            "theta0": 1.0,
+            "v13": 1.0,
+            "diff": 0.0
+          },
+          "dgp2_delta2_n200": {
+            "theta0": 0.093,
+            "v13": 0.0942,
+            "diff": -0.12000000000000066
+          },
+          "dgp2_delta2_n500": {
+            "theta0": 0.578,
+            "v13": 0.5728,
+            "diff": 0.5199999999999982
+          },
+          "dgp2_delta2_n1000": {
+            "theta0": 0.9998,
+            "v13": 0.9998,
+            "diff": 0.0
+          },
+          "dgp2_delta3_n200": {
+            "theta0": 0.003,
+            "v13": 0.0036,
+            "diff": -0.059999999999999984
+          },
+          "dgp2_delta3_n500": {
+            "theta0": 0.0228,
+            "v13": 0.0244,
+            "diff": -0.1600000000000001
+          },
+          "dgp2_delta3_n1000": {
+            "theta0": 0.656,
+            "v13": 0.637,
+            "diff": 1.9000000000000017
+          },
+          "dgp2_delta5_n200": {
+            "theta0": 0.0,
+            "v13": 0.0,
+            "diff": 0.0
+          },
+          "dgp2_delta5_n500": {
+            "theta0": 0.0,
+            "v13": 0.0,
+            "diff": 0.0
+          },
+          "dgp2_delta5_n1000": {
+            "theta0": 0.0,
+            "v13": 0.0,
+            "diff": 0.0
+          }
+        },
+        "units": "pp"
+      },
+      "sources": [
+        "e_equalized_audit13.json",
+        "b103_equalized_audit10.json"
+      ],
+      "tex": "experiments/results/tables_audit13/tab_dgp2_audit13.tex",
+      "tex_sha256": "82820f35e76b9b476ce42e276bcfed9e9d97d40220c078d283fa4558904d06cc",
+      "header_substitutions": [
+        [
+          "($\\theta = 0.02$)",
+          "($\\theta = 0$)"
+        ]
+      ]
+    },
+    "dgp3": {
+      "v13_file": "sec5_montecarlo.tex",
+      "rows": [
+        {
+          "section": null,
+          "keys": [
+            "1",
+            "200"
+          ],
+          "theta0": [
+            "0.046",
+            "0.048",
+            "0.047",
+            "\\textbf{0.041}",
+            "0.049",
+            "0.047",
+            "0.047"
+          ],
+          "v13": [
+            "0.048",
+            "0.048",
+            "0.047",
+            "\\textbf{0.041}",
+            "0.049",
+            "0.047",
+            "0.047"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "1.5",
+            "200"
+          ],
+          "theta0": [
+            "\\textbf{0.065}",
+            "\\textbf{0.059}",
+            "\\textbf{0.040}",
+            "\\textbf{0.041}",
+            "\\textbf{0.057}",
+            "\\textbf{0.063}",
+            "\\textbf{0.064}"
+          ],
+          "v13": [
+            "\\textbf{0.065}",
+            "\\textbf{0.059}",
+            "\\textbf{0.040}",
+            "\\textbf{0.041}",
+            "\\textbf{0.057}",
+            "\\textbf{0.063}",
+            "\\textbf{0.064}"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "2",
+            "200"
+          ],
+          "theta0": [
+            "\\textbf{0.076}",
+            "\\textbf{0.065}",
+            "\\textbf{0.043}",
+            "\\textbf{0.038}",
+            "\\textbf{0.056}",
+            "\\textbf{0.070}",
+            "\\textbf{0.080}"
+          ],
+          "v13": [
+            "\\textbf{0.078}",
+            "\\textbf{0.065}",
+            "\\textbf{0.043}",
+            "\\textbf{0.038}",
+            "\\textbf{0.056}",
+            "\\textbf{0.070}",
+            "\\textbf{0.080}"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "3",
+            "200"
+          ],
+          "theta0": [
+            "\\textbf{0.100}",
+            "\\textbf{0.082}",
+            "0.049",
+            "\\textbf{0.038}",
+            "\\textbf{0.073}",
+            "\\textbf{0.099}",
+            "\\textbf{0.116}"
+          ],
+          "v13": [
+            "\\textbf{0.103}",
+            "\\textbf{0.082}",
+            "0.049",
+            "\\textbf{0.038}",
+            "\\textbf{0.073}",
+            "\\textbf{0.099}",
+            "\\textbf{0.116}"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "4",
+            "200"
+          ],
+          "theta0": [
+            "\\textbf{0.123}",
+            "\\textbf{0.097}",
+            "0.053",
+            "0.047",
+            "\\textbf{0.080}",
+            "\\textbf{0.117}",
+            "\\textbf{0.130}"
+          ],
+          "v13": [
+            "\\textbf{0.128}",
+            "\\textbf{0.097}",
+            "0.053",
+            "0.047",
+            "\\textbf{0.080}",
+            "\\textbf{0.117}",
+            "\\textbf{0.130}"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "2",
+            "500"
+          ],
+          "theta0": [
+            "\\textbf{0.074}",
+            "\\textbf{0.059}",
+            "\\textbf{0.039}",
+            "\\textbf{0.036}",
+            "\\textbf{0.064}",
+            "\\textbf{0.071}",
+            "\\textbf{0.078}"
+          ],
+          "v13": [
+            "\\textbf{0.074}",
+            "\\textbf{0.059}",
+            "\\textbf{0.039}",
+            "\\textbf{0.036}",
+            "\\textbf{0.064}",
+            "\\textbf{0.071}",
+            "\\textbf{0.078}"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "4",
+            "500"
+          ],
+          "theta0": [
+            "\\textbf{0.127}",
+            "\\textbf{0.095}",
+            "0.050",
+            "0.050",
+            "\\textbf{0.098}",
+            "\\textbf{0.119}",
+            "\\textbf{0.135}"
+          ],
+          "v13": [
+            "\\textbf{0.131}",
+            "\\textbf{0.095}",
+            "0.050",
+            "0.050",
+            "\\textbf{0.098}",
+            "\\textbf{0.119}",
+            "\\textbf{0.135}"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "2",
+            "1000"
+          ],
+          "theta0": [
+            "\\textbf{0.072}",
+            "\\textbf{0.061}",
+            "\\textbf{0.036}",
+            "\\textbf{0.037}",
+            "\\textbf{0.064}",
+            "\\textbf{0.067}",
+            "\\textbf{0.074}"
+          ],
+          "v13": [
+            "\\textbf{0.073}",
+            "\\textbf{0.061}",
+            "\\textbf{0.036}",
+            "\\textbf{0.037}",
+            "\\textbf{0.064}",
+            "\\textbf{0.067}",
+            "\\textbf{0.074}"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "4",
+            "1000"
+          ],
+          "theta0": [
+            "\\textbf{0.125}",
+            "\\textbf{0.090}",
+            "0.046",
+            "0.044",
+            "\\textbf{0.095}",
+            "\\textbf{0.109}",
+            "\\textbf{0.131}"
+          ],
+          "v13": [
+            "\\textbf{0.127}",
+            "\\textbf{0.090}",
+            "0.046",
+            "0.044",
+            "\\textbf{0.095}",
+            "\\textbf{0.109}",
+            "\\textbf{0.131}"
+          ]
+        }
+      ],
+      "rounding": "binary",
+      "transcription_v13": {
+        "cells_compared": 63,
+        "number_mismatches": [],
+        "double_rounding_in_v13": [],
+        "bold_mismatches_in_v13": [],
+        "passes": true
+      },
+      "gate": {
+        "max_abs": 0.5199999999999996,
+        "signed": -0.5199999999999996,
+        "cell": "dgp3_r4_n200",
+        "cells": 9,
+        "by_cell": {
+          "dgp3_r1_n200": {
+            "theta0": 0.0462,
+            "v13": 0.0478,
+            "diff": -0.16000000000000042
+          },
+          "dgp3_r1p5_n200": {
+            "theta0": 0.065,
+            "v13": 0.0648,
+            "diff": 0.020000000000000573
+          },
+          "dgp3_r2_n200": {
+            "theta0": 0.0764,
+            "v13": 0.0784,
+            "diff": -0.20000000000000018
+          },
+          "dgp3_r3_n200": {
+            "theta0": 0.1004,
+            "v13": 0.1026,
+            "diff": -0.21999999999999936
+          },
+          "dgp3_r4_n200": {
+            "theta0": 0.1226,
+            "v13": 0.1278,
+            "diff": -0.5199999999999996
+          },
+          "dgp3_r2_n500": {
+            "theta0": 0.0738,
+            "v13": 0.0736,
+            "diff": 0.020000000000000573
+          },
+          "dgp3_r4_n500": {
+            "theta0": 0.1268,
+            "v13": 0.1306,
+            "diff": -0.3799999999999998
+          },
+          "dgp3_r2_n1000": {
+            "theta0": 0.0722,
+            "v13": 0.0734,
+            "diff": -0.12000000000000066
+          },
+          "dgp3_r4_n1000": {
+            "theta0": 0.1252,
+            "v13": 0.1272,
+            "diff": -0.20000000000000018
+          }
+        },
+        "units": "pp"
+      },
+      "sources": [
+        "e_equalized_audit13.json",
+        "b103_equalized_audit10.json"
+      ],
+      "tex": "experiments/results/tables_audit13/tab_dgp3_audit13.tex",
+      "tex_sha256": "50447ad976cf25c02d6dcce3fffeffcb78410b18e9033f1653556f7bd34d510f",
+      "header_substitutions": []
+    },
+    "misspec": {
+      "v13_file": "sec5_montecarlo.tex",
+      "rows": [
+        {
+          "section": null,
+          "keys": [
+            "$t(5)$",
+            "200"
+          ],
+          "theta0": [
+            "\\textbf{0.0438}",
+            "0.0528",
+            "\\textbf{0.0628}",
+            "\\textbf{0.0584}",
+            "\\textbf{0.0438}",
+            "0.0440",
+            "0.0442"
+          ],
+          "v13": [
+            "\\textbf{0.0430}",
+            "0.0528",
+            "\\textbf{0.0628}",
+            "\\textbf{0.0584}",
+            "\\textbf{0.0438}",
+            "0.0440",
+            "0.0442"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "$t(5)$",
+            "500"
+          ],
+          "theta0": [
+            "0.0510",
+            "0.0522",
+            "0.0552",
+            "\\textbf{0.0614}",
+            "0.0496",
+            "0.0504",
+            "0.0502"
+          ],
+          "v13": [
+            "0.0520",
+            "0.0522",
+            "0.0552",
+            "\\textbf{0.0614}",
+            "0.0496",
+            "0.0504",
+            "0.0502"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "$t(5)$",
+            "1000"
+          ],
+          "theta0": [
+            "0.0486",
+            "0.0496",
+            "0.0500",
+            "0.0540",
+            "0.0466",
+            "0.0468",
+            "0.0488"
+          ],
+          "v13": [
+            "0.0488",
+            "0.0496",
+            "0.0500",
+            "0.0540",
+            "0.0466",
+            "0.0468",
+            "0.0488"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "$t(3)$",
+            "200"
+          ],
+          "theta0": [
+            "\\textbf{0.0428}",
+            "0.0520",
+            "\\textbf{0.0624}",
+            "\\textbf{0.0612}",
+            "\\textbf{0.0414}",
+            "\\textbf{0.0422}",
+            "0.0446"
+          ],
+          "v13": [
+            "\\textbf{0.0422}",
+            "0.0520",
+            "\\textbf{0.0624}",
+            "\\textbf{0.0612}",
+            "\\textbf{0.0414}",
+            "\\textbf{0.0422}",
+            "0.0446"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "$t(3)$",
+            "500"
+          ],
+          "theta0": [
+            "0.0502",
+            "0.0488",
+            "0.0528",
+            "\\textbf{0.0590}",
+            "0.0520",
+            "0.0520",
+            "0.0498"
+          ],
+          "v13": [
+            "0.0512",
+            "0.0488",
+            "0.0528",
+            "\\textbf{0.0590}",
+            "0.0520",
+            "0.0520",
+            "0.0498"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "$t(3)$",
+            "1000"
+          ],
+          "theta0": [
+            "0.0470",
+            "0.0524",
+            "0.0528",
+            "\\textbf{0.0600}",
+            "0.0502",
+            "0.0496",
+            "0.0474"
+          ],
+          "v13": [
+            "0.0472",
+            "0.0524",
+            "0.0528",
+            "\\textbf{0.0600}",
+            "0.0502",
+            "0.0496",
+            "0.0474"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "G 0.95, N",
+            "200"
+          ],
+          "theta0": [
+            "0.0500",
+            "\\textbf{0.0630}",
+            "\\textbf{0.0724}",
+            "\\textbf{0.0736}",
+            "\\textbf{0.0430}",
+            "0.0454",
+            "\\textbf{0.0432}"
+          ],
+          "v13": [
+            "0.0492",
+            "\\textbf{0.0630}",
+            "\\textbf{0.0724}",
+            "\\textbf{0.0736}",
+            "\\textbf{0.0430}",
+            "0.0454",
+            "\\textbf{0.0432}"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "G 0.95, N",
+            "500"
+          ],
+          "theta0": [
+            "0.0554",
+            "\\textbf{0.0576}",
+            "\\textbf{0.0612}",
+            "\\textbf{0.0610}",
+            "0.0480",
+            "0.0516",
+            "0.0504"
+          ],
+          "v13": [
+            "0.0552",
+            "\\textbf{0.0576}",
+            "\\textbf{0.0612}",
+            "\\textbf{0.0610}",
+            "0.0480",
+            "0.0516",
+            "0.0504"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "G 0.95, N",
+            "1000"
+          ],
+          "theta0": [
+            "0.0480",
+            "0.0490",
+            "0.0494",
+            "0.0520",
+            "0.0462",
+            "0.0470",
+            "0.0496"
+          ],
+          "v13": [
+            "0.0494",
+            "0.0490",
+            "0.0494",
+            "0.0520",
+            "0.0462",
+            "0.0470",
+            "0.0496"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "G 0.98, N",
+            "200"
+          ],
+          "theta0": [
+            "\\textbf{0.0606}",
+            "0.0536",
+            "\\textbf{0.0648}",
+            "\\textbf{0.0688}",
+            "0.0556",
+            "\\textbf{0.0572}",
+            "\\textbf{0.0606}"
+          ],
+          "v13": [
+            "\\textbf{0.0608}",
+            "0.0536",
+            "\\textbf{0.0648}",
+            "\\textbf{0.0688}",
+            "0.0556",
+            "\\textbf{0.0572}",
+            "\\textbf{0.0606}"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "G 0.98, N",
+            "500"
+          ],
+          "theta0": [
+            "\\textbf{0.0576}",
+            "\\textbf{0.0622}",
+            "\\textbf{0.0640}",
+            "\\textbf{0.0708}",
+            "0.0514",
+            "0.0550",
+            "0.0538"
+          ],
+          "v13": [
+            "\\textbf{0.0580}",
+            "\\textbf{0.0622}",
+            "\\textbf{0.0640}",
+            "\\textbf{0.0708}",
+            "0.0514",
+            "0.0550",
+            "0.0538"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "G 0.98, N",
+            "1000"
+          ],
+          "theta0": [
+            "0.0514",
+            "\\textbf{0.0640}",
+            "\\textbf{0.0644}",
+            "\\textbf{0.0654}",
+            "0.0484",
+            "0.0504",
+            "0.0496"
+          ],
+          "v13": [
+            "0.0522",
+            "\\textbf{0.0640}",
+            "\\textbf{0.0644}",
+            "\\textbf{0.0654}",
+            "0.0484",
+            "0.0504",
+            "0.0496"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "G 0.99, N",
+            "200"
+          ],
+          "theta0": [
+            "\\textbf{0.0602}",
+            "\\textbf{0.0600}",
+            "\\textbf{0.0730}",
+            "\\textbf{0.0736}",
+            "\\textbf{0.0616}",
+            "\\textbf{0.0626}",
+            "\\textbf{0.0622}"
+          ],
+          "v13": [
+            "\\textbf{0.0594}",
+            "\\textbf{0.0600}",
+            "\\textbf{0.0730}",
+            "\\textbf{0.0736}",
+            "\\textbf{0.0616}",
+            "\\textbf{0.0626}",
+            "\\textbf{0.0622}"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "G 0.99, N",
+            "500"
+          ],
+          "theta0": [
+            "\\textbf{0.0596}",
+            "\\textbf{0.0584}",
+            "\\textbf{0.0620}",
+            "\\textbf{0.0672}",
+            "\\textbf{0.0572}",
+            "\\textbf{0.0580}",
+            "\\textbf{0.0588}"
+          ],
+          "v13": [
+            "\\textbf{0.0602}",
+            "\\textbf{0.0584}",
+            "\\textbf{0.0620}",
+            "\\textbf{0.0672}",
+            "\\textbf{0.0572}",
+            "\\textbf{0.0580}",
+            "\\textbf{0.0588}"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "G 0.99, N",
+            "1000"
+          ],
+          "theta0": [
+            "\\textbf{0.0614}",
+            "\\textbf{0.0642}",
+            "\\textbf{0.0654}",
+            "\\textbf{0.0696}",
+            "\\textbf{0.0584}",
+            "\\textbf{0.0598}",
+            "\\textbf{0.0626}"
+          ],
+          "v13": [
+            "\\textbf{0.0628}",
+            "\\textbf{0.0642}",
+            "\\textbf{0.0654}",
+            "\\textbf{0.0696}",
+            "\\textbf{0.0584}",
+            "\\textbf{0.0598}",
+            "\\textbf{0.0626}"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "G 0.99, N",
+            "2000"
+          ],
+          "theta0": [
+            "0.0548",
+            "0.0544",
+            "0.0544",
+            "\\textbf{0.0578}",
+            "0.0518",
+            "0.0530",
+            "0.0540"
+          ],
+          "v13": [
+            "0.0552",
+            "0.0544",
+            "0.0544",
+            "\\textbf{0.0578}",
+            "0.0518",
+            "0.0530",
+            "0.0540"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "G 0.99, N",
+            "5000"
+          ],
+          "theta0": [
+            "0.0546",
+            "0.0546",
+            "0.0546",
+            "0.0556",
+            "0.0534",
+            "0.0538",
+            "0.0538"
+          ],
+          "v13": [
+            "0.0552",
+            "0.0546",
+            "0.0546",
+            "0.0556",
+            "0.0534",
+            "0.0538",
+            "0.0538"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "G 0.95, $t(5)$",
+            "200"
+          ],
+          "theta0": [
+            "0.0550",
+            "\\textbf{0.0724}",
+            "\\textbf{0.0832}",
+            "\\textbf{0.0784}",
+            "0.0498",
+            "0.0526",
+            "0.0518"
+          ],
+          "v13": [
+            "0.0560",
+            "\\textbf{0.0724}",
+            "\\textbf{0.0832}",
+            "\\textbf{0.0784}",
+            "0.0498",
+            "0.0526",
+            "0.0518"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "G 0.95, $t(5)$",
+            "500"
+          ],
+          "theta0": [
+            "\\textbf{0.0604}",
+            "\\textbf{0.0644}",
+            "\\textbf{0.0690}",
+            "\\textbf{0.0702}",
+            "\\textbf{0.0582}",
+            "\\textbf{0.0596}",
+            "\\textbf{0.0590}"
+          ],
+          "v13": [
+            "\\textbf{0.0608}",
+            "\\textbf{0.0644}",
+            "\\textbf{0.0690}",
+            "\\textbf{0.0702}",
+            "\\textbf{0.0582}",
+            "\\textbf{0.0596}",
+            "\\textbf{0.0590}"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "G 0.95, $t(5)$",
+            "1000"
+          ],
+          "theta0": [
+            "\\textbf{0.0576}",
+            "\\textbf{0.0576}",
+            "\\textbf{0.0580}",
+            "\\textbf{0.0618}",
+            "0.0528",
+            "0.0562",
+            "\\textbf{0.0566}"
+          ],
+          "v13": [
+            "\\textbf{0.0576}",
+            "\\textbf{0.0576}",
+            "\\textbf{0.0580}",
+            "\\textbf{0.0618}",
+            "0.0528",
+            "0.0562",
+            "\\textbf{0.0566}"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "G 0.95, $t(5)$",
+            "2000"
+          ],
+          "theta0": [
+            "0.0560",
+            "0.0502",
+            "0.0504",
+            "\\textbf{0.0564}",
+            "0.0516",
+            "0.0538",
+            "0.0512"
+          ],
+          "v13": [
+            "0.0560",
+            "0.0502",
+            "0.0504",
+            "\\textbf{0.0564}",
+            "0.0516",
+            "0.0538",
+            "0.0512"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "G 0.95, $t(5)$",
+            "5000"
+          ],
+          "theta0": [
+            "0.0534",
+            "0.0560",
+            "\\textbf{0.0566}",
+            "\\textbf{0.0570}",
+            "0.0512",
+            "0.0516",
+            "0.0496"
+          ],
+          "v13": [
+            "0.0528",
+            "0.0560",
+            "\\textbf{0.0566}",
+            "\\textbf{0.0570}",
+            "0.0512",
+            "0.0516",
+            "0.0496"
+          ]
+        },
+        {
+          "section": "Mean shift relative to Gaussian size, GARCH cells, percentage points (s.e.)",
+          "keys": [
+            "\\multicolumn{2}{l}{$n = 200$ (4)}"
+          ],
+          "theta0": [
+            "+0.63 (0.18)",
+            "+1.47 (0.19)",
+            "+1.61 (0.20)",
+            "+1.61 (0.20)",
+            "+0.28 (0.18)",
+            "+0.39 (0.18)",
+            "+0.42 (0.18)"
+          ],
+          "v13": [
+            "+0.63 (0.18)",
+            "+1.47 (0.19)",
+            "+1.61 (0.20)",
+            "+1.61 (0.20)",
+            "+0.28 (0.18)",
+            "+0.39 (0.18)",
+            "+0.42 (0.18)"
+          ]
+        },
+        {
+          "section": "Mean shift relative to Gaussian size, GARCH cells, percentage points (s.e.)",
+          "keys": [
+            "\\multicolumn{2}{l}{$n = 500$ (4)}"
+          ],
+          "theta0": [
+            "+1.12 (0.18)",
+            "+1.27 (0.18)",
+            "+1.20 (0.19)",
+            "+1.15 (0.19)",
+            "+0.84 (0.18)",
+            "+1.04 (0.18)",
+            "+0.82 (0.18)"
+          ],
+          "v13": [
+            "+1.10 (0.18)",
+            "+1.27 (0.18)",
+            "+1.20 (0.19)",
+            "+1.15 (0.19)",
+            "+0.84 (0.18)",
+            "+1.04 (0.18)",
+            "+0.82 (0.18)"
+          ]
+        },
+        {
+          "section": "Mean shift relative to Gaussian size, GARCH cells, percentage points (s.e.)",
+          "keys": [
+            "\\multicolumn{2}{l}{$n = 1000$ (4)}"
+          ],
+          "theta0": [
+            "+0.33 (0.18)",
+            "+0.85 (0.18)",
+            "+0.82 (0.18)",
+            "+0.78 (0.19)",
+            "+0.04 (0.17)",
+            "+0.21 (0.18)",
+            "+0.40 (0.18)"
+          ],
+          "v13": [
+            "+0.36 (0.18)",
+            "+0.85 (0.18)",
+            "+0.82 (0.18)",
+            "+0.78 (0.19)",
+            "+0.04 (0.17)",
+            "+0.21 (0.18)",
+            "+0.40 (0.18)"
+          ]
+        },
+        {
+          "section": "Mean shift relative to Gaussian size, GARCH cells, percentage points (s.e.)",
+          "keys": [
+            "\\multicolumn{2}{l}{$n = 2000$ (2)}"
+          ],
+          "theta0": [
+            "+0.84 (0.25)",
+            "+0.23 (0.25)",
+            "+0.24 (0.25)",
+            "+0.37 (0.26)",
+            "+0.36 (0.25)",
+            "+0.57 (0.25)",
+            "+0.59 (0.25)"
+          ],
+          "v13": [
+            "+0.92 (0.25)",
+            "+0.23 (0.25)",
+            "+0.24 (0.25)",
+            "+0.37 (0.26)",
+            "+0.36 (0.25)",
+            "+0.57 (0.25)",
+            "+0.59 (0.25)"
+          ]
+        },
+        {
+          "section": "Mean shift relative to Gaussian size, GARCH cells, percentage points (s.e.)",
+          "keys": [
+            "\\multicolumn{2}{l}{$n = 5000$ (2)}"
+          ],
+          "theta0": [
+            "+0.51 (0.25)",
+            "+0.29 (0.25)",
+            "+0.29 (0.25)",
+            "+0.22 (0.26)",
+            "+0.18 (0.25)",
+            "+0.24 (0.25)",
+            "+0.30 (0.25)"
+          ],
+          "v13": [
+            "+0.48 (0.25)",
+            "+0.29 (0.25)",
+            "+0.29 (0.25)",
+            "+0.22 (0.26)",
+            "+0.18 (0.25)",
+            "+0.24 (0.25)",
+            "+0.30 (0.25)"
+          ]
+        }
+      ],
+      "rounding": "binary",
+      "transcription_v13": {
+        "cells_compared": 189,
+        "number_mismatches": [],
+        "double_rounding_in_v13": [],
+        "bold_mismatches_in_v13": [],
+        "passes": true
+      },
+      "gate": {
+        "max_abs": 0.13999999999999985,
+        "signed": -0.13999999999999985,
+        "cell": "c|garch_base_n1000",
+        "cells": 27,
+        "by_cell": {
+          "c|heavy_t5_n200": {
+            "theta0": 0.0438,
+            "v13": 0.043,
+            "diff": 0.08000000000000021
+          },
+          "c|heavy_t5_n500": {
+            "theta0": 0.051,
+            "v13": 0.052,
+            "diff": -0.10000000000000009
+          },
+          "c|heavy_t5_n1000": {
+            "theta0": 0.0486,
+            "v13": 0.0488,
+            "diff": -0.020000000000000573
+          },
+          "c|heavy_t3_n200": {
+            "theta0": 0.0428,
+            "v13": 0.0422,
+            "diff": 0.05999999999999964
+          },
+          "c|heavy_t3_n500": {
+            "theta0": 0.0502,
+            "v13": 0.0512,
+            "diff": -0.10000000000000009
+          },
+          "c|heavy_t3_n1000": {
+            "theta0": 0.047,
+            "v13": 0.0472,
+            "diff": -0.01999999999999988
+          },
+          "c|garch_base_n200": {
+            "theta0": 0.05,
+            "v13": 0.0492,
+            "diff": 0.08000000000000021
+          },
+          "c|garch_base_n500": {
+            "theta0": 0.0554,
+            "v13": 0.0552,
+            "diff": 0.01999999999999988
+          },
+          "c|garch_base_n1000": {
+            "theta0": 0.048,
+            "v13": 0.0494,
+            "diff": -0.13999999999999985
+          },
+          "c|garch_p098_n200": {
+            "theta0": 0.0606,
+            "v13": 0.0608,
+            "diff": -0.01999999999999988
+          },
+          "c|garch_p098_n500": {
+            "theta0": 0.0576,
+            "v13": 0.058,
+            "diff": -0.04000000000000045
+          },
+          "c|garch_p098_n1000": {
+            "theta0": 0.0514,
+            "v13": 0.0522,
+            "diff": -0.08000000000000021
+          },
+          "c|garch_p099_n200": {
+            "theta0": 0.0602,
+            "v13": 0.0594,
+            "diff": 0.07999999999999952
+          },
+          "c|garch_p099_n500": {
+            "theta0": 0.0596,
+            "v13": 0.0602,
+            "diff": -0.05999999999999964
+          },
+          "c|garch_p099_n1000": {
+            "theta0": 0.0614,
+            "v13": 0.0628,
+            "diff": -0.13999999999999915
+          },
+          "c|garch_p099_n2000": {
+            "theta0": 0.0548,
+            "v13": 0.0552,
+            "diff": -0.03999999999999976
+          },
+          "c|garch_p099_n5000": {
+            "theta0": 0.0546,
+            "v13": 0.0552,
+            "diff": -0.05999999999999964
+          },
+          "c|garch_p095_t5_n200": {
+            "theta0": 0.055,
+            "v13": 0.056,
+            "diff": -0.10000000000000009
+          },
+          "c|garch_p095_t5_n500": {
+            "theta0": 0.0604,
+            "v13": 0.0608,
+            "diff": -0.03999999999999976
+          },
+          "c|garch_p095_t5_n1000": {
+            "theta0": 0.0576,
+            "v13": 0.0576,
+            "diff": 0.0
+          },
+          "c|garch_p095_t5_n2000": {
+            "theta0": 0.056,
+            "v13": 0.056,
+            "diff": 0.0
+          },
+          "c|garch_p095_t5_n5000": {
+            "theta0": 0.0534,
+            "v13": 0.0528,
+            "diff": 0.06000000000000033
+          },
+          "shift|n200": {
+            "theta0": 0.0063,
+            "v13": 0.006349999999999998,
+            "diff": -0.004999999999999796
+          },
+          "shift|n500": {
+            "theta0": 0.011199999999999998,
+            "v13": 0.010999999999999998,
+            "diff": 0.020000000000000052
+          },
+          "shift|n1000": {
+            "theta0": 0.003250000000000001,
+            "v13": 0.0035999999999999973,
+            "diff": -0.034999999999999615
+          },
+          "shift|n2000": {
+            "theta0": 0.008400000000000001,
+            "v13": 0.009150000000000002,
+            "diff": -0.07500000000000007
+          },
+          "shift|n5000": {
+            "theta0": 0.005050000000000002,
+            "v13": 0.00485,
+            "diff": 0.020000000000000226
+          }
+        },
+        "units": "pp"
+      },
+      "sources": [
+        "b92_theta_audit9.json"
+      ],
+      "tex": "experiments/results/tables_audit13/tab_misspec_audit13.tex",
+      "tex_sha256": "4c3f8474263c0243cc663446931ce3d79ac3810ec443d9839d96b11bd3ec1dcf",
+      "header_substitutions": [],
+      "mean_shift": {
+        "theta0": {
+          "200": {
+            "mean_pp": 0.63,
+            "se_pp": 0.18049015814581137,
+            "cells": [
+              "c|garch_base_n200",
+              "c|garch_p095_t5_n200",
+              "c|garch_p098_n200",
+              "c|garch_p099_n200"
+            ]
+          },
+          "500": {
+            "mean_pp": 1.1199999999999999,
+            "se_pp": 0.18174468957166257,
+            "cells": [
+              "c|garch_base_n500",
+              "c|garch_p095_t5_n500",
+              "c|garch_p098_n500",
+              "c|garch_p099_n500"
+            ]
+          },
+          "1000": {
+            "mean_pp": 0.3250000000000001,
+            "se_pp": 0.17856353823639362,
+            "cells": [
+              "c|garch_base_n1000",
+              "c|garch_p095_t5_n1000",
+              "c|garch_p098_n1000",
+              "c|garch_p099_n1000"
+            ]
+          },
+          "2000": {
+            "mean_pp": 0.8400000000000001,
+            "se_pp": 0.2520480708118989,
+            "cells": [
+              "c|garch_p095_t5_n2000",
+              "c|garch_p099_n2000"
+            ]
+          },
+          "5000": {
+            "mean_pp": 0.5050000000000002,
+            "se_pp": 0.25044383477139137,
+            "cells": [
+              "c|garch_p095_t5_n5000",
+              "c|garch_p099_n5000"
+            ]
+          }
+        },
+        "v13": {
+          "200": {
+            "mean_pp": 0.6349999999999998,
+            "se_pp": 0.18031859305129905,
+            "cells": [
+              "c|garch_base_n200",
+              "c|garch_p095_t5_n200",
+              "c|garch_p098_n200",
+              "c|garch_p099_n200"
+            ]
+          },
+          "500": {
+            "mean_pp": 1.0999999999999999,
+            "se_pp": 0.18226261187500853,
+            "cells": [
+              "c|garch_base_n500",
+              "c|garch_p095_t5_n500",
+              "c|garch_p098_n500",
+              "c|garch_p099_n500"
+            ]
+          },
+          "1000": {
+            "mean_pp": 0.3599999999999997,
+            "se_pp": 0.1798539650661058,
+            "cells": [
+              "c|garch_base_n1000",
+              "c|garch_p095_t5_n1000",
+              "c|garch_p098_n1000",
+              "c|garch_p099_n1000"
+            ]
+          },
+          "2000": {
+            "mean_pp": 0.9150000000000001,
+            "se_pp": 0.25215388034888536,
+            "cells": [
+              "c|garch_p095_t5_n2000",
+              "c|garch_p099_n2000"
+            ]
+          },
+          "5000": {
+            "mean_pp": 0.485,
+            "se_pp": 0.2505316933543539,
+            "cells": [
+              "c|garch_p095_t5_n5000",
+              "c|garch_p099_n5000"
+            ]
+          }
+        }
+      }
+    },
+    "critB": {
+      "v13_file": "appB_critical_values.tex",
+      "rows": [
+        {
+          "section": null,
+          "keys": [
+            "100"
+          ],
+          "theta0": [
+            "0.1907",
+            "0.2111",
+            "0.2321",
+            "0.2623",
+            "0.1569",
+            "0.1676",
+            "0.1782",
+            "0.1925"
+          ],
+          "v13": [
+            "0.1783",
+            "0.1996",
+            "0.2219",
+            "0.2531",
+            "0.1417",
+            "0.1534",
+            "0.1649",
+            "0.1805"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "200"
+          ],
+          "theta0": [
+            "0.1868",
+            "0.2089",
+            "0.2328",
+            "0.2678",
+            "0.1498",
+            "0.1621",
+            "0.1739",
+            "0.1898"
+          ],
+          "v13": [
+            "0.1755",
+            "0.1991",
+            "0.2241",
+            "0.2600",
+            "0.1363",
+            "0.1499",
+            "0.1626",
+            "0.1796"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "500"
+          ],
+          "theta0": [
+            "0.1863",
+            "0.2102",
+            "0.2352",
+            "0.2727",
+            "0.1461",
+            "0.1592",
+            "0.1719",
+            "0.1892"
+          ],
+          "v13": [
+            "0.1763",
+            "0.2014",
+            "0.2275",
+            "0.2658",
+            "0.1344",
+            "0.1484",
+            "0.1621",
+            "0.1804"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "1000"
+          ],
+          "theta0": [
+            "0.1859",
+            "0.2109",
+            "0.2362",
+            "0.2736",
+            "0.1452",
+            "0.1582",
+            "0.1713",
+            "0.1891"
+          ],
+          "v13": [
+            "0.1768",
+            "0.2028",
+            "0.2290",
+            "0.2673",
+            "0.1342",
+            "0.1480",
+            "0.1620",
+            "0.1807"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "2000"
+          ],
+          "theta0": [
+            "0.1863",
+            "0.2103",
+            "0.2374",
+            "0.2760",
+            "0.1440",
+            "0.1581",
+            "0.1717",
+            "0.1893"
+          ],
+          "v13": [
+            "0.1772",
+            "0.2024",
+            "0.2301",
+            "0.2698",
+            "0.1331",
+            "0.1484",
+            "0.1626",
+            "0.1812"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "5000"
+          ],
+          "theta0": [
+            "0.1844",
+            "0.2087",
+            "0.2361",
+            "0.2753",
+            "0.1451",
+            "0.1580",
+            "0.1709",
+            "0.1886"
+          ],
+          "v13": [
+            "0.1758",
+            "0.2007",
+            "0.2290",
+            "0.2694",
+            "0.1347",
+            "0.1485",
+            "0.1620",
+            "0.1806"
+          ]
+        }
+      ],
+      "rounding": "binary",
+      "transcription_v13": {
+        "cells_compared": 48,
+        "number_mismatches": [],
+        "double_rounding_in_v13": [],
+        "bold_mismatches_in_v13": [],
+        "passes": true
+      },
+      "gate": {
+        "max_abs": 0.015281131662959135,
+        "signed": 0.015281131662959135,
+        "cell": "ct|100|0.01",
+        "cells": 48,
+        "by_cell": {
+          "dm|100|0.01": {
+            "theta0": 0.19071282018157018,
+            "v13": 0.17831838346894227,
+            "diff": 0.01239443671262791
+          },
+          "dm|100|0.025": {
+            "theta0": 0.21114747822650723,
+            "v13": 0.19958922257642903,
+            "diff": 0.011558255650078203
+          },
+          "dm|100|0.05": {
+            "theta0": 0.23207758675510412,
+            "v13": 0.2219273050252254,
+            "diff": 0.010150281729878724
+          },
+          "dm|100|0.1": {
+            "theta0": 0.26231225837353517,
+            "v13": 0.25314195555819174,
+            "diff": 0.009170302815343423
+          },
+          "ct|100|0.01": {
+            "theta0": 0.1569370099454901,
+            "v13": 0.14165587828253096,
+            "diff": 0.015281131662959135
+          },
+          "ct|100|0.025": {
+            "theta0": 0.16760113578438138,
+            "v13": 0.15340899452230097,
+            "diff": 0.014192141262080404
+          },
+          "ct|100|0.05": {
+            "theta0": 0.17823652763141076,
+            "v13": 0.16494684973017254,
+            "diff": 0.013289677901238223
+          },
+          "ct|100|0.1": {
+            "theta0": 0.19252625319832214,
+            "v13": 0.18047807678487668,
+            "diff": 0.012048176413445466
+          },
+          "dm|200|0.01": {
+            "theta0": 0.18676053932144657,
+            "v13": 0.17545909824314962,
+            "diff": 0.011301441078296948
+          },
+          "dm|200|0.025": {
+            "theta0": 0.20894592315652746,
+            "v13": 0.1990709928650722,
+            "diff": 0.009874930291455253
+          },
+          "dm|200|0.05": {
+            "theta0": 0.23283239740481873,
+            "v13": 0.22408874886942431,
+            "diff": 0.008743648535394416
+          },
+          "dm|200|0.1": {
+            "theta0": 0.2677549197369378,
+            "v13": 0.25999408728560897,
+            "diff": 0.0077608324513288585
+          },
+          "ct|200|0.01": {
+            "theta0": 0.14981494837026266,
+            "v13": 0.13626971446648417,
+            "diff": 0.013545233903778486
+          },
+          "ct|200|0.025": {
+            "theta0": 0.16210684091900435,
+            "v13": 0.14985256786798498,
+            "diff": 0.012254273051019365
+          },
+          "ct|200|0.05": {
+            "theta0": 0.17387247006756484,
+            "v13": 0.16259380596044912,
+            "diff": 0.011278664107115727
+          },
+          "ct|200|0.1": {
+            "theta0": 0.1898082001786095,
+            "v13": 0.1795530862289493,
+            "diff": 0.010255113949660194
+          },
+          "dm|500|0.01": {
+            "theta0": 0.18625538671922626,
+            "v13": 0.17626361710052832,
+            "diff": 0.009991769618697938
+          },
+          "dm|500|0.025": {
+            "theta0": 0.21021140606418706,
+            "v13": 0.20144360548186327,
+            "diff": 0.008767800582323793
+          },
+          "dm|500|0.05": {
+            "theta0": 0.23523105259527835,
+            "v13": 0.22754841779170223,
+            "diff": 0.007682634803576116
+          },
+          "dm|500|0.1": {
+            "theta0": 0.27268149033874295,
+            "v13": 0.2658378002969478,
+            "diff": 0.006843690041795136
+          },
+          "ct|500|0.01": {
+            "theta0": 0.14607219144194997,
+            "v13": 0.13439728768126183,
+            "diff": 0.011674903760688138
+          },
+          "ct|500|0.025": {
+            "theta0": 0.15915919410399548,
+            "v13": 0.14835506945491694,
+            "diff": 0.01080412464907854
+          },
+          "ct|500|0.05": {
+            "theta0": 0.17190483189754255,
+            "v13": 0.16210323206491395,
+            "diff": 0.009801599832628599
+          },
+          "ct|500|0.1": {
+            "theta0": 0.18924603472594076,
+            "v13": 0.180388789274244,
+            "diff": 0.00885724545169675
+          },
+          "dm|1000|0.01": {
+            "theta0": 0.1858547891092467,
+            "v13": 0.1767776030030646,
+            "diff": 0.009077186106182078
+          },
+          "dm|1000|0.025": {
+            "theta0": 0.2109437473046246,
+            "v13": 0.20279083034359324,
+            "diff": 0.008152916961031348
+          },
+          "dm|1000|0.05": {
+            "theta0": 0.23621316320774846,
+            "v13": 0.22903940181819435,
+            "diff": 0.007173761389554112
+          },
+          "dm|1000|0.1": {
+            "theta0": 0.2735542994365766,
+            "v13": 0.26734662122966285,
+            "diff": 0.006207678206913758
+          },
+          "ct|1000|0.01": {
+            "theta0": 0.1452407048551647,
+            "v13": 0.13421614109441413,
+            "diff": 0.011024563760750561
+          },
+          "ct|1000|0.025": {
+            "theta0": 0.15819504521029124,
+            "v13": 0.14804316728466285,
+            "diff": 0.010151877925628383
+          },
+          "ct|1000|0.05": {
+            "theta0": 0.1712988226097121,
+            "v13": 0.16197105086544578,
+            "diff": 0.009327771744266328
+          },
+          "ct|1000|0.1": {
+            "theta0": 0.18911222383904386,
+            "v13": 0.1807399817817304,
+            "diff": 0.008372242057313461
+          },
+          "dm|2000|0.01": {
+            "theta0": 0.18631923348523655,
+            "v13": 0.17719747786011214,
+            "diff": 0.009121755625124406
+          },
+          "dm|2000|0.025": {
+            "theta0": 0.21034943709631987,
+            "v13": 0.20235402575158484,
+            "diff": 0.007995411344735026
+          },
+          "dm|2000|0.05": {
+            "theta0": 0.23739763955894166,
+            "v13": 0.23012245849155363,
+            "diff": 0.007275181067388031
+          },
+          "dm|2000|0.1": {
+            "theta0": 0.27596216910551197,
+            "v13": 0.2698154980997417,
+            "diff": 0.006146671005770266
+          },
+          "ct|2000|0.01": {
+            "theta0": 0.1440404781130057,
+            "v13": 0.1331225581245159,
+            "diff": 0.010917919988489788
+          },
+          "ct|2000|0.025": {
+            "theta0": 0.15809933704861207,
+            "v13": 0.14839971935489807,
+            "diff": 0.009699617693713997
+          },
+          "ct|2000|0.05": {
+            "theta0": 0.17168017056026016,
+            "v13": 0.1625880626771612,
+            "diff": 0.009092107883098971
+          },
+          "ct|2000|0.1": {
+            "theta0": 0.18933084403347386,
+            "v13": 0.1811913261504474,
+            "diff": 0.00813951788302647
+          },
+          "dm|5000|0.01": {
+            "theta0": 0.18441197264015505,
+            "v13": 0.17576830834963147,
+            "diff": 0.008643664290523573
+          },
+          "dm|5000|0.025": {
+            "theta0": 0.2087040969099737,
+            "v13": 0.20069511447340152,
+            "diff": 0.008008982436572193
+          },
+          "dm|5000|0.05": {
+            "theta0": 0.23613098495401352,
+            "v13": 0.2290088698842378,
+            "diff": 0.007122115069775725
+          },
+          "dm|5000|0.1": {
+            "theta0": 0.2753392792374139,
+            "v13": 0.2693674833817157,
+            "diff": 0.0059717958556982365
+          },
+          "ct|5000|0.01": {
+            "theta0": 0.1450772529931609,
+            "v13": 0.13468146271115355,
+            "diff": 0.01039579028200735
+          },
+          "ct|5000|0.025": {
+            "theta0": 0.1579520910453753,
+            "v13": 0.14845319767716256,
+            "diff": 0.009498893368212746
+          },
+          "ct|5000|0.05": {
+            "theta0": 0.17085082666026566,
+            "v13": 0.16202518334378133,
+            "diff": 0.008825643316484333
+          },
+          "ct|5000|0.1": {
+            "theta0": 0.18864070580877093,
+            "v13": 0.18062147861387576,
+            "diff": 0.008019227194895173
+          }
+        },
+        "units": "unidades del estadistico"
+      },
+      "sources": [
+        "b103_cv_audit10.json"
+      ],
+      "tex": "experiments/results/tables_audit13/tab_critB_audit13.tex",
+      "tex_sha256": "55d2a2727db124002a31f4148eb7cc21b7b5d8fbbd49d73e4672ab1003b470af",
+      "header_substitutions": [],
+      "max_bootstrap_se": {
+        "0": 0.0007955890677737789,
+        "0.02": 0.0007931939434381438
+      }
+    },
+    "awb": {
+      "v13_file": "sec5_montecarlo.tex",
+      "rows": [
+        {
+          "section": null,
+          "keys": [
+            "Random walk, $r = 1$",
+            "200"
+          ],
+          "theta0": [
+            "\\textbf{0.040}",
+            "0.042",
+            "0.289",
+            ""
+          ],
+          "v13": [
+            "0.042",
+            "0.043",
+            "0.804",
+            ""
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "Random walk, $r = 1$",
+            "500"
+          ],
+          "theta0": [
+            "0.042",
+            "0.052",
+            "$<$0.001",
+            ""
+          ],
+          "v13": [
+            "0.047",
+            "0.051",
+            "0.134",
+            ""
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "Random walk, $r = 2$",
+            "200"
+          ],
+          "theta0": [
+            "0.052",
+            "\\textbf{0.080}",
+            "$<$0.001",
+            ""
+          ],
+          "v13": [
+            "0.054",
+            "\\textbf{0.082}",
+            "$<$0.001",
+            ""
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "Random walk, $r = 2$",
+            "500"
+          ],
+          "theta0": [
+            "0.051",
+            "\\textbf{0.089}",
+            "$<$0.001",
+            ""
+          ],
+          "v13": [
+            "0.057",
+            "\\textbf{0.087}",
+            "$<$0.001",
+            ""
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "Random walk, $r = 4$",
+            "200"
+          ],
+          "theta0": [
+            "0.041",
+            "\\textbf{0.118}",
+            "$<$0.001",
+            ""
+          ],
+          "v13": [
+            "\\textbf{0.040}",
+            "\\textbf{0.124}",
+            "$<$0.001",
+            ""
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "Random walk, $r = 4$",
+            "500"
+          ],
+          "theta0": [
+            "\\textbf{0.040}",
+            "\\textbf{0.117}",
+            "$<$0.001",
+            ""
+          ],
+          "v13": [
+            "\\textbf{0.040}",
+            "\\textbf{0.118}",
+            "$<$0.001",
+            ""
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "GARCH 0.95, normal",
+            "200"
+          ],
+          "theta0": [
+            "0.042",
+            "0.051",
+            "0.002",
+            ""
+          ],
+          "v13": [
+            "0.042",
+            "0.051",
+            "0.006",
+            ""
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "GARCH 0.98, normal",
+            "200"
+          ],
+          "theta0": [
+            "0.053",
+            "0.060",
+            "0.003",
+            ""
+          ],
+          "v13": [
+            "0.053",
+            "0.059",
+            "0.035",
+            ""
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "GARCH 0.99, normal",
+            "200"
+          ],
+          "theta0": [
+            "0.052",
+            "\\textbf{0.061}",
+            "0.006",
+            ""
+          ],
+          "v13": [
+            "0.056",
+            "0.059",
+            "0.418",
+            ""
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "GARCH 0.95, $t(5)$",
+            "200"
+          ],
+          "theta0": [
+            "0.043",
+            "0.052",
+            "$<$0.001",
+            ""
+          ],
+          "v13": [
+            "0.045",
+            "0.052",
+            "0.007",
+            ""
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "Gaussian random walk",
+            "200"
+          ],
+          "theta0": [
+            "0.053",
+            "0.054",
+            "0.839",
+            ""
+          ],
+          "v13": [
+            "0.052",
+            "0.053",
+            "0.851",
+            ""
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "Gaussian random walk",
+            "500"
+          ],
+          "theta0": [
+            "0.045",
+            "0.047",
+            "0.359",
+            ""
+          ],
+          "v13": [
+            "0.043",
+            "0.047",
+            "0.118",
+            ""
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "AR$(0.95)$",
+            "200"
+          ],
+          "theta0": [
+            "0.677",
+            "0.706",
+            "$<$0.001",
+            "2.9"
+          ],
+          "v13": [
+            "0.667",
+            "0.697",
+            "$<$0.001",
+            "3.0"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "AR$(0.95)$",
+            "500"
+          ],
+          "theta0": [
+            "1.000",
+            "1.000",
+            "1.000",
+            "0.0"
+          ],
+          "v13": [
+            "1.000",
+            "1.000",
+            "1.000",
+            "0.0"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "AR$(0.99)$",
+            "200"
+          ],
+          "theta0": [
+            "0.098",
+            "0.102",
+            "0.332",
+            "0.4"
+          ],
+          "v13": [
+            "0.092",
+            "0.102",
+            "0.018",
+            "1.0"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "AR$(0.99)$",
+            "500"
+          ],
+          "theta0": [
+            "0.295",
+            "0.313",
+            "$<$0.001",
+            "1.8"
+          ],
+          "v13": [
+            "0.296",
+            "0.309",
+            "0.011",
+            "1.3"
+          ]
+        }
+      ],
+      "rounding": "half_up",
+      "transcription_v13": {
+        "cells_compared": 64,
+        "number_mismatches": [],
+        "double_rounding_in_v13": [
+          {
+            "row": [
+              "Gaussian random walk",
+              "500"
+            ],
+            "section": null,
+            "col": 2,
+            "printed": "0.119",
+            "mine": "0.118",
+            "value": 0.11846923828124999
+          }
+        ],
+        "bold_mismatches_in_v13": [],
+        "passes": true
+      },
+      "gate": {
+        "max_abs": 0.9499999999999953,
+        "signed": 0.9499999999999953,
+        "cell": "dgp1_rho0p95_n200|awb",
+        "cells": 32,
+        "by_cell": {
+          "dgp3_r1_n200|awb": {
+            "theta0": 0.04,
+            "v13": 0.042,
+            "diff": -0.20000000000000018
+          },
+          "dgp3_r1_n200|sim": {
+            "theta0": 0.042,
+            "v13": 0.043,
+            "diff": -0.0999999999999994
+          },
+          "dgp3_r1_n500|awb": {
+            "theta0": 0.042,
+            "v13": 0.0465,
+            "diff": -0.44999999999999973
+          },
+          "dgp3_r1_n500|sim": {
+            "theta0": 0.0515,
+            "v13": 0.0505,
+            "diff": 0.0999999999999994
+          },
+          "dgp3_r2_n200|awb": {
+            "theta0": 0.052,
+            "v13": 0.0535,
+            "diff": -0.15000000000000013
+          },
+          "dgp3_r2_n200|sim": {
+            "theta0": 0.0795,
+            "v13": 0.082,
+            "diff": -0.2500000000000002
+          },
+          "dgp3_r2_n500|awb": {
+            "theta0": 0.0505,
+            "v13": 0.0565,
+            "diff": -0.5999999999999999
+          },
+          "dgp3_r2_n500|sim": {
+            "theta0": 0.0885,
+            "v13": 0.087,
+            "diff": 0.15000000000000013
+          },
+          "dgp3_r4_n200|awb": {
+            "theta0": 0.0405,
+            "v13": 0.0395,
+            "diff": 0.10000000000000009
+          },
+          "dgp3_r4_n200|sim": {
+            "theta0": 0.1175,
+            "v13": 0.124,
+            "diff": -0.6500000000000006
+          },
+          "dgp3_r4_n500|awb": {
+            "theta0": 0.04,
+            "v13": 0.0395,
+            "diff": 0.050000000000000044
+          },
+          "dgp3_r4_n500|sim": {
+            "theta0": 0.117,
+            "v13": 0.1175,
+            "diff": -0.04999999999999866
+          },
+          "garch_base_n200|awb": {
+            "theta0": 0.042,
+            "v13": 0.042,
+            "diff": 0.0
+          },
+          "garch_base_n200|sim": {
+            "theta0": 0.0505,
+            "v13": 0.0505,
+            "diff": 0.0
+          },
+          "garch_p098_n200|awb": {
+            "theta0": 0.0525,
+            "v13": 0.0525,
+            "diff": 0.0
+          },
+          "garch_p098_n200|sim": {
+            "theta0": 0.06,
+            "v13": 0.059,
+            "diff": 0.10000000000000009
+          },
+          "garch_p099_n200|awb": {
+            "theta0": 0.052,
+            "v13": 0.056,
+            "diff": -0.40000000000000036
+          },
+          "garch_p099_n200|sim": {
+            "theta0": 0.061,
+            "v13": 0.059,
+            "diff": 0.20000000000000018
+          },
+          "garch_p095_t5_n200|awb": {
+            "theta0": 0.0425,
+            "v13": 0.045,
+            "diff": -0.24999999999999953
+          },
+          "garch_p095_t5_n200|sim": {
+            "theta0": 0.0515,
+            "v13": 0.0515,
+            "diff": 0.0
+          },
+          "indep_n200|awb": {
+            "theta0": 0.0525,
+            "v13": 0.052,
+            "diff": 0.050000000000000044
+          },
+          "indep_n200|sim": {
+            "theta0": 0.0535,
+            "v13": 0.053,
+            "diff": 0.050000000000000044
+          },
+          "indep_n500|awb": {
+            "theta0": 0.0445,
+            "v13": 0.043,
+            "diff": 0.15000000000000013
+          },
+          "indep_n500|sim": {
+            "theta0": 0.047,
+            "v13": 0.0465,
+            "diff": 0.050000000000000044
+          },
+          "dgp1_rho0p95_n200|awb": {
+            "theta0": 0.6765,
+            "v13": 0.667,
+            "diff": 0.9499999999999953
+          },
+          "dgp1_rho0p95_n200|sim": {
+            "theta0": 0.7055,
+            "v13": 0.697,
+            "diff": 0.8500000000000063
+          },
+          "dgp1_rho0p95_n500|awb": {
+            "theta0": 1.0,
+            "v13": 1.0,
+            "diff": 0.0
+          },
+          "dgp1_rho0p95_n500|sim": {
+            "theta0": 1.0,
+            "v13": 1.0,
+            "diff": 0.0
+          },
+          "dgp1_rho0p99_n200|awb": {
+            "theta0": 0.098,
+            "v13": 0.092,
+            "diff": 0.6000000000000005
+          },
+          "dgp1_rho0p99_n200|sim": {
+            "theta0": 0.102,
+            "v13": 0.1015,
+            "diff": 0.04999999999999866
+          },
+          "dgp1_rho0p99_n500|awb": {
+            "theta0": 0.295,
+            "v13": 0.2955,
+            "diff": -0.050000000000000044
+          },
+          "dgp1_rho0p99_n500|sim": {
+            "theta0": 0.313,
+            "v13": 0.3085,
+            "diff": 0.4500000000000004
+          }
+        },
+        "units": "pp"
+      },
+      "sources": [
+        "e_awb_audit13.json",
+        "b103_awb_audit10.json"
+      ],
+      "tex": "experiments/results/tables_audit13/tab_awb_audit13.tex",
+      "tex_sha256": "2953b2372b26706d6f7e0499c71aa792ce712595b4cbdd47b9675d824efe7452",
+      "header_substitutions": []
+    },
+    "dgp5": {
+      "v13_file": "sec5_montecarlo.tex",
+      "rows": [
+        {
+          "section": null,
+          "keys": [
+            "0.93",
+            "1"
+          ],
+          "theta0": [
+            "0.914",
+            "0.658",
+            "0.807",
+            "0.924",
+            "0.48\\%"
+          ],
+          "v13": [
+            "0.912",
+            "0.658",
+            "0.807",
+            "0.924",
+            "0.48\\%"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "0.93",
+            "1.25"
+          ],
+          "theta0": [
+            "0.905",
+            "0.658",
+            "0.856",
+            "0.906",
+            "0.54\\%"
+          ],
+          "v13": [
+            "0.904",
+            "0.658",
+            "0.856",
+            "0.906",
+            "0.54\\%"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "0.93",
+            "1.5"
+          ],
+          "theta0": [
+            "0.916",
+            "0.685",
+            "0.970",
+            "0.889",
+            "0.65\\%"
+          ],
+          "v13": [
+            "0.916",
+            "0.685",
+            "0.970",
+            "0.889",
+            "0.65\\%"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "0.93",
+            "2$^\\dagger$"
+          ],
+          "theta0": [
+            "0.913",
+            "0.677",
+            "0.999",
+            "0.850",
+            "0.96\\%"
+          ],
+          "v13": [
+            "0.912",
+            "0.677",
+            "0.999",
+            "0.850",
+            "0.96\\%"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "0.93",
+            "3$^\\dagger$"
+          ],
+          "theta0": [
+            "0.894",
+            "0.697",
+            "1.000",
+            "0.768",
+            "1.38\\%"
+          ],
+          "v13": [
+            "0.894",
+            "0.697",
+            "1.000",
+            "0.768",
+            "1.38\\%"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "0.93",
+            "4"
+          ],
+          "theta0": [
+            "0.881",
+            "0.687",
+            "1.000",
+            "0.704",
+            "1.65\\%"
+          ],
+          "v13": [
+            "0.882",
+            "0.687",
+            "1.000",
+            "0.704",
+            "1.65\\%"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "0.95",
+            "1"
+          ],
+          "theta0": [
+            "0.702",
+            "0.449",
+            "0.540",
+            "0.730",
+            "0.43\\%"
+          ],
+          "v13": [
+            "0.694",
+            "0.449",
+            "0.540",
+            "0.730",
+            "0.43\\%"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "0.95",
+            "1.25"
+          ],
+          "theta0": [
+            "0.721",
+            "0.438",
+            "0.684",
+            "0.707",
+            "0.47\\%"
+          ],
+          "v13": [
+            "0.717",
+            "0.438",
+            "0.684",
+            "0.707",
+            "0.47\\%"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "0.95",
+            "1.5"
+          ],
+          "theta0": [
+            "0.713",
+            "0.427",
+            "0.926",
+            "0.685",
+            "0.53\\%"
+          ],
+          "v13": [
+            "0.712",
+            "0.427",
+            "0.926",
+            "0.685",
+            "0.53\\%"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "0.95",
+            "2$^\\dagger$"
+          ],
+          "theta0": [
+            "0.734",
+            "0.498",
+            "0.999",
+            "0.639",
+            "0.79\\%"
+          ],
+          "v13": [
+            "0.735",
+            "0.498",
+            "0.999",
+            "0.639",
+            "0.79\\%"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "0.95",
+            "3$^\\dagger$"
+          ],
+          "theta0": [
+            "0.721",
+            "0.470",
+            "1.000",
+            "0.523",
+            "1.14\\%"
+          ],
+          "v13": [
+            "0.723",
+            "0.470",
+            "1.000",
+            "0.523",
+            "1.14\\%"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "0.95",
+            "4"
+          ],
+          "theta0": [
+            "0.723",
+            "0.496",
+            "1.000",
+            "0.501",
+            "1.38\\%"
+          ],
+          "v13": [
+            "0.722",
+            "0.496",
+            "1.000",
+            "0.501",
+            "1.38\\%"
+          ]
+        }
+      ],
+      "rounding": "half_up",
+      "transcription_v13": {
+        "cells_compared": 60,
+        "number_mismatches": [],
+        "double_rounding_in_v13": [],
+        "bold_mismatches_in_v13": [],
+        "passes": true
+      },
+      "gate": {
+        "max_abs": 0.8000000000000007,
+        "signed": 0.8000000000000007,
+        "cell": "dgp5_n200_rho0.95_r1.0",
+        "cells": 12,
+        "by_cell": {
+          "dgp5_n200_rho0.93_r1.0": {
+            "theta0": 0.9135,
+            "v13": 0.9115,
+            "diff": 0.20000000000000018
+          },
+          "dgp5_n200_rho0.93_r1.25": {
+            "theta0": 0.905,
+            "v13": 0.9035,
+            "diff": 0.15000000000000568
+          },
+          "dgp5_n200_rho0.93_r1.5": {
+            "theta0": 0.916,
+            "v13": 0.9155,
+            "diff": 0.050000000000005596
+          },
+          "dgp5_n200_rho0.93_r2.0": {
+            "theta0": 0.9125,
+            "v13": 0.9115,
+            "diff": 0.10000000000000009
+          },
+          "dgp5_n200_rho0.93_r3.0": {
+            "theta0": 0.894,
+            "v13": 0.894,
+            "diff": 0.0
+          },
+          "dgp5_n200_rho0.93_r4.0": {
+            "theta0": 0.881,
+            "v13": 0.882,
+            "diff": -0.10000000000000009
+          },
+          "dgp5_n200_rho0.95_r1.0": {
+            "theta0": 0.702,
+            "v13": 0.694,
+            "diff": 0.8000000000000007
+          },
+          "dgp5_n200_rho0.95_r1.25": {
+            "theta0": 0.7205,
+            "v13": 0.7165,
+            "diff": 0.40000000000000036
+          },
+          "dgp5_n200_rho0.95_r1.5": {
+            "theta0": 0.7125,
+            "v13": 0.712,
+            "diff": 0.050000000000005596
+          },
+          "dgp5_n200_rho0.95_r2.0": {
+            "theta0": 0.7335,
+            "v13": 0.7345,
+            "diff": -0.10000000000000009
+          },
+          "dgp5_n200_rho0.95_r3.0": {
+            "theta0": 0.7205,
+            "v13": 0.7225,
+            "diff": -0.20000000000000018
+          },
+          "dgp5_n200_rho0.95_r4.0": {
+            "theta0": 0.7225,
+            "v13": 0.722,
+            "diff": 0.050000000000005596
+          }
+        },
+        "units": "pp"
+      },
+      "sources": [
+        "e_dgp5_audit13.json",
+        "b103_dgp5_audit10.json"
+      ],
+      "tex": "experiments/results/tables_audit13/tab_dgp5_audit13.tex",
+      "tex_sha256": "cbfd0696261fecf92a3d2f6f04ee468324b6edab60d5cb93c802a3f7325e503d",
+      "header_substitutions": []
+    },
+    "fp": {
+      "v13_file": "sec6_application.tex",
+      "rows": [
+        {
+          "section": null,
+          "keys": [
+            "\\RMGLS{}"
+          ],
+          "theta0": [
+            "0.0224",
+            "0.216",
+            "17",
+            "29.7",
+            "33",
+            "144.8",
+            "102.6"
+          ],
+          "v13": [
+            "0.0229",
+            "0.212",
+            "17",
+            "29.6",
+            "33",
+            "144.6",
+            "102.5"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "\\RMGLS{}, AWB"
+          ],
+          "theta0": [
+            "0.0217",
+            "0.229",
+            "13",
+            "40.3",
+            "43",
+            "129.2",
+            "108.2"
+          ],
+          "v13": [
+            "0.0220",
+            "0.229",
+            "15",
+            "32.8",
+            "41",
+            "131.9",
+            "105.1"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "Registered statistic"
+          ],
+          "theta0": [
+            "0.0277",
+            "0.437",
+            "13",
+            "33.8",
+            "11",
+            "199.7",
+            "109.3"
+          ],
+          "v13": [
+            "0.0277",
+            "0.437",
+            "13",
+            "33.8",
+            "11",
+            "199.6",
+            "109.3"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "ADF"
+          ],
+          "theta0": [
+            "0.0535",
+            "0.269",
+            "26",
+            "33.7",
+            "48",
+            "122.2",
+            "107.4"
+          ],
+          "v13": [
+            "0.0535",
+            "0.269",
+            "26",
+            "33.7",
+            "49",
+            "120.9",
+            "107.4"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "PP"
+          ],
+          "theta0": [
+            "0.0532",
+            "0.380",
+            "23",
+            "33.4",
+            "56",
+            "112.9",
+            "109.4"
+          ],
+          "v13": [
+            "0.0532",
+            "0.380",
+            "23",
+            "33.4",
+            "55",
+            "113.9",
+            "109.4"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "DF-GLS (AIC)"
+          ],
+          "theta0": [
+            "0.0323",
+            "0.269",
+            "28",
+            "30.6",
+            "32",
+            "146.8",
+            "93.6"
+          ],
+          "v13": [
+            "0.0323",
+            "0.269",
+            "28",
+            "30.6",
+            "33",
+            "144.9",
+            "93.6"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "DF-GLS (MAIC)"
+          ],
+          "theta0": [
+            "0.0210",
+            "0.273",
+            "23",
+            "33.8",
+            "35",
+            "141.3",
+            "96.8"
+          ],
+          "v13": [
+            "0.0210",
+            "0.273",
+            "23",
+            "33.8",
+            "35",
+            "141.2",
+            "96.8"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "MZ$_t$-GLS"
+          ],
+          "theta0": [
+            "0.0173",
+            "0.237",
+            "36",
+            "22.1",
+            "36",
+            "139.7",
+            "79.7"
+          ],
+          "v13": [
+            "0.0173",
+            "0.237",
+            "36",
+            "22.1",
+            "38",
+            "136.3",
+            "79.7"
+          ]
+        },
+        {
+          "section": null,
+          "keys": [
+            "KPSS$^a$"
+          ],
+          "theta0": [
+            "0.9354",
+            "1.000",
+            "87",
+            "1.2",
+            "--",
+            "--",
+            "--"
+          ],
+          "v13": [
+            "0.9354",
+            "1.000",
+            "87",
+            "1.2",
+            "--",
+            "--",
+            "--"
+          ]
+        }
+      ],
+      "rounding": "binary",
+      "transcription_v13": {
+        "cells_compared": 63,
+        "number_mismatches": [],
+        "double_rounding_in_v13": [
+          {
+            "row": [
+              "DF-GLS (MAIC)"
+            ],
+            "section": null,
+            "col": 1,
+            "printed": "0.274",
+            "mine": "0.273",
+            "value": 0.27346938775510204
+          }
+        ],
+        "bold_mismatches_in_v13": [],
+        "passes": true
+      },
+      "gate": {
+        "max_abs": 7.507692307692309,
+        "signed": 7.507692307692309,
+        "cell": "final_awb|latency",
+        "cells": 12,
+        "by_cell": {
+          "final|fp_mean": {
+            "theta0": 0.022442308468472113,
+            "v13": 0.02294713490497557,
+            "diff": -0.050482643650345826
+          },
+          "final|fp_max": {
+            "theta0": 0.2163265306122449,
+            "v13": 0.21224489795918366,
+            "diff": 0.40816326530612457
+          },
+          "final|detections": {
+            "theta0": 17,
+            "v13": 17,
+            "diff": 0.0
+          },
+          "final|latency": {
+            "theta0": 29.705882352941178,
+            "v13": 29.58823529411765,
+            "diff": 0.117647058823529
+          },
+          "final|episodes": {
+            "theta0": 33,
+            "v13": 33,
+            "diff": 0.0
+          },
+          "final|latency_c": {
+            "theta0": 102.55681818181819,
+            "v13": 102.5340909090909,
+            "diff": 0.02272727272728048
+          },
+          "final_awb|fp_mean": {
+            "theta0": 0.021721272204897783,
+            "v13": 0.02197423792673849,
+            "diff": -0.02529657218407061
+          },
+          "final_awb|fp_max": {
+            "theta0": 0.22857142857142856,
+            "v13": 0.22857142857142856,
+            "diff": 0.0
+          },
+          "final_awb|detections": {
+            "theta0": 13,
+            "v13": 15,
+            "diff": -2.0
+          },
+          "final_awb|latency": {
+            "theta0": 40.30769230769231,
+            "v13": 32.8,
+            "diff": 7.507692307692309
+          },
+          "final_awb|episodes": {
+            "theta0": 43,
+            "v13": 41,
+            "diff": 2.0
+          },
+          "final_awb|latency_c": {
+            "theta0": 108.22727272727273,
+            "v13": 105.13636363636364,
+            "diff": 3.0909090909090935
+          }
+        },
+        "units": "FP: pp; detecciones y episodios: numero; latencias: dias"
+      },
+      "sources": [
+        "e_application_audit13.json",
+        "b103_application_audit10.json"
+      ],
+      "tex": "experiments/results/tables_audit13/tab_fp_audit13.tex",
+      "tex_sha256": "b76b26cd4e462328e66c46a12fa0790c23f606a67dec9f5551d0f16e45364e89",
+      "header_substitutions": []
+    }
+  },
+  "transcription_all_pass": true
+}

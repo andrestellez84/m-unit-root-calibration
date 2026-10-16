@@ -1,0 +1,4027 @@
+{
+  "provenance": {
+    "script": "experiments/make_figures_audit13.py",
+    "script_sha256": "9b685b1ee40e89c201a64b3886805e2524de381a5a81be4d71e59dc86f1301ba",
+    "commit": "2db4c12432217a39e52832430f38e81cac03c4fe",
+    "worktree_dirty": false,
+    "dirty_files": [],
+    "generated_utc": "2026-09-22T23:38:37.248622+00:00",
+    "seed_family": null,
+    "versions": {
+      "python": "3.11.0",
+      "platform": "Windows-10-10.0.26200-SP0",
+      "numpy": "2.2.4",
+      "scipy": "1.15.2",
+      "numba": "0.65.0",
+      "statsmodels": "0.14.6",
+      "arch": "8.0.0",
+      "pandas": "2.2.3",
+      "joblib": "1.4.2",
+      "matplotlib": "3.10.1",
+      "pytest": "9.0.3"
+    },
+    "code": {
+      "experiments/audit10_b100_protocol.py": {
+        "sha256": "2f4b3351d36f05faafd5a01981278237be31ccbd3a62eb53307d5888c3ab8c47",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b101_theta.py": {
+        "sha256": "c7f65d04c6a2762bcf4fcb7cd6fb3f3ea9f588392e6316175bb88631bd255903",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b102_identity.py": {
+        "sha256": "967ce70c299a9fa87ca467d3885c2c6ae54b11ca7f1a6aac75c94a9bd38125b3",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_application.py": {
+        "sha256": "6e73e4304a88e42b528dc119d56f8a47f3aced0cac6267493b67f96699f4032a",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_awb.py": {
+        "sha256": "c35235023f15eff41059abe196791e6ee57a3f52eb736779b4ed442b70f18f87",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_cv.py": {
+        "sha256": "bc3e2ee08728214ae92b5883e9f3bd067660d99acbeebaf032b8ef7cb289c8a7",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_dgp5.py": {
+        "sha256": "8df807243e62e3c044f4f55ccc9ba909254a15b011fd190d9a6a79c466f2e73e",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_equalized.py": {
+        "sha256": "039b485455232788d7503ff80d09565182b9d5ed696fdaf8c7e27f67ca44ce5d",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_finite.py": {
+        "sha256": "a6fea4ef3e9cab8ab5b2369189497de6ff8fc38abdd3f27b752efeb43935f113",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_lown.py": {
+        "sha256": "61ffc45a0782f9277588e5f3068af89add849a7eb28a87e3902c0df69269b264",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b104_cv5000.py": {
+        "sha256": "64b94cc583c2f45c67910c6f25c5bab49baf77d5d9b4841e49d632bcd4a20493",
+        "git_state": "committed"
+      },
+      "experiments/audit10_common.py": {
+        "sha256": "298e82a217d2dd32ba87245f6056dbb82051fe2985acd644b1e972f6768ca123",
+        "git_state": "committed"
+      },
+      "experiments/audit10_design.py": {
+        "sha256": "d9da80a9c9148338e1031d1a7736180ebffd76409385b5cf7fa0c7af20d28042",
+        "git_state": "committed"
+      },
+      "experiments/audit10_engine.py": {
+        "sha256": "3d2618561538c1afd8daf8224fa230826ae442505877afb8c12a378755911333",
+        "git_state": "committed"
+      },
+      "experiments/audit10_figconfig.py": {
+        "sha256": "522ae90338608ca46d449900388d6eb5c9e152140115dd6be362d17822b8116f",
+        "git_state": "committed"
+      },
+      "experiments/audit10_generate_report.py": {
+        "sha256": "9ebb38589ec72648a1a905a105d3e6cfaa9b486cbd3a4cd9a5800be1436f1d41",
+        "git_state": "committed"
+      },
+      "experiments/audit11_figconfig.py": {
+        "sha256": "3e0ac02a12cb821428036438924ad7d36aa65ef172b6b458b269d484af0fad84",
+        "git_state": "committed"
+      },
+      "experiments/audit12_common.py": {
+        "sha256": "9845605b593b4c07eed4a0ead1b9068951c1b302ca653d7fb410b2ddc84f7b84",
+        "git_state": "committed"
+      },
+      "experiments/audit12_unitroot.py": {
+        "sha256": "36b0bb5a7439cb0fabdfc346d9b1d2fef91fc0bacf54f49c4642538f4c3db3cb",
+        "git_state": "committed"
+      },
+      "experiments/audit13_b130_inventory.py": {
+        "sha256": "6e9e89107e8881c68dc81bc34c91e9b4838b84805adbcb955248abba18af3a75",
+        "git_state": "committed"
+      },
+      "experiments/audit13_claims.py": {
+        "sha256": "354466be4864c1321e1a7d23f004663ccef1bd1199f592110de2d575122b986f",
+        "git_state": "committed"
+      },
+      "experiments/audit13_common.py": {
+        "sha256": "94a6255b99fbd25b19a452147e20c76b9c181848e639ef26a09087b0169d19de",
+        "git_state": "committed"
+      },
+      "experiments/audit13_design.py": {
+        "sha256": "29fea9ecb7e3db08fac745d74779e229d871d5ac3e761d55f6c61c19561f2ab1",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_application.py": {
+        "sha256": "4969da94c823615f05e34dac23a5b5fc60b458dc962eca90d3048510a4da7c23",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_awb.py": {
+        "sha256": "0a95c3a6c42f334e463baf7216b202639ece93ec4080e82ef0067340f77ff373",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_calib.py": {
+        "sha256": "815694a898ff497d578447c1298db7f9772a75f13a088c2f1c2f82fd27af2ca3",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_dgp5.py": {
+        "sha256": "11022366b13d68a9f78a560403ea03221f8bceb999a34cbf68a06fd00a0a48ad",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_equalized.py": {
+        "sha256": "551896f43f6106547f300069fd03e861f57b6ec1c9435d97275f4f649158a6eb",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_size.py": {
+        "sha256": "90d4a4bfb173894cd2cf3f10a363446804a3a6339baec425c39a654fab7a4585",
+        "git_state": "committed"
+      },
+      "experiments/audit13_generate_report.py": {
+        "sha256": "9003c23136c8f3ecefa7c578fe8e50dcbeb2e4c056de215740d867fdfb7d86c8",
+        "git_state": "committed"
+      },
+      "experiments/audit13_t_tables.py": {
+        "sha256": "5bb1b16873c1586eea25efe4c4eb91d4b48e1185bb921f11446ce27fd693119c",
+        "git_state": "committed"
+      },
+      "experiments/audit13_tables.py": {
+        "sha256": "ecdb0d85bfbcbf36a50b4a6d905698ddd38d8cf100ba3e89cf1fc241c698aaa9",
+        "git_state": "committed"
+      },
+      "experiments/audit7_design.py": {
+        "sha256": "fb966e5a334cdd0f1f63632f28fbc5f6d9195d56de34065305639b56f10dc769",
+        "git_state": "committed"
+      },
+      "experiments/audit7_dgp5_analysis.py": {
+        "sha256": "7445da3a421063e937c8e2516167f0d0bb7aa2144ad9c1db263ac0c3df44ab61",
+        "git_state": "committed"
+      },
+      "experiments/audit7_dgp5_runner.py": {
+        "sha256": "bdd056463c63826f3260011e53b06bfb054d6678c0bfed9eca5af562ed92608f",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b0_inventory.py": {
+        "sha256": "6405cc166459c296fb32c86fed1abff150afc4889ba0598502d8c4e41ea07add",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_np_diagnostic.py": {
+        "sha256": "959b18541923f504c4178fdedd3a7d519a62487930c1de4dbcc8e476e0a43df0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_np_gate.py": {
+        "sha256": "93064f87f144776c7c83ee95d23bdbd7eadf5cbaff08af57297eda3ef37348f0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_regression_child.py": {
+        "sha256": "350b1389b64fdc89098d17861b7196671be9fe66123fb1f0702ddd5229fee150",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_validate.py": {
+        "sha256": "6a268b6ac14f5d05f2dfa26b5430328246f34893439ff6004b308d9a163170b0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2_size.py": {
+        "sha256": "74b1cdbd9f0bba3c77cb495b6c53393ba49eef75ff4f88d41257679ee2d4ff93",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2b_diagnostic.py": {
+        "sha256": "f89de9ed47612633614546168cb1887b0fb1c2faa37283276d03e45dd8096802",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2b_indep.py": {
+        "sha256": "47eb0f404478d0bac66bab7ea2002a24956ceeb287bdcb5bd441ee5fc0c8dda5",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b3_comparators.py": {
+        "sha256": "a4589a8ab3fe02284549b02f9c2078ad34172ddab47b268ce5c1ce4c444fc363",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b4_local_power.py": {
+        "sha256": "4de18b53c2f31d3d2f7e04fee1d786d42df0ba7998bdf30278b8029acea904c7",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b5_power.py": {
+        "sha256": "561c9dd52313c70d193ebe7ea772b3dbf91db2e691019eec3f5e76c4c8c28092",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b6_application.py": {
+        "sha256": "917157d7367c201cb4e92c2eafd1cb4f3d6f68d44dfbc9f6713c0ecb7e28de07",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b7_critical_values.py": {
+        "sha256": "1a228203fb9b1ed38020fe40ec4e6e690ea05c6bf152ceca42a82cc7f2d1c801",
+        "git_state": "committed"
+      },
+      "experiments/audit8_cache_fix_validate.py": {
+        "sha256": "01d88be3d99d27ddb32abdc63bbb5fad3ab6129300ba8cfe638b1790a60d314a",
+        "git_state": "committed"
+      },
+      "experiments/audit8_common.py": {
+        "sha256": "5718ec2cfa7f5f5c5f7f8d68ed26198e00ac827fb562cee67b234857e5719f0d",
+        "git_state": "committed"
+      },
+      "experiments/audit8_design.py": {
+        "sha256": "ad80aeae74d44ff4cecbd10dbfc480d24c146b81ec8f9d6561f95b7ba7079ae0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_environment.py": {
+        "sha256": "9b323700e91302ad0090e876b922a38a1dd6b23ef5f19fcc7748d947e617d21e",
+        "git_state": "committed"
+      },
+      "experiments/audit8_figconfig.py": {
+        "sha256": "eb516777a764ee78828acf7a5c743c4e9d8f5aab57b98550606354793d467e12",
+        "git_state": "committed"
+      },
+      "experiments/audit8_generate_report.py": {
+        "sha256": "91157e2576bec679f9f826423f55b6de104a01380651c9648a3aa25adac78819",
+        "git_state": "committed"
+      },
+      "experiments/audit8_unitroot.py": {
+        "sha256": "9d0842a342f12b9c8a7e3870127768590c53d98c8ca90dbb3a2715ddb16748ef",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b90_protocol.py": {
+        "sha256": "5e0a7109f7d1a7737ed2558ccc1766b36c61e0ead19738e9da6512af0d58e590",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b91_equalized.py": {
+        "sha256": "66be775e81bb3ddeadc202237f1343a4d231138274eb8387cc5ac48c1366b9b9",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b92_theta.py": {
+        "sha256": "56b784b7534e466897a6b31400dc17906ad101d2d114e93f9d5bb95b55c65af5",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b93_attribution.py": {
+        "sha256": "0c6a42942f19a4b0f07cf102704a98e4c17f76815a53bbb1e0407bb3119dd6ee",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b94_finite_sample.py": {
+        "sha256": "b5c5b0acc0792baaec3499d386bbce7768142ca4e37ca1ac03fb23914a0daae5",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b95_awb.py": {
+        "sha256": "f60dcb418bb045ef40684fc8572d74e578459d40d28925dd7c30bbac79dbf0c0",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b96_application.py": {
+        "sha256": "0ff5e46367a3f1dfae0a92aa02fd0fdf13b64efab897de61eaafb81599f468b4",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b97_critical_values.py": {
+        "sha256": "774956681a4c6536cfab497326e032518cb97c10a0aacf9bffd38ee92aef14f3",
+        "git_state": "committed"
+      },
+      "experiments/audit9_calibrate.py": {
+        "sha256": "d2f7ac2cd3d5fa866fac21379f79a60535749e8db61d02135aaea99ec0b75bbd",
+        "git_state": "committed"
+      },
+      "experiments/audit9_common.py": {
+        "sha256": "39fbee3c398de920ba2f9c4400ac6254c58d9fb537c6f97649c8299ea39e78f7",
+        "git_state": "committed"
+      },
+      "experiments/audit9_design.py": {
+        "sha256": "e25486561a4c06643807b4035e2beeb0436558b1157bfb3b7a866e5e7cb815ac",
+        "git_state": "committed"
+      },
+      "experiments/audit9_engine.py": {
+        "sha256": "8f8bd7a817178056d2e55a4c518bfc2188737c02c3f56cf467d15972ac651e1b",
+        "git_state": "committed"
+      },
+      "experiments/audit9_figconfig.py": {
+        "sha256": "502fc40d79bdec85ad4ebac69ee33949903c4c8b5e14ed5558ab3b6b985b8080",
+        "git_state": "committed"
+      },
+      "experiments/audit9_generate_report.py": {
+        "sha256": "c8257dc6873c4ef2d5bf1f40ff3906e7bbbd2513b241348583bfb3ec70f6f559",
+        "git_state": "committed"
+      },
+      "experiments/make_figures_audit10.py": {
+        "sha256": "defe405c489e96491a7f9a63e09392c24bce8cc3768b7ec654708eaf244ff560",
+        "git_state": "committed"
+      },
+      "experiments/make_figures_audit11.py": {
+        "sha256": "ae54c12199f80a46f7beb88544743d422d3e982aae3a14aede0a5f9efdf93dc6",
+        "git_state": "committed"
+      },
+      "experiments/make_figures_audit13.py": {
+        "sha256": "9b685b1ee40e89c201a64b3886805e2524de381a5a81be4d71e59dc86f1301ba",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/__init__.py": {
+        "sha256": "20ebf29ab1a9a64bb428f25ff0170d67db2354662efb8b973922c3f455f56582",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/constants.py": {
+        "sha256": "de8bd2282ff09c41fc6eae12fcca6695c1fd3a0c9def7628a9b76e9361058907",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/davies.py": {
+        "sha256": "cfad047d0b0676cc83a41208cd600f4224ce61bf03930228a5a80d1d6556c9b9",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/deterministics.py": {
+        "sha256": "31db116abc80e5cab8c97317a31d6f22f1a4ca40c885eef86c134db598dac6b2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/empirical_eigenvalues.py": {
+        "sha256": "f749e2e2de8b807421d6e74836bd5d539eccb314f18821bd38b80e72b5ee72a1",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/full_pipeline.py": {
+        "sha256": "cdbd5405caa50bc83c7348a0a8be9963b522ef4d808024f078f648bb1de89170",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/hac_estimator.py": {
+        "sha256": "f7c22540e6a8e862258cb70e4a839b841453ca9490a01671176431ee4bf678f2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/kl_eigenvalues.py": {
+        "sha256": "c0fb0a90795c904cb2876aa16eff64948e0abf5a27d3a57c6612c2b9ec198903",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/null_quantiles.py": {
+        "sha256": "655458f05815621d015984080169663d2310d26e588a83e2c5a62549ba5a1ae8",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/optimal_weight.py": {
+        "sha256": "47632d98ed256b2364a2ac99de64780e0cd8d42a69c68b4552c6ea0564f86ba4",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/rm_core.py": {
+        "sha256": "4d3ee3f59c569233a5e9a9ed8ffd3032364188545bac04a0cc619ccac39e04e0",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/standardization.py": {
+        "sha256": "cc8cb146d28ea63be86bc11db6cc6c345fbf5fd412055e2e58a33a40f3e8936b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/statistic.py": {
+        "sha256": "f0baf1d99ac4311ca854d350f18a3d3416974bf5d13e662d05149f87183d92ef",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/theta_selection.py": {
+        "sha256": "23eba50e85d0db917d14b4d3d844c42e5ee566dfd326a0fad7feae0dd113f40b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/utils.py": {
+        "sha256": "8a3e0b972da519b3c39ca0e0326953dbae1bf048845c05c1fb3a23a001b72717",
+        "git_state": "committed"
+      }
+    },
+    "code_all_committed": true
+  },
+  "primary_theta": 0.0,
+  "reading": "protocol_audit13.md, lectura 12",
+  "sources_theta_dependent": [
+    "e_equalized_audit13.json",
+    "e_awb_audit13.json",
+    "e_size_audit13.json",
+    "e_calib_audit13.json",
+    "b101_theta_audit10.json",
+    "b92_theta_audit9.json"
+  ],
+  "sources_theta_free": [
+    "b3_comparators_audit8.json",
+    "b5_power_audit8.json",
+    "b103_lown_audit10.json"
+  ],
+  "paso0_all_identical": true,
+  "calibration_gain_points": {
+    "dm": {
+      "cv_at_n": {
+        "60": {
+          "rate": 0.05068,
+          "wilson": [
+            0.048791687676513866,
+            0.0526373487905638
+          ],
+          "N": 50000,
+          "region": [
+            0.0481,
+            0.05192
+          ],
+          "source": "experiments/results/e_size_audit13.json",
+          "path": "cells.dm|60.rates.gls_t0"
+        },
+        "100": {
+          "rate": 0.0501,
+          "wilson": [
+            0.04822217856320804,
+            0.052046947018867626
+          ],
+          "N": 50000,
+          "region": [
+            0.0481,
+            0.05192
+          ],
+          "source": "experiments/results/e_size_audit13.json",
+          "path": "cells.dm|100.rates.gls_t0"
+        },
+        "150": {
+          "rate": 0.04874,
+          "wilson": [
+            0.04688705825820048,
+            0.05066227628318087
+          ],
+          "N": 50000,
+          "region": [
+            0.0481,
+            0.05192
+          ],
+          "source": "experiments/results/e_size_audit13.json",
+          "path": "cells.dm|150.rates.gls_t0"
+        },
+        "200": {
+          "rate": 0.05023,
+          "wilson": [
+            0.048893441467450456,
+            0.05160111266384249
+          ],
+          "N": 100000,
+          "region": [
+            0.04865,
+            0.05136
+          ],
+          "source": "experiments/results/b101_theta_audit10.json",
+          "path": "cells.dm|200.rates.gls_t0.pooled"
+        },
+        "500": {
+          "rate": 0.04917,
+          "wilson": [
+            0.04784709328913134,
+            0.05052754227796029
+          ],
+          "N": 100000,
+          "region": [
+            0.04865,
+            0.05136
+          ],
+          "source": "experiments/results/b101_theta_audit10.json",
+          "path": "cells.dm|500.rates.gls_t0.pooled"
+        },
+        "1000": {
+          "rate": 0.04915,
+          "wilson": [
+            0.04782735250920428,
+            0.05050728459441185
+          ],
+          "N": 100000,
+          "region": [
+            0.04865,
+            0.05136
+          ],
+          "source": "experiments/results/b101_theta_audit10.json",
+          "path": "cells.dm|1000.rates.gls_t0.pooled"
+        },
+        "2000": {
+          "rate": 0.047,
+          "wilson": [
+            0.04415287327396069,
+            0.0500211113928701
+          ],
+          "N": 20000,
+          "region": [
+            0.047,
+            0.05305
+          ],
+          "source": "experiments/results/b92_theta_audit9.json",
+          "path": "gaussian_size.c|2000.gls_t0"
+        },
+        "5000": {
+          "rate": 0.04895,
+          "wilson": [
+            0.04604537572539664,
+            0.05202786000081535
+          ],
+          "N": 20000,
+          "region": [
+            0.047,
+            0.05305
+          ],
+          "source": "experiments/results/b92_theta_audit9.json",
+          "path": "gaussian_size.c|5000.gls_t0"
+        }
+      },
+      "cv_big": {
+        "60": {
+          "rate": 0.0577,
+          "wilson": [
+            0.0556899411341725,
+            0.05977801673413617
+          ],
+          "N": 50000,
+          "region": [
+            0.0481,
+            0.05192
+          ],
+          "source": "experiments/results/e_size_audit13.json",
+          "path": "cells.dm|60.size_with_cv_n20000.gls_t0"
+        },
+        "100": {
+          "rate": 0.0573,
+          "wilson": [
+            0.05529663459295048,
+            0.05937138473397749
+          ],
+          "N": 50000,
+          "region": [
+            0.0481,
+            0.05192
+          ],
+          "source": "experiments/results/e_size_audit13.json",
+          "path": "cells.dm|100.size_with_cv_n20000.gls_t0"
+        },
+        "150": {
+          "rate": 0.0553,
+          "wilson": [
+            0.05333052619078649,
+            0.05733780042923807
+          ],
+          "N": 50000,
+          "region": [
+            0.0481,
+            0.05192
+          ],
+          "source": "experiments/results/e_size_audit13.json",
+          "path": "cells.dm|150.size_with_cv_n20000.gls_t0"
+        },
+        "200": {
+          "rate": 0.05486,
+          "wilson": [
+            0.05346570738822401,
+            0.056288491037646424
+          ],
+          "N": 100000,
+          "region": [
+            0.04865,
+            0.05136
+          ],
+          "source": "experiments/results/b101_theta_audit10.json",
+          "path": "cells.dm|200.size_with_cv_n20000.gls_t0"
+        },
+        "500": {
+          "rate": 0.05061,
+          "wilson": [
+            0.04926858835549025,
+            0.051985936581837144
+          ],
+          "N": 100000,
+          "region": [
+            0.04865,
+            0.05136
+          ],
+          "source": "experiments/results/b101_theta_audit10.json",
+          "path": "cells.dm|500.size_with_cv_n20000.gls_t0"
+        },
+        "1000": {
+          "rate": 0.04997,
+          "wilson": [
+            0.04863677437215039,
+            0.05133779973396112
+          ],
+          "N": 100000,
+          "region": [
+            0.04865,
+            0.05136
+          ],
+          "source": "experiments/results/b101_theta_audit10.json",
+          "path": "cells.dm|1000.size_with_cv_n20000.gls_t0"
+        },
+        "2000": {
+          "rate": 0.04775,
+          "wilson": [
+            0.04488059897704676,
+            0.05079309763569988
+          ],
+          "N": 20000,
+          "region": [
+            0.047,
+            0.05305
+          ],
+          "source": "experiments/results/e_calib_audit13.json",
+          "path": "cases_by_theta.gls_t0.c.approximation_cost.2000.size_with_cv_n20000"
+        },
+        "5000": {
+          "rate": 0.04885,
+          "wilson": [
+            0.04594829181213581,
+            0.05192498232128739
+          ],
+          "N": 20000,
+          "region": [
+            0.047,
+            0.05305
+          ],
+          "source": "experiments/results/e_calib_audit13.json",
+          "path": "cases_by_theta.gls_t0.c.approximation_cost.5000.size_with_cv_n20000"
+        }
+      },
+      "msb_pub": {
+        "60": {
+          "rate": 0.04842,
+          "wilson": [
+            0.046572970682132474,
+            0.05033641302614431
+          ],
+          "N": 50000,
+          "region": [
+            0.0481,
+            0.05192
+          ],
+          "source": "experiments/results/b103_lown_audit10.json",
+          "path": "cells.dm|60.msb_published_cv"
+        },
+        "100": {
+          "rate": 0.04688,
+          "wilson": [
+            0.045061745217898574,
+            0.04876787510606258
+          ],
+          "N": 50000,
+          "region": [
+            0.0481,
+            0.05192
+          ],
+          "source": "experiments/results/b103_lown_audit10.json",
+          "path": "cells.dm|100.msb_published_cv"
+        },
+        "150": {
+          "rate": 0.04382,
+          "wilson": [
+            0.0420605791437743,
+            0.04564951133862463
+          ],
+          "N": 50000,
+          "region": [
+            0.0481,
+            0.05192
+          ],
+          "source": "experiments/results/b103_lown_audit10.json",
+          "path": "cells.dm|150.msb_published_cv"
+        },
+        "200": {
+          "rate": 0.04526,
+          "wilson": [
+            0.043988982593081746,
+            0.046565953364550286
+          ],
+          "N": 100000,
+          "region": [
+            0.04865,
+            0.05136
+          ],
+          "source": "experiments/results/b101_theta_audit10.json",
+          "path": "cells.dm|200.msb_published_cv"
+        },
+        "500": {
+          "rate": 0.04316,
+          "wilson": [
+            0.0419179207246621,
+            0.04443717656804278
+          ],
+          "N": 100000,
+          "region": [
+            0.04865,
+            0.05136
+          ],
+          "source": "experiments/results/b101_theta_audit10.json",
+          "path": "cells.dm|500.msb_published_cv"
+        },
+        "1000": {
+          "rate": 0.04459,
+          "wilson": [
+            0.04332813014186929,
+            0.0458868572893336
+          ],
+          "N": 100000,
+          "region": [
+            0.04865,
+            0.05136
+          ],
+          "source": "experiments/results/b101_theta_audit10.json",
+          "path": "cells.dm|1000.msb_published_cv"
+        },
+        "2000": {
+          "rate": 0.04305,
+          "wilson": [
+            0.04032368770514495,
+            0.045951814046529066
+          ],
+          "N": 20000,
+          "region": [
+            0.047,
+            0.05305
+          ],
+          "source": "experiments/results/e_calib_audit13.json",
+          "path": "cases_by_theta.gls_t0.c.approximation_cost_comparators.2000.msb.size_published_asymptotic"
+        },
+        "5000": {
+          "rate": 0.04485,
+          "wilson": [
+            0.0420678805221547,
+            0.04780692989971733
+          ],
+          "N": 20000,
+          "region": [
+            0.047,
+            0.05305
+          ],
+          "source": "experiments/results/e_calib_audit13.json",
+          "path": "cases_by_theta.gls_t0.c.approximation_cost_comparators.5000.msb.size_published_asymptotic"
+        }
+      }
+    },
+    "ct": {
+      "cv_at_n": {
+        "60": {
+          "rate": 0.05032,
+          "wilson": [
+            0.04843819097063763,
+            0.0522709008091974
+          ],
+          "N": 50000,
+          "region": [
+            0.0481,
+            0.05192
+          ],
+          "source": "experiments/results/e_size_audit13.json",
+          "path": "cells.ct|60.rates.gls_t0"
+        },
+        "100": {
+          "rate": 0.05236,
+          "wilson": [
+            0.05044169029546873,
+            0.05434708804540779
+          ],
+          "N": 50000,
+          "region": [
+            0.0481,
+            0.05192
+          ],
+          "source": "experiments/results/e_size_audit13.json",
+          "path": "cells.ct|100.rates.gls_t0"
+        },
+        "150": {
+          "rate": 0.04936,
+          "wilson": [
+            0.047495666673845076,
+            0.05129357260667632
+          ],
+          "N": 50000,
+          "region": [
+            0.0481,
+            0.05192
+          ],
+          "source": "experiments/results/e_size_audit13.json",
+          "path": "cells.ct|150.rates.gls_t0"
+        },
+        "200": {
+          "rate": 0.04989,
+          "wilson": [
+            0.048557801914518334,
+            0.05125677833769117
+          ],
+          "N": 100000,
+          "region": [
+            0.04865,
+            0.05136
+          ],
+          "source": "experiments/results/b101_theta_audit10.json",
+          "path": "cells.ct|200.rates.gls_t0.pooled"
+        },
+        "500": {
+          "rate": 0.05024,
+          "wilson": [
+            0.04890331347996916,
+            0.05161123988306155
+          ],
+          "N": 100000,
+          "region": [
+            0.04865,
+            0.05136
+          ],
+          "source": "experiments/results/b101_theta_audit10.json",
+          "path": "cells.ct|500.rates.gls_t0.pooled"
+        },
+        "1000": {
+          "rate": 0.05049,
+          "wilson": [
+            0.04915011861202358,
+            0.05186441554445084
+          ],
+          "N": 100000,
+          "region": [
+            0.04865,
+            0.05136
+          ],
+          "source": "experiments/results/b101_theta_audit10.json",
+          "path": "cells.ct|1000.rates.gls_t0.pooled"
+        },
+        "2000": {
+          "rate": 0.04785,
+          "wilson": [
+            0.044977644332797204,
+            0.050896013872738205
+          ],
+          "N": 20000,
+          "region": [
+            0.047,
+            0.05305
+          ],
+          "source": "experiments/results/b92_theta_audit9.json",
+          "path": "gaussian_size.ct|2000.gls_t0"
+        },
+        "5000": {
+          "rate": 0.0517,
+          "wilson": [
+            0.04871649951539003,
+            0.05485568001251338
+          ],
+          "N": 20000,
+          "region": [
+            0.047,
+            0.05305
+          ],
+          "source": "experiments/results/b92_theta_audit9.json",
+          "path": "gaussian_size.ct|5000.gls_t0"
+        }
+      },
+      "cv_big": {
+        "60": {
+          "rate": 0.01914,
+          "wilson": [
+            0.017975434387857144,
+            0.02037844809135359
+          ],
+          "N": 50000,
+          "region": [
+            0.0481,
+            0.05192
+          ],
+          "source": "experiments/results/e_size_audit13.json",
+          "path": "cells.ct|60.size_with_cv_n20000.gls_t0"
+        },
+        "100": {
+          "rate": 0.03562,
+          "wilson": [
+            0.034030791943139876,
+            0.03728055844095503
+          ],
+          "N": 50000,
+          "region": [
+            0.0481,
+            0.05192
+          ],
+          "source": "experiments/results/e_size_audit13.json",
+          "path": "cells.ct|100.size_with_cv_n20000.gls_t0"
+        },
+        "150": {
+          "rate": 0.03958,
+          "wilson": [
+            0.03790611184346839,
+            0.04132463010029528
+          ],
+          "N": 50000,
+          "region": [
+            0.0481,
+            0.05192
+          ],
+          "source": "experiments/results/e_size_audit13.json",
+          "path": "cells.ct|150.size_with_cv_n20000.gls_t0"
+        },
+        "200": {
+          "rate": 0.04319,
+          "wilson": [
+            0.041947501723017894,
+            0.044467593264900226
+          ],
+          "N": 100000,
+          "region": [
+            0.04865,
+            0.05136
+          ],
+          "source": "experiments/results/b101_theta_audit10.json",
+          "path": "cells.ct|200.size_with_cv_n20000.gls_t0"
+        },
+        "500": {
+          "rate": 0.04846,
+          "wilson": [
+            0.04714633340246883,
+            0.04980835671124268
+          ],
+          "N": 100000,
+          "region": [
+            0.04865,
+            0.05136
+          ],
+          "source": "experiments/results/b101_theta_audit10.json",
+          "path": "cells.ct|500.size_with_cv_n20000.gls_t0"
+        },
+        "1000": {
+          "rate": 0.05011,
+          "wilson": [
+            0.04877497847795251,
+            0.051479584872487466
+          ],
+          "N": 100000,
+          "region": [
+            0.04865,
+            0.05136
+          ],
+          "source": "experiments/results/b101_theta_audit10.json",
+          "path": "cells.ct|1000.size_with_cv_n20000.gls_t0"
+        },
+        "2000": {
+          "rate": 0.04865,
+          "wilson": [
+            0.04575413435788266,
+            0.05171921658996299
+          ],
+          "N": 20000,
+          "region": [
+            0.047,
+            0.05305
+          ],
+          "source": "experiments/results/e_calib_audit13.json",
+          "path": "cases_by_theta.gls_t0.ct.approximation_cost.2000.size_with_cv_n20000"
+        },
+        "5000": {
+          "rate": 0.05095,
+          "wilson": [
+            0.047987764265624094,
+            0.054084703316363475
+          ],
+          "N": 20000,
+          "region": [
+            0.047,
+            0.05305
+          ],
+          "source": "experiments/results/e_calib_audit13.json",
+          "path": "cases_by_theta.gls_t0.ct.approximation_cost.5000.size_with_cv_n20000"
+        }
+      },
+      "msb_pub": {
+        "60": {
+          "rate": 0.01574,
+          "wilson": [
+            0.014685621211939948,
+            0.016868783665534966
+          ],
+          "N": 50000,
+          "region": [
+            0.0481,
+            0.05192
+          ],
+          "source": "experiments/results/b103_lown_audit10.json",
+          "path": "cells.ct|60.msb_published_cv"
+        },
+        "100": {
+          "rate": 0.02184,
+          "wilson": [
+            0.0205951230782377,
+            0.023158344555292643
+          ],
+          "N": 50000,
+          "region": [
+            0.0481,
+            0.05192
+          ],
+          "source": "experiments/results/b103_lown_audit10.json",
+          "path": "cells.ct|100.msb_published_cv"
+        },
+        "150": {
+          "rate": 0.02544,
+          "wilson": [
+            0.02409587994830247,
+            0.026857034557654032
+          ],
+          "N": 50000,
+          "region": [
+            0.0481,
+            0.05192
+          ],
+          "source": "experiments/results/b103_lown_audit10.json",
+          "path": "cells.ct|150.msb_published_cv"
+        },
+        "200": {
+          "rate": 0.02853,
+          "wilson": [
+            0.02751612839912637,
+            0.029580092861252683
+          ],
+          "N": 100000,
+          "region": [
+            0.04865,
+            0.05136
+          ],
+          "source": "experiments/results/b101_theta_audit10.json",
+          "path": "cells.ct|200.msb_published_cv"
+        },
+        "500": {
+          "rate": 0.03492,
+          "wilson": [
+            0.033799944320610696,
+            0.03607578602018955
+          ],
+          "N": 100000,
+          "region": [
+            0.04865,
+            0.05136
+          ],
+          "source": "experiments/results/b101_theta_audit10.json",
+          "path": "cells.ct|500.msb_published_cv"
+        },
+        "1000": {
+          "rate": 0.03879,
+          "wilson": [
+            0.03761082065970725,
+            0.0400046123636016
+          ],
+          "N": 100000,
+          "region": [
+            0.04865,
+            0.05136
+          ],
+          "source": "experiments/results/b101_theta_audit10.json",
+          "path": "cells.ct|1000.msb_published_cv"
+        },
+        "2000": {
+          "rate": 0.03975,
+          "wilson": [
+            0.03712954423484117,
+            0.04254722495480314
+          ],
+          "N": 20000,
+          "region": [
+            0.047,
+            0.05305
+          ],
+          "source": "experiments/results/e_calib_audit13.json",
+          "path": "cases_by_theta.gls_t0.ct.approximation_cost_comparators.2000.msb.size_published_asymptotic"
+        },
+        "5000": {
+          "rate": 0.04275,
+          "wilson": [
+            0.04003311708936671,
+            0.045642499883940986
+          ],
+          "N": 20000,
+          "region": [
+            0.047,
+            0.05305
+          ],
+          "source": "experiments/results/e_calib_audit13.json",
+          "path": "cases_by_theta.gls_t0.ct.approximation_cost_comparators.5000.msb.size_published_asymptotic"
+        }
+      }
+    }
+  },
+  "figures": {
+    "fig_local_power_audit13.pdf": {
+      "sha256": "7a4c78c66e8fbed74d5bc5a34d888282501d91ffe960072b0c3d20b94b70489d",
+      "bytes": 19963,
+      "paper_copy": "paper/figures/fig_local_power_audit13.pdf",
+      "paper_copy_sha256": "7a4c78c66e8fbed74d5bc5a34d888282501d91ffe960072b0c3d20b94b70489d",
+      "paso0_v13_data_identical_to_a11": true,
+      "data_sha256": "40341b6fdb0167f89ce24f810a26148abac3370263ab742bc1d7e4c576769073",
+      "calls": 12,
+      "data": [
+        [
+          "plot",
+          [
+            [
+              0.0,
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0,
+              8.0,
+              9.0,
+              10.0,
+              11.0,
+              12.0,
+              13.0,
+              13.5,
+              14.0,
+              15.0,
+              16.0,
+              17.0,
+              18.0,
+              19.0,
+              20.0,
+              21.0,
+              22.0,
+              23.0,
+              24.0,
+              25.0,
+              26.0,
+              27.0,
+              28.0,
+              29.0,
+              30.0
+            ],
+            [
+              0.05,
+              0.07545,
+              0.11815,
+              0.17375,
+              0.23455,
+              0.31325,
+              0.3982,
+              0.4966,
+              0.5842,
+              0.6665,
+              0.7505,
+              0.80955,
+              0.86615,
+              0.91145,
+              0.9296,
+              0.94355,
+              0.9649,
+              0.97505,
+              0.9861,
+              0.9915,
+              0.9953,
+              0.99755,
+              0.99895,
+              0.9991,
+              0.99955,
+              0.9996,
+              0.99985,
+              0.9999,
+              1.0,
+              1.0,
+              0.99995,
+              1.0
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.0,
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0,
+              8.0,
+              9.0,
+              10.0,
+              11.0,
+              12.0,
+              13.0,
+              13.5,
+              14.0,
+              15.0,
+              16.0,
+              17.0,
+              18.0,
+              19.0,
+              20.0,
+              21.0,
+              22.0,
+              23.0,
+              24.0,
+              25.0,
+              26.0,
+              27.0,
+              28.0,
+              29.0,
+              30.0
+            ],
+            [
+              0.04885,
+              0.07315,
+              0.11075,
+              0.1624,
+              0.2215,
+              0.2949,
+              0.3702,
+              0.464,
+              0.55605,
+              0.63985,
+              0.7243,
+              0.7931,
+              0.847,
+              0.901,
+              0.9195,
+              0.9373,
+              0.95805,
+              0.9722,
+              0.98485,
+              0.99105,
+              0.996,
+              0.99765,
+              0.99915,
+              0.9993,
+              0.99975,
+              0.99995,
+              0.99995,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.0,
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0,
+              8.0,
+              9.0,
+              10.0,
+              11.0,
+              12.0,
+              13.0,
+              13.5,
+              14.0,
+              15.0,
+              16.0,
+              17.0,
+              18.0,
+              19.0,
+              20.0,
+              21.0,
+              22.0,
+              23.0,
+              24.0,
+              25.0,
+              26.0,
+              27.0,
+              28.0,
+              29.0,
+              30.0
+            ],
+            [
+              0.04875,
+              0.07295,
+              0.10935,
+              0.16175,
+              0.22055,
+              0.2902,
+              0.3668,
+              0.46005,
+              0.55065,
+              0.6326,
+              0.7198,
+              0.7852,
+              0.8415,
+              0.89455,
+              0.9148,
+              0.93115,
+              0.9549,
+              0.96935,
+              0.98175,
+              0.9888,
+              0.9945,
+              0.9965,
+              0.9989,
+              0.99895,
+              0.9993,
+              0.9997,
+              0.9998,
+              0.99985,
+              1.0,
+              1.0,
+              0.99995,
+              1.0
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.0,
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0,
+              8.0,
+              9.0,
+              10.0,
+              11.0,
+              12.0,
+              13.0,
+              13.5,
+              14.0,
+              15.0,
+              16.0,
+              17.0,
+              18.0,
+              19.0,
+              20.0,
+              21.0,
+              22.0,
+              23.0,
+              24.0,
+              25.0,
+              26.0,
+              27.0,
+              28.0,
+              29.0,
+              30.0
+            ],
+            [
+              0.04955,
+              0.0756,
+              0.11505,
+              0.1692,
+              0.2332,
+              0.31085,
+              0.395,
+              0.49395,
+              0.5821,
+              0.6657,
+              0.751,
+              0.8084,
+              0.86405,
+              0.90985,
+              0.9266,
+              0.9405,
+              0.9619,
+              0.9727,
+              0.98455,
+              0.9897,
+              0.99375,
+              0.9962,
+              0.99795,
+              0.9987,
+              0.9994,
+              0.99945,
+              0.99945,
+              0.9997,
+              0.9999,
+              0.9999,
+              0.99995,
+              0.99995
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.0,
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0,
+              8.0,
+              9.0,
+              10.0,
+              11.0,
+              12.0,
+              13.0,
+              13.5,
+              14.0,
+              15.0,
+              16.0,
+              17.0,
+              18.0,
+              19.0,
+              20.0,
+              21.0,
+              22.0,
+              23.0,
+              24.0,
+              25.0,
+              26.0,
+              27.0,
+              28.0,
+              29.0,
+              30.0
+            ],
+            [
+              0.0494,
+              0.07585,
+              0.1151,
+              0.1695,
+              0.23305,
+              0.3119,
+              0.3959,
+              0.4949,
+              0.58255,
+              0.66625,
+              0.7516,
+              0.80955,
+              0.86485,
+              0.91,
+              0.92705,
+              0.94095,
+              0.9628,
+              0.973,
+              0.9846,
+              0.98995,
+              0.9939,
+              0.9963,
+              0.9981,
+              0.9988,
+              0.99945,
+              0.9996,
+              0.9995,
+              0.9997,
+              0.9999,
+              0.9999,
+              1.0,
+              0.99995
+            ]
+          ]
+        ],
+        [
+          "axhline",
+          [
+            0.05
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.0,
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0,
+              8.0,
+              9.0,
+              10.0,
+              11.0,
+              12.0,
+              13.0,
+              13.5,
+              14.0,
+              15.0,
+              16.0,
+              17.0,
+              18.0,
+              19.0,
+              20.0,
+              21.0,
+              22.0,
+              23.0,
+              24.0,
+              25.0,
+              26.0,
+              27.0,
+              28.0,
+              29.0,
+              30.0
+            ],
+            [
+              0.05,
+              0.05285,
+              0.05955,
+              0.0737,
+              0.09015,
+              0.11515,
+              0.1399,
+              0.17515,
+              0.2126,
+              0.25425,
+              0.3087,
+              0.36295,
+              0.4221,
+              0.4746,
+              0.5056,
+              0.53505,
+              0.5914,
+              0.6568,
+              0.7037,
+              0.76205,
+              0.7993,
+              0.84585,
+              0.8792,
+              0.907,
+              0.9278,
+              0.9448,
+              0.9596,
+              0.9691,
+              0.97975,
+              0.98495,
+              0.98835,
+              0.99245
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.0,
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0,
+              8.0,
+              9.0,
+              10.0,
+              11.0,
+              12.0,
+              13.0,
+              13.5,
+              14.0,
+              15.0,
+              16.0,
+              17.0,
+              18.0,
+              19.0,
+              20.0,
+              21.0,
+              22.0,
+              23.0,
+              24.0,
+              25.0,
+              26.0,
+              27.0,
+              28.0,
+              29.0,
+              30.0
+            ],
+            [
+              0.04925,
+              0.0515,
+              0.06085,
+              0.0746,
+              0.0877,
+              0.11235,
+              0.1373,
+              0.17065,
+              0.21185,
+              0.2478,
+              0.29645,
+              0.3555,
+              0.41105,
+              0.4646,
+              0.49835,
+              0.52915,
+              0.5877,
+              0.65235,
+              0.70095,
+              0.7577,
+              0.79785,
+              0.84635,
+              0.8814,
+              0.91045,
+              0.9323,
+              0.95025,
+              0.9636,
+              0.9747,
+              0.98465,
+              0.98875,
+              0.9915,
+              0.9954
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.0,
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0,
+              8.0,
+              9.0,
+              10.0,
+              11.0,
+              12.0,
+              13.0,
+              13.5,
+              14.0,
+              15.0,
+              16.0,
+              17.0,
+              18.0,
+              19.0,
+              20.0,
+              21.0,
+              22.0,
+              23.0,
+              24.0,
+              25.0,
+              26.0,
+              27.0,
+              28.0,
+              29.0,
+              30.0
+            ],
+            [
+              0.04955,
+              0.051,
+              0.06025,
+              0.07435,
+              0.08975,
+              0.11355,
+              0.13755,
+              0.1706,
+              0.2118,
+              0.24855,
+              0.2975,
+              0.3534,
+              0.40715,
+              0.4623,
+              0.49455,
+              0.5263,
+              0.58245,
+              0.647,
+              0.69265,
+              0.7509,
+              0.7907,
+              0.8387,
+              0.87465,
+              0.90105,
+              0.92535,
+              0.9413,
+              0.95715,
+              0.96795,
+              0.97905,
+              0.98385,
+              0.9877,
+              0.9926
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.0,
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0,
+              8.0,
+              9.0,
+              10.0,
+              11.0,
+              12.0,
+              13.0,
+              13.5,
+              14.0,
+              15.0,
+              16.0,
+              17.0,
+              18.0,
+              19.0,
+              20.0,
+              21.0,
+              22.0,
+              23.0,
+              24.0,
+              25.0,
+              26.0,
+              27.0,
+              28.0,
+              29.0,
+              30.0
+            ],
+            [
+              0.04905,
+              0.05245,
+              0.0605,
+              0.07545,
+              0.09245,
+              0.117,
+              0.1408,
+              0.1752,
+              0.216,
+              0.25575,
+              0.3073,
+              0.36345,
+              0.4193,
+              0.47485,
+              0.50635,
+              0.5358,
+              0.59145,
+              0.6576,
+              0.703,
+              0.7612,
+              0.79815,
+              0.84595,
+              0.8784,
+              0.9056,
+              0.92625,
+              0.94315,
+              0.95735,
+              0.9662,
+              0.97665,
+              0.9838,
+              0.98775,
+              0.99095
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.0,
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0,
+              8.0,
+              9.0,
+              10.0,
+              11.0,
+              12.0,
+              13.0,
+              13.5,
+              14.0,
+              15.0,
+              16.0,
+              17.0,
+              18.0,
+              19.0,
+              20.0,
+              21.0,
+              22.0,
+              23.0,
+              24.0,
+              25.0,
+              26.0,
+              27.0,
+              28.0,
+              29.0,
+              30.0
+            ],
+            [
+              0.04895,
+              0.05245,
+              0.0607,
+              0.07515,
+              0.0921,
+              0.11635,
+              0.14145,
+              0.17495,
+              0.2162,
+              0.2547,
+              0.30635,
+              0.3624,
+              0.42015,
+              0.4741,
+              0.50635,
+              0.5356,
+              0.59125,
+              0.65665,
+              0.7032,
+              0.76235,
+              0.79895,
+              0.84645,
+              0.87865,
+              0.90665,
+              0.92725,
+              0.94465,
+              0.95905,
+              0.9679,
+              0.97835,
+              0.98495,
+              0.98825,
+              0.99185
+            ]
+          ]
+        ],
+        [
+          "axhline",
+          [
+            0.05
+          ]
+        ]
+      ]
+    },
+    "fig_theta_ladder_audit13.pdf": {
+      "sha256": "4ceb42115502f2c3318637b6cfe59eb2cce1d8c58802598c50ae72fac84f0b9e",
+      "bytes": 13228,
+      "paper_copy": "paper/figures/fig_theta_ladder_audit13.pdf",
+      "paper_copy_sha256": "4ceb42115502f2c3318637b6cfe59eb2cce1d8c58802598c50ae72fac84f0b9e",
+      "paso0_v13_data_identical_to_a11": true,
+      "data_sha256": "9ad255ec09d049acdc2e7d7cc92dfab9de18f0956097d2c78a565912a32327b6",
+      "calls": 6,
+      "data": [
+        [
+          "plot",
+          [
+            [
+              0.0,
+              0.02,
+              0.05,
+              0.1,
+              0.2
+            ],
+            [
+              1.8349999999999977,
+              2.2899999999999974,
+              3.0149999999999952,
+              3.809999999999997,
+              5.419999999999997
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.0,
+              0.02,
+              0.05,
+              0.1,
+              0.2
+            ],
+            [
+              2.619999999999989,
+              3.489999999999993,
+              4.8799999999999955,
+              7.0649999999999995,
+              11.204999999999998
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.0,
+              0.02,
+              0.05,
+              0.1,
+              0.2
+            ],
+            [
+              0.6850000000000023,
+              0.9649999999999936,
+              1.5249999999999986,
+              2.649999999999997,
+              5.945
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.0,
+              0.02,
+              0.05,
+              0.1,
+              0.2
+            ],
+            [
+              0.2799999999999997,
+              0.24500000000000077,
+              0.24500000000000077,
+              0.35499999999999976,
+              0.7449999999999999
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.0,
+              0.02,
+              0.05,
+              0.1,
+              0.2
+            ],
+            [
+              1.2249999999999983,
+              1.3999999999999957,
+              1.4249999999999985,
+              1.5749999999999986,
+              3.069999999999995
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.0,
+              0.02,
+              0.05,
+              0.1,
+              0.2
+            ],
+            [
+              0.37000000000000366,
+              0.725000000000009,
+              1.21,
+              2.3150000000000004,
+              5.890000000000006
+            ]
+          ]
+        ]
+      ]
+    },
+    "fig_power_equalized_audit13.pdf": {
+      "sha256": "254d762be3f7f2412e8f6ab1a0d05f74b88538cd64808684ce3e968ec5d4a7ff",
+      "bytes": 28265,
+      "paper_copy": "paper/figures/fig_power_equalized_audit13.pdf",
+      "paper_copy_sha256": "254d762be3f7f2412e8f6ab1a0d05f74b88538cd64808684ce3e968ec5d4a7ff",
+      "paso0_v13_data_identical_to_a11": true,
+      "data_sha256": "788e60968a0aad9af1f00a2f0eba478c6354204121f1fa6f03aa72b3aa4700cc",
+      "calls": 42,
+      "data": [
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.93,
+              0.9,
+              0.85,
+              0.8
+            ],
+            [
+              0.1148,
+              0.3864,
+              0.708,
+              0.9102,
+              0.9934,
+              1.0,
+              1.0
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.93,
+              0.9,
+              0.85,
+              0.8
+            ],
+            [
+              0.092,
+              0.2332,
+              0.426,
+              0.647,
+              0.8956,
+              0.9944,
+              0.9996
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.93,
+              0.9,
+              0.85,
+              0.8
+            ],
+            [
+              0.067,
+              0.1474,
+              0.2906,
+              0.4906,
+              0.7982,
+              0.9582,
+              0.9844
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.93,
+              0.9,
+              0.85,
+              0.8
+            ],
+            [
+              0.0662,
+              0.1504,
+              0.3128,
+              0.5382,
+              0.8496,
+              0.9946,
+              1.0
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.93,
+              0.9,
+              0.85,
+              0.8
+            ],
+            [
+              0.1106,
+              0.3974,
+              0.6898,
+              0.854,
+              0.9256,
+              0.9532,
+              0.9654
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.93,
+              0.9,
+              0.85,
+              0.8
+            ],
+            [
+              0.1116,
+              0.393,
+              0.6908,
+              0.8558,
+              0.928,
+              0.9442,
+              0.9524
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.93,
+              0.9,
+              0.85,
+              0.8
+            ],
+            [
+              0.1128,
+              0.3652,
+              0.6544,
+              0.8346,
+              0.9218,
+              0.9408,
+              0.9466
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.93,
+              0.9,
+              0.85,
+              0.8
+            ],
+            [
+              0.3008,
+              0.955,
+              0.9998,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.93,
+              0.9,
+              0.85,
+              0.8
+            ],
+            [
+              0.187,
+              0.7258,
+              0.9802,
+              0.9994,
+              1.0,
+              1.0,
+              1.0
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.93,
+              0.9,
+              0.85,
+              0.8
+            ],
+            [
+              0.1186,
+              0.577,
+              0.9392,
+              0.994,
+              0.9998,
+              0.9994,
+              0.9998
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.93,
+              0.9,
+              0.85,
+              0.8
+            ],
+            [
+              0.1266,
+              0.6038,
+              0.9546,
+              0.9996,
+              1.0,
+              1.0,
+              1.0
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.93,
+              0.9,
+              0.85,
+              0.8
+            ],
+            [
+              0.3158,
+              0.9394,
+              0.9916,
+              0.9968,
+              0.9994,
+              1.0,
+              1.0
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.93,
+              0.9,
+              0.85,
+              0.8
+            ],
+            [
+              0.3132,
+              0.9404,
+              0.9934,
+              0.9964,
+              0.9994,
+              0.9998,
+              1.0
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.93,
+              0.9,
+              0.85,
+              0.8
+            ],
+            [
+              0.2948,
+              0.9338,
+              0.9924,
+              0.9974,
+              0.9996,
+              0.9998,
+              1.0
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.93,
+              0.9,
+              0.85,
+              0.8
+            ],
+            [
+              0.737,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.93,
+              0.9,
+              0.85,
+              0.8
+            ],
+            [
+              0.4338,
+              0.9984,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.93,
+              0.9,
+              0.85,
+              0.8
+            ],
+            [
+              0.3034,
+              0.9916,
+              0.9998,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.93,
+              0.9,
+              0.85,
+              0.8
+            ],
+            [
+              0.318,
+              0.9918,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.93,
+              0.9,
+              0.85,
+              0.8
+            ],
+            [
+              0.7546,
+              0.9998,
+              0.9998,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.93,
+              0.9,
+              0.85,
+              0.8
+            ],
+            [
+              0.7546,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.93,
+              0.9,
+              0.85,
+              0.8
+            ],
+            [
+              0.7278,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.9
+            ],
+            [
+              0.0618,
+              0.1324,
+              0.2974,
+              0.8194
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.9
+            ],
+            [
+              0.0602,
+              0.1222,
+              0.2566,
+              0.74
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.9
+            ],
+            [
+              0.0576,
+              0.0978,
+              0.1752,
+              0.5562
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.9
+            ],
+            [
+              0.06,
+              0.0956,
+              0.1892,
+              0.6302
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.9
+            ],
+            [
+              0.062,
+              0.1302,
+              0.2896,
+              0.72
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.9
+            ],
+            [
+              0.0636,
+              0.1324,
+              0.2902,
+              0.742
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.9
+            ],
+            [
+              0.0624,
+              0.1296,
+              0.2838,
+              0.7336
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.9
+            ],
+            [
+              0.0994,
+              0.5894,
+              0.9602,
+              1.0
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.9
+            ],
+            [
+              0.089,
+              0.5154,
+              0.9132,
+              1.0
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.9
+            ],
+            [
+              0.0718,
+              0.3554,
+              0.782,
+              0.996
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.9
+            ],
+            [
+              0.0754,
+              0.3798,
+              0.8148,
+              1.0
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.9
+            ],
+            [
+              0.1024,
+              0.5752,
+              0.8986,
+              0.9844
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.9
+            ],
+            [
+              0.1026,
+              0.5784,
+              0.9108,
+              0.9886
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.9
+            ],
+            [
+              0.1002,
+              0.5632,
+              0.9102,
+              0.9884
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.9
+            ],
+            [
+              0.3054,
+              0.9942,
+              1.0,
+              1.0
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.9
+            ],
+            [
+              0.27,
+              0.9768,
+              1.0,
+              1.0
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.9
+            ],
+            [
+              0.1948,
+              0.9134,
+              0.999,
+              1.0
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.9
+            ],
+            [
+              0.1982,
+              0.9232,
+              1.0,
+              1.0
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.9
+            ],
+            [
+              0.3036,
+              0.9754,
+              0.9982,
+              1.0
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.9
+            ],
+            [
+              0.3052,
+              0.9798,
+              0.9988,
+              1.0
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              0.99,
+              0.97,
+              0.95,
+              0.9
+            ],
+            [
+              0.3034,
+              0.9798,
+              0.9988,
+              1.0
+            ]
+          ]
+        ]
+      ]
+    },
+    "fig_size_shift_audit13.pdf": {
+      "sha256": "a128a601ad2f6c0fbb174daf81f2b2d48733bd6c1468b257269a36367eff6c11",
+      "bytes": 19867,
+      "paper_copy": "paper/figures/fig_size_shift_audit13.pdf",
+      "paper_copy_sha256": "a128a601ad2f6c0fbb174daf81f2b2d48733bd6c1468b257269a36367eff6c11",
+      "paso0_v13_data_identical_to_a11": true,
+      "data_sha256": "e3e5bbe00f37b8503b2cbaaf27cb99dcb95c6b016948d3860a8162c8b7c9cd2c",
+      "calls": 30,
+      "data": [
+        [
+          "plot",
+          [
+            [
+              200.0,
+              500.0,
+              1000.0,
+              2000.0,
+              5000.0
+            ],
+            [
+              1.0049999999999997,
+              1.255,
+              1.0050000000000003,
+              0.7800000000000001,
+              0.5650000000000002
+            ]
+          ]
+        ],
+        [
+          "fill_between",
+          [
+            [
+              200.0,
+              500.0,
+              1000.0,
+              2000.0,
+              5000.0
+            ],
+            [
+              0.27961618390399656,
+              0.5361479119276343,
+              0.27263984633924854,
+              0.08429822777859763,
+              -0.1321503408921204
+            ],
+            [
+              1.7303838160960028,
+              1.9738520880723653,
+              1.7373601536607521,
+              1.4757017722214028,
+              1.2621503408921209
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              200.0,
+              500.0,
+              1000.0,
+              2000.0,
+              5000.0
+            ],
+            [
+              1.2449999999999997,
+              1.0450000000000002,
+              1.4049999999999994,
+              0.44499999999999956,
+              0.2150000000000006
+            ]
+          ]
+        ],
+        [
+          "fill_between",
+          [
+            [
+              200.0,
+              500.0,
+              1000.0,
+              2000.0,
+              5000.0
+            ],
+            [
+              0.5236654130030916,
+              0.33073050096899725,
+              0.6612989039042628,
+              -0.25240969626611903,
+              -0.4864696756710152
+            ],
+            [
+              1.9663345869969078,
+              1.759269499031003,
+              2.148701096095736,
+              1.142409696266118,
+              0.9164696756710164
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              200.0,
+              500.0,
+              1000.0,
+              2000.0,
+              5000.0
+            ],
+            [
+              1.1950000000000003,
+              1.1900000000000002,
+              0.7350000000000002,
+              0.37499999999999967,
+              0.29
+            ]
+          ]
+        ],
+        [
+          "fill_between",
+          [
+            [
+              200.0,
+              500.0,
+              1000.0,
+              2000.0,
+              5000.0
+            ],
+            [
+              0.4637247650097812,
+              0.4847259933614455,
+              0.016984746870931988,
+              -0.30708033441083793,
+              -0.4031635117401953
+            ],
+            [
+              1.9262752349902192,
+              1.8952740066385547,
+              1.4530152531290685,
+              1.0570803344108373,
+              0.9831635117401953
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              200.0,
+              500.0,
+              1000.0,
+              2000.0,
+              5000.0
+            ],
+            [
+              1.21,
+              1.2300000000000004,
+              0.8599999999999997,
+              0.5299999999999999,
+              0.3450000000000002
+            ]
+          ]
+        ],
+        [
+          "fill_between",
+          [
+            [
+              200.0,
+              500.0,
+              1000.0,
+              2000.0,
+              5000.0
+            ],
+            [
+              0.47314073055433425,
+              0.5203886249446115,
+              0.1352313282708747,
+              -0.15766218026586298,
+              -0.3499535346294742
+            ],
+            [
+              1.9468592694456657,
+              1.9396113750553894,
+              1.5847686717291247,
+              1.217662180265863,
+              1.0399535346294746
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              200.0,
+              500.0,
+              1000.0,
+              2000.0,
+              5000.0
+            ],
+            [
+              1.1999999999999997,
+              1.1499999999999997,
+              1.2000000000000004,
+              0.725,
+              0.51
+            ]
+          ]
+        ],
+        [
+          "fill_between",
+          [
+            [
+              200.0,
+              500.0,
+              1000.0,
+              2000.0,
+              5000.0
+            ],
+            [
+              0.4653207259762935,
+              0.4346228894072718,
+              0.46302357997015986,
+              0.033560949649211635,
+              -0.18289610797001887
+            ],
+            [
+              1.934679274023706,
+              1.8653771105927275,
+              1.936976420029841,
+              1.4164390503507884,
+              1.202896107970019
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              200.0,
+              500.0,
+              1000.0,
+              2000.0,
+              5000.0
+            ],
+            [
+              1.0349999999999997,
+              0.895,
+              1.4850000000000003,
+              0.8050000000000002,
+              0.9100000000000004
+            ]
+          ]
+        ],
+        [
+          "fill_between",
+          [
+            [
+              200.0,
+              500.0,
+              1000.0,
+              2000.0,
+              5000.0
+            ],
+            [
+              0.32540095806293523,
+              0.18971961023292294,
+              0.7298824860950452,
+              0.10347416505021023,
+              0.19409370709847829
+            ],
+            [
+              1.744599041937064,
+              1.600280389767077,
+              2.2401175139049556,
+              1.50652583494979,
+              1.6259062929015224
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              200.0,
+              500.0,
+              1000.0
+            ],
+            [
+              0.5999999999999999,
+              -0.40000000000000036,
+              0.2500000000000002
+            ]
+          ]
+        ],
+        [
+          "fill_between",
+          [
+            [
+              200.0,
+              500.0,
+              1000.0
+            ],
+            [
+              -0.854483104061371,
+              -1.8833328689137852,
+              -1.2305186003559694
+            ],
+            [
+              2.0544831040613705,
+              1.0833328689137844,
+              1.7305186003559698
+            ]
+          ]
+        ],
+        [
+          "axhline",
+          [
+            0.0
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              200.0,
+              500.0,
+              1000.0,
+              2000.0,
+              5000.0
+            ],
+            [
+              0.485,
+              1.335,
+              0.6249999999999999,
+              0.9000000000000001,
+              0.4450000000000003
+            ]
+          ]
+        ],
+        [
+          "fill_between",
+          [
+            [
+              200.0,
+              500.0,
+              1000.0,
+              2000.0,
+              5000.0
+            ],
+            [
+              -0.21559373732713305,
+              0.6123954765392067,
+              -0.08958349946664745,
+              0.1984308746816179,
+              -0.24622680830968902
+            ],
+            [
+              1.185593737327133,
+              2.0576045234607934,
+              1.3395834994666473,
+              1.6015691253183824,
+              1.1362268083096896
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              200.0,
+              500.0,
+              1000.0,
+              2000.0,
+              5000.0
+            ],
+            [
+              2.4850000000000003,
+              1.645,
+              0.7449999999999999,
+              0.025000000000000022,
+              0.3550000000000004
+            ]
+          ]
+        ],
+        [
+          "fill_between",
+          [
+            [
+              200.0,
+              500.0,
+              1000.0,
+              2000.0,
+              5000.0
+            ],
+            [
+              1.7084812970919505,
+              0.9029628476376672,
+              0.03186707329558802,
+              -0.6513772821953735,
+              -0.35325597011108867
+            ],
+            [
+              3.26151870290805,
+              2.387037152362333,
+              1.4581329267044119,
+              0.7013772821953735,
+              1.0632559701110895
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              200.0,
+              500.0,
+              1000.0,
+              2000.0,
+              5000.0
+            ],
+            [
+              0.014999999999999736,
+              1.2900000000000003,
+              0.17500000000000016,
+              0.35499999999999976,
+              0.06999999999999992
+            ]
+          ]
+        ],
+        [
+          "fill_between",
+          [
+            [
+              200.0,
+              500.0,
+              1000.0,
+              2000.0,
+              5000.0
+            ],
+            [
+              -0.6589446782741151,
+              0.579923959593059,
+              -0.5158722501519364,
+              -0.3260696228477674,
+              -0.6121588319387209
+            ],
+            [
+              0.6889446782741144,
+              2.0000760404069418,
+              0.8658722501519367,
+              1.036069622847767,
+              0.7521588319387208
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              200.0,
+              500.0,
+              1000.0,
+              2000.0,
+              5000.0
+            ],
+            [
+              0.20999999999999977,
+              1.3900000000000003,
+              0.4999999999999998,
+              0.6100000000000001,
+              0.1250000000000001
+            ]
+          ]
+        ],
+        [
+          "fill_between",
+          [
+            [
+              200.0,
+              500.0,
+              1000.0,
+              2000.0,
+              5000.0
+            ],
+            [
+              -0.47918838452777224,
+              0.6727861178867217,
+              -0.20769952087026333,
+              -0.08164252440115327,
+              -0.5589875406102071
+            ],
+            [
+              0.8991883845277717,
+              2.107213882113279,
+              1.2076995208702628,
+              1.3016425244011534,
+              0.8089875406102073
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              200.0,
+              500.0,
+              1000.0,
+              2000.0,
+              5000.0
+            ],
+            [
+              0.15999999999999973,
+              1.1699999999999995,
+              0.5999999999999999,
+              0.4450000000000003,
+              0.0899999999999998
+            ]
+          ]
+        ],
+        [
+          "fill_between",
+          [
+            [
+              200.0,
+              500.0,
+              1000.0,
+              2000.0,
+              5000.0
+            ],
+            [
+              -0.5248047587451481,
+              0.4536760270883009,
+              -0.10889355217832264,
+              -0.23237593974247384,
+              -0.581693558504174
+            ],
+            [
+              0.8448047587451475,
+              1.886323972911698,
+              1.3088935521783225,
+              1.1223759397424744,
+              0.7616935585041738
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              200.0,
+              500.0,
+              1000.0,
+              2000.0,
+              5000.0
+            ],
+            [
+              1.5350000000000001,
+              1.7149999999999999,
+              1.0450000000000002,
+              0.7649999999999997,
+              0.5300000000000006
+            ]
+          ]
+        ],
+        [
+          "fill_between",
+          [
+            [
+              200.0,
+              500.0,
+              1000.0,
+              2000.0,
+              5000.0
+            ],
+            [
+              0.8019725809234693,
+              0.9715121411522578,
+              0.3096517284456298,
+              0.0654237240743506,
+              -0.16758499575033814
+            ],
+            [
+              2.268027419076531,
+              2.458487858847742,
+              1.7803482715543706,
+              1.4645762759256487,
+              1.2275849957503393
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              200.0,
+              500.0,
+              1000.0
+            ],
+            [
+              0.34999999999999964,
+              -0.10000000000000009,
+              -0.14999999999999944
+            ]
+          ]
+        ],
+        [
+          "fill_between",
+          [
+            [
+              200.0,
+              500.0,
+              1000.0
+            ],
+            [
+              -1.0898914924396217,
+              -1.6003092667846852,
+              -1.6075058030759253
+            ],
+            [
+              1.789891492439621,
+              1.400309266784685,
+              1.3075058030759263
+            ]
+          ]
+        ],
+        [
+          "axhline",
+          [
+            0.0
+          ]
+        ]
+      ]
+    },
+    "fig_dgp3_audit13.pdf": {
+      "sha256": "2048a77850ec3eb3785a314177ae0274db452d5807dcb80a47d12974b216669f",
+      "bytes": 18777,
+      "paper_copy": "paper/figures/fig_dgp3_audit13.pdf",
+      "paper_copy_sha256": "2048a77850ec3eb3785a314177ae0274db452d5807dcb80a47d12974b216669f",
+      "paso0_v13_data_identical_to_a11": true,
+      "data_sha256": "3ac8236f904d2cfb410a81f41255e21f8cd20d18d91e6682aea3fb1b3cd57e1b",
+      "calls": 21,
+      "data": [
+        [
+          "plot",
+          [
+            [
+              1.0,
+              1.5,
+              2.0,
+              3.0,
+              4.0
+            ],
+            [
+              0.0462,
+              0.065,
+              0.0764,
+              0.1004,
+              0.1226
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              1.0,
+              1.5,
+              2.0,
+              3.0,
+              4.0
+            ],
+            [
+              0.048,
+              0.059,
+              0.0652,
+              0.0824,
+              0.0966
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              1.0,
+              1.5,
+              2.0,
+              3.0,
+              4.0
+            ],
+            [
+              0.0468,
+              0.0402,
+              0.0434,
+              0.049,
+              0.0528
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              1.0,
+              1.5,
+              2.0,
+              3.0,
+              4.0
+            ],
+            [
+              0.0486,
+              0.057,
+              0.0564,
+              0.0728,
+              0.0804
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              1.0,
+              2.0,
+              4.0
+            ],
+            [
+              0.04,
+              0.052,
+              0.0405
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              1.0,
+              2.0,
+              4.0
+            ],
+            [
+              0.0505,
+              0.063,
+              0.063
+            ]
+          ]
+        ],
+        [
+          "axhline",
+          [
+            0.05
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              1.0,
+              1.5,
+              2.0,
+              3.0,
+              4.0
+            ],
+            [
+              0.0472,
+              0.0606,
+              0.0738,
+              0.1016,
+              0.1268
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              1.0,
+              1.5,
+              2.0,
+              3.0,
+              4.0
+            ],
+            [
+              0.0446,
+              0.0514,
+              0.0594,
+              0.086,
+              0.0948
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              1.0,
+              1.5,
+              2.0,
+              3.0,
+              4.0
+            ],
+            [
+              0.0502,
+              0.035,
+              0.0394,
+              0.0476,
+              0.0498
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              1.0,
+              1.5,
+              2.0,
+              3.0,
+              4.0
+            ],
+            [
+              0.0472,
+              0.0542,
+              0.064,
+              0.083,
+              0.0976
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              1.0,
+              2.0,
+              4.0
+            ],
+            [
+              0.042,
+              0.0505,
+              0.04
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              1.0,
+              2.0,
+              4.0
+            ],
+            [
+              0.0525,
+              0.0595,
+              0.05
+            ]
+          ]
+        ],
+        [
+          "axhline",
+          [
+            0.05
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              1.0,
+              1.5,
+              2.0,
+              3.0,
+              4.0
+            ],
+            [
+              0.0482,
+              0.058,
+              0.0722,
+              0.1044,
+              0.1252
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              1.0,
+              1.5,
+              2.0,
+              3.0,
+              4.0
+            ],
+            [
+              0.051,
+              0.0544,
+              0.0612,
+              0.081,
+              0.0902
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              1.0,
+              1.5,
+              2.0,
+              3.0,
+              4.0
+            ],
+            [
+              0.0498,
+              0.0376,
+              0.0358,
+              0.0458,
+              0.0458
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              1.0,
+              1.5,
+              2.0,
+              3.0,
+              4.0
+            ],
+            [
+              0.0508,
+              0.0514,
+              0.0636,
+              0.0814,
+              0.0952
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [],
+            []
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              1.0,
+              2.0,
+              4.0
+            ],
+            [
+              0.0525,
+              0.052,
+              0.0515
+            ]
+          ]
+        ],
+        [
+          "axhline",
+          [
+            0.05
+          ]
+        ]
+      ]
+    },
+    "fig_calibration_gain_audit13.pdf": {
+      "sha256": "39b3d33229372bf1e5110f42a5921eb2c8a772d1c33f66b7cdd3663e0ff9508f",
+      "bytes": 16656,
+      "paper_copy": "paper/figures/fig_calibration_gain_audit13.pdf",
+      "paper_copy_sha256": "39b3d33229372bf1e5110f42a5921eb2c8a772d1c33f66b7cdd3663e0ff9508f",
+      "paso0_v13_data_identical_to_a11": true,
+      "data_sha256": "84927e0e54d353d41428e46d6c791b191c7cd08d501fde66ee281edb597cef7d",
+      "calls": 10,
+      "data": [
+        [
+          "fill_between",
+          [
+            [
+              60.0,
+              100.0,
+              150.0,
+              200.0,
+              500.0,
+              1000.0,
+              2000.0,
+              5000.0
+            ],
+            [
+              0.0481,
+              0.0481,
+              0.0481,
+              0.04865,
+              0.04865,
+              0.04865,
+              0.047,
+              0.047
+            ],
+            [
+              0.05192,
+              0.05192,
+              0.05192,
+              0.05136,
+              0.05136,
+              0.05136,
+              0.05305,
+              0.05305
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              60.0,
+              100.0,
+              150.0,
+              200.0,
+              500.0,
+              1000.0,
+              2000.0,
+              5000.0
+            ],
+            [
+              0.05068,
+              0.0501,
+              0.04874,
+              0.05023,
+              0.04917,
+              0.04915,
+              0.047,
+              0.04895
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              60.0,
+              100.0,
+              150.0,
+              200.0,
+              500.0,
+              1000.0,
+              2000.0,
+              5000.0
+            ],
+            [
+              0.0577,
+              0.0573,
+              0.0553,
+              0.05486,
+              0.05061,
+              0.04997,
+              0.04775,
+              0.04885
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              60.0,
+              100.0,
+              150.0,
+              200.0,
+              500.0,
+              1000.0,
+              2000.0,
+              5000.0
+            ],
+            [
+              0.04842,
+              0.04688,
+              0.04382,
+              0.04526,
+              0.04316,
+              0.04459,
+              0.04305,
+              0.04485
+            ]
+          ]
+        ],
+        [
+          "axhline",
+          [
+            0.05
+          ]
+        ],
+        [
+          "fill_between",
+          [
+            [
+              60.0,
+              100.0,
+              150.0,
+              200.0,
+              500.0,
+              1000.0,
+              2000.0,
+              5000.0
+            ],
+            [
+              0.0481,
+              0.0481,
+              0.0481,
+              0.04865,
+              0.04865,
+              0.04865,
+              0.047,
+              0.047
+            ],
+            [
+              0.05192,
+              0.05192,
+              0.05192,
+              0.05136,
+              0.05136,
+              0.05136,
+              0.05305,
+              0.05305
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              60.0,
+              100.0,
+              150.0,
+              200.0,
+              500.0,
+              1000.0,
+              2000.0,
+              5000.0
+            ],
+            [
+              0.05032,
+              0.05236,
+              0.04936,
+              0.04989,
+              0.05024,
+              0.05049,
+              0.04785,
+              0.0517
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              60.0,
+              100.0,
+              150.0,
+              200.0,
+              500.0,
+              1000.0,
+              2000.0,
+              5000.0
+            ],
+            [
+              0.01914,
+              0.03562,
+              0.03958,
+              0.04319,
+              0.04846,
+              0.05011,
+              0.04865,
+              0.05095
+            ]
+          ]
+        ],
+        [
+          "plot",
+          [
+            [
+              60.0,
+              100.0,
+              150.0,
+              200.0,
+              500.0,
+              1000.0,
+              2000.0,
+              5000.0
+            ],
+            [
+              0.01574,
+              0.02184,
+              0.02544,
+              0.02853,
+              0.03492,
+              0.03879,
+              0.03975,
+              0.04275
+            ]
+          ]
+        ],
+        [
+          "axhline",
+          [
+            0.05
+          ]
+        ]
+      ]
+    }
+  }
+}

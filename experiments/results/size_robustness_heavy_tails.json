@@ -1,0 +1,114 @@
+{
+  "description": "Size under H0 (random walk) with heavy-tailed innovations",
+  "distributions": {
+    "t5": {
+      "df": 5,
+      "scale": 1.2909944487358056
+    },
+    "t3": {
+      "df": 3,
+      "scale": 1.7320508075688772
+    }
+  },
+  "config": {
+    "alpha": 0.05,
+    "N_sim": 5000,
+    "theta": [
+      0.1,
+      0.1
+    ],
+    "R": 0.5,
+    "null_cdf": "Gaussian (not recalibrated)"
+  },
+  "completed_at": "2026-07-17T04:56:12.967628",
+  "results": {
+    "t5": {
+      "200": {
+        "ours": 0.0368,
+        "ours_ci_lo": 0.0319,
+        "ours_ci_hi": 0.0424,
+        "adf": 0.0628,
+        "adf_ci_lo": 0.0564,
+        "adf_ci_hi": 0.0699,
+        "pp": 0.0584,
+        "pp_ci_lo": 0.0522,
+        "pp_ci_hi": 0.0652,
+        "kpss": 0.8288,
+        "kpss_ci_lo": 0.8181,
+        "kpss_ci_hi": 0.839
+      },
+      "500": {
+        "ours": 0.0464,
+        "ours_ci_lo": 0.0409,
+        "ours_ci_hi": 0.0526,
+        "adf": 0.0552,
+        "adf_ci_lo": 0.0492,
+        "adf_ci_hi": 0.0619,
+        "pp": 0.0614,
+        "pp_ci_lo": 0.0551,
+        "pp_ci_hi": 0.0684,
+        "kpss": 0.946,
+        "kpss_ci_lo": 0.9394,
+        "kpss_ci_hi": 0.9519
+      },
+      "1000": {
+        "ours": 0.0518,
+        "ours_ci_lo": 0.046,
+        "ours_ci_hi": 0.0583,
+        "adf": 0.05,
+        "adf_ci_lo": 0.0443,
+        "adf_ci_hi": 0.0564,
+        "pp": 0.054,
+        "pp_ci_lo": 0.0481,
+        "pp_ci_hi": 0.0606,
+        "kpss": 0.971,
+        "kpss_ci_lo": 0.966,
+        "kpss_ci_hi": 0.9753
+      }
+    },
+    "t3": {
+      "200": {
+        "ours": 0.0404,
+        "ours_ci_lo": 0.0353,
+        "ours_ci_hi": 0.0462,
+        "adf": 0.0624,
+        "adf_ci_lo": 0.056,
+        "adf_ci_hi": 0.0694,
+        "pp": 0.0612,
+        "pp_ci_lo": 0.0549,
+        "pp_ci_hi": 0.0682,
+        "kpss": 0.8356,
+        "kpss_ci_lo": 0.8251,
+        "kpss_ci_hi": 0.8456
+      },
+      "500": {
+        "ours": 0.0464,
+        "ours_ci_lo": 0.0409,
+        "ours_ci_hi": 0.0526,
+        "adf": 0.0528,
+        "adf_ci_lo": 0.0469,
+        "adf_ci_hi": 0.0593,
+        "pp": 0.059,
+        "pp_ci_lo": 0.0528,
+        "pp_ci_hi": 0.0659,
+        "kpss": 0.9428,
+        "kpss_ci_lo": 0.936,
+        "kpss_ci_hi": 0.9489
+      },
+      "1000": {
+        "ours": 0.053,
+        "ours_ci_lo": 0.0471,
+        "ours_ci_hi": 0.0596,
+        "adf": 0.0528,
+        "adf_ci_lo": 0.0469,
+        "adf_ci_hi": 0.0593,
+        "pp": 0.06,
+        "pp_ci_lo": 0.0537,
+        "pp_ci_hi": 0.0669,
+        "kpss": 0.9656,
+        "kpss_ci_lo": 0.9602,
+        "kpss_ci_hi": 0.9703
+      }
+    }
+  }
+}

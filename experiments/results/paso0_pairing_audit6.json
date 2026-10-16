@@ -1,0 +1,176 @@
+{
+  "n_series_checked_per_cell": 50,
+  "dgp1": {
+    "n200_rho0.95": {
+      "seed_base": 120095,
+      "bitwise_identical": true,
+      "max_abs_diff": 0.0
+    },
+    "n200_rho0.97": {
+      "seed_base": 120097,
+      "bitwise_identical": true,
+      "max_abs_diff": 0.0
+    },
+    "n200_rho0.99": {
+      "seed_base": 120099,
+      "bitwise_identical": true,
+      "max_abs_diff": 0.0
+    },
+    "n500_rho0.95": {
+      "seed_base": 150095,
+      "bitwise_identical": true,
+      "max_abs_diff": 0.0
+    },
+    "n500_rho0.97": {
+      "seed_base": 150097,
+      "bitwise_identical": true,
+      "max_abs_diff": 0.0
+    },
+    "n500_rho0.99": {
+      "seed_base": 150099,
+      "bitwise_identical": true,
+      "max_abs_diff": 0.0
+    },
+    "n1000_rho0.95": {
+      "seed_base": 200095,
+      "bitwise_identical": true,
+      "max_abs_diff": 0.0
+    },
+    "n1000_rho0.97": {
+      "seed_base": 200097,
+      "bitwise_identical": true,
+      "max_abs_diff": 0.0
+    },
+    "n1000_rho0.99": {
+      "seed_base": 200099,
+      "bitwise_identical": true,
+      "max_abs_diff": 0.0
+    }
+  },
+  "dgp3": {
+    "n200_r1.0": {
+      "seed_base": 320010,
+      "bitwise_identical": true,
+      "max_abs_diff": 0.0
+    },
+    "n200_r2.0": {
+      "seed_base": 320020,
+      "bitwise_identical": true,
+      "max_abs_diff": 0.0
+    },
+    "n200_r3.0": {
+      "seed_base": 320030,
+      "bitwise_identical": true,
+      "max_abs_diff": 0.0
+    },
+    "n200_r4.0": {
+      "seed_base": 320040,
+      "bitwise_identical": true,
+      "max_abs_diff": 0.0
+    },
+    "n1000_r1.0": {
+      "seed_base": 400010,
+      "bitwise_identical": true,
+      "max_abs_diff": 0.0
+    },
+    "n1000_r2.0": {
+      "seed_base": 400020,
+      "bitwise_identical": true,
+      "max_abs_diff": 0.0
+    },
+    "n1000_r3.0": {
+      "seed_base": 400030,
+      "bitwise_identical": true,
+      "max_abs_diff": 0.0
+    },
+    "n1000_r4.0": {
+      "seed_base": 400040,
+      "bitwise_identical": true,
+      "max_abs_diff": 0.0
+    }
+  },
+  "all_pass": true,
+  "seed_block_overlap": {
+    "dgp1_n200": {
+      "seed_bases": [
+        120095,
+        120097,
+        120099
+      ],
+      "gaps": [
+        2,
+        2
+      ],
+      "overlapping_draws": [
+        1998,
+        1998
+      ]
+    },
+    "dgp1_n500": {
+      "seed_bases": [
+        150095,
+        150097,
+        150099
+      ],
+      "gaps": [
+        2,
+        2
+      ],
+      "overlapping_draws": [
+        1998,
+        1998
+      ]
+    },
+    "dgp1_n1000": {
+      "seed_bases": [
+        200095,
+        200097,
+        200099
+      ],
+      "gaps": [
+        2,
+        2
+      ],
+      "overlapping_draws": [
+        1998,
+        1998
+      ]
+    },
+    "dgp3_n200": {
+      "seed_bases": [
+        320010,
+        320020,
+        320030,
+        320040
+      ],
+      "gaps": [
+        10,
+        10,
+        10
+      ],
+      "overlapping_draws": [
+        1990,
+        1990,
+        1990
+      ]
+    },
+    "dgp3_n1000": {
+      "seed_bases": [
+        400010,
+        400020,
+        400030,
+        400040
+      ],
+      "gaps": [
+        10,
+        10,
+        10
+      ],
+      "overlapping_draws": [
+        1990,
+        1990,
+        1990
+      ]
+    }
+  }
+}

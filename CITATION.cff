@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this replication package, please cite it as below."
+type: software
+title: "Calibrating M-type unit-root tests in finite samples: exact tables, the sieve bootstrap and a kernel long-run variance"
+version: "1.0.0"
+doi: "10.5281/zenodo.23424031"
+authors:
+  - family-names: "Téllez Crespo"
+    given-names: "Andrés Felipe"
+    orcid: "https://orcid.org/0009-0004-7680-6585"
+    affiliation: "Independent Researcher, Mexico City"
+# repository-code: to be added when the public repository exists
+# MIT for the code; CC BY 4.0 for the results, the supplement, the figures and the documentation (see README.md, License)
+license:
+  - MIT
+  - CC-BY-4.0
+abstract: >-
+  The M unit-root tests of Ng and Perron are usually applied with asymptotic
+  critical values and an autoregressive estimate of the long-run variance. We
+  examine both choices at exact size. Because the statistics are scale
+  invariant, their null law under i.i.d. Gaussian errors can be simulated
+  exactly at the sample size in hand. The GLS estimate of the mean biases the
+  second moment of the detrended series by a term of order 1/(n + c-bar^2)
+  with a large constant, and the published asymptotic critical values of
+  MSB-GLS reject 0.026 at n = 200 in the trend case. This correction is
+  specific to the i.i.d. null. Under serially correlated errors the simulated
+  critical values of MZt-GLS are on average no closer to the nominal level than
+  the asymptotic ones, while a sieve bootstrap lowers the mean absolute size
+  distortion over thirty designs from 0.0135 to 0.0074, at a cost of up to 4.2
+  points of size-adjusted power. Replacing the autoregressive estimate by a
+  Bartlett estimate with an Andrews bandwidth adds power under i.i.d. errors
+  but loses size control under serial correlation, rejecting 0.42 at n = 200
+  with moving-average errors of -0.8; fixed-b bandwidths restore size only by
+  giving up most of the power. We recommend MZt-GLS with the autoregressive
+  estimate, bootstrapped when serial correlation is suspected.
+keywords:
+  - unit root
+  - M tests
+  - GLS detrending
+  - Monte Carlo test
+  - sieve bootstrap
+  - long-run variance
+  - fixed-b

@@ -1,0 +1,6 @@
+{
+  "protocol_file": "experiments/protocol.md",
+  "sha256": "0e267b0b49aa34e6f09670b8df17853ca13de452333f0b4ed06c6ee284859fd4",
+  "registered_at": "2026-06-12T05:48:05.467917+00:00",
+  "note": "This hash was computed BEFORE downloading any financial data. Any modification to protocol.md after this timestamp constitutes a protocol violation."
+}

@@ -1,0 +1,324 @@
+{
+  "entries": {
+    "experiments/results/tables_audit16/tab_summary_audit16.tex": {
+      "sha256": "42ea673a2a0d82185604941b3f9aa764d0eb4366892f7edef49678ec8c9a9d6d",
+      "bytes": 1099,
+      "mtime_utc": "2026-09-26T22:06:21.632776+00:00",
+      "script": "experiments/audit16_v17_tables.py",
+      "script_sha256": "bffb3b62c20d01578de7a31bba85f9a0a8fa0ddbe9df81b6a5e4662044404be6",
+      "commit": "0cfcc9373c22a1f9785b09fcff50e7f8fb3d1478",
+      "worktree_dirty": false,
+      "code_all_committed": true,
+      "versions": {
+        "python": "3.11.0",
+        "platform": "Windows-10-10.0.26200-SP0",
+        "numpy": "2.2.4",
+        "scipy": "1.15.2",
+        "numba": "0.65.0",
+        "statsmodels": "0.14.6",
+        "arch": "8.0.0",
+        "pandas": "2.2.3",
+        "joblib": "1.4.2",
+        "matplotlib": "3.10.1",
+        "pytest": "9.0.3"
+      },
+      "assistant": {
+        "herramienta": "Claude Code",
+        "modelo": "claude-opus-5-5",
+        "version": "2.1.265 (Claude Code)"
+      },
+      "registered_utc": "2026-09-26T22:06:21.644778+00:00"
+    },
+    "experiments/results/tables_audit16/tab_summary_note_audit16.tex": {
+      "sha256": "3af9d034cb912f3cc955370cf73f3efb755c55507096f30ee838c788240e4552",
+      "bytes": 1084,
+      "mtime_utc": "2026-09-26T22:06:21.690781+00:00",
+      "script": "experiments/audit16_v17_tables.py",
+      "script_sha256": "bffb3b62c20d01578de7a31bba85f9a0a8fa0ddbe9df81b6a5e4662044404be6",
+      "commit": "0cfcc9373c22a1f9785b09fcff50e7f8fb3d1478",
+      "worktree_dirty": false,
+      "code_all_committed": true,
+      "versions": {
+        "python": "3.11.0",
+        "platform": "Windows-10-10.0.26200-SP0",
+        "numpy": "2.2.4",
+        "scipy": "1.15.2",
+        "numba": "0.65.0",
+        "statsmodels": "0.14.6",
+        "arch": "8.0.0",
+        "pandas": "2.2.3",
+        "joblib": "1.4.2",
+        "matplotlib": "3.10.1",
+        "pytest": "9.0.3"
+      },
+      "assistant": {
+        "herramienta": "Claude Code",
+        "modelo": "claude-opus-5-5",
+        "version": "2.1.265 (Claude Code)"
+      },
+      "registered_utc": "2026-09-26T22:06:21.702777+00:00"
+    },
+    "experiments/results/tables_audit16/tab_fixedb_audit16.tex": {
+      "sha256": "68180de1225d485ca9883ed75ae3f6b98ec1fbb2b1a192299b0b4fbc9c111402",
+      "bytes": 860,
+      "mtime_utc": "2026-09-26T22:06:21.712776+00:00",
+      "script": "experiments/audit16_v17_tables.py",
+      "script_sha256": "bffb3b62c20d01578de7a31bba85f9a0a8fa0ddbe9df81b6a5e4662044404be6",
+      "commit": "0cfcc9373c22a1f9785b09fcff50e7f8fb3d1478",
+      "worktree_dirty": false,
+      "code_all_committed": true,
+      "versions": {
+        "python": "3.11.0",
+        "platform": "Windows-10-10.0.26200-SP0",
+        "numpy": "2.2.4",
+        "scipy": "1.15.2",
+        "numba": "0.65.0",
+        "statsmodels": "0.14.6",
+        "arch": "8.0.0",
+        "pandas": "2.2.3",
+        "joblib": "1.4.2",
+        "matplotlib": "3.10.1",
+        "pytest": "9.0.3"
+      },
+      "assistant": {
+        "herramienta": "Claude Code",
+        "modelo": "claude-opus-5-5",
+        "version": "2.1.265 (Claude Code)"
+      },
+      "registered_utc": "2026-09-26T22:06:21.725772+00:00"
+    },
+    "experiments/results/tables_audit16/tab_fixedb_note_audit16.tex": {
+      "sha256": "1445c70246a88ec2a7d03d79186632728b127b5ddf10d66c5447d01218624e44",
+      "bytes": 737,
+      "mtime_utc": "2026-09-26T22:06:21.727780+00:00",
+      "script": "experiments/audit16_v17_tables.py",
+      "script_sha256": "bffb3b62c20d01578de7a31bba85f9a0a8fa0ddbe9df81b6a5e4662044404be6",
+      "commit": "0cfcc9373c22a1f9785b09fcff50e7f8fb3d1478",
+      "worktree_dirty": false,
+      "code_all_committed": true,
+      "versions": {
+        "python": "3.11.0",
+        "platform": "Windows-10-10.0.26200-SP0",
+        "numpy": "2.2.4",
+        "scipy": "1.15.2",
+        "numba": "0.65.0",
+        "statsmodels": "0.14.6",
+        "arch": "8.0.0",
+        "pandas": "2.2.3",
+        "joblib": "1.4.2",
+        "matplotlib": "3.10.1",
+        "pytest": "9.0.3"
+      },
+      "assistant": {
+        "herramienta": "Claude Code",
+        "modelo": "claude-opus-5-5",
+        "version": "2.1.265 (Claude Code)"
+      },
+      "registered_utc": "2026-09-26T22:06:21.738780+00:00"
+    },
+    "experiments/results/v17_tables_audit16.json": {
+      "sha256": "d0a02c6aad905d8c0cf8292fbf6085bb0da004cc293c153ca9c5bbf5e8a1389c",
+      "bytes": 32515,
+      "mtime_utc": "2026-09-26T22:06:21.746787+00:00",
+      "script": "experiments/audit16_v17_tables.py",
+      "script_sha256": "bffb3b62c20d01578de7a31bba85f9a0a8fa0ddbe9df81b6a5e4662044404be6",
+      "commit": "0cfcc9373c22a1f9785b09fcff50e7f8fb3d1478",
+      "worktree_dirty": false,
+      "code_all_committed": true,
+      "versions": {
+        "python": "3.11.0",
+        "platform": "Windows-10-10.0.26200-SP0",
+        "numpy": "2.2.4",
+        "scipy": "1.15.2",
+        "numba": "0.65.0",
+        "statsmodels": "0.14.6",
+        "arch": "8.0.0",
+        "pandas": "2.2.3",
+        "joblib": "1.4.2",
+        "matplotlib": "3.10.1",
+        "pytest": "9.0.3"
+      },
+      "assistant": {
+        "herramienta": "Claude Code",
+        "modelo": "claude-opus-5-5",
+        "version": "2.1.265 (Claude Code)"
+      },
+      "registered_utc": "2026-09-26T22:06:21.771333+00:00"
+    },
+    "experiments/results/code_check_audit16.json": {
+      "sha256": "a650a857d22d99acc109637374747fd84ccd27fd2061d311d06d2549666c3a6f",
+      "bytes": 48396,
+      "mtime_utc": "2026-09-26T22:08:13.609099+00:00",
+      "script": "experiments/audit16_code_check.py",
+      "script_sha256": "818b61bb9e7622156dd674bb5d4473be7da728ed4143553f5e51e218a8f6ffbf",
+      "commit": "9c05dd12454659301034d2ddfd390d97e3950805",
+      "worktree_dirty": false,
+      "code_all_committed": true,
+      "versions": {
+        "python": "3.11.0",
+        "platform": "Windows-10-10.0.26200-SP0",
+        "numpy": "2.2.4",
+        "scipy": "1.15.2",
+        "numba": "0.65.0",
+        "statsmodels": "0.14.6",
+        "arch": "8.0.0",
+        "pandas": "2.2.3",
+        "joblib": "1.4.2",
+        "matplotlib": "3.10.1",
+        "pytest": "9.0.3"
+      },
+      "assistant": {
+        "herramienta": "Claude Code",
+        "modelo": "claude-opus-5-5",
+        "version": "2.1.265 (Claude Code)"
+      },
+      "registered_utc": "2026-09-26T22:08:13.650958+00:00"
+    },
+    "experiments/results/literals_v17b_audit16.json": {
+      "sha256": "a9c538dc70a45fc1410cfc18b32c83e88a6325cca7c3b7a822872ac1fffa76a3",
+      "bytes": 166310,
+      "mtime_utc": "2026-09-26T22:15:04.761863+00:00",
+      "script": "experiments/audit16_literals.py",
+      "script_sha256": "be3216fa509dc64188b9084f347d3a5b6c594a2cd879f9c8432832fbb9d0e0ec",
+      "commit": "5957172f9b9a8babd99aafaed1e1dfa4a61dc71d",
+      "worktree_dirty": false,
+      "code_all_committed": true,
+      "versions": {
+        "python": "3.11.0",
+        "platform": "Windows-10-10.0.26200-SP0",
+        "numpy": "2.2.4",
+        "scipy": "1.15.2",
+        "numba": "0.65.0",
+        "statsmodels": "0.14.6",
+        "arch": "8.0.0",
+        "pandas": "2.2.3",
+        "joblib": "1.4.2",
+        "matplotlib": "3.10.1",
+        "pytest": "9.0.3"
+      },
+      "assistant": {
+        "herramienta": "Claude Code",
+        "modelo": "claude-opus-5-5",
+        "version": "2.1.265 (Claude Code)"
+      },
+      "registered_utc": "2026-09-26T22:15:04.831866+00:00"
+    },
+    "experiments/results/supplement_v17_trial_audit16.json": {
+      "sha256": "6d964f99a03ae23d2770391a7189ce3a3e22b6c8c87c7cf341650dd5d5a1454c",
+      "bytes": 72115,
+      "mtime_utc": "2026-09-26T22:27:43.895100+00:00",
+      "script": "experiments/audit16_supplement.py",
+      "script_sha256": "905aff818e3e5caca774154ccfa456275c5c23d597013446d3cbbe70c8dc3f18",
+      "commit": "c659ed32c1e8f8dbaa88bc4876d701bfd5a0172a",
+      "worktree_dirty": false,
+      "code_all_committed": true,
+      "versions": {
+        "python": "3.11.0",
+        "platform": "Windows-10-10.0.26200-SP0",
+        "numpy": "2.2.4",
+        "scipy": "1.15.2",
+        "numba": "0.65.0",
+        "statsmodels": "0.14.6",
+        "arch": "8.0.0",
+        "pandas": "2.2.3",
+        "joblib": "1.4.2",
+        "matplotlib": "3.10.1",
+        "pytest": "9.0.3"
+      },
+      "assistant": {
+        "herramienta": "Claude Code",
+        "modelo": "claude-opus-5-5",
+        "version": "2.1.265 (Claude Code)"
+      },
+      "registered_utc": "2026-09-26T22:27:43.955785+00:00"
+    },
+    "experiments/results/supplement_v17_audit16.json": {
+      "sha256": "0e95006bf578853692f6e8a56268fa8b4498f0ae94587228f16101806713aea8",
+      "bytes": 74186,
+      "mtime_utc": "2026-09-26T22:27:54.653658+00:00",
+      "script": "experiments/audit16_supplement.py",
+      "script_sha256": "905aff818e3e5caca774154ccfa456275c5c23d597013446d3cbbe70c8dc3f18",
+      "commit": "c659ed32c1e8f8dbaa88bc4876d701bfd5a0172a",
+      "worktree_dirty": true,
+      "code_all_committed": true,
+      "versions": {
+        "python": "3.11.0",
+        "platform": "Windows-10-10.0.26200-SP0",
+        "numpy": "2.2.4",
+        "scipy": "1.15.2",
+        "numba": "0.65.0",
+        "statsmodels": "0.14.6",
+        "arch": "8.0.0",
+        "pandas": "2.2.3",
+        "joblib": "1.4.2",
+        "matplotlib": "3.10.1",
+        "pytest": "9.0.3"
+      },
+      "assistant": {
+        "herramienta": "Claude Code",
+        "modelo": "claude-opus-5-5",
+        "version": "2.1.265 (Claude Code)"
+      },
+      "registered_utc": "2026-09-26T22:27:54.724650+00:00"
+    },
+    "experiments/results/coherence_v17_audit16.json": {
+      "sha256": "815e47ffe599b2b522a014705d7d92dee9529d37e91f95724adb39f5d47a6c92",
+      "bytes": 58547,
+      "mtime_utc": "2026-09-26T22:31:33.421417+00:00",
+      "script": "experiments/audit16_coherence.py",
+      "script_sha256": "a190d82ad54a5eada597db807be7b31fb76bb8a162ae72dd6a0096c45db3c90f",
+      "commit": "7a1c852c1b30a5838250a0d87491f02d6d71dcdd",
+      "worktree_dirty": false,
+      "code_all_committed": true,
+      "versions": {
+        "python": "3.11.0",
+        "platform": "Windows-10-10.0.26200-SP0",
+        "numpy": "2.2.4",
+        "scipy": "1.15.2",
+        "numba": "0.65.0",
+        "statsmodels": "0.14.6",
+        "arch": "8.0.0",
+        "pandas": "2.2.3",
+        "joblib": "1.4.2",
+        "matplotlib": "3.10.1",
+        "pytest": "9.0.3"
+      },
+      "assistant": {
+        "herramienta": "Claude Code",
+        "modelo": "claude-opus-5-5",
+        "version": "2.1.265 (Claude Code)"
+      },
+      "registered_utc": "2026-09-26T22:31:33.514694+00:00"
+    },
+    "experiments/results/resultados_auditoria_16.md": {
+      "sha256": "3f343416835af79c8a9291666082ab76540ada627b08cc6580d8228103f0f72c",
+      "bytes": 47112,
+      "mtime_utc": "2026-09-26T22:34:03.989172+00:00",
+      "script": "experiments/audit16_generate_report.py",
+      "script_sha256": "78ebc0be770389734cd95d1959fdda04f0793c913f17f82caf46359f8d8ee328",
+      "commit": "811b03a3e6b1db16b4dae48671cd54b051644aca",
+      "worktree_dirty": true,
+      "code_all_committed": true,
+      "versions": {
+        "python": "3.11.0",
+        "platform": "Windows-10-10.0.26200-SP0",
+        "numpy": "2.2.4",
+        "scipy": "1.15.2",
+        "numba": "0.65.0",
+        "statsmodels": "0.14.6",
+        "arch": "8.0.0",
+        "pandas": "2.2.3",
+        "joblib": "1.4.2",
+        "matplotlib": "3.10.1",
+        "pytest": "9.0.3"
+      },
+      "assistant": {
+        "herramienta": "Claude Code",
+        "modelo": "claude-opus-5-5",
+        "version": "2.1.265 (Claude Code)"
+      },
+      "registered_utc": "2026-09-26T22:34:04.345127+00:00"
+    }
+  },
+  "updated_utc": "2026-09-26T22:34:04.345127+00:00"
+}

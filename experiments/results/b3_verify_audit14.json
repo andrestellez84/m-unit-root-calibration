@@ -1,0 +1,2144 @@
+{
+  "provenance": {
+    "script": "experiments/audit14_b3_verify.py",
+    "script_sha256": "66217ac44e6560da179ba56327aaeb7003c4249500c69eead927320f567767ae",
+    "commit": "c32f7ad9e56ba93386f914c632fb5bc8290151ff",
+    "worktree_dirty": false,
+    "dirty_files": [],
+    "generated_utc": "2026-09-24T20:17:45.287683+00:00",
+    "seed_family": null,
+    "versions": {
+      "python": "3.11.0",
+      "platform": "Windows-10-10.0.26200-SP0",
+      "numpy": "2.2.4",
+      "scipy": "1.15.2",
+      "numba": "0.65.0",
+      "statsmodels": "0.14.6",
+      "arch": "8.0.0",
+      "pandas": "2.2.3",
+      "joblib": "1.4.2",
+      "matplotlib": "3.10.1",
+      "pytest": "9.0.3"
+    },
+    "code": {
+      "experiments/audit10_b100_protocol.py": {
+        "sha256": "2f4b3351d36f05faafd5a01981278237be31ccbd3a62eb53307d5888c3ab8c47",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b101_theta.py": {
+        "sha256": "c7f65d04c6a2762bcf4fcb7cd6fb3f3ea9f588392e6316175bb88631bd255903",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b102_identity.py": {
+        "sha256": "967ce70c299a9fa87ca467d3885c2c6ae54b11ca7f1a6aac75c94a9bd38125b3",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_application.py": {
+        "sha256": "6e73e4304a88e42b528dc119d56f8a47f3aced0cac6267493b67f96699f4032a",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_awb.py": {
+        "sha256": "c35235023f15eff41059abe196791e6ee57a3f52eb736779b4ed442b70f18f87",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_cv.py": {
+        "sha256": "bc3e2ee08728214ae92b5883e9f3bd067660d99acbeebaf032b8ef7cb289c8a7",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_dgp5.py": {
+        "sha256": "8df807243e62e3c044f4f55ccc9ba909254a15b011fd190d9a6a79c466f2e73e",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_equalized.py": {
+        "sha256": "039b485455232788d7503ff80d09565182b9d5ed696fdaf8c7e27f67ca44ce5d",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_finite.py": {
+        "sha256": "a6fea4ef3e9cab8ab5b2369189497de6ff8fc38abdd3f27b752efeb43935f113",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_lown.py": {
+        "sha256": "61ffc45a0782f9277588e5f3068af89add849a7eb28a87e3902c0df69269b264",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b104_cv5000.py": {
+        "sha256": "64b94cc583c2f45c67910c6f25c5bab49baf77d5d9b4841e49d632bcd4a20493",
+        "git_state": "committed"
+      },
+      "experiments/audit10_common.py": {
+        "sha256": "298e82a217d2dd32ba87245f6056dbb82051fe2985acd644b1e972f6768ca123",
+        "git_state": "committed"
+      },
+      "experiments/audit10_design.py": {
+        "sha256": "d9da80a9c9148338e1031d1a7736180ebffd76409385b5cf7fa0c7af20d28042",
+        "git_state": "committed"
+      },
+      "experiments/audit10_engine.py": {
+        "sha256": "3d2618561538c1afd8daf8224fa230826ae442505877afb8c12a378755911333",
+        "git_state": "committed"
+      },
+      "experiments/audit10_figconfig.py": {
+        "sha256": "522ae90338608ca46d449900388d6eb5c9e152140115dd6be362d17822b8116f",
+        "git_state": "committed"
+      },
+      "experiments/audit10_generate_report.py": {
+        "sha256": "9ebb38589ec72648a1a905a105d3e6cfaa9b486cbd3a4cd9a5800be1436f1d41",
+        "git_state": "committed"
+      },
+      "experiments/audit12_common.py": {
+        "sha256": "9845605b593b4c07eed4a0ead1b9068951c1b302ca653d7fb410b2ddc84f7b84",
+        "git_state": "committed"
+      },
+      "experiments/audit13_b130_inventory.py": {
+        "sha256": "6e9e89107e8881c68dc81bc34c91e9b4838b84805adbcb955248abba18af3a75",
+        "git_state": "committed"
+      },
+      "experiments/audit13_claims.py": {
+        "sha256": "354466be4864c1321e1a7d23f004663ccef1bd1199f592110de2d575122b986f",
+        "git_state": "committed"
+      },
+      "experiments/audit13_common.py": {
+        "sha256": "94a6255b99fbd25b19a452147e20c76b9c181848e639ef26a09087b0169d19de",
+        "git_state": "committed"
+      },
+      "experiments/audit13_design.py": {
+        "sha256": "29fea9ecb7e3db08fac745d74779e229d871d5ac3e761d55f6c61c19561f2ab1",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_application.py": {
+        "sha256": "4969da94c823615f05e34dac23a5b5fc60b458dc962eca90d3048510a4da7c23",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_awb.py": {
+        "sha256": "0a95c3a6c42f334e463baf7216b202639ece93ec4080e82ef0067340f77ff373",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_calib.py": {
+        "sha256": "815694a898ff497d578447c1298db7f9772a75f13a088c2f1c2f82fd27af2ca3",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_dgp5.py": {
+        "sha256": "11022366b13d68a9f78a560403ea03221f8bceb999a34cbf68a06fd00a0a48ad",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_equalized.py": {
+        "sha256": "551896f43f6106547f300069fd03e861f57b6ec1c9435d97275f4f649158a6eb",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_size.py": {
+        "sha256": "90d4a4bfb173894cd2cf3f10a363446804a3a6339baec425c39a654fab7a4585",
+        "git_state": "committed"
+      },
+      "experiments/audit13_generate_report.py": {
+        "sha256": "b7093811991b76e414457f15b76294cb1ea85dabf4a6bc80ea01db451c400e3f",
+        "git_state": "committed"
+      },
+      "experiments/audit13_q_attrib.py": {
+        "sha256": "3369031d8a0dac8269549a4902d7ce5503b65fcd59e765a01a405ebb07efe2e9",
+        "git_state": "committed"
+      },
+      "experiments/audit13_q_claims.py": {
+        "sha256": "490147c55b6edb417929d709c745edbd8ccad3e9a586723f5bac65d3257843bf",
+        "git_state": "committed"
+      },
+      "experiments/audit13_q_common.py": {
+        "sha256": "98e1b30eebcb79b4a5edb6e3d4cede9d8d11a274c631eca1ef097da0e90c1ff1",
+        "git_state": "committed"
+      },
+      "experiments/audit13_q_inventory.py": {
+        "sha256": "17ed148ec3a404d9bbc1d21c0fa4926a67756e635e173ed8dfa5034cabca97f6",
+        "git_state": "committed"
+      },
+      "experiments/audit13_q_phrases.py": {
+        "sha256": "96cb95731a0014e299036344f09079e10387d464ea27ed7bb5271580cba77e01",
+        "git_state": "committed"
+      },
+      "experiments/audit13_q_report.py": {
+        "sha256": "ba2b694f351e0f2f92d66dd8907fb4b7955a97dac46a100581a6d0fb6d09cb74",
+        "git_state": "committed"
+      },
+      "experiments/audit13_q_supplement.py": {
+        "sha256": "df66975d8eba1f930ba0137666f60a21f4f593e89cfa4dedce14be617ead7b65",
+        "git_state": "committed"
+      },
+      "experiments/audit13_t_tables.py": {
+        "sha256": "5bb1b16873c1586eea25efe4c4eb91d4b48e1185bb921f11446ce27fd693119c",
+        "git_state": "committed"
+      },
+      "experiments/audit13_tables.py": {
+        "sha256": "ecdb0d85bfbcbf36a50b4a6d905698ddd38d8cf100ba3e89cf1fc241c698aaa9",
+        "git_state": "committed"
+      },
+      "experiments/audit14_b0_inventory.py": {
+        "sha256": "ef4611be5799a45f3735395a10925c518e09cab56b6e380208a1b038c6942521",
+        "git_state": "committed"
+      },
+      "experiments/audit14_b1_critical.py": {
+        "sha256": "50567e82c6b4b51fd7b720bd67d5f67893b4bd9f5f9fbe9cf9abba5a04641ae5",
+        "git_state": "committed"
+      },
+      "experiments/audit14_b2_sources.py": {
+        "sha256": "aedfedb9efcf41da38e008253b854827e4c9f5656450aabecbbd744dceec932f",
+        "git_state": "committed"
+      },
+      "experiments/audit14_b3_verify.py": {
+        "sha256": "66217ac44e6560da179ba56327aaeb7003c4249500c69eead927320f567767ae",
+        "git_state": "committed"
+      },
+      "experiments/audit14_common.py": {
+        "sha256": "653d0edfcf1d481bf5e62a0772a285efcea91be25cf3dbf91b022a0dbc7c25b9",
+        "git_state": "committed"
+      },
+      "experiments/audit14_exact_bootstrap.py": {
+        "sha256": "f7da6ba106a477324dc58495e3ff223e23e22c519c2a1f69a72b0a15b9899645",
+        "git_state": "committed"
+      },
+      "experiments/audit14_generate_report.py": {
+        "sha256": "100fd69829c2f40795e5fc89980d7230309d4bc1227d6869d0a978665de64adc",
+        "git_state": "committed"
+      },
+      "experiments/audit14_tables.py": {
+        "sha256": "3775f924477efa356317b78da651e8982bedf102e31ade4cf85bfeb1e953c78d",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b0_inventory.py": {
+        "sha256": "6405cc166459c296fb32c86fed1abff150afc4889ba0598502d8c4e41ea07add",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_np_diagnostic.py": {
+        "sha256": "959b18541923f504c4178fdedd3a7d519a62487930c1de4dbcc8e476e0a43df0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_np_gate.py": {
+        "sha256": "93064f87f144776c7c83ee95d23bdbd7eadf5cbaff08af57297eda3ef37348f0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_regression_child.py": {
+        "sha256": "350b1389b64fdc89098d17861b7196671be9fe66123fb1f0702ddd5229fee150",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_validate.py": {
+        "sha256": "6a268b6ac14f5d05f2dfa26b5430328246f34893439ff6004b308d9a163170b0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2_size.py": {
+        "sha256": "74b1cdbd9f0bba3c77cb495b6c53393ba49eef75ff4f88d41257679ee2d4ff93",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2b_diagnostic.py": {
+        "sha256": "f89de9ed47612633614546168cb1887b0fb1c2faa37283276d03e45dd8096802",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2b_indep.py": {
+        "sha256": "47eb0f404478d0bac66bab7ea2002a24956ceeb287bdcb5bd441ee5fc0c8dda5",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b3_comparators.py": {
+        "sha256": "a4589a8ab3fe02284549b02f9c2078ad34172ddab47b268ce5c1ce4c444fc363",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b4_local_power.py": {
+        "sha256": "4de18b53c2f31d3d2f7e04fee1d786d42df0ba7998bdf30278b8029acea904c7",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b5_power.py": {
+        "sha256": "561c9dd52313c70d193ebe7ea772b3dbf91db2e691019eec3f5e76c4c8c28092",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b6_application.py": {
+        "sha256": "917157d7367c201cb4e92c2eafd1cb4f3d6f68d44dfbc9f6713c0ecb7e28de07",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b7_critical_values.py": {
+        "sha256": "1a228203fb9b1ed38020fe40ec4e6e690ea05c6bf152ceca42a82cc7f2d1c801",
+        "git_state": "committed"
+      },
+      "experiments/audit8_cache_fix_validate.py": {
+        "sha256": "01d88be3d99d27ddb32abdc63bbb5fad3ab6129300ba8cfe638b1790a60d314a",
+        "git_state": "committed"
+      },
+      "experiments/audit8_common.py": {
+        "sha256": "5718ec2cfa7f5f5c5f7f8d68ed26198e00ac827fb562cee67b234857e5719f0d",
+        "git_state": "committed"
+      },
+      "experiments/audit8_design.py": {
+        "sha256": "ad80aeae74d44ff4cecbd10dbfc480d24c146b81ec8f9d6561f95b7ba7079ae0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_environment.py": {
+        "sha256": "9b323700e91302ad0090e876b922a38a1dd6b23ef5f19fcc7748d947e617d21e",
+        "git_state": "committed"
+      },
+      "experiments/audit8_figconfig.py": {
+        "sha256": "eb516777a764ee78828acf7a5c743c4e9d8f5aab57b98550606354793d467e12",
+        "git_state": "committed"
+      },
+      "experiments/audit8_generate_report.py": {
+        "sha256": "91157e2576bec679f9f826423f55b6de104a01380651c9648a3aa25adac78819",
+        "git_state": "committed"
+      },
+      "experiments/audit8_unitroot.py": {
+        "sha256": "9d0842a342f12b9c8a7e3870127768590c53d98c8ca90dbb3a2715ddb16748ef",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b90_protocol.py": {
+        "sha256": "5e0a7109f7d1a7737ed2558ccc1766b36c61e0ead19738e9da6512af0d58e590",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b91_equalized.py": {
+        "sha256": "66be775e81bb3ddeadc202237f1343a4d231138274eb8387cc5ac48c1366b9b9",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b92_theta.py": {
+        "sha256": "56b784b7534e466897a6b31400dc17906ad101d2d114e93f9d5bb95b55c65af5",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b93_attribution.py": {
+        "sha256": "0c6a42942f19a4b0f07cf102704a98e4c17f76815a53bbb1e0407bb3119dd6ee",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b94_finite_sample.py": {
+        "sha256": "b5c5b0acc0792baaec3499d386bbce7768142ca4e37ca1ac03fb23914a0daae5",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b95_awb.py": {
+        "sha256": "f60dcb418bb045ef40684fc8572d74e578459d40d28925dd7c30bbac79dbf0c0",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b96_application.py": {
+        "sha256": "0ff5e46367a3f1dfae0a92aa02fd0fdf13b64efab897de61eaafb81599f468b4",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b97_critical_values.py": {
+        "sha256": "774956681a4c6536cfab497326e032518cb97c10a0aacf9bffd38ee92aef14f3",
+        "git_state": "committed"
+      },
+      "experiments/audit9_calibrate.py": {
+        "sha256": "d2f7ac2cd3d5fa866fac21379f79a60535749e8db61d02135aaea99ec0b75bbd",
+        "git_state": "committed"
+      },
+      "experiments/audit9_common.py": {
+        "sha256": "39fbee3c398de920ba2f9c4400ac6254c58d9fb537c6f97649c8299ea39e78f7",
+        "git_state": "committed"
+      },
+      "experiments/audit9_design.py": {
+        "sha256": "e25486561a4c06643807b4035e2beeb0436558b1157bfb3b7a866e5e7cb815ac",
+        "git_state": "committed"
+      },
+      "experiments/audit9_engine.py": {
+        "sha256": "8f8bd7a817178056d2e55a4c518bfc2188737c02c3f56cf467d15972ac651e1b",
+        "git_state": "committed"
+      },
+      "experiments/audit9_figconfig.py": {
+        "sha256": "502fc40d79bdec85ad4ebac69ee33949903c4c8b5e14ed5558ab3b6b985b8080",
+        "git_state": "committed"
+      },
+      "experiments/audit9_generate_report.py": {
+        "sha256": "c8257dc6873c4ef2d5bf1f40ff3906e7bbbd2513b241348583bfb3ec70f6f559",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/__init__.py": {
+        "sha256": "20ebf29ab1a9a64bb428f25ff0170d67db2354662efb8b973922c3f455f56582",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/constants.py": {
+        "sha256": "de8bd2282ff09c41fc6eae12fcca6695c1fd3a0c9def7628a9b76e9361058907",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/davies.py": {
+        "sha256": "cfad047d0b0676cc83a41208cd600f4224ce61bf03930228a5a80d1d6556c9b9",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/deterministics.py": {
+        "sha256": "31db116abc80e5cab8c97317a31d6f22f1a4ca40c885eef86c134db598dac6b2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/empirical_eigenvalues.py": {
+        "sha256": "f749e2e2de8b807421d6e74836bd5d539eccb314f18821bd38b80e72b5ee72a1",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/full_pipeline.py": {
+        "sha256": "cdbd5405caa50bc83c7348a0a8be9963b522ef4d808024f078f648bb1de89170",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/hac_estimator.py": {
+        "sha256": "f7c22540e6a8e862258cb70e4a839b841453ca9490a01671176431ee4bf678f2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/kl_eigenvalues.py": {
+        "sha256": "c0fb0a90795c904cb2876aa16eff64948e0abf5a27d3a57c6612c2b9ec198903",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/null_quantiles.py": {
+        "sha256": "655458f05815621d015984080169663d2310d26e588a83e2c5a62549ba5a1ae8",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/optimal_weight.py": {
+        "sha256": "47632d98ed256b2364a2ac99de64780e0cd8d42a69c68b4552c6ea0564f86ba4",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/rm_core.py": {
+        "sha256": "4d3ee3f59c569233a5e9a9ed8ffd3032364188545bac04a0cc619ccac39e04e0",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/standardization.py": {
+        "sha256": "cc8cb146d28ea63be86bc11db6cc6c345fbf5fd412055e2e58a33a40f3e8936b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/statistic.py": {
+        "sha256": "f0baf1d99ac4311ca854d350f18a3d3416974bf5d13e662d05149f87183d92ef",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/theta_selection.py": {
+        "sha256": "23eba50e85d0db917d14b4d3d844c42e5ee566dfd326a0fad7feae0dd113f40b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/utils.py": {
+        "sha256": "8a3e0b972da519b3c39ca0e0326953dbae1bf048845c05c1fb3a23a001b72717",
+        "git_state": "committed"
+      }
+    },
+    "code_all_committed": true
+  },
+  "manuscript": {
+    "path": "paper_latex_v15.zip",
+    "sha256": "1d52f85a9aeed19b08f5c9e4fc69ff34ce4f39cacfef703314dcc55d2786144b",
+    "bytes": 155686
+  },
+  "reference_v14": {
+    "path": "paper_latex_v14.zip",
+    "sha256": "3b21e2250002dee66780027d49ea3458d33f4ee481f042b4fe6a43a301d7a12b",
+    "bytes": 157334
+  },
+  "reading": "protocol_audit14.md, lecturas 9 y 10",
+  "claims": {
+    "sec5_calib_out": {
+      "changelog_row": "Cifras: sec5 \u00a75.2",
+      "file": "v15/sec5_montecarlo.tex",
+      "line": 75,
+      "line_end": 75,
+      "span": [
+        4141,
+        4214
+      ],
+      "found": true,
+      "quote": "region, $0.0544$ at $n = 60$ in the constant case, is $0.14$ points above",
+      "source": "e_calib_audit13.json approximation_cost.60.size_with_cv_at_n; exact_region_20000",
+      "numbers": [
+        {
+          "printed": "0.0544",
+          "value": 0.05445,
+          "conventions": [
+            "binaria"
+          ],
+          "bound": null,
+          "bound_holds": true,
+          "verdict": "reproduce",
+          "correct": null
+        },
+        {
+          "printed": "0.14",
+          "value": 0.13999999999999985,
+          "conventions": [
+            "binaria",
+            "mitad hacia arriba"
+          ],
+          "bound": null,
+          "bound_holds": true,
+          "verdict": "reproduce",
+          "correct": null
+        }
+      ],
+      "checks": [
+        {
+          "check": "unica celda calibrada fuera",
+          "holds": true
+        }
+      ],
+      "all_reproduced": true
+    },
+    "sec5_lp_se": {
+      "changelog_row": "Cifras: sec5, nota de tab:localpower",
+      "file": "v15/sec5_montecarlo.tex",
+      "line": 141,
+      "line_end": 142,
+      "span": [
+        7024,
+        7072
+      ],
+      "found": true,
+      "quote": "Monte Carlo standard errors are at most $0.0036$",
+      "source": "b92_theta_audit9.json local_power (EE binomial con N = 2e4)",
+      "numbers": [
+        {
+          "printed": "0.0036",
+          "value": 0.0035355146548982086,
+          "conventions": [
+            "hacia arriba (cota)"
+          ],
+          "bound": "upper",
+          "bound_holds": true,
+          "verdict": "reproduce como cota",
+          "correct": null
+        }
+      ],
+      "checks": [],
+      "all_reproduced": true
+    },
+    "sec5_dgp5b": {
+      "changelog_row": "Cifras: sec5 \u00a75.11",
+      "file": "v15/sec5_montecarlo.tex",
+      "line": 573,
+      "line_end": 574,
+      "span": [
+        27962,
+        28109
+      ],
+      "found": true,
+      "quote": "exceeds the two-channel statistic by $19$ to $29$ points in the rows of \\cref{tab:dgp5} and by at least $7.9$ points in every cell of the full grid",
+      "source": "e_dgp5_audit13.json cells; a7_joint_alpha_star",
+      "numbers": [
+        {
+          "printed": "19",
+          "value": 19.399999999999995,
+          "conventions": [
+            "binaria",
+            "mitad hacia arriba"
+          ],
+          "bound": null,
+          "bound_holds": true,
+          "verdict": "reproduce",
+          "correct": null
+        },
+        {
+          "printed": "29",
+          "value": 28.550000000000004,
+          "conventions": [
+            "binaria",
+            "mitad hacia arriba"
+          ],
+          "bound": null,
+          "bound_holds": true,
+          "verdict": "reproduce",
+          "correct": null
+        },
+        {
+          "printed": "7.9",
+          "value": 7.950000000000001,
+          "conventions": [
+            "hacia abajo (cota)"
+          ],
+          "bound": "lower",
+          "bound_holds": true,
+          "verdict": "reproduce como cota",
+          "correct": null
+        }
+      ],
+      "checks": [
+        {
+          "check": "supera al bootstrap para r >= 1.5",
+          "holds": true
+        },
+        {
+          "check": "supera a la union para r <= 1.25",
+          "holds": true
+        },
+        {
+          "check": "la union domina en el interior",
+          "holds": true
+        }
+      ],
+      "all_reproduced": true
+    },
+    "sec5_serial2": {
+      "changelog_row": "Cifras: sec5 \u00a75.6",
+      "file": "v15/sec5_montecarlo.tex",
+      "line": 300,
+      "line_end": 305,
+      "span": [
+        14195,
+        14548
+      ],
+      "found": true,
+      "quote": "Over the $36$ cells its size ranges from $0.013$ to $0.098$, against $0.004$ to $0.570$ for \\RMGLS{}, and at $\\psi = -0.8$ and $n = 200$ it rejects $0.026$ and $0.032$ in the two cases. MSB-GLS and MZ$_t$-GLS with their own simulated critical values are within $0.6$ points of it; DF-GLS over-rejects moderately (up to $0.142$), ADF more (up to $0.679$)",
+      "source": "bA_ma_audit12.json size (36 celdas, bloque iid); max |MSB o MZ_t - (b)| sobre las celdas: ma_m0p8 n = 500 c",
+      "numbers": [
+        {
+          "printed": "36",
+          "value": 36,
+          "conventions": [
+            "binaria",
+            "mitad hacia arriba"
+          ],
+          "bound": null,
+          "bound_holds": true,
+          "verdict": "reproduce",
+          "correct": null
+        },
+        {
+          "printed": "0.013",
+          "value": 0.01335,
+          "conventions": [
+            "binaria",
+            "mitad hacia arriba"
+          ],
+          "bound": null,
+          "bound_holds": true,
+          "verdict": "reproduce",
+          "correct": null
+        },
+        {
+          "printed": "0.098",
+          "value": 0.09805,
+          "conventions": [
+            "binaria",
+            "mitad hacia arriba"
+          ],
+          "bound": null,
+          "bound_holds": true,
+          "verdict": "reproduce",
+          "correct": null
+        },
+        {
+          "printed": "0.004",
+          "value": 0.00415,
+          "conventions": [
+            "binaria",
+            "mitad hacia arriba"
+          ],
+          "bound": null,
+          "bound_holds": true,
+          "verdict": "reproduce",
+          "correct": null
+        },
+        {
+          "printed": "0.570",
+          "value": 0.56955,
+          "conventions": [
+            "binaria",
+            "mitad hacia arriba"
+          ],
+          "bound": null,
+          "bound_holds": true,
+          "verdict": "reproduce",
+          "correct": null
+        },
+        {
+          "printed": "0.026",
+          "value": 0.0257,
+          "conventions": [
+            "binaria",
+            "mitad hacia arriba"
+          ],
+          "bound": null,
+          "bound_holds": true,
+          "verdict": "reproduce",
+          "correct": null
+        },
+        {
+          "printed": "0.032",
+          "value": 0.032,
+          "conventions": [
+            "binaria",
+            "mitad hacia arriba"
+          ],
+          "bound": null,
+          "bound_holds": true,
+          "verdict": "reproduce",
+          "correct": null
+        },
+        {
+          "printed": "0.6",
+          "value": 0.5749999999999998,
+          "conventions": [
+            "binaria",
+            "mitad hacia arriba"
+          ],
+          "bound": "upper",
+          "bound_holds": true,
+          "verdict": "reproduce",
+          "correct": null
+        },
+        {
+          "printed": "0.142",
+          "value": 0.14175,
+          "conventions": [
+            "binaria",
+            "mitad hacia arriba"
+          ],
+          "bound": null,
+          "bound_holds": true,
+          "verdict": "reproduce",
+          "correct": null
+        },
+        {
+          "printed": "0.679",
+          "value": 0.6786,
+          "conventions": [
+            "binaria",
+            "mitad hacia arriba"
+          ],
+          "bound": null,
+          "bound_holds": true,
+          "verdict": "reproduce",
+          "correct": null
+        }
+      ],
+      "checks": [
+        {
+          "check": "PP rechaza casi siempre a psi = -0.8 (min 0.985)",
+          "holds": true
+        }
+      ],
+      "all_reproduced": true
+    },
+    "sec3_within": {
+      "changelog_row": "Cifras: sec3, Observaci\u00f3n del ancla",
+      "file": "v15/sec3_theory.tex",
+      "line": 70,
+      "line_end": 71,
+      "span": [
+        3394,
+        3520
+      ],
+      "found": true,
+      "quote": "to within $5.3\\times10^{-4}$ for $n \\geq 200$, whereas the first-order term $1/2 - \\kappa(\\cbar)/n$ gives $0.302$ at $n = 200$",
+      "source": "bF_anchor_audit12.json gate.worst (max |formula - exacta|, n >= 200); rows.200.first_order_A11",
+      "numbers": [
+        {
+          "printed": "5.3",
+          "value": 5.316447180958028,
+          "conventions": [
+            "binaria",
+            "mitad hacia arriba",
+            "cota superior incumplida"
+          ],
+          "bound": "upper",
+          "bound_holds": false,
+          "verdict": "no reproduce",
+          "correct": "5.4"
+        },
+        {
+          "printed": "0.302",
+          "value": 0.30166666666666664,
+          "conventions": [
+            "binaria",
+            "mitad hacia arriba"
+          ],
+          "bound": null,
+          "bound_holds": true,
+          "verdict": "reproduce",
+          "correct": null
+        }
+      ],
+      "checks": [],
+      "all_reproduced": false
+    },
+    "sec4_mcnemar": {
+      "changelog_row": "Cifras: sec4 \u00a74.2",
+      "file": "v15/sec4_implementation.tex",
+      "line": 56,
+      "line_end": 60,
+      "span": [
+        3327,
+        3587
+      ],
+      "found": true,
+      "quote": "(McNemar $p < 0.05$) in 12 of the 23 cells in which at least one of the two rejects with probability strictly between $0$ and $0.99$, and lower power in 2, by at most $0.4$ points; under a variance break with the null true it is less distorted in 5 of 12 cells",
+      "source": "b103_equalized_audit10.json cells.<celda>.mcnemar_primary_vs_sim.gls_t0 y rates_sim; al menos uno de theta 0 y theta 0.02 rechaza con probabilidad estrictamente entre 0 y 0.99",
+      "numbers": [
+        {
+          "printed": "12",
+          "value": 12,
+          "conventions": [
+            "binaria",
+            "mitad hacia arriba"
+          ],
+          "bound": null,
+          "bound_holds": true,
+          "verdict": "reproduce",
+          "correct": null
+        },
+        {
+          "printed": "23",
+          "value": 23,
+          "conventions": [
+            "binaria",
+            "mitad hacia arriba"
+          ],
+          "bound": null,
+          "bound_holds": true,
+          "verdict": "reproduce",
+          "correct": null
+        },
+        {
+          "printed": "0",
+          "value": 0,
+          "conventions": [
+            "binaria",
+            "mitad hacia arriba"
+          ],
+          "bound": null,
+          "bound_holds": true,
+          "verdict": "reproduce",
+          "correct": null
+        },
+        {
+          "printed": "0.99",
+          "value": 0.99,
+          "conventions": [
+            "binaria",
+            "mitad hacia arriba"
+          ],
+          "bound": null,
+          "bound_holds": true,
+          "verdict": "reproduce",
+          "correct": null
+        },
+        {
+          "printed": "2",
+          "value": 2,
+          "conventions": [
+            "binaria",
+            "mitad hacia arriba"
+          ],
+          "bound": null,
+          "bound_holds": true,
+          "verdict": "reproduce",
+          "correct": null
+        },
+        {
+          "printed": "0.4",
+          "value": 0.40000000000000036,
+          "conventions": [
+            "binaria",
+            "mitad hacia arriba"
+          ],
+          "bound": "upper",
+          "bound_holds": true,
+          "verdict": "reproduce",
+          "correct": null
+        },
+        {
+          "printed": "5",
+          "value": 5,
+          "conventions": [
+            "binaria",
+            "mitad hacia arriba"
+          ],
+          "bound": null,
+          "bound_holds": true,
+          "verdict": "reproduce",
+          "correct": null
+        },
+        {
+          "printed": "12",
+          "value": 12,
+          "conventions": [
+            "binaria",
+            "mitad hacia arriba"
+          ],
+          "bound": null,
+          "bound_holds": true,
+          "verdict": "reproduce",
+          "correct": null
+        }
+      ],
+      "checks": [
+        {
+          "check": "ninguna celda de DGP 3 mas distorsionada",
+          "holds": true
+        },
+        {
+          "check": "mismo conjunto de celdas que la definicion de B13.Q",
+          "holds": true
+        }
+      ],
+      "all_reproduced": true
+    },
+    "sec5_negative": {
+      "changelog_row": "Cifras retiradas: sec5 \u00a75.12",
+      "file": "v15/sec5_montecarlo.tex",
+      "line": 602,
+      "line_end": 609,
+      "span": [
+        29212,
+        29775
+      ],
+      "found": true,
+      "quote": "dropping it changes size by at most $0.1$ points in any of the null cells examined under Gaussian, heavy-tailed and GARCH innovations. Second, a signal-proportional weight between the two channels concentrated at zero under the null and handed control to the mean channel; rebalancing the channels to a common scale lowered power by $14$ to $28$ points. Third, measuring the rolling means from their own average rather than from the GLS anchor costs $24.8$ points of local power at $c = 10$, measured with $\\theta = 0.1$; the centered statistic lies $33.4$ points",
+      "source": "t5_claims_audit11.json claims.1 (b2_size_audit8), claims.2 (adaptive_size_power_audit5b), claims.3 (A8 B4)",
+      "numbers": [
+        {
+          "printed": "0.1",
+          "value": 0.10000000000000009,
+          "conventions": [
+            "binaria",
+            "mitad hacia arriba"
+          ],
+          "bound": "upper",
+          "bound_holds": true,
+          "verdict": "reproduce",
+          "correct": null
+        },
+        {
+          "printed": "14",
+          "value": 14.360000000000001,
+          "conventions": [
+            "binaria",
+            "mitad hacia arriba"
+          ],
+          "bound": null,
+          "bound_holds": true,
+          "verdict": "reproduce",
+          "correct": null
+        },
+        {
+          "printed": "28",
+          "value": 27.740000000000002,
+          "conventions": [
+            "binaria",
+            "mitad hacia arriba"
+          ],
+          "bound": null,
+          "bound_holds": true,
+          "verdict": "reproduce",
+          "correct": null
+        },
+        {
+          "printed": "24.8",
+          "value": 24.784999999999997,
+          "conventions": [
+            "binaria",
+            "mitad hacia arriba"
+          ],
+          "bound": null,
+          "bound_holds": true,
+          "verdict": "reproduce",
+          "correct": null
+        },
+        {
+          "printed": "33.4",
+          "value": 33.355,
+          "conventions": [
+            "binaria",
+            "mitad hacia arriba"
+          ],
+          "bound": null,
+          "bound_holds": true,
+          "verdict": "reproduce",
+          "correct": null
+        }
+      ],
+      "checks": [],
+      "all_reproduced": true
+    },
+    "dev_ncal": {
+      "changelog_row": "Cifras retiradas: sec6, nota de tab:deviations",
+      "file": "v15/sec6_application.tex",
+      "line": 146,
+      "line_end": 147,
+      "span": [
+        7429,
+        7489
+      ],
+      "found": true,
+      "quote": "raising it to $5\\times10^4$ left its 13 detections unchanged",
+      "source": "real_data_comparison_audit5b.json summary.a1_50k.detections.ours (N_cal 5e4) frente a summary.a1_10k.detections.ours (N_cal 1e4); piloto alpha(1)",
+      "numbers": [
+        {
+          "printed": "13",
+          "value": 13,
+          "conventions": [
+            "binaria",
+            "mitad hacia arriba"
+          ],
+          "bound": null,
+          "bound_holds": true,
+          "verdict": "reproduce",
+          "correct": null
+        }
+      ],
+      "checks": [
+        {
+          "check": "detecciones sin cambio de N_cal 1e4 a 5e4",
+          "holds": true
+        }
+      ],
+      "all_reproduced": true
+    },
+    "appA_hacrate": {
+      "changelog_row": "Cifras retiradas: appA, rem:hacrate",
+      "file": "v15/appA_proofs.tex",
+      "line": 148,
+      "line_end": 149,
+      "span": [
+        7482,
+        7605
+      ],
+      "found": true,
+      "quote": "tracks \\cref{eq:bartlettidentity} increasingly closely as $n$ grows, and the selected bandwidth grows at the rate $n^{1/3}$",
+      "source": "frase cualitativa sin cifra; B14.2 (iii) y (iv) localizan sus insumos",
+      "numbers": [],
+      "checks": [],
+      "all_reproduced": true
+    }
+  },
+  "templates_not_found": [],
+  "not_reproduced": [
+    {
+      "claim": "sec3_within",
+      "file": "v15/sec3_theory.tex",
+      "line": 70,
+      "printed": "5.3",
+      "value": 5.316447180958028,
+      "conventions": [
+        "binaria",
+        "mitad hacia arriba",
+        "cota superior incumplida"
+      ],
+      "bound": "upper",
+      "bound_holds": false,
+      "verdict": "no reproduce",
+      "correct": "5.4"
+    }
+  ],
+  "failed_checks": [],
+  "sec42": {
+    "cells": [
+      "dgp1_rho0p93_n200",
+      "dgp1_rho0p95_n200",
+      "dgp1_rho0p97_n200",
+      "dgp1_rho0p97_n500",
+      "dgp1_rho0p99_n200",
+      "dgp1_rho0p99_n500",
+      "dgp1_rho0p99_n1000",
+      "dgp2_delta0_n200",
+      "dgp2_delta0p5_n200",
+      "dgp2_delta1_n200",
+      "dgp2_delta2_n200",
+      "dgp2_delta2_n500",
+      "dgp2_delta3_n200",
+      "dgp2_delta3_n500",
+      "dgp2_delta3_n1000",
+      "ct_power_rho0p9_n200",
+      "ct_power_rho0p95_n200",
+      "ct_power_rho0p95_n500",
+      "ct_power_rho0p97_n200",
+      "ct_power_rho0p97_n500",
+      "ct_power_rho0p99_n200",
+      "ct_power_rho0p99_n500",
+      "ct_power_rho0p99_n1000"
+    ],
+    "higher": [
+      "dgp1_rho0p93_n200",
+      "dgp1_rho0p95_n200",
+      "dgp1_rho0p97_n200",
+      "dgp1_rho0p97_n500",
+      "dgp1_rho0p99_n500",
+      "dgp1_rho0p99_n1000",
+      "dgp2_delta0_n200",
+      "dgp2_delta0p5_n200",
+      "dgp2_delta2_n500",
+      "dgp2_delta3_n1000",
+      "ct_power_rho0p95_n500",
+      "ct_power_rho0p97_n500"
+    ],
+    "lower": [
+      "dgp2_delta3_n500",
+      "ct_power_rho0p9_n200"
+    ],
+    "max_lower_pp": 0.40000000000000036,
+    "less_distorted": [
+      "dgp3_r2_n200",
+      "dgp3_r3_n500",
+      "dgp3_r3_n1000",
+      "dgp3_r4_n200",
+      "dgp3_r4_n500"
+    ],
+    "more_distorted": [],
+    "dgp3": [
+      "dgp3_r1p5_n200",
+      "dgp3_r1p5_n500",
+      "dgp3_r1p5_n1000",
+      "dgp3_r2_n200",
+      "dgp3_r2_n500",
+      "dgp3_r2_n1000",
+      "dgp3_r3_n200",
+      "dgp3_r3_n500",
+      "dgp3_r3_n1000",
+      "dgp3_r4_n200",
+      "dgp3_r4_n500",
+      "dgp3_r4_n1000"
+    ],
+    "b13q_cells": [
+      "dgp1_rho0p93_n200",
+      "dgp1_rho0p95_n200",
+      "dgp1_rho0p97_n200",
+      "dgp1_rho0p97_n500",
+      "dgp1_rho0p99_n200",
+      "dgp1_rho0p99_n500",
+      "dgp1_rho0p99_n1000",
+      "dgp2_delta0_n200",
+      "dgp2_delta0p5_n200",
+      "dgp2_delta1_n200",
+      "dgp2_delta2_n200",
+      "dgp2_delta2_n500",
+      "dgp2_delta3_n200",
+      "dgp2_delta3_n500",
+      "dgp2_delta3_n1000",
+      "ct_power_rho0p9_n200",
+      "ct_power_rho0p95_n200",
+      "ct_power_rho0p95_n500",
+      "ct_power_rho0p97_n200",
+      "ct_power_rho0p97_n500",
+      "ct_power_rho0p99_n200",
+      "ct_power_rho0p99_n500",
+      "ct_power_rho0p99_n1000"
+    ],
+    "same_cells_as_b13q": true,
+    "only_v15": [],
+    "only_b13q": [],
+    "definition": "al menos uno de theta 0 y theta 0.02 rechaza con probabilidad estrictamente entre 0 y 0.99"
+  },
+  "attrib": {
+    "tab_attrib_audit13": {
+      "input_line": 268,
+      "sha256_v15": "d9ae3a12499055b4b47746dad621701853ee22c1a908d5d8d8c6a65c5117beaf",
+      "sha256_export": "d9ae3a12499055b4b47746dad621701853ee22c1a908d5d8d8c6a65c5117beaf",
+      "identical": true
+    },
+    "tab_attrib_note_audit13": {
+      "input_line": 270,
+      "sha256_v15": "c3a62c51726a082a221460b2d5f734b8a78ca46c50c850b4add5df55b132c41c",
+      "sha256_export": "c3a62c51726a082a221460b2d5f734b8a78ca46c50c850b4add5df55b132c41c",
+      "identical": true
+    },
+    "transcribed_block_left": false,
+    "passes": true
+  },
+  "changelog": {
+    "rows": {
+      "Cifras": [
+        [
+          "sec5 \u00a75.2",
+          "0.0544 \u00ab0.13 points above\u00bb la regi\u00f3n",
+          "\u00ab0.14 points above\u00bb",
+          "recalculado 0.05445 \u2212 0.0531"
+        ],
+        [
+          "sec5, nota de tab:localpower",
+          "EE \u00abat most 0.0035\u00bb",
+          "\u00abat most 0.0036\u00bb",
+          "m\u00e1ximo 0.00354"
+        ],
+        [
+          "sec5 \u00a75.11",
+          "\u00abat least 8 points\u00bb",
+          "\u00abat least 7.9 points\u00bb",
+          "m\u00ednimo 7.95"
+        ],
+        [
+          "sec5 \u00a75.6",
+          "MSB-GLS y MZ_t-GLS \u00abwithin half a point\u00bb de (b)",
+          "\u00abwithin 0.6 points\u00bb",
+          "m\u00e1ximo 0.57 pp (MA \u22120.8, n = 500, constante)"
+        ],
+        [
+          "sec3, Observaci\u00f3n del ancla",
+          "\u00abwithin 5.4\u00d710\u207b\u2074\u00bb",
+          "\u00abwithin 5.3\u00d710\u207b\u2074\u00bb",
+          "valor 5.32\u00d710\u207b\u2074"
+        ],
+        [
+          "tab:attrib",
+          "transcrita a mano (c = 5, columna (c): 0.275)",
+          "`\\input{tables/tab_attrib_audit13}` y nota `tab_attrib_note_audit13` exportadas (0.274)",
+          "doble redondeo en la transcripci\u00f3n"
+        ],
+        [
+          "sec4 \u00a74.2",
+          "\u00ab23 cells in which power is not saturated\u00bb",
+          "\u00ab23 cells in which at least one of the two rejects with probability strictly between 0 and 0.99\u00bb",
+          "definici\u00f3n que da 23 (B13.Q \u00a74)"
+        ]
+      ],
+      "Cifras retiradas por no tener JSON localizado (B13.Q)": [
+        [
+          "sec5 \u00a75.12",
+          "\u00ab(mean $0.003$)\u00bb del peso adaptativo",
+          "\u00abconcentrated at zero under the null\u00bb"
+        ],
+        [
+          "sec6, nota de tab:deviations",
+          "\u00abmoved its mean FP to $0.0301$\u00bb",
+          "\u00ableft its 13 detections unchanged\u00bb"
+        ],
+        [
+          "appA, `rem:hacrate`",
+          "6.9 %, 0.6 % y 0.333",
+          "descripci\u00f3n cualitativa y remisi\u00f3n al suplemento S4"
+        ]
+      ]
+    },
+    "row_map": [
+      {
+        "table": "Cifras",
+        "row": "sec5 \u00a75.2",
+        "claim": "sec5_calib_out"
+      },
+      {
+        "table": "Cifras",
+        "row": "sec5, nota de tab:localpower",
+        "claim": "sec5_lp_se"
+      },
+      {
+        "table": "Cifras",
+        "row": "sec5 \u00a75.11",
+        "claim": "sec5_dgp5b"
+      },
+      {
+        "table": "Cifras",
+        "row": "sec5 \u00a75.6",
+        "claim": "sec5_serial2"
+      },
+      {
+        "table": "Cifras",
+        "row": "sec3, Observaci\u00f3n del ancla",
+        "claim": "sec3_within"
+      },
+      {
+        "table": "Cifras",
+        "row": "tab:attrib",
+        "claim": "tab:attrib"
+      },
+      {
+        "table": "Cifras",
+        "row": "sec4 \u00a74.2",
+        "claim": "sec4_mcnemar"
+      },
+      {
+        "table": "Cifras retiradas",
+        "row": "sec5 \u00a75.12",
+        "claim": "sec5_negative"
+      },
+      {
+        "table": "Cifras retiradas",
+        "row": "sec6, nota de tab:deviations",
+        "claim": "dev_ncal"
+      },
+      {
+        "table": "Cifras retiradas",
+        "row": "appA, `rem:hacrate`",
+        "claim": "appA_hacrate"
+      }
+    ],
+    "rows_without_claim": []
+  },
+  "hunks": [
+    {
+      "file": "sec3_theory.tex",
+      "tag": "replace",
+      "v14_lines": [
+        70,
+        70
+      ],
+      "v15_lines": [
+        70,
+        70
+      ],
+      "v14_text": [
+        "above reproduces it to within $5.4\\times10^{-4}$ for $n \\geq 200$, whereas"
+      ],
+      "v15_text": [
+        "above reproduces it to within $5.3\\times10^{-4}$ for $n \\geq 200$, whereas"
+      ],
+      "assigned": "sec3_within"
+    },
+    {
+      "file": "sec4_implementation.tex",
+      "tag": "replace",
+      "v14_lines": [
+        57,
+        57
+      ],
+      "v15_lines": [
+        57,
+        58
+      ],
+      "v14_text": [
+        "cells in which power is not saturated and lower power in 2, by at most"
+      ],
+      "v15_text": [
+        "cells in which at least one of the two rejects with probability strictly",
+        "between $0$ and $0.99$, and lower power in 2, by at most"
+      ],
+      "assigned": "sec4_mcnemar"
+    },
+    {
+      "file": "sec5_montecarlo.tex",
+      "tag": "replace",
+      "v14_lines": [
+        75,
+        75
+      ],
+      "v15_lines": [
+        75,
+        75
+      ],
+      "v14_text": [
+        "region, $0.0544$ at $n = 60$ in the constant case, is $0.13$ points above"
+      ],
+      "v15_text": [
+        "region, $0.0544$ at $n = 60$ in the constant case, is $0.14$ points above"
+      ],
+      "assigned": "sec5_calib_out"
+    },
+    {
+      "file": "sec5_montecarlo.tex",
+      "tag": "replace",
+      "v14_lines": [
+        98,
+        98
+      ],
+      "v15_lines": [
+        98,
+        98
+      ],
+      "v14_text": [
+        "\\includegraphics[width=\\textwidth]{fig_calibration_gain_audit13}"
+      ],
+      "v15_text": [
+        "\\includegraphics[width=\\textwidth]{fig_calibration_gain_audit13q}"
+      ],
+      "assigned": "Figuras"
+    },
+    {
+      "file": "sec5_montecarlo.tex",
+      "tag": "replace",
+      "v14_lines": [
+        142,
+        142
+      ],
+      "v15_lines": [
+        142,
+        142
+      ],
+      "v14_text": [
+        "$0.0035$."
+      ],
+      "v15_text": [
+        "$0.0036$."
+      ],
+      "assigned": "sec5_lp_se"
+    },
+    {
+      "file": "sec5_montecarlo.tex",
+      "tag": "replace",
+      "v14_lines": [
+        149,
+        149
+      ],
+      "v15_lines": [
+        149,
+        149
+      ],
+      "v14_text": [
+        "\\includegraphics[width=\\textwidth]{fig_local_power_audit13}"
+      ],
+      "v15_text": [
+        "\\includegraphics[width=\\textwidth]{fig_local_power_audit13q}"
+      ],
+      "assigned": "Figuras"
+    },
+    {
+      "file": "sec5_montecarlo.tex",
+      "tag": "replace",
+      "v14_lines": [
+        158,
+        158
+      ],
+      "v15_lines": [
+        158,
+        158
+      ],
+      "v14_text": [
+        "\\includegraphics[width=\\textwidth]{fig_theta_ladder_audit13}"
+      ],
+      "v15_text": [
+        "\\includegraphics[width=\\textwidth]{fig_theta_ladder_audit13q}"
+      ],
+      "assigned": "Figuras"
+    },
+    {
+      "file": "sec5_montecarlo.tex",
+      "tag": "replace",
+      "v14_lines": [
+        224,
+        224
+      ],
+      "v15_lines": [
+        224,
+        224
+      ],
+      "v14_text": [
+        "\\includegraphics[width=\\textwidth]{fig_power_equalized_audit13}"
+      ],
+      "v15_text": [
+        "\\includegraphics[width=\\textwidth]{fig_power_equalized_audit13q}"
+      ],
+      "assigned": "Figuras"
+    },
+    {
+      "file": "sec5_montecarlo.tex",
+      "tag": "replace",
+      "v14_lines": [
+        268,
+        299
+      ],
+      "v15_lines": [
+        268,
+        270
+      ],
+      "v14_text": [
+        "% TRANSCRIBED from resultados_auditoria_12.md, Tables B.1--B.3",
+        "% (bB_attrib_audit12.json). To be replaced by the exported tabular (B13.Q).",
+        "\\begin{tabular}{lccccccc}",
+        "\\toprule",
+        "& (a) HAC & (b) $s^2_{\\mathrm{AR}}$ & (b$'$) $s^2_{\\mathrm{AR}}$, PQ & (c) MSB-GLS, asy. & (a)$-$(b$'$) & (b$'$)$-$(b) & (b$'$)$-$(c)\\\\",
+        "\\midrule",
+        "\\multicolumn{8}{l}{\\emph{Power, constant case, $n = 200$}}\\\\",
+        "$\\rho = 0.80$ & 1.000 & 0.947 & 0.954 & 0.941 & +4.64 & +0.62 & +1.22 \\\\",
+        "$\\rho = 0.90$ & 0.993 & 0.924 & 0.931 & 0.914 & +6.22 & +0.72 & +1.70 \\\\",
+        "$\\rho = 0.93$ & 0.910 & 0.840 & 0.847 & 0.816 & +6.32 & +0.72 & +3.08 \\\\",
+        "$\\rho = 0.95$ & 0.708 & 0.659 & 0.668 & 0.628 & +4.04 & +0.90 & +3.96 \\\\",
+        "$\\rho = 0.97$ & 0.386 & 0.367 & 0.373 & 0.345 & +1.34 & +0.62 & +2.76 \\\\",
+        "\\multicolumn{8}{l}{\\emph{Mean over the values of $\\rho$, percentage points (s.e.)}}\\\\",
+        "Constant, $n = 200$ (7) & & & & & +4.06 (0.14) & +0.52 (0.08) & +2.09 (0.09)\\\\",
+        "Constant, $n = 500$ (7) & & & & & +0.45 (0.06) & +0.07 (0.03) & +0.69 (0.05)\\\\",
+        "Constant, $n = 1000$ (7) & & & & & +0.10 (0.04) & +0.03 (0.02) & +0.51 (0.04)\\\\",
+        "Trend, $n = 200$ (4) & & & & & +1.68 (0.19) & +0.74 (0.12) & +8.12 (0.19)\\\\",
+        "Trend, $n = 500$ (4) & & & & & +1.86 (0.15) & +0.30 (0.07) & +4.56 (0.15)\\\\",
+        "\\multicolumn{8}{l}{\\emph{Local power, constant case, $n = 2000$}}\\\\",
+        "$c = 5$  & 0.295 & 0.290 & 0.298 & 0.275 & $-$0.33 & +0.80 & +2.38 \\\\",
+        "$c = 10$ & 0.724 & 0.720 & 0.729 & 0.695 & $-$0.43 & +0.86 & +3.33 \\\\",
+        "$c = 15$ & 0.958 & 0.955 & 0.958 & 0.947 & +0.01 & +0.30 & +1.13 \\\\",
+        "\\bottomrule",
+        "\\end{tabular}}",
+        "\\par\\medskip\\begin{minipage}{\\textwidth}\\footnotesize Power at $n = 200$",
+        "and $500$: 5000 common paths per cell; local power: $2\\times10^4$ paths.",
+        "PQ: lag selected on OLS-detrended data \\citep{perron2007simple}.",
+        "Differences in percentage points; standard errors are for paired",
+        "differences. Means of (a)$-$(b): $4.59$ (0.15), $0.52$ (0.06) and $0.13$",
+        "(0.04) in the constant case at $n = 200$, $500$ and $1000$; $2.43$ (0.20)",
+        "and $2.16$ (0.16) in the trend case at $n = 200$ and $500$. Means of",
+        "(b)$-$(c): $1.57$, $0.61$ and $0.48$; $7.38$ and $4.26$."
+      ],
+      "v15_text": [
+        "\\input{tables/tab_attrib_audit13}}",
+        "\\par\\medskip\\begin{minipage}{\\textwidth}\\footnotesize",
+        "\\input{tables/tab_attrib_note_audit13}"
+      ],
+      "assigned": "tab:attrib"
+    },
+    {
+      "file": "sec5_montecarlo.tex",
+      "tag": "replace",
+      "v14_lines": [
+        332,
+        333
+      ],
+      "v15_lines": [
+        303,
+        304
+      ],
+      "v14_text": [
+        "MZ$_t$-GLS with their own simulated critical values are within half a",
+        "point of it; DF-GLS over-rejects moderately (up to $0.142$), ADF more (up"
+      ],
+      "v15_text": [
+        "MZ$_t$-GLS with their own simulated critical values are within $0.6$",
+        "points of it; DF-GLS over-rejects moderately (up to $0.142$), ADF more (up"
+      ],
+      "assigned": "sec5_serial2"
+    },
+    {
+      "file": "sec5_montecarlo.tex",
+      "tag": "replace",
+      "v14_lines": [
+        513,
+        513
+      ],
+      "v15_lines": [
+        484,
+        484
+      ],
+      "v14_text": [
+        "\\includegraphics[width=\\textwidth]{fig_dgp3_audit13}"
+      ],
+      "v15_text": [
+        "\\includegraphics[width=\\textwidth]{fig_dgp3_audit13q}"
+      ],
+      "assigned": "Figuras"
+    },
+    {
+      "file": "sec5_montecarlo.tex",
+      "tag": "replace",
+      "v14_lines": [
+        564,
+        564
+      ],
+      "v15_lines": [
+        535,
+        535
+      ],
+      "v14_text": [
+        "\\includegraphics[width=\\textwidth]{fig_size_shift_audit13}"
+      ],
+      "v15_text": [
+        "\\includegraphics[width=\\textwidth]{fig_size_shift_audit13q}"
+      ],
+      "assigned": "Figuras"
+    },
+    {
+      "file": "sec5_montecarlo.tex",
+      "tag": "replace",
+      "v14_lines": [
+        603,
+        603
+      ],
+      "v15_lines": [
+        574,
+        574
+      ],
+      "v14_text": [
+        "\\cref{tab:dgp5} and by at least $8$ points in every cell of the full grid,"
+      ],
+      "v15_text": [
+        "\\cref{tab:dgp5} and by at least $7.9$ points in every cell of the full grid,"
+      ],
+      "assigned": "sec5_dgp5b"
+    },
+    {
+      "file": "sec5_montecarlo.tex",
+      "tag": "replace",
+      "v14_lines": [
+        634,
+        634
+      ],
+      "v15_lines": [
+        605,
+        605
+      ],
+      "v14_text": [
+        "under the null (mean $0.003$) and handed control to the mean channel;"
+      ],
+      "v15_text": [
+        "under the null and handed control to the mean channel;"
+      ],
+      "assigned": "sec5_negative"
+    },
+    {
+      "file": "sec6_application.tex",
+      "tag": "replace",
+      "v14_lines": [
+        146,
+        147
+      ],
+      "v15_lines": [
+        146,
+        147
+      ],
+      "v14_text": [
+        "$\\ncal = 10^4$; raising it to $5\\times10^4$ moved its mean FP to",
+        "$0.0301$ with the same 13 detections."
+      ],
+      "v15_text": [
+        "$\\ncal = 10^4$; raising it to $5\\times10^4$ left its 13 detections",
+        "unchanged."
+      ],
+      "assigned": "dev_ncal"
+    },
+    {
+      "file": "appA_proofs.tex",
+      "tag": "replace",
+      "v14_lines": [
+        148,
+        151
+      ],
+      "v15_lines": [
+        148,
+        150
+      ],
+      "v14_text": [
+        "$\\hacsig^2$ tracks \\cref{eq:bartlettidentity} with a relative deviation",
+        "falling from $6.9\\%$ at $n = 200$ to $0.6\\%$ at $n = 5000$, and the",
+        "selected bandwidth grows with slope $0.333$ in $\\log n$ before rounding;",
+        "the supplement reports these checks."
+      ],
+      "v15_text": [
+        "$\\hacsig^2$ tracks \\cref{eq:bartlettidentity} increasingly closely as",
+        "$n$ grows, and the selected bandwidth grows at the rate $n^{1/3}$; the",
+        "supplement reports these checks."
+      ],
+      "assigned": "appA_hacrate"
+    }
+  ],
+  "hunks_unassigned": [],
+  "coverage": {
+    "items": [
+      {
+        "file": "v15/sec3_theory.tex",
+        "line": 70,
+        "token": "5.3",
+        "status": "cubierta",
+        "reason": "sec3_within",
+        "context": "0$; the expression above reproduces it to within $5.3\\times10^{-4}$ for $n \\geq 200"
+      },
+      {
+        "file": "v15/sec4_implementation.tex",
+        "line": 58,
+        "token": "0.99",
+        "status": "cubierta",
+        "reason": "sec4_mcnemar",
+        "context": "ejects with probability strictly between $0$ and $0.99$, and lower power in 2, by at"
+      },
+      {
+        "file": "v15/sec5_montecarlo.tex",
+        "line": 75,
+        "token": "0.0544",
+        "status": "cubierta",
+        "reason": "sec5_calib_out",
+        "context": " calibrated cell of \\RMGLS{} outside the region, $0.0544$ at $n = 60$ in the constant "
+      },
+      {
+        "file": "v15/sec5_montecarlo.tex",
+        "line": 75,
+        "token": "0.14",
+        "status": "cubierta",
+        "reason": "sec5_calib_out",
+        "context": "n, $0.0544$ at $n = 60$ in the constant case, is $0.14$ points above it. \\begin{tab"
+      },
+      {
+        "file": "v15/sec5_montecarlo.tex",
+        "line": 142,
+        "token": "0.0036",
+        "status": "cubierta",
+        "reason": "sec5_lp_se",
+        "context": ":theta}. Monte Carlo standard errors are at most $0.0036$. \\end{tablenotes} \\end{three"
+      },
+      {
+        "file": "v15/sec5_montecarlo.tex",
+        "line": 303,
+        "token": "0.6",
+        "status": "cubierta",
+        "reason": "sec5_serial2",
+        "context": "h their own simulated critical values are within $0.6$ points of it; DF-GLS over-re"
+      },
+      {
+        "file": "v15/sec5_montecarlo.tex",
+        "line": 304,
+        "token": "0.142",
+        "status": "cubierta",
+        "reason": "sec5_serial2",
+        "context": "nts of it; DF-GLS over-rejects moderately (up to $0.142$), ADF more (up to $0.679$), "
+      },
+      {
+        "file": "v15/sec5_montecarlo.tex",
+        "line": 574,
+        "token": "7.9",
+        "status": "cubierta",
+        "reason": "sec5_dgp5b",
+        "context": "s in the rows of \\cref{tab:dgp5} and by at least $7.9$ points in every cell of the "
+      }
+    ],
+    "counts": {
+      "cubierta": 8,
+      "diseno": 0,
+      "no verificada": 0
+    }
+  },
+  "retired": {
+    "mean $0.003$": [],
+    "0.003": [],
+    "0.0301": [],
+    "6.9": [],
+    "0.6 %": [],
+    "0.333": [],
+    "0.6 (cualquier contexto)": [
+      {
+        "file": "v15/sec5_montecarlo.tex",
+        "line": 303,
+        "in_comment": false,
+        "context": "t$-GLS with their own simulated critical values are within $0.6$ points of it; DF-GLS over-rejects mode"
+      }
+    ]
+  },
+  "retired_absent": true,
+  "phrases": {
+    "hits": [
+      {
+        "pattern": "two-channel",
+        "file": "v15/main.tex",
+        "line": 103,
+        "zone": "main",
+        "match": "two-channel",
+        "context": "ulated finite-sample critical values. A smoothed variant of the statistic and a two-channel extension, both evaluated under pre-registered rules, are reported as negative ",
+        "rule": "corregida",
+        "cls": "N",
+        "class_label": "resultados negativos",
+        "justification": "resumen: la extension de dos canales se reporta como resultado negativo",
+        "status": "permitida"
+      },
+      {
+        "pattern": "rolling means",
+        "file": "v15/sec1_introduction.tex",
+        "line": 38,
+        "zone": "1",
+        "match": "rolling means",
+        "context": " what the measurements removed. An earlier design measured the second moment of rolling means of the detrended series over a window of fraction $\\theta$ of the sample, combi",
+        "rule": "corregida",
+        "cls": "D",
+        "class_label": "diseno original o estadistico registrado",
+        "justification": "sujeto 'An earlier design'",
+        "status": "permitida"
+      },
+      {
+        "pattern": "rolling means",
+        "file": "v15/sec1_introduction.tex",
+        "line": 41,
+        "zone": "1",
+        "match": "rolling means",
+        "context": "nel built from rolling variances, weighted the two adaptively, and anchored the rolling means at the sample mean rather than at the GLS estimate. A pre-registered experiment",
+        "rule": "corregida",
+        "cls": "D",
+        "class_label": "diseno original o estadistico registrado",
+        "justification": "misma frase: el diseno anterior anclaba en la media",
+        "status": "permitida"
+      },
+      {
+        "pattern": "two-channel",
+        "file": "v15/sec1_introduction.tex",
+        "line": 43,
+        "zone": "1",
+        "match": "two-channel",
+        "context": "S estimate. A pre-registered experiment returned its falsifying outcome for the two-channel design (\\cref{sec:dgp5}); the adaptive weight concentrated at zero under the nu",
+        "rule": "corregida",
+        "cls": "N",
+        "class_label": "resultados negativos",
+        "justification": "experimento registrado con resultado falsador",
+        "status": "permitida"
+      },
+      {
+        "pattern": "rolling means",
+        "file": "v15/sec2_statistic.tex",
+        "line": 37,
+        "zone": "2.2",
+        "match": "rolling means",
+        "context": "tion $\\theta \\in [0, 1/2]$ let $\\tau = \\mathrm{round}(\\theta n)$ and define the rolling means of the detrended series, \\begin{equation}\\label{eq:rollmean} \\rmean_k = \\frac{1",
+        "rule": "corregida",
+        "cls": "G",
+        "class_label": "prueba general en theta",
+        "justification": "definicion de la familia S_theta, theta in [0, 1/2] (eq:rollmean, eq:stat)",
+        "status": "permitida"
+      },
+      {
+        "pattern": "rolling means",
+        "file": "v15/sec3_theory.tex",
+        "line": 130,
+        "zone": "3.3",
+        "match": "rolling means",
+        "context": "\\rw_0 + O_p(n^{-1})$ under stationarity, so the uncentered second moment of the rolling means is bounded by $2(\\rw_0 - \\mu)^2$ plus the mean-square fluctuation of stationary",
+        "rule": "corregida",
+        "cls": "G",
+        "class_label": "prueba general en theta",
+        "justification": "argumento de consistencia del numerador de eq:stat (theta general)",
+        "status": "permitida"
+      },
+      {
+        "pattern": "rolling means",
+        "file": "v15/sec3_theory.tex",
+        "line": 132,
+        "zone": "3.3",
+        "match": "rolling means",
+        "context": "is bounded by $2(\\rw_0 - \\mu)^2$ plus the mean-square fluctuation of stationary rolling means. The denominator diverges: the first differences of a stationary process are ov",
+        "rule": "corregida",
+        "cls": "G",
+        "class_label": "prueba general en theta",
+        "justification": "misma frase del argumento general",
+        "status": "permitida"
+      },
+      {
+        "pattern": "theta = 0.02",
+        "file": "v15/sec4_implementation.tex",
+        "line": 37,
+        "zone": "4.2",
+        "match": "\\theta = 0.02",
+        "context": " $0.631$ and $0.601$ for the five values in increasing order; $\\theta = 0$ and $\\theta = 0.02$ tied, and the rule selected $\\theta = 0.02$. The rule was amended once, and w",
+        "rule": "B13.Q",
+        "status": "permitida"
+      },
+      {
+        "pattern": "theta = 0.02",
+        "file": "v15/sec4_implementation.tex",
+        "line": 38,
+        "zone": "4.2",
+        "match": "\\theta = 0.02",
+        "context": "increasing order; $\\theta = 0$ and $\\theta = 0.02$ tied, and the rule selected $\\theta = 0.02$. The rule was amended once, and we report the amendment. A first evaluation u",
+        "rule": "B13.Q",
+        "status": "permitida"
+      },
+      {
+        "pattern": "theta = 0.02",
+        "file": "v15/sec4_implementation.tex",
+        "line": 56,
+        "zone": "4.2",
+        "match": "\\theta = 0.02",
+        "context": "designs of \\cref{sec:power,sec:meanbreaks}, $\\theta = 0$ has higher power than $\\theta = 0.02$ (McNemar $p < 0.05$) in 12 of the 23 cells in which at least one of the two re",
+        "rule": "B13.Q",
+        "status": "permitida"
+      },
+      {
+        "pattern": "theta = 0.02",
+        "file": "v15/sec4_implementation.tex",
+        "line": 63,
+        "zone": "4.2",
+        "match": "\\theta = 0.02",
+        "context": " and $0.361$ in the constant and trend cases, against $0.531$ and $0.781$ with $\\theta = 0.02$. We therefore report the statistic without a window. This is a departure from ",
+        "rule": "B13.Q",
+        "status": "permitida"
+      },
+      {
+        "pattern": "theta = 0.02",
+        "file": "v15/sec4_implementation.tex",
+        "line": 65,
+        "zone": "4.2",
+        "match": "\\theta = 0.02",
+        "context": " selected by the registered rule, not a change of the rule: the rule's output, $\\theta = 0.02$, is reported here, lies within the rule's own tie margin of $\\theta = 0$, and ",
+        "rule": "B13.Q",
+        "status": "permitida"
+      },
+      {
+        "pattern": "rolling means",
+        "file": "v15/sec5_montecarlo.tex",
+        "line": 607,
+        "zone": "5.12",
+        "match": "rolling means",
+        "context": "ls to a common scale lowered power by $14$ to $28$ points. Third, measuring the rolling means from their own average rather than from the GLS anchor costs $24.8$ points of l",
+        "rule": "corregida",
+        "cls": "N",
+        "class_label": "resultados negativos",
+        "justification": "tercer resultado negativo de \u00a75.12",
+        "status": "permitida"
+      },
+      {
+        "pattern": "theta = 0.02",
+        "file": "v15/sec5_montecarlo.tex",
+        "line": 29,
+        "zone": "5.1",
+        "match": "\\theta = 0.02",
+        "context": "t above the exact region for $5\\times 10^4$ paths; the smoothed statistic with $\\theta = 0.02$ gives $0.0526$ on the same paths and an independent replication gives $0.0493$",
+        "rule": "B13.Q",
+        "status": "permitida"
+      },
+      {
+        "pattern": "theta = 0.02",
+        "file": "v15/sec5_montecarlo.tex",
+        "line": 122,
+        "zone": "5.3",
+        "match": "\\theta = 0.02",
+        "context": "re within $1.2$ points of the envelope throughout. The smoothed statistic with $\\theta = 0.02$ is lower by $0.3$ to $0.9$ points, and \\cref{fig:thetaladder} shows the gap gr",
+        "rule": "B13.Q",
+        "status": "permitida"
+      },
+      {
+        "pattern": "theta = 0.02",
+        "file": "v15/sec5_montecarlo.tex",
+        "line": 140,
+        "zone": "5.3",
+        "match": "\\theta = 0.02",
+        "context": " at $c = 0$; the last uses the asymptotic critical value of \\citet{ng2001lag}. $\\theta = 0.02$: the smoothed statistic of \\cref{sec:theta}. Monte Carlo standard errors are a",
+        "rule": "B13.Q",
+        "status": "permitida"
+      },
+      {
+        "pattern": "theta = 0.02",
+        "file": "v15/sec5_montecarlo.tex",
+        "line": 314,
+        "zone": "5.6",
+        "match": "\\theta = 0.02",
+        "context": " median of $s^2_{\\mathrm{AR}}/\\omega^2$ is $1.73$. The smoothed statistic with $\\theta = 0.02$ is worse still ($0.531$ and $0.781$ at $\\psi = -0.8$ and $n = 200$). \\begin{t",
+        "rule": "B13.Q",
+        "status": "permitida"
+      },
+      {
+        "pattern": "two-channel",
+        "file": "v15/sec5_montecarlo.tex",
+        "line": 542,
+        "zone": "5.11",
+        "match": "two-channel",
+        "context": "rs.} \\label{fig:sizeshift} \\end{figure} \\subsection{A pre-registered test of a two-channel extension}\\label{sec:dgp5} The statistic was originally one channel of a two-c",
+        "rule": "corregida",
+        "cls": "N",
+        "class_label": "resultados negativos",
+        "justification": "titulo de \u00a75.11 (resultado negativo registrado)",
+        "status": "permitida"
+      },
+      {
+        "pattern": "two-channel",
+        "file": "v15/sec5_montecarlo.tex",
+        "line": 544,
+        "zone": "5.11",
+        "match": "two-channel",
+        "context": "annel extension}\\label{sec:dgp5} The statistic was originally one channel of a two-channel construction whose second channel measured the variability of rolling variances",
+        "rule": "corregida",
+        "cls": "D",
+        "class_label": "diseno original o estadistico registrado",
+        "justification": "sujeto 'The statistic was originally'",
+        "status": "permitida"
+      },
+      {
+        "pattern": "two-channel",
+        "file": "v15/sec5_montecarlo.tex",
+        "line": 556,
+        "zone": "5.11",
+        "match": "two-channel",
+        "context": "t{sanso2004testing}, calibrated jointly. The registered prediction was that the two-channel statistic would exceed the union in the interior of the grid, $r \\in \\{2, 3\\}$;",
+        "rule": "corregida",
+        "cls": "N",
+        "class_label": "resultados negativos",
+        "justification": "prediccion registrada que fallo",
+        "status": "permitida"
+      },
+      {
+        "pattern": "two-channel",
+        "file": "v15/sec5_montecarlo.tex",
+        "line": 562,
+        "zone": "5.11",
+        "match": "two-channel",
+        "context": "s with probability $0.9985$ to $1.0000$ there, against $0.47$ to $0.90$ for the two-channel statistic. The variance channel carried between $0.4$ and $2.0$ per cent of the",
+        "rule": "corregida",
+        "cls": "N",
+        "class_label": "resultados negativos",
+        "justification": "potencia del estadistico de dos canales",
+        "status": "permitida"
+      },
+      {
+        "pattern": "two-channel",
+        "file": "v15/sec5_montecarlo.tex",
+        "line": 573,
+        "zone": "5.11",
+        "match": "two-channel",
+        "context": "one-channel \\RMGLS{} changes the magnitudes but not the verdict. It exceeds the two-channel statistic by $19$ to $29$ points in the rows of \\cref{tab:dgp5} and by at least",
+        "rule": "corregida",
+        "cls": "M",
+        "class_label": "afirma algo sobre MSB-B",
+        "justification": "sujeto 'It' = 'The one-channel \\RMGLS{}' de la frase anterior: afirma la ventaja de potencia de MSB-B sobre el estadistico de dos canales (dentro de \u00a75.11)",
+        "status": "informar"
+      },
+      {
+        "pattern": "two-channel",
+        "file": "v15/sec5_montecarlo.tex",
+        "line": 588,
+        "zone": "5.11",
+        "match": "Two-channel",
+        "context": "audit13} \\begin{tablenotes}\\footnotesize \\item $^\\dagger$Registered interior. ``Two-channel'': the original construction with fixed weight $0.5$ on each channel; $g_2$ sha",
+        "rule": "corregida",
+        "cls": "D",
+        "class_label": "diseno original o estadistico registrado",
+        "justification": "nota de tab:dgp5: define la columna del diseno original",
+        "status": "permitida"
+      },
+      {
+        "pattern": "theta = 0.02",
+        "file": "v15/sec6_application.tex",
+        "line": 123,
+        "zone": "6.2",
+        "match": "\\theta = 0.02",
+        "context": "33.8 \\to 29.7$ days \\\\ \\addlinespace Window & -- & $\\theta = 0$ instead of the $\\theta = 0.02$ selected by the registered rule of \\cref{sec:theta} & Mean FP $0.0229 \\to 0.",
+        "rule": "B13.Q",
+        "status": "excluida"
+      },
+      {
+        "pattern": "two-channel",
+        "file": "v15/sec6_application.tex",
+        "line": 34,
+        "zone": "6.1",
+        "match": "two-channel",
+        "context": " leaving 48 control cells and 88 event cells. The registered statistic was the two-channel construction with an adaptive weight. \\RMGLS{} was not in the registered protoc",
+        "rule": "corregida",
+        "cls": "D",
+        "class_label": "diseno original o estadistico registrado",
+        "justification": "estadistico registrado",
+        "status": "permitida"
+      },
+      {
+        "pattern": "two-channel",
+        "file": "v15/sec6_application.tex",
+        "line": 66,
+        "zone": "6.2",
+        "match": "two-channel",
+        "context": "LS{} exceeds a registered baseline in 7 of the 48 control cells. The registered two-channel statistic had fewer false-alarm episodes (11) and fewer detections (13), consis",
+        "rule": "corregida",
+        "cls": "D",
+        "class_label": "diseno original o estadistico registrado",
+        "justification": "sujeto: el estadistico registrado; la comparacion con MSB-B es implicita",
+        "status": "permitida"
+      },
+      {
+        "pattern": "two-channel",
+        "file": "v15/sec6_application.tex",
+        "line": 93,
+        "zone": "6.2",
+        "match": "two-channel",
+        "context": "s censored at 120 days over all 88 event cells. The registered statistic is the two-channel construction with adaptive weight of the protocol. \\item[$a$] KPSS tests the nu",
+        "rule": "corregida",
+        "cls": "D",
+        "class_label": "diseno original o estadistico registrado",
+        "justification": "nota de tab:fp: estadistico registrado",
+        "status": "permitida"
+      },
+      {
+        "pattern": "two-channel",
+        "file": "v15/sec6_application.tex",
+        "line": 119,
+        "zone": "6.2",
+        "match": "Two-channel",
+        "context": "an half a point; one detection shifts by one day \\\\ \\addlinespace Statistic & Two-channel statistic, windows $(0.1, 0.1)$, adaptive weight & \\RMGLS{} & Mean FP $0.0277",
+        "rule": "corregida",
+        "cls": "D",
+        "class_label": "diseno original o estadistico registrado",
+        "justification": "tab:deviations, columna 'Registered'",
+        "status": "permitida"
+      },
+      {
+        "pattern": "rolling means",
+        "file": "v15/appA_proofs.tex",
+        "line": 11,
+        "zone": "A.1",
+        "match": "rolling means",
+        "context": "a$, which covers $b$ in the constant case and $b + c\\,t$ in the trend case. The rolling means are linear in $\\uhat$, so the numerator of \\cref{eq:stat} is multiplied by $|a|",
+        "rule": "corregida",
+        "cls": "G",
+        "class_label": "prueba general en theta",
+        "justification": "prueba de prop:invariance para eq:stat (theta general)",
+        "status": "permitida"
+      },
+      {
+        "pattern": "two-channel",
+        "file": "v15/highlights.tex",
+        "line": 7,
+        "zone": "highlights",
+        "match": "two-channel",
+        "context": "iance breaks their size under serial correlation \\item A smoothed variant and a two-channel extension are reported as negative results \\end{itemize} ",
+        "rule": "corregida",
+        "cls": "N",
+        "class_label": "resultados negativos",
+        "justification": "resaltado: resultados negativos",
+        "status": "permitida"
+      },
+      {
+        "pattern": "two-channel",
+        "file": "v15/cover_letter.md",
+        "line": 15,
+        "zone": "cover_letter",
+        "match": "two-channel",
+        "context": "gan as part of a larger construction: a smoothed version of the statistic and a two-channel extension were evaluated under pre-registered rules, and both are reported as n",
+        "rule": "corregida",
+        "cls": "N",
+        "class_label": "resultados negativos",
+        "justification": "carta: ambas extensiones se reportan como resultados negativos",
+        "status": "permitida"
+      }
+    ],
+    "summary": {
+      "collapses faster": {
+        "prohibida": 0,
+        "permitida": 0,
+        "excluida": 0,
+        "informar": 0,
+        "sin clasificar": 0,
+        "clasificacion ambigua": 0
+      },
+      "does not collapse as fast": {
+        "prohibida": 0,
+        "permitida": 0,
+        "excluida": 0,
+        "informar": 0,
+        "sin clasificar": 0,
+        "clasificacion ambigua": 0
+      },
+      "no cost in size": {
+        "prohibida": 0,
+        "permitida": 0,
+        "excluida": 0,
+        "informar": 0,
+        "sin clasificar": 0,
+        "clasificacion ambigua": 0
+      },
+      "no effect on size": {
+        "prohibida": 0,
+        "permitida": 0,
+        "excluida": 0,
+        "informar": 0,
+        "sin clasificar": 0,
+        "clasificacion ambigua": 0
+      },
+      "RM-GLS": {
+        "prohibida": 0,
+        "permitida": 0,
+        "excluida": 0,
+        "informar": 0,
+        "sin clasificar": 0,
+        "clasificacion ambigua": 0
+      },
+      "rolling means": {
+        "prohibida": 0,
+        "permitida": 7,
+        "excluida": 0,
+        "informar": 0,
+        "sin clasificar": 0,
+        "clasificacion ambigua": 0
+      },
+      "theta = 0.02": {
+        "prohibida": 0,
+        "permitida": 9,
+        "excluida": 1,
+        "informar": 0,
+        "sin clasificar": 0,
+        "clasificacion ambigua": 0
+      },
+      "two-channel": {
+        "prohibida": 0,
+        "permitida": 13,
+        "excluida": 0,
+        "informar": 1,
+        "sin clasificar": 0,
+        "clasificacion ambigua": 0
+      }
+    },
+    "to_report": [
+      {
+        "pattern": "two-channel",
+        "file": "v15/sec5_montecarlo.tex",
+        "line": 573,
+        "zone": "5.11",
+        "match": "two-channel",
+        "context": "one-channel \\RMGLS{} changes the magnitudes but not the verdict. It exceeds the two-channel statistic by $19$ to $29$ points in the rows of \\cref{tab:dgp5} and by at least",
+        "rule": "corregida",
+        "cls": "M",
+        "class_label": "afirma algo sobre MSB-B",
+        "justification": "sujeto 'It' = 'The one-channel \\RMGLS{}' de la frase anterior: afirma la ventaja de potencia de MSB-B sobre el estadistico de dos canales (dentro de \u00a75.11)",
+        "status": "informar"
+      }
+    ],
+    "registry_entries": 21,
+    "registry_unused": [],
+    "classes": {
+      "D": "diseno original o estadistico registrado",
+      "G": "prueba general en theta",
+      "N": "resultados negativos",
+      "M": "afirma algo sobre MSB-B"
+    }
+  }
+}

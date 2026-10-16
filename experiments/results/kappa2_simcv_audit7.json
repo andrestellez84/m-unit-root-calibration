@@ -1,0 +1,293 @@
+{
+  "provenance": {
+    "dgp": "kappa2_simulated_critical_value",
+    "n_sim": 5000,
+    "seed_formula": "70*10^8 + n_idx*10^5 (calibracion); AR y RW de contraste: familia 91",
+    "generated_utc": "2026-09-13T19:34:32.444685+00:00",
+    "commit": "ce3417b378a2b883253ed97a84d9f2688191c18c",
+    "worktree_dirty": false,
+    "entry_point": "experiments/audit7_kappa2_simcv.py",
+    "code": {
+      "experiments/audit7_common.py": {
+        "sha256": "763ab4f2a5e129f62fa23fa7d2adb756d2addc458563a2dbc7aaab5a5e7d3100",
+        "git_state": "committed"
+      },
+      "experiments/audit7_design.py": {
+        "sha256": "8d8c601d7debf39cffcd342def4cb0e45e2a0e8cda9bf3dd70d68f4a3ff30b61",
+        "git_state": "committed"
+      },
+      "experiments/audit7_dgp3_recast.py": {
+        "sha256": "81adb35a49691b8ef54da5c4e3c7485daf67a87e1445b70f06816edafeaebef7",
+        "git_state": "committed"
+      },
+      "experiments/audit7_kappa2.py": {
+        "sha256": "c988ed16db23a3023e493fa30aabdf509c259a1186ad89467e8cf7477e92b7fb",
+        "git_state": "committed"
+      },
+      "experiments/audit7_kappa2_diagnosis.py": {
+        "sha256": "45a0870463adc101d485659be88d679694510e80caf0b269ec4fbebfd14bc60c",
+        "git_state": "committed"
+      },
+      "experiments/audit7_kappa2_simcv.py": {
+        "sha256": "2a17238f738e02e99006e9f570d15908b6320e04f88efca78fe116ced86d7942",
+        "git_state": "committed"
+      },
+      "experiments/audit7_kappa2_validation.py": {
+        "sha256": "969bbdd4994484c799653f63a862945cf0401e1811cd51ca7025b1ed48f01e3c",
+        "git_state": "committed"
+      }
+    },
+    "code_all_committed": true,
+    "null": "paseo aleatorio gaussiano homoscedastico (nula compuesta)",
+    "quantile_method": "numpy.quantile, interpolacion lineal, nivel 1-alpha",
+    "source_checkpoints": {
+      "experiments/results/checkpoints/audit7_kappa2_validation/ar093_n200_i000000_k00014.json": "43960c2fde128e166a50baed5433b402a0cf95fc35b66c21d0ed93b15e73a8a7",
+      "experiments/results/checkpoints/audit7_kappa2_validation/ar093_n200_i000014_k04986.json": "b52028f6c5312aa9480623b3c604fe0cca86be36694ef8bad6251b20541502ce",
+      "experiments/results/checkpoints/audit7_kappa2_validation/rw_n200_i000000_k00014.json": "20488013810f94ff4a0e38de61b23f4888bd78d9457d19deccdb9142f94ac266",
+      "experiments/results/checkpoints/audit7_kappa2_validation/rw_n200_i000014_k04986.json": "512f37c9af40a8a69a15508d5c79839f781a2ef6aae680d2d86b4df0586318a4",
+      "experiments/results/checkpoints/audit7_kappa2_validation/ar093_n500_i000000_k00014.json": "65479542ea2494a5c0d0d70687ae8b418d243746855cf00486d99ec56c030e49",
+      "experiments/results/checkpoints/audit7_kappa2_validation/ar093_n500_i000014_k04986.json": "02e198b3bcf977884c1f221969d964d2b40b4be5f2602f39cb7e0b49d9b6e9e9",
+      "experiments/results/checkpoints/audit7_kappa2_validation/rw_n500_i000000_k00014.json": "01694027eaebf2525cd50fd6e45cd70c186e92c432f49bd33da71e73d6712821",
+      "experiments/results/checkpoints/audit7_kappa2_validation/rw_n500_i000014_k04986.json": "cb2d72cf582574adf7c15d8daff533f2bbd42c8cad70bd7d2f768f4ba7b3bb4a",
+      "experiments/results/checkpoints/audit7_kappa2_validation/ar093_n1000_i000000_k00014.json": "86e368de8edc3f62d82f777bae6a90df7279b9ccafd274264ef2a5174a1f2208",
+      "experiments/results/checkpoints/audit7_kappa2_validation/ar093_n1000_i000014_k04986.json": "e88ca1fe96d652a124b803254572657c9954384b74d7881f76d880ddc80e0495",
+      "experiments/results/checkpoints/audit7_kappa2_validation/rw_n1000_i000000_k00014.json": "ebb50cb784e2f573df1358f6cb73f89c071dd3d3e163a9e3788bfc3431882e13",
+      "experiments/results/checkpoints/audit7_kappa2_validation/rw_n1000_i000014_k04986.json": "cefbf32562a9178c309da083fba98a3ed23dbca7fa4bd19c04bf1421d57ceae5"
+    }
+  },
+  "gate": {
+    "region": [
+      0.044,
+      0.0562
+    ],
+    "failed_n": [
+      "200"
+    ],
+    "in_sample_exact_0.05_all_n": true,
+    "verdict": "FALLA"
+  },
+  "seed_overlap_block1_design": {
+    "n_cells": 30,
+    "distinct_seed_bases": 30,
+    "exact_collisions": 0,
+    "overlapping_pairs": 0,
+    "max_shared_draws": 0,
+    "pairs_sample": []
+  },
+  "cells": {
+    "200": {
+      "n": 200,
+      "calibration_seed_base": 7000000000,
+      "n_cal": 5000,
+      "simulated_critical_values": {
+        "0.01": 1.4993751622628742,
+        "0.05": 1.2841884385577336,
+        "0.10": 1.1622301118274174
+      },
+      "asymptotic_critical_values": {
+        "0.10": 1.224,
+        "0.05": 1.358,
+        "0.01": 1.628
+      },
+      "in_sample_size_at_simulated_cv": {
+        "rejections": 250,
+        "n": 5000,
+        "rate": 0.05,
+        "ci_lower": 0.04412324398000013,
+        "ci_upper": 0.056408913242178935,
+        "nan": 0
+      },
+      "out_of_sample_ar093_at_simulated_cv": {
+        "rejections": 208,
+        "n": 5000,
+        "rate": 0.0416,
+        "ci_lower": 0.03623462162851782,
+        "ci_upper": 0.04750851326873091,
+        "nan": 0,
+        "in_gate_region": false
+      },
+      "out_of_sample_rw_family91_at_simulated_cv": {
+        "rejections": 244,
+        "n": 5000,
+        "rate": 0.0488,
+        "ci_lower": 0.04299310949726906,
+        "ci_upper": 0.05514059699718736,
+        "nan": 0
+      },
+      "nominal_rates_at_1.358": {
+        "calibration_rw": {
+          "rejections": 147,
+          "n": 5000,
+          "rate": 0.0294,
+          "ci_lower": 0.024894160115399407,
+          "ci_upper": 0.03446574937067594,
+          "nan": 0
+        },
+        "ar093_family91": {
+          "rejections": 105,
+          "n": 5000,
+          "rate": 0.021,
+          "ci_lower": 0.017207250536944503,
+          "ci_upper": 0.025365369976971627,
+          "nan": 0
+        },
+        "rw_family91": {
+          "rejections": 155,
+          "n": 5000,
+          "rate": 0.031,
+          "ci_lower": 0.026371441809731618,
+          "ci_upper": 0.03618618433360152,
+          "nan": 0
+        }
+      },
+      "n_chunks": 2,
+      "elapsed_sec": 2.3,
+      "probe_sec_per_series": 0.001729931150163923,
+      "projected_sec": 8.6,
+      "complete": true
+    },
+    "500": {
+      "n": 500,
+      "calibration_seed_base": 7000100000,
+      "n_cal": 5000,
+      "simulated_critical_values": {
+        "0.01": 1.5216464357054902,
+        "0.05": 1.3090397729750363,
+        "0.10": 1.1806009259634531
+      },
+      "asymptotic_critical_values": {
+        "0.10": 1.224,
+        "0.05": 1.358,
+        "0.01": 1.628
+      },
+      "in_sample_size_at_simulated_cv": {
+        "rejections": 250,
+        "n": 5000,
+        "rate": 0.05,
+        "ci_lower": 0.04412324398000013,
+        "ci_upper": 0.056408913242178935,
+        "nan": 0
+      },
+      "out_of_sample_ar093_at_simulated_cv": {
+        "rejections": 256,
+        "n": 5000,
+        "rate": 0.0512,
+        "ci_lower": 0.04525434309951202,
+        "ci_upper": 0.05767627018690148,
+        "nan": 0,
+        "in_gate_region": true
+      },
+      "out_of_sample_rw_family91_at_simulated_cv": {
+        "rejections": 263,
+        "n": 5000,
+        "rate": 0.0526,
+        "ci_lower": 0.04657513537602294,
+        "ci_upper": 0.05915368299385232,
+        "nan": 0
+      },
+      "nominal_rates_at_1.358": {
+        "calibration_rw": {
+          "rejections": 176,
+          "n": 5000,
+          "rate": 0.0352,
+          "ci_lower": 0.030264940502128638,
+          "ci_upper": 0.04068682966880366,
+          "nan": 0
+        },
+        "ar093_family91": {
+          "rejections": 196,
+          "n": 5000,
+          "rate": 0.0392,
+          "ci_lower": 0.033991336093895694,
+          "ci_upper": 0.04495500335765761,
+          "nan": 0
+        },
+        "rw_family91": {
+          "rejections": 191,
+          "n": 5000,
+          "rate": 0.0382,
+          "ci_lower": 0.03305822051259718,
+          "ci_upper": 0.043889465327204454,
+          "nan": 0
+        }
+      },
+      "n_chunks": 2,
+      "elapsed_sec": 3.88,
+      "probe_sec_per_series": 0.0016457693917410715,
+      "projected_sec": 8.2,
+      "complete": true
+    },
+    "1000": {
+      "n": 1000,
+      "calibration_seed_base": 7000200000,
+      "n_cal": 5000,
+      "simulated_critical_values": {
+        "0.01": 1.5748420958594518,
+        "0.05": 1.3265870773530493,
+        "0.10": 1.2009897320273049
+      },
+      "asymptotic_critical_values": {
+        "0.10": 1.224,
+        "0.05": 1.358,
+        "0.01": 1.628
+      },
+      "in_sample_size_at_simulated_cv": {
+        "rejections": 250,
+        "n": 5000,
+        "rate": 0.05,
+        "ci_lower": 0.04412324398000013,
+        "ci_upper": 0.056408913242178935,
+        "nan": 0
+      },
+      "out_of_sample_ar093_at_simulated_cv": {
+        "rejections": 252,
+        "n": 5000,
+        "rate": 0.0504,
+        "ci_lower": 0.04450017145582122,
+        "ci_upper": 0.05683147054363443,
+        "nan": 0,
+        "in_gate_region": true
+      },
+      "out_of_sample_rw_family91_at_simulated_cv": {
+        "rejections": 263,
+        "n": 5000,
+        "rate": 0.0526,
+        "ci_lower": 0.04657513537602294,
+        "ci_upper": 0.05915368299385232,
+        "nan": 0
+      },
+      "nominal_rates_at_1.358": {
+        "calibration_rw": {
+          "rejections": 210,
+          "n": 5000,
+          "rate": 0.042,
+          "ci_lower": 0.03660900205239245,
+          "ci_upper": 0.04793360215249077,
+          "nan": 0
+        },
+        "ar093_family91": {
+          "rejections": 215,
+          "n": 5000,
+          "rate": 0.043,
+          "ci_lower": 0.03754555055822773,
+          "ci_upper": 0.04899573085513651,
+          "nan": 0
+        },
+        "rw_family91": {
+          "rejections": 211,
+          "n": 5000,
+          "rate": 0.0422,
+          "ci_lower": 0.03679624393839123,
+          "ci_upper": 0.04814609526323105,
+          "nan": 0
+        }
+      },
+      "n_chunks": 2,
+      "elapsed_sec": 7.61,
+      "probe_sec_per_series": 0.0024348667689732145,
+      "projected_sec": 12.2,
+      "complete": true
+    }
+  },
+  "block_elapsed_sec": 19.8
+}

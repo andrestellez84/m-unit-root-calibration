@@ -1,0 +1,25 @@
+Computational environment used for the results in this package
+
+Operating system : Windows-10-10.0.26200-SP0 (Windows 11), 14-16 cores used by joblib
+Python           : 3.11.0 (CPython, 64 bit)
+  numpy          : 2.2.4
+  scipy          : 1.15.2
+  numba          : 0.65.0
+  statsmodels    : 0.14.6
+  arch           : 8.0.0
+  pandas         : 2.2.3
+  joblib         : 1.4.2
+  matplotlib     : 3.10.1
+  pytest         : 9.0.3
+  PyMuPDF        : 1.27.1
+  yfinance       : 1.4.1 (download script only)
+
+R                : R version 4.6.1 (2026-06-24 ucrt)
+  bootUR         : 1.0.5 (CRAN; tarball sha256 recorded in experiments/protocol_audit15_amend2.md)
+  Rcpp           : 1.1.2
+  RcppArmadillo  : 15.4.2.1
+  RcppParallel   : 6.2.1
+  parallel       : 4.6.1 (base)
+  jsonlite       : needed only by experiments/audit6_wild_bootstrap_bootur.R (not installed in the final environment)
+
+LaTeX (optional) : MiKTeX pdflatex/bibtex, only to compile supplementary/supplement.tex

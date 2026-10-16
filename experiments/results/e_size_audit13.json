@@ -1,0 +1,1194 @@
+{
+  "provenance": {
+    "script": "experiments/audit13_e_size.py",
+    "script_sha256": "90d4a4bfb173894cd2cf3f10a363446804a3a6339baec425c39a654fab7a4585",
+    "commit": "2db4c12432217a39e52832430f38e81cac03c4fe",
+    "worktree_dirty": false,
+    "dirty_files": [],
+    "generated_utc": "2026-09-22T23:33:25.960870+00:00",
+    "seed_family": 141,
+    "versions": {
+      "python": "3.11.0",
+      "platform": "Windows-10-10.0.26200-SP0",
+      "numpy": "2.2.4",
+      "scipy": "1.15.2",
+      "numba": "0.65.0",
+      "statsmodels": "0.14.6",
+      "arch": "8.0.0",
+      "pandas": "2.2.3",
+      "joblib": "1.4.2",
+      "matplotlib": "3.10.1",
+      "pytest": "9.0.3"
+    },
+    "code": {
+      "experiments/audit10_b100_protocol.py": {
+        "sha256": "2f4b3351d36f05faafd5a01981278237be31ccbd3a62eb53307d5888c3ab8c47",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b101_theta.py": {
+        "sha256": "c7f65d04c6a2762bcf4fcb7cd6fb3f3ea9f588392e6316175bb88631bd255903",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b102_identity.py": {
+        "sha256": "967ce70c299a9fa87ca467d3885c2c6ae54b11ca7f1a6aac75c94a9bd38125b3",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_application.py": {
+        "sha256": "6e73e4304a88e42b528dc119d56f8a47f3aced0cac6267493b67f96699f4032a",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_awb.py": {
+        "sha256": "c35235023f15eff41059abe196791e6ee57a3f52eb736779b4ed442b70f18f87",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_cv.py": {
+        "sha256": "bc3e2ee08728214ae92b5883e9f3bd067660d99acbeebaf032b8ef7cb289c8a7",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_dgp5.py": {
+        "sha256": "8df807243e62e3c044f4f55ccc9ba909254a15b011fd190d9a6a79c466f2e73e",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_equalized.py": {
+        "sha256": "039b485455232788d7503ff80d09565182b9d5ed696fdaf8c7e27f67ca44ce5d",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_finite.py": {
+        "sha256": "a6fea4ef3e9cab8ab5b2369189497de6ff8fc38abdd3f27b752efeb43935f113",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_lown.py": {
+        "sha256": "61ffc45a0782f9277588e5f3068af89add849a7eb28a87e3902c0df69269b264",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b104_cv5000.py": {
+        "sha256": "64b94cc583c2f45c67910c6f25c5bab49baf77d5d9b4841e49d632bcd4a20493",
+        "git_state": "committed"
+      },
+      "experiments/audit10_common.py": {
+        "sha256": "298e82a217d2dd32ba87245f6056dbb82051fe2985acd644b1e972f6768ca123",
+        "git_state": "committed"
+      },
+      "experiments/audit10_design.py": {
+        "sha256": "d9da80a9c9148338e1031d1a7736180ebffd76409385b5cf7fa0c7af20d28042",
+        "git_state": "committed"
+      },
+      "experiments/audit10_engine.py": {
+        "sha256": "3d2618561538c1afd8daf8224fa230826ae442505877afb8c12a378755911333",
+        "git_state": "committed"
+      },
+      "experiments/audit10_figconfig.py": {
+        "sha256": "522ae90338608ca46d449900388d6eb5c9e152140115dd6be362d17822b8116f",
+        "git_state": "committed"
+      },
+      "experiments/audit10_generate_report.py": {
+        "sha256": "9ebb38589ec72648a1a905a105d3e6cfaa9b486cbd3a4cd9a5800be1436f1d41",
+        "git_state": "committed"
+      },
+      "experiments/audit11_figconfig.py": {
+        "sha256": "3e0ac02a12cb821428036438924ad7d36aa65ef172b6b458b269d484af0fad84",
+        "git_state": "committed"
+      },
+      "experiments/audit12_common.py": {
+        "sha256": "9845605b593b4c07eed4a0ead1b9068951c1b302ca653d7fb410b2ddc84f7b84",
+        "git_state": "committed"
+      },
+      "experiments/audit12_unitroot.py": {
+        "sha256": "36b0bb5a7439cb0fabdfc346d9b1d2fef91fc0bacf54f49c4642538f4c3db3cb",
+        "git_state": "committed"
+      },
+      "experiments/audit13_b130_inventory.py": {
+        "sha256": "6e9e89107e8881c68dc81bc34c91e9b4838b84805adbcb955248abba18af3a75",
+        "git_state": "committed"
+      },
+      "experiments/audit13_claims.py": {
+        "sha256": "354466be4864c1321e1a7d23f004663ccef1bd1199f592110de2d575122b986f",
+        "git_state": "committed"
+      },
+      "experiments/audit13_common.py": {
+        "sha256": "94a6255b99fbd25b19a452147e20c76b9c181848e639ef26a09087b0169d19de",
+        "git_state": "committed"
+      },
+      "experiments/audit13_design.py": {
+        "sha256": "29fea9ecb7e3db08fac745d74779e229d871d5ac3e761d55f6c61c19561f2ab1",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_application.py": {
+        "sha256": "4969da94c823615f05e34dac23a5b5fc60b458dc962eca90d3048510a4da7c23",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_awb.py": {
+        "sha256": "0a95c3a6c42f334e463baf7216b202639ece93ec4080e82ef0067340f77ff373",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_calib.py": {
+        "sha256": "815694a898ff497d578447c1298db7f9772a75f13a088c2f1c2f82fd27af2ca3",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_dgp5.py": {
+        "sha256": "11022366b13d68a9f78a560403ea03221f8bceb999a34cbf68a06fd00a0a48ad",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_equalized.py": {
+        "sha256": "551896f43f6106547f300069fd03e861f57b6ec1c9435d97275f4f649158a6eb",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_size.py": {
+        "sha256": "90d4a4bfb173894cd2cf3f10a363446804a3a6339baec425c39a654fab7a4585",
+        "git_state": "committed"
+      },
+      "experiments/audit13_generate_report.py": {
+        "sha256": "9003c23136c8f3ecefa7c578fe8e50dcbeb2e4c056de215740d867fdfb7d86c8",
+        "git_state": "committed"
+      },
+      "experiments/audit13_t_tables.py": {
+        "sha256": "5bb1b16873c1586eea25efe4c4eb91d4b48e1185bb921f11446ce27fd693119c",
+        "git_state": "committed"
+      },
+      "experiments/audit13_tables.py": {
+        "sha256": "ecdb0d85bfbcbf36a50b4a6d905698ddd38d8cf100ba3e89cf1fc241c698aaa9",
+        "git_state": "committed"
+      },
+      "experiments/audit7_design.py": {
+        "sha256": "fb966e5a334cdd0f1f63632f28fbc5f6d9195d56de34065305639b56f10dc769",
+        "git_state": "committed"
+      },
+      "experiments/audit7_dgp5_analysis.py": {
+        "sha256": "7445da3a421063e937c8e2516167f0d0bb7aa2144ad9c1db263ac0c3df44ab61",
+        "git_state": "committed"
+      },
+      "experiments/audit7_dgp5_runner.py": {
+        "sha256": "bdd056463c63826f3260011e53b06bfb054d6678c0bfed9eca5af562ed92608f",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b0_inventory.py": {
+        "sha256": "6405cc166459c296fb32c86fed1abff150afc4889ba0598502d8c4e41ea07add",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_np_diagnostic.py": {
+        "sha256": "959b18541923f504c4178fdedd3a7d519a62487930c1de4dbcc8e476e0a43df0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_np_gate.py": {
+        "sha256": "93064f87f144776c7c83ee95d23bdbd7eadf5cbaff08af57297eda3ef37348f0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_regression_child.py": {
+        "sha256": "350b1389b64fdc89098d17861b7196671be9fe66123fb1f0702ddd5229fee150",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_validate.py": {
+        "sha256": "6a268b6ac14f5d05f2dfa26b5430328246f34893439ff6004b308d9a163170b0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2_size.py": {
+        "sha256": "74b1cdbd9f0bba3c77cb495b6c53393ba49eef75ff4f88d41257679ee2d4ff93",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2b_diagnostic.py": {
+        "sha256": "f89de9ed47612633614546168cb1887b0fb1c2faa37283276d03e45dd8096802",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2b_indep.py": {
+        "sha256": "47eb0f404478d0bac66bab7ea2002a24956ceeb287bdcb5bd441ee5fc0c8dda5",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b3_comparators.py": {
+        "sha256": "a4589a8ab3fe02284549b02f9c2078ad34172ddab47b268ce5c1ce4c444fc363",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b4_local_power.py": {
+        "sha256": "4de18b53c2f31d3d2f7e04fee1d786d42df0ba7998bdf30278b8029acea904c7",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b5_power.py": {
+        "sha256": "561c9dd52313c70d193ebe7ea772b3dbf91db2e691019eec3f5e76c4c8c28092",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b6_application.py": {
+        "sha256": "917157d7367c201cb4e92c2eafd1cb4f3d6f68d44dfbc9f6713c0ecb7e28de07",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b7_critical_values.py": {
+        "sha256": "1a228203fb9b1ed38020fe40ec4e6e690ea05c6bf152ceca42a82cc7f2d1c801",
+        "git_state": "committed"
+      },
+      "experiments/audit8_cache_fix_validate.py": {
+        "sha256": "01d88be3d99d27ddb32abdc63bbb5fad3ab6129300ba8cfe638b1790a60d314a",
+        "git_state": "committed"
+      },
+      "experiments/audit8_common.py": {
+        "sha256": "5718ec2cfa7f5f5c5f7f8d68ed26198e00ac827fb562cee67b234857e5719f0d",
+        "git_state": "committed"
+      },
+      "experiments/audit8_design.py": {
+        "sha256": "ad80aeae74d44ff4cecbd10dbfc480d24c146b81ec8f9d6561f95b7ba7079ae0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_environment.py": {
+        "sha256": "9b323700e91302ad0090e876b922a38a1dd6b23ef5f19fcc7748d947e617d21e",
+        "git_state": "committed"
+      },
+      "experiments/audit8_figconfig.py": {
+        "sha256": "eb516777a764ee78828acf7a5c743c4e9d8f5aab57b98550606354793d467e12",
+        "git_state": "committed"
+      },
+      "experiments/audit8_generate_report.py": {
+        "sha256": "91157e2576bec679f9f826423f55b6de104a01380651c9648a3aa25adac78819",
+        "git_state": "committed"
+      },
+      "experiments/audit8_unitroot.py": {
+        "sha256": "9d0842a342f12b9c8a7e3870127768590c53d98c8ca90dbb3a2715ddb16748ef",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b90_protocol.py": {
+        "sha256": "5e0a7109f7d1a7737ed2558ccc1766b36c61e0ead19738e9da6512af0d58e590",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b91_equalized.py": {
+        "sha256": "66be775e81bb3ddeadc202237f1343a4d231138274eb8387cc5ac48c1366b9b9",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b92_theta.py": {
+        "sha256": "56b784b7534e466897a6b31400dc17906ad101d2d114e93f9d5bb95b55c65af5",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b93_attribution.py": {
+        "sha256": "0c6a42942f19a4b0f07cf102704a98e4c17f76815a53bbb1e0407bb3119dd6ee",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b94_finite_sample.py": {
+        "sha256": "b5c5b0acc0792baaec3499d386bbce7768142ca4e37ca1ac03fb23914a0daae5",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b95_awb.py": {
+        "sha256": "f60dcb418bb045ef40684fc8572d74e578459d40d28925dd7c30bbac79dbf0c0",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b96_application.py": {
+        "sha256": "0ff5e46367a3f1dfae0a92aa02fd0fdf13b64efab897de61eaafb81599f468b4",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b97_critical_values.py": {
+        "sha256": "774956681a4c6536cfab497326e032518cb97c10a0aacf9bffd38ee92aef14f3",
+        "git_state": "committed"
+      },
+      "experiments/audit9_calibrate.py": {
+        "sha256": "d2f7ac2cd3d5fa866fac21379f79a60535749e8db61d02135aaea99ec0b75bbd",
+        "git_state": "committed"
+      },
+      "experiments/audit9_common.py": {
+        "sha256": "39fbee3c398de920ba2f9c4400ac6254c58d9fb537c6f97649c8299ea39e78f7",
+        "git_state": "committed"
+      },
+      "experiments/audit9_design.py": {
+        "sha256": "e25486561a4c06643807b4035e2beeb0436558b1157bfb3b7a866e5e7cb815ac",
+        "git_state": "committed"
+      },
+      "experiments/audit9_engine.py": {
+        "sha256": "8f8bd7a817178056d2e55a4c518bfc2188737c02c3f56cf467d15972ac651e1b",
+        "git_state": "committed"
+      },
+      "experiments/audit9_figconfig.py": {
+        "sha256": "502fc40d79bdec85ad4ebac69ee33949903c4c8b5e14ed5558ab3b6b985b8080",
+        "git_state": "committed"
+      },
+      "experiments/audit9_generate_report.py": {
+        "sha256": "c8257dc6873c4ef2d5bf1f40ff3906e7bbbd2513b241348583bfb3ec70f6f559",
+        "git_state": "committed"
+      },
+      "experiments/make_figures_audit10.py": {
+        "sha256": "defe405c489e96491a7f9a63e09392c24bce8cc3768b7ec654708eaf244ff560",
+        "git_state": "committed"
+      },
+      "experiments/make_figures_audit11.py": {
+        "sha256": "ae54c12199f80a46f7beb88544743d422d3e982aae3a14aede0a5f9efdf93dc6",
+        "git_state": "committed"
+      },
+      "experiments/make_figures_audit13.py": {
+        "sha256": "9b685b1ee40e89c201a64b3886805e2524de381a5a81be4d71e59dc86f1301ba",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/__init__.py": {
+        "sha256": "20ebf29ab1a9a64bb428f25ff0170d67db2354662efb8b973922c3f455f56582",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/constants.py": {
+        "sha256": "de8bd2282ff09c41fc6eae12fcca6695c1fd3a0c9def7628a9b76e9361058907",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/davies.py": {
+        "sha256": "cfad047d0b0676cc83a41208cd600f4224ce61bf03930228a5a80d1d6556c9b9",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/deterministics.py": {
+        "sha256": "31db116abc80e5cab8c97317a31d6f22f1a4ca40c885eef86c134db598dac6b2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/empirical_eigenvalues.py": {
+        "sha256": "f749e2e2de8b807421d6e74836bd5d539eccb314f18821bd38b80e72b5ee72a1",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/full_pipeline.py": {
+        "sha256": "cdbd5405caa50bc83c7348a0a8be9963b522ef4d808024f078f648bb1de89170",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/hac_estimator.py": {
+        "sha256": "f7c22540e6a8e862258cb70e4a839b841453ca9490a01671176431ee4bf678f2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/kl_eigenvalues.py": {
+        "sha256": "c0fb0a90795c904cb2876aa16eff64948e0abf5a27d3a57c6612c2b9ec198903",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/null_quantiles.py": {
+        "sha256": "655458f05815621d015984080169663d2310d26e588a83e2c5a62549ba5a1ae8",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/optimal_weight.py": {
+        "sha256": "47632d98ed256b2364a2ac99de64780e0cd8d42a69c68b4552c6ea0564f86ba4",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/rm_core.py": {
+        "sha256": "4d3ee3f59c569233a5e9a9ed8ffd3032364188545bac04a0cc619ccac39e04e0",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/standardization.py": {
+        "sha256": "cc8cb146d28ea63be86bc11db6cc6c345fbf5fd412055e2e58a33a40f3e8936b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/statistic.py": {
+        "sha256": "f0baf1d99ac4311ca854d350f18a3d3416974bf5d13e662d05149f87183d92ef",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/theta_selection.py": {
+        "sha256": "23eba50e85d0db917d14b4d3d844c42e5ee566dfd326a0fad7feae0dd113f40b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/utils.py": {
+        "sha256": "8a3e0b972da519b3c39ca0e0326953dbae1bf048845c05c1fb3a23a001b72717",
+        "git_state": "committed"
+      }
+    },
+    "code_all_committed": true
+  },
+  "config": {
+    "theta": 0.0,
+    "reference_theta": 0.02,
+    "low_n": [
+      60,
+      100,
+      150
+    ],
+    "N_low": 50000,
+    "large_n": [
+      200,
+      500,
+      1000
+    ],
+    "rule": "RM-like: p = F_null(stat) < 0.05, calibracion de A10 (N_cal = 500 000)",
+    "reading": "protocol_audit13.md, lectura 4"
+  },
+  "exact_region_50000": [
+    0.0481,
+    0.05192
+  ],
+  "exact_region_100000": [
+    0.04865,
+    0.05136
+  ],
+  "calibration": {
+    "60": {
+      "paso0_max_abs_diff": 0.0,
+      "reused_rows": 50000,
+      "wall_new_sec": 1122.9483106136322,
+      "N_cal": 500000,
+      "source": "audit10_cal/cal_n60.npz"
+    },
+    "100": {
+      "paso0_max_abs_diff": 0.0,
+      "reused_rows": 50000,
+      "wall_new_sec": 1207.3992819786072,
+      "N_cal": 500000,
+      "source": "audit10_cal/cal_n100.npz"
+    },
+    "150": {
+      "paso0_max_abs_diff": NaN,
+      "reused_rows": 0,
+      "wall_new_sec": 1525.0910012722015,
+      "N_cal": 500000,
+      "source": "audit10_cal/cal_n150.npz"
+    }
+  },
+  "paso0": {
+    "by_cell": {
+      "size_dm_n60": 0.0,
+      "size_ct_n60": 0.0,
+      "size_dm_n100": 0.0,
+      "size_ct_n100": 0.0,
+      "size_dm_n150": 0.0,
+      "size_ct_n150": 0.0
+    },
+    "reps": 50,
+    "max_abs_diff": 0.0
+  },
+  "cells": {
+    "dm|60": {
+      "case": "dm",
+      "n": 60,
+      "source": "familia 141, celda size_dm_n60",
+      "N": 50000,
+      "rates": {
+        "gls_t0": {
+          "rate": 0.05068,
+          "rejections": 2534,
+          "n": 50000,
+          "wilson_lower": 0.048791687676513866,
+          "wilson_upper": 0.0526373487905638,
+          "se": 0.000980933612432564,
+          "in_region": true
+        },
+        "gls_t0.02": {
+          "rate": 0.05052,
+          "rejections": 2526,
+          "n": 50000,
+          "wilson_lower": 0.04863457469286733,
+          "wilson_upper": 0.05247448635765806,
+          "se": 0.0009794664833469291,
+          "in_region": true
+        }
+      },
+      "size_with_cv_n20000": {
+        "gls_t0": {
+          "rate": 0.0577,
+          "rejections": 2885,
+          "n": 50000,
+          "wilson_lower": 0.0556899411341725,
+          "wilson_upper": 0.05977801673413617,
+          "se": 0.0010427915419680004,
+          "in_region": false,
+          "cv_n20000": 0.23696978263052154
+        },
+        "gls_t0.02": {
+          "rate": 0.07612,
+          "rejections": 3806,
+          "n": 50000,
+          "wilson_lower": 0.07382797475931036,
+          "wilson_upper": 0.0784771529395788,
+          "se": 0.0011859658140098307,
+          "in_region": false,
+          "cv_n20000": 0.22973171769033557
+        }
+      },
+      "paired_theta0_minus_v13": {
+        "delta": 0.00016,
+        "se": 0.00037309820697162407,
+        "n": 50000
+      },
+      "a10_lown": {
+        "theta0": {
+          "rate": 0.04934,
+          "rejections": 2467,
+          "n": 50000,
+          "wilson_lower": 0.04747603284359415,
+          "wilson_upper": 0.05127320950985822,
+          "se": 0.0009685614528774103,
+          "in_region": true
+        },
+        "v13": {
+          "rate": 0.0496,
+          "rejections": 2480,
+          "n": 50000,
+          "wilson_lower": 0.04773127934479116,
+          "wilson_upper": 0.05153792306055865,
+          "se": 0.0009709772396920538,
+          "in_region": true
+        },
+        "source": "b103_lown_audit10.json cells.dm|60.rates"
+      }
+    },
+    "ct|60": {
+      "case": "ct",
+      "n": 60,
+      "source": "familia 141, celda size_ct_n60",
+      "N": 50000,
+      "rates": {
+        "gls_t0": {
+          "rate": 0.05032,
+          "rejections": 2516,
+          "n": 50000,
+          "wilson_lower": 0.04843819097063763,
+          "wilson_upper": 0.0522709008091974,
+          "se": 0.0009776287393484298,
+          "in_region": true
+        },
+        "gls_t0.02": {
+          "rate": 0.05052,
+          "rejections": 2526,
+          "n": 50000,
+          "wilson_lower": 0.04863457469286733,
+          "wilson_upper": 0.05247448635765806,
+          "se": 0.0009794664833469291,
+          "in_region": true
+        }
+      },
+      "size_with_cv_n20000": {
+        "gls_t0": {
+          "rate": 0.01914,
+          "rejections": 957,
+          "n": 50000,
+          "wilson_lower": 0.017975434387857144,
+          "wilson_upper": 0.02037844809135359,
+          "se": 0.0006127586865969344,
+          "in_region": false,
+          "cv_n20000": 0.1713737057732921
+        },
+        "gls_t0.02": {
+          "rate": 0.0516,
+          "rejections": 2580,
+          "n": 50000,
+          "wilson_lower": 0.04969518970756764,
+          "wilson_upper": 0.0535737054046856,
+          "se": 0.0009893173403918481,
+          "in_region": true,
+          "cv_n20000": 0.1624369794625622
+        }
+      },
+      "paired_theta0_minus_v13": {
+        "delta": -0.0002,
+        "se": 0.00045519594030140616,
+        "n": 50000
+      },
+      "a10_lown": {
+        "theta0": {
+          "rate": 0.04886,
+          "rejections": 2443,
+          "n": 50000,
+          "wilson_lower": 0.04700484690163724,
+          "wilson_upper": 0.0507844692021583,
+          "se": 0.0009640819508734722,
+          "in_region": true
+        },
+        "v13": {
+          "rate": 0.04892,
+          "rejections": 2446,
+          "n": 50000,
+          "wilson_lower": 0.04706374240444881,
+          "wilson_upper": 0.05084556448055383,
+          "se": 0.0009646432874384188,
+          "in_region": true
+        },
+        "source": "b103_lown_audit10.json cells.ct|60.rates"
+      }
+    },
+    "dm|100": {
+      "case": "dm",
+      "n": 100,
+      "source": "familia 141, celda size_dm_n100",
+      "N": 50000,
+      "rates": {
+        "gls_t0": {
+          "rate": 0.0501,
+          "rejections": 2505,
+          "n": 50000,
+          "wilson_lower": 0.04822217856320804,
+          "wilson_upper": 0.052046947018867626,
+          "se": 0.0009756022755201014,
+          "in_region": true
+        },
+        "gls_t0.02": {
+          "rate": 0.04966,
+          "rejections": 2483,
+          "n": 50000,
+          "wilson_lower": 0.04779018444159093,
+          "wilson_upper": 0.05159900874496599,
+          "se": 0.000971533678263394,
+          "in_region": true
+        }
+      },
+      "size_with_cv_n20000": {
+        "gls_t0": {
+          "rate": 0.0573,
+          "rejections": 2865,
+          "n": 50000,
+          "wilson_lower": 0.05529663459295048,
+          "wilson_upper": 0.05937138473397749,
+          "se": 0.0010393912641541681,
+          "in_region": false,
+          "cv_n20000": 0.23696978263052154
+        },
+        "gls_t0.02": {
+          "rate": 0.06108,
+          "rejections": 3054,
+          "n": 50000,
+          "wilson_lower": 0.05901445919133373,
+          "wilson_upper": 0.06321297935164172,
+          "se": 0.0010709737027583823,
+          "in_region": false,
+          "cv_n20000": 0.22973171769033557
+        }
+      },
+      "paired_theta0_minus_v13": {
+        "delta": 0.00044,
+        "se": 0.0002576770380711463,
+        "n": 50000
+      },
+      "a10_lown": {
+        "theta0": {
+          "rate": 0.05112,
+          "rejections": 2556,
+          "n": 50000,
+          "wilson_lower": 0.04922377570362524,
+          "wilson_upper": 0.05308519315897117,
+          "se": 0.000984954268989175,
+          "in_region": true
+        },
+        "v13": {
+          "rate": 0.05104,
+          "rejections": 2552,
+          "n": 50000,
+          "wilson_lower": 0.04914521127795363,
+          "wilson_upper": 0.05300376987636665,
+          "se": 0.0009842247548197515,
+          "in_region": true
+        },
+        "source": "b103_lown_audit10.json cells.dm|100.rates"
+      }
+    },
+    "ct|100": {
+      "case": "ct",
+      "n": 100,
+      "source": "familia 141, celda size_ct_n100",
+      "N": 50000,
+      "rates": {
+        "gls_t0": {
+          "rate": 0.05236,
+          "rejections": 2618,
+          "n": 50000,
+          "wilson_lower": 0.05044169029546873,
+          "wilson_upper": 0.05434708804540779,
+          "se": 0.0009961769963214367,
+          "in_region": false
+        },
+        "gls_t0.02": {
+          "rate": 0.0526,
+          "rejections": 2630,
+          "n": 50000,
+          "wilson_lower": 0.05067745121347248,
+          "wilson_upper": 0.054591290252232465,
+          "se": 0.0009983310072315694,
+          "in_region": false
+        }
+      },
+      "size_with_cv_n20000": {
+        "gls_t0": {
+          "rate": 0.03562,
+          "rejections": 1781,
+          "n": 50000,
+          "wilson_lower": 0.034030791943139876,
+          "wilson_upper": 0.03728055844095503,
+          "se": 0.0008288692972960212,
+          "in_region": false,
+          "cv_n20000": 0.1713737057732921
+        },
+        "gls_t0.02": {
+          "rate": 0.0464,
+          "rejections": 2320,
+          "n": 50000,
+          "wilson_lower": 0.04459082512838235,
+          "wilson_upper": 0.04827886894592198,
+          "se": 0.0009407129211401319,
+          "in_region": false,
+          "cv_n20000": 0.1624369794625622
+        }
+      },
+      "paired_theta0_minus_v13": {
+        "delta": -0.00024,
+        "se": 0.0003059423475336494,
+        "n": 50000
+      },
+      "a10_lown": {
+        "theta0": {
+          "rate": 0.04928,
+          "rejections": 2464,
+          "n": 50000,
+          "wilson_lower": 0.047417131870422013,
+          "wilson_upper": 0.05121211970182325,
+          "se": 0.0009680029090865379,
+          "in_region": true
+        },
+        "v13": {
+          "rate": 0.04958,
+          "rejections": 2479,
+          "n": 50000,
+          "wilson_lower": 0.047711644483636295,
+          "wilson_upper": 0.05151756099464448,
+          "se": 0.0009707916728114225,
+          "in_region": true
+        },
+        "source": "b103_lown_audit10.json cells.ct|100.rates"
+      }
+    },
+    "dm|150": {
+      "case": "dm",
+      "n": 150,
+      "source": "familia 141, celda size_dm_n150",
+      "N": 50000,
+      "rates": {
+        "gls_t0": {
+          "rate": 0.04874,
+          "rejections": 2437,
+          "n": 50000,
+          "wilson_lower": 0.04688705825820048,
+          "wilson_upper": 0.05066227628318087,
+          "se": 0.0009629580717767518,
+          "in_region": true
+        },
+        "gls_t0.02": {
+          "rate": 0.04928,
+          "rejections": 2464,
+          "n": 50000,
+          "wilson_lower": 0.047417131870422013,
+          "wilson_upper": 0.05121211970182325,
+          "se": 0.0009680029090865379,
+          "in_region": true
+        }
+      },
+      "size_with_cv_n20000": {
+        "gls_t0": {
+          "rate": 0.0553,
+          "rejections": 2765,
+          "n": 50000,
+          "wilson_lower": 0.05333052619078649,
+          "wilson_upper": 0.05733780042923807,
+          "se": 0.001022173272982619,
+          "in_region": false,
+          "cv_n20000": 0.23696978263052154
+        },
+        "gls_t0.02": {
+          "rate": 0.05754,
+          "rejections": 2877,
+          "n": 50000,
+          "wilson_lower": 0.05553261518564949,
+          "wilson_upper": 0.0596153672661069,
+          "se": 0.001041433131794836,
+          "in_region": false,
+          "cv_n20000": 0.22973171769033557
+        }
+      },
+      "paired_theta0_minus_v13": {
+        "delta": -0.00054,
+        "se": 0.00023578651340905424,
+        "n": 50000
+      },
+      "a10_lown": {
+        "theta0": {
+          "rate": 0.04738,
+          "rejections": 2369,
+          "n": 50000,
+          "wilson_lower": 0.0455523437731072,
+          "wilson_upper": 0.04927719972757981,
+          "se": 0.0009501066845360052,
+          "in_region": false
+        },
+        "v13": {
+          "rate": 0.04764,
+          "rejections": 2382,
+          "n": 50000,
+          "wilson_lower": 0.04580747764037878,
+          "wilson_upper": 0.04954202591220569,
+          "se": 0.0009525799745953092,
+          "in_region": false
+        },
+        "source": "b103_lown_audit10.json cells.dm|150.rates"
+      }
+    },
+    "ct|150": {
+      "case": "ct",
+      "n": 150,
+      "source": "familia 141, celda size_ct_n150",
+      "N": 50000,
+      "rates": {
+        "gls_t0": {
+          "rate": 0.04936,
+          "rejections": 2468,
+          "n": 50000,
+          "wilson_lower": 0.047495666673845076,
+          "wilson_upper": 0.05129357260667632,
+          "se": 0.0009687475460614082,
+          "in_region": true
+        },
+        "gls_t0.02": {
+          "rate": 0.04902,
+          "rejections": 2451,
+          "n": 50000,
+          "wilson_lower": 0.047161903320823755,
+          "wilson_upper": 0.05094738819952407,
+          "se": 0.0009655779574948882,
+          "in_region": true
+        }
+      },
+      "size_with_cv_n20000": {
+        "gls_t0": {
+          "rate": 0.03958,
+          "rejections": 1979,
+          "n": 50000,
+          "wilson_lower": 0.03790611184346839,
+          "wilson_upper": 0.04132463010029528,
+          "se": 0.0008719337543644012,
+          "in_region": false,
+          "cv_n20000": 0.1713737057732921
+        },
+        "gls_t0.02": {
+          "rate": 0.04642,
+          "rejections": 2321,
+          "n": 50000,
+          "wilson_lower": 0.04461044572197826,
+          "wilson_upper": 0.048299245279395116,
+          "se": 0.0009409057721153591,
+          "in_region": false,
+          "cv_n20000": 0.1624369794625622
+        }
+      },
+      "paired_theta0_minus_v13": {
+        "delta": 0.00034,
+        "se": 0.00024082949980631433,
+        "n": 50000
+      },
+      "a10_lown": {
+        "theta0": {
+          "rate": 0.05052,
+          "rejections": 2526,
+          "n": 50000,
+          "wilson_lower": 0.04863457469286733,
+          "wilson_upper": 0.05247448635765806,
+          "se": 0.0009794664833469291,
+          "in_region": true
+        },
+        "v13": {
+          "rate": 0.05058,
+          "rejections": 2529,
+          "n": 50000,
+          "wilson_lower": 0.04869349143764671,
+          "wilson_upper": 0.05253556039408578,
+          "se": 0.0009800169753631822,
+          "in_region": true
+        },
+        "source": "b103_lown_audit10.json cells.ct|150.rates"
+      }
+    },
+    "dm|200": {
+      "case": "dm",
+      "n": 200,
+      "source": "b101_theta_audit10.json cells.dm|200.rates.<theta>.pooled",
+      "N": 100000,
+      "rates": {
+        "gls_t0": {
+          "rate": 0.05023,
+          "rejections": 5023,
+          "n": 100000,
+          "wilson_lower": 0.048893441467450456,
+          "wilson_upper": 0.05160111266384249,
+          "se": 0.0006907021579523261,
+          "in_region": true,
+          "abs_dev_from_alpha": 0.0002299999999999941,
+          "within_tolerance": true
+        },
+        "gls_t0.02": {
+          "rate": 0.05011,
+          "rejections": 5011,
+          "n": 100000,
+          "wilson_lower": 0.04877497847795251,
+          "wilson_upper": 0.051479584872487466,
+          "se": 0.000689920197559109,
+          "in_region": true,
+          "abs_dev_from_alpha": 0.00010999999999999899,
+          "within_tolerance": true
+        }
+      },
+      "size_with_cv_n20000": {
+        "gls_t0": {
+          "rate": 0.05486,
+          "rejections": 5486,
+          "n": 100000,
+          "wilson_lower": 0.05346570738822401,
+          "wilson_upper": 0.056288491037646424,
+          "se": 0.0007200720825028561,
+          "in_region": false,
+          "cv_n20000": 0.23696978263052154
+        },
+        "gls_t0.02": {
+          "rate": 0.05735,
+          "rejections": 5735,
+          "n": 100000,
+          "wilson_lower": 0.05592584446957845,
+          "wilson_upper": 0.05880816265899132,
+          "se": 0.00073526170510914,
+          "in_region": false,
+          "cv_n20000": 0.22973171769033557
+        }
+      }
+    },
+    "ct|200": {
+      "case": "ct",
+      "n": 200,
+      "source": "b101_theta_audit10.json cells.ct|200.rates.<theta>.pooled",
+      "N": 100000,
+      "rates": {
+        "gls_t0": {
+          "rate": 0.04989,
+          "rejections": 4989,
+          "n": 100000,
+          "wilson_lower": 0.048557801914518334,
+          "wilson_upper": 0.05125677833769117,
+          "se": 0.0006884837536209551,
+          "in_region": true,
+          "abs_dev_from_alpha": 0.00011000000000000593,
+          "within_tolerance": true
+        },
+        "gls_t0.02": {
+          "rate": 0.04998,
+          "rejections": 4998,
+          "n": 100000,
+          "wilson_lower": 0.04864664599678967,
+          "wilson_upper": 0.05134792734105957,
+          "se": 0.0006890718366034125,
+          "in_region": true,
+          "abs_dev_from_alpha": 2.0000000000006124e-05,
+          "within_tolerance": true
+        }
+      },
+      "size_with_cv_n20000": {
+        "gls_t0": {
+          "rate": 0.04319,
+          "rejections": 4319,
+          "n": 100000,
+          "wilson_lower": 0.041947501723017894,
+          "wilson_upper": 0.044467593264900226,
+          "se": 0.0006428423127019565,
+          "in_region": false,
+          "cv_n20000": 0.1713737057732921
+        },
+        "gls_t0.02": {
+          "rate": 0.04927,
+          "rejections": 4927,
+          "n": 100000,
+          "wilson_lower": 0.047945798107450886,
+          "wilson_upper": 0.050628829777018235,
+          "se": 0.0006844155689345472,
+          "in_region": true,
+          "cv_n20000": 0.1624369794625622
+        }
+      }
+    },
+    "dm|500": {
+      "case": "dm",
+      "n": 500,
+      "source": "b101_theta_audit10.json cells.dm|500.rates.<theta>.pooled",
+      "N": 100000,
+      "rates": {
+        "gls_t0": {
+          "rate": 0.04917,
+          "rejections": 4917,
+          "n": 100000,
+          "wilson_lower": 0.04784709328913134,
+          "wilson_upper": 0.05052754227796029,
+          "se": 0.0006837566167869968,
+          "in_region": true,
+          "abs_dev_from_alpha": 0.0008300000000000043,
+          "within_tolerance": true
+        },
+        "gls_t0.02": {
+          "rate": 0.04907,
+          "rejections": 4907,
+          "n": 100000,
+          "wilson_lower": 0.047748390003134376,
+          "wilson_upper": 0.05042625324657978,
+          "se": 0.0006830968825869432,
+          "in_region": true,
+          "abs_dev_from_alpha": 0.0009300000000000003,
+          "within_tolerance": true
+        }
+      },
+      "size_with_cv_n20000": {
+        "gls_t0": {
+          "rate": 0.05061,
+          "rejections": 5061,
+          "n": 100000,
+          "wilson_lower": 0.04926858835549025,
+          "wilson_upper": 0.051985936581837144,
+          "se": 0.0006931711758288858,
+          "in_region": true,
+          "cv_n20000": 0.23696978263052154
+        },
+        "gls_t0.02": {
+          "rate": 0.05141,
+          "rejections": 5141,
+          "n": 100000,
+          "wilson_lower": 0.0500584404278368,
+          "wilson_upper": 0.05279602304851046,
+          "se": 0.0006983338163085044,
+          "in_region": false,
+          "cv_n20000": 0.22973171769033557
+        }
+      }
+    },
+    "ct|500": {
+      "case": "ct",
+      "n": 500,
+      "source": "b101_theta_audit10.json cells.ct|500.rates.<theta>.pooled",
+      "N": 100000,
+      "rates": {
+        "gls_t0": {
+          "rate": 0.05024,
+          "rejections": 5024,
+          "n": 100000,
+          "wilson_lower": 0.04890331347996916,
+          "wilson_upper": 0.05161123988306155,
+          "se": 0.000690767271951994,
+          "in_region": true,
+          "abs_dev_from_alpha": 0.00023999999999999716,
+          "within_tolerance": true
+        },
+        "gls_t0.02": {
+          "rate": 0.0504,
+          "rejections": 5040,
+          "n": 100000,
+          "wilson_lower": 0.0490612676985767,
+          "wilson_upper": 0.05177327337225798,
+          "se": 0.0006918080658679833,
+          "in_region": true,
+          "abs_dev_from_alpha": 0.0003999999999999976,
+          "within_tolerance": true
+        }
+      },
+      "size_with_cv_n20000": {
+        "gls_t0": {
+          "rate": 0.04846,
+          "rejections": 4846,
+          "n": 100000,
+          "wilson_lower": 0.04714633340246883,
+          "wilson_upper": 0.04980835671124268,
+          "se": 0.0006790554351450256,
+          "in_region": false,
+          "cv_n20000": 0.1713737057732921
+        },
+        "gls_t0.02": {
+          "rate": 0.05071,
+          "rejections": 5071,
+          "n": 100000,
+          "wilson_lower": 0.049367314759833275,
+          "wilson_upper": 0.0520872024948716,
+          "se": 0.0006938191111521792,
+          "in_region": true,
+          "cv_n20000": 0.1624369794625622
+        }
+      }
+    },
+    "dm|1000": {
+      "case": "dm",
+      "n": 1000,
+      "source": "b101_theta_audit10.json cells.dm|1000.rates.<theta>.pooled",
+      "N": 100000,
+      "rates": {
+        "gls_t0": {
+          "rate": 0.04915,
+          "rejections": 4915,
+          "n": 100000,
+          "wilson_lower": 0.04782735250920428,
+          "wilson_upper": 0.05050728459441185,
+          "se": 0.000683624732583601,
+          "in_region": true,
+          "abs_dev_from_alpha": 0.0008500000000000035,
+          "within_tolerance": true
+        },
+        "gls_t0.02": {
+          "rate": 0.04903,
+          "rejections": 4903,
+          "n": 100000,
+          "wilson_lower": 0.0477089091187804,
+          "wilson_upper": 0.05038573720398274,
+          "se": 0.0006828327694245495,
+          "in_region": true,
+          "abs_dev_from_alpha": 0.0009700000000000056,
+          "within_tolerance": true
+        }
+      },
+      "size_with_cv_n20000": {
+        "gls_t0": {
+          "rate": 0.04997,
+          "rejections": 4997,
+          "n": 100000,
+          "wilson_lower": 0.04863677437215039,
+          "wilson_upper": 0.05133779973396112,
+          "se": 0.0006890065246425465,
+          "in_region": true,
+          "cv_n20000": 0.23696978263052154
+        },
+        "gls_t0.02": {
+          "rate": 0.05015,
+          "rejections": 5015,
+          "n": 100000,
+          "wilson_lower": 0.048814465902818516,
+          "wilson_upper": 0.05152009437457246,
+          "se": 0.000690180972644132,
+          "in_region": true,
+          "cv_n20000": 0.22973171769033557
+        }
+      }
+    },
+    "ct|1000": {
+      "case": "ct",
+      "n": 1000,
+      "source": "b101_theta_audit10.json cells.ct|1000.rates.<theta>.pooled",
+      "N": 100000,
+      "rates": {
+        "gls_t0": {
+          "rate": 0.05049,
+          "rejections": 5049,
+          "n": 100000,
+          "wilson_lower": 0.04915011861202358,
+          "wilson_upper": 0.05186441554445084,
+          "se": 0.000692392662439457,
+          "in_region": true,
+          "abs_dev_from_alpha": 0.0004899999999999974,
+          "within_tolerance": true
+        },
+        "gls_t0.02": {
+          "rate": 0.05053,
+          "rejections": 5053,
+          "n": 100000,
+          "wilson_lower": 0.049189608290752876,
+          "wilson_upper": 0.05190492279267253,
+          "se": 0.0006926522872264265,
+          "in_region": true,
+          "abs_dev_from_alpha": 0.0005299999999999958,
+          "within_tolerance": true
+        }
+      },
+      "size_with_cv_n20000": {
+        "gls_t0": {
+          "rate": 0.05011,
+          "rejections": 5011,
+          "n": 100000,
+          "wilson_lower": 0.04877497847795251,
+          "wilson_upper": 0.051479584872487466,
+          "se": 0.000689920197559109,
+          "in_region": true,
+          "cv_n20000": 0.1713737057732921
+        },
+        "gls_t0.02": {
+          "rate": 0.05098,
+          "rejections": 5098,
+          "n": 100000,
+          "wilson_lower": 0.04963388336578155,
+          "wilson_upper": 0.05236061314584253,
+          "se": 0.0006955648035948914,
+          "in_region": true,
+          "cv_n20000": 0.1624369794625622
+        }
+      }
+    }
+  },
+  "elapsed_analysis_sec": 4.6
+}

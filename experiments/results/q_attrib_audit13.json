@@ -1,0 +1,1491 @@
+{
+  "provenance": {
+    "script": "experiments/audit13_q_attrib.py",
+    "script_sha256": "3369031d8a0dac8269549a4902d7ce5503b65fcd59e765a01a405ebb07efe2e9",
+    "commit": "386269041da4365ad15af4a347b1f7646e24dec9",
+    "worktree_dirty": true,
+    "dirty_files": [
+      "M experiments/results/manifest_audit13.json"
+    ],
+    "generated_utc": "2026-09-23T19:38:34.075160+00:00",
+    "seed_family": null,
+    "versions": {
+      "python": "3.11.0",
+      "platform": "Windows-10-10.0.26200-SP0",
+      "numpy": "2.2.4",
+      "scipy": "1.15.2",
+      "numba": "0.65.0",
+      "statsmodels": "0.14.6",
+      "arch": "8.0.0",
+      "pandas": "2.2.3",
+      "joblib": "1.4.2",
+      "matplotlib": "3.10.1",
+      "pytest": "9.0.3"
+    },
+    "code": {
+      "experiments/audit10_b100_protocol.py": {
+        "sha256": "2f4b3351d36f05faafd5a01981278237be31ccbd3a62eb53307d5888c3ab8c47",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b101_theta.py": {
+        "sha256": "c7f65d04c6a2762bcf4fcb7cd6fb3f3ea9f588392e6316175bb88631bd255903",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b102_identity.py": {
+        "sha256": "967ce70c299a9fa87ca467d3885c2c6ae54b11ca7f1a6aac75c94a9bd38125b3",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_application.py": {
+        "sha256": "6e73e4304a88e42b528dc119d56f8a47f3aced0cac6267493b67f96699f4032a",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_awb.py": {
+        "sha256": "c35235023f15eff41059abe196791e6ee57a3f52eb736779b4ed442b70f18f87",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_cv.py": {
+        "sha256": "bc3e2ee08728214ae92b5883e9f3bd067660d99acbeebaf032b8ef7cb289c8a7",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_dgp5.py": {
+        "sha256": "8df807243e62e3c044f4f55ccc9ba909254a15b011fd190d9a6a79c466f2e73e",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_equalized.py": {
+        "sha256": "039b485455232788d7503ff80d09565182b9d5ed696fdaf8c7e27f67ca44ce5d",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_finite.py": {
+        "sha256": "a6fea4ef3e9cab8ab5b2369189497de6ff8fc38abdd3f27b752efeb43935f113",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_lown.py": {
+        "sha256": "61ffc45a0782f9277588e5f3068af89add849a7eb28a87e3902c0df69269b264",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b104_cv5000.py": {
+        "sha256": "64b94cc583c2f45c67910c6f25c5bab49baf77d5d9b4841e49d632bcd4a20493",
+        "git_state": "committed"
+      },
+      "experiments/audit10_common.py": {
+        "sha256": "298e82a217d2dd32ba87245f6056dbb82051fe2985acd644b1e972f6768ca123",
+        "git_state": "committed"
+      },
+      "experiments/audit10_design.py": {
+        "sha256": "d9da80a9c9148338e1031d1a7736180ebffd76409385b5cf7fa0c7af20d28042",
+        "git_state": "committed"
+      },
+      "experiments/audit10_engine.py": {
+        "sha256": "3d2618561538c1afd8daf8224fa230826ae442505877afb8c12a378755911333",
+        "git_state": "committed"
+      },
+      "experiments/audit10_figconfig.py": {
+        "sha256": "522ae90338608ca46d449900388d6eb5c9e152140115dd6be362d17822b8116f",
+        "git_state": "committed"
+      },
+      "experiments/audit10_generate_report.py": {
+        "sha256": "9ebb38589ec72648a1a905a105d3e6cfaa9b486cbd3a4cd9a5800be1436f1d41",
+        "git_state": "committed"
+      },
+      "experiments/audit11_figconfig.py": {
+        "sha256": "3e0ac02a12cb821428036438924ad7d36aa65ef172b6b458b269d484af0fad84",
+        "git_state": "committed"
+      },
+      "experiments/audit12_common.py": {
+        "sha256": "9845605b593b4c07eed4a0ead1b9068951c1b302ca653d7fb410b2ddc84f7b84",
+        "git_state": "committed"
+      },
+      "experiments/audit12_unitroot.py": {
+        "sha256": "36b0bb5a7439cb0fabdfc346d9b1d2fef91fc0bacf54f49c4642538f4c3db3cb",
+        "git_state": "committed"
+      },
+      "experiments/audit13_b130_inventory.py": {
+        "sha256": "6e9e89107e8881c68dc81bc34c91e9b4838b84805adbcb955248abba18af3a75",
+        "git_state": "committed"
+      },
+      "experiments/audit13_claims.py": {
+        "sha256": "354466be4864c1321e1a7d23f004663ccef1bd1199f592110de2d575122b986f",
+        "git_state": "committed"
+      },
+      "experiments/audit13_common.py": {
+        "sha256": "94a6255b99fbd25b19a452147e20c76b9c181848e639ef26a09087b0169d19de",
+        "git_state": "committed"
+      },
+      "experiments/audit13_design.py": {
+        "sha256": "29fea9ecb7e3db08fac745d74779e229d871d5ac3e761d55f6c61c19561f2ab1",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_application.py": {
+        "sha256": "4969da94c823615f05e34dac23a5b5fc60b458dc962eca90d3048510a4da7c23",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_awb.py": {
+        "sha256": "0a95c3a6c42f334e463baf7216b202639ece93ec4080e82ef0067340f77ff373",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_calib.py": {
+        "sha256": "815694a898ff497d578447c1298db7f9772a75f13a088c2f1c2f82fd27af2ca3",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_dgp5.py": {
+        "sha256": "11022366b13d68a9f78a560403ea03221f8bceb999a34cbf68a06fd00a0a48ad",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_equalized.py": {
+        "sha256": "551896f43f6106547f300069fd03e861f57b6ec1c9435d97275f4f649158a6eb",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_size.py": {
+        "sha256": "90d4a4bfb173894cd2cf3f10a363446804a3a6339baec425c39a654fab7a4585",
+        "git_state": "committed"
+      },
+      "experiments/audit13_generate_report.py": {
+        "sha256": "b7093811991b76e414457f15b76294cb1ea85dabf4a6bc80ea01db451c400e3f",
+        "git_state": "committed"
+      },
+      "experiments/audit13_q_attrib.py": {
+        "sha256": "3369031d8a0dac8269549a4902d7ce5503b65fcd59e765a01a405ebb07efe2e9",
+        "git_state": "committed"
+      },
+      "experiments/audit13_q_claims.py": {
+        "sha256": "490147c55b6edb417929d709c745edbd8ccad3e9a586723f5bac65d3257843bf",
+        "git_state": "committed"
+      },
+      "experiments/audit13_q_common.py": {
+        "sha256": "98e1b30eebcb79b4a5edb6e3d4cede9d8d11a274c631eca1ef097da0e90c1ff1",
+        "git_state": "committed"
+      },
+      "experiments/audit13_q_inventory.py": {
+        "sha256": "17ed148ec3a404d9bbc1d21c0fa4926a67756e635e173ed8dfa5034cabca97f6",
+        "git_state": "committed"
+      },
+      "experiments/audit13_q_phrases.py": {
+        "sha256": "96cb95731a0014e299036344f09079e10387d464ea27ed7bb5271580cba77e01",
+        "git_state": "committed"
+      },
+      "experiments/audit13_q_report.py": {
+        "sha256": "ba2b694f351e0f2f92d66dd8907fb4b7955a97dac46a100581a6d0fb6d09cb74",
+        "git_state": "committed"
+      },
+      "experiments/audit13_q_supplement.py": {
+        "sha256": "df66975d8eba1f930ba0137666f60a21f4f593e89cfa4dedce14be617ead7b65",
+        "git_state": "committed"
+      },
+      "experiments/audit13_t_tables.py": {
+        "sha256": "5bb1b16873c1586eea25efe4c4eb91d4b48e1185bb921f11446ce27fd693119c",
+        "git_state": "committed"
+      },
+      "experiments/audit13_tables.py": {
+        "sha256": "ecdb0d85bfbcbf36a50b4a6d905698ddd38d8cf100ba3e89cf1fc241c698aaa9",
+        "git_state": "committed"
+      },
+      "experiments/audit7_design.py": {
+        "sha256": "fb966e5a334cdd0f1f63632f28fbc5f6d9195d56de34065305639b56f10dc769",
+        "git_state": "committed"
+      },
+      "experiments/audit7_dgp5_analysis.py": {
+        "sha256": "7445da3a421063e937c8e2516167f0d0bb7aa2144ad9c1db263ac0c3df44ab61",
+        "git_state": "committed"
+      },
+      "experiments/audit7_dgp5_runner.py": {
+        "sha256": "bdd056463c63826f3260011e53b06bfb054d6678c0bfed9eca5af562ed92608f",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b0_inventory.py": {
+        "sha256": "6405cc166459c296fb32c86fed1abff150afc4889ba0598502d8c4e41ea07add",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_np_diagnostic.py": {
+        "sha256": "959b18541923f504c4178fdedd3a7d519a62487930c1de4dbcc8e476e0a43df0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_np_gate.py": {
+        "sha256": "93064f87f144776c7c83ee95d23bdbd7eadf5cbaff08af57297eda3ef37348f0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_regression_child.py": {
+        "sha256": "350b1389b64fdc89098d17861b7196671be9fe66123fb1f0702ddd5229fee150",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_validate.py": {
+        "sha256": "6a268b6ac14f5d05f2dfa26b5430328246f34893439ff6004b308d9a163170b0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2_size.py": {
+        "sha256": "74b1cdbd9f0bba3c77cb495b6c53393ba49eef75ff4f88d41257679ee2d4ff93",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2b_diagnostic.py": {
+        "sha256": "f89de9ed47612633614546168cb1887b0fb1c2faa37283276d03e45dd8096802",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2b_indep.py": {
+        "sha256": "47eb0f404478d0bac66bab7ea2002a24956ceeb287bdcb5bd441ee5fc0c8dda5",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b3_comparators.py": {
+        "sha256": "a4589a8ab3fe02284549b02f9c2078ad34172ddab47b268ce5c1ce4c444fc363",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b4_local_power.py": {
+        "sha256": "4de18b53c2f31d3d2f7e04fee1d786d42df0ba7998bdf30278b8029acea904c7",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b5_power.py": {
+        "sha256": "561c9dd52313c70d193ebe7ea772b3dbf91db2e691019eec3f5e76c4c8c28092",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b6_application.py": {
+        "sha256": "917157d7367c201cb4e92c2eafd1cb4f3d6f68d44dfbc9f6713c0ecb7e28de07",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b7_critical_values.py": {
+        "sha256": "1a228203fb9b1ed38020fe40ec4e6e690ea05c6bf152ceca42a82cc7f2d1c801",
+        "git_state": "committed"
+      },
+      "experiments/audit8_cache_fix_validate.py": {
+        "sha256": "01d88be3d99d27ddb32abdc63bbb5fad3ab6129300ba8cfe638b1790a60d314a",
+        "git_state": "committed"
+      },
+      "experiments/audit8_common.py": {
+        "sha256": "5718ec2cfa7f5f5c5f7f8d68ed26198e00ac827fb562cee67b234857e5719f0d",
+        "git_state": "committed"
+      },
+      "experiments/audit8_design.py": {
+        "sha256": "ad80aeae74d44ff4cecbd10dbfc480d24c146b81ec8f9d6561f95b7ba7079ae0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_environment.py": {
+        "sha256": "9b323700e91302ad0090e876b922a38a1dd6b23ef5f19fcc7748d947e617d21e",
+        "git_state": "committed"
+      },
+      "experiments/audit8_figconfig.py": {
+        "sha256": "eb516777a764ee78828acf7a5c743c4e9d8f5aab57b98550606354793d467e12",
+        "git_state": "committed"
+      },
+      "experiments/audit8_generate_report.py": {
+        "sha256": "91157e2576bec679f9f826423f55b6de104a01380651c9648a3aa25adac78819",
+        "git_state": "committed"
+      },
+      "experiments/audit8_unitroot.py": {
+        "sha256": "9d0842a342f12b9c8a7e3870127768590c53d98c8ca90dbb3a2715ddb16748ef",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b90_protocol.py": {
+        "sha256": "5e0a7109f7d1a7737ed2558ccc1766b36c61e0ead19738e9da6512af0d58e590",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b91_equalized.py": {
+        "sha256": "66be775e81bb3ddeadc202237f1343a4d231138274eb8387cc5ac48c1366b9b9",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b92_theta.py": {
+        "sha256": "56b784b7534e466897a6b31400dc17906ad101d2d114e93f9d5bb95b55c65af5",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b93_attribution.py": {
+        "sha256": "0c6a42942f19a4b0f07cf102704a98e4c17f76815a53bbb1e0407bb3119dd6ee",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b94_finite_sample.py": {
+        "sha256": "b5c5b0acc0792baaec3499d386bbce7768142ca4e37ca1ac03fb23914a0daae5",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b95_awb.py": {
+        "sha256": "f60dcb418bb045ef40684fc8572d74e578459d40d28925dd7c30bbac79dbf0c0",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b96_application.py": {
+        "sha256": "0ff5e46367a3f1dfae0a92aa02fd0fdf13b64efab897de61eaafb81599f468b4",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b97_critical_values.py": {
+        "sha256": "774956681a4c6536cfab497326e032518cb97c10a0aacf9bffd38ee92aef14f3",
+        "git_state": "committed"
+      },
+      "experiments/audit9_calibrate.py": {
+        "sha256": "d2f7ac2cd3d5fa866fac21379f79a60535749e8db61d02135aaea99ec0b75bbd",
+        "git_state": "committed"
+      },
+      "experiments/audit9_common.py": {
+        "sha256": "39fbee3c398de920ba2f9c4400ac6254c58d9fb537c6f97649c8299ea39e78f7",
+        "git_state": "committed"
+      },
+      "experiments/audit9_design.py": {
+        "sha256": "e25486561a4c06643807b4035e2beeb0436558b1157bfb3b7a866e5e7cb815ac",
+        "git_state": "committed"
+      },
+      "experiments/audit9_engine.py": {
+        "sha256": "8f8bd7a817178056d2e55a4c518bfc2188737c02c3f56cf467d15972ac651e1b",
+        "git_state": "committed"
+      },
+      "experiments/audit9_figconfig.py": {
+        "sha256": "502fc40d79bdec85ad4ebac69ee33949903c4c8b5e14ed5558ab3b6b985b8080",
+        "git_state": "committed"
+      },
+      "experiments/audit9_generate_report.py": {
+        "sha256": "c8257dc6873c4ef2d5bf1f40ff3906e7bbbd2513b241348583bfb3ec70f6f559",
+        "git_state": "committed"
+      },
+      "experiments/make_figures_audit10.py": {
+        "sha256": "defe405c489e96491a7f9a63e09392c24bce8cc3768b7ec654708eaf244ff560",
+        "git_state": "committed"
+      },
+      "experiments/make_figures_audit11.py": {
+        "sha256": "ae54c12199f80a46f7beb88544743d422d3e982aae3a14aede0a5f9efdf93dc6",
+        "git_state": "committed"
+      },
+      "experiments/make_figures_audit13.py": {
+        "sha256": "9b685b1ee40e89c201a64b3886805e2524de381a5a81be4d71e59dc86f1301ba",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/__init__.py": {
+        "sha256": "20ebf29ab1a9a64bb428f25ff0170d67db2354662efb8b973922c3f455f56582",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/constants.py": {
+        "sha256": "de8bd2282ff09c41fc6eae12fcca6695c1fd3a0c9def7628a9b76e9361058907",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/davies.py": {
+        "sha256": "cfad047d0b0676cc83a41208cd600f4224ce61bf03930228a5a80d1d6556c9b9",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/deterministics.py": {
+        "sha256": "31db116abc80e5cab8c97317a31d6f22f1a4ca40c885eef86c134db598dac6b2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/empirical_eigenvalues.py": {
+        "sha256": "f749e2e2de8b807421d6e74836bd5d539eccb314f18821bd38b80e72b5ee72a1",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/full_pipeline.py": {
+        "sha256": "cdbd5405caa50bc83c7348a0a8be9963b522ef4d808024f078f648bb1de89170",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/hac_estimator.py": {
+        "sha256": "f7c22540e6a8e862258cb70e4a839b841453ca9490a01671176431ee4bf678f2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/kl_eigenvalues.py": {
+        "sha256": "c0fb0a90795c904cb2876aa16eff64948e0abf5a27d3a57c6612c2b9ec198903",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/null_quantiles.py": {
+        "sha256": "655458f05815621d015984080169663d2310d26e588a83e2c5a62549ba5a1ae8",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/optimal_weight.py": {
+        "sha256": "47632d98ed256b2364a2ac99de64780e0cd8d42a69c68b4552c6ea0564f86ba4",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/rm_core.py": {
+        "sha256": "4d3ee3f59c569233a5e9a9ed8ffd3032364188545bac04a0cc619ccac39e04e0",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/standardization.py": {
+        "sha256": "cc8cb146d28ea63be86bc11db6cc6c345fbf5fd412055e2e58a33a40f3e8936b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/statistic.py": {
+        "sha256": "f0baf1d99ac4311ca854d350f18a3d3416974bf5d13e662d05149f87183d92ef",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/theta_selection.py": {
+        "sha256": "23eba50e85d0db917d14b4d3d844c42e5ee566dfd326a0fad7feae0dd113f40b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/utils.py": {
+        "sha256": "8a3e0b972da519b3c39ca0e0326953dbae1bf048845c05c1fb3a23a001b72717",
+        "git_state": "committed"
+      }
+    },
+    "code_all_committed": true
+  },
+  "manuscript": {
+    "path": "paper_latex_v14.zip",
+    "sha256": "3b21e2250002dee66780027d49ea3458d33f4ee481f042b4fe6a43a301d7a12b",
+    "bytes": 157334
+  },
+  "source": "bB_attrib_audit12.json",
+  "source_sha256": "5a517678b80735806f534f3286b5c09ca7519bd7f5590b57b85c189828b72183",
+  "v14_file": "sec5_montecarlo.tex",
+  "reading": "protocol_audit13_amend1.md, lectura 3",
+  "rounding": "binary",
+  "rounding_trials": {
+    "binary": {
+      "number_mismatches": 0,
+      "double_rounding": 1
+    },
+    "half_up": {
+      "number_mismatches": 3,
+      "double_rounding": 1
+    }
+  },
+  "rows": [
+    {
+      "keys": [
+        "$\\rho = 0.80$"
+      ],
+      "json_key": "dgp1_rho0p8_n200",
+      "section": "Power, constant case, $n = 200$",
+      "printed": [
+        "1.000",
+        "0.947",
+        "0.954",
+        "0.941",
+        "+4.64",
+        "+0.62",
+        "+1.22"
+      ],
+      "mine": [
+        "1.000",
+        "0.947",
+        "0.954",
+        "0.941",
+        "+4.64",
+        "+0.62",
+        "+1.22"
+      ],
+      "values": [
+        1.0,
+        0.9474,
+        0.9536,
+        0.9414,
+        4.64,
+        0.62,
+        1.22
+      ]
+    },
+    {
+      "keys": [
+        "$\\rho = 0.90$"
+      ],
+      "json_key": "dgp1_rho0p9_n200",
+      "section": "Power, constant case, $n = 200$",
+      "printed": [
+        "0.993",
+        "0.924",
+        "0.931",
+        "0.914",
+        "+6.22",
+        "+0.72",
+        "+1.70"
+      ],
+      "mine": [
+        "0.993",
+        "0.924",
+        "0.931",
+        "0.914",
+        "+6.22",
+        "+0.72",
+        "+1.70"
+      ],
+      "values": [
+        0.9934,
+        0.924,
+        0.9312,
+        0.9142,
+        6.22,
+        0.72,
+        1.7000000000000002
+      ]
+    },
+    {
+      "keys": [
+        "$\\rho = 0.93$"
+      ],
+      "json_key": "dgp1_rho0p93_n200",
+      "section": "Power, constant case, $n = 200$",
+      "printed": [
+        "0.910",
+        "0.840",
+        "0.847",
+        "0.816",
+        "+6.32",
+        "+0.72",
+        "+3.08"
+      ],
+      "mine": [
+        "0.910",
+        "0.840",
+        "0.847",
+        "0.816",
+        "+6.32",
+        "+0.72",
+        "+3.08"
+      ],
+      "values": [
+        0.9102,
+        0.8398,
+        0.847,
+        0.8162,
+        6.32,
+        0.72,
+        3.08
+      ]
+    },
+    {
+      "keys": [
+        "$\\rho = 0.95$"
+      ],
+      "json_key": "dgp1_rho0p95_n200",
+      "section": "Power, constant case, $n = 200$",
+      "printed": [
+        "0.708",
+        "0.659",
+        "0.668",
+        "0.628",
+        "+4.04",
+        "+0.90",
+        "+3.96"
+      ],
+      "mine": [
+        "0.708",
+        "0.659",
+        "0.668",
+        "0.628",
+        "+4.04",
+        "+0.90",
+        "+3.96"
+      ],
+      "values": [
+        0.708,
+        0.6586,
+        0.6676,
+        0.628,
+        4.04,
+        0.8999999999999999,
+        3.9600000000000004
+      ]
+    },
+    {
+      "keys": [
+        "$\\rho = 0.97$"
+      ],
+      "json_key": "dgp1_rho0p97_n200",
+      "section": "Power, constant case, $n = 200$",
+      "printed": [
+        "0.386",
+        "0.367",
+        "0.373",
+        "0.345",
+        "+1.34",
+        "+0.62",
+        "+2.76"
+      ],
+      "mine": [
+        "0.386",
+        "0.367",
+        "0.373",
+        "0.345",
+        "+1.34",
+        "+0.62",
+        "+2.76"
+      ],
+      "values": [
+        0.3864,
+        0.3668,
+        0.373,
+        0.3454,
+        1.34,
+        0.62,
+        2.76
+      ]
+    },
+    {
+      "keys": [
+        "Constant, $n = 200$ (7)"
+      ],
+      "json_key": "c|200",
+      "section": "Mean over the values of $\\rho$, percentage points (s.e.)",
+      "printed": [
+        "",
+        "",
+        "",
+        "",
+        "+4.06 (0.14)",
+        "+0.52 (0.08)",
+        "+2.09 (0.09)"
+      ],
+      "mine": [
+        "",
+        "",
+        "",
+        "",
+        "+4.06 (0.14)",
+        "+0.52 (0.08)",
+        "+2.09 (0.09)"
+      ],
+      "values": [
+        null,
+        null,
+        null,
+        null,
+        4.062857142857144,
+        0.5228571428571428,
+        2.0885714285714285
+      ]
+    },
+    {
+      "keys": [
+        "Constant, $n = 500$ (7)"
+      ],
+      "json_key": "c|500",
+      "section": "Mean over the values of $\\rho$, percentage points (s.e.)",
+      "printed": [
+        "",
+        "",
+        "",
+        "",
+        "+0.45 (0.06)",
+        "+0.07 (0.03)",
+        "+0.69 (0.05)"
+      ],
+      "mine": [
+        "",
+        "",
+        "",
+        "",
+        "+0.45 (0.06)",
+        "+0.07 (0.03)",
+        "+0.69 (0.05)"
+      ],
+      "values": [
+        null,
+        null,
+        null,
+        null,
+        0.4457142857142857,
+        0.07428571428571429,
+        0.6885714285714286
+      ]
+    },
+    {
+      "keys": [
+        "Constant, $n = 1000$ (7)"
+      ],
+      "json_key": "c|1000",
+      "section": "Mean over the values of $\\rho$, percentage points (s.e.)",
+      "printed": [
+        "",
+        "",
+        "",
+        "",
+        "+0.10 (0.04)",
+        "+0.03 (0.02)",
+        "+0.51 (0.04)"
+      ],
+      "mine": [
+        "",
+        "",
+        "",
+        "",
+        "+0.10 (0.04)",
+        "+0.03 (0.02)",
+        "+0.51 (0.04)"
+      ],
+      "values": [
+        null,
+        null,
+        null,
+        null,
+        0.09714285714285713,
+        0.03142857142857143,
+        0.5114285714285715
+      ]
+    },
+    {
+      "keys": [
+        "Trend, $n = 200$ (4)"
+      ],
+      "json_key": "ct|200",
+      "section": "Mean over the values of $\\rho$, percentage points (s.e.)",
+      "printed": [
+        "",
+        "",
+        "",
+        "",
+        "+1.68 (0.19)",
+        "+0.74 (0.12)",
+        "+8.12 (0.19)"
+      ],
+      "mine": [
+        "",
+        "",
+        "",
+        "",
+        "+1.68 (0.19)",
+        "+0.74 (0.12)",
+        "+8.12 (0.19)"
+      ],
+      "values": [
+        null,
+        null,
+        null,
+        null,
+        1.6800000000000002,
+        0.745,
+        8.120000000000001
+      ]
+    },
+    {
+      "keys": [
+        "Trend, $n = 500$ (4)"
+      ],
+      "json_key": "ct|500",
+      "section": "Mean over the values of $\\rho$, percentage points (s.e.)",
+      "printed": [
+        "",
+        "",
+        "",
+        "",
+        "+1.86 (0.15)",
+        "+0.30 (0.07)",
+        "+4.56 (0.15)"
+      ],
+      "mine": [
+        "",
+        "",
+        "",
+        "",
+        "+1.86 (0.15)",
+        "+0.30 (0.07)",
+        "+4.56 (0.15)"
+      ],
+      "values": [
+        null,
+        null,
+        null,
+        null,
+        1.86,
+        0.3,
+        4.5600000000000005
+      ]
+    },
+    {
+      "keys": [
+        "$c = 5$"
+      ],
+      "json_key": "lp_dm_c5",
+      "section": "Local power, constant case, $n = 2000$",
+      "printed": [
+        "0.295",
+        "0.290",
+        "0.298",
+        "0.275",
+        "$-$0.33",
+        "+0.80",
+        "+2.38"
+      ],
+      "mine": [
+        "0.295",
+        "0.290",
+        "0.298",
+        "0.274",
+        "$-$0.33",
+        "+0.80",
+        "+2.38"
+      ],
+      "values": [
+        0.2949,
+        0.2902,
+        0.2982,
+        0.27445,
+        -0.33,
+        0.8,
+        2.375
+      ]
+    },
+    {
+      "keys": [
+        "$c = 10$"
+      ],
+      "json_key": "lp_dm_c10",
+      "section": "Local power, constant case, $n = 2000$",
+      "printed": [
+        "0.724",
+        "0.720",
+        "0.729",
+        "0.695",
+        "$-$0.43",
+        "+0.86",
+        "+3.33"
+      ],
+      "mine": [
+        "0.724",
+        "0.720",
+        "0.729",
+        "0.695",
+        "$-$0.43",
+        "+0.86",
+        "+3.33"
+      ],
+      "values": [
+        0.7243,
+        0.72005,
+        0.72865,
+        0.6953,
+        -0.43499999999999994,
+        0.86,
+        3.335
+      ]
+    },
+    {
+      "keys": [
+        "$c = 15$"
+      ],
+      "json_key": "lp_dm_c15",
+      "section": "Local power, constant case, $n = 2000$",
+      "printed": [
+        "0.958",
+        "0.955",
+        "0.958",
+        "0.947",
+        "+0.01",
+        "+0.30",
+        "+1.13"
+      ],
+      "mine": [
+        "0.958",
+        "0.955",
+        "0.958",
+        "0.947",
+        "+0.01",
+        "+0.30",
+        "+1.13"
+      ],
+      "values": [
+        0.95805,
+        0.9549,
+        0.9579,
+        0.9466,
+        0.015,
+        0.3,
+        1.13
+      ]
+    }
+  ],
+  "comparison_v14": {
+    "cells_compared": 91,
+    "number_mismatches": [],
+    "double_rounding_in_v13": [
+      {
+        "row": [
+          "$c = 5$"
+        ],
+        "section": "Local power, constant case, $n = 2000$",
+        "col": 3,
+        "printed": "0.275",
+        "mine": "0.274",
+        "value": 0.27445
+      }
+    ],
+    "bold_mismatches_in_v13": [],
+    "passes": true
+  },
+  "note": {
+    "comparison": [
+      {
+        "printed": "4.59",
+        "mine": "4.59",
+        "value": 4.585714285714286,
+        "equal": true
+      },
+      {
+        "printed": "0.52",
+        "mine": "0.52",
+        "value": 0.52,
+        "equal": true
+      },
+      {
+        "printed": "0.13",
+        "mine": "0.13",
+        "value": 0.12857142857142856,
+        "equal": true
+      },
+      {
+        "printed": "2.43",
+        "mine": "2.43",
+        "value": 2.4250000000000003,
+        "equal": true
+      },
+      {
+        "printed": "2.16",
+        "mine": "2.16",
+        "value": 2.1599999999999997,
+        "equal": true
+      },
+      {
+        "printed": "0.15",
+        "mine": "0.15",
+        "value": 0.14724349889325491,
+        "equal": true
+      },
+      {
+        "printed": "0.06",
+        "mine": "0.06",
+        "value": 0.06243384094269833,
+        "equal": true
+      },
+      {
+        "printed": "0.04",
+        "mine": "0.04",
+        "value": 0.04067145888958889,
+        "equal": true
+      },
+      {
+        "printed": "0.20",
+        "mine": "0.20",
+        "value": 0.20342325630134045,
+        "equal": true
+      },
+      {
+        "printed": "0.16",
+        "mine": "0.16",
+        "value": 0.15523507846462148,
+        "equal": true
+      },
+      {
+        "printed": "1.57",
+        "mine": "1.57",
+        "value": 1.5657142857142858,
+        "equal": true
+      },
+      {
+        "printed": "0.61",
+        "mine": "0.61",
+        "value": 0.6142857142857142,
+        "equal": true
+      },
+      {
+        "printed": "0.48",
+        "mine": "0.48",
+        "value": 0.48,
+        "equal": true
+      },
+      {
+        "printed": "7.38",
+        "mine": "7.38",
+        "value": 7.375000000000001,
+        "equal": true
+      },
+      {
+        "printed": "4.26",
+        "mine": "4.26",
+        "value": 4.26,
+        "equal": true
+      }
+    ],
+    "all_equal": true
+  },
+  "paso0": {
+    "rates_vs_rejections_over_n": 0.0,
+    "diff_vs_rate_difference": 9.71445146547012e-17,
+    "by_n_mean_vs_cells": 0.0,
+    "nonzero_other_columns": [
+      [
+        "dgp1_rho0p8_n200.diffs.bp_minus_b",
+        1.6479873021779667e-17
+      ],
+      [
+        "dgp1_rho0p8_n200.diffs.bp_minus_c",
+        1.214306433183765e-17
+      ],
+      [
+        "dgp1_rho0p8_n200.diffs.a_minus_b",
+        2.0816681711721685e-17
+      ],
+      [
+        "dgp1_rho0p8_n200.diffs.b_minus_c",
+        5.204170427930421e-18
+      ],
+      [
+        "dgp1_rho0p85_n200.diffs.a_minus_bp",
+        2.7755575615628914e-17
+      ],
+      [
+        "dgp1_rho0p85_n200.diffs.bp_minus_b",
+        2.688821387764051e-17
+      ],
+      [
+        "dgp1_rho0p85_n200.diffs.bp_minus_c",
+        3.469446951953614e-17
+      ],
+      [
+        "dgp1_rho0p85_n200.diffs.a_minus_b",
+        4.85722573273506e-17
+      ],
+      [
+        "dgp1_rho0p85_n200.diffs.b_minus_c",
+        6.158268339717665e-17
+      ],
+      [
+        "dgp1_rho0p85_n500.diffs.a_minus_bp",
+        2.2036409155767878e-17
+      ],
+      [
+        "dgp1_rho0p85_n500.diffs.bp_minus_c",
+        2.2036409155767878e-17
+      ],
+      [
+        "dgp1_rho0p85_n500.diffs.a_minus_b",
+        2.2036409155767878e-17
+      ],
+      [
+        "dgp1_rho0p85_n500.diffs.b_minus_c",
+        2.2036409155767878e-17
+      ],
+      [
+        "dgp1_rho0p9_n200.diffs.a_minus_bp",
+        7.632783294297951e-17
+      ],
+      [
+        "dgp1_rho0p9_n200.diffs.bp_minus_b",
+        1.5612511283791264e-17
+      ],
+      [
+        "dgp1_rho0p9_n200.diffs.bp_minus_c",
+        1.3877787807814457e-17
+      ],
+      [
+        "dgp1_rho0p9_n200.diffs.a_minus_b",
+        9.71445146547012e-17
+      ],
+      [
+        "dgp1_rho0p9_n200.diffs.b_minus_c",
+        3.122502256758253e-17
+      ],
+      [
+        "dgp1_rho0p9_n500.diffs.a_minus_bp",
+        4.4072818311535755e-17
+      ],
+      [
+        "dgp1_rho0p9_n500.diffs.a_minus_b",
+        4.4072818311535755e-17
+      ],
+      [
+        "dgp1_rho0p93_n200.diffs.a_minus_bp",
+        2.7755575615628914e-17
+      ],
+      [
+        "dgp1_rho0p93_n200.diffs.bp_minus_b",
+        1.5612511283791264e-17
+      ],
+      [
+        "dgp1_rho0p93_n200.diffs.bp_minus_c",
+        6.245004513516506e-17
+      ],
+      [
+        "dgp1_rho0p93_n200.diffs.a_minus_b",
+        1.3877787807814457e-17
+      ],
+      [
+        "dgp1_rho0p93_n200.diffs.b_minus_c",
+        4.5102810375396984e-17
+      ],
+      [
+        "dgp1_rho0p93_n500.diffs.a_minus_bp",
+        2.47198095326695e-17
+      ],
+      [
+        "dgp1_rho0p93_n500.diffs.bp_minus_b",
+        2.2036409155767878e-17
+      ],
+      [
+        "dgp1_rho0p93_n500.diffs.bp_minus_c",
+        6.602791230436722e-17
+      ],
+      [
+        "dgp1_rho0p93_n500.diffs.a_minus_b",
+        4.683753385137379e-17
+      ],
+      [
+        "dgp1_rho0p93_n500.diffs.b_minus_c",
+        8.814563662307151e-17
+      ],
+      [
+        "dgp1_rho0p95_n200.diffs.a_minus_bp",
+        6.938893903907228e-18
+      ],
+      [
+        "dgp1_rho0p95_n200.diffs.bp_minus_b",
+        8.673617379884035e-18
+      ],
+      [
+        "dgp1_rho0p95_n200.diffs.bp_minus_c",
+        3.469446951953614e-17
+      ],
+      [
+        "dgp1_rho0p95_n200.diffs.b_minus_c",
+        3.8163916471489756e-17
+      ],
+      [
+        "dgp1_rho0p95_n500.diffs.a_minus_bp",
+        2.862293735361732e-17
+      ],
+      [
+        "dgp1_rho0p95_n500.diffs.bp_minus_b",
+        4.4072818311535755e-17
+      ],
+      [
+        "dgp1_rho0p95_n500.diffs.bp_minus_c",
+        1.734723475976807e-18
+      ],
+      [
+        "dgp1_rho0p95_n500.diffs.a_minus_b",
+        1.5612511283791264e-17
+      ],
+      [
+        "dgp1_rho0p95_n500.diffs.b_minus_c",
+        4.575333167888829e-17
+      ],
+      [
+        "dgp1_rho0p97_n200.diffs.a_minus_bp",
+        2.2551405187698492e-17
+      ],
+      [
+        "dgp1_rho0p97_n200.diffs.bp_minus_b",
+        1.6479873021779667e-17
+      ],
+      [
+        "dgp1_rho0p97_n200.diffs.bp_minus_c",
+        1.3877787807814457e-17
+      ],
+      [
+        "dgp1_rho0p97_n200.diffs.a_minus_b",
+        6.938893903907228e-18
+      ],
+      [
+        "dgp1_rho0p97_n200.diffs.b_minus_c",
+        3.122502256758253e-17
+      ],
+      [
+        "dgp1_rho0p97_n500.diffs.a_minus_bp",
+        9.367506770274758e-17
+      ],
+      [
+        "dgp1_rho0p97_n500.diffs.bp_minus_b",
+        2.47198095326695e-17
+      ],
+      [
+        "dgp1_rho0p97_n500.diffs.bp_minus_c",
+        8.326672684688674e-17
+      ],
+      [
+        "dgp1_rho0p97_n500.diffs.a_minus_b",
+        6.938893903907228e-17
+      ],
+      [
+        "dgp1_rho0p97_n500.diffs.b_minus_c",
+        5.724587470723463e-17
+      ],
+      [
+        "dgp1_rho0p99_n200.diffs.a_minus_bp",
+        6.071532165918825e-18
+      ],
+      [
+        "dgp1_rho0p99_n200.diffs.bp_minus_b",
+        1.0408340855860843e-17
+      ],
+      [
+        "dgp1_rho0p99_n200.diffs.bp_minus_c",
+        1.0408340855860843e-17
+      ],
+      [
+        "dgp1_rho0p99_n200.diffs.a_minus_b",
+        4.119968255444917e-18
+      ],
+      [
+        "dgp1_rho0p99_n500.diffs.a_minus_bp",
+        2.6020852139652106e-18
+      ],
+      [
+        "dgp1_rho0p99_n500.diffs.bp_minus_b",
+        3.5128150388530344e-17
+      ],
+      [
+        "dgp1_rho0p99_n500.diffs.bp_minus_c",
+        2.42861286636753e-17
+      ],
+      [
+        "dgp1_rho0p99_n500.diffs.a_minus_b",
+        3.8163916471489756e-17
+      ],
+      [
+        "dgp1_rho0p99_n500.diffs.b_minus_c",
+        1.0408340855860843e-17
+      ],
+      [
+        "dgp1_rho0p99_n1000.diffs.a_minus_bp",
+        2.862293735361732e-17
+      ],
+      [
+        "dgp1_rho0p99_n1000.diffs.bp_minus_b",
+        2.0383000842727483e-17
+      ],
+      [
+        "dgp1_rho0p99_n1000.diffs.bp_minus_c",
+        5.551115123125783e-17
+      ],
+      [
+        "dgp1_rho0p99_n1000.diffs.a_minus_b",
+        8.673617379884035e-18
+      ],
+      [
+        "dgp1_rho0p99_n1000.diffs.b_minus_c",
+        3.469446951953614e-17
+      ],
+      [
+        "ct_power_rho0p9_n200.diffs.a_minus_bp",
+        1.3877787807814457e-17
+      ],
+      [
+        "ct_power_rho0p9_n200.diffs.bp_minus_b",
+        6.245004513516506e-17
+      ],
+      [
+        "ct_power_rho0p9_n200.diffs.a_minus_b",
+        5.551115123125783e-17
+      ],
+      [
+        "ct_power_rho0p9_n200.diffs.b_minus_c",
+        5.551115123125783e-17
+      ],
+      [
+        "ct_power_rho0p9_n500.diffs.a_minus_bp",
+        3.122502256758253e-17
+      ],
+      [
+        "ct_power_rho0p9_n500.diffs.bp_minus_b",
+        8.673617379884035e-19
+      ],
+      [
+        "ct_power_rho0p9_n500.diffs.bp_minus_c",
+        6.071532165918825e-18
+      ],
+      [
+        "ct_power_rho0p9_n500.diffs.a_minus_b",
+        3.2959746043559335e-17
+      ],
+      [
+        "ct_power_rho0p9_n500.diffs.b_minus_c",
+        5.204170427930421e-18
+      ],
+      [
+        "ct_power_rho0p95_n200.diffs.a_minus_bp",
+        1.951563910473908e-17
+      ],
+      [
+        "ct_power_rho0p95_n200.diffs.bp_minus_b",
+        2.949029909160572e-17
+      ],
+      [
+        "ct_power_rho0p95_n200.diffs.bp_minus_c",
+        2.7755575615628914e-17
+      ],
+      [
+        "ct_power_rho0p95_n200.diffs.a_minus_b",
+        1.0408340855860843e-17
+      ],
+      [
+        "ct_power_rho0p95_n500.diffs.a_minus_bp",
+        1.3877787807814457e-17
+      ],
+      [
+        "ct_power_rho0p95_n500.diffs.bp_minus_b",
+        7.112366251504909e-17
+      ],
+      [
+        "ct_power_rho0p95_n500.diffs.bp_minus_c",
+        9.020562075079397e-17
+      ],
+      [
+        "ct_power_rho0p95_n500.diffs.a_minus_b",
+        9.020562075079397e-17
+      ],
+      [
+        "ct_power_rho0p95_n500.diffs.b_minus_c",
+        2.0816681711721685e-17
+      ],
+      [
+        "ct_power_rho0p97_n200.diffs.a_minus_bp",
+        2.2036409155767878e-17
+      ],
+      [
+        "ct_power_rho0p97_n200.diffs.bp_minus_b",
+        1.3444106938820255e-17
+      ],
+      [
+        "ct_power_rho0p97_n200.diffs.bp_minus_c",
+        1.3877787807814457e-17
+      ],
+      [
+        "ct_power_rho0p97_n200.diffs.a_minus_b",
+        8.673617379884035e-18
+      ],
+      [
+        "ct_power_rho0p97_n500.diffs.a_minus_bp",
+        4.163336342344337e-17
+      ],
+      [
+        "ct_power_rho0p97_n500.diffs.bp_minus_b",
+        2.47198095326695e-17
+      ],
+      [
+        "ct_power_rho0p97_n500.diffs.a_minus_b",
+        6.591949208711867e-17
+      ],
+      [
+        "ct_power_rho0p97_n500.diffs.b_minus_c",
+        1.3877787807814457e-17
+      ],
+      [
+        "ct_power_rho0p99_n200.diffs.a_minus_bp",
+        2.0599841277224584e-18
+      ],
+      [
+        "ct_power_rho0p99_n200.diffs.bp_minus_c",
+        3.469446951953614e-18
+      ],
+      [
+        "ct_power_rho0p99_n200.diffs.a_minus_b",
+        2.0599841277224584e-18
+      ],
+      [
+        "ct_power_rho0p99_n200.diffs.b_minus_c",
+        3.469446951953614e-18
+      ],
+      [
+        "ct_power_rho0p99_n500.diffs.a_minus_bp",
+        4.336808689942018e-19
+      ],
+      [
+        "ct_power_rho0p99_n500.diffs.bp_minus_b",
+        3.0357660829594124e-18
+      ],
+      [
+        "ct_power_rho0p99_n500.diffs.a_minus_b",
+        3.3610267347050637e-18
+      ],
+      [
+        "ct_power_rho0p99_n500.diffs.b_minus_c",
+        6.938893903907228e-18
+      ],
+      [
+        "lp_dm_c5.diffs.a_minus_bp",
+        2.5153490401663703e-17
+      ],
+      [
+        "lp_dm_c5.diffs.bp_minus_b",
+        6.938893903907228e-18
+      ],
+      [
+        "lp_dm_c5.diffs.bp_minus_c",
+        6.938893903907228e-18
+      ],
+      [
+        "lp_dm_c5.diffs.a_minus_b",
+        1.8214596497756474e-17
+      ],
+      [
+        "lp_dm_c5.diffs.b_minus_c",
+        1.3877787807814457e-17
+      ],
+      [
+        "lp_dm_c10.diffs.a_minus_bp",
+        3.469446951953614e-17
+      ],
+      [
+        "lp_dm_c10.diffs.bp_minus_b",
+        5.204170427930421e-17
+      ],
+      [
+        "lp_dm_c10.diffs.bp_minus_c",
+        6.938893903907228e-18
+      ],
+      [
+        "lp_dm_c10.diffs.a_minus_b",
+        8.673617379884035e-17
+      ],
+      [
+        "lp_dm_c10.diffs.b_minus_c",
+        6.245004513516506e-17
+      ],
+      [
+        "lp_dm_c15.diffs.a_minus_bp",
+        1.6506978076091805e-17
+      ],
+      [
+        "lp_dm_c15.diffs.bp_minus_b",
+        2.6020852139652106e-18
+      ],
+      [
+        "lp_dm_c15.diffs.bp_minus_c",
+        2.2551405187698492e-17
+      ],
+      [
+        "lp_dm_c15.diffs.a_minus_b",
+        1.3877787807814457e-17
+      ],
+      [
+        "lp_dm_c15.diffs.b_minus_c",
+        2.6020852139652106e-17
+      ],
+      [
+        "lp_ct_c5.diffs.a_minus_bp",
+        4.336808689942018e-19
+      ],
+      [
+        "lp_ct_c5.diffs.bp_minus_b",
+        1.3010426069826053e-18
+      ],
+      [
+        "lp_ct_c5.diffs.a_minus_b",
+        1.734723475976807e-18
+      ],
+      [
+        "lp_ct_c10.diffs.a_minus_bp",
+        4.336808689942018e-18
+      ],
+      [
+        "lp_ct_c10.diffs.bp_minus_b",
+        3.469446951953614e-18
+      ],
+      [
+        "lp_ct_c10.diffs.bp_minus_c",
+        6.938893903907228e-18
+      ],
+      [
+        "lp_ct_c10.diffs.a_minus_b",
+        8.673617379884035e-19
+      ],
+      [
+        "lp_ct_c15.diffs.a_minus_bp",
+        2.8406096919120216e-17
+      ],
+      [
+        "lp_ct_c15.diffs.bp_minus_b",
+        1.6479873021779667e-17
+      ],
+      [
+        "lp_ct_c15.diffs.bp_minus_c",
+        8.326672684688674e-17
+      ],
+      [
+        "lp_ct_c15.diffs.a_minus_b",
+        1.214306433183765e-17
+      ],
+      [
+        "lp_ct_c15.diffs.b_minus_c",
+        6.938893903907228e-17
+      ]
+    ],
+    "tolerance_other_columns": 1e-12,
+    "passes": true
+  },
+  "tex": "experiments/results/tables_audit13/tab_attrib_audit13.tex",
+  "tex_sha256": "d9ae3a12499055b4b47746dad621701853ee22c1a908d5d8d8c6a65c5117beaf",
+  "note_tex": "experiments/results/tables_audit13/tab_attrib_note_audit13.tex",
+  "note_sha256": "c3a62c51726a082a221460b2d5f734b8a78ca46c50c850b4add5df55b132c41c"
+}

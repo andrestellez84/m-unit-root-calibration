@@ -1,0 +1,23 @@
+% Generado por experiments/audit13_tables.py desde e_awb_audit13.json, b103_awb_audit10.json (no editar a mano)
+\begin{tabular}{llcccc}
+\toprule
+Design & $n$ & AWB & Simulated & McNemar $p$ & Power loss (pp)\\
+\midrule
+Random walk, $r = 1$ & 200 & \textbf{0.040} & 0.042 & 0.289 &  \\
+Random walk, $r = 1$ & 500 & 0.042 & 0.052 & $<$0.001 &  \\
+Random walk, $r = 2$ & 200 & 0.052 & \textbf{0.080} & $<$0.001 &  \\
+Random walk, $r = 2$ & 500 & 0.051 & \textbf{0.089} & $<$0.001 &  \\
+Random walk, $r = 4$ & 200 & 0.041 & \textbf{0.118} & $<$0.001 &  \\
+Random walk, $r = 4$ & 500 & \textbf{0.040} & \textbf{0.117} & $<$0.001 &  \\
+GARCH 0.95, normal & 200 & 0.042 & 0.051 & 0.002 &  \\
+GARCH 0.98, normal & 200 & 0.053 & 0.060 & 0.003 &  \\
+GARCH 0.99, normal & 200 & 0.052 & \textbf{0.061} & 0.006 &  \\
+GARCH 0.95, $t(5)$ & 200 & 0.043 & 0.052 & $<$0.001 &  \\
+Gaussian random walk & 200 & 0.053 & 0.054 & 0.839 &  \\
+Gaussian random walk & 500 & 0.045 & 0.047 & 0.359 &  \\
+AR$(0.95)$ & 200 & 0.677 & 0.706 & $<$0.001 & 2.9 \\
+AR$(0.95)$ & 500 & 1.000 & 1.000 & 1.000 & 0.0 \\
+AR$(0.99)$ & 200 & 0.098 & 0.102 & 0.332 & 0.4 \\
+AR$(0.99)$ & 500 & 0.295 & 0.313 & $<$0.001 & 1.8 \\
+\bottomrule
+\end{tabular}

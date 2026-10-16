@@ -1,0 +1,2802 @@
+{
+  "task1": {
+    "max_stat_diff": 0.0,
+    "max_p_diff": 0.0,
+    "stat_match": true,
+    "equiv_results": {
+      "tau=5": 1.573241537045078e-12,
+      "tau=50": 1.0835776720341528e-12,
+      "tau=125": 1.2079226507921703e-12
+    },
+    "elapsed": 1.8386433001141995
+  },
+  "task2": {
+    "fp_summary": {
+      "adaptive": {
+        "mean": 0.027695742047260757,
+        "max": 0.43673469387755104,
+        "n": 48
+      },
+      "fixed_R05": {
+        "mean": 0.02874631771579204,
+        "max": 0.43673469387755104,
+        "n": 48
+      },
+      "dfgls": {
+        "mean": 0.03227342215042778,
+        "max": 0.2693877551020408,
+        "n": 48
+      },
+      "adf": {
+        "mean": 0.05353113144083418,
+        "max": 0.2693877551020408,
+        "n": 48
+      },
+      "pp": {
+        "mean": 0.05320102340511005,
+        "max": 0.3795918367346939,
+        "n": 48
+      }
+    },
+    "fp_detail": [
+      {
+        "index": "SP500",
+        "D": 150,
+        "period": "C1_1993",
+        "adaptive": 0.17391304347826086,
+        "fixed_R05": 0.1857707509881423,
+        "dfgls": 0.07509881422924901,
+        "adf": 0.13438735177865613,
+        "pp": 0.08695652173913043
+      },
+      {
+        "index": "SP500",
+        "D": 150,
+        "period": "C2_2005",
+        "adaptive": 0.0,
+        "fixed_R05": 0.0,
+        "dfgls": 0.10714285714285714,
+        "adf": 0.05555555555555555,
+        "pp": 0.06746031746031746
+      },
+      {
+        "index": "SP500",
+        "D": 150,
+        "period": "C3_2017",
+        "adaptive": 0.0,
+        "fixed_R05": 0.0,
+        "dfgls": 0.0,
+        "adf": 0.00796812749003984,
+        "pp": 0.01195219123505976
+      },
+      {
+        "index": "SP500",
+        "D": 200,
+        "period": "C1_1993",
+        "adaptive": 0.0,
+        "fixed_R05": 0.0,
+        "dfgls": 0.0,
+        "adf": 0.015810276679841896,
+        "pp": 0.015810276679841896
+      },
+      {
+        "index": "SP500",
+        "D": 200,
+        "period": "C2_2005",
+        "adaptive": 0.0,
+        "fixed_R05": 0.0,
+        "dfgls": 0.08333333333333333,
+        "adf": 0.031746031746031744,
+        "pp": 0.03571428571428571
+      },
+      {
+        "index": "SP500",
+        "D": 200,
+        "period": "C3_2017",
+        "adaptive": 0.0,
+        "fixed_R05": 0.0,
+        "dfgls": 0.0,
+        "adf": 0.01195219123505976,
+        "pp": 0.01593625498007968
+      },
+      {
+        "index": "SP500",
+        "D": 250,
+        "period": "C1_1993",
+        "adaptive": 0.0,
+        "fixed_R05": 0.0,
+        "dfgls": 0.003952569169960474,
+        "adf": 0.003952569169960474,
+        "pp": 0.003952569169960474
+      },
+      {
+        "index": "SP500",
+        "D": 250,
+        "period": "C2_2005",
+        "adaptive": 0.0,
+        "fixed_R05": 0.0,
+        "dfgls": 0.015873015873015872,
+        "adf": 0.07936507936507936,
+        "pp": 0.07539682539682539
+      },
+      {
+        "index": "SP500",
+        "D": 250,
+        "period": "C3_2017",
+        "adaptive": 0.0,
+        "fixed_R05": 0.0,
+        "dfgls": 0.0,
+        "adf": 0.0,
+        "pp": 0.00398406374501992
+      },
+      {
+        "index": "SP500",
+        "D": 300,
+        "period": "C1_1993",
+        "adaptive": 0.0,
+        "fixed_R05": 0.0,
+        "dfgls": 0.0,
+        "adf": 0.015810276679841896,
+        "pp": 0.03557312252964427
+      },
+      {
+        "index": "SP500",
+        "D": 300,
+        "period": "C2_2005",
+        "adaptive": 0.0,
+        "fixed_R05": 0.0,
+        "dfgls": 0.0,
+        "adf": 0.023809523809523808,
+        "pp": 0.023809523809523808
+      },
+      {
+        "index": "SP500",
+        "D": 300,
+        "period": "C3_2017",
+        "adaptive": 0.0,
+        "fixed_R05": 0.0,
+        "dfgls": 0.0,
+        "adf": 0.00398406374501992,
+        "pp": 0.00398406374501992
+      },
+      {
+        "index": "FTSE",
+        "D": 150,
+        "period": "C1_1993",
+        "adaptive": 0.043478260869565216,
+        "fixed_R05": 0.05138339920948617,
+        "dfgls": 0.03162055335968379,
+        "adf": 0.10276679841897234,
+        "pp": 0.11857707509881422
+      },
+      {
+        "index": "FTSE",
+        "D": 150,
+        "period": "C2_2005",
+        "adaptive": 0.0,
+        "fixed_R05": 0.0,
+        "dfgls": 0.0,
+        "adf": 0.0,
+        "pp": 0.0
+      },
+      {
+        "index": "FTSE",
+        "D": 150,
+        "period": "C3_2017",
+        "adaptive": 0.15873015873015872,
+        "fixed_R05": 0.21825396825396826,
+        "dfgls": 0.14285714285714285,
+        "adf": 0.16666666666666666,
+        "pp": 0.2619047619047619
+      },
+      {
+        "index": "FTSE",
+        "D": 200,
+        "period": "C1_1993",
+        "adaptive": 0.0,
+        "fixed_R05": 0.0,
+        "dfgls": 0.0,
+        "adf": 0.1383399209486166,
+        "pp": 0.11067193675889328
+      },
+      {
+        "index": "FTSE",
+        "D": 200,
+        "period": "C2_2005",
+        "adaptive": 0.0,
+        "fixed_R05": 0.0,
+        "dfgls": 0.0,
+        "adf": 0.0,
+        "pp": 0.003968253968253968
+      },
+      {
+        "index": "FTSE",
+        "D": 200,
+        "period": "C3_2017",
+        "adaptive": 0.15476190476190477,
+        "fixed_R05": 0.17063492063492064,
+        "dfgls": 0.10317460317460317,
+        "adf": 0.25,
+        "pp": 0.24206349206349206
+      },
+      {
+        "index": "FTSE",
+        "D": 250,
+        "period": "C1_1993",
+        "adaptive": 0.0,
+        "fixed_R05": 0.0,
+        "dfgls": 0.0,
+        "adf": 0.07905138339920949,
+        "pp": 0.05138339920948617
+      },
+      {
+        "index": "FTSE",
+        "D": 250,
+        "period": "C2_2005",
+        "adaptive": 0.0,
+        "fixed_R05": 0.0,
+        "dfgls": 0.0,
+        "adf": 0.0,
+        "pp": 0.0
+      },
+      {
+        "index": "FTSE",
+        "D": 250,
+        "period": "C3_2017",
+        "adaptive": 0.031746031746031744,
+        "fixed_R05": 0.031746031746031744,
+        "dfgls": 0.0,
+        "adf": 0.1626984126984127,
+        "pp": 0.14285714285714285
+      },
+      {
+        "index": "FTSE",
+        "D": 300,
+        "period": "C1_1993",
+        "adaptive": 0.0,
+        "fixed_R05": 0.0,
+        "dfgls": 0.0,
+        "adf": 0.043478260869565216,
+        "pp": 0.03557312252964427
+      },
+      {
+        "index": "FTSE",
+        "D": 300,
+        "period": "C2_2005",
+        "adaptive": 0.0,
+        "fixed_R05": 0.0,
+        "dfgls": 0.0,
+        "adf": 0.0,
+        "pp": 0.0
+      },
+      {
+        "index": "FTSE",
+        "D": 300,
+        "period": "C3_2017",
+        "adaptive": 0.0,
+        "fixed_R05": 0.0,
+        "dfgls": 0.0,
+        "adf": 0.051587301587301584,
+        "pp": 0.03571428571428571
+      },
+      {
+        "index": "NIKKEI",
+        "D": 150,
+        "period": "C1_1993",
+        "adaptive": 0.08536585365853659,
+        "fixed_R05": 0.07317073170731707,
+        "dfgls": 0.15447154471544716,
+        "adf": 0.2682926829268293,
+        "pp": 0.13414634146341464
+      },
+      {
+        "index": "NIKKEI",
+        "D": 150,
+        "period": "C2_2005",
+        "adaptive": 0.00816326530612245,
+        "fixed_R05": 0.012244897959183673,
+        "dfgls": 0.04897959183673469,
+        "adf": 0.024489795918367346,
+        "pp": 0.02040816326530612
+      },
+      {
+        "index": "NIKKEI",
+        "D": 150,
+        "period": "C3_2017",
+        "adaptive": 0.0,
+        "fixed_R05": 0.0,
+        "dfgls": 0.0,
+        "adf": 0.016194331983805668,
+        "pp": 0.020242914979757085
+      },
+      {
+        "index": "NIKKEI",
+        "D": 200,
+        "period": "C1_1993",
+        "adaptive": 0.0,
+        "fixed_R05": 0.0,
+        "dfgls": 0.15040650406504066,
+        "adf": 0.1951219512195122,
+        "pp": 0.06097560975609756
+      },
+      {
+        "index": "NIKKEI",
+        "D": 200,
+        "period": "C2_2005",
+        "adaptive": 0.08163265306122448,
+        "fixed_R05": 0.07755102040816327,
+        "dfgls": 0.1346938775510204,
+        "adf": 0.07346938775510205,
+        "pp": 0.08979591836734693
+      },
+      {
+        "index": "NIKKEI",
+        "D": 200,
+        "period": "C3_2017",
+        "adaptive": 0.0,
+        "fixed_R05": 0.0,
+        "dfgls": 0.0,
+        "adf": 0.048582995951417005,
+        "pp": 0.05263157894736842
+      },
+      {
+        "index": "NIKKEI",
+        "D": 250,
+        "period": "C1_1993",
+        "adaptive": 0.056910569105691054,
+        "fixed_R05": 0.028455284552845527,
+        "dfgls": 0.052845528455284556,
+        "adf": 0.08943089430894309,
+        "pp": 0.0975609756097561
+      },
+      {
+        "index": "NIKKEI",
+        "D": 250,
+        "period": "C2_2005",
+        "adaptive": 0.09795918367346938,
+        "fixed_R05": 0.09387755102040816,
+        "dfgls": 0.2693877551020408,
+        "adf": 0.11428571428571428,
+        "pp": 0.18775510204081633
+      },
+      {
+        "index": "NIKKEI",
+        "D": 250,
+        "period": "C3_2017",
+        "adaptive": 0.0,
+        "fixed_R05": 0.0,
+        "dfgls": 0.004048582995951417,
+        "adf": 0.0,
+        "pp": 0.004048582995951417
+      },
+      {
+        "index": "NIKKEI",
+        "D": 300,
+        "period": "C1_1993",
+        "adaptive": 0.0,
+        "fixed_R05": 0.0,
+        "dfgls": 0.0,
+        "adf": 0.008130081300813009,
+        "pp": 0.016260162601626018
+      },
+      {
+        "index": "NIKKEI",
+        "D": 300,
+        "period": "C2_2005",
+        "adaptive": 0.43673469387755104,
+        "fixed_R05": 0.43673469387755104,
+        "dfgls": 0.1673469387755102,
+        "adf": 0.2693877551020408,
+        "pp": 0.3795918367346939
+      },
+      {
+        "index": "NIKKEI",
+        "D": 300,
+        "period": "C3_2017",
+        "adaptive": 0.0,
+        "fixed_R05": 0.0,
+        "dfgls": 0.0,
+        "adf": 0.0,
+        "pp": 0.0
+      },
+      {
+        "index": "DAX",
+        "D": 150,
+        "period": "C1_1993",
+        "adaptive": 0.0,
+        "fixed_R05": 0.0,
+        "dfgls": 0.0,
+        "adf": 0.01984126984126984,
+        "pp": 0.011904761904761904
+      },
+      {
+        "index": "DAX",
+        "D": 150,
+        "period": "C2_2005",
+        "adaptive": 0.0,
+        "fixed_R05": 0.0,
+        "dfgls": 0.0,
+        "adf": 0.007782101167315175,
+        "pp": 0.007782101167315175
+      },
+      {
+        "index": "DAX",
+        "D": 150,
+        "period": "C3_2017",
+        "adaptive": 0.0,
+        "fixed_R05": 0.0,
+        "dfgls": 0.0,
+        "adf": 0.011904761904761904,
+        "pp": 0.023809523809523808
+      },
+      {
+        "index": "DAX",
+        "D": 200,
+        "period": "C1_1993",
+        "adaptive": 0.0,
+        "fixed_R05": 0.0,
+        "dfgls": 0.0,
+        "adf": 0.0,
+        "pp": 0.0
+      },
+      {
+        "index": "DAX",
+        "D": 200,
+        "period": "C2_2005",
+        "adaptive": 0.0,
+        "fixed_R05": 0.0,
+        "dfgls": 0.0,
+        "adf": 0.0,
+        "pp": 0.0
+      },
+      {
+        "index": "DAX",
+        "D": 200,
+        "period": "C3_2017",
+        "adaptive": 0.0,
+        "fixed_R05": 0.0,
+        "dfgls": 0.0,
+        "adf": 0.031746031746031744,
+        "pp": 0.047619047619047616
+      },
+      {
+        "index": "DAX",
+        "D": 250,
+        "period": "C1_1993",
+        "adaptive": 0.0,
+        "fixed_R05": 0.0,
+        "dfgls": 0.0,
+        "adf": 0.0,
+        "pp": 0.0
+      },
+      {
+        "index": "DAX",
+        "D": 250,
+        "period": "C2_2005",
+        "adaptive": 0.0,
+        "fixed_R05": 0.0,
+        "dfgls": 0.0038910505836575876,
+        "adf": 0.0,
+        "pp": 0.0
+      },
+      {
+        "index": "DAX",
+        "D": 250,
+        "period": "C3_2017",
+        "adaptive": 0.0,
+        "fixed_R05": 0.0,
+        "dfgls": 0.0,
+        "adf": 0.011904761904761904,
+        "pp": 0.011904761904761904
+      },
+      {
+        "index": "DAX",
+        "D": 300,
+        "period": "C1_1993",
+        "adaptive": 0.0,
+        "fixed_R05": 0.0,
+        "dfgls": 0.0,
+        "adf": 0.0,
+        "pp": 0.0
+      },
+      {
+        "index": "DAX",
+        "D": 300,
+        "period": "C2_2005",
+        "adaptive": 0.0,
+        "fixed_R05": 0.0,
+        "dfgls": 0.0,
+        "adf": 0.0,
+        "pp": 0.0
+      },
+      {
+        "index": "DAX",
+        "D": 300,
+        "period": "C3_2017",
+        "adaptive": 0.0,
+        "fixed_R05": 0.0,
+        "dfgls": 0.0,
+        "adf": 0.0,
+        "pp": 0.003968253968253968
+      }
+    ],
+    "latency_detail": [
+      {
+        "index": "SP500",
+        "D": 150,
+        "event": "E1_BlackMonday",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": 9,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "SP500",
+        "D": 150,
+        "event": "E2_AsianCrisis",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": 91,
+        "pp": 93
+      },
+      {
+        "index": "SP500",
+        "D": 150,
+        "event": "E3_RussianCrisis",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": 8,
+        "pp": 7
+      },
+      {
+        "index": "SP500",
+        "D": 150,
+        "event": "E4_DotCom",
+        "adaptive": 53,
+        "fixed_R05": 52,
+        "dfgls": 64,
+        "adf": 45,
+        "pp": 49
+      },
+      {
+        "index": "SP500",
+        "D": 150,
+        "event": "E5_Subprime",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "SP500",
+        "D": 150,
+        "event": "E6_COVID",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": 35,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "SP500",
+        "D": 200,
+        "event": "E1_BlackMonday",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "SP500",
+        "D": 200,
+        "event": "E2_AsianCrisis",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "SP500",
+        "D": 200,
+        "event": "E3_RussianCrisis",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "SP500",
+        "D": 200,
+        "event": "E4_DotCom",
+        "adaptive": 93,
+        "fixed_R05": 92,
+        "dfgls": 26,
+        "adf": 87,
+        "pp": 97
+      },
+      {
+        "index": "SP500",
+        "D": 200,
+        "event": "E5_Subprime",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "SP500",
+        "D": 200,
+        "event": "E6_COVID",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": 32,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "SP500",
+        "D": 250,
+        "event": "E1_BlackMonday",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "SP500",
+        "D": 250,
+        "event": "E2_AsianCrisis",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "SP500",
+        "D": 250,
+        "event": "E3_RussianCrisis",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "SP500",
+        "D": 250,
+        "event": "E4_DotCom",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": 26,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "SP500",
+        "D": 250,
+        "event": "E5_Subprime",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "SP500",
+        "D": 250,
+        "event": "E6_COVID",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": 30,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "SP500",
+        "D": 300,
+        "event": "E1_BlackMonday",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "SP500",
+        "D": 300,
+        "event": "E2_AsianCrisis",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "SP500",
+        "D": 300,
+        "event": "E3_RussianCrisis",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "SP500",
+        "D": 300,
+        "event": "E4_DotCom",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": 66,
+        "adf": 39,
+        "pp": 40
+      },
+      {
+        "index": "SP500",
+        "D": 300,
+        "event": "E5_Subprime",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "SP500",
+        "D": 300,
+        "event": "E6_COVID",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": 46,
+        "adf": 10,
+        "pp": 9
+      },
+      {
+        "index": "FTSE",
+        "D": 150,
+        "event": "E2_AsianCrisis",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "FTSE",
+        "D": 150,
+        "event": "E3_RussianCrisis",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": 0,
+        "pp": 0
+      },
+      {
+        "index": "FTSE",
+        "D": 150,
+        "event": "E4_DotCom",
+        "adaptive": 91,
+        "fixed_R05": 90,
+        "dfgls": 59,
+        "adf": 89,
+        "pp": 50
+      },
+      {
+        "index": "FTSE",
+        "D": 150,
+        "event": "E5_Subprime",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "FTSE",
+        "D": 150,
+        "event": "E6_COVID",
+        "adaptive": 7,
+        "fixed_R05": 7,
+        "dfgls": 4,
+        "adf": 5,
+        "pp": null
+      },
+      {
+        "index": "FTSE",
+        "D": 200,
+        "event": "E2_AsianCrisis",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "FTSE",
+        "D": 200,
+        "event": "E3_RussianCrisis",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "FTSE",
+        "D": 200,
+        "event": "E4_DotCom",
+        "adaptive": 93,
+        "fixed_R05": 92,
+        "dfgls": 0,
+        "adf": 82,
+        "pp": 82
+      },
+      {
+        "index": "FTSE",
+        "D": 200,
+        "event": "E5_Subprime",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": 37,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "FTSE",
+        "D": 200,
+        "event": "E6_COVID",
+        "adaptive": 4,
+        "fixed_R05": 4,
+        "dfgls": 0,
+        "adf": 0,
+        "pp": 2
+      },
+      {
+        "index": "FTSE",
+        "D": 250,
+        "event": "E2_AsianCrisis",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "FTSE",
+        "D": 250,
+        "event": "E3_RussianCrisis",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "FTSE",
+        "D": 250,
+        "event": "E4_DotCom",
+        "adaptive": 62,
+        "fixed_R05": 57,
+        "dfgls": 0,
+        "adf": 3,
+        "pp": 2
+      },
+      {
+        "index": "FTSE",
+        "D": 250,
+        "event": "E5_Subprime",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "FTSE",
+        "D": 250,
+        "event": "E6_COVID",
+        "adaptive": 0,
+        "fixed_R05": 0,
+        "dfgls": 0,
+        "adf": 0,
+        "pp": 0
+      },
+      {
+        "index": "FTSE",
+        "D": 300,
+        "event": "E2_AsianCrisis",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "FTSE",
+        "D": 300,
+        "event": "E3_RussianCrisis",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "FTSE",
+        "D": 300,
+        "event": "E4_DotCom",
+        "adaptive": 0,
+        "fixed_R05": 0,
+        "dfgls": 2,
+        "adf": 0,
+        "pp": 0
+      },
+      {
+        "index": "FTSE",
+        "D": 300,
+        "event": "E5_Subprime",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "FTSE",
+        "D": 300,
+        "event": "E6_COVID",
+        "adaptive": 6,
+        "fixed_R05": 6,
+        "dfgls": 33,
+        "adf": 2,
+        "pp": 4
+      },
+      {
+        "index": "NIKKEI",
+        "D": 150,
+        "event": "E1_BlackMonday",
+        "adaptive": 11,
+        "fixed_R05": 13,
+        "dfgls": null,
+        "adf": 3,
+        "pp": 5
+      },
+      {
+        "index": "NIKKEI",
+        "D": 150,
+        "event": "E2_AsianCrisis",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "NIKKEI",
+        "D": 150,
+        "event": "E3_RussianCrisis",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": 2
+      },
+      {
+        "index": "NIKKEI",
+        "D": 150,
+        "event": "E4_DotCom",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "NIKKEI",
+        "D": 150,
+        "event": "E5_Subprime",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "NIKKEI",
+        "D": 150,
+        "event": "E6_COVID",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "NIKKEI",
+        "D": 200,
+        "event": "E1_BlackMonday",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": 73,
+        "adf": null,
+        "pp": 61
+      },
+      {
+        "index": "NIKKEI",
+        "D": 200,
+        "event": "E2_AsianCrisis",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "NIKKEI",
+        "D": 200,
+        "event": "E3_RussianCrisis",
+        "adaptive": 0,
+        "fixed_R05": 0,
+        "dfgls": 3,
+        "adf": null,
+        "pp": 0
+      },
+      {
+        "index": "NIKKEI",
+        "D": 200,
+        "event": "E4_DotCom",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "NIKKEI",
+        "D": 200,
+        "event": "E5_Subprime",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "NIKKEI",
+        "D": 200,
+        "event": "E6_COVID",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": 31,
+        "adf": 33,
+        "pp": null
+      },
+      {
+        "index": "NIKKEI",
+        "D": 250,
+        "event": "E1_BlackMonday",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": 80
+      },
+      {
+        "index": "NIKKEI",
+        "D": 250,
+        "event": "E2_AsianCrisis",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "NIKKEI",
+        "D": 250,
+        "event": "E3_RussianCrisis",
+        "adaptive": 20,
+        "fixed_R05": 20,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "NIKKEI",
+        "D": 250,
+        "event": "E4_DotCom",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": 0,
+        "pp": 0
+      },
+      {
+        "index": "NIKKEI",
+        "D": 250,
+        "event": "E5_Subprime",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "NIKKEI",
+        "D": 250,
+        "event": "E6_COVID",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": 23,
+        "adf": 33,
+        "pp": null
+      },
+      {
+        "index": "NIKKEI",
+        "D": 300,
+        "event": "E1_BlackMonday",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "NIKKEI",
+        "D": 300,
+        "event": "E2_AsianCrisis",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "NIKKEI",
+        "D": 300,
+        "event": "E3_RussianCrisis",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "NIKKEI",
+        "D": 300,
+        "event": "E4_DotCom",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": 40,
+        "pp": 40
+      },
+      {
+        "index": "NIKKEI",
+        "D": 300,
+        "event": "E5_Subprime",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "NIKKEI",
+        "D": 300,
+        "event": "E6_COVID",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": 31,
+        "adf": 31,
+        "pp": null
+      },
+      {
+        "index": "DAX",
+        "D": 150,
+        "event": "E2_AsianCrisis",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "DAX",
+        "D": 150,
+        "event": "E3_RussianCrisis",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "DAX",
+        "D": 150,
+        "event": "E4_DotCom",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": 110,
+        "adf": 81,
+        "pp": 48
+      },
+      {
+        "index": "DAX",
+        "D": 150,
+        "event": "E5_Subprime",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "DAX",
+        "D": 150,
+        "event": "E6_COVID",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": 33,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "DAX",
+        "D": 200,
+        "event": "E2_AsianCrisis",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "DAX",
+        "D": 200,
+        "event": "E3_RussianCrisis",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "DAX",
+        "D": 200,
+        "event": "E4_DotCom",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": 98,
+        "pp": 97
+      },
+      {
+        "index": "DAX",
+        "D": 200,
+        "event": "E5_Subprime",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "DAX",
+        "D": 200,
+        "event": "E6_COVID",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": 24,
+        "adf": 32,
+        "pp": null
+      },
+      {
+        "index": "DAX",
+        "D": 250,
+        "event": "E2_AsianCrisis",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "DAX",
+        "D": 250,
+        "event": "E3_RussianCrisis",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "DAX",
+        "D": 250,
+        "event": "E4_DotCom",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "DAX",
+        "D": 250,
+        "event": "E5_Subprime",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "DAX",
+        "D": 250,
+        "event": "E6_COVID",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": 28,
+        "adf": 32,
+        "pp": null
+      },
+      {
+        "index": "DAX",
+        "D": 300,
+        "event": "E2_AsianCrisis",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "DAX",
+        "D": 300,
+        "event": "E3_RussianCrisis",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "DAX",
+        "D": 300,
+        "event": "E4_DotCom",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "DAX",
+        "D": 300,
+        "event": "E5_Subprime",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": null,
+        "adf": null,
+        "pp": null
+      },
+      {
+        "index": "DAX",
+        "D": 300,
+        "event": "E6_COVID",
+        "adaptive": null,
+        "fixed_R05": null,
+        "dfgls": 32,
+        "adf": 32,
+        "pp": null
+      }
+    ],
+    "rhat_control": [
+      {
+        "index": "SP500",
+        "D": 150,
+        "period": "C1_1993",
+        "median": 0.0010671827796816917,
+        "q05": 0.0005830346185506284,
+        "q95": 0.012606025423107847,
+        "n": 253
+      },
+      {
+        "index": "SP500",
+        "D": 150,
+        "period": "C2_2005",
+        "median": 0.0019445270806886816,
+        "q05": 0.001253653153788157,
+        "q95": 0.00409671611701748,
+        "n": 252
+      },
+      {
+        "index": "SP500",
+        "D": 150,
+        "period": "C3_2017",
+        "median": 0.0010603482503015853,
+        "q05": 0.0005873634835520513,
+        "q95": 0.004509163011078664,
+        "n": 251
+      },
+      {
+        "index": "SP500",
+        "D": 200,
+        "period": "C1_1993",
+        "median": 0.0007829645668832699,
+        "q05": 0.0005328390096413549,
+        "q95": 0.003595735274137903,
+        "n": 253
+      },
+      {
+        "index": "SP500",
+        "D": 200,
+        "period": "C2_2005",
+        "median": 0.0016731902193973399,
+        "q05": 0.0012631909261526229,
+        "q95": 0.005768407047402773,
+        "n": 252
+      },
+      {
+        "index": "SP500",
+        "D": 200,
+        "period": "C3_2017",
+        "median": 0.0009289906691354512,
+        "q05": 0.00034585483356465056,
+        "q95": 0.00253480874141442,
+        "n": 251
+      },
+      {
+        "index": "SP500",
+        "D": 250,
+        "period": "C1_1993",
+        "median": 0.0005825079612973685,
+        "q05": 0.00032992420274126767,
+        "q95": 0.0014551665396777835,
+        "n": 253
+      },
+      {
+        "index": "SP500",
+        "D": 250,
+        "period": "C2_2005",
+        "median": 0.0018000117276247523,
+        "q05": 0.0013460430763403317,
+        "q95": 0.004100080170788694,
+        "n": 252
+      },
+      {
+        "index": "SP500",
+        "D": 250,
+        "period": "C3_2017",
+        "median": 0.000786041690670888,
+        "q05": 0.0005563392191697077,
+        "q95": 0.0019395553316425632,
+        "n": 251
+      },
+      {
+        "index": "SP500",
+        "D": 300,
+        "period": "C1_1993",
+        "median": 0.00039265418672069873,
+        "q05": 0.0002484470725354173,
+        "q95": 0.021836584108674537,
+        "n": 253
+      },
+      {
+        "index": "SP500",
+        "D": 300,
+        "period": "C2_2005",
+        "median": 0.0015475164383427218,
+        "q05": 0.001224128823580244,
+        "q95": 0.004788677345808815,
+        "n": 252
+      },
+      {
+        "index": "SP500",
+        "D": 300,
+        "period": "C3_2017",
+        "median": 0.0008063406516465054,
+        "q05": 0.0005606335565645434,
+        "q95": 0.00331618481672424,
+        "n": 251
+      },
+      {
+        "index": "FTSE",
+        "D": 150,
+        "period": "C1_1993",
+        "median": 0.0021670950421849686,
+        "q05": 0.0009782015670339224,
+        "q95": 0.008437477000583164,
+        "n": 253
+      },
+      {
+        "index": "FTSE",
+        "D": 150,
+        "period": "C2_2005",
+        "median": 0.0011806450147420504,
+        "q05": 0.0003072784634321803,
+        "q95": 0.003437470850334567,
+        "n": 252
+      },
+      {
+        "index": "FTSE",
+        "D": 150,
+        "period": "C3_2017",
+        "median": 0.0027862006571776803,
+        "q05": 0.000858355909935014,
+        "q95": 0.008494925542596714,
+        "n": 252
+      },
+      {
+        "index": "FTSE",
+        "D": 200,
+        "period": "C1_1993",
+        "median": 0.0021810859057143956,
+        "q05": 0.0013000112649702285,
+        "q95": 0.004980375446936991,
+        "n": 253
+      },
+      {
+        "index": "FTSE",
+        "D": 200,
+        "period": "C2_2005",
+        "median": 0.0009840440282164226,
+        "q05": 0.0006399044201292188,
+        "q95": 0.0015059425394418312,
+        "n": 252
+      },
+      {
+        "index": "FTSE",
+        "D": 200,
+        "period": "C3_2017",
+        "median": 0.0031505705552233323,
+        "q05": 0.0009422563861273928,
+        "q95": 0.00755746695578838,
+        "n": 252
+      },
+      {
+        "index": "FTSE",
+        "D": 250,
+        "period": "C1_1993",
+        "median": 0.0020979278441285573,
+        "q05": 0.001547427779505928,
+        "q95": 0.004674293424477392,
+        "n": 253
+      },
+      {
+        "index": "FTSE",
+        "D": 250,
+        "period": "C2_2005",
+        "median": 0.0006675714923681565,
+        "q05": 0.000489083062300227,
+        "q95": 0.00135807711010671,
+        "n": 252
+      },
+      {
+        "index": "FTSE",
+        "D": 250,
+        "period": "C3_2017",
+        "median": 0.0022059468638684606,
+        "q05": 0.0009963345624563423,
+        "q95": 0.005127483020722894,
+        "n": 252
+      },
+      {
+        "index": "FTSE",
+        "D": 300,
+        "period": "C1_1993",
+        "median": 0.002425907710425662,
+        "q05": 0.00119200162418964,
+        "q95": 0.0042569874271853984,
+        "n": 253
+      },
+      {
+        "index": "FTSE",
+        "D": 300,
+        "period": "C2_2005",
+        "median": 0.0004912453196930507,
+        "q05": 0.00035392916844486624,
+        "q95": 0.0012372785283844103,
+        "n": 252
+      },
+      {
+        "index": "FTSE",
+        "D": 300,
+        "period": "C3_2017",
+        "median": 0.001599593877129796,
+        "q05": 0.0010822005741857618,
+        "q95": 0.003979334631422352,
+        "n": 252
+      },
+      {
+        "index": "NIKKEI",
+        "D": 150,
+        "period": "C1_1993",
+        "median": 0.0036531369667398466,
+        "q05": 0.0007921634331712633,
+        "q95": 0.03633937366961701,
+        "n": 246
+      },
+      {
+        "index": "NIKKEI",
+        "D": 150,
+        "period": "C2_2005",
+        "median": 0.003411318731195559,
+        "q05": 0.0006059885814843567,
+        "q95": 0.010934216992235337,
+        "n": 245
+      },
+      {
+        "index": "NIKKEI",
+        "D": 150,
+        "period": "C3_2017",
+        "median": 0.0035913633614601775,
+        "q05": 0.0009895184114798443,
+        "q95": 0.008322213070343025,
+        "n": 247
+      },
+      {
+        "index": "NIKKEI",
+        "D": 200,
+        "period": "C1_1993",
+        "median": 0.004198407887007922,
+        "q05": 0.000826941182020475,
+        "q95": 0.03315151436890059,
+        "n": 246
+      },
+      {
+        "index": "NIKKEI",
+        "D": 200,
+        "period": "C2_2005",
+        "median": 0.003703066750356027,
+        "q05": 0.0010528830378749156,
+        "q95": 0.017286588738553755,
+        "n": 245
+      },
+      {
+        "index": "NIKKEI",
+        "D": 200,
+        "period": "C3_2017",
+        "median": 0.0018788238219612369,
+        "q05": 0.0008119209460341455,
+        "q95": 0.008448730520100183,
+        "n": 247
+      },
+      {
+        "index": "NIKKEI",
+        "D": 250,
+        "period": "C1_1993",
+        "median": 0.007732523427605239,
+        "q05": 0.0010259487473534942,
+        "q95": 0.024185366489223134,
+        "n": 246
+      },
+      {
+        "index": "NIKKEI",
+        "D": 250,
+        "period": "C2_2005",
+        "median": 0.0035026332713088376,
+        "q05": 0.001219017712158217,
+        "q95": 0.014102088742929134,
+        "n": 245
+      },
+      {
+        "index": "NIKKEI",
+        "D": 250,
+        "period": "C3_2017",
+        "median": 0.0013764904576164425,
+        "q05": 0.000840030134639105,
+        "q95": 0.006320750871524493,
+        "n": 247
+      },
+      {
+        "index": "NIKKEI",
+        "D": 300,
+        "period": "C1_1993",
+        "median": 0.006527232018023889,
+        "q05": 0.0014287080429697646,
+        "q95": 0.012551775243775097,
+        "n": 246
+      },
+      {
+        "index": "NIKKEI",
+        "D": 300,
+        "period": "C2_2005",
+        "median": 0.0038341706024217236,
+        "q05": 0.001034470728673976,
+        "q95": 0.01171581329347048,
+        "n": 245
+      },
+      {
+        "index": "NIKKEI",
+        "D": 300,
+        "period": "C3_2017",
+        "median": 0.0012495508264218746,
+        "q05": 0.000777604602165846,
+        "q95": 0.0029197413532508943,
+        "n": 247
+      },
+      {
+        "index": "DAX",
+        "D": 150,
+        "period": "C1_1993",
+        "median": 0.0014654763684792335,
+        "q05": 0.0006132261292304131,
+        "q95": 0.005389190855025931,
+        "n": 252
+      },
+      {
+        "index": "DAX",
+        "D": 150,
+        "period": "C2_2005",
+        "median": 0.0007935609939834344,
+        "q05": 0.0003573073035312638,
+        "q95": 0.00499773465790605,
+        "n": 257
+      },
+      {
+        "index": "DAX",
+        "D": 150,
+        "period": "C3_2017",
+        "median": 0.0018382255835566073,
+        "q05": 0.0009478435180055411,
+        "q95": 0.003780627987588405,
+        "n": 252
+      },
+      {
+        "index": "DAX",
+        "D": 200,
+        "period": "C1_1993",
+        "median": 0.001503437821109409,
+        "q05": 0.0006397054093043318,
+        "q95": 0.002690481488344949,
+        "n": 252
+      },
+      {
+        "index": "DAX",
+        "D": 200,
+        "period": "C2_2005",
+        "median": 0.0007473003368560964,
+        "q05": 0.0003835017023207752,
+        "q95": 0.002018298147489588,
+        "n": 257
+      },
+      {
+        "index": "DAX",
+        "D": 200,
+        "period": "C3_2017",
+        "median": 0.0014038793355533395,
+        "q05": 0.0010331117409381801,
+        "q95": 0.0024649245738750775,
+        "n": 252
+      },
+      {
+        "index": "DAX",
+        "D": 250,
+        "period": "C1_1993",
+        "median": 0.0017221414996324306,
+        "q05": 0.0006075818093613665,
+        "q95": 0.003134381331625741,
+        "n": 252
+      },
+      {
+        "index": "DAX",
+        "D": 250,
+        "period": "C2_2005",
+        "median": 0.0007130351275841638,
+        "q05": 0.0004931019721310684,
+        "q95": 0.0038446166060652543,
+        "n": 257
+      },
+      {
+        "index": "DAX",
+        "D": 250,
+        "period": "C3_2017",
+        "median": 0.000982709310607036,
+        "q05": 0.0007420522628155106,
+        "q95": 0.0023257059178071146,
+        "n": 252
+      },
+      {
+        "index": "DAX",
+        "D": 300,
+        "period": "C1_1993",
+        "median": 0.002172926136808833,
+        "q05": 0.00047020017347278425,
+        "q95": 0.0026680721361487217,
+        "n": 252
+      },
+      {
+        "index": "DAX",
+        "D": 300,
+        "period": "C2_2005",
+        "median": 0.000694704655994836,
+        "q05": 0.00043297326380801413,
+        "q95": 0.0036305646911545786,
+        "n": 257
+      },
+      {
+        "index": "DAX",
+        "D": 300,
+        "period": "C3_2017",
+        "median": 0.0007736748264587659,
+        "q05": 0.0006377938967641089,
+        "q95": 0.0024833636973604504,
+        "n": 252
+      }
+    ],
+    "rhat_events": [
+      {
+        "index": "SP500",
+        "D": 150,
+        "event": "E1_BlackMonday",
+        "median": 0.0014162228874136495,
+        "q05": 0.000575725316669071,
+        "q95": 0.04640702394257998,
+        "n": 120
+      },
+      {
+        "index": "SP500",
+        "D": 150,
+        "event": "E2_AsianCrisis",
+        "median": 0.0009775184141289559,
+        "q05": 0.0005182868652407587,
+        "q95": 0.0027116193290919522,
+        "n": 120
+      },
+      {
+        "index": "SP500",
+        "D": 150,
+        "event": "E3_RussianCrisis",
+        "median": 0.00140156616617338,
+        "q05": 0.00019729872493490157,
+        "q95": 0.01134722994163231,
+        "n": 120
+      },
+      {
+        "index": "SP500",
+        "D": 150,
+        "event": "E4_DotCom",
+        "median": 0.002270934720099586,
+        "q05": 0.001107095344331164,
+        "q95": 0.0077335637875755045,
+        "n": 120
+      },
+      {
+        "index": "SP500",
+        "D": 150,
+        "event": "E5_Subprime",
+        "median": 0.0023801634708993744,
+        "q05": 0.0010412973076130221,
+        "q95": 0.01608062234373363,
+        "n": 120
+      },
+      {
+        "index": "SP500",
+        "D": 150,
+        "event": "E6_COVID",
+        "median": 0.002036053303810961,
+        "q05": 0.0005819311110987069,
+        "q95": 0.02989538279836749,
+        "n": 120
+      },
+      {
+        "index": "SP500",
+        "D": 200,
+        "event": "E1_BlackMonday",
+        "median": 0.0009094532902417392,
+        "q05": 0.0006297577916911474,
+        "q95": 0.05201909503106376,
+        "n": 120
+      },
+      {
+        "index": "SP500",
+        "D": 200,
+        "event": "E2_AsianCrisis",
+        "median": 0.0009000619424603753,
+        "q05": 0.0003060332649687506,
+        "q95": 0.0015310099060548083,
+        "n": 120
+      },
+      {
+        "index": "SP500",
+        "D": 200,
+        "event": "E3_RussianCrisis",
+        "median": 0.0004777842775037787,
+        "q05": 0.00023323508943178515,
+        "q95": 0.004229916643837651,
+        "n": 120
+      },
+      {
+        "index": "SP500",
+        "D": 200,
+        "event": "E4_DotCom",
+        "median": 0.0024467961803073,
+        "q05": 0.0017164302588482958,
+        "q95": 0.004437919356077971,
+        "n": 120
+      },
+      {
+        "index": "SP500",
+        "D": 200,
+        "event": "E5_Subprime",
+        "median": 0.0018414835235676624,
+        "q05": 0.0012712152299723702,
+        "q95": 0.019870517748956137,
+        "n": 120
+      },
+      {
+        "index": "SP500",
+        "D": 200,
+        "event": "E6_COVID",
+        "median": 0.0016193104105986008,
+        "q05": 0.0005056788665007536,
+        "q95": 0.045544421432234916,
+        "n": 120
+      },
+      {
+        "index": "SP500",
+        "D": 250,
+        "event": "E1_BlackMonday",
+        "median": 0.0006796607469289593,
+        "q05": 0.00046863586178290346,
+        "q95": 0.027501526059451824,
+        "n": 120
+      },
+      {
+        "index": "SP500",
+        "D": 250,
+        "event": "E2_AsianCrisis",
+        "median": 0.0007087726596333824,
+        "q05": 0.0003308656378314929,
+        "q95": 0.0009212795604925184,
+        "n": 120
+      },
+      {
+        "index": "SP500",
+        "D": 250,
+        "event": "E3_RussianCrisis",
+        "median": 0.00034261879517466845,
+        "q05": 0.0002778849068949666,
+        "q95": 0.0015306473896670272,
+        "n": 120
+      },
+      {
+        "index": "SP500",
+        "D": 250,
+        "event": "E4_DotCom",
+        "median": 0.0023094827753686537,
+        "q05": 0.002015553590913426,
+        "q95": 0.0038877844181436413,
+        "n": 120
+      },
+      {
+        "index": "SP500",
+        "D": 250,
+        "event": "E5_Subprime",
+        "median": 0.0013110338448877562,
+        "q05": 0.0010784620354631455,
+        "q95": 0.016412472293483835,
+        "n": 120
+      },
+      {
+        "index": "SP500",
+        "D": 250,
+        "event": "E6_COVID",
+        "median": 0.001186361456880193,
+        "q05": 0.0004503932946250111,
+        "q95": 0.05709427087503071,
+        "n": 120
+      },
+      {
+        "index": "SP500",
+        "D": 300,
+        "event": "E1_BlackMonday",
+        "median": 0.000649405937535641,
+        "q05": 0.0004308907960614715,
+        "q95": 0.016869989505965282,
+        "n": 120
+      },
+      {
+        "index": "SP500",
+        "D": 300,
+        "event": "E2_AsianCrisis",
+        "median": 0.0005065973534157245,
+        "q05": 0.00029495301917511753,
+        "q95": 0.0009139633770400059,
+        "n": 120
+      },
+      {
+        "index": "SP500",
+        "D": 300,
+        "event": "E3_RussianCrisis",
+        "median": 0.0004438812394538486,
+        "q05": 0.0002586711638174695,
+        "q95": 0.0009672009737817497,
+        "n": 120
+      },
+      {
+        "index": "SP500",
+        "D": 300,
+        "event": "E4_DotCom",
+        "median": 0.0013481196861486904,
+        "q05": 0.0010482425018340266,
+        "q95": 0.0032298172425849194,
+        "n": 120
+      },
+      {
+        "index": "SP500",
+        "D": 300,
+        "event": "E5_Subprime",
+        "median": 0.0014883883346981626,
+        "q05": 0.0010188856076747922,
+        "q95": 0.013551134293900343,
+        "n": 120
+      },
+      {
+        "index": "SP500",
+        "D": 300,
+        "event": "E6_COVID",
+        "median": 0.002314522435857705,
+        "q05": 0.0005928101738980174,
+        "q95": 0.05794457881454117,
+        "n": 120
+      },
+      {
+        "index": "FTSE",
+        "D": 150,
+        "event": "E2_AsianCrisis",
+        "median": 0.0009989527300227243,
+        "q05": 0.0006273095318973809,
+        "q95": 0.0016635892413553875,
+        "n": 120
+      },
+      {
+        "index": "FTSE",
+        "D": 150,
+        "event": "E3_RussianCrisis",
+        "median": 0.0012327845643043012,
+        "q05": 0.0003850203554685207,
+        "q95": 0.005261362958864793,
+        "n": 120
+      },
+      {
+        "index": "FTSE",
+        "D": 150,
+        "event": "E4_DotCom",
+        "median": 0.0013732845640583176,
+        "q05": 0.0008486515067395121,
+        "q95": 0.002241323314097295,
+        "n": 120
+      },
+      {
+        "index": "FTSE",
+        "D": 150,
+        "event": "E5_Subprime",
+        "median": 0.0028328949246217983,
+        "q05": 0.0007313681830429093,
+        "q95": 0.006627190592078502,
+        "n": 120
+      },
+      {
+        "index": "FTSE",
+        "D": 150,
+        "event": "E6_COVID",
+        "median": 0.011191296918070073,
+        "q05": 0.008424785858967767,
+        "q95": 0.060636906679985766,
+        "n": 120
+      },
+      {
+        "index": "FTSE",
+        "D": 200,
+        "event": "E2_AsianCrisis",
+        "median": 0.0007151549154731083,
+        "q05": 0.00036774149415232576,
+        "q95": 0.0018315564917399728,
+        "n": 120
+      },
+      {
+        "index": "FTSE",
+        "D": 200,
+        "event": "E3_RussianCrisis",
+        "median": 0.0010071768364277919,
+        "q05": 0.0004892449461502813,
+        "q95": 0.0022286615232391662,
+        "n": 120
+      },
+      {
+        "index": "FTSE",
+        "D": 200,
+        "event": "E4_DotCom",
+        "median": 0.0018045332603142878,
+        "q05": 0.0016114130669707323,
+        "q95": 0.003027579743106566,
+        "n": 120
+      },
+      {
+        "index": "FTSE",
+        "D": 200,
+        "event": "E5_Subprime",
+        "median": 0.002641084124202422,
+        "q05": 0.002049563925718536,
+        "q95": 0.009322404553472448,
+        "n": 120
+      },
+      {
+        "index": "FTSE",
+        "D": 200,
+        "event": "E6_COVID",
+        "median": 0.01284334772032409,
+        "q05": 0.008404797633170417,
+        "q95": 0.10448277510232243,
+        "n": 120
+      },
+      {
+        "index": "FTSE",
+        "D": 250,
+        "event": "E2_AsianCrisis",
+        "median": 0.000748360263104624,
+        "q05": 0.0003480948284372492,
+        "q95": 0.0012791334093420967,
+        "n": 120
+      },
+      {
+        "index": "FTSE",
+        "D": 250,
+        "event": "E3_RussianCrisis",
+        "median": 0.0009905908065884934,
+        "q05": 0.0008858439152350723,
+        "q95": 0.0012563217262317285,
+        "n": 120
+      },
+      {
+        "index": "FTSE",
+        "D": 250,
+        "event": "E4_DotCom",
+        "median": 0.0024339163517302625,
+        "q05": 0.0020948804264544125,
+        "q95": 0.0027980255887706984,
+        "n": 120
+      },
+      {
+        "index": "FTSE",
+        "D": 250,
+        "event": "E5_Subprime",
+        "median": 0.0025504246676450078,
+        "q05": 0.0012530272303039513,
+        "q95": 0.008354117791151063,
+        "n": 120
+      },
+      {
+        "index": "FTSE",
+        "D": 250,
+        "event": "E6_COVID",
+        "median": 0.009035378832648933,
+        "q05": 0.0024494455837691855,
+        "q95": 0.15339531389120145,
+        "n": 120
+      },
+      {
+        "index": "FTSE",
+        "D": 300,
+        "event": "E2_AsianCrisis",
+        "median": 0.0006279897120637801,
+        "q05": 0.0003399182420679147,
+        "q95": 0.0013293371071591566,
+        "n": 120
+      },
+      {
+        "index": "FTSE",
+        "D": 300,
+        "event": "E3_RussianCrisis",
+        "median": 0.0008335805498056863,
+        "q05": 0.0007345328305512728,
+        "q95": 0.001170193791496122,
+        "n": 120
+      },
+      {
+        "index": "FTSE",
+        "D": 300,
+        "event": "E4_DotCom",
+        "median": 0.001828906160704205,
+        "q05": 0.0011280319065643182,
+        "q95": 0.0035292540229209337,
+        "n": 120
+      },
+      {
+        "index": "FTSE",
+        "D": 300,
+        "event": "E5_Subprime",
+        "median": 0.0027168181867660334,
+        "q05": 0.0011637316597366064,
+        "q95": 0.00767730915819662,
+        "n": 120
+      },
+      {
+        "index": "FTSE",
+        "D": 300,
+        "event": "E6_COVID",
+        "median": 0.0026416862292326085,
+        "q05": 0.0014948259987200352,
+        "q95": 0.1925518621013166,
+        "n": 120
+      },
+      {
+        "index": "NIKKEI",
+        "D": 150,
+        "event": "E1_BlackMonday",
+        "median": 0.0010514633070488042,
+        "q05": 0.00028514104136598273,
+        "q95": 0.028700204367220927,
+        "n": 120
+      },
+      {
+        "index": "NIKKEI",
+        "D": 150,
+        "event": "E2_AsianCrisis",
+        "median": 0.0024154137476649004,
+        "q05": 0.0017177629598460302,
+        "q95": 0.003803949528623389,
+        "n": 120
+      },
+      {
+        "index": "NIKKEI",
+        "D": 150,
+        "event": "E3_RussianCrisis",
+        "median": 0.004812823557765902,
+        "q05": 0.0009310872269213857,
+        "q95": 0.00926021064015901,
+        "n": 120
+      },
+      {
+        "index": "NIKKEI",
+        "D": 150,
+        "event": "E4_DotCom",
+        "median": 0.0012131315578981284,
+        "q05": 0.0003921097517739139,
+        "q95": 0.007631170954988737,
+        "n": 120
+      },
+      {
+        "index": "NIKKEI",
+        "D": 150,
+        "event": "E5_Subprime",
+        "median": 0.0040033990942095555,
+        "q05": 0.002333003518699381,
+        "q95": 0.015315401701565097,
+        "n": 120
+      },
+      {
+        "index": "NIKKEI",
+        "D": 150,
+        "event": "E6_COVID",
+        "median": 0.002846511043206393,
+        "q05": 0.0012462344485113486,
+        "q95": 0.018796495752244093,
+        "n": 120
+      },
+      {
+        "index": "NIKKEI",
+        "D": 200,
+        "event": "E1_BlackMonday",
+        "median": 0.00038622895722152136,
+        "q05": 0.0002000084998068455,
+        "q95": 0.012024979679410613,
+        "n": 120
+      },
+      {
+        "index": "NIKKEI",
+        "D": 200,
+        "event": "E2_AsianCrisis",
+        "median": 0.0036389074354543777,
+        "q05": 0.0024441161457325862,
+        "q95": 0.005593350900823504,
+        "n": 120
+      },
+      {
+        "index": "NIKKEI",
+        "D": 200,
+        "event": "E3_RussianCrisis",
+        "median": 0.005382346205789264,
+        "q05": 0.000853053859659525,
+        "q95": 0.009616666077918931,
+        "n": 120
+      },
+      {
+        "index": "NIKKEI",
+        "D": 200,
+        "event": "E4_DotCom",
+        "median": 0.0011988437946188247,
+        "q05": 0.00034050655549798677,
+        "q95": 0.006292964501283299,
+        "n": 120
+      },
+      {
+        "index": "NIKKEI",
+        "D": 200,
+        "event": "E5_Subprime",
+        "median": 0.004319790461234337,
+        "q05": 0.0014031236180955182,
+        "q95": 0.018835941076390198,
+        "n": 120
+      },
+      {
+        "index": "NIKKEI",
+        "D": 200,
+        "event": "E6_COVID",
+        "median": 0.0036355419856975734,
+        "q05": 0.0012095521406717516,
+        "q95": 0.02930407397933663,
+        "n": 120
+      },
+      {
+        "index": "NIKKEI",
+        "D": 250,
+        "event": "E1_BlackMonday",
+        "median": 0.00021164377601589723,
+        "q05": 0.00016850781550445124,
+        "q95": 0.0034861323105327886,
+        "n": 120
+      },
+      {
+        "index": "NIKKEI",
+        "D": 250,
+        "event": "E2_AsianCrisis",
+        "median": 0.00449437914016697,
+        "q05": 0.002621795280032679,
+        "q95": 0.005309741227517033,
+        "n": 120
+      },
+      {
+        "index": "NIKKEI",
+        "D": 250,
+        "event": "E3_RussianCrisis",
+        "median": 0.002694566329138781,
+        "q05": 0.0014235158282493512,
+        "q95": 0.005779445050385525,
+        "n": 120
+      },
+      {
+        "index": "NIKKEI",
+        "D": 250,
+        "event": "E4_DotCom",
+        "median": 0.001562653575466008,
+        "q05": 0.0006910380960463752,
+        "q95": 0.0076475828157480715,
+        "n": 120
+      },
+      {
+        "index": "NIKKEI",
+        "D": 250,
+        "event": "E5_Subprime",
+        "median": 0.0017235314474771377,
+        "q05": 0.001094126549658962,
+        "q95": 0.013165638185429472,
+        "n": 120
+      },
+      {
+        "index": "NIKKEI",
+        "D": 250,
+        "event": "E6_COVID",
+        "median": 0.005329797975307264,
+        "q05": 0.001397601128016585,
+        "q95": 0.038779320167355434,
+        "n": 120
+      },
+      {
+        "index": "NIKKEI",
+        "D": 300,
+        "event": "E1_BlackMonday",
+        "median": 0.00024103386674581692,
+        "q05": 0.0001471019755585754,
+        "q95": 0.0013685864096606543,
+        "n": 120
+      },
+      {
+        "index": "NIKKEI",
+        "D": 300,
+        "event": "E2_AsianCrisis",
+        "median": 0.004382406429249301,
+        "q05": 0.003239944423775968,
+        "q95": 0.005930920327828541,
+        "n": 120
+      },
+      {
+        "index": "NIKKEI",
+        "D": 300,
+        "event": "E3_RussianCrisis",
+        "median": 0.001356469481284216,
+        "q05": 0.0009926683356166767,
+        "q95": 0.0019990562775719246,
+        "n": 120
+      },
+      {
+        "index": "NIKKEI",
+        "D": 300,
+        "event": "E4_DotCom",
+        "median": 0.0013377506210162475,
+        "q05": 0.0009120327952696486,
+        "q95": 0.005689425933380765,
+        "n": 120
+      },
+      {
+        "index": "NIKKEI",
+        "D": 300,
+        "event": "E5_Subprime",
+        "median": 0.0012338319533341836,
+        "q05": 0.0010898868748480113,
+        "q95": 0.009381723479670112,
+        "n": 120
+      },
+      {
+        "index": "NIKKEI",
+        "D": 300,
+        "event": "E6_COVID",
+        "median": 0.006957624405239253,
+        "q05": 0.0013086520463953671,
+        "q95": 0.04804158054878158,
+        "n": 120
+      },
+      {
+        "index": "DAX",
+        "D": 150,
+        "event": "E2_AsianCrisis",
+        "median": 0.00036182559597382387,
+        "q05": 0.00031984372325033066,
+        "q95": 0.00046633932193290267,
+        "n": 120
+      },
+      {
+        "index": "DAX",
+        "D": 150,
+        "event": "E3_RussianCrisis",
+        "median": 0.00036234579397254627,
+        "q05": 8.951966672570841e-05,
+        "q95": 0.0022094355296018086,
+        "n": 120
+      },
+      {
+        "index": "DAX",
+        "D": 150,
+        "event": "E4_DotCom",
+        "median": 0.0004079718660280924,
+        "q05": 0.00023825648269877158,
+        "q95": 0.002062991703268372,
+        "n": 120
+      },
+      {
+        "index": "DAX",
+        "D": 150,
+        "event": "E5_Subprime",
+        "median": 0.003895958086804466,
+        "q05": 0.0010341076713897212,
+        "q95": 0.014304967191573054,
+        "n": 120
+      },
+      {
+        "index": "DAX",
+        "D": 150,
+        "event": "E6_COVID",
+        "median": 0.0027302121561500704,
+        "q05": 0.001316533419234246,
+        "q95": 0.05415366561636523,
+        "n": 120
+      },
+      {
+        "index": "DAX",
+        "D": 200,
+        "event": "E2_AsianCrisis",
+        "median": 0.0002958381161021595,
+        "q05": 0.0002159863377454496,
+        "q95": 0.00044410062987678615,
+        "n": 120
+      },
+      {
+        "index": "DAX",
+        "D": 200,
+        "event": "E3_RussianCrisis",
+        "median": 0.0003504531931497676,
+        "q05": 0.00013871786446261866,
+        "q95": 0.0020706938086404265,
+        "n": 120
+      },
+      {
+        "index": "DAX",
+        "D": 200,
+        "event": "E4_DotCom",
+        "median": 0.0004612619915648469,
+        "q05": 0.00022072755619326762,
+        "q95": 0.0025823248903203678,
+        "n": 120
+      },
+      {
+        "index": "DAX",
+        "D": 200,
+        "event": "E5_Subprime",
+        "median": 0.00539871455230919,
+        "q05": 0.004466409116512267,
+        "q95": 0.013676745525855571,
+        "n": 120
+      },
+      {
+        "index": "DAX",
+        "D": 200,
+        "event": "E6_COVID",
+        "median": 0.002731312565845576,
+        "q05": 0.0014385154764002671,
+        "q95": 0.08717541806467015,
+        "n": 120
+      },
+      {
+        "index": "DAX",
+        "D": 250,
+        "event": "E2_AsianCrisis",
+        "median": 0.0003518025881213512,
+        "q05": 0.00022210901092782425,
+        "q95": 0.0005560344803301916,
+        "n": 120
+      },
+      {
+        "index": "DAX",
+        "D": 250,
+        "event": "E3_RussianCrisis",
+        "median": 0.0004084952821111188,
+        "q05": 0.00020773861273162348,
+        "q95": 0.0011095951957647537,
+        "n": 120
+      },
+      {
+        "index": "DAX",
+        "D": 250,
+        "event": "E4_DotCom",
+        "median": 0.0006066344220158489,
+        "q05": 0.00029759958944159233,
+        "q95": 0.001554503019269163,
+        "n": 120
+      },
+      {
+        "index": "DAX",
+        "D": 250,
+        "event": "E5_Subprime",
+        "median": 0.004534686484393395,
+        "q05": 0.003548009629476772,
+        "q95": 0.00854876963582686,
+        "n": 120
+      },
+      {
+        "index": "DAX",
+        "D": 250,
+        "event": "E6_COVID",
+        "median": 0.001578780404837039,
+        "q05": 0.0010490330795351183,
+        "q95": 0.12480521233488169,
+        "n": 120
+      },
+      {
+        "index": "DAX",
+        "D": 300,
+        "event": "E2_AsianCrisis",
+        "median": 0.0004849060121232269,
+        "q05": 0.00033383363630411434,
+        "q95": 0.0006786326968565736,
+        "n": 120
+      },
+      {
+        "index": "DAX",
+        "D": 300,
+        "event": "E3_RussianCrisis",
+        "median": 0.00042119521412813414,
+        "q05": 0.00027601096156147024,
+        "q95": 0.0008554341701059494,
+        "n": 120
+      },
+      {
+        "index": "DAX",
+        "D": 300,
+        "event": "E4_DotCom",
+        "median": 0.0005476789122146128,
+        "q05": 0.000343547108932928,
+        "q95": 0.002011244634408978,
+        "n": 120
+      },
+      {
+        "index": "DAX",
+        "D": 300,
+        "event": "E5_Subprime",
+        "median": 0.004135378759396711,
+        "q05": 0.002797499823633384,
+        "q95": 0.00728906695816209,
+        "n": 120
+      },
+      {
+        "index": "DAX",
+        "D": 300,
+        "event": "E6_COVID",
+        "median": 0.0009501293762201399,
+        "q05": 0.0007365964656308872,
+        "q95": 0.11489505215386263,
+        "n": 120
+      }
+    ],
+    "elapsed": 38.99781069997698
+  },
+  "task3": {
+    "rho=0.5": {
+      "by_n": {
+        "200": {
+          "sigma_hac_median": 0.5522637023994998,
+          "bw_median": 4.0,
+          "g1_std_median": 0.0363575947044078,
+          "g2_std_median": 0.0036752043618167923
+        },
+        "500": {
+          "sigma_hac_median": 0.4481573469922338,
+          "bw_median": 5.0,
+          "g1_std_median": 0.016627068413175933,
+          "g2_std_median": 0.0012764711834063768
+        },
+        "1000": {
+          "sigma_hac_median": 0.37960063085623186,
+          "bw_median": 6.0,
+          "g1_std_median": 0.009217096753733073,
+          "g2_std_median": 0.0005631159349877087
+        },
+        "2000": {
+          "sigma_hac_median": 0.33097685321665693,
+          "bw_median": 7.0,
+          "g1_std_median": 0.005035767602431421,
+          "g2_std_median": 0.00023359135750937096
+        },
+        "5000": {
+          "sigma_hac_median": 0.24369971087328246,
+          "bw_median": 10.0,
+          "g1_std_median": 0.002334744277477847,
+          "g2_std_median": 7.793997153440638e-05
+        }
+      },
+      "slopes": {
+        "sigma_hac": {
+          "slope": -0.2486,
+          "R2": 0.991
+        },
+        "bw": {
+          "slope": 0.2781,
+          "R2": 0.9872
+        },
+        "g1_std": {
+          "slope": -0.8543,
+          "R2": 1.0
+        },
+        "g2_std": {
+          "slope": -1.2015,
+          "R2": 0.9997
+        }
+      }
+    },
+    "rho=0.95": {
+      "by_n": {
+        "200": {
+          "sigma_hac_median": 0.9771042003726662,
+          "bw_median": 2.0,
+          "g1_std_median": 0.15029378431705537,
+          "g2_std_median": 0.009942236539659314
+        },
+        "500": {
+          "sigma_hac_median": 0.9793940219060884,
+          "bw_median": 2.0,
+          "g1_std_median": 0.08805824285808572,
+          "g2_std_median": 0.00622136630099465
+        },
+        "1000": {
+          "sigma_hac_median": 0.9708231806690467,
+          "bw_median": 2.0,
+          "g1_std_median": 0.05190583747975539,
+          "g2_std_median": 0.0035002360249420535
+        },
+        "2000": {
+          "sigma_hac_median": 0.971954980310755,
+          "bw_median": 2.0,
+          "g1_std_median": 0.027888060149186558,
+          "g2_std_median": 0.0016188954590685978
+        },
+        "5000": {
+          "sigma_hac_median": 0.9503172769259147,
+          "bw_median": 3.0,
+          "g1_std_median": 0.011681463176146076,
+          "g2_std_median": 0.0004897155716891017
+        }
+      },
+      "slopes": {
+        "sigma_hac": {
+          "slope": -0.0081,
+          "R2": 0.7135
+        },
+        "bw": {
+          "slope": 0.1063,
+          "R2": 0.5272
+        },
+        "g1_std": {
+          "slope": -0.7992,
+          "R2": 0.9892
+        },
+        "g2_std": {
+          "slope": -0.9409,
+          "R2": 0.9653
+        }
+      }
+    },
+    "RW": {
+      "by_n": {
+        "200": {
+          "sigma_hac_median": 0.9931237859974866,
+          "bw_median": 2.0,
+          "g1_std_median": 0.30739296782664727,
+          "g2_std_median": 0.013455927130692297
+        },
+        "500": {
+          "sigma_hac_median": 0.9961322979473066,
+          "bw_median": 2.0,
+          "g1_std_median": 0.30454376161439467,
+          "g2_std_median": 0.01248748904714293
+        },
+        "1000": {
+          "sigma_hac_median": 0.9920282575864661,
+          "bw_median": 2.0,
+          "g1_std_median": 0.30594350596553593,
+          "g2_std_median": 0.012868073110680183
+        },
+        "2000": {
+          "sigma_hac_median": 0.998919531680959,
+          "bw_median": 2.0,
+          "g1_std_median": 0.282230438859814,
+          "g2_std_median": 0.012687933294814609
+        },
+        "5000": {
+          "sigma_hac_median": 1.000669388305639,
+          "bw_median": 2.0,
+          "g1_std_median": 0.3031246006175374,
+          "g2_std_median": 0.012639194736526981
+        }
+      },
+      "slopes": {
+        "sigma_hac": {
+          "slope": 0.0023,
+          "R2": 0.594
+        },
+        "bw": {
+          "slope": 0.0,
+          "R2": 0.0
+        },
+        "g1_std": {
+          "slope": -0.0123,
+          "R2": 0.1835
+        },
+        "g2_std": {
+          "slope": -0.0146,
+          "R2": 0.3906
+        }
+      }
+    },
+    "elapsed": 8.862100999802351
+  },
+  "software": {
+    "python": "3.11.0",
+    "numpy": "2.2.4",
+    "scipy": "1.15.2",
+    "statsmodels": "0.14.6",
+    "arch": "8.0.0"
+  },
+  "timestamp": "2026-09-03T17:16:26.056994+00:00"
+}

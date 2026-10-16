@@ -1,0 +1,1197 @@
+{
+  "description": "Real data rolling window validation (with DF-GLS)",
+  "checkpoints": [
+    {
+      "index": "DAX",
+      "D": 150,
+      "n_windows": 9206,
+      "first_date": "1988-08-08",
+      "last_date": "2024-12-30",
+      "completed_at": "2026-06-12T13:34:30.715184",
+      "latencies": {
+        "E1_BlackMonday": {
+          "excluded": true,
+          "reason": "data_availability"
+        },
+        "E2_AsianCrisis": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E3_RussianCrisis": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E4_DotCom": {
+          "ours": null,
+          "adf": 81,
+          "pp": 48,
+          "kpss": 0,
+          "dfgls": 110
+        },
+        "E5_Subprime": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E6_COVID": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": 33
+        }
+      },
+      "false_positive_rates": {
+        "C1_1993": {
+          "ours": 0.0,
+          "adf": 0.01984126984126984,
+          "pp": 0.011904761904761904,
+          "kpss": 0.9523809523809523,
+          "dfgls": 0.0
+        },
+        "C2_2005": {
+          "ours": 0.0,
+          "adf": 0.007782101167315175,
+          "pp": 0.007782101167315175,
+          "kpss": 1.0,
+          "dfgls": 0.0
+        },
+        "C3_2017": {
+          "ours": 0.0,
+          "adf": 0.011904761904761904,
+          "pp": 0.023809523809523808,
+          "kpss": 0.8531746031746031,
+          "dfgls": 0.0
+        }
+      },
+      "dfgls_added_at": "2026-07-17T05:14:21.709552"
+    },
+    {
+      "index": "DAX",
+      "D": 200,
+      "n_windows": 9156,
+      "first_date": "1988-10-17",
+      "last_date": "2024-12-30",
+      "completed_at": "2026-06-12T13:37:57.559549",
+      "latencies": {
+        "E1_BlackMonday": {
+          "excluded": true,
+          "reason": "data_availability"
+        },
+        "E2_AsianCrisis": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E3_RussianCrisis": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E4_DotCom": {
+          "ours": null,
+          "adf": 98,
+          "pp": 97,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E5_Subprime": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E6_COVID": {
+          "ours": null,
+          "adf": 32,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": 24
+        }
+      },
+      "false_positive_rates": {
+        "C1_1993": {
+          "ours": 0.0,
+          "adf": 0.0,
+          "pp": 0.0,
+          "kpss": 0.9801587301587301,
+          "dfgls": 0.0
+        },
+        "C2_2005": {
+          "ours": 0.0,
+          "adf": 0.0,
+          "pp": 0.0,
+          "kpss": 1.0,
+          "dfgls": 0.0
+        },
+        "C3_2017": {
+          "ours": 0.0,
+          "adf": 0.031746031746031744,
+          "pp": 0.047619047619047616,
+          "kpss": 1.0,
+          "dfgls": 0.0
+        }
+      },
+      "dfgls_added_at": "2026-07-17T05:14:43.939763"
+    },
+    {
+      "index": "DAX",
+      "D": 250,
+      "n_windows": 9106,
+      "first_date": "1988-12-28",
+      "last_date": "2024-12-30",
+      "completed_at": "2026-06-12T13:41:52.592294",
+      "latencies": {
+        "E1_BlackMonday": {
+          "excluded": true,
+          "reason": "data_availability"
+        },
+        "E2_AsianCrisis": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E3_RussianCrisis": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E4_DotCom": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E5_Subprime": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E6_COVID": {
+          "ours": null,
+          "adf": 32,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": 28
+        }
+      },
+      "false_positive_rates": {
+        "C1_1993": {
+          "ours": 0.0,
+          "adf": 0.0,
+          "pp": 0.0,
+          "kpss": 0.9682539682539683,
+          "dfgls": 0.0
+        },
+        "C2_2005": {
+          "ours": 0.0,
+          "adf": 0.0,
+          "pp": 0.0,
+          "kpss": 0.980544747081712,
+          "dfgls": 0.0038910505836575876
+        },
+        "C3_2017": {
+          "ours": 0.0,
+          "adf": 0.011904761904761904,
+          "pp": 0.011904761904761904,
+          "kpss": 1.0,
+          "dfgls": 0.0
+        }
+      },
+      "dfgls_added_at": "2026-07-17T05:15:06.522829"
+    },
+    {
+      "index": "DAX",
+      "D": 300,
+      "n_windows": 9056,
+      "first_date": "1989-03-09",
+      "last_date": "2024-12-30",
+      "completed_at": "2026-06-12T13:45:14.200071",
+      "latencies": {
+        "E1_BlackMonday": {
+          "excluded": true,
+          "reason": "data_availability"
+        },
+        "E2_AsianCrisis": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E3_RussianCrisis": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E4_DotCom": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E5_Subprime": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E6_COVID": {
+          "ours": null,
+          "adf": 32,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": 32
+        }
+      },
+      "false_positive_rates": {
+        "C1_1993": {
+          "ours": 0.0,
+          "adf": 0.0,
+          "pp": 0.0,
+          "kpss": 1.0,
+          "dfgls": 0.0
+        },
+        "C2_2005": {
+          "ours": 0.0,
+          "adf": 0.0,
+          "pp": 0.0,
+          "kpss": 1.0,
+          "dfgls": 0.0
+        },
+        "C3_2017": {
+          "ours": 0.0,
+          "adf": 0.0,
+          "pp": 0.003968253968253968,
+          "kpss": 1.0,
+          "dfgls": 0.0
+        }
+      },
+      "dfgls_added_at": "2026-07-17T05:15:29.417080"
+    },
+    {
+      "index": "FTSE",
+      "D": 150,
+      "n_windows": 10205,
+      "first_date": "1984-08-06",
+      "last_date": "2024-12-30",
+      "completed_at": "2026-06-12T13:12:43.514458",
+      "latencies": {
+        "E1_BlackMonday": {
+          "excluded": true,
+          "reason": "data_availability"
+        },
+        "E2_AsianCrisis": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E3_RussianCrisis": {
+          "ours": null,
+          "adf": 0,
+          "pp": 0,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E4_DotCom": {
+          "ours": 91,
+          "adf": 89,
+          "pp": 50,
+          "kpss": 0,
+          "dfgls": 59
+        },
+        "E5_Subprime": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E6_COVID": {
+          "ours": 7,
+          "adf": 5,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": 4
+        }
+      },
+      "false_positive_rates": {
+        "C1_1993": {
+          "ours": 0.043478260869565216,
+          "adf": 0.10276679841897234,
+          "pp": 0.11857707509881422,
+          "kpss": 0.9169960474308301,
+          "dfgls": 0.03162055335968379
+        },
+        "C2_2005": {
+          "ours": 0.0,
+          "adf": 0.0,
+          "pp": 0.0,
+          "kpss": 1.0,
+          "dfgls": 0.0
+        },
+        "C3_2017": {
+          "ours": 0.15873015873015872,
+          "adf": 0.16666666666666666,
+          "pp": 0.2619047619047619,
+          "kpss": 0.7142857142857143,
+          "dfgls": 0.14285714285714285
+        }
+      },
+      "dfgls_added_at": "2026-07-17T05:07:59.120389"
+    },
+    {
+      "index": "FTSE",
+      "D": 200,
+      "n_windows": 10155,
+      "first_date": "1984-10-16",
+      "last_date": "2024-12-30",
+      "completed_at": "2026-06-12T13:14:32.327420",
+      "latencies": {
+        "E1_BlackMonday": {
+          "excluded": true,
+          "reason": "data_availability"
+        },
+        "E2_AsianCrisis": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E3_RussianCrisis": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E4_DotCom": {
+          "ours": 93,
+          "adf": 82,
+          "pp": 82,
+          "kpss": 35,
+          "dfgls": 0
+        },
+        "E5_Subprime": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": 37
+        },
+        "E6_COVID": {
+          "ours": 4,
+          "adf": 0,
+          "pp": 2,
+          "kpss": 23,
+          "dfgls": 0
+        }
+      },
+      "false_positive_rates": {
+        "C1_1993": {
+          "ours": 0.0,
+          "adf": 0.1383399209486166,
+          "pp": 0.11067193675889328,
+          "kpss": 1.0,
+          "dfgls": 0.0
+        },
+        "C2_2005": {
+          "ours": 0.0,
+          "adf": 0.0,
+          "pp": 0.003968253968253968,
+          "kpss": 1.0,
+          "dfgls": 0.0
+        },
+        "C3_2017": {
+          "ours": 0.15476190476190477,
+          "adf": 0.25,
+          "pp": 0.24206349206349206,
+          "kpss": 0.9325396825396826,
+          "dfgls": 0.10317460317460317
+        }
+      },
+      "dfgls_added_at": "2026-07-17T05:09:03.492067"
+    },
+    {
+      "index": "FTSE",
+      "D": 250,
+      "n_windows": 10105,
+      "first_date": "1984-12-27",
+      "last_date": "2024-12-30",
+      "completed_at": "2026-06-12T13:17:46.922705",
+      "latencies": {
+        "E1_BlackMonday": {
+          "excluded": true,
+          "reason": "data_availability"
+        },
+        "E2_AsianCrisis": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E3_RussianCrisis": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E4_DotCom": {
+          "ours": 62,
+          "adf": 3,
+          "pp": 2,
+          "kpss": null,
+          "dfgls": 0
+        },
+        "E5_Subprime": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E6_COVID": {
+          "ours": 0,
+          "adf": 0,
+          "pp": 0,
+          "kpss": 23,
+          "dfgls": 0
+        }
+      },
+      "false_positive_rates": {
+        "C1_1993": {
+          "ours": 0.0,
+          "adf": 0.07905138339920949,
+          "pp": 0.05138339920948617,
+          "kpss": 0.9762845849802372,
+          "dfgls": 0.0
+        },
+        "C2_2005": {
+          "ours": 0.0,
+          "adf": 0.0,
+          "pp": 0.0,
+          "kpss": 1.0,
+          "dfgls": 0.0
+        },
+        "C3_2017": {
+          "ours": 0.031746031746031744,
+          "adf": 0.1626984126984127,
+          "pp": 0.14285714285714285,
+          "kpss": 1.0,
+          "dfgls": 0.0
+        }
+      },
+      "dfgls_added_at": "2026-07-17T05:10:05.057192"
+    },
+    {
+      "index": "FTSE",
+      "D": 300,
+      "n_windows": 10055,
+      "first_date": "1985-03-08",
+      "last_date": "2024-12-30",
+      "completed_at": "2026-06-12T13:20:09.933912",
+      "latencies": {
+        "E1_BlackMonday": {
+          "excluded": true,
+          "reason": "data_availability"
+        },
+        "E2_AsianCrisis": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E3_RussianCrisis": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E4_DotCom": {
+          "ours": 0,
+          "adf": 0,
+          "pp": 0,
+          "kpss": 0,
+          "dfgls": 2
+        },
+        "E5_Subprime": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E6_COVID": {
+          "ours": 6,
+          "adf": 2,
+          "pp": 4,
+          "kpss": 0,
+          "dfgls": 33
+        }
+      },
+      "false_positive_rates": {
+        "C1_1993": {
+          "ours": 0.0,
+          "adf": 0.043478260869565216,
+          "pp": 0.03557312252964427,
+          "kpss": 1.0,
+          "dfgls": 0.0
+        },
+        "C2_2005": {
+          "ours": 0.0,
+          "adf": 0.0,
+          "pp": 0.0,
+          "kpss": 1.0,
+          "dfgls": 0.0
+        },
+        "C3_2017": {
+          "ours": 0.0,
+          "adf": 0.051587301587301584,
+          "pp": 0.03571428571428571,
+          "kpss": 1.0,
+          "dfgls": 0.0
+        }
+      },
+      "dfgls_added_at": "2026-07-17T05:10:31.158441"
+    },
+    {
+      "index": "NIKKEI",
+      "D": 150,
+      "n_windows": 9929,
+      "first_date": "1984-08-07",
+      "last_date": "2024-12-30",
+      "completed_at": "2026-06-12T13:22:48.732340",
+      "latencies": {
+        "E1_BlackMonday": {
+          "ours": 11,
+          "adf": 3,
+          "pp": 5,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E2_AsianCrisis": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 4,
+          "dfgls": null
+        },
+        "E3_RussianCrisis": {
+          "ours": null,
+          "adf": null,
+          "pp": 2,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E4_DotCom": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E5_Subprime": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 8,
+          "dfgls": null
+        },
+        "E6_COVID": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        }
+      },
+      "false_positive_rates": {
+        "C1_1993": {
+          "ours": 0.08536585365853659,
+          "adf": 0.2682926829268293,
+          "pp": 0.13414634146341464,
+          "kpss": 0.6300813008130082,
+          "dfgls": 0.15447154471544716
+        },
+        "C2_2005": {
+          "ours": 0.00816326530612245,
+          "adf": 0.024489795918367346,
+          "pp": 0.02040816326530612,
+          "kpss": 0.6979591836734694,
+          "dfgls": 0.04897959183673469
+        },
+        "C3_2017": {
+          "ours": 0.0,
+          "adf": 0.016194331983805668,
+          "pp": 0.020242914979757085,
+          "kpss": 1.0,
+          "dfgls": 0.0
+        }
+      },
+      "dfgls_added_at": "2026-07-17T05:10:54.158561"
+    },
+    {
+      "index": "NIKKEI",
+      "D": 200,
+      "n_windows": 9879,
+      "first_date": "1984-10-18",
+      "last_date": "2024-12-30",
+      "completed_at": "2026-06-12T13:25:33.421416",
+      "latencies": {
+        "E1_BlackMonday": {
+          "ours": null,
+          "adf": null,
+          "pp": 61,
+          "kpss": 0,
+          "dfgls": 73
+        },
+        "E2_AsianCrisis": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E3_RussianCrisis": {
+          "ours": 0,
+          "adf": null,
+          "pp": 0,
+          "kpss": 14,
+          "dfgls": 3
+        },
+        "E4_DotCom": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E5_Subprime": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E6_COVID": {
+          "ours": null,
+          "adf": 33,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": 31
+        }
+      },
+      "false_positive_rates": {
+        "C1_1993": {
+          "ours": 0.0,
+          "adf": 0.1951219512195122,
+          "pp": 0.06097560975609756,
+          "kpss": 0.7073170731707317,
+          "dfgls": 0.15040650406504066
+        },
+        "C2_2005": {
+          "ours": 0.08163265306122448,
+          "adf": 0.07346938775510205,
+          "pp": 0.08979591836734693,
+          "kpss": 0.889795918367347,
+          "dfgls": 0.1346938775510204
+        },
+        "C3_2017": {
+          "ours": 0.0,
+          "adf": 0.048582995951417005,
+          "pp": 0.05263157894736842,
+          "kpss": 1.0,
+          "dfgls": 0.0
+        }
+      },
+      "dfgls_added_at": "2026-07-17T05:12:06.465222"
+    },
+    {
+      "index": "NIKKEI",
+      "D": 250,
+      "n_windows": 9829,
+      "first_date": "1984-12-28",
+      "last_date": "2024-12-30",
+      "completed_at": "2026-06-12T13:27:44.320050",
+      "latencies": {
+        "E1_BlackMonday": {
+          "ours": null,
+          "adf": null,
+          "pp": 80,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E2_AsianCrisis": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E3_RussianCrisis": {
+          "ours": 20,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E4_DotCom": {
+          "ours": null,
+          "adf": 0,
+          "pp": 0,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E5_Subprime": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E6_COVID": {
+          "ours": null,
+          "adf": 33,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": 23
+        }
+      },
+      "false_positive_rates": {
+        "C1_1993": {
+          "ours": 0.056910569105691054,
+          "adf": 0.08943089430894309,
+          "pp": 0.0975609756097561,
+          "kpss": 0.8658536585365854,
+          "dfgls": 0.052845528455284556
+        },
+        "C2_2005": {
+          "ours": 0.09795918367346938,
+          "adf": 0.11428571428571428,
+          "pp": 0.18775510204081633,
+          "kpss": 0.5346938775510204,
+          "dfgls": 0.2693877551020408
+        },
+        "C3_2017": {
+          "ours": 0.0,
+          "adf": 0.0,
+          "pp": 0.004048582995951417,
+          "kpss": 1.0,
+          "dfgls": 0.004048582995951417
+        }
+      },
+      "dfgls_added_at": "2026-07-17T05:13:29.958540"
+    },
+    {
+      "index": "NIKKEI",
+      "D": 300,
+      "n_windows": 9779,
+      "first_date": "1985-03-15",
+      "last_date": "2024-12-30",
+      "completed_at": "2026-06-12T13:31:12.821857",
+      "latencies": {
+        "E1_BlackMonday": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E2_AsianCrisis": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E3_RussianCrisis": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E4_DotCom": {
+          "ours": null,
+          "adf": 40,
+          "pp": 40,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E5_Subprime": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E6_COVID": {
+          "ours": null,
+          "adf": 31,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": 31
+        }
+      },
+      "false_positive_rates": {
+        "C1_1993": {
+          "ours": 0.0,
+          "adf": 0.008130081300813009,
+          "pp": 0.016260162601626018,
+          "kpss": 0.9471544715447154,
+          "dfgls": 0.0
+        },
+        "C2_2005": {
+          "ours": 0.43673469387755104,
+          "adf": 0.2693877551020408,
+          "pp": 0.3795918367346939,
+          "kpss": 0.5755102040816327,
+          "dfgls": 0.1673469387755102
+        },
+        "C3_2017": {
+          "ours": 0.0,
+          "adf": 0.0,
+          "pp": 0.0,
+          "kpss": 1.0,
+          "dfgls": 0.0
+        }
+      },
+      "dfgls_added_at": "2026-07-17T05:13:59.690300"
+    },
+    {
+      "index": "SP500",
+      "D": 150,
+      "n_windows": 10182,
+      "first_date": "1984-08-06",
+      "last_date": "2024-12-30",
+      "completed_at": "2026-06-12T13:10:01.220132",
+      "latencies": {
+        "E1_BlackMonday": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": 9
+        },
+        "E2_AsianCrisis": {
+          "ours": null,
+          "adf": 91,
+          "pp": 93,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E3_RussianCrisis": {
+          "ours": null,
+          "adf": 8,
+          "pp": 7,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E4_DotCom": {
+          "ours": 53,
+          "adf": 45,
+          "pp": 49,
+          "kpss": 0,
+          "dfgls": 64
+        },
+        "E5_Subprime": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E6_COVID": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": 35
+        }
+      },
+      "false_positive_rates": {
+        "C1_1993": {
+          "ours": 0.17391304347826086,
+          "adf": 0.13438735177865613,
+          "pp": 0.08695652173913043,
+          "kpss": 1.0,
+          "dfgls": 0.07509881422924901
+        },
+        "C2_2005": {
+          "ours": 0.0,
+          "adf": 0.05555555555555555,
+          "pp": 0.06746031746031746,
+          "kpss": 0.7777777777777778,
+          "dfgls": 0.10714285714285714
+        },
+        "C3_2017": {
+          "ours": 0.0,
+          "adf": 0.00796812749003984,
+          "pp": 0.01195219123505976,
+          "kpss": 1.0,
+          "dfgls": 0.0
+        }
+      },
+      "dfgls_added_at": "2026-07-17T05:06:22.574116"
+    },
+    {
+      "index": "SP500",
+      "D": 200,
+      "n_windows": 10132,
+      "first_date": "1984-10-16",
+      "last_date": "2024-12-30",
+      "completed_at": "2026-06-12T13:08:34.830437",
+      "latencies": {
+        "E1_BlackMonday": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E2_AsianCrisis": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E3_RussianCrisis": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E4_DotCom": {
+          "ours": 93,
+          "adf": 87,
+          "pp": 97,
+          "kpss": 0,
+          "dfgls": 26
+        },
+        "E5_Subprime": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E6_COVID": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": 32
+        }
+      },
+      "false_positive_rates": {
+        "C1_1993": {
+          "ours": 0.0,
+          "adf": 0.015810276679841896,
+          "pp": 0.015810276679841896,
+          "kpss": 1.0,
+          "dfgls": 0.0
+        },
+        "C2_2005": {
+          "ours": 0.0,
+          "adf": 0.031746031746031744,
+          "pp": 0.03571428571428571,
+          "kpss": 1.0,
+          "dfgls": 0.08333333333333333
+        },
+        "C3_2017": {
+          "ours": 0.0,
+          "adf": 0.01195219123505976,
+          "pp": 0.01593625498007968,
+          "kpss": 1.0,
+          "dfgls": 0.0
+        }
+      },
+      "dfgls_added_at": "2026-07-17T05:06:46.152112"
+    },
+    {
+      "index": "SP500",
+      "D": 250,
+      "n_windows": 10082,
+      "first_date": "1984-12-27",
+      "last_date": "2024-12-30",
+      "completed_at": "2026-06-12T13:11:22.514214",
+      "latencies": {
+        "E1_BlackMonday": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E2_AsianCrisis": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E3_RussianCrisis": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E4_DotCom": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": 26
+        },
+        "E5_Subprime": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E6_COVID": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": 30
+        }
+      },
+      "false_positive_rates": {
+        "C1_1993": {
+          "ours": 0.0,
+          "adf": 0.003952569169960474,
+          "pp": 0.003952569169960474,
+          "kpss": 1.0,
+          "dfgls": 0.003952569169960474
+        },
+        "C2_2005": {
+          "ours": 0.0,
+          "adf": 0.07936507936507936,
+          "pp": 0.07539682539682539,
+          "kpss": 1.0,
+          "dfgls": 0.015873015873015872
+        },
+        "C3_2017": {
+          "ours": 0.0,
+          "adf": 0.0,
+          "pp": 0.00398406374501992,
+          "kpss": 1.0,
+          "dfgls": 0.0
+        }
+      },
+      "dfgls_added_at": "2026-07-17T05:07:10.452506"
+    },
+    {
+      "index": "SP500",
+      "D": 300,
+      "n_windows": 10032,
+      "first_date": "1985-03-11",
+      "last_date": "2024-12-30",
+      "completed_at": "2026-06-12T13:12:07.250557",
+      "latencies": {
+        "E1_BlackMonday": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E2_AsianCrisis": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E3_RussianCrisis": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E4_DotCom": {
+          "ours": null,
+          "adf": 39,
+          "pp": 40,
+          "kpss": 0,
+          "dfgls": 66
+        },
+        "E5_Subprime": {
+          "ours": null,
+          "adf": null,
+          "pp": null,
+          "kpss": 0,
+          "dfgls": null
+        },
+        "E6_COVID": {
+          "ours": null,
+          "adf": 10,
+          "pp": 9,
+          "kpss": 0,
+          "dfgls": 46
+        }
+      },
+      "false_positive_rates": {
+        "C1_1993": {
+          "ours": 0.0,
+          "adf": 0.015810276679841896,
+          "pp": 0.03557312252964427,
+          "kpss": 1.0,
+          "dfgls": 0.0
+        },
+        "C2_2005": {
+          "ours": 0.0,
+          "adf": 0.023809523809523808,
+          "pp": 0.023809523809523808,
+          "kpss": 1.0,
+          "dfgls": 0.0
+        },
+        "C3_2017": {
+          "ours": 0.0,
+          "adf": 0.00398406374501992,
+          "pp": 0.00398406374501992,
+          "kpss": 1.0,
+          "dfgls": 0.0
+        }
+      },
+      "dfgls_added_at": "2026-07-17T05:07:35.400428"
+    }
+  ]
+}

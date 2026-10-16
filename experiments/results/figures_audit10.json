@@ -1,0 +1,1032 @@
+{
+  "provenance": {
+    "script": "experiments/make_figures_audit10.py",
+    "script_sha256": "defe405c489e96491a7f9a63e09392c24bce8cc3768b7ec654708eaf244ff560",
+    "commit": "a6877623c33de2ae909c458032bfd56dfbd5525a",
+    "worktree_dirty": true,
+    "dirty_files": [
+      "M experiments/results/manifest_audit10.json"
+    ],
+    "generated_utc": "2026-09-19T17:50:01.390680+00:00",
+    "seed_family": 115,
+    "versions": {
+      "python": "3.11.0",
+      "platform": "Windows-10-10.0.26200-SP0",
+      "numpy": "2.2.4",
+      "scipy": "1.15.2",
+      "numba": "0.65.0",
+      "statsmodels": "0.14.6",
+      "arch": "8.0.0",
+      "pandas": "2.2.3",
+      "joblib": "1.4.2",
+      "matplotlib": "3.10.1",
+      "pytest": "9.0.3"
+    },
+    "code": {
+      "experiments/audit10_b100_protocol.py": {
+        "sha256": "2f4b3351d36f05faafd5a01981278237be31ccbd3a62eb53307d5888c3ab8c47",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b101_theta.py": {
+        "sha256": "c7f65d04c6a2762bcf4fcb7cd6fb3f3ea9f588392e6316175bb88631bd255903",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b102_identity.py": {
+        "sha256": "967ce70c299a9fa87ca467d3885c2c6ae54b11ca7f1a6aac75c94a9bd38125b3",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_application.py": {
+        "sha256": "6e73e4304a88e42b528dc119d56f8a47f3aced0cac6267493b67f96699f4032a",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_awb.py": {
+        "sha256": "c35235023f15eff41059abe196791e6ee57a3f52eb736779b4ed442b70f18f87",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_cv.py": {
+        "sha256": "bc3e2ee08728214ae92b5883e9f3bd067660d99acbeebaf032b8ef7cb289c8a7",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_dgp5.py": {
+        "sha256": "8df807243e62e3c044f4f55ccc9ba909254a15b011fd190d9a6a79c466f2e73e",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_equalized.py": {
+        "sha256": "039b485455232788d7503ff80d09565182b9d5ed696fdaf8c7e27f67ca44ce5d",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_finite.py": {
+        "sha256": "a6fea4ef3e9cab8ab5b2369189497de6ff8fc38abdd3f27b752efeb43935f113",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_lown.py": {
+        "sha256": "61ffc45a0782f9277588e5f3068af89add849a7eb28a87e3902c0df69269b264",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b104_cv5000.py": {
+        "sha256": "64b94cc583c2f45c67910c6f25c5bab49baf77d5d9b4841e49d632bcd4a20493",
+        "git_state": "committed"
+      },
+      "experiments/audit10_common.py": {
+        "sha256": "298e82a217d2dd32ba87245f6056dbb82051fe2985acd644b1e972f6768ca123",
+        "git_state": "committed"
+      },
+      "experiments/audit10_design.py": {
+        "sha256": "d9da80a9c9148338e1031d1a7736180ebffd76409385b5cf7fa0c7af20d28042",
+        "git_state": "committed"
+      },
+      "experiments/audit10_engine.py": {
+        "sha256": "3d2618561538c1afd8daf8224fa230826ae442505877afb8c12a378755911333",
+        "git_state": "committed"
+      },
+      "experiments/audit10_figconfig.py": {
+        "sha256": "522ae90338608ca46d449900388d6eb5c9e152140115dd6be362d17822b8116f",
+        "git_state": "committed"
+      },
+      "experiments/audit10_generate_report.py": {
+        "sha256": "45d8e3b72168899ff5d4eea3f6040c2f1afbaddb3de7ca888a1714975842f233",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b0_inventory.py": {
+        "sha256": "6405cc166459c296fb32c86fed1abff150afc4889ba0598502d8c4e41ea07add",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_np_diagnostic.py": {
+        "sha256": "959b18541923f504c4178fdedd3a7d519a62487930c1de4dbcc8e476e0a43df0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_np_gate.py": {
+        "sha256": "93064f87f144776c7c83ee95d23bdbd7eadf5cbaff08af57297eda3ef37348f0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_regression_child.py": {
+        "sha256": "350b1389b64fdc89098d17861b7196671be9fe66123fb1f0702ddd5229fee150",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_validate.py": {
+        "sha256": "6a268b6ac14f5d05f2dfa26b5430328246f34893439ff6004b308d9a163170b0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2_size.py": {
+        "sha256": "74b1cdbd9f0bba3c77cb495b6c53393ba49eef75ff4f88d41257679ee2d4ff93",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2b_diagnostic.py": {
+        "sha256": "f89de9ed47612633614546168cb1887b0fb1c2faa37283276d03e45dd8096802",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2b_indep.py": {
+        "sha256": "47eb0f404478d0bac66bab7ea2002a24956ceeb287bdcb5bd441ee5fc0c8dda5",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b3_comparators.py": {
+        "sha256": "a4589a8ab3fe02284549b02f9c2078ad34172ddab47b268ce5c1ce4c444fc363",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b4_local_power.py": {
+        "sha256": "4de18b53c2f31d3d2f7e04fee1d786d42df0ba7998bdf30278b8029acea904c7",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b5_power.py": {
+        "sha256": "561c9dd52313c70d193ebe7ea772b3dbf91db2e691019eec3f5e76c4c8c28092",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b6_application.py": {
+        "sha256": "917157d7367c201cb4e92c2eafd1cb4f3d6f68d44dfbc9f6713c0ecb7e28de07",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b7_critical_values.py": {
+        "sha256": "1a228203fb9b1ed38020fe40ec4e6e690ea05c6bf152ceca42a82cc7f2d1c801",
+        "git_state": "committed"
+      },
+      "experiments/audit8_cache_fix_validate.py": {
+        "sha256": "01d88be3d99d27ddb32abdc63bbb5fad3ab6129300ba8cfe638b1790a60d314a",
+        "git_state": "committed"
+      },
+      "experiments/audit8_common.py": {
+        "sha256": "5718ec2cfa7f5f5c5f7f8d68ed26198e00ac827fb562cee67b234857e5719f0d",
+        "git_state": "committed"
+      },
+      "experiments/audit8_design.py": {
+        "sha256": "ad80aeae74d44ff4cecbd10dbfc480d24c146b81ec8f9d6561f95b7ba7079ae0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_environment.py": {
+        "sha256": "9b323700e91302ad0090e876b922a38a1dd6b23ef5f19fcc7748d947e617d21e",
+        "git_state": "committed"
+      },
+      "experiments/audit8_figconfig.py": {
+        "sha256": "eb516777a764ee78828acf7a5c743c4e9d8f5aab57b98550606354793d467e12",
+        "git_state": "committed"
+      },
+      "experiments/audit8_generate_report.py": {
+        "sha256": "91157e2576bec679f9f826423f55b6de104a01380651c9648a3aa25adac78819",
+        "git_state": "committed"
+      },
+      "experiments/audit8_unitroot.py": {
+        "sha256": "9d0842a342f12b9c8a7e3870127768590c53d98c8ca90dbb3a2715ddb16748ef",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b90_protocol.py": {
+        "sha256": "5e0a7109f7d1a7737ed2558ccc1766b36c61e0ead19738e9da6512af0d58e590",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b91_equalized.py": {
+        "sha256": "66be775e81bb3ddeadc202237f1343a4d231138274eb8387cc5ac48c1366b9b9",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b92_theta.py": {
+        "sha256": "56b784b7534e466897a6b31400dc17906ad101d2d114e93f9d5bb95b55c65af5",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b93_attribution.py": {
+        "sha256": "0c6a42942f19a4b0f07cf102704a98e4c17f76815a53bbb1e0407bb3119dd6ee",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b94_finite_sample.py": {
+        "sha256": "b5c5b0acc0792baaec3499d386bbce7768142ca4e37ca1ac03fb23914a0daae5",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b95_awb.py": {
+        "sha256": "f60dcb418bb045ef40684fc8572d74e578459d40d28925dd7c30bbac79dbf0c0",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b96_application.py": {
+        "sha256": "0ff5e46367a3f1dfae0a92aa02fd0fdf13b64efab897de61eaafb81599f468b4",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b97_critical_values.py": {
+        "sha256": "774956681a4c6536cfab497326e032518cb97c10a0aacf9bffd38ee92aef14f3",
+        "git_state": "committed"
+      },
+      "experiments/audit9_calibrate.py": {
+        "sha256": "d2f7ac2cd3d5fa866fac21379f79a60535749e8db61d02135aaea99ec0b75bbd",
+        "git_state": "committed"
+      },
+      "experiments/audit9_common.py": {
+        "sha256": "39fbee3c398de920ba2f9c4400ac6254c58d9fb537c6f97649c8299ea39e78f7",
+        "git_state": "committed"
+      },
+      "experiments/audit9_design.py": {
+        "sha256": "e25486561a4c06643807b4035e2beeb0436558b1157bfb3b7a866e5e7cb815ac",
+        "git_state": "committed"
+      },
+      "experiments/audit9_engine.py": {
+        "sha256": "8f8bd7a817178056d2e55a4c518bfc2188737c02c3f56cf467d15972ac651e1b",
+        "git_state": "committed"
+      },
+      "experiments/audit9_figconfig.py": {
+        "sha256": "502fc40d79bdec85ad4ebac69ee33949903c4c8b5e14ed5558ab3b6b985b8080",
+        "git_state": "committed"
+      },
+      "experiments/audit9_generate_report.py": {
+        "sha256": "c8257dc6873c4ef2d5bf1f40ff3906e7bbbd2513b241348583bfb3ec70f6f559",
+        "git_state": "committed"
+      },
+      "experiments/make_figures_audit10.py": {
+        "sha256": "defe405c489e96491a7f9a63e09392c24bce8cc3768b7ec654708eaf244ff560",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/__init__.py": {
+        "sha256": "20ebf29ab1a9a64bb428f25ff0170d67db2354662efb8b973922c3f455f56582",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/constants.py": {
+        "sha256": "de8bd2282ff09c41fc6eae12fcca6695c1fd3a0c9def7628a9b76e9361058907",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/davies.py": {
+        "sha256": "cfad047d0b0676cc83a41208cd600f4224ce61bf03930228a5a80d1d6556c9b9",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/deterministics.py": {
+        "sha256": "31db116abc80e5cab8c97317a31d6f22f1a4ca40c885eef86c134db598dac6b2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/empirical_eigenvalues.py": {
+        "sha256": "f749e2e2de8b807421d6e74836bd5d539eccb314f18821bd38b80e72b5ee72a1",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/full_pipeline.py": {
+        "sha256": "cdbd5405caa50bc83c7348a0a8be9963b522ef4d808024f078f648bb1de89170",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/hac_estimator.py": {
+        "sha256": "f7c22540e6a8e862258cb70e4a839b841453ca9490a01671176431ee4bf678f2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/kl_eigenvalues.py": {
+        "sha256": "c0fb0a90795c904cb2876aa16eff64948e0abf5a27d3a57c6612c2b9ec198903",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/null_quantiles.py": {
+        "sha256": "655458f05815621d015984080169663d2310d26e588a83e2c5a62549ba5a1ae8",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/optimal_weight.py": {
+        "sha256": "47632d98ed256b2364a2ac99de64780e0cd8d42a69c68b4552c6ea0564f86ba4",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/rm_core.py": {
+        "sha256": "4d3ee3f59c569233a5e9a9ed8ffd3032364188545bac04a0cc619ccac39e04e0",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/standardization.py": {
+        "sha256": "cc8cb146d28ea63be86bc11db6cc6c345fbf5fd412055e2e58a33a40f3e8936b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/statistic.py": {
+        "sha256": "f0baf1d99ac4311ca854d350f18a3d3416974bf5d13e662d05149f87183d92ef",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/theta_selection.py": {
+        "sha256": "23eba50e85d0db917d14b4d3d844c42e5ee566dfd326a0fad7feae0dd113f40b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/utils.py": {
+        "sha256": "8a3e0b972da519b3c39ca0e0326953dbae1bf048845c05c1fb3a23a001b72717",
+        "git_state": "committed"
+      }
+    },
+    "code_all_committed": true
+  },
+  "primary_theta": 0.02,
+  "a9_figures_remain_valid": false,
+  "a9_figures": null,
+  "sources": [
+    "b101_theta_audit10.json",
+    "b92_theta_audit9.json",
+    "b103_equalized_audit10.json",
+    "b3_comparators_audit8.json",
+    "b5_power_audit8.json",
+    "b103_awb_audit10.json"
+  ],
+  "figures": {
+    "fig_local_power_audit10.pdf": {
+      "sha256": "0f20a38f51063f6537623ef30fee11d81761a7b4ff9ee2cadca219ceea23bdb1",
+      "paper_copy": "paper/figures/fig_local_power_audit10.pdf",
+      "paper_copy_sha256": "0f20a38f51063f6537623ef30fee11d81761a7b4ff9ee2cadca219ceea23bdb1",
+      "bytes": 20650
+    },
+    "fig_theta_ladder_audit10.pdf": {
+      "sha256": "6c3350c76b48b34b2a1870ae9c899068c64a64d61ad4c2cbd464639a7071554b",
+      "paper_copy": "paper/figures/fig_theta_ladder_audit10.pdf",
+      "paper_copy_sha256": "6c3350c76b48b34b2a1870ae9c899068c64a64d61ad4c2cbd464639a7071554b",
+      "bytes": 12788
+    },
+    "fig_power_equalized_audit10.pdf": {
+      "sha256": "37bea833a020f0ce54e750cfd19e5e28f8e9225592a381cf975044fe53aa076c",
+      "paper_copy": "paper/figures/fig_power_equalized_audit10.pdf",
+      "paper_copy_sha256": "37bea833a020f0ce54e750cfd19e5e28f8e9225592a381cf975044fe53aa076c",
+      "bytes": 27852
+    },
+    "fig_size_shift_audit10.pdf": {
+      "sha256": "ef725f2995e8e69235710ef818daa16c8ade1213ad47b61840f23c317196cb23",
+      "paper_copy": "paper/figures/fig_size_shift_audit10.pdf",
+      "paper_copy_sha256": "ef725f2995e8e69235710ef818daa16c8ade1213ad47b61840f23c317196cb23",
+      "bytes": 19297
+    },
+    "fig_dgp3_audit10.pdf": {
+      "sha256": "ab00f247d9e4ea52229905f3b3b2fa71582fe498e43177e6ec87f3b8e26db51e",
+      "paper_copy": "paper/figures/fig_dgp3_audit10.pdf",
+      "paper_copy_sha256": "ab00f247d9e4ea52229905f3b3b2fa71582fe498e43177e6ec87f3b8e26db51e",
+      "bytes": 19352
+    },
+    "fig_calibration_gain_audit10.pdf": {
+      "sha256": "abb5a978d74e02084dbd18cb011c980a88931dbef20f34dc4768923bbd4d8676",
+      "paper_copy": "paper/figures/fig_calibration_gain_audit10.pdf",
+      "paper_copy_sha256": "abb5a978d74e02084dbd18cb011c980a88931dbef20f34dc4768923bbd4d8676",
+      "bytes": 16144
+    }
+  },
+  "calibration_gain_points": {
+    "dm": {
+      "cv_at_n": {
+        "60": {
+          "rate": 0.0496,
+          "wilson": [
+            0.04773127934479116,
+            0.05153792306055865
+          ],
+          "N": 50000,
+          "region": [
+            0.0481,
+            0.05192
+          ],
+          "source": "experiments/results/b103_lown_audit10.json",
+          "path": "cells.dm|60.rates.gls_t0.02"
+        },
+        "100": {
+          "rate": 0.05104,
+          "wilson": [
+            0.04914521127795363,
+            0.05300376987636665
+          ],
+          "N": 50000,
+          "region": [
+            0.0481,
+            0.05192
+          ],
+          "source": "experiments/results/b103_lown_audit10.json",
+          "path": "cells.dm|100.rates.gls_t0.02"
+        },
+        "150": {
+          "rate": 0.04764,
+          "wilson": [
+            0.04580747764037878,
+            0.04954202591220569
+          ],
+          "N": 50000,
+          "region": [
+            0.0481,
+            0.05192
+          ],
+          "source": "experiments/results/b103_lown_audit10.json",
+          "path": "cells.dm|150.rates.gls_t0.02"
+        },
+        "200": {
+          "rate": 0.05011,
+          "wilson": [
+            0.04877497847795251,
+            0.051479584872487466
+          ],
+          "N": 100000,
+          "region": [
+            0.04865,
+            0.05136
+          ],
+          "source": "experiments/results/b101_theta_audit10.json",
+          "path": "cells.dm|200.rates.gls_t0.02.pooled"
+        },
+        "500": {
+          "rate": 0.04907,
+          "wilson": [
+            0.047748390003134376,
+            0.05042625324657978
+          ],
+          "N": 100000,
+          "region": [
+            0.04865,
+            0.05136
+          ],
+          "source": "experiments/results/b101_theta_audit10.json",
+          "path": "cells.dm|500.rates.gls_t0.02.pooled"
+        },
+        "1000": {
+          "rate": 0.04903,
+          "wilson": [
+            0.0477089091187804,
+            0.05038573720398274
+          ],
+          "N": 100000,
+          "region": [
+            0.04865,
+            0.05136
+          ],
+          "source": "experiments/results/b101_theta_audit10.json",
+          "path": "cells.dm|1000.rates.gls_t0.02.pooled"
+        },
+        "2000": {
+          "rate": 0.04645,
+          "wilson": [
+            0.04361933795887076,
+            0.04945485794762174
+          ],
+          "N": 20000,
+          "region": [
+            0.047,
+            0.05305
+          ],
+          "source": "experiments/results/b92_theta_audit9.json",
+          "path": "gaussian_size.c|2000.gls_t0.02"
+        },
+        "5000": {
+          "rate": 0.04915,
+          "wilson": [
+            0.04623955387405831,
+            0.05223360503773123
+          ],
+          "N": 20000,
+          "region": [
+            0.047,
+            0.05305
+          ],
+          "source": "experiments/results/b92_theta_audit9.json",
+          "path": "gaussian_size.c|5000.gls_t0.02"
+        }
+      },
+      "cv_big": {
+        "60": {
+          "rate": 0.07344,
+          "wilson": [
+            0.07118614911123837,
+            0.0757593903604002
+          ],
+          "N": 50000,
+          "region": [
+            0.0481,
+            0.05192
+          ],
+          "source": "experiments/results/b103_lown_audit10.json",
+          "path": "cells.dm|60.size_with_cv_n20000.gls_t0.02"
+        },
+        "100": {
+          "rate": 0.06208,
+          "wilson": [
+            0.05999840028030902,
+            0.06422888461611814
+          ],
+          "N": 50000,
+          "region": [
+            0.0481,
+            0.05192
+          ],
+          "source": "experiments/results/b103_lown_audit10.json",
+          "path": "cells.dm|100.size_with_cv_n20000.gls_t0.02"
+        },
+        "150": {
+          "rate": 0.05568,
+          "wilson": [
+            0.05370403144962303,
+            0.05772423678471318
+          ],
+          "N": 50000,
+          "region": [
+            0.0481,
+            0.05192
+          ],
+          "source": "experiments/results/b103_lown_audit10.json",
+          "path": "cells.dm|150.size_with_cv_n20000.gls_t0.02"
+        },
+        "200": {
+          "rate": 0.05735,
+          "wilson": [
+            0.05592584446957845,
+            0.05880816265899132
+          ],
+          "N": 100000,
+          "region": [
+            0.04865,
+            0.05136
+          ],
+          "source": "experiments/results/b101_theta_audit10.json",
+          "path": "cells.dm|200.size_with_cv_n20000.gls_t0.02"
+        },
+        "500": {
+          "rate": 0.05141,
+          "wilson": [
+            0.0500584404278368,
+            0.05279602304851046
+          ],
+          "N": 100000,
+          "region": [
+            0.04865,
+            0.05136
+          ],
+          "source": "experiments/results/b101_theta_audit10.json",
+          "path": "cells.dm|500.size_with_cv_n20000.gls_t0.02"
+        },
+        "1000": {
+          "rate": 0.05015,
+          "wilson": [
+            0.048814465902818516,
+            0.05152009437457246
+          ],
+          "N": 100000,
+          "region": [
+            0.04865,
+            0.05136
+          ],
+          "source": "experiments/results/b101_theta_audit10.json",
+          "path": "cells.dm|1000.size_with_cv_n20000.gls_t0.02"
+        },
+        "2000": {
+          "rate": 0.04765,
+          "wilson": [
+            0.04478355718908839,
+            0.05069017783086945
+          ],
+          "N": 20000,
+          "region": [
+            0.047,
+            0.05305
+          ],
+          "source": "experiments/results/b103_finite_audit10.json",
+          "path": "cases.c.approximation_cost.2000.size_with_cv_n20000"
+        },
+        "5000": {
+          "rate": 0.04895,
+          "wilson": [
+            0.04604537572539664,
+            0.05202786000081535
+          ],
+          "N": 20000,
+          "region": [
+            0.047,
+            0.05305
+          ],
+          "source": "experiments/results/b103_finite_audit10.json",
+          "path": "cases.c.approximation_cost.5000.size_with_cv_n20000"
+        }
+      },
+      "msb_pub": {
+        "60": {
+          "rate": 0.04842,
+          "wilson": [
+            0.046572970682132474,
+            0.05033641302614431
+          ],
+          "N": 50000,
+          "region": [
+            0.0481,
+            0.05192
+          ],
+          "source": "experiments/results/b103_lown_audit10.json",
+          "path": "cells.dm|60.msb_published_cv"
+        },
+        "100": {
+          "rate": 0.04688,
+          "wilson": [
+            0.045061745217898574,
+            0.04876787510606258
+          ],
+          "N": 50000,
+          "region": [
+            0.0481,
+            0.05192
+          ],
+          "source": "experiments/results/b103_lown_audit10.json",
+          "path": "cells.dm|100.msb_published_cv"
+        },
+        "150": {
+          "rate": 0.04382,
+          "wilson": [
+            0.0420605791437743,
+            0.04564951133862463
+          ],
+          "N": 50000,
+          "region": [
+            0.0481,
+            0.05192
+          ],
+          "source": "experiments/results/b103_lown_audit10.json",
+          "path": "cells.dm|150.msb_published_cv"
+        },
+        "200": {
+          "rate": 0.04526,
+          "wilson": [
+            0.043988982593081746,
+            0.046565953364550286
+          ],
+          "N": 100000,
+          "region": [
+            0.04865,
+            0.05136
+          ],
+          "source": "experiments/results/b101_theta_audit10.json",
+          "path": "cells.dm|200.msb_published_cv"
+        },
+        "500": {
+          "rate": 0.04316,
+          "wilson": [
+            0.0419179207246621,
+            0.04443717656804278
+          ],
+          "N": 100000,
+          "region": [
+            0.04865,
+            0.05136
+          ],
+          "source": "experiments/results/b101_theta_audit10.json",
+          "path": "cells.dm|500.msb_published_cv"
+        },
+        "1000": {
+          "rate": 0.04459,
+          "wilson": [
+            0.04332813014186929,
+            0.0458868572893336
+          ],
+          "N": 100000,
+          "region": [
+            0.04865,
+            0.05136
+          ],
+          "source": "experiments/results/b101_theta_audit10.json",
+          "path": "cells.dm|1000.msb_published_cv"
+        },
+        "2000": {
+          "rate": 0.04305,
+          "wilson": [
+            0.04032368770514495,
+            0.045951814046529066
+          ],
+          "N": 20000,
+          "region": [
+            0.047,
+            0.05305
+          ],
+          "source": "experiments/results/b103_finite_audit10.json",
+          "path": "cases.c.approximation_cost_comparators.2000.msb.size_published_asymptotic"
+        },
+        "5000": {
+          "rate": 0.04485,
+          "wilson": [
+            0.0420678805221547,
+            0.04780692989971733
+          ],
+          "N": 20000,
+          "region": [
+            0.047,
+            0.05305
+          ],
+          "source": "experiments/results/b103_finite_audit10.json",
+          "path": "cases.c.approximation_cost_comparators.5000.msb.size_published_asymptotic"
+        }
+      }
+    },
+    "ct": {
+      "cv_at_n": {
+        "60": {
+          "rate": 0.04892,
+          "wilson": [
+            0.04706374240444881,
+            0.05084556448055383
+          ],
+          "N": 50000,
+          "region": [
+            0.0481,
+            0.05192
+          ],
+          "source": "experiments/results/b103_lown_audit10.json",
+          "path": "cells.ct|60.rates.gls_t0.02"
+        },
+        "100": {
+          "rate": 0.04958,
+          "wilson": [
+            0.047711644483636295,
+            0.05151756099464448
+          ],
+          "N": 50000,
+          "region": [
+            0.0481,
+            0.05192
+          ],
+          "source": "experiments/results/b103_lown_audit10.json",
+          "path": "cells.ct|100.rates.gls_t0.02"
+        },
+        "150": {
+          "rate": 0.05058,
+          "wilson": [
+            0.04869349143764671,
+            0.05253556039408578
+          ],
+          "N": 50000,
+          "region": [
+            0.0481,
+            0.05192
+          ],
+          "source": "experiments/results/b103_lown_audit10.json",
+          "path": "cells.ct|150.rates.gls_t0.02"
+        },
+        "200": {
+          "rate": 0.04998,
+          "wilson": [
+            0.04864664599678967,
+            0.05134792734105957
+          ],
+          "N": 100000,
+          "region": [
+            0.04865,
+            0.05136
+          ],
+          "source": "experiments/results/b101_theta_audit10.json",
+          "path": "cells.ct|200.rates.gls_t0.02.pooled"
+        },
+        "500": {
+          "rate": 0.0504,
+          "wilson": [
+            0.0490612676985767,
+            0.05177327337225798
+          ],
+          "N": 100000,
+          "region": [
+            0.04865,
+            0.05136
+          ],
+          "source": "experiments/results/b101_theta_audit10.json",
+          "path": "cells.ct|500.rates.gls_t0.02.pooled"
+        },
+        "1000": {
+          "rate": 0.05053,
+          "wilson": [
+            0.049189608290752876,
+            0.05190492279267253
+          ],
+          "N": 100000,
+          "region": [
+            0.04865,
+            0.05136
+          ],
+          "source": "experiments/results/b101_theta_audit10.json",
+          "path": "cells.ct|1000.rates.gls_t0.02.pooled"
+        },
+        "2000": {
+          "rate": 0.048,
+          "wilson": [
+            0.045123219032845246,
+            0.05105038156187333
+          ],
+          "N": 20000,
+          "region": [
+            0.047,
+            0.05305
+          ],
+          "source": "experiments/results/b92_theta_audit9.json",
+          "path": "gaussian_size.ct|2000.gls_t0.02"
+        },
+        "5000": {
+          "rate": 0.05125,
+          "wilson": [
+            0.04827923661489607,
+            0.054393115745457826
+          ],
+          "N": 20000,
+          "region": [
+            0.047,
+            0.05305
+          ],
+          "source": "experiments/results/b92_theta_audit9.json",
+          "path": "gaussian_size.ct|5000.gls_t0.02"
+        }
+      },
+      "cv_big": {
+        "60": {
+          "rate": 0.05018,
+          "wilson": [
+            0.04830072735159961,
+            0.0521283859387522
+          ],
+          "N": 50000,
+          "region": [
+            0.0481,
+            0.05192
+          ],
+          "source": "experiments/results/b103_lown_audit10.json",
+          "path": "cells.ct|60.size_with_cv_n20000.gls_t0.02"
+        },
+        "100": {
+          "rate": 0.0434,
+          "wilson": [
+            0.04164883584271413,
+            0.04522131917123508
+          ],
+          "N": 50000,
+          "region": [
+            0.0481,
+            0.05192
+          ],
+          "source": "experiments/results/b103_lown_audit10.json",
+          "path": "cells.ct|100.size_with_cv_n20000.gls_t0.02"
+        },
+        "150": {
+          "rate": 0.04808,
+          "wilson": [
+            0.04623927748164205,
+            0.04999015846646116
+          ],
+          "N": 50000,
+          "region": [
+            0.0481,
+            0.05192
+          ],
+          "source": "experiments/results/b103_lown_audit10.json",
+          "path": "cells.ct|150.size_with_cv_n20000.gls_t0.02"
+        },
+        "200": {
+          "rate": 0.04927,
+          "wilson": [
+            0.047945798107450886,
+            0.050628829777018235
+          ],
+          "N": 100000,
+          "region": [
+            0.04865,
+            0.05136
+          ],
+          "source": "experiments/results/b101_theta_audit10.json",
+          "path": "cells.ct|200.size_with_cv_n20000.gls_t0.02"
+        },
+        "500": {
+          "rate": 0.05071,
+          "wilson": [
+            0.049367314759833275,
+            0.0520872024948716
+          ],
+          "N": 100000,
+          "region": [
+            0.04865,
+            0.05136
+          ],
+          "source": "experiments/results/b101_theta_audit10.json",
+          "path": "cells.ct|500.size_with_cv_n20000.gls_t0.02"
+        },
+        "1000": {
+          "rate": 0.05098,
+          "wilson": [
+            0.04963388336578155,
+            0.05236061314584253
+          ],
+          "N": 100000,
+          "region": [
+            0.04865,
+            0.05136
+          ],
+          "source": "experiments/results/b101_theta_audit10.json",
+          "path": "cells.ct|1000.size_with_cv_n20000.gls_t0.02"
+        },
+        "2000": {
+          "rate": 0.04935,
+          "wilson": [
+            0.046433745719324244,
+            0.05243933637804286
+          ],
+          "N": 20000,
+          "region": [
+            0.047,
+            0.05305
+          ],
+          "source": "experiments/results/b103_finite_audit10.json",
+          "path": "cases.ct.approximation_cost.2000.size_with_cv_n20000"
+        },
+        "5000": {
+          "rate": 0.0505,
+          "wilson": [
+            0.047550610725174164,
+            0.0536220296892639
+          ],
+          "N": 20000,
+          "region": [
+            0.047,
+            0.05305
+          ],
+          "source": "experiments/results/b103_finite_audit10.json",
+          "path": "cases.ct.approximation_cost.5000.size_with_cv_n20000"
+        }
+      },
+      "msb_pub": {
+        "60": {
+          "rate": 0.01574,
+          "wilson": [
+            0.014685621211939948,
+            0.016868783665534966
+          ],
+          "N": 50000,
+          "region": [
+            0.0481,
+            0.05192
+          ],
+          "source": "experiments/results/b103_lown_audit10.json",
+          "path": "cells.ct|60.msb_published_cv"
+        },
+        "100": {
+          "rate": 0.02184,
+          "wilson": [
+            0.0205951230782377,
+            0.023158344555292643
+          ],
+          "N": 50000,
+          "region": [
+            0.0481,
+            0.05192
+          ],
+          "source": "experiments/results/b103_lown_audit10.json",
+          "path": "cells.ct|100.msb_published_cv"
+        },
+        "150": {
+          "rate": 0.02544,
+          "wilson": [
+            0.02409587994830247,
+            0.026857034557654032
+          ],
+          "N": 50000,
+          "region": [
+            0.0481,
+            0.05192
+          ],
+          "source": "experiments/results/b103_lown_audit10.json",
+          "path": "cells.ct|150.msb_published_cv"
+        },
+        "200": {
+          "rate": 0.02853,
+          "wilson": [
+            0.02751612839912637,
+            0.029580092861252683
+          ],
+          "N": 100000,
+          "region": [
+            0.04865,
+            0.05136
+          ],
+          "source": "experiments/results/b101_theta_audit10.json",
+          "path": "cells.ct|200.msb_published_cv"
+        },
+        "500": {
+          "rate": 0.03492,
+          "wilson": [
+            0.033799944320610696,
+            0.03607578602018955
+          ],
+          "N": 100000,
+          "region": [
+            0.04865,
+            0.05136
+          ],
+          "source": "experiments/results/b101_theta_audit10.json",
+          "path": "cells.ct|500.msb_published_cv"
+        },
+        "1000": {
+          "rate": 0.03879,
+          "wilson": [
+            0.03761082065970725,
+            0.0400046123636016
+          ],
+          "N": 100000,
+          "region": [
+            0.04865,
+            0.05136
+          ],
+          "source": "experiments/results/b101_theta_audit10.json",
+          "path": "cells.ct|1000.msb_published_cv"
+        },
+        "2000": {
+          "rate": 0.03975,
+          "wilson": [
+            0.03712954423484117,
+            0.04254722495480314
+          ],
+          "N": 20000,
+          "region": [
+            0.047,
+            0.05305
+          ],
+          "source": "experiments/results/b103_finite_audit10.json",
+          "path": "cases.ct.approximation_cost_comparators.2000.msb.size_published_asymptotic"
+        },
+        "5000": {
+          "rate": 0.04275,
+          "wilson": [
+            0.04003311708936671,
+            0.045642499883940986
+          ],
+          "N": 20000,
+          "region": [
+            0.047,
+            0.05305
+          ],
+          "source": "experiments/results/b103_finite_audit10.json",
+          "path": "cases.ct.approximation_cost_comparators.5000.msb.size_published_asymptotic"
+        }
+      }
+    }
+  }
+}

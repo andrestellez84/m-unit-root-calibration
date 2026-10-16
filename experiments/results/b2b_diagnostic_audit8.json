@@ -1,0 +1,249 @@
+{
+  "D1_independent_paths": {
+    "200": {
+      "rate": 0.04935,
+      "rejections": 987,
+      "n": 20000,
+      "wilson_lower": 0.046433745719324244,
+      "wilson_upper": 0.05243933637804286,
+      "se": 0.0015315772507451266,
+      "in_region": true
+    },
+    "500": {
+      "rate": 0.04885,
+      "rejections": 977,
+      "n": 20000,
+      "wilson_lower": 0.04594829181213581,
+      "wilson_upper": 0.05192498232128739,
+      "se": 0.001524199421007632,
+      "in_region": true
+    },
+    "1000": {
+      "rate": 0.0527,
+      "rejections": 1054,
+      "n": 20000,
+      "wilson_lower": 0.049688424764637876,
+      "wilson_upper": 0.05588337069115332,
+      "se": 0.0015799162952511124,
+      "in_region": true
+    }
+  },
+  "D2_independent_calibration": {
+    "published_paths_rate_independent_cal": {
+      "rate": 0.042,
+      "rejections": 210,
+      "n": 5000,
+      "wilson_lower": 0.03678268629468601,
+      "wilson_upper": 0.04792052868698633,
+      "se": 0.002836758713743557,
+      "in_region": false
+    },
+    "q05_seed42": 0.14523239244770056,
+    "q05_independent": 0.14600304517613877,
+    "published_paths_rate_seed42_cal": {
+      "rate": 0.041,
+      "rejections": 205,
+      "n": 5000,
+      "wilson_lower": 0.03584697411255204,
+      "wilson_upper": 0.04685777627301041,
+      "se": 0.002804246779440069,
+      "in_region": false
+    }
+  },
+  "D4_small_n_published": {
+    "60": {
+      "published": 0.033,
+      "reproduced_by_N_cal": {
+        "10000": 0.033,
+        "50000": 0.0326
+      },
+      "matches": {
+        "10000": true,
+        "50000": false
+      }
+    },
+    "100": {
+      "published": 0.039,
+      "reproduced_by_N_cal": {
+        "10000": 0.039,
+        "50000": 0.0396
+      },
+      "matches": {
+        "10000": true,
+        "50000": false
+      }
+    },
+    "150": {
+      "published": 0.0366,
+      "reproduced_by_N_cal": {
+        "10000": 0.0366,
+        "50000": 0.0396
+      },
+      "matches": {
+        "10000": true,
+        "50000": false
+      }
+    }
+  },
+  "D3_construction": {
+    "data_statistic": "rm_core.path_statistic(Y, n, tau, tau, R=0, s2=hac_newey_west(diff Y))",
+    "calibration_statistic": "rm_core.path_statistic sobre caminos cumsum(N(0,1)) con Y_0 = 0 y el mismo s2",
+    "data_paths": "power_comparison.generate_ar1(rho = 1), Y_0 = 0, innovaciones N(0, 1)",
+    "same_function": true
+  },
+  "D4_code": {
+    "file": "experiments/audit5_tarea3.py",
+    "note": "compute_statistic(..., R = 0.5) en simulate_components llama a null_cdf -> build_null_cdf con N_cal = 10000 y use_cache = True; la llamada posterior build_null_cdf(N_cal = 50000) usa la misma clave de cache (theta, R, n)"
+  },
+  "D5_nested_paths": {
+    "series_checked": 7,
+    "n200_is_prefix_of_n500": true,
+    "n200_is_prefix_of_n1000": true
+  },
+  "provenance": {
+    "script": "experiments/audit8_b2b_diagnostic.py",
+    "script_sha256": "f89de9ed47612633614546168cb1887b0fb1c2faa37283276d03e45dd8096802",
+    "commit": "93f0dabbd980b1a60ba6d6c89f7bfb4cb71e0124",
+    "worktree_dirty": false,
+    "dirty_files": [],
+    "generated_utc": "2026-09-17T09:26:06.632466+00:00",
+    "seed_family": 92,
+    "versions": {
+      "python": "3.11.0",
+      "platform": "Windows-10-10.0.26200-SP0",
+      "numpy": "2.2.4",
+      "scipy": "1.15.2",
+      "numba": "0.65.0",
+      "statsmodels": "0.14.6",
+      "arch": "8.0.0",
+      "pandas": "2.2.3",
+      "joblib": "1.4.2",
+      "matplotlib": "3.10.1",
+      "pytest": "9.0.3"
+    },
+    "code": {
+      "experiments/audit8_b0_inventory.py": {
+        "sha256": "6405cc166459c296fb32c86fed1abff150afc4889ba0598502d8c4e41ea07add",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_np_diagnostic.py": {
+        "sha256": "959b18541923f504c4178fdedd3a7d519a62487930c1de4dbcc8e476e0a43df0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_np_gate.py": {
+        "sha256": "93064f87f144776c7c83ee95d23bdbd7eadf5cbaff08af57297eda3ef37348f0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_regression_child.py": {
+        "sha256": "350b1389b64fdc89098d17861b7196671be9fe66123fb1f0702ddd5229fee150",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_validate.py": {
+        "sha256": "6a268b6ac14f5d05f2dfa26b5430328246f34893439ff6004b308d9a163170b0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2_size.py": {
+        "sha256": "74b1cdbd9f0bba3c77cb495b6c53393ba49eef75ff4f88d41257679ee2d4ff93",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2b_diagnostic.py": {
+        "sha256": "f89de9ed47612633614546168cb1887b0fb1c2faa37283276d03e45dd8096802",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b3_comparators.py": {
+        "sha256": "8a3eecf918ab6293da84be112dfd7008c8c694db16f8b3587b83516b18fcf33d",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b4_local_power.py": {
+        "sha256": "4de18b53c2f31d3d2f7e04fee1d786d42df0ba7998bdf30278b8029acea904c7",
+        "git_state": "committed"
+      },
+      "experiments/audit8_bootstrap_worker.R": {
+        "sha256": "1cb9168eff403a794d7b3933b12bcca3725cb2aa8f6e93279245c00558fb63c2",
+        "git_state": "committed"
+      },
+      "experiments/audit8_common.py": {
+        "sha256": "5718ec2cfa7f5f5c5f7f8d68ed26198e00ac827fb562cee67b234857e5719f0d",
+        "git_state": "committed"
+      },
+      "experiments/audit8_design.py": {
+        "sha256": "fc16ec4aad70f3011486a6855a022544f585117e8cd9b5fd59793e9d363e08f4",
+        "git_state": "committed"
+      },
+      "experiments/audit8_environment.py": {
+        "sha256": "9b323700e91302ad0090e876b922a38a1dd6b23ef5f19fcc7748d947e617d21e",
+        "git_state": "committed"
+      },
+      "experiments/audit8_generate_report.py": {
+        "sha256": "1c1b703c14e8d93a850dc643249b13ed0521505c670ff6bca87a058a0b1c3220",
+        "git_state": "committed"
+      },
+      "experiments/audit8_unitroot.py": {
+        "sha256": "9d0842a342f12b9c8a7e3870127768590c53d98c8ca90dbb3a2715ddb16748ef",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/__init__.py": {
+        "sha256": "20ebf29ab1a9a64bb428f25ff0170d67db2354662efb8b973922c3f455f56582",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/constants.py": {
+        "sha256": "de8bd2282ff09c41fc6eae12fcca6695c1fd3a0c9def7628a9b76e9361058907",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/davies.py": {
+        "sha256": "cfad047d0b0676cc83a41208cd600f4224ce61bf03930228a5a80d1d6556c9b9",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/deterministics.py": {
+        "sha256": "31db116abc80e5cab8c97317a31d6f22f1a4ca40c885eef86c134db598dac6b2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/empirical_eigenvalues.py": {
+        "sha256": "6385220b70531e99963aa6e05635fe2b38fcb565024513ec578dbb60a9d68b1c",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/full_pipeline.py": {
+        "sha256": "cdbd5405caa50bc83c7348a0a8be9963b522ef4d808024f078f648bb1de89170",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/hac_estimator.py": {
+        "sha256": "f7c22540e6a8e862258cb70e4a839b841453ca9490a01671176431ee4bf678f2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/kl_eigenvalues.py": {
+        "sha256": "c0fb0a90795c904cb2876aa16eff64948e0abf5a27d3a57c6612c2b9ec198903",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/null_quantiles.py": {
+        "sha256": "655458f05815621d015984080169663d2310d26e588a83e2c5a62549ba5a1ae8",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/optimal_weight.py": {
+        "sha256": "47632d98ed256b2364a2ac99de64780e0cd8d42a69c68b4552c6ea0564f86ba4",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/rm_core.py": {
+        "sha256": "4d3ee3f59c569233a5e9a9ed8ffd3032364188545bac04a0cc619ccac39e04e0",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/standardization.py": {
+        "sha256": "cc8cb146d28ea63be86bc11db6cc6c345fbf5fd412055e2e58a33a40f3e8936b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/statistic.py": {
+        "sha256": "f0baf1d99ac4311ca854d350f18a3d3416974bf5d13e662d05149f87183d92ef",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/theta_selection.py": {
+        "sha256": "23eba50e85d0db917d14b4d3d844c42e5ee566dfd326a0fad7feae0dd113f40b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/utils.py": {
+        "sha256": "8a3e0b972da519b3c39ca0e0326953dbae1bf048845c05c1fb3a23a001b72717",
+        "git_state": "committed"
+      }
+    },
+    "code_all_committed": true
+  },
+  "elapsed_sec": 11.2
+}

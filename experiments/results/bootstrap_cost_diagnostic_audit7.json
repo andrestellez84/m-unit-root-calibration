@@ -1,0 +1,248 @@
+{
+  "provenance": {
+    "dgp": "bootstrap_cost_diagnostic",
+    "n_sim": 14,
+    "seed_formula": "series de calibracion 70*10^8+n_idx*10^5, i=0..13",
+    "generated_utc": "2026-09-13T20:14:34.825291+00:00",
+    "commit": "b94b330072ff67174871bd0e3a2534ac93851000",
+    "worktree_dirty": false,
+    "entry_point": "experiments/audit7_bootstrap_cost_diag.py",
+    "code": {
+      "experiments/audit6_wild_bootstrap_worker.R": {
+        "sha256": "dd37bc3f012af925bcbb5fbf34e7bd3a8c8797a2987f2112917d4bfb2221e733",
+        "git_state": "committed"
+      },
+      "experiments/audit7_block1_budget.py": {
+        "sha256": "d6925aea8fb5f372eb3ca06d39a7b0d346882fa3513f2d402bab01dfd02fe5e9",
+        "git_state": "committed"
+      },
+      "experiments/audit7_bootstrap_cost_diag.py": {
+        "sha256": "a8873dc335ebf7df57090356e609fdf357ad176d4b152f2f7b5924a1264e4fea",
+        "git_state": "committed"
+      },
+      "experiments/audit7_common.py": {
+        "sha256": "fb7068b362cab2dbec172782d76c13e55f623ccd46415c9610a0598fd1becc8b",
+        "git_state": "committed"
+      },
+      "experiments/audit7_design.py": {
+        "sha256": "8d8c601d7debf39cffcd342def4cb0e45e2a0e8cda9bf3dd70d68f4a3ff30b61",
+        "git_state": "committed"
+      },
+      "experiments/audit7_dgp3_recast.py": {
+        "sha256": "81adb35a49691b8ef54da5c4e3c7485daf67a87e1445b70f06816edafeaebef7",
+        "git_state": "committed"
+      },
+      "experiments/audit7_dgp5_analysis.py": {
+        "sha256": "99e2e500e3fe39b451f1ec331d1bc98524fcfff64004e5a25b94d65075655ded",
+        "git_state": "committed"
+      },
+      "experiments/audit7_dgp5_runner.py": {
+        "sha256": "6dba2a16b7d77b0a8c274f2c6e8550136fa9eb31e8a2a593dda051c01bbb71f7",
+        "git_state": "committed"
+      },
+      "experiments/audit7_kappa2.py": {
+        "sha256": "c988ed16db23a3023e493fa30aabdf509c259a1186ad89467e8cf7477e92b7fb",
+        "git_state": "committed"
+      },
+      "experiments/audit7_kappa2_diagnosis.py": {
+        "sha256": "45a0870463adc101d485659be88d679694510e80caf0b269ec4fbebfd14bc60c",
+        "git_state": "committed"
+      },
+      "experiments/audit7_kappa2_handicap.py": {
+        "sha256": "a6e003e14deaa078c10e4286d4ed173928d429298545afa821401e160ff069e6",
+        "git_state": "committed"
+      },
+      "experiments/audit7_kappa2_simcv.py": {
+        "sha256": "2a17238f738e02e99006e9f570d15908b6320e04f88efca78fe116ced86d7942",
+        "git_state": "committed"
+      },
+      "experiments/audit7_kappa2_validation.py": {
+        "sha256": "969bbdd4994484c799653f63a862945cf0401e1811cd51ca7025b1ed48f01e3c",
+        "git_state": "committed"
+      },
+      "experiments/audit7_paso0_block1.py": {
+        "sha256": "4fdbfb2f367c68f7a27ed9624165afe5001d019b25d73347b1c274abe8b57797",
+        "git_state": "committed"
+      },
+      "experiments/audit7_readout.py": {
+        "sha256": "921bb6f5cf7b80d72bc549d9eacf831343708f9688e2a2f2080a4281d0173886",
+        "git_state": "committed"
+      },
+      "experiments/audit7_write_amendment.py": {
+        "sha256": "99afdd70001aaf6570bfa2bc34c7c4b6d27b09b92b021b8a9a089bdc947ab3c3",
+        "git_state": "committed"
+      }
+    },
+    "code_all_committed": true
+  },
+  "memory_python_pool": {
+    "before_pool": {
+      "total_gb": 63.710453033447266,
+      "available_gb": 38.42155838012695,
+      "source": "Win32_OperatingSystem (FreePhysicalMemory)"
+    },
+    "with_pool": {
+      "total_gb": 63.710453033447266,
+      "available_gb": 36.29419708251953,
+      "source": "Win32_OperatingSystem (FreePhysicalMemory)"
+    }
+  },
+  "timings": {
+    "clean_no_python_pool": {
+      "200": {
+        "r_wall_sec": 2.1039974689483643,
+        "r_internal_sec": 1.365,
+        "r_internal_sec_per_series": 0.0975,
+        "memory_before": {
+          "total_gb": 63.710453033447266,
+          "available_gb": 38.67533874511719,
+          "source": "Win32_OperatingSystem (FreePhysicalMemory)"
+        },
+        "memory_after": {
+          "total_gb": 63.710453033447266,
+          "available_gb": 38.692039489746094,
+          "source": "Win32_OperatingSystem (FreePhysicalMemory)"
+        }
+      },
+      "500": {
+        "r_wall_sec": 44.15862822532654,
+        "r_internal_sec": 43.334,
+        "r_internal_sec_per_series": 3.0953,
+        "memory_before": {
+          "total_gb": 63.710453033447266,
+          "available_gb": 38.75749969482422,
+          "source": "Win32_OperatingSystem (FreePhysicalMemory)"
+        },
+        "memory_after": {
+          "total_gb": 63.710453033447266,
+          "available_gb": 38.74180221557617,
+          "source": "Win32_OperatingSystem (FreePhysicalMemory)"
+        }
+      },
+      "1000": {
+        "r_wall_sec": 105.00320816040039,
+        "r_internal_sec": 104.154,
+        "r_internal_sec_per_series": 7.4396,
+        "memory_before": {
+          "total_gb": 63.710453033447266,
+          "available_gb": 38.74811553955078,
+          "source": "Win32_OperatingSystem (FreePhysicalMemory)"
+        },
+        "memory_after": {
+          "total_gb": 63.710453033447266,
+          "available_gb": 38.41994094848633,
+          "source": "Win32_OperatingSystem (FreePhysicalMemory)"
+        }
+      }
+    },
+    "with_warm_python_pool": {
+      "200": {
+        "r_wall_sec": 2.5729033946990967,
+        "r_internal_sec": 1.615,
+        "r_internal_sec_per_series": 0.1153,
+        "memory_before": {
+          "total_gb": 63.710453033447266,
+          "available_gb": 36.271583557128906,
+          "source": "Win32_OperatingSystem (FreePhysicalMemory)"
+        },
+        "memory_after": {
+          "total_gb": 63.710453033447266,
+          "available_gb": 36.28700637817383,
+          "source": "Win32_OperatingSystem (FreePhysicalMemory)"
+        }
+      },
+      "500": {
+        "r_wall_sec": 11.40904688835144,
+        "r_internal_sec": 10.375,
+        "r_internal_sec_per_series": 0.7411,
+        "memory_before": {
+          "total_gb": 63.710453033447266,
+          "available_gb": 36.29018783569336,
+          "source": "Win32_OperatingSystem (FreePhysicalMemory)"
+        },
+        "memory_after": {
+          "total_gb": 63.710453033447266,
+          "available_gb": 36.29121398925781,
+          "source": "Win32_OperatingSystem (FreePhysicalMemory)"
+        }
+      },
+      "1000": {
+        "r_wall_sec": 41.120068073272705,
+        "r_internal_sec": 40.147,
+        "r_internal_sec_per_series": 2.8676,
+        "memory_before": {
+          "total_gb": 63.710453033447266,
+          "available_gb": 36.29279327392578,
+          "source": "Win32_OperatingSystem (FreePhysicalMemory)"
+        },
+        "memory_after": {
+          "total_gb": 63.710453033447266,
+          "available_gb": 36.36664581298828,
+          "source": "Win32_OperatingSystem (FreePhysicalMemory)"
+        }
+      }
+    }
+  },
+  "comparison_sec_per_series": {
+    "200": {
+      "clean": 0.0975,
+      "with_pool": 0.1153,
+      "budget_probe": 0.0913,
+      "pool_over_clean": 1.1825641025641025,
+      "budget_over_clean": 0.9364102564102564
+    },
+    "500": {
+      "clean": 3.0953,
+      "with_pool": 0.7411,
+      "budget_probe": 3.5883,
+      "pool_over_clean": 0.23942751914192487,
+      "budget_over_clean": 1.159273737602171
+    },
+    "1000": {
+      "clean": 7.4396,
+      "with_pool": 2.8676,
+      "budget_probe": 17.7961,
+      "pool_over_clean": 0.385450830689822,
+      "budget_over_clean": 2.3920775310500564
+    }
+  },
+  "determinism": {
+    "n": 200,
+    "series": 14,
+    "max_abs_diff_pvalue": 0.04761900000000002,
+    "identical": false,
+    "p_first_run": [
+      0.551378,
+      0.593985,
+      0.080201,
+      0.218045,
+      0.100251,
+      0.308271,
+      0.64411,
+      0.0401,
+      0.137845,
+      0.531328,
+      0.155388,
+      0.859649,
+      0.085213,
+      0.556391
+    ],
+    "p_second_run": [
+      0.54386,
+      0.614035,
+      0.087719,
+      0.22807,
+      0.110276,
+      0.260652,
+      0.689223,
+      0.057644,
+      0.100251,
+      0.516291,
+      0.125313,
+      0.862155,
+      0.072682,
+      0.553885
+    ]
+  },
+  "elapsed_sec": 236.9
+}

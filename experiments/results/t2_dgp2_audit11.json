@@ -1,0 +1,2034 @@
+{
+  "provenance": {
+    "script": "experiments/audit11_t2_dgp2.py",
+    "script_sha256": "4906e00edf8e6846e87c8f507c17082ad9223c3208c8c516689a0537b0ce3630",
+    "commit": "5b93502ecdb22832ffbfdfee3e4a164ac9cb9294",
+    "worktree_dirty": true,
+    "dirty_files": [
+      "M experiments/figures/fig_calibration_gain_audit10.pdf",
+      " M experiments/figures/fig_dgp3_audit10.pdf",
+      " M experiments/figures/fig_local_power_audit10.pdf",
+      " M experiments/figures/fig_power_equalized_audit10.pdf",
+      " M experiments/figures/fig_size_shift_audit10.pdf",
+      " M experiments/figures/fig_theta_ladder_audit10.pdf",
+      " M experiments/results/figures_audit11.json",
+      " M experiments/results/logs_audit11/t0_audit11.log",
+      " M experiments/results/logs_audit11/t2_audit11.log",
+      " M experiments/results/manifest_audit11.json",
+      " M experiments/results/t0_protocol_audit11.json",
+      " M experiments/results/t3_anchor_audit11.json",
+      " M experiments/results/t4_trend_audit11.json",
+      " M paper/figures/fig_calibration_gain_audit10.pdf",
+      " M paper/figures/fig_dgp3_audit10.pdf",
+      " M paper/figures/fig_local_power_audit10.pdf",
+      " M paper/figures/fig_power_equalized_audit10.pdf",
+      " M paper/figures/fig_size_shift_audit10.pdf",
+      " M paper/figures/fig_theta_ladder_audit10.pdf"
+    ],
+    "generated_utc": "2026-09-21T18:13:49.041612+00:00",
+    "seed_family": 122,
+    "versions": {
+      "python": "3.11.0",
+      "platform": "Windows-10-10.0.26200-SP0",
+      "numpy": "2.2.4",
+      "scipy": "1.15.2",
+      "numba": "0.65.0",
+      "statsmodels": "0.14.6",
+      "arch": "8.0.0",
+      "pandas": "2.2.3",
+      "joblib": "1.4.2",
+      "matplotlib": "3.10.1",
+      "pytest": "9.0.3"
+    },
+    "code": {
+      "experiments/audit10_common.py": {
+        "sha256": "298e82a217d2dd32ba87245f6056dbb82051fe2985acd644b1e972f6768ca123",
+        "git_state": "committed"
+      },
+      "experiments/audit11_common.py": {
+        "sha256": "813a677b40af1dfc2cc143fdcdffd5e0e4fc8d4c54a5c878723bb780e220c5b2",
+        "git_state": "committed"
+      },
+      "experiments/audit11_design.py": {
+        "sha256": "1a930997b563d85207abc4c23681a2e97db164e358f3d890b87038a17483b9e5",
+        "git_state": "committed"
+      },
+      "experiments/audit11_figconfig.py": {
+        "sha256": "3e0ac02a12cb821428036438924ad7d36aa65ef172b6b458b269d484af0fad84",
+        "git_state": "committed"
+      },
+      "experiments/audit11_generate_report.py": {
+        "sha256": "07acb9870c3a010dee6c7d08ca17166d69a70330852ac22db509c7fb1462d2c2",
+        "git_state": "committed"
+      },
+      "experiments/audit11_t0_protocol.py": {
+        "sha256": "2f6d789ffe11fa1b21aa52a97432d7dd166100f874520919648f95ea64547f62",
+        "git_state": "committed"
+      },
+      "experiments/audit11_t2_dgp2.py": {
+        "sha256": "4906e00edf8e6846e87c8f507c17082ad9223c3208c8c516689a0537b0ce3630",
+        "git_state": "committed"
+      },
+      "experiments/audit11_t3_anchor.py": {
+        "sha256": "12c84bf43047f8652482b2144625edea5a460d3aad76b0b5e244a8f1ad0682ce",
+        "git_state": "committed"
+      },
+      "experiments/audit11_t4_trend.py": {
+        "sha256": "b0b594e561fa0a525bc2a4972b0ff480a3a165199e24d340bd0ffdc506d6f890",
+        "git_state": "committed"
+      },
+      "experiments/audit11_t5_claims.py": {
+        "sha256": "c26f764c64ac12e1c5af706ac6cf129fb60e388656ae7766b1add0b9b933ef60",
+        "git_state": "committed"
+      },
+      "experiments/audit8_common.py": {
+        "sha256": "5718ec2cfa7f5f5c5f7f8d68ed26198e00ac827fb562cee67b234857e5719f0d",
+        "git_state": "committed"
+      },
+      "experiments/audit8_design.py": {
+        "sha256": "ad80aeae74d44ff4cecbd10dbfc480d24c146b81ec8f9d6561f95b7ba7079ae0",
+        "git_state": "committed"
+      },
+      "experiments/audit9_common.py": {
+        "sha256": "39fbee3c398de920ba2f9c4400ac6254c58d9fb537c6f97649c8299ea39e78f7",
+        "git_state": "committed"
+      },
+      "experiments/audit9_engine.py": {
+        "sha256": "8f8bd7a817178056d2e55a4c518bfc2188737c02c3f56cf467d15972ac651e1b",
+        "git_state": "committed"
+      },
+      "experiments/make_figures_audit10.py": {
+        "sha256": "defe405c489e96491a7f9a63e09392c24bce8cc3768b7ec654708eaf244ff560",
+        "git_state": "committed"
+      },
+      "experiments/make_figures_audit11.py": {
+        "sha256": "ae54c12199f80a46f7beb88544743d422d3e982aae3a14aede0a5f9efdf93dc6",
+        "git_state": "committed"
+      },
+      "experiments/make_figures_audit9.py": {
+        "sha256": "8af6329fe284ee528882db6cf39a1b0ae1e046806376c60cfd026bfb2b7e587e",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/__init__.py": {
+        "sha256": "20ebf29ab1a9a64bb428f25ff0170d67db2354662efb8b973922c3f455f56582",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/constants.py": {
+        "sha256": "de8bd2282ff09c41fc6eae12fcca6695c1fd3a0c9def7628a9b76e9361058907",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/davies.py": {
+        "sha256": "cfad047d0b0676cc83a41208cd600f4224ce61bf03930228a5a80d1d6556c9b9",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/deterministics.py": {
+        "sha256": "31db116abc80e5cab8c97317a31d6f22f1a4ca40c885eef86c134db598dac6b2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/empirical_eigenvalues.py": {
+        "sha256": "f749e2e2de8b807421d6e74836bd5d539eccb314f18821bd38b80e72b5ee72a1",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/full_pipeline.py": {
+        "sha256": "cdbd5405caa50bc83c7348a0a8be9963b522ef4d808024f078f648bb1de89170",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/hac_estimator.py": {
+        "sha256": "f7c22540e6a8e862258cb70e4a839b841453ca9490a01671176431ee4bf678f2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/kl_eigenvalues.py": {
+        "sha256": "c0fb0a90795c904cb2876aa16eff64948e0abf5a27d3a57c6612c2b9ec198903",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/null_quantiles.py": {
+        "sha256": "655458f05815621d015984080169663d2310d26e588a83e2c5a62549ba5a1ae8",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/optimal_weight.py": {
+        "sha256": "47632d98ed256b2364a2ac99de64780e0cd8d42a69c68b4552c6ea0564f86ba4",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/rm_core.py": {
+        "sha256": "4d3ee3f59c569233a5e9a9ed8ffd3032364188545bac04a0cc619ccac39e04e0",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/standardization.py": {
+        "sha256": "cc8cb146d28ea63be86bc11db6cc6c345fbf5fd412055e2e58a33a40f3e8936b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/statistic.py": {
+        "sha256": "f0baf1d99ac4311ca854d350f18a3d3416974bf5d13e662d05149f87183d92ef",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/theta_selection.py": {
+        "sha256": "23eba50e85d0db917d14b4d3d844c42e5ee566dfd326a0fad7feae0dd113f40b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/utils.py": {
+        "sha256": "8a3e0b972da519b3c39ca0e0326953dbae1bf048845c05c1fb3a23a001b72717",
+        "git_state": "committed"
+      }
+    },
+    "code_all_committed": true
+  },
+  "source": "b103_equalized_audit10.json",
+  "source_sha256": "052b49ba21718a17a581787afc026b5aa5b6c50d579821c50146434bc2e85a70",
+  "primary_theta": 0.02,
+  "primary_key": "gls_t0.02",
+  "config_source": {
+    "N_sim": 5000,
+    "N_cal": 500000,
+    "trajectories": "B5 de A8 (familia 95): filas de audit9_b91 (DGP 1, DGP 2, tendencia) y audit9_b92 (DGP 3)",
+    "rule_sim": "RM-like: p = F_null(stat) < 0.05; resto: stat < cuantil 5% bajo la Ec. (3)",
+    "calibration_source": {
+      "c|200": {
+        "N_cal_500000": [
+          "adf",
+          "dfgls",
+          "gls_t0",
+          "gls_t0.02",
+          "gls_t0.05",
+          "gls_t0.1",
+          "gls_t0.2",
+          "glsb_t0",
+          "msb",
+          "msbhac",
+          "mzt",
+          "pp",
+          "rm_t0.1"
+        ],
+        "N_cal_50000_a9": [
+          "kpss",
+          "za"
+        ]
+      },
+      "ct|200": {
+        "N_cal_500000": [
+          "adf",
+          "dfgls",
+          "gls_t0",
+          "gls_t0.02",
+          "gls_t0.05",
+          "gls_t0.1",
+          "gls_t0.2",
+          "glsb_t0",
+          "msb",
+          "msbhac",
+          "mzt",
+          "pp",
+          "rm_t0.1"
+        ],
+        "N_cal_50000_a9": [
+          "kpss",
+          "za"
+        ]
+      },
+      "c|500": {
+        "N_cal_500000": [
+          "adf",
+          "dfgls",
+          "gls_t0",
+          "gls_t0.02",
+          "gls_t0.05",
+          "gls_t0.1",
+          "gls_t0.2",
+          "glsb_t0",
+          "msb",
+          "msbhac",
+          "mzt",
+          "pp",
+          "rm_t0.1"
+        ],
+        "N_cal_50000_a9": [
+          "kpss",
+          "za"
+        ]
+      },
+      "ct|500": {
+        "N_cal_500000": [
+          "adf",
+          "dfgls",
+          "gls_t0",
+          "gls_t0.02",
+          "gls_t0.05",
+          "gls_t0.1",
+          "gls_t0.2",
+          "glsb_t0",
+          "msb",
+          "msbhac",
+          "mzt",
+          "pp",
+          "rm_t0.1"
+        ],
+        "N_cal_50000_a9": [
+          "kpss",
+          "za"
+        ]
+      },
+      "c|1000": {
+        "N_cal_500000": [
+          "adf",
+          "dfgls",
+          "gls_t0",
+          "gls_t0.02",
+          "gls_t0.05",
+          "gls_t0.1",
+          "gls_t0.2",
+          "glsb_t0",
+          "msb",
+          "msbhac",
+          "mzt",
+          "pp",
+          "rm_t0.1"
+        ],
+        "N_cal_50000_a9": [
+          "kpss",
+          "za"
+        ]
+      },
+      "ct|1000": {
+        "N_cal_500000": [
+          "adf",
+          "dfgls",
+          "gls_t0",
+          "gls_t0.02",
+          "gls_t0.05",
+          "gls_t0.1",
+          "gls_t0.2",
+          "glsb_t0",
+          "msb",
+          "msbhac",
+          "mzt",
+          "pp",
+          "rm_t0.1"
+        ],
+        "N_cal_50000_a9": [
+          "kpss",
+          "za"
+        ]
+      }
+    }
+  },
+  "exact_region_5000": [
+    0.044,
+    0.0562
+  ],
+  "za_in_source": true,
+  "za_column": "rates_sim.za (valor critico simulado; calibracion de A9, N_cal = 50 000)",
+  "rm_column": "rm_t0.1",
+  "rows": [
+    {
+      "cell": "dgp2_delta0_n200",
+      "delta": 0,
+      "n": 200,
+      "rates": {
+        "prim": {
+          "rate": 0.706,
+          "rejections": 3530,
+          "n": 5000,
+          "wilson": [
+            0.6932175792866754,
+            0.7184661275119612
+          ]
+        },
+        "rm": {
+          "rate": 0.4318,
+          "rejections": 2159,
+          "n": 5000,
+          "wilson": [
+            0.4181280189806495,
+            0.44557669556465646
+          ]
+        },
+        "adf": {
+          "rate": 0.2986,
+          "rejections": 1493,
+          "n": 5000,
+          "wilson": [
+            0.2860735309701261,
+            0.3114356993733429
+          ]
+        },
+        "pp": {
+          "rate": 0.3218,
+          "rejections": 1609,
+          "n": 5000,
+          "wilson": [
+            0.30899208964934527,
+            0.33488151932387317
+          ]
+        },
+        "dfgls": {
+          "rate": 0.6946,
+          "rejections": 3473,
+          "n": 5000,
+          "wilson": [
+            0.6816883335666919,
+            0.707212876836292
+          ]
+        },
+        "mzt": {
+          "rate": 0.689,
+          "rejections": 3445,
+          "n": 5000,
+          "wilson": [
+            0.6760282345448806,
+            0.7016815741198877
+          ]
+        },
+        "msb": {
+          "rate": 0.6582,
+          "rejections": 3291,
+          "n": 5000,
+          "wilson": [
+            0.6449359936498764,
+            0.6712211054547075
+          ]
+        },
+        "za": {
+          "rate": 0.1186,
+          "rejections": 593,
+          "n": 5000,
+          "wilson": [
+            0.10992972623688407,
+            0.12785587680680552
+          ]
+        }
+      },
+      "za_asy": 0.1302,
+      "mcnemar_vs_dfgls": {
+        "p_value": 0.05683999158980376,
+        "only_primary": 461,
+        "only_dfgls": 404
+      },
+      "source_path": "cells.dgp2_delta0_n200"
+    },
+    {
+      "cell": "dgp2_delta0_n500",
+      "delta": 0,
+      "n": 500,
+      "rates": {
+        "prim": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson": [
+            0.9992322980549431,
+            1.0000000000000002
+          ]
+        },
+        "rm": {
+          "rate": 0.98,
+          "rejections": 4900,
+          "n": 5000,
+          "wilson": [
+            0.9757349984643976,
+            0.9835280076683476
+          ]
+        },
+        "adf": {
+          "rate": 0.938,
+          "rejections": 4690,
+          "n": 5000,
+          "wilson": [
+            0.9309734894004899,
+            0.94435400369564
+          ]
+        },
+        "pp": {
+          "rate": 0.9494,
+          "rejections": 4747,
+          "n": 5000,
+          "wilson": [
+            0.9429723017819809,
+            0.9551376877098019
+          ]
+        },
+        "dfgls": {
+          "rate": 0.9942,
+          "rejections": 4971,
+          "n": 5000,
+          "wilson": [
+            0.9916826613677592,
+            0.9959585420297463
+          ]
+        },
+        "mzt": {
+          "rate": 0.9948,
+          "rejections": 4974,
+          "n": 5000,
+          "wilson": [
+            0.9923914507969761,
+            0.9964488313581955
+          ]
+        },
+        "msb": {
+          "rate": 0.9938,
+          "rejections": 4969,
+          "n": 5000,
+          "wilson": [
+            0.991213205957586,
+            0.9956286116014756
+          ]
+        },
+        "za": {
+          "rate": 0.4536,
+          "rejections": 2268,
+          "n": 5000,
+          "wilson": [
+            0.4398416399447641,
+            0.4674296027957373
+          ]
+        }
+      },
+      "za_asy": 0.456,
+      "mcnemar_vs_dfgls": {
+        "p_value": 3.725290298461914e-09,
+        "only_primary": 29,
+        "only_dfgls": 0
+      },
+      "source_path": "cells.dgp2_delta0_n500"
+    },
+    {
+      "cell": "dgp2_delta0_n1000",
+      "delta": 0,
+      "n": 1000,
+      "rates": {
+        "prim": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson": [
+            0.9992322980549431,
+            1.0000000000000002
+          ]
+        },
+        "rm": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson": [
+            0.9992322980549431,
+            1.0000000000000002
+          ]
+        },
+        "adf": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson": [
+            0.9992322980549431,
+            1.0000000000000002
+          ]
+        },
+        "pp": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson": [
+            0.9992322980549431,
+            1.0000000000000002
+          ]
+        },
+        "dfgls": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson": [
+            0.9992322980549431,
+            1.0000000000000002
+          ]
+        },
+        "mzt": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson": [
+            0.9992322980549431,
+            1.0000000000000002
+          ]
+        },
+        "msb": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson": [
+            0.9992322980549431,
+            1.0000000000000002
+          ]
+        },
+        "za": {
+          "rate": 0.9698,
+          "rejections": 4849,
+          "n": 5000,
+          "wilson": [
+            0.9646838626619504,
+            0.9741948045904739
+          ]
+        }
+      },
+      "za_asy": 0.9696,
+      "mcnemar_vs_dfgls": {
+        "p_value": 1.0,
+        "only_primary": 0,
+        "only_dfgls": 0
+      },
+      "source_path": "cells.dgp2_delta0_n1000"
+    },
+    {
+      "cell": "dgp2_delta0p5_n200",
+      "delta": 0.5,
+      "n": 200,
+      "rates": {
+        "prim": {
+          "rate": 0.6348,
+          "rejections": 3174,
+          "n": 5000,
+          "wilson": [
+            0.6213553649175787,
+            0.648037662638034
+          ]
+        },
+        "rm": {
+          "rate": 0.3962,
+          "rejections": 1981,
+          "n": 5000,
+          "wilson": [
+            0.3827275556070572,
+            0.40983181931673673
+          ]
+        },
+        "adf": {
+          "rate": 0.2686,
+          "rejections": 1343,
+          "n": 5000,
+          "wilson": [
+            0.2564955573684392,
+            0.2810597350917333
+          ]
+        },
+        "pp": {
+          "rate": 0.2904,
+          "rejections": 1452,
+          "n": 5000,
+          "wilson": [
+            0.27798217534696057,
+            0.3031396453084074
+          ]
+        },
+        "dfgls": {
+          "rate": 0.6202,
+          "rejections": 3101,
+          "n": 5000,
+          "wilson": [
+            0.6066599635638265,
+            0.6335554808885818
+          ]
+        },
+        "mzt": {
+          "rate": 0.6126,
+          "rejections": 3063,
+          "n": 5000,
+          "wilson": [
+            0.5990154291136075,
+            0.6260116844083657
+          ]
+        },
+        "msb": {
+          "rate": 0.5938,
+          "rejections": 2969,
+          "n": 5000,
+          "wilson": [
+            0.5801200473080204,
+            0.607335931807087
+          ]
+        },
+        "za": {
+          "rate": 0.1188,
+          "rejections": 594,
+          "n": 5000,
+          "wilson": [
+            0.1101230482928192,
+            0.12806224767009236
+          ]
+        }
+      },
+      "za_asy": 0.133,
+      "mcnemar_vs_dfgls": {
+        "p_value": 0.01749850422572063,
+        "only_primary": 496,
+        "only_dfgls": 423
+      },
+      "source_path": "cells.dgp2_delta0p5_n200"
+    },
+    {
+      "cell": "dgp2_delta0p5_n500",
+      "delta": 0.5,
+      "n": 500,
+      "rates": {
+        "prim": {
+          "rate": 0.9996,
+          "rejections": 4998,
+          "n": 5000,
+          "wilson": [
+            0.9985426134985768,
+            0.9998902987179225
+          ]
+        },
+        "rm": {
+          "rate": 0.9588,
+          "rejections": 4794,
+          "n": 5000,
+          "wilson": [
+            0.9529296036277254,
+            0.9639659530674903
+          ]
+        },
+        "adf": {
+          "rate": 0.9034,
+          "rejections": 4517,
+          "n": 5000,
+          "wilson": [
+            0.894899334757314,
+            0.9112812833134141
+          ]
+        },
+        "pp": {
+          "rate": 0.914,
+          "rejections": 4570,
+          "n": 5000,
+          "wilson": [
+            0.9059075036390422,
+            0.9214568391504506
+          ]
+        },
+        "dfgls": {
+          "rate": 0.983,
+          "rejections": 4915,
+          "n": 5000,
+          "wilson": [
+            0.9790282889823105,
+            0.9862301109387643
+          ]
+        },
+        "mzt": {
+          "rate": 0.9834,
+          "rejections": 4917,
+          "n": 5000,
+          "wilson": [
+            0.9794693950451399,
+            0.9865883907143791
+          ]
+        },
+        "msb": {
+          "rate": 0.9868,
+          "rejections": 4934,
+          "n": 5000,
+          "wilson": [
+            0.9832420141879336,
+            0.989610551198359
+          ]
+        },
+        "za": {
+          "rate": 0.4562,
+          "rejections": 2281,
+          "n": 5000,
+          "wilson": [
+            0.44243312438295873,
+            0.4700341263074284
+          ]
+        }
+      },
+      "za_asy": 0.4582,
+      "mcnemar_vs_dfgls": {
+        "p_value": 4.446095792472524e-24,
+        "only_primary": 84,
+        "only_dfgls": 1
+      },
+      "source_path": "cells.dgp2_delta0p5_n500"
+    },
+    {
+      "cell": "dgp2_delta0p5_n1000",
+      "delta": 0.5,
+      "n": 1000,
+      "rates": {
+        "prim": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson": [
+            0.9992322980549431,
+            1.0000000000000002
+          ]
+        },
+        "rm": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson": [
+            0.9992322980549431,
+            1.0000000000000002
+          ]
+        },
+        "adf": {
+          "rate": 0.9998,
+          "rejections": 4999,
+          "n": 5000,
+          "wilson": [
+            0.9988679109191605,
+            0.9999646942165608
+          ]
+        },
+        "pp": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson": [
+            0.9992322980549431,
+            1.0000000000000002
+          ]
+        },
+        "dfgls": {
+          "rate": 0.9998,
+          "rejections": 4999,
+          "n": 5000,
+          "wilson": [
+            0.9988679109191605,
+            0.9999646942165608
+          ]
+        },
+        "mzt": {
+          "rate": 0.9998,
+          "rejections": 4999,
+          "n": 5000,
+          "wilson": [
+            0.9988679109191605,
+            0.9999646942165608
+          ]
+        },
+        "msb": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson": [
+            0.9992322980549431,
+            1.0000000000000002
+          ]
+        },
+        "za": {
+          "rate": 0.9712,
+          "rejections": 4856,
+          "n": 5000,
+          "wilson": [
+            0.9661902582001316,
+            0.9754862594868465
+          ]
+        }
+      },
+      "za_asy": 0.9702,
+      "mcnemar_vs_dfgls": {
+        "p_value": 1.0,
+        "only_primary": 1,
+        "only_dfgls": 0
+      },
+      "source_path": "cells.dgp2_delta0p5_n1000"
+    },
+    {
+      "cell": "dgp2_delta1_n200",
+      "delta": 1,
+      "n": 200,
+      "rates": {
+        "prim": {
+          "rate": 0.4738,
+          "rejections": 2369,
+          "n": 5000,
+          "wilson": [
+            0.4599854143180518,
+            0.48765481326386934
+          ]
+        },
+        "rm": {
+          "rate": 0.2876,
+          "rejections": 1438,
+          "n": 5000,
+          "wilson": [
+            0.2752204065258323,
+            0.30030571326042804
+          ]
+        },
+        "adf": {
+          "rate": 0.1958,
+          "rejections": 979,
+          "n": 5000,
+          "wilson": [
+            0.1850363217115291,
+            0.20703074815184372
+          ]
+        },
+        "pp": {
+          "rate": 0.1976,
+          "rejections": 988,
+          "n": 5000,
+          "wilson": [
+            0.1867969234152908,
+            0.2088673827210798
+          ]
+        },
+        "dfgls": {
+          "rate": 0.4452,
+          "rejections": 2226,
+          "n": 5000,
+          "wilson": [
+            0.43147174630475627,
+            0.45901239382842207
+          ]
+        },
+        "mzt": {
+          "rate": 0.4436,
+          "rejections": 2218,
+          "n": 5000,
+          "wilson": [
+            0.4298779312737947,
+            0.4574086655056079
+          ]
+        },
+        "msb": {
+          "rate": 0.4386,
+          "rejections": 2193,
+          "n": 5000,
+          "wilson": [
+            0.42489819139343293,
+            0.4523960824054201
+          ]
+        },
+        "za": {
+          "rate": 0.1244,
+          "rejections": 622,
+          "n": 5000,
+          "wilson": [
+            0.11553931594799564,
+            0.13383738175313126
+          ]
+        }
+      },
+      "za_asy": 0.1346,
+      "mcnemar_vs_dfgls": {
+        "p_value": 3.878713808836561e-06,
+        "only_primary": 546,
+        "only_dfgls": 403
+      },
+      "source_path": "cells.dgp2_delta1_n200"
+    },
+    {
+      "cell": "dgp2_delta1_n500",
+      "delta": 1,
+      "n": 500,
+      "rates": {
+        "prim": {
+          "rate": 0.9904,
+          "rejections": 4952,
+          "n": 5000,
+          "wilson": [
+            0.9872957130291049,
+            0.992751324903183
+          ]
+        },
+        "rm": {
+          "rate": 0.8652,
+          "rejections": 4326,
+          "n": 5000,
+          "wilson": [
+            0.8554531214333113,
+            0.8743861490660191
+          ]
+        },
+        "adf": {
+          "rate": 0.7842,
+          "rejections": 3921,
+          "n": 5000,
+          "wilson": [
+            0.7725815524683728,
+            0.7953820857460567
+          ]
+        },
+        "pp": {
+          "rate": 0.7662,
+          "rejections": 3831,
+          "n": 5000,
+          "wilson": [
+            0.7542667836985781,
+            0.7777244917858734
+          ]
+        },
+        "dfgls": {
+          "rate": 0.9308,
+          "rejections": 4654,
+          "n": 5000,
+          "wilson": [
+            0.9234295221569059,
+            0.9375090258472328
+          ]
+        },
+        "mzt": {
+          "rate": 0.9348,
+          "rejections": 4674,
+          "n": 5000,
+          "wilson": [
+            0.9276176956598908,
+            0.9413147107286876
+          ]
+        },
+        "msb": {
+          "rate": 0.941,
+          "rejections": 4705,
+          "n": 5000,
+          "wilson": [
+            0.93412411487236,
+            0.9471987720120996
+          ]
+        },
+        "za": {
+          "rate": 0.4388,
+          "rejections": 2194,
+          "n": 5000,
+          "wilson": [
+            0.4250973538321298,
+            0.45259661288594527
+          ]
+        }
+      },
+      "za_asy": 0.4408,
+      "mcnemar_vs_dfgls": {
+        "p_value": 1.5881508705086832e-71,
+        "only_primary": 316,
+        "only_dfgls": 18
+      },
+      "source_path": "cells.dgp2_delta1_n500"
+    },
+    {
+      "cell": "dgp2_delta1_n1000",
+      "delta": 1,
+      "n": 1000,
+      "rates": {
+        "prim": {
+          "rate": 1.0,
+          "rejections": 5000,
+          "n": 5000,
+          "wilson": [
+            0.9992322980549431,
+            1.0000000000000002
+          ]
+        },
+        "rm": {
+          "rate": 0.9998,
+          "rejections": 4999,
+          "n": 5000,
+          "wilson": [
+            0.9988679109191605,
+            0.9999646942165608
+          ]
+        },
+        "adf": {
+          "rate": 0.995,
+          "rejections": 4975,
+          "n": 5000,
+          "wilson": [
+            0.9926290765274967,
+            0.9966108985468968
+          ]
+        },
+        "pp": {
+          "rate": 0.9996,
+          "rejections": 4998,
+          "n": 5000,
+          "wilson": [
+            0.9985426134985768,
+            0.9998902987179225
+          ]
+        },
+        "dfgls": {
+          "rate": 0.9968,
+          "rejections": 4984,
+          "n": 5000,
+          "wilson": [
+            0.9948079391692937,
+            0.9980292721780977
+          ]
+        },
+        "mzt": {
+          "rate": 0.9974,
+          "rejections": 4987,
+          "n": 5000,
+          "wilson": [
+            0.9955564171048898,
+            0.9984798730001674
+          ]
+        },
+        "msb": {
+          "rate": 0.9982,
+          "rejections": 4991,
+          "n": 5000,
+          "wilson": [
+            0.9965823552896264,
+            0.9990527064923188
+          ]
+        },
+        "za": {
+          "rate": 0.9662,
+          "rejections": 4831,
+          "n": 5000,
+          "wilson": [
+            0.9608222002788317,
+            0.970861994427597
+          ]
+        }
+      },
+      "za_asy": 0.9656,
+      "mcnemar_vs_dfgls": {
+        "p_value": 3.0517578125e-05,
+        "only_primary": 16,
+        "only_dfgls": 0
+      },
+      "source_path": "cells.dgp2_delta1_n1000"
+    },
+    {
+      "cell": "dgp2_delta2_n200",
+      "delta": 2,
+      "n": 200,
+      "rates": {
+        "prim": {
+          "rate": 0.0942,
+          "rejections": 471,
+          "n": 5000,
+          "wilson": [
+            0.08641201089382725,
+            0.10261105600478113
+          ]
+        },
+        "rm": {
+          "rate": 0.0798,
+          "rejections": 399,
+          "n": 5000,
+          "wilson": [
+            0.07260740893366444,
+            0.08763776778096158
+          ]
+        },
+        "adf": {
+          "rate": 0.0528,
+          "rejections": 264,
+          "n": 5000,
+          "wilson": [
+            0.04693748851677059,
+            0.05934914410288852
+          ]
+        },
+        "pp": {
+          "rate": 0.0482,
+          "rejections": 241,
+          "n": 5000,
+          "wilson": [
+            0.042602103737660074,
+            0.054491591739893555
+          ]
+        },
+        "dfgls": {
+          "rate": 0.0828,
+          "rejections": 414,
+          "n": 5000,
+          "wilson": [
+            0.07547796479300165,
+            0.09076260570995401
+          ]
+        },
+        "mzt": {
+          "rate": 0.0826,
+          "rejections": 413,
+          "n": 5000,
+          "wilson": [
+            0.0752865003877144,
+            0.0905543771960193
+          ]
+        },
+        "msb": {
+          "rate": 0.0928,
+          "rejections": 464,
+          "n": 5000,
+          "wilson": [
+            0.08506716616278634,
+            0.10115805030126818
+          ]
+        },
+        "za": {
+          "rate": 0.104,
+          "rejections": 520,
+          "n": 5000,
+          "wilson": [
+            0.0958405614939884,
+            0.11276745844649685
+          ]
+        }
+      },
+      "za_asy": 0.1142,
+      "mcnemar_vs_dfgls": {
+        "p_value": 0.002375987356129213,
+        "only_primary": 199,
+        "only_dfgls": 142
+      },
+      "source_path": "cells.dgp2_delta2_n200"
+    },
+    {
+      "cell": "dgp2_delta2_n500",
+      "delta": 2,
+      "n": 500,
+      "rates": {
+        "prim": {
+          "rate": 0.5728,
+          "rejections": 2864,
+          "n": 5000,
+          "wilson": [
+            0.5590379115211181,
+            0.5864503110756816
+          ]
+        },
+        "rm": {
+          "rate": 0.3294,
+          "rejections": 1647,
+          "n": 5000,
+          "wilson": [
+            0.3165079455100575,
+            0.3425539943935961
+          ]
+        },
+        "adf": {
+          "rate": 0.266,
+          "rejections": 1330,
+          "n": 5000,
+          "wilson": [
+            0.25393539993883135,
+            0.27842388457145545
+          ]
+        },
+        "pp": {
+          "rate": 0.2122,
+          "rejections": 1061,
+          "n": 5000,
+          "wilson": [
+            0.20109017054144362,
+            0.22375171869813132
+          ]
+        },
+        "dfgls": {
+          "rate": 0.4406,
+          "rejections": 2203,
+          "n": 5000,
+          "wilson": [
+            0.4268899176911662,
+            0.4544012852999067
+          ]
+        },
+        "mzt": {
+          "rate": 0.4416,
+          "rejections": 2208,
+          "n": 5000,
+          "wilson": [
+            0.4278858657077357,
+            0.45540380187944707
+          ]
+        },
+        "msb": {
+          "rate": 0.4794,
+          "rejections": 2397,
+          "n": 5000,
+          "wilson": [
+            0.4655738511299057,
+            0.49325777819023076
+          ]
+        },
+        "za": {
+          "rate": 0.3972,
+          "rejections": 1986,
+          "n": 5000,
+          "wilson": [
+            0.3837209419140584,
+            0.41083689760584546
+          ]
+        }
+      },
+      "za_asy": 0.399,
+      "mcnemar_vs_dfgls": {
+        "p_value": 9.023126297870102e-78,
+        "only_primary": 985,
+        "only_dfgls": 324
+      },
+      "source_path": "cells.dgp2_delta2_n500"
+    },
+    {
+      "cell": "dgp2_delta2_n1000",
+      "delta": 2,
+      "n": 1000,
+      "rates": {
+        "prim": {
+          "rate": 0.9998,
+          "rejections": 4999,
+          "n": 5000,
+          "wilson": [
+            0.9988679109191605,
+            0.9999646942165608
+          ]
+        },
+        "rm": {
+          "rate": 0.953,
+          "rejections": 4765,
+          "n": 5000,
+          "wilson": [
+            0.946777958205572,
+            0.9585265038322062
+          ]
+        },
+        "adf": {
+          "rate": 0.9154,
+          "rejections": 4577,
+          "n": 5000,
+          "wilson": [
+            0.9073639262582206,
+            0.922798266965826
+          ]
+        },
+        "pp": {
+          "rate": 0.8566,
+          "rejections": 4283,
+          "n": 5000,
+          "wilson": [
+            0.8466114693560794,
+            0.8660410056167059
+          ]
+        },
+        "dfgls": {
+          "rate": 0.8696,
+          "rejections": 4348,
+          "n": 5000,
+          "wilson": [
+            0.8599816595221793,
+            0.8786508552000346
+          ]
+        },
+        "mzt": {
+          "rate": 0.8822,
+          "rejections": 4411,
+          "n": 5000,
+          "wilson": [
+            0.8729696886121754,
+            0.890843480021023
+          ]
+        },
+        "msb": {
+          "rate": 0.9,
+          "rejections": 4500,
+          "n": 5000,
+          "wilson": [
+            0.8913750184255399,
+            0.9080108200184146
+          ]
+        },
+        "za": {
+          "rate": 0.9616,
+          "rejections": 4808,
+          "n": 5000,
+          "wilson": [
+            0.9559095898889262,
+            0.9665816676753972
+          ]
+        }
+      },
+      "za_asy": 0.961,
+      "mcnemar_vs_dfgls": {
+        "p_value": 2.1404388173910186e-196,
+        "only_primary": 651,
+        "only_dfgls": 0
+      },
+      "source_path": "cells.dgp2_delta2_n1000"
+    },
+    {
+      "cell": "dgp2_delta3_n200",
+      "delta": 3,
+      "n": 200,
+      "rates": {
+        "prim": {
+          "rate": 0.0036,
+          "rejections": 18,
+          "n": 5000,
+          "wilson": [
+            0.002278440754413015,
+            0.005683733736639698
+          ]
+        },
+        "rm": {
+          "rate": 0.0064,
+          "rejections": 32,
+          "n": 5000,
+          "wilson": [
+            0.004537188108410646,
+            0.009020687251749749
+          ]
+        },
+        "adf": {
+          "rate": 0.0042,
+          "rejections": 21,
+          "n": 5000,
+          "wilson": [
+            0.002748774410314672,
+            0.006412478838403972
+          ]
+        },
+        "pp": {
+          "rate": 0.0034,
+          "rejections": 17,
+          "n": 5000,
+          "wilson": [
+            0.0021239367958294426,
+            0.0054385447760012945
+          ]
+        },
+        "dfgls": {
+          "rate": 0.0012,
+          "rejections": 6,
+          "n": 5000,
+          "wilson": [
+            0.0005500831677591556,
+            0.002615776292629832
+          ]
+        },
+        "mzt": {
+          "rate": 0.001,
+          "rejections": 5,
+          "n": 5000,
+          "wilson": [
+            0.00042721349110879964,
+            0.002338953050058211
+          ]
+        },
+        "msb": {
+          "rate": 0.0046,
+          "rejections": 23,
+          "n": 5000,
+          "wilson": [
+            0.003067252025343836,
+            0.0068933870618187645
+          ]
+        },
+        "za": {
+          "rate": 0.0884,
+          "rejections": 442,
+          "n": 5000,
+          "wilson": [
+            0.08084417271707507,
+            0.09658779952409598
+          ]
+        }
+      },
+      "za_asy": 0.0972,
+      "mcnemar_vs_dfgls": {
+        "p_value": 0.01690053939819336,
+        "only_primary": 17,
+        "only_dfgls": 5
+      },
+      "source_path": "cells.dgp2_delta3_n200"
+    },
+    {
+      "cell": "dgp2_delta3_n500",
+      "delta": 3,
+      "n": 500,
+      "rates": {
+        "prim": {
+          "rate": 0.0244,
+          "rejections": 122,
+          "n": 5000,
+          "wilson": [
+            0.02047464350657034,
+            0.029055594583568007
+          ]
+        },
+        "rm": {
+          "rate": 0.018,
+          "rejections": 90,
+          "n": 5000,
+          "wilson": [
+            0.014667759588024541,
+            0.02207230508701053
+          ]
+        },
+        "adf": {
+          "rate": 0.0154,
+          "rejections": 77,
+          "n": 5000,
+          "wilson": [
+            0.012339981325724817,
+            0.019204075399424557
+          ]
+        },
+        "pp": {
+          "rate": 0.0082,
+          "rejections": 41,
+          "n": 5000,
+          "wilson": [
+            0.006050485563239175,
+            0.011104626069919014
+          ]
+        },
+        "dfgls": {
+          "rate": 0.0172,
+          "rejections": 86,
+          "n": 5000,
+          "wilson": [
+            0.013949219247445802,
+            0.021192073750701364
+          ]
+        },
+        "mzt": {
+          "rate": 0.0166,
+          "rejections": 83,
+          "n": 5000,
+          "wilson": [
+            0.013411609285621018,
+            0.020530604954860213
+          ]
+        },
+        "msb": {
+          "rate": 0.023,
+          "rejections": 115,
+          "n": 5000,
+          "wilson": [
+            0.019196646091299507,
+            0.027535741564284996
+          ]
+        },
+        "za": {
+          "rate": 0.3782,
+          "rejections": 1891,
+          "n": 5000,
+          "wilson": [
+            0.3648567956716941,
+            0.39173021652212187
+          ]
+        }
+      },
+      "za_asy": 0.3804,
+      "mcnemar_vs_dfgls": {
+        "p_value": 0.0007689850065829601,
+        "only_primary": 73,
+        "only_dfgls": 37
+      },
+      "source_path": "cells.dgp2_delta3_n500"
+    },
+    {
+      "cell": "dgp2_delta3_n1000",
+      "delta": 3,
+      "n": 1000,
+      "rates": {
+        "prim": {
+          "rate": 0.637,
+          "rejections": 3185,
+          "n": 5000,
+          "wilson": [
+            0.6235708783358432,
+            0.6502187713312112
+          ]
+        },
+        "rm": {
+          "rate": 0.2794,
+          "rejections": 1397,
+          "n": 5000,
+          "wilson": [
+            0.2671357536572877,
+            0.2920029564408715
+          ]
+        },
+        "adf": {
+          "rate": 0.3276,
+          "rejections": 1638,
+          "n": 5000,
+          "wilson": [
+            0.31472752385395986,
+            0.34073717977669593
+          ]
+        },
+        "pp": {
+          "rate": 0.1274,
+          "rejections": 637,
+          "n": 5000,
+          "wilson": [
+            0.11844339115058711,
+            0.1369287003388695
+          ]
+        },
+        "dfgls": {
+          "rate": 0.3758,
+          "rejections": 1879,
+          "n": 5000,
+          "wilson": [
+            0.3624755019436842,
+            0.38931519521946806
+          ]
+        },
+        "mzt": {
+          "rate": 0.3784,
+          "rejections": 1892,
+          "n": 5000,
+          "wilson": [
+            0.3650552526130231,
+            0.39193145250001493
+          ]
+        },
+        "msb": {
+          "rate": 0.4564,
+          "rejections": 2282,
+          "n": 5000,
+          "wilson": [
+            0.44263248503079006,
+            0.470234458578819
+          ]
+        },
+        "za": {
+          "rate": 0.9542,
+          "rejections": 4771,
+          "n": 5000,
+          "wilson": [
+            0.9480485542546059,
+            0.9596540652985045
+          ]
+        }
+      },
+      "za_asy": 0.9536,
+      "mcnemar_vs_dfgls": {
+        "p_value": 1.8548022291585815e-233,
+        "only_primary": 1546,
+        "only_dfgls": 240
+      },
+      "source_path": "cells.dgp2_delta3_n1000"
+    },
+    {
+      "cell": "dgp2_delta5_n200",
+      "delta": 5,
+      "n": 200,
+      "rates": {
+        "prim": {
+          "rate": 0.0,
+          "rejections": 0,
+          "n": 5000,
+          "wilson": [
+            0.0,
+            0.0007677019450571244
+          ]
+        },
+        "rm": {
+          "rate": 0.0,
+          "rejections": 0,
+          "n": 5000,
+          "wilson": [
+            0.0,
+            0.0007677019450571244
+          ]
+        },
+        "adf": {
+          "rate": 0.0,
+          "rejections": 0,
+          "n": 5000,
+          "wilson": [
+            0.0,
+            0.0007677019450571244
+          ]
+        },
+        "pp": {
+          "rate": 0.0,
+          "rejections": 0,
+          "n": 5000,
+          "wilson": [
+            0.0,
+            0.0007677019450571244
+          ]
+        },
+        "dfgls": {
+          "rate": 0.0,
+          "rejections": 0,
+          "n": 5000,
+          "wilson": [
+            0.0,
+            0.0007677019450571244
+          ]
+        },
+        "mzt": {
+          "rate": 0.0,
+          "rejections": 0,
+          "n": 5000,
+          "wilson": [
+            0.0,
+            0.0007677019450571244
+          ]
+        },
+        "msb": {
+          "rate": 0.0,
+          "rejections": 0,
+          "n": 5000,
+          "wilson": [
+            0.0,
+            0.0007677019450571244
+          ]
+        },
+        "za": {
+          "rate": 0.0922,
+          "rejections": 461,
+          "n": 5000,
+          "wilson": [
+            0.0844909731146427,
+            0.1005351645917459
+          ]
+        }
+      },
+      "za_asy": 0.0986,
+      "mcnemar_vs_dfgls": {
+        "p_value": 1.0,
+        "only_primary": 0,
+        "only_dfgls": 0
+      },
+      "source_path": "cells.dgp2_delta5_n200"
+    },
+    {
+      "cell": "dgp2_delta5_n500",
+      "delta": 5,
+      "n": 500,
+      "rates": {
+        "prim": {
+          "rate": 0.0,
+          "rejections": 0,
+          "n": 5000,
+          "wilson": [
+            0.0,
+            0.0007677019450571244
+          ]
+        },
+        "rm": {
+          "rate": 0.0,
+          "rejections": 0,
+          "n": 5000,
+          "wilson": [
+            0.0,
+            0.0007677019450571244
+          ]
+        },
+        "adf": {
+          "rate": 0.0,
+          "rejections": 0,
+          "n": 5000,
+          "wilson": [
+            0.0,
+            0.0007677019450571244
+          ]
+        },
+        "pp": {
+          "rate": 0.0,
+          "rejections": 0,
+          "n": 5000,
+          "wilson": [
+            0.0,
+            0.0007677019450571244
+          ]
+        },
+        "dfgls": {
+          "rate": 0.0,
+          "rejections": 0,
+          "n": 5000,
+          "wilson": [
+            0.0,
+            0.0007677019450571244
+          ]
+        },
+        "mzt": {
+          "rate": 0.0,
+          "rejections": 0,
+          "n": 5000,
+          "wilson": [
+            0.0,
+            0.0007677019450571244
+          ]
+        },
+        "msb": {
+          "rate": 0.0,
+          "rejections": 0,
+          "n": 5000,
+          "wilson": [
+            0.0,
+            0.0007677019450571244
+          ]
+        },
+        "za": {
+          "rate": 0.4966,
+          "rejections": 2483,
+          "n": 5000,
+          "wilson": [
+            0.4827492128255732,
+            0.5104560075476532
+          ]
+        }
+      },
+      "za_asy": 0.4982,
+      "mcnemar_vs_dfgls": {
+        "p_value": 1.0,
+        "only_primary": 0,
+        "only_dfgls": 0
+      },
+      "source_path": "cells.dgp2_delta5_n500"
+    },
+    {
+      "cell": "dgp2_delta5_n1000",
+      "delta": 5,
+      "n": 1000,
+      "rates": {
+        "prim": {
+          "rate": 0.0,
+          "rejections": 0,
+          "n": 5000,
+          "wilson": [
+            0.0,
+            0.0007677019450571244
+          ]
+        },
+        "rm": {
+          "rate": 0.0,
+          "rejections": 0,
+          "n": 5000,
+          "wilson": [
+            0.0,
+            0.0007677019450571244
+          ]
+        },
+        "adf": {
+          "rate": 0.0,
+          "rejections": 0,
+          "n": 5000,
+          "wilson": [
+            0.0,
+            0.0007677019450571244
+          ]
+        },
+        "pp": {
+          "rate": 0.0,
+          "rejections": 0,
+          "n": 5000,
+          "wilson": [
+            0.0,
+            0.0007677019450571244
+          ]
+        },
+        "dfgls": {
+          "rate": 0.0,
+          "rejections": 0,
+          "n": 5000,
+          "wilson": [
+            0.0,
+            0.0007677019450571244
+          ]
+        },
+        "mzt": {
+          "rate": 0.0,
+          "rejections": 0,
+          "n": 5000,
+          "wilson": [
+            0.0,
+            0.0007677019450571244
+          ]
+        },
+        "msb": {
+          "rate": 0.0,
+          "rejections": 0,
+          "n": 5000,
+          "wilson": [
+            0.0,
+            0.0007677019450571244
+          ]
+        },
+        "za": {
+          "rate": 0.9858,
+          "rejections": 4929,
+          "n": 5000,
+          "wilson": [
+            0.9821277080958729,
+            0.9887263926943096
+          ]
+        }
+      },
+      "za_asy": 0.9856,
+      "mcnemar_vs_dfgls": {
+        "p_value": 1.0,
+        "only_primary": 0,
+        "only_dfgls": 0
+      },
+      "source_path": "cells.dgp2_delta5_n1000"
+    }
+  ],
+  "za_size_a8": {
+    "random_walk|200": {
+      "kind": "random_walk",
+      "n": 200,
+      "rate": 0.0542,
+      "rejections": 271,
+      "N": 5000,
+      "wilson": [
+        0.04825961924472352,
+        0.06082486380948941
+      ],
+      "in_region": true,
+      "source": "b5_power_audit8.json",
+      "path": "za_size.za_rw_n200.rates.za"
+    },
+    "random_walk|500": {
+      "kind": "random_walk",
+      "n": 500,
+      "rate": 0.0472,
+      "rejections": 236,
+      "N": 5000,
+      "wilson": [
+        0.041661525804974855,
+        0.053433705076468885
+      ],
+      "in_region": true,
+      "source": "b5_power_audit8.json",
+      "path": "za_size.za_rw_n500.rates.za"
+    },
+    "random_walk|1000": {
+      "kind": "random_walk",
+      "n": 1000,
+      "rate": 0.0522,
+      "rejections": 261,
+      "N": 5000,
+      "wilson": [
+        0.046371228094227626,
+        0.058716325767765545
+      ],
+      "in_region": true,
+      "source": "b5_power_audit8.json",
+      "path": "za_size.za_rw_n1000.rates.za"
+    },
+    "random_walk_break_mu1|200": {
+      "kind": "random_walk_break_mu1",
+      "n": 200,
+      "rate": 0.0558,
+      "rejections": 279,
+      "N": 5000,
+      "wilson": [
+        0.049772048527119625,
+        0.06250997788086914
+      ],
+      "in_region": true,
+      "source": "b5_power_audit8.json",
+      "path": "za_size.za_rwbreak_n200.rates.za"
+    },
+    "random_walk_break_mu1|500": {
+      "kind": "random_walk_break_mu1",
+      "n": 500,
+      "rate": 0.0464,
+      "rejections": 232,
+      "N": 5000,
+      "wilson": [
+        0.040909582282313894,
+        0.052586876922241926
+      ],
+      "in_region": true,
+      "source": "b5_power_audit8.json",
+      "path": "za_size.za_rwbreak_n500.rates.za"
+    },
+    "random_walk_break_mu1|1000": {
+      "kind": "random_walk_break_mu1",
+      "n": 1000,
+      "rate": 0.0458,
+      "rejections": 229,
+      "N": 5000,
+      "wilson": [
+        0.04034593470149568,
+        0.05195144574539422
+      ],
+      "in_region": true,
+      "source": "b5_power_audit8.json",
+      "path": "za_size.za_rwbreak_n1000.rates.za"
+    }
+  },
+  "za_size_a6": {
+    "random_walk|200": {
+      "kind": "random_walk",
+      "n": 200,
+      "rate": 0.0548,
+      "ci": [
+        0.0487,
+        0.0615
+      ],
+      "N": 5000,
+      "source": "dgp2_break_tests_audit6.json",
+      "path": "size_control.pure_rw.200.za_size"
+    },
+    "random_walk|500": {
+      "kind": "random_walk",
+      "n": 500,
+      "rate": 0.052,
+      "ci": [
+        0.046,
+        0.0585
+      ],
+      "N": 5000,
+      "source": "dgp2_break_tests_audit6.json",
+      "path": "size_control.pure_rw.500.za_size"
+    },
+    "random_walk|1000": {
+      "kind": "random_walk",
+      "n": 1000,
+      "rate": 0.0488,
+      "ci": [
+        0.043,
+        0.0551
+      ],
+      "N": 5000,
+      "source": "dgp2_break_tests_audit6.json",
+      "path": "size_control.pure_rw.1000.za_size"
+    },
+    "random_walk_break_mu1|200": {
+      "kind": "random_walk_break_mu1",
+      "n": 200,
+      "rate": 0.0558,
+      "ci": [
+        0.0496,
+        0.0625
+      ],
+      "N": 5000,
+      "source": "dgp2_break_tests_audit6.json",
+      "path": "size_control.break_rw.200.za_size"
+    },
+    "random_walk_break_mu1|500": {
+      "kind": "random_walk_break_mu1",
+      "n": 500,
+      "rate": 0.0442,
+      "ci": [
+        0.0387,
+        0.0503
+      ],
+      "N": 5000,
+      "source": "dgp2_break_tests_audit6.json",
+      "path": "size_control.break_rw.500.za_size"
+    },
+    "random_walk_break_mu1|1000": {
+      "kind": "random_walk_break_mu1",
+      "n": 1000,
+      "rate": 0.049,
+      "ci": [
+        0.0432,
+        0.0554
+      ],
+      "N": 5000,
+      "source": "dgp2_break_tests_audit6.json",
+      "path": "size_control.break_rw.1000.za_size"
+    }
+  },
+  "markdown": "experiments/results/tab_dgp2_audit11.md",
+  "markdown_sha256": "9640bd530c98ea3b06f90166dc2d2ff1d927c9eb67221706379ef337e7133246",
+  "latex": "experiments/results/tab_dgp2_audit11.tex",
+  "latex_sha256": "c487945d8a3f27355e2bba173bb54cb4497b9c96e33325c5e9ba7f1e4960e80f"
+}

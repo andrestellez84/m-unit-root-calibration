@@ -1,0 +1,2047 @@
+{
+  "provenance": {
+    "script": "experiments/audit17_supplement.py",
+    "script_sha256": "25f596414647af5da330887272c34250d2c89eac97e7bb47a20eaaefb5afc5dc",
+    "commit": "91ce91c467ee176da77ccedfe4f6cae0198c0251",
+    "worktree_dirty": false,
+    "dirty_files": [],
+    "generated_utc": "2026-09-27T23:33:17.457241+00:00",
+    "seed_family": null,
+    "versions": {
+      "python": "3.11.0",
+      "platform": "Windows-10-10.0.26200-SP0",
+      "numpy": "2.2.4",
+      "scipy": "1.15.2",
+      "numba": "0.65.0",
+      "statsmodels": "0.14.6",
+      "arch": "8.0.0",
+      "pandas": "2.2.3",
+      "joblib": "1.4.2",
+      "matplotlib": "3.10.1",
+      "pytest": "9.0.3"
+    },
+    "code": {
+      "experiments/audit10_b100_protocol.py": {
+        "sha256": "2f4b3351d36f05faafd5a01981278237be31ccbd3a62eb53307d5888c3ab8c47",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b101_theta.py": {
+        "sha256": "c7f65d04c6a2762bcf4fcb7cd6fb3f3ea9f588392e6316175bb88631bd255903",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b102_identity.py": {
+        "sha256": "967ce70c299a9fa87ca467d3885c2c6ae54b11ca7f1a6aac75c94a9bd38125b3",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_application.py": {
+        "sha256": "6e73e4304a88e42b528dc119d56f8a47f3aced0cac6267493b67f96699f4032a",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_awb.py": {
+        "sha256": "c35235023f15eff41059abe196791e6ee57a3f52eb736779b4ed442b70f18f87",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_cv.py": {
+        "sha256": "bc3e2ee08728214ae92b5883e9f3bd067660d99acbeebaf032b8ef7cb289c8a7",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_dgp5.py": {
+        "sha256": "8df807243e62e3c044f4f55ccc9ba909254a15b011fd190d9a6a79c466f2e73e",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_equalized.py": {
+        "sha256": "039b485455232788d7503ff80d09565182b9d5ed696fdaf8c7e27f67ca44ce5d",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_finite.py": {
+        "sha256": "a6fea4ef3e9cab8ab5b2369189497de6ff8fc38abdd3f27b752efeb43935f113",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b103_lown.py": {
+        "sha256": "61ffc45a0782f9277588e5f3068af89add849a7eb28a87e3902c0df69269b264",
+        "git_state": "committed"
+      },
+      "experiments/audit10_b104_cv5000.py": {
+        "sha256": "64b94cc583c2f45c67910c6f25c5bab49baf77d5d9b4841e49d632bcd4a20493",
+        "git_state": "committed"
+      },
+      "experiments/audit10_common.py": {
+        "sha256": "298e82a217d2dd32ba87245f6056dbb82051fe2985acd644b1e972f6768ca123",
+        "git_state": "committed"
+      },
+      "experiments/audit10_design.py": {
+        "sha256": "d9da80a9c9148338e1031d1a7736180ebffd76409385b5cf7fa0c7af20d28042",
+        "git_state": "committed"
+      },
+      "experiments/audit10_engine.py": {
+        "sha256": "3d2618561538c1afd8daf8224fa230826ae442505877afb8c12a378755911333",
+        "git_state": "committed"
+      },
+      "experiments/audit10_figconfig.py": {
+        "sha256": "522ae90338608ca46d449900388d6eb5c9e152140115dd6be362d17822b8116f",
+        "git_state": "committed"
+      },
+      "experiments/audit10_generate_report.py": {
+        "sha256": "9ebb38589ec72648a1a905a105d3e6cfaa9b486cbd3a4cd9a5800be1436f1d41",
+        "git_state": "committed"
+      },
+      "experiments/audit12_b120_inventory.py": {
+        "sha256": "8336160e0c62006a28b89f6627f9e4e0d3a2c8e108168ee3763925e15df38ac5",
+        "git_state": "committed"
+      },
+      "experiments/audit12_bA_ma.py": {
+        "sha256": "c3a02fc6c4468501b31cd5fed6c5dd9708e0c1fbd3e2f7cc5178707f016457a6",
+        "git_state": "committed"
+      },
+      "experiments/audit12_bB_attrib.py": {
+        "sha256": "961c6c44ff4dbfc449e36f5b5b51d569ce93658003e9a7cf498c983ffc21ec84",
+        "git_state": "committed"
+      },
+      "experiments/audit12_bC_initial.py": {
+        "sha256": "77e5c329a7be36c07705486626ec253416c757836205d54e4b99dfb25941ffbf",
+        "git_state": "committed"
+      },
+      "experiments/audit12_bF_anchor.py": {
+        "sha256": "7bfe9ca7c9bd99d88676b4003097402c99402b51ba4b5c9c404b4f3e9406bbdc",
+        "git_state": "committed"
+      },
+      "experiments/audit12_cal.py": {
+        "sha256": "63a1625faf55edc91a2db0dbcfe4ac8a316e0c4023dac85e8122490be1099346",
+        "git_state": "committed"
+      },
+      "experiments/audit12_claims.py": {
+        "sha256": "86511d14d0c9c47c3ff0c9228d7a94c06c0a2429f7e1c3a996ef8824314d136f",
+        "git_state": "committed"
+      },
+      "experiments/audit12_common.py": {
+        "sha256": "9845605b593b4c07eed4a0ead1b9068951c1b302ca653d7fb410b2ddc84f7b84",
+        "git_state": "committed"
+      },
+      "experiments/audit12_design.py": {
+        "sha256": "b55d9ae3f6ff06d746e9e60a36ffc78d73e1171260e6e965001f187623e92838",
+        "git_state": "committed"
+      },
+      "experiments/audit12_generate_report.py": {
+        "sha256": "b7e1377224401ae74eef3a77db3c1b4623409666fd82d6500d4ded16344d4b78",
+        "git_state": "committed"
+      },
+      "experiments/audit12_runner.py": {
+        "sha256": "01d8ea8b833067be4b631bc60b24741a9b941f127d7e98295f54c215c93c7318",
+        "git_state": "committed"
+      },
+      "experiments/audit12_unitroot.py": {
+        "sha256": "36b0bb5a7439cb0fabdfc346d9b1d2fef91fc0bacf54f49c4642538f4c3db3cb",
+        "git_state": "committed"
+      },
+      "experiments/audit13_b130_inventory.py": {
+        "sha256": "6e9e89107e8881c68dc81bc34c91e9b4838b84805adbcb955248abba18af3a75",
+        "git_state": "committed"
+      },
+      "experiments/audit13_claims.py": {
+        "sha256": "354466be4864c1321e1a7d23f004663ccef1bd1199f592110de2d575122b986f",
+        "git_state": "committed"
+      },
+      "experiments/audit13_common.py": {
+        "sha256": "94a6255b99fbd25b19a452147e20c76b9c181848e639ef26a09087b0169d19de",
+        "git_state": "committed"
+      },
+      "experiments/audit13_design.py": {
+        "sha256": "29fea9ecb7e3db08fac745d74779e229d871d5ac3e761d55f6c61c19561f2ab1",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_application.py": {
+        "sha256": "4969da94c823615f05e34dac23a5b5fc60b458dc962eca90d3048510a4da7c23",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_awb.py": {
+        "sha256": "0a95c3a6c42f334e463baf7216b202639ece93ec4080e82ef0067340f77ff373",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_calib.py": {
+        "sha256": "815694a898ff497d578447c1298db7f9772a75f13a088c2f1c2f82fd27af2ca3",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_dgp5.py": {
+        "sha256": "11022366b13d68a9f78a560403ea03221f8bceb999a34cbf68a06fd00a0a48ad",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_equalized.py": {
+        "sha256": "551896f43f6106547f300069fd03e861f57b6ec1c9435d97275f4f649158a6eb",
+        "git_state": "committed"
+      },
+      "experiments/audit13_e_size.py": {
+        "sha256": "90d4a4bfb173894cd2cf3f10a363446804a3a6339baec425c39a654fab7a4585",
+        "git_state": "committed"
+      },
+      "experiments/audit13_generate_report.py": {
+        "sha256": "b7093811991b76e414457f15b76294cb1ea85dabf4a6bc80ea01db451c400e3f",
+        "git_state": "committed"
+      },
+      "experiments/audit13_q_attrib.py": {
+        "sha256": "3369031d8a0dac8269549a4902d7ce5503b65fcd59e765a01a405ebb07efe2e9",
+        "git_state": "committed"
+      },
+      "experiments/audit13_q_claims.py": {
+        "sha256": "490147c55b6edb417929d709c745edbd8ccad3e9a586723f5bac65d3257843bf",
+        "git_state": "committed"
+      },
+      "experiments/audit13_q_common.py": {
+        "sha256": "98e1b30eebcb79b4a5edb6e3d4cede9d8d11a274c631eca1ef097da0e90c1ff1",
+        "git_state": "committed"
+      },
+      "experiments/audit13_q_inventory.py": {
+        "sha256": "17ed148ec3a404d9bbc1d21c0fa4926a67756e635e173ed8dfa5034cabca97f6",
+        "git_state": "committed"
+      },
+      "experiments/audit13_q_phrases.py": {
+        "sha256": "96cb95731a0014e299036344f09079e10387d464ea27ed7bb5271580cba77e01",
+        "git_state": "committed"
+      },
+      "experiments/audit13_q_report.py": {
+        "sha256": "ba2b694f351e0f2f92d66dd8907fb4b7955a97dac46a100581a6d0fb6d09cb74",
+        "git_state": "committed"
+      },
+      "experiments/audit13_q_supplement.py": {
+        "sha256": "df66975d8eba1f930ba0137666f60a21f4f593e89cfa4dedce14be617ead7b65",
+        "git_state": "committed"
+      },
+      "experiments/audit13_t_tables.py": {
+        "sha256": "5bb1b16873c1586eea25efe4c4eb91d4b48e1185bb921f11446ce27fd693119c",
+        "git_state": "committed"
+      },
+      "experiments/audit13_tables.py": {
+        "sha256": "ecdb0d85bfbcbf36a50b4a6d905698ddd38d8cf100ba3e89cf1fc241c698aaa9",
+        "git_state": "committed"
+      },
+      "experiments/audit14_b0_inventory.py": {
+        "sha256": "ef4611be5799a45f3735395a10925c518e09cab56b6e380208a1b038c6942521",
+        "git_state": "committed"
+      },
+      "experiments/audit14_b1_critical.py": {
+        "sha256": "50567e82c6b4b51fd7b720bd67d5f67893b4bd9f5f9fbe9cf9abba5a04641ae5",
+        "git_state": "committed"
+      },
+      "experiments/audit14_b2_sources.py": {
+        "sha256": "aedfedb9efcf41da38e008253b854827e4c9f5656450aabecbbd744dceec932f",
+        "git_state": "committed"
+      },
+      "experiments/audit14_b3_verify.py": {
+        "sha256": "66217ac44e6560da179ba56327aaeb7003c4249500c69eead927320f567767ae",
+        "git_state": "committed"
+      },
+      "experiments/audit14_common.py": {
+        "sha256": "653d0edfcf1d481bf5e62a0772a285efcea91be25cf3dbf91b022a0dbc7c25b9",
+        "git_state": "committed"
+      },
+      "experiments/audit14_exact_bootstrap.py": {
+        "sha256": "f7da6ba106a477324dc58495e3ff223e23e22c519c2a1f69a72b0a15b9899645",
+        "git_state": "committed"
+      },
+      "experiments/audit14_generate_report.py": {
+        "sha256": "100fd69829c2f40795e5fc89980d7230309d4bc1227d6869d0a978665de64adc",
+        "git_state": "committed"
+      },
+      "experiments/audit14_tables.py": {
+        "sha256": "3775f924477efa356317b78da651e8982bedf102e31ade4cf85bfeb1e953c78d",
+        "git_state": "committed"
+      },
+      "experiments/audit15_b0_iidasy.py": {
+        "sha256": "02fa47dac801dcb2a30f52d237720487f9336ba2c81879606976a437f560f0f1",
+        "git_state": "committed"
+      },
+      "experiments/audit15_b0_t3.py": {
+        "sha256": "94f2ac3d1c38bdb6e96cf9073e53857d994747bc6519636a3c23d9577a3aee2b",
+        "git_state": "committed"
+      },
+      "experiments/audit15_b0b_lag.py": {
+        "sha256": "0a025363ac7944e33c630ab9ecbe78b8fe9e5dfbc32f87997c1d1fe8bdce7854",
+        "git_state": "committed"
+      },
+      "experiments/audit15_b1_boot.py": {
+        "sha256": "8bc781f2fb0a80c182093f15292ab8bc88796bb68e89610ca3f75f94354ec084",
+        "git_state": "committed"
+      },
+      "experiments/audit15_b1_paso0.py": {
+        "sha256": "400cb33d2836dcd4f849b39cd4d2f0580ffd092bec8cf5534e1994d21a18261e",
+        "git_state": "committed"
+      },
+      "experiments/audit15_b1_paso0_v2.py": {
+        "sha256": "607ac72fb04a05a15e0ab91f4e434ea87f60b98d3e5f49b7d2d03bc35525d14a",
+        "git_state": "committed"
+      },
+      "experiments/audit15_b2_slope.py": {
+        "sha256": "aafcabbb4ff218a2bc0cb6638696fe079ea2145a5f6177f936903ab980118661",
+        "git_state": "committed"
+      },
+      "experiments/audit15_b3_fixedb.py": {
+        "sha256": "6ab5e0bfdfbd0b4eb9fadf17f81c66c67a8c9de6e37d8d47b61e4b8df93e2be3",
+        "git_state": "committed"
+      },
+      "experiments/audit15_b3_paso0.py": {
+        "sha256": "f7ca30b5ea4d3ebe22004485a89b7f9c69cabe0e3c78daddfe3da8ed9989d385",
+        "git_state": "committed"
+      },
+      "experiments/audit15_b5_anon.py": {
+        "sha256": "49135c9831510e5d30c284ef4d2c808f486b383ff08d9d2420ff2d6510b3ed45",
+        "git_state": "committed"
+      },
+      "experiments/audit15_b9.py": {
+        "sha256": "4897566bd4189a27b8a647fb3e39eae0d8f4c568958c33d0fabc61bb3715a949",
+        "git_state": "committed"
+      },
+      "experiments/audit15_boot_engine.py": {
+        "sha256": "f56c8a79c603cb8b2135f0c54ac1885e09eff9202374b2356dc8e49476fd8fe4",
+        "git_state": "committed"
+      },
+      "experiments/audit15_common.py": {
+        "sha256": "bfc94b5c7949cecb344e1ebd2a58734fe16b69a8090481473b9f28296727e509",
+        "git_state": "committed"
+      },
+      "experiments/audit15_design.py": {
+        "sha256": "aca703ac3276717a4e4f79d65ee765f61e88dcc2226cc383b7c51e7540b33da2",
+        "git_state": "committed"
+      },
+      "experiments/audit15_fixedb.py": {
+        "sha256": "f551274d59fd9fb575c1a17ebccda6540d4ab7150468d98f44f81fa5d87c9a8b",
+        "git_state": "committed"
+      },
+      "experiments/audit15_generate_report.py": {
+        "sha256": "f7f6a8066abee1d97cf04d4a0aaf864c06f3a770e61e1165866c0397a3b6e6c9",
+        "git_state": "committed"
+      },
+      "experiments/audit15_inventory.py": {
+        "sha256": "cde3340229d076cbe12020df0dde9fd92638135d4d973c1401849529c8e8d548",
+        "git_state": "committed"
+      },
+      "experiments/audit15_maintenance.py": {
+        "sha256": "e7f2b31ca6e9d023bb1bbf4ba019774c41c6c12b2dc998d2274c91c767045ed4",
+        "git_state": "committed"
+      },
+      "experiments/audit15_probes.py": {
+        "sha256": "279b058722ed2801edbeb769790bb544c9277d3ad74049e2441ae70818a7fd8c",
+        "git_state": "committed"
+      },
+      "experiments/audit15_supplement.py": {
+        "sha256": "00558dad58ceadf26b20e92edc816559b3742360b865369203dd80f137c60aba",
+        "git_state": "committed"
+      },
+      "experiments/audit15_tables.py": {
+        "sha256": "3bf3a6a6b49cc05bedfdb37d433a70e495a307e1893eb0745820a58f27b5dd34",
+        "git_state": "committed"
+      },
+      "experiments/audit15_v17_literals.py": {
+        "sha256": "99d20a3480d1db69986bc32e6dd308f69ffe6b639918625bdf02b313bd5032c8",
+        "git_state": "committed"
+      },
+      "experiments/audit15_v17_tables.py": {
+        "sha256": "d37dbc4a5f648c92240cae45a63f9511cd62a6d777f5e2a679e732f7ade473f1",
+        "git_state": "committed"
+      },
+      "experiments/audit16_code_check.py": {
+        "sha256": "818b61bb9e7622156dd674bb5d4473be7da728ed4143553f5e51e218a8f6ffbf",
+        "git_state": "committed"
+      },
+      "experiments/audit16_coherence.py": {
+        "sha256": "a190d82ad54a5eada597db807be7b31fb76bb8a162ae72dd6a0096c45db3c90f",
+        "git_state": "committed"
+      },
+      "experiments/audit16_common.py": {
+        "sha256": "376cd1e4419cf9e605d49a78d0936fd5fa549afcdbb534657f40976b2f4854de",
+        "git_state": "committed"
+      },
+      "experiments/audit16_generate_report.py": {
+        "sha256": "78ebc0be770389734cd95d1959fdda04f0793c913f17f82caf46359f8d8ee328",
+        "git_state": "committed"
+      },
+      "experiments/audit16_literals.py": {
+        "sha256": "be3216fa509dc64188b9084f347d3a5b6c594a2cd879f9c8432832fbb9d0e0ec",
+        "git_state": "committed"
+      },
+      "experiments/audit16_supplement.py": {
+        "sha256": "905aff818e3e5caca774154ccfa456275c5c23d597013446d3cbbe70c8dc3f18",
+        "git_state": "committed"
+      },
+      "experiments/audit16_v17_tables.py": {
+        "sha256": "bffb3b62c20d01578de7a31bba85f9a0a8fa0ddbe9df81b6a5e4662044404be6",
+        "git_state": "committed"
+      },
+      "experiments/audit17_boot35.py": {
+        "sha256": "a758c2d847e70e5ccccc44431ace1528543c6def7e053b7e5f240813b24a48cd",
+        "git_state": "committed"
+      },
+      "experiments/audit17_common.py": {
+        "sha256": "c475218e3510ac31b8dd28334c90a6f9a5988acff26bb8cc35fe2573e7dc01f2",
+        "git_state": "committed"
+      },
+      "experiments/audit17_mstats.py": {
+        "sha256": "66b8f486ac96ef9e86eea782a0d46e8a8eb7f25f6a88c60ae530663444ed10a4",
+        "git_state": "committed"
+      },
+      "experiments/audit17_supplement.py": {
+        "sha256": "25f596414647af5da330887272c34250d2c89eac97e7bb47a20eaaefb5afc5dc",
+        "git_state": "committed"
+      },
+      "experiments/audit4_tarea_E.py": {
+        "sha256": "ac119be7e82257784bb5c8bf77bcca827197c8de3895d9a3ba8cf475154fd23d",
+        "git_state": "committed"
+      },
+      "experiments/audit5_tarea5.py": {
+        "sha256": "ae6a64da025e28ae63e398b5fb19cf7414d988ec2e7c874c1836370fcc24075f",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b0_inventory.py": {
+        "sha256": "6405cc166459c296fb32c86fed1abff150afc4889ba0598502d8c4e41ea07add",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_np_diagnostic.py": {
+        "sha256": "959b18541923f504c4178fdedd3a7d519a62487930c1de4dbcc8e476e0a43df0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_np_gate.py": {
+        "sha256": "93064f87f144776c7c83ee95d23bdbd7eadf5cbaff08af57297eda3ef37348f0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_regression_child.py": {
+        "sha256": "350b1389b64fdc89098d17861b7196671be9fe66123fb1f0702ddd5229fee150",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b1_validate.py": {
+        "sha256": "6a268b6ac14f5d05f2dfa26b5430328246f34893439ff6004b308d9a163170b0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2_size.py": {
+        "sha256": "74b1cdbd9f0bba3c77cb495b6c53393ba49eef75ff4f88d41257679ee2d4ff93",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2b_diagnostic.py": {
+        "sha256": "f89de9ed47612633614546168cb1887b0fb1c2faa37283276d03e45dd8096802",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b2b_indep.py": {
+        "sha256": "47eb0f404478d0bac66bab7ea2002a24956ceeb287bdcb5bd441ee5fc0c8dda5",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b3_comparators.py": {
+        "sha256": "a4589a8ab3fe02284549b02f9c2078ad34172ddab47b268ce5c1ce4c444fc363",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b4_local_power.py": {
+        "sha256": "4de18b53c2f31d3d2f7e04fee1d786d42df0ba7998bdf30278b8029acea904c7",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b5_power.py": {
+        "sha256": "561c9dd52313c70d193ebe7ea772b3dbf91db2e691019eec3f5e76c4c8c28092",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b6_application.py": {
+        "sha256": "917157d7367c201cb4e92c2eafd1cb4f3d6f68d44dfbc9f6713c0ecb7e28de07",
+        "git_state": "committed"
+      },
+      "experiments/audit8_b7_critical_values.py": {
+        "sha256": "1a228203fb9b1ed38020fe40ec4e6e690ea05c6bf152ceca42a82cc7f2d1c801",
+        "git_state": "committed"
+      },
+      "experiments/audit8_cache_fix_validate.py": {
+        "sha256": "01d88be3d99d27ddb32abdc63bbb5fad3ab6129300ba8cfe638b1790a60d314a",
+        "git_state": "committed"
+      },
+      "experiments/audit8_common.py": {
+        "sha256": "5718ec2cfa7f5f5c5f7f8d68ed26198e00ac827fb562cee67b234857e5719f0d",
+        "git_state": "committed"
+      },
+      "experiments/audit8_design.py": {
+        "sha256": "ad80aeae74d44ff4cecbd10dbfc480d24c146b81ec8f9d6561f95b7ba7079ae0",
+        "git_state": "committed"
+      },
+      "experiments/audit8_environment.py": {
+        "sha256": "9b323700e91302ad0090e876b922a38a1dd6b23ef5f19fcc7748d947e617d21e",
+        "git_state": "committed"
+      },
+      "experiments/audit8_figconfig.py": {
+        "sha256": "eb516777a764ee78828acf7a5c743c4e9d8f5aab57b98550606354793d467e12",
+        "git_state": "committed"
+      },
+      "experiments/audit8_generate_report.py": {
+        "sha256": "91157e2576bec679f9f826423f55b6de104a01380651c9648a3aa25adac78819",
+        "git_state": "committed"
+      },
+      "experiments/audit8_unitroot.py": {
+        "sha256": "9d0842a342f12b9c8a7e3870127768590c53d98c8ca90dbb3a2715ddb16748ef",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b90_protocol.py": {
+        "sha256": "5e0a7109f7d1a7737ed2558ccc1766b36c61e0ead19738e9da6512af0d58e590",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b91_equalized.py": {
+        "sha256": "66be775e81bb3ddeadc202237f1343a4d231138274eb8387cc5ac48c1366b9b9",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b92_theta.py": {
+        "sha256": "56b784b7534e466897a6b31400dc17906ad101d2d114e93f9d5bb95b55c65af5",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b93_attribution.py": {
+        "sha256": "0c6a42942f19a4b0f07cf102704a98e4c17f76815a53bbb1e0407bb3119dd6ee",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b94_finite_sample.py": {
+        "sha256": "b5c5b0acc0792baaec3499d386bbce7768142ca4e37ca1ac03fb23914a0daae5",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b95_awb.py": {
+        "sha256": "f60dcb418bb045ef40684fc8572d74e578459d40d28925dd7c30bbac79dbf0c0",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b96_application.py": {
+        "sha256": "0ff5e46367a3f1dfae0a92aa02fd0fdf13b64efab897de61eaafb81599f468b4",
+        "git_state": "committed"
+      },
+      "experiments/audit9_b97_critical_values.py": {
+        "sha256": "774956681a4c6536cfab497326e032518cb97c10a0aacf9bffd38ee92aef14f3",
+        "git_state": "committed"
+      },
+      "experiments/audit9_calibrate.py": {
+        "sha256": "d2f7ac2cd3d5fa866fac21379f79a60535749e8db61d02135aaea99ec0b75bbd",
+        "git_state": "committed"
+      },
+      "experiments/audit9_common.py": {
+        "sha256": "39fbee3c398de920ba2f9c4400ac6254c58d9fb537c6f97649c8299ea39e78f7",
+        "git_state": "committed"
+      },
+      "experiments/audit9_design.py": {
+        "sha256": "e25486561a4c06643807b4035e2beeb0436558b1157bfb3b7a866e5e7cb815ac",
+        "git_state": "committed"
+      },
+      "experiments/audit9_engine.py": {
+        "sha256": "8f8bd7a817178056d2e55a4c518bfc2188737c02c3f56cf467d15972ac651e1b",
+        "git_state": "committed"
+      },
+      "experiments/audit9_figconfig.py": {
+        "sha256": "502fc40d79bdec85ad4ebac69ee33949903c4c8b5e14ed5558ab3b6b985b8080",
+        "git_state": "committed"
+      },
+      "experiments/audit9_generate_report.py": {
+        "sha256": "c8257dc6873c4ef2d5bf1f40ff3906e7bbbd2513b241348583bfb3ec70f6f559",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/__init__.py": {
+        "sha256": "20ebf29ab1a9a64bb428f25ff0170d67db2354662efb8b973922c3f455f56582",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/constants.py": {
+        "sha256": "de8bd2282ff09c41fc6eae12fcca6695c1fd3a0c9def7628a9b76e9361058907",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/davies.py": {
+        "sha256": "cfad047d0b0676cc83a41208cd600f4224ce61bf03930228a5a80d1d6556c9b9",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/deterministics.py": {
+        "sha256": "31db116abc80e5cab8c97317a31d6f22f1a4ca40c885eef86c134db598dac6b2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/empirical_eigenvalues.py": {
+        "sha256": "f749e2e2de8b807421d6e74836bd5d539eccb314f18821bd38b80e72b5ee72a1",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/full_pipeline.py": {
+        "sha256": "cdbd5405caa50bc83c7348a0a8be9963b522ef4d808024f078f648bb1de89170",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/hac_estimator.py": {
+        "sha256": "f7c22540e6a8e862258cb70e4a839b841453ca9490a01671176431ee4bf678f2",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/kl_eigenvalues.py": {
+        "sha256": "c0fb0a90795c904cb2876aa16eff64948e0abf5a27d3a57c6612c2b9ec198903",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/null_quantiles.py": {
+        "sha256": "655458f05815621d015984080169663d2310d26e588a83e2c5a62549ba5a1ae8",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/optimal_weight.py": {
+        "sha256": "47632d98ed256b2364a2ac99de64780e0cd8d42a69c68b4552c6ea0564f86ba4",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/rm_core.py": {
+        "sha256": "4d3ee3f59c569233a5e9a9ed8ffd3032364188545bac04a0cc619ccac39e04e0",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/standardization.py": {
+        "sha256": "cc8cb146d28ea63be86bc11db6cc6c345fbf5fd412055e2e58a33a40f3e8936b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/statistic.py": {
+        "sha256": "f0baf1d99ac4311ca854d350f18a3d3416974bf5d13e662d05149f87183d92ef",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/theta_selection.py": {
+        "sha256": "23eba50e85d0db917d14b4d3d844c42e5ee566dfd326a0fad7feae0dd113f40b",
+        "git_state": "committed"
+      },
+      "src/stationarity_test/utils.py": {
+        "sha256": "8a3e0b972da519b3c39ca0e0326953dbae1bf048845c05c1fb3a23a001b72717",
+        "git_state": "committed"
+      }
+    },
+    "code_all_committed": true,
+    "assistant": {
+      "herramienta": "Claude Code",
+      "modelo": "claude-opus-5-5",
+      "version": "2.1.265 (Claude Code)"
+    }
+  },
+  "reading": "enmienda 7, lectura E7.3",
+  "trial": true,
+  "inputs": {
+    "v16_zip_sha256": "7a71eabe0cfa003c4c009b418e84f23ff6799cbdc5a5cd45dc925e90fdc22d7d",
+    "v18_zip_sha256": "b78cf82e25631a7dbcb004041eaffa02f3fab68c622e135f780f54b3c721a653"
+  },
+  "v18_control_compile": {
+    "compiled": true,
+    "pages": 20,
+    "v17_sha256": "b78cf82e25631a7dbcb004041eaffa02f3fab68c622e135f780f54b3c721a653"
+  },
+  "body_labels": {
+    "sec:intro": [
+      "section",
+      "1"
+    ],
+    "sec:statistics": [
+      "section",
+      "2"
+    ],
+    "eq:model": [
+      "equation",
+      "1"
+    ],
+    "eq:null": [
+      "equation",
+      "2"
+    ],
+    "eq:mstats": [
+      "equation",
+      "3"
+    ],
+    "eq:statzero": [
+      "equation",
+      "4"
+    ],
+    "eq:hac": [
+      "equation",
+      "5"
+    ],
+    "prop:msb": [
+      "proposition",
+      "1"
+    ],
+    "eq:msbidentity": [
+      "equation",
+      "6"
+    ],
+    "prop:invariance": [
+      "proposition",
+      "2"
+    ],
+    "sec:theory": [
+      "section",
+      "3"
+    ],
+    "eq:Vlimit": [
+      "equation",
+      "7"
+    ],
+    "thm:limits": [
+      "theorem",
+      "1"
+    ],
+    "rem:anchorbias": [
+      "remark",
+      "1"
+    ],
+    "rem:mabias": [
+      "remark",
+      "2"
+    ],
+    "thm:consistency": [
+      "theorem",
+      "2"
+    ],
+    "sec:calib-def": [
+      "subsection",
+      "3.4"
+    ],
+    "def:calib": [
+      "definition",
+      "1"
+    ],
+    "eq:dkw": [
+      "equation",
+      "8"
+    ],
+    "sec:bootdef": [
+      "subsection",
+      "3.5"
+    ],
+    "def:awb": [
+      "definition",
+      "2"
+    ],
+    "sec:montecarlo": [
+      "section",
+      "4"
+    ],
+    "sec:design": [
+      "subsection",
+      "4.1"
+    ],
+    "sec:calibration": [
+      "subsection",
+      "4.2"
+    ],
+    "tab:calib": [
+      "table",
+      "1"
+    ],
+    "sec:power": [
+      "subsection",
+      "4.3"
+    ],
+    "sec:attribution": [
+      "subsection",
+      "4.4"
+    ],
+    "fig:calibgain": [
+      "figure",
+      "1"
+    ],
+    "sec:serial": [
+      "subsection",
+      "4.5"
+    ],
+    "tab:localpower": [
+      "table",
+      "2"
+    ],
+    "sec:bootstrap": [
+      "subsection",
+      "4.6"
+    ],
+    "tab:attrib": [
+      "table",
+      "3"
+    ],
+    "sec:fixedb": [
+      "subsection",
+      "4.7"
+    ],
+    "tab:summary": [
+      "table",
+      "4"
+    ],
+    "sec:othercosts": [
+      "subsection",
+      "4.8"
+    ],
+    "tab:bootpower": [
+      "table",
+      "5"
+    ],
+    "tab:fixedb": [
+      "table",
+      "6"
+    ],
+    "sec:conclusion": [
+      "section",
+      "5"
+    ],
+    "app:proofs": [
+      "appendix",
+      "A"
+    ],
+    "eq:bartlettidentity": [
+      "equation",
+      "A1"
+    ],
+    "rem:hacrate": [
+      "remark",
+      "3"
+    ],
+    "app:critical": [
+      "appendix",
+      "B"
+    ],
+    "tab:critMSB": [
+      "table",
+      "B1"
+    ]
+  },
+  "b17_edits": [
+    {
+      "block": "S2_serial_table",
+      "pattern": "\\[0\\.0470, \\d\\.\\d+\\]",
+      "replacement": "[0.0470, 0.05305]"
+    },
+    {
+      "block": "S4_breaks",
+      "pattern": "B = 399",
+      "replacement": "R = 399"
+    },
+    {
+      "block": "S9_application",
+      "pattern": "B = 399",
+      "replacement": "R = 399"
+    }
+  ],
+  "b17_inserted": [
+    {
+      "section": "S2",
+      "position": "sustituye el parrafo SB/SWB de A16",
+      "text": "Three details of the package are not in the main text. First, the SB draws the residuals with replacement from positions $0, \\dots, T - l$ only, with $l = \\mathrm{round}(1.75\\,T^{1/3})$ the default block length, so the last $l - 1$ residuals are never drawn. Second, the regression that defines the bootstrap data-generating process is not trimmed: its missing initial lags are filled with zeros, so the first $p + 1$ residuals are computed with some regressors set to zero, and the first of them is the detrended first observation itself; the autoregressive recursion that generates the bootstrap increments starts at zero, and $\\rw^*_0 = 0$. Third, the package reports the $p$-value $\\#\\{t^* < t\\}/B$, while our calibrations use $(1 + \\#\\{T^{*(r)} \\leq T\\})/(R + 1)$ and reject when it is at most $0.05$.\n\nThe invariance of \\cref{prop:invariance} was checked numerically for MSB-GLS and MZ$_t$-GLS on 6000 Gaussian random walks ($n \\in \\{100, 200, 500\\}$, both deterministic cases), each under 3 affine transformations: the lag selected by the MAIC never changed, and MSB changed by at most a relative $3.8\\times10^{-13}$. The relative change of MZ$_t$ reached $5.1\\times10^{-10}$, on paths on which MZ$_t$ is close to zero ($-3.1\\times10^{-4}$ and $-1.1\\times10^{-4}$), because its numerator $T^{-1}\\uhat_n^2 - s^2$ is then the difference of two nearly equal terms; the absolute change never exceeded $8.5\\times10^{-13}$.",
+      "count": 1
+    },
+    {
+      "section": "S7",
+      "position": "despues de tab:hacmedian",
+      "text": "The slope of 1/3 follows from the Andrews rule once $\\hat a$ settles; it says nothing about the stochastic part."
+    }
+  ],
+  "b17_checks": {
+    "B_399_left": 0,
+    "R_399": 2,
+    "region_old_left": 0,
+    "region_new": 1,
+    "s7_sentence": 1,
+    "s2_details": 1
+  },
+  "editorial_edits": [
+    {
+      "block": "S1_power",
+      "pattern": "\\s*Rows in which every procedure exceeds \\$0\\.99\\$\\s+are omitted; they are in the\\s+supplement\\.",
+      "replacement": "",
+      "count": 1
+    },
+    {
+      "block": "S1_power",
+      "pattern": "\\s*Rows in which every procedure exceeds \\$0\\.99\\$\\s+are omitted\\.",
+      "replacement": "",
+      "count": 1
+    },
+    {
+      "block": "S2_serial_table",
+      "pattern": "\\[0\\.0470, \\d\\.\\d+\\]",
+      "replacement": "[0.0470, 0.05305]",
+      "count": 1
+    },
+    {
+      "block": "S3_initial",
+      "pattern": "^\\\\subsection\\{The initial condition\\}\\\\label\\{sec:initial\\}\\s*",
+      "replacement": "",
+      "count": 1
+    },
+    {
+      "block": "S4_breaks",
+      "pattern": "B = 399",
+      "replacement": "R = 399",
+      "count": 1
+    },
+    {
+      "block": "S6_twochannel",
+      "pattern": "\\$\\^\\\\dagger\\$Registered interior\\.\\s*",
+      "replacement": "",
+      "count": 1
+    },
+    {
+      "block": "S6_twochannel",
+      "pattern": "\\s*Rows with \\$\\\\rho = 0\\.90\\$ and the weak-break\\s+extension \\$r = 1\\.1\\$ are in the supplement\\.",
+      "replacement": "",
+      "count": 1
+    },
+    {
+      "block": "S6_twochannel",
+      "pattern": "The supplement reports these experiments in full\\.",
+      "replacement": "\\\\Cref{tab:negvariance,tab:negweight,tab:negrebal,tab:neganchor} report these experiments in full.",
+      "count": 1
+    },
+    {
+      "block": "S7_trend",
+      "pattern": "^And in the trend case",
+      "replacement": "In the trend case",
+      "count": 1
+    },
+    {
+      "block": "S9_application",
+      "pattern": "B = 399",
+      "replacement": "R = 399",
+      "count": 1
+    }
+  ],
+  "references": [
+    {
+      "label": "tab:size",
+      "cmd": "Cref",
+      "resolved_as": "\\Cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "eq:null",
+      "cmd": "cref",
+      "resolved_as": "equation~(2) of the main text",
+      "how": "cuerpo del v17 (equation 2)"
+    },
+    {
+      "label": "tab:dgp1",
+      "cmd": "Cref",
+      "resolved_as": "\\Cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "tab:ctpower",
+      "cmd": "Cref",
+      "resolved_as": "\\Cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "fig:powereq",
+      "cmd": "cref",
+      "resolved_as": "\\cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "tab:ctpower",
+      "cmd": "cref",
+      "resolved_as": "\\cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "sec:serial",
+      "cmd": "cref",
+      "resolved_as": "Section~4.5 of the main text",
+      "how": "cuerpo del v17 (subsection 4.5)"
+    },
+    {
+      "label": "tab:dgp1",
+      "cmd": "cref",
+      "resolved_as": "\\cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "tab:localpower",
+      "cmd": "cref",
+      "resolved_as": "Table~2 of the main text",
+      "how": "cuerpo del v17 (table 2)"
+    },
+    {
+      "label": "eq:null",
+      "cmd": "cref",
+      "resolved_as": "equation~(2) of the main text",
+      "how": "cuerpo del v17 (equation 2)"
+    },
+    {
+      "label": "tab:serial",
+      "cmd": "cref",
+      "resolved_as": "\\cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "rem:mabias",
+      "cmd": "cref",
+      "resolved_as": "Remark~2 of the main text",
+      "how": "cuerpo del v17 (remark 2)"
+    },
+    {
+      "label": "tab:serial",
+      "cmd": "cref",
+      "resolved_as": "\\cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "prop:invariance",
+      "cmd": "cref",
+      "resolved_as": "Proposition~2 of the main text",
+      "how": "cuerpo del v17 (proposition 2)"
+    },
+    {
+      "label": "tab:serial",
+      "cmd": "cref",
+      "resolved_as": "\\cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "tab:serial",
+      "cmd": "cref",
+      "resolved_as": "\\cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "tab:diagnull",
+      "cmd": "Cref",
+      "resolved_as": "\\Cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "tab:diagalt",
+      "cmd": "Cref",
+      "resolved_as": "\\Cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "tab:diagattrib",
+      "cmd": "Cref",
+      "resolved_as": "\\Cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "tab:serial",
+      "cmd": "cref",
+      "resolved_as": "\\cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "tab:serialpower",
+      "cmd": "cref",
+      "resolved_as": "\\cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "tab:initial",
+      "cmd": "Cref",
+      "resolved_as": "\\Cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "tab:serial",
+      "cmd": "cref",
+      "resolved_as": "\\cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "tab:dgp2",
+      "cmd": "cref",
+      "resolved_as": "\\cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "eq:null",
+      "cmd": "cref",
+      "resolved_as": "equation~(2) of the main text",
+      "how": "cuerpo del v17 (equation 2)"
+    },
+    {
+      "label": "tab:dgp3",
+      "cmd": "Cref",
+      "resolved_as": "\\Cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "fig:dgp3",
+      "cmd": "cref",
+      "resolved_as": "\\cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "def:calib",
+      "cmd": "cref",
+      "resolved_as": "Definition~1 of the main text",
+      "how": "cuerpo del v17 (definition 1)"
+    },
+    {
+      "label": "def:awb",
+      "cmd": "cref",
+      "resolved_as": "Definition~2 of the main text",
+      "how": "cuerpo del v17 (definition 2)"
+    },
+    {
+      "label": "tab:awb",
+      "cmd": "cref",
+      "resolved_as": "\\cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "def:awb",
+      "cmd": "cref",
+      "resolved_as": "Definition~2 of the main text",
+      "how": "cuerpo del v17 (definition 2)"
+    },
+    {
+      "label": "def:calib",
+      "cmd": "cref",
+      "resolved_as": "Definition~1 of the main text",
+      "how": "cuerpo del v17 (definition 1)"
+    },
+    {
+      "label": "tab:misspec",
+      "cmd": "Cref",
+      "resolved_as": "\\Cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "fig:sizeshift",
+      "cmd": "cref",
+      "resolved_as": "\\cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "eq:null",
+      "cmd": "cref",
+      "resolved_as": "equation~(2) of the main text",
+      "how": "cuerpo del v17 (equation 2)"
+    },
+    {
+      "label": "sec:power",
+      "cmd": "cref",
+      "resolved_as": "Section~S1",
+      "how": "suplemento (seccion S1)"
+    },
+    {
+      "label": "sec:meanbreaks",
+      "cmd": "cref",
+      "resolved_as": "Section~S4",
+      "how": "suplemento (seccion S4)"
+    },
+    {
+      "label": "tab:deviations",
+      "cmd": "cref",
+      "resolved_as": "\\cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "tab:size",
+      "cmd": "cref",
+      "resolved_as": "\\cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "tab:calib",
+      "cmd": "cref",
+      "resolved_as": "Table~1 of the main text",
+      "how": "cuerpo del v17 (table 1)"
+    },
+    {
+      "label": "tab:localpower",
+      "cmd": "cref",
+      "resolved_as": "Table~2 of the main text",
+      "how": "cuerpo del v17 (table 2)"
+    },
+    {
+      "label": "tab:dgp1",
+      "cmd": "cref",
+      "resolved_as": "\\cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "tab:ctpower",
+      "cmd": "cref",
+      "resolved_as": "\\cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "tab:dgp2",
+      "cmd": "cref",
+      "resolved_as": "\\cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "tab:dgp3",
+      "cmd": "cref",
+      "resolved_as": "\\cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "tab:misspec",
+      "cmd": "cref",
+      "resolved_as": "\\cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "tab:awb",
+      "cmd": "cref",
+      "resolved_as": "\\cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "tab:dgp5",
+      "cmd": "cref",
+      "resolved_as": "\\cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "tab:fp",
+      "cmd": "cref",
+      "resolved_as": "\\cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "eq:null",
+      "cmd": "cref",
+      "resolved_as": "equation~(2) of the main text",
+      "how": "cuerpo del v17 (equation 2)"
+    },
+    {
+      "label": "tab:dgp5",
+      "cmd": "cref",
+      "resolved_as": "\\cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "tab:dgp5",
+      "cmd": "cref",
+      "resolved_as": "\\cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "tab:negvariance",
+      "cmd": "Cref",
+      "resolved_as": "\\Cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "tab:negweight",
+      "cmd": "Cref",
+      "resolved_as": "\\Cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "tab:negrebal",
+      "cmd": "Cref",
+      "resolved_as": "\\Cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "tab:neganchor",
+      "cmd": "Cref",
+      "resolved_as": "\\Cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "sec:power",
+      "cmd": "cref",
+      "resolved_as": "Section~S1",
+      "how": "suplemento (seccion S1)"
+    },
+    {
+      "label": "tab:deviations",
+      "cmd": "Cref",
+      "resolved_as": "\\Cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "tab:fp",
+      "cmd": "Cref",
+      "resolved_as": "\\Cref interno",
+      "how": "suplemento (etiqueta)"
+    },
+    {
+      "label": "sec:serial",
+      "cmd": "cref",
+      "resolved_as": "Section~4.5 of the main text",
+      "how": "cuerpo del v17 (subsection 4.5)"
+    },
+    {
+      "label": "sec:theta",
+      "cmd": "cref",
+      "resolved_as": "Section~S5",
+      "how": "suplemento (seccion S5)"
+    },
+    {
+      "label": "sec:calib-def",
+      "cmd": "cref",
+      "resolved_as": "Section~3.4 of the main text",
+      "how": "cuerpo del v17 (subsection 3.4)"
+    },
+    {
+      "label": "eq:dkw",
+      "cmd": "cref",
+      "resolved_as": "equation~(8) of the main text",
+      "how": "cuerpo del v17 (equation 8)"
+    },
+    {
+      "label": "def:awb",
+      "cmd": "cref",
+      "resolved_as": "Definition~2 of the main text",
+      "how": "cuerpo del v17 (definition 2)"
+    },
+    {
+      "label": "sec:theta",
+      "cmd": "cref",
+      "resolved_as": "Section~S5",
+      "how": "suplemento (seccion S5)"
+    },
+    {
+      "label": "sec:serial",
+      "cmd": "cref",
+      "resolved_as": "Section~4.5 of the main text",
+      "how": "cuerpo del v17 (subsection 4.5)"
+    },
+    {
+      "label": "eq:null",
+      "cmd": "cref",
+      "resolved_as": "equation~(2) of the main text",
+      "how": "cuerpo del v17 (equation 2)",
+      "file": "tables/tab_critMSB_note_audit14.tex"
+    }
+  ],
+  "unresolved": [],
+  "main_text_refs": {
+    "count": 20,
+    "not_in_v18_body": []
+  },
+  "numbering": {
+    "S2": {
+      "tab:serial": "S2.1",
+      "tab:serialasy": "S2.2",
+      "tab:lag": "S2.3",
+      "tab:boot": "S2.4",
+      "tab:fixedbsize": "S2.5",
+      "tab:serialpower": "S2.6",
+      "tab:diagnull": "S2.7",
+      "tab:diagalt": "S2.8",
+      "tab:diagattrib": "S2.9"
+    },
+    "S2_matches_map": true,
+    "tables": {
+      "tab:size": "S1.1",
+      "tab:dgp1": "S1.2",
+      "tab:ctpower": "S1.3",
+      "tab:serial": "S2.1",
+      "tab:serialasy": "S2.2",
+      "tab:lag": "S2.3",
+      "tab:boot": "S2.4",
+      "tab:fixedbsize": "S2.5",
+      "tab:serialpower": "S2.6",
+      "tab:diagnull": "S2.7",
+      "tab:diagalt": "S2.8",
+      "tab:diagattrib": "S2.9",
+      "tab:initial": "S3.1",
+      "tab:dgp2": "S4.1",
+      "tab:dgp3": "S4.2",
+      "tab:awb": "S4.3",
+      "tab:misspec": "S4.4",
+      "tab:size02": "S5.1",
+      "tab:calib02": "S5.2",
+      "tab:localpower02": "S5.3",
+      "tab:dgp102": "S5.4",
+      "tab:ctpower02": "S5.5",
+      "tab:dgp202": "S5.6",
+      "tab:dgp302": "S5.7",
+      "tab:misspec02": "S5.8",
+      "tab:awb02": "S5.9",
+      "tab:dgp502": "S5.10",
+      "tab:fp02": "S5.11",
+      "tab:dgp5": "S6.1",
+      "tab:negvariance": "S6.2",
+      "tab:negweight": "S6.3",
+      "tab:negrebal": "S6.4",
+      "tab:neganchor": "S6.5",
+      "tab:hacrates": "S7.1",
+      "tab:hacmedian": "S7.2",
+      "tab:critB": "S8.1",
+      "tab:crit0p02": "S8.2",
+      "tab:crit0p05": "S8.3",
+      "tab:crit0p1": "S8.4",
+      "tab:crit0p2": "S8.5",
+      "tab:critMSBse": "S8.6",
+      "tab:fp": "S9.1",
+      "tab:deviations": "S9.2",
+      "tab:oos": "S9.3",
+      "tab:adverse": "S9.4",
+      "tab:fpcell": "S9.5",
+      "tab:latency": "S9.6"
+    }
+  },
+  "sec6_integrity": {
+    "chunks_checked": 143,
+    "chunks_missing": [],
+    "n_missing": 0,
+    "numbers_src": 134,
+    "numbers_equal": true,
+    "substitutions_admitted": [
+      [
+        "B = 399",
+        "R = 399"
+      ]
+    ]
+  },
+  "bib_entries": 48,
+  "files": {
+    "MANIFEST.sha256": {
+      "sources": [
+        "generado"
+      ]
+    },
+    "README.md": {
+      "sources": [
+        "generado"
+      ]
+    },
+    "data/adaptive_size_power_audit5b.json": {
+      "sources": [
+        "experiments/results/adaptive_size_power_audit5b.json"
+      ],
+      "source_sha256": "99f2c20f0209efc33651b4a4ea59c9207c61ff60be1eccaf2cb648dd8ced67c4"
+    },
+    "data/audit2_results_audit2.json": {
+      "sources": [
+        "experiments/results/audit2_results_audit2.json"
+      ],
+      "source_sha256": "750a414dba26eff2ce645e33ccf9239d555e35e951ec2fcb321feb22a565c1d3"
+    },
+    "data/b0_iidasy_audit15.json": {
+      "sources": [
+        "experiments/results/b0_iidasy_audit15.json"
+      ],
+      "source_sha256": "88301ca9cc595fdd5b8cb3711cf56201b505bfea923b036a5c5175011955f4da"
+    },
+    "data/b0_t3_audit15.json": {
+      "sources": [
+        "experiments/results/b0_t3_audit15.json"
+      ],
+      "source_sha256": "4aa9417ba1e12c011c1d700aacd243a11e0b3df8be0f8195ef2dd13b04f28726"
+    },
+    "data/b0b_lag_audit15.json": {
+      "sources": [
+        "experiments/results/b0b_lag_audit15.json"
+      ],
+      "source_sha256": "f917b0f5d1a51a2c5b35549719c7dedab72adc317cc04622279545ff19e3a302"
+    },
+    "data/b103_cv_audit10.json": {
+      "sources": [
+        "experiments/results/b103_cv_audit10.json"
+      ],
+      "source_sha256": "f5e5fdccaa48db5334ed3709dcf99350c1f5916be764620902784b32af86d1cd"
+    },
+    "data/b1_boot_audit15.json": {
+      "sources": [
+        "experiments/results/b1_boot_audit15.json"
+      ],
+      "source_sha256": "d98f7b1aa5e5318a5b48078975de75c15d486fe9239fb13408057a5677124ece"
+    },
+    "data/b1_critical_audit14.json": {
+      "sources": [
+        "experiments/results/b1_critical_audit14.json"
+      ],
+      "source_sha256": "f51af944c07fcc830672b7ea72f27d1cdb2153c4155ecc8d5d000dee89b26913"
+    },
+    "data/b1_paso0_v2_audit15.json": {
+      "sources": [
+        "experiments/results/b1_paso0_v2_audit15.json"
+      ],
+      "source_sha256": "34104dadcc4b2de098ba159dd71dbbd0cd0c43a8e3a0f0c24e391904cc546bc6"
+    },
+    "data/b2_size_audit8.json": {
+      "sources": [
+        "experiments/results/b2_size_audit8.json"
+      ],
+      "source_sha256": "a1f7f5bd76ea0a1934d7d3b641c46fc11f7cb4000b0c1c190a1c3e0ce54ca343"
+    },
+    "data/b3_fixedb_audit15.json": {
+      "sources": [
+        "experiments/results/b3_fixedb_audit15.json"
+      ],
+      "source_sha256": "a55ff74beb7ed29d26c80a3a3680f18f553228f56278efd605c107ff1491dced"
+    },
+    "data/b4_local_power_audit8.json": {
+      "sources": [
+        "experiments/results/b4_local_power_audit8.json"
+      ],
+      "source_sha256": "e555096ec4b96cdf2f9324bfadc0229905e38a42b11e1bed0692a0a275b58e14"
+    },
+    "data/bA_ma_audit12.json": {
+      "sources": [
+        "experiments/results/bA_ma_audit12.json"
+      ],
+      "source_sha256": "663c563b9dd84a8e16a35b2117ab03dac10f06ea34290a690b2aa2593c2543b1"
+    },
+    "data/bB_attrib_audit12.json": {
+      "sources": [
+        "experiments/results/bB_attrib_audit12.json"
+      ],
+      "source_sha256": "5a517678b80735806f534f3286b5c09ca7519bd7f5590b57b85c189828b72183"
+    },
+    "data/boot35_v18_audit17.json": {
+      "sources": [
+        "experiments/results/boot35_v18_audit17.json"
+      ],
+      "source_sha256": "deba18219f140c2d5eb4f735c934a48760335a68ca315360604447dbadd46c08"
+    },
+    "data/code_check_audit16.json": {
+      "sources": [
+        "experiments/results/code_check_audit16.json"
+      ],
+      "source_sha256": "a650a857d22d99acc109637374747fd84ccd27fd2061d311d06d2549666c3a6f"
+    },
+    "data/crit_msb_mzt_audit14.csv": {
+      "sources": [
+        "experiments/results/tables_audit14/crit_msb_mzt_audit14.csv"
+      ],
+      "source_sha256": "75f18a32f49f5ad00fcad8732eff1e1529c583794da7e893eb71e73687205d9e"
+    },
+    "data/critical_values_audit10.csv": {
+      "sources": [
+        "experiments/results/critical_values_audit10.csv"
+      ],
+      "source_sha256": "e7157f7cd8c4130b04ce15ef5449ccaa3bdd2e4edfb61047b1b840133572ecd9"
+    },
+    "data/e4_slope_audit15.json": {
+      "sources": [
+        "experiments/results/e4_slope_audit15.json"
+      ],
+      "source_sha256": "e5e3a4d942afacf54ca188263b113cd5005e05d2f12c8cedb203a0de1f7bbe9d"
+    },
+    "data/e_application_audit13.json": {
+      "sources": [
+        "experiments/results/e_application_audit13.json"
+      ],
+      "source_sha256": "c8562d1881fbbe4430395eb82fab531e5e609ca708164f5d72f58cc7a281f335"
+    },
+    "data/e_dgp5_audit13.json": {
+      "sources": [
+        "experiments/results/e_dgp5_audit13.json"
+      ],
+      "source_sha256": "bb0982d5ffe450046aac8b4b9b93beca197a0d82fefa4500cbc9d6f81503f3d4"
+    },
+    "data/e_equalized_audit13.json": {
+      "sources": [
+        "experiments/results/e_equalized_audit13.json"
+      ],
+      "source_sha256": "9bf392e2656dc3278af24c39c6aa6d6cbdefc1903f39b47582cd0d408e9b2a0e"
+    },
+    "data/literals_v17b_audit16.json": {
+      "sources": [
+        "experiments/results/literals_v17b_audit16.json"
+      ],
+      "source_sha256": "a9c538dc70a45fc1410cfc18b32c83e88a6325cca7c3b7a822872ac1fffa76a3"
+    },
+    "data/mstats_v18_audit17.json": {
+      "sources": [
+        "experiments/results/mstats_v18_audit17.json"
+      ],
+      "source_sha256": "8b21ef76daa765f01f63fe2e53b733c5b22443b419453861669d59f7e30371d9"
+    },
+    "data/rhat_distribution_audit5.json": {
+      "sources": [
+        "experiments/results/rhat_distribution_audit5.json"
+      ],
+      "source_sha256": "9018a16890ce169090ca9498ade2307ea61bc41bff5fc8775e5d46cc004690d1"
+    },
+    "data/rhat_distribution_audit5b.json": {
+      "sources": [
+        "experiments/results/rhat_distribution_audit5b.json"
+      ],
+      "source_sha256": "9316075944fb28281cfdebb3e3fffe8467b6c8e0d79876e82985dd90e2a533e6"
+    },
+    "data/t5_claims_audit11.json": {
+      "sources": [
+        "experiments/results/t5_claims_audit11.json"
+      ],
+      "source_sha256": "8a8e93edf0951ff6883d06e859bc16773c74aa929837c0f53cef728f88fda6b1"
+    },
+    "data/tables_audit13.json": {
+      "sources": [
+        "experiments/results/tables_audit13.json"
+      ],
+      "source_sha256": "545e58ba690436a14e6cb0ad81e1a4c3f9308541051d145d28a282d10f8546a7"
+    },
+    "figures/fig_dgp3_audit13q.pdf": {
+      "sources": [
+        "paper_latex_v16.zip:figures/fig_dgp3_audit13q.pdf"
+      ],
+      "source_sha256": "d51a8eda794c53e058e7c87b1e0da2ddbd74d20e0376ab55dccf869385d2a4d3"
+    },
+    "figures/fig_local_power_audit13q.pdf": {
+      "sources": [
+        "paper_latex_v16.zip:figures/fig_local_power_audit13q.pdf"
+      ],
+      "source_sha256": "6741bcddfd4d973c4e3216a9ebdd035eb5d793583180f2a1d20d4500751743a2"
+    },
+    "figures/fig_power_equalized_audit13q.pdf": {
+      "sources": [
+        "paper_latex_v16.zip:figures/fig_power_equalized_audit13q.pdf"
+      ],
+      "source_sha256": "b742a8c2b3b8ec1b7535e3825584cc84753ab95c40c5c31346b72546121bc8ad"
+    },
+    "figures/fig_size_shift_audit13q.pdf": {
+      "sources": [
+        "paper_latex_v16.zip:figures/fig_size_shift_audit13q.pdf"
+      ],
+      "source_sha256": "aaeb311b9112183849aa4fe51a74c932052e86f709dd411d228f0fbee04d3001"
+    },
+    "figures/fig_theta_ladder_audit13q.pdf": {
+      "sources": [
+        "paper_latex_v16.zip:figures/fig_theta_ladder_audit13q.pdf"
+      ],
+      "source_sha256": "40d01b8b3282157eff8f5785aa9170f1f25911148651dc960e265c84faeb7669"
+    },
+    "protocols/prediccion_boot_audit15.md": {
+      "sources": [
+        "experiments/prediccion_boot_audit15.md"
+      ],
+      "source_sha256": "f0892e0d29deab3f0262cd2c070d8a672d3d128388e87c78325cf84b53e23672"
+    },
+    "protocols/prediccion_dgp5_audit7.md": {
+      "sources": [
+        "experiments/prediccion_dgp5_audit7.md"
+      ],
+      "source_sha256": "303348aae2a1b23c80d61addaa38ded2470ca0c2b1cd655033431e32655dc986"
+    },
+    "protocols/prediccion_ma_audit12.md": {
+      "sources": [
+        "experiments/prediccion_ma_audit12.md"
+      ],
+      "source_sha256": "38871dd150d16273a2d652f2b36a1e93cc11a6d81f87b4510419ee1ccbaaf06b"
+    },
+    "protocols/protocol.md": {
+      "sources": [
+        "experiments/protocol.md"
+      ],
+      "source_sha256": "0e267b0b49aa34e6f09670b8df17853ca13de452333f0b4ed06c6ee284859fd4"
+    },
+    "protocols/protocol_audit10.md": {
+      "sources": [
+        "experiments/protocol_audit10.md"
+      ],
+      "source_sha256": "2f525d21b7e2719459141f2cec84528e5e6cddd2a6284929254ff31157c5c444"
+    },
+    "protocols/protocol_audit11.md": {
+      "sources": [
+        "experiments/protocol_audit11.md"
+      ],
+      "source_sha256": "30606dd224a998a6290cb60fe3d3c1e341c0c7d5963f97fded6a5b823f50e175"
+    },
+    "protocols/protocol_audit12.md": {
+      "sources": [
+        "experiments/protocol_audit12.md"
+      ],
+      "source_sha256": "bc23db3545cc30d4c394926d6846de1aaea12a052348f795cc7246283e72b2c6"
+    },
+    "protocols/protocol_audit13.md": {
+      "sources": [
+        "experiments/protocol_audit13.md"
+      ],
+      "source_sha256": "ffe3c068db891dcc3b083e517e862fd712c565fcb7e8df613aa0bd091affc575"
+    },
+    "protocols/protocol_audit13_amend1.md": {
+      "sources": [
+        "experiments/protocol_audit13_amend1.md"
+      ],
+      "source_sha256": "0d048db6106824b243ba8fda1336ad0dd4a0e556ba2f72b1099764863ab113d9"
+    },
+    "protocols/protocol_audit14.md": {
+      "sources": [
+        "experiments/protocol_audit14.md"
+      ],
+      "source_sha256": "f4f71b81ae245add1c0732a4eb744bd89cd95a0b0083eddf7c80be92366f212d"
+    },
+    "protocols/protocol_audit15.md": {
+      "sources": [
+        "experiments/protocol_audit15.md"
+      ],
+      "source_sha256": "ea6b0f5a9d9e5998526db291871d8f58fbce54949d858144253589511cd208e2"
+    },
+    "protocols/protocol_audit15_amend1.md": {
+      "sources": [
+        "experiments/protocol_audit15_amend1.md"
+      ],
+      "source_sha256": "dd4dd7c8de2c4dea74320c1052f817dbe488b4d66ddf6bce6f84843dc8326000"
+    },
+    "protocols/protocol_audit15_amend2.md": {
+      "sources": [
+        "experiments/protocol_audit15_amend2.md"
+      ],
+      "source_sha256": "25fe17adfd1ad514d5a7c47cf6490a52202b8531200f4ae8c0884dc31494d409"
+    },
+    "protocols/protocol_audit15_amend3.md": {
+      "sources": [
+        "experiments/protocol_audit15_amend3.md"
+      ],
+      "source_sha256": "90485f945a57bc46f5a816b589c2c79334aa140cd1644f0c2585999be4824737"
+    },
+    "protocols/protocol_audit15_amend4.md": {
+      "sources": [
+        "experiments/protocol_audit15_amend4.md"
+      ],
+      "source_sha256": "81181c41afff52f51470a2ee68fe8d19f1ee8851e0d040b7c114422c15e6b148"
+    },
+    "protocols/protocol_audit15_amend5.md": {
+      "sources": [
+        "experiments/protocol_audit15_amend5.md"
+      ],
+      "source_sha256": "e73f33e2b6c7ec05300929ca6f9c113d2e4e5993363d997b16a0cfebe81d728b"
+    },
+    "protocols/protocol_audit15_amend6.md": {
+      "sources": [
+        "experiments/protocol_audit15_amend6.md"
+      ],
+      "source_sha256": "0bcddfba387ca7acbadeb67356d5e30e26205b65c15c5397da2234c0f5a97ce9"
+    },
+    "protocols/protocol_audit15_amend7.md": {
+      "sources": [
+        "experiments/protocol_audit15_amend7.md"
+      ],
+      "source_sha256": "e5d6240d23a8f0cb96735d1b62687698133cc6cccc7addb70dffd78435512c15"
+    },
+    "protocols/protocol_audit8.md": {
+      "sources": [
+        "experiments/protocol_audit8.md"
+      ],
+      "source_sha256": "ffc7c5dc20d8651d4aa61747c7a89209b29c73d7001eda788934bcd4d93cee64"
+    },
+    "protocols/protocol_audit8_amend1.md": {
+      "sources": [
+        "experiments/protocol_audit8_amend1.md"
+      ],
+      "source_sha256": "74fe655eb2f7e19cc6ebbd4dee89c45a093b5039c90493d40092e131a9490637"
+    },
+    "protocols/protocol_audit8_amend2.md": {
+      "sources": [
+        "experiments/protocol_audit8_amend2.md"
+      ],
+      "source_sha256": "2feb6ef591af473db4b21a65a48ab14574554bb3d102f31564f1cf5bc16fe1bc"
+    },
+    "protocols/protocol_audit9.md": {
+      "sources": [
+        "experiments/protocol_audit9.md"
+      ],
+      "source_sha256": "65ec1ead7dddaae9737f2fe21ffc4d640bcac282228f2296df91c4d28c5b70f9"
+    },
+    "references.bib": {
+      "sources": [
+        "paper_latex_v18.zip:references.bib",
+        "paper_latex_v16.zip:references.bib"
+      ]
+    },
+    "supplement.tex": {
+      "sources": [
+        "generado"
+      ]
+    },
+    "tables/s1_tab_ctpower_full.tex": {
+      "sources": [
+        "e_equalized_audit13.json"
+      ]
+    },
+    "tables/s1_tab_dgp1_full.tex": {
+      "sources": [
+        "e_equalized_audit13.json"
+      ]
+    },
+    "tables/s2_diag_a_diagnostics_null.tex": {
+      "sources": [
+        "bA_ma_audit12.json"
+      ]
+    },
+    "tables/s2_diag_b_diagnostics_alt.tex": {
+      "sources": [
+        "bA_ma_audit12.json"
+      ]
+    },
+    "tables/s2_diag_c_attribution_diagnostics.tex": {
+      "sources": [
+        "bB_attrib_audit12.json"
+      ]
+    },
+    "tables/s5_tab_awb_theta0p02.tex": {
+      "sources": [
+        "tables_audit13.json"
+      ]
+    },
+    "tables/s5_tab_calib_theta0p02.tex": {
+      "sources": [
+        "tables_audit13.json"
+      ]
+    },
+    "tables/s5_tab_ctpower_theta0p02.tex": {
+      "sources": [
+        "tables_audit13.json"
+      ]
+    },
+    "tables/s5_tab_dgp1_theta0p02.tex": {
+      "sources": [
+        "tables_audit13.json"
+      ]
+    },
+    "tables/s5_tab_dgp2_theta0p02.tex": {
+      "sources": [
+        "tables_audit13.json"
+      ]
+    },
+    "tables/s5_tab_dgp3_theta0p02.tex": {
+      "sources": [
+        "tables_audit13.json"
+      ]
+    },
+    "tables/s5_tab_dgp5_theta0p02.tex": {
+      "sources": [
+        "tables_audit13.json"
+      ]
+    },
+    "tables/s5_tab_dgp5_theta0p02_note.tex": {
+      "sources": [
+        "paper_latex_v13.zip"
+      ]
+    },
+    "tables/s5_tab_fp_theta0p02.tex": {
+      "sources": [
+        "tables_audit13.json"
+      ]
+    },
+    "tables/s5_tab_fp_theta0p02_note.tex": {
+      "sources": [
+        "paper_latex_v13.zip"
+      ]
+    },
+    "tables/s5_tab_localpower_theta0p02.tex": {
+      "sources": [
+        "tables_audit13.json"
+      ]
+    },
+    "tables/s5_tab_misspec_theta0p02.tex": {
+      "sources": [
+        "tables_audit13.json"
+      ]
+    },
+    "tables/s5_tab_size_theta0p02.tex": {
+      "sources": [
+        "tables_audit13.json"
+      ]
+    },
+    "tables/s6_neg_a_variance_channel.tex": {
+      "sources": [
+        "b2_size_audit8.json"
+      ]
+    },
+    "tables/s6_neg_b_adaptive_weight.tex": {
+      "sources": [
+        "rhat_distribution_audit5b.json"
+      ]
+    },
+    "tables/s6_neg_c_rebalancing.tex": {
+      "sources": [
+        "adaptive_size_power_audit5b.json"
+      ]
+    },
+    "tables/s6_neg_d_mean_anchor.tex": {
+      "sources": [
+        "t5_claims_audit11.json",
+        "b4_local_power_audit8.json"
+      ]
+    },
+    "tables/s6_tab_dgp5_full.tex": {
+      "sources": [
+        "e_dgp5_audit13.json"
+      ]
+    },
+    "tables/s7_hac_a_rates.tex": {
+      "sources": [
+        "e4_slope_audit15.json"
+      ]
+    },
+    "tables/s7_hac_b_hac_median.tex": {
+      "sources": [
+        "audit2_results_audit2.json"
+      ]
+    },
+    "tables/s8_critical_theta_0.tex": {
+      "sources": [
+        "b103_cv_audit10.json"
+      ]
+    },
+    "tables/s8_critical_theta_0p02.tex": {
+      "sources": [
+        "b103_cv_audit10.json"
+      ]
+    },
+    "tables/s8_critical_theta_0p05.tex": {
+      "sources": [
+        "b103_cv_audit10.json"
+      ]
+    },
+    "tables/s8_critical_theta_0p1.tex": {
+      "sources": [
+        "b103_cv_audit10.json"
+      ]
+    },
+    "tables/s8_critical_theta_0p2.tex": {
+      "sources": [
+        "b103_cv_audit10.json"
+      ]
+    },
+    "tables/s9_app_a_oos_size.tex": {
+      "sources": [
+        "e_application_audit13.json"
+      ]
+    },
+    "tables/s9_app_b_adverse_cells.tex": {
+      "sources": [
+        "e_application_audit13.json"
+      ]
+    },
+    "tables/s9_app_c_fp_by_cell.tex": {
+      "sources": [
+        "e_application_audit13.json"
+      ]
+    },
+    "tables/s9_app_d_latency_by_event.tex": {
+      "sources": [
+        "e_application_audit13.json"
+      ]
+    },
+    "tables/tab_awb_audit13.tex": {
+      "sources": [
+        "experiments/results/tables_audit13/tab_awb_audit13.tex"
+      ],
+      "source_sha256": "2953b2372b26706d6f7e0499c71aa792ce712595b4cbdd47b9675d824efe7452"
+    },
+    "tables/tab_boot_audit15.tex": {
+      "sources": [
+        "experiments/results/tables_audit15/tab_boot_audit15.tex"
+      ],
+      "source_sha256": "ce5795102387b9fe363d4cee34369e31454b9778370de8669af17cd2c01fb027"
+    },
+    "tables/tab_boot_note_audit15.tex": {
+      "sources": [
+        "experiments/results/tables_audit15/tab_boot_note_audit15.tex"
+      ],
+      "source_sha256": "1ecd9473aabf8cc35aa2655c8a3b8e1266fb4662cabff298629353b9facd8414"
+    },
+    "tables/tab_critMSB_audit14.tex": {
+      "sources": [
+        "experiments/results/tables_audit14/tab_critMSB_audit14.tex"
+      ],
+      "source_sha256": "152b4ec3ad2b01ae67020547dd2f2a471f3a626439330103af0f8802dc22aed3"
+    },
+    "tables/tab_critMSB_note_audit14.tex": {
+      "sources": [
+        "experiments/results/tables_audit14/tab_critMSB_note_audit14.tex"
+      ],
+      "source_sha256": "e4853481d5431451dccb35619d7be71865f964544f0aed5746731eb2cc7be693"
+    },
+    "tables/tab_dgp2_audit13.tex": {
+      "sources": [
+        "experiments/results/tables_audit13/tab_dgp2_audit13.tex"
+      ],
+      "source_sha256": "82820f35e76b9b476ce42e276bcfed9e9d97d40220c078d283fa4558904d06cc"
+    },
+    "tables/tab_dgp3_audit13.tex": {
+      "sources": [
+        "experiments/results/tables_audit13/tab_dgp3_audit13.tex"
+      ],
+      "source_sha256": "50447ad976cf25c02d6dcce3fffeffcb78410b18e9033f1653556f7bd34d510f"
+    },
+    "tables/tab_fixedb_size_audit15.tex": {
+      "sources": [
+        "experiments/results/tables_audit15/tab_fixedb_size_audit15.tex"
+      ],
+      "source_sha256": "01c1bea3f4433f1cce5bd26ead60b779d3422a51be5778af035254924180b7d1"
+    },
+    "tables/tab_fixedb_size_note_audit15.tex": {
+      "sources": [
+        "experiments/results/tables_audit15/tab_fixedb_size_note_audit15.tex"
+      ],
+      "source_sha256": "9144e1f9bdd9aa0ac53368b7ce775aacc7e9cbff5ae312f7975fffd8400964e5"
+    },
+    "tables/tab_fp_audit13.tex": {
+      "sources": [
+        "experiments/results/tables_audit13/tab_fp_audit13.tex"
+      ],
+      "source_sha256": "b76b26cd4e462328e66c46a12fa0790c23f606a67dec9f5551d0f16e45364e89"
+    },
+    "tables/tab_initial_audit13.tex": {
+      "sources": [
+        "experiments/results/tables_audit13/tab_initial_audit13.tex"
+      ],
+      "source_sha256": "4dcfc29ddf0bd2b42164cd0075a19a909c4505b8b51524c9b04fd1c58bcee695"
+    },
+    "tables/tab_lag_audit15.tex": {
+      "sources": [
+        "experiments/results/tables_audit15/tab_lag_audit15.tex"
+      ],
+      "source_sha256": "6564d58a200f6995b13a9eae828a00b883233e654e12767db37750dd66c30979"
+    },
+    "tables/tab_misspec_audit13.tex": {
+      "sources": [
+        "experiments/results/tables_audit13/tab_misspec_audit13.tex"
+      ],
+      "source_sha256": "4c3f8474263c0243cc663446931ce3d79ac3810ec443d9839d96b11bd3ec1dcf"
+    },
+    "tables/tab_serial_asy_audit15.tex": {
+      "sources": [
+        "experiments/results/tables_audit15/tab_serial_asy_audit15.tex"
+      ],
+      "source_sha256": "cb2da9cd06eb8e681da4ef8cec305b9dbdf8ec33bad0335aeb1c1ed46aee6f68"
+    },
+    "tables/tab_serial_audit13.tex": {
+      "sources": [
+        "experiments/results/tables_audit13/tab_serial_audit13.tex"
+      ],
+      "source_sha256": "cd6a1d7ade12ea0784c217dada4aa82b92c37a7ba66bafeecaceb1ae8d9ad66b"
+    },
+    "tables/tab_serialpower_audit13.tex": {
+      "sources": [
+        "experiments/results/tables_audit13/tab_serialpower_audit13.tex"
+      ],
+      "source_sha256": "89c7c311f5e3b04a7ee9492ca8cb7ed1589e5ee4a27541279f04d91104439db7"
+    },
+    "tables/tab_size_audit13.tex": {
+      "sources": [
+        "experiments/results/tables_audit13/tab_size_audit13.tex"
+      ],
+      "source_sha256": "8b57a3f1289301aad0bba50c6c2af2bca994b00070f78aafbab364d6eab3698b"
+    }
+  },
+  "n_files": 110,
+  "anonymization_scan": {
+    "files": 110,
+    "totals": {
+      "ruta_de_usuario": {
+        "files": 0,
+        "hits": 0
+      },
+      "usuario_git": {
+        "files": 0,
+        "hits": 0
+      },
+      "usuario_local": {
+        "files": 0,
+        "hits": 0
+      },
+      "apellido": {
+        "files": 0,
+        "hits": 0
+      },
+      "correo": {
+        "files": 0,
+        "hits": 0
+      },
+      "url_repositorio": {
+        "files": 0,
+        "hits": 0
+      },
+      "hash_de_commit": {
+        "files": 22,
+        "hits": 24
+      }
+    },
+    "non_hash_hits": 0,
+    "hits": {}
+  },
+  "compile": {
+    "compiled": true,
+    "errors": 0,
+    "first_errors": [],
+    "undefined_references": 0,
+    "undefined_citations": 0,
+    "undefined_list": [],
+    "bibtex_warnings": 0,
+    "overfull": 0,
+    "pages": 36,
+    "returncodes": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
