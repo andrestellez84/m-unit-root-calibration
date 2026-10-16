@@ -5,8 +5,8 @@
 Andrés Felipe Téllez Crespo (ORCID [0009-0004-7680-6585](https://orcid.org/0009-0004-7680-6585)), Independent Researcher, Mexico City. License: see *License*.
 
 **How to cite.** Téllez Crespo, A. F. (2026). *Calibrating M-type unit-root tests in finite samples: exact tables, the sieve bootstrap and a kernel long-run variance* — replication package (version 1.0.0). Zenodo. https://doi.org/10.5281/zenodo.23424031 (machine-readable metadata in `CITATION.cff`).
-**Repository.** https://github.com/andrestellez84/m-unit-root-calibration (release v1.0.0, identical to the Zenodo record).
 
+**Repository.** https://github.com/andrestellez84/m-unit-root-calibration (release v1.0.0, identical to the Zenodo record).
 This package contains the code, protocols, result files and supplementary material needed to reproduce every table of the paper (Tables 1-6 and B1) and of its supplement (Tables S1.1-S9.6). It does not contain the price data of the application (see *Application data*), simulation checkpoints, or files that contain local user paths (see *What is not included*).
 
 ## Contents
