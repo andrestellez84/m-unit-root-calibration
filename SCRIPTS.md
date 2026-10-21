@@ -12,8 +12,10 @@ An English guide to the scripts that matter for reproducing the paper. The scrip
 | `experiments/audit15_bootur_paso0_v2.R` | Runs bootUR itself on the same series, to check the replication (supplement, Section S2). |
 | `experiments/audit10_engine.py` | The calibration of the null law (500 000 paths per sample size). |
 | `experiments/download_data.py` | Downloads the price data of the application; `verify_frozen_data.py` checks them against the frozen hashes. |
-| `experiments/make_figures_audit13q.py` | Figure 1 of the paper and the figures of the supplement. |
+| `experiments/make_figures_audit19.py` | Figure 1 of the paper, from the result file of Table 1 only (audit A19). |
+| `experiments/make_figures_audit13q.py` | The figures of the supplement. |
 | `experiments/audit18_supplement.py` | Builds the supplement (calls `audit17_supplement.py`, `audit16_supplement.py` and `audit15_supplement.py`). |
+| `experiments/audit19_supplement.py` | Edits of form to the built supplement, each recorded with its anchor (audit A19). |
 | `experiments/*_run_chain.sh` | The order in which the scripts of each audit were run. |
 
 ## Tables of the paper

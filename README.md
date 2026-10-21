@@ -4,11 +4,11 @@
 
 Andrés Felipe Téllez Crespo (ORCID [0009-0004-7680-6585](https://orcid.org/0009-0004-7680-6585)), Independent Researcher, Mexico City. License: see *License*.
 
-**How to cite.** Téllez Crespo, A. F. (2026). *Calibrating M-type unit-root tests in finite samples: exact tables, the sieve bootstrap and a kernel long-run variance* — replication package (version 1.0.0). Zenodo. https://doi.org/10.5281/zenodo.23424031 (machine-readable metadata in `CITATION.cff`).
+**How to cite.** Téllez Crespo, A. F. (2026). *Calibrating M-type unit-root tests in finite samples: exact tables, the sieve bootstrap and a kernel long-run variance* — replication package (version 1.0.1). Zenodo. https://doi.org/10.5281/zenodo.23424031 (machine-readable metadata in `CITATION.cff`).
 
-**Repository.** https://github.com/andrestellez84/m-unit-root-calibration (release v1.0.0, identical to the Zenodo record).
+**Repository.** https://github.com/andrestellez84/m-unit-root-calibration (release v1.0.1, identical to the Zenodo record).
 
-This package contains the code, protocols, result files and supplementary material needed to reproduce every table of the paper (Tables 1-6 and B1) and of its supplement (Tables S1.1-S9.6). It does not contain the price data of the application (see *Application data*), simulation checkpoints, or files that contain local user paths (see *What is not included*).
+This package contains the code, protocols, result files and supplementary material needed to reproduce every table and figure of the paper (Tables 1-6 and Figure 1) and of its supplement (Tables S1.1-S9.6). It does not contain the price data of the application (see *Application data*), simulation checkpoints, or files that contain local user paths (see *What is not included*).
 
 ## Contents
 
@@ -22,6 +22,7 @@ This package contains the code, protocols, result files and supplementary materi
 | `experiments/results/manifest_audit*.json` | Per-audit manifests: sha256, bytes, script and commit of every result file |
 | `experiments/results/MANIFEST_audit5*.sha256` | Earlier `sha256sum` manifests of the pre-registered files (paths relative to the package root) |
 | `experiments/results/resultados_auditoria_*.md` | Internal reports of the verification rounds, in Spanish; they are kept because the manifests or a script cite them (the others are not included) |
+| `experiments/figures/fig_calibration_gain_audit19.pdf` | Figure 1 of the paper |
 | `experiments/results/tables_audit1[3-6]/` | The LaTeX tabulars of the paper and their notes, generated from the JSON files |
 | `supplementary/` | The supplement: `supplement.tex`, its tables, data, protocols, `README.md` and `MANIFEST.sha256` |
 | `experiments/download_data.py`, `experiments/data/data_registry_frozen.json`, `verify_frozen_data.py` | Application data: download and verification |
@@ -34,7 +35,7 @@ This package contains the code, protocols, result files and supplementary materi
 
 Python 3.11.0 with the pinned packages of `environment.yml` (`conda env create -f environment.yml`), R 4.6.1 with bootUR 1.0.5 for the bootUR comparisons. `ENVIRONMENT.txt` lists every version. All timings below were recorded on a Windows 11 workstation using 14-16 cores.
 
-Run the tests after installing: `python -m pytest tests` (369 tests; 15–35 minutes on a first run, which compiles the numba functions, and about 12 minutes once the numba cache exists).
+Run the tests after installing: `python -m pytest tests` (402 tests; 15–35 minutes on a first run, which compiles the numba functions, and about 12 minutes once the numba cache exists).
 
 ## Application data
 
@@ -66,13 +67,13 @@ Every table exists at two levels. **(A)** The tabular is generated from result f
 | Table 5 | Power of MZt-GLS with five calibrations | `python experiments/audit15_v17_tables.py` → `experiments/results/tables_audit15/tab_bootpower_audit15.tex` | `b1_boot_audit15.json` | `experiments/audit15_b1_boot.py` | ~ 46 min (sum of batch times, logs_audit15/b1_boot_audit15.log) | experiments/audit14_b1_critical.py (iid critical values, from the A10 calibration) |
 | Table 6 | MSB-B with fixed Bartlett bandwidths | `python experiments/audit16_v17_tables.py` → `experiments/results/tables_audit16/tab_fixedb_audit16.tex` | `b3_fixedb_audit15.json` | `experiments/audit15_b3_fixedb.py` | ~ 3 min (sum of batch times, logs_audit15/b3_fixedb_audit15.log) | self-contained: its own calibration (family 155) |
 |  |  |  | `bA_ma_audit12.json` | `experiments/audit12_bA_ma.py` | ~ 28 min (sum of batch times, logs_audit12/bA_run_audit12.log) | experiments/audit10_b101_theta.py (A10 calibration), ~ 36 min; experiments/audit12_cal.py (family 136 calibration), ~ 30 min |
-| Table B1 | Critical values of MSB-GLS and MZt-GLS | `python experiments/audit14_tables.py` → `experiments/results/tables_audit14/tab_critMSB_audit14.tex` | `b1_critical_audit14.json` | `experiments/audit14_b1_critical.py` | ~ 23 s (`elapsed_sec` field of the JSON (analysis step only)) | experiments/audit10_b101_theta.py (A10 calibration samples), ~ 36 min |
+| Table S8.6 (Table B1 of the main text up to the submitted version v18b) | Critical values of MSB-GLS and MZt-GLS | `python experiments/audit14_tables.py` → `experiments/results/tables_audit14/tab_critMSB_audit14.tex` | `b1_critical_audit14.json` | `experiments/audit14_b1_critical.py` | ~ 23 s (`elapsed_sec` field of the JSON (analysis step only)) | experiments/audit10_b101_theta.py (A10 calibration samples), ~ 36 min |
 
-Figure 1 (`fig_calibration_gain_audit13q.pdf`) is drawn by `python experiments/make_figures_audit13q.py` from `e_calib_audit13.json`.
+Figure 1 (`experiments/figures/fig_calibration_gain_audit19.pdf`) is drawn by `python experiments/make_figures_audit19.py` from `e_calib_audit13.json` alone, the same 20,000 common paths per point as Table 1; `tests/test_figure1_audit19.py` checks that every point equals the printed cell of Table 1. Version 1.0.0 pointed to `make_figures_audit13q.py`, whose Figure 1 combined four result files with different paths (audit A19).
 
 ### Supplement
 
-The supplement is built as a whole by `experiments/audit18_supplement.py` (which calls `audit17_supplement.py`, `audit16_supplement.py` and `audit15_supplement.py`); its tabulars, figures, data and protocols are included, already built, in `supplementary/`, and `supplementary/README.md` maps every tabular to its source. To rebuild it, the two manuscript source archives it transcribes and numbers against, `paper_latex_v16.zip` and `paper_latex_v18b.zip` (not part of this package), must be placed in the parent directory of the package root; then run `python experiments/audit18_supplement.py --out <dir>`. The result files and the scripts that produce them are included:
+The supplement is built as a whole by `experiments/audit18_supplement.py` (which calls `audit17_supplement.py`, `audit16_supplement.py` and `audit15_supplement.py`) and then edited, in form only, by `experiments/audit19_supplement.py` (audit A19; every edit is recorded in `experiments/results/supplement_v25_audit19.json`); its tabulars, figures, data and protocols are included, already built, in `supplementary/`, and `supplementary/README.md` maps every tabular to its source. To rebuild it, the two manuscript source archives it transcribes and numbers against, `paper_latex_v16.zip` and `paper_latex_v18b.zip` (not part of this package), must be placed in the parent directory of the package root; then run `python experiments/audit18_supplement.py --out <dir>`. The result files and the scripts that produce them are included:
 
 | Table | Label | Tabular | Result file(s) | Script that produces the result file | Time |
 |---|---|---|---|---|---|
@@ -136,11 +137,20 @@ The supplement is built as a whole by `experiments/audit18_supplement.py` (which
 
 ## Integrity
 
-`MANIFEST.sha256` lists the sha256 of every file in this package (`sha256sum -c MANIFEST.sha256` on Linux/macOS). Each `experiments/results/manifest_audit*.json` records, for every result file of that audit, its sha256, the generating script and its sha256, and the commit; `supplementary/MANIFEST.sha256` covers the supplement.
+`MANIFEST.sha256` lists the sha256 of every other file in this package, including `supplementary/MANIFEST.sha256` (`sha256sum -c MANIFEST.sha256` on Linux/macOS). Each `experiments/results/manifest_audit*.json` records, for every result file of that audit, its sha256, the generating script and its sha256, and the commit; `supplementary/MANIFEST.sha256` covers the supplement.
 
 ## Development history
 
-The work was carried out as a sequence of verification rounds, called audits (A1-A18). Each audit started from a written protocol that was committed to version control before any number was computed, and the scripts of an audit carry its number (`auditNN_*`). Changes of plan were registered as numbered amendments, and predictions about the outcome of expensive experiments were committed before running them (`experiments/protocol*.md`, `prediccion*.md`, `enmienda*.md`; anonymized copies in `supplementary/protocols/`). Components of the method that were evaluated and then discarded, such as the smoothing window, the second channel and the adaptive weight, are reported in Sections S5 and S6 of the supplement. The code was written and audited with the assistance of AI coding agents, as declared in Section 4.1 of the paper; all design and reporting decisions were approved by the author, who reviewed all code and takes full responsibility for it. Result files record the agent that produced them in the `provenance.assistant` field from the fifteenth audit on.
+The work was carried out as a sequence of verification rounds, called audits (A1-A19). Each audit started from a written protocol that was committed to version control before any number was computed, and the scripts of an audit carry its number (`auditNN_*`). Changes of plan were registered as numbered amendments, and predictions about the outcome of expensive experiments were committed before running them (`experiments/protocol*.md`, `prediccion*.md`, `enmienda*.md`; anonymized copies in `supplementary/protocols/`). Components of the method that were evaluated and then discarded, such as the smoothing window, the second channel and the adaptive weight, are reported in Sections S5 and S6 of the supplement. The code was written and audited with the assistance of AI coding agents, as declared in Section 4.1 of the paper; all design and reporting decisions were approved by the author, who reviewed all code and takes full responsibility for it. Result files record the agent that produced them in the `provenance.assistant` field from the fifteenth audit on.
+
+## Changes in version 1.0.1
+
+Audit A19 (`experiments/protocol_audit19.md`, report `experiments/results/resultados_auditoria_19.md`); no new simulation, and no number of the paper or the supplement changes.
+
+- Figure 1 is drawn from the same common paths as Table 1 (`make_figures_audit19.py`).
+- Supplement, form only: the sentence on bold entries is removed from the captions of the seven tables of Section S5 that have none; the definition of RM moves to the note of every table with an RM column; the numerical check of invariance has its own subsection in S2; the sentence on the SB and SWB moves to the end of the variance-break subsection of S4; the sentence of S7 on the rate of the HAC estimator points to Appendix A.5 of the main text; the note of Table S4.3 states that, with R = 399, its rejection rule gives the same decision as (1 + #)/(R + 1) <= 0.05.
+- New tests: Figure 1 against Table 1, the AWB rejection rules, and the new exact figures of the main text (Remark 1 and Appendices A.4 and A.5).
+- The root `MANIFEST.sha256` now also covers `supplementary/MANIFEST.sha256`.
 
 ## License
 

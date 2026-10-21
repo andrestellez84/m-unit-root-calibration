@@ -57,6 +57,7 @@ expensive block runs, and what counts as each possible outcome.
 | `protocol_audit15_amend6.md` | Amendment 6 (audit A16): checks of the text against the code, new printed figures, the reconstruction of the supplement and a coherence check of a manuscript version. |
 | `protocol_audit15_amend7.md` | Amendment 7 (audit A17): checks of the submitted version (formulas against the code, the bootstrap description against bootUR), edits to the supplement and the submission package. |
 | `protocol_audit15_amend8.md` | Amendment 8 (audit A18): final repackaging of the submitted version. |
+| `protocol_audit19.md` | Audit A19: Figure 1 on the common paths of Table 1, the rejection rule of the AWB, edits of form to the supplement, tests of the new exact figures of the main text, and version 1.0.1 of this package. |
 
 Audits 1 to 6 predate the practice of writing a protocol per audit; their scripts and result files are included, and the
 application they used was governed by `protocol.md`.

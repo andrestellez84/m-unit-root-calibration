@@ -7,7 +7,7 @@ The following parts of this package are licensed under the Creative Commons Attr
 - the result files: `experiments/results/` (JSON, CSV, Markdown and LaTeX files) and `supplementary/data/`;
 - the supplement: `supplementary/supplement.tex`, `supplementary/tables/`, `supplementary/README.md` and the protocol documents in
   `supplementary/protocols/` and `experiments/` (`protocol*.md`, `prediccion*.md`, `enmienda*.md`);
-- the figures: `supplementary/figures/`;
+- the figures: `supplementary/figures/` and `experiments/figures/fig_calibration_gain_audit19.pdf`;
 - the documentation: `README.md`, `PROTOCOLS.md`, `SCRIPTS.md` and `ENVIRONMENT.txt`.
 
 You are free to share and adapt this material for any purpose, including commercially, provided you give appropriate credit,

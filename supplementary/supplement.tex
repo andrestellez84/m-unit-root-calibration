@@ -47,8 +47,6 @@ Sections, tables and figures are numbered S$k$ and S$k.j$. Every table is genera
 \FloatBarrier
 \section{Power under i.i.d.\ errors at equalized size}\label{supp:s1}
 
-RM: the centred rolling-means statistic with $\theta = 0.1$.
-
 \subsection*{Size}
 
 \Cref{tab:size} reports the size of \RMGLS{} under equation~(2) of the main text. Every
@@ -109,7 +107,7 @@ case, at equalized size, $\alpha = 0.05$.}
 \input{tables/s1_tab_dgp1_full}
 \begin{tablenotes}\footnotesize
 \item All comparators at simulated critical values; MZ$_t$ and MSB are
-the GLS versions. $p$: exact McNemar test of \RMGLS{} against DF-GLS.
+the GLS versions. $p$: exact McNemar test of \RMGLS{} against DF-GLS. RM: the centred rolling-means statistic with $\theta = 0.1$.
 \end{tablenotes}
 \end{threeparttable}
 \end{table}
@@ -123,7 +121,7 @@ trend, trend case, at equalized size, $\alpha = 0.05$.}
 \small
 \input{tables/s1_tab_ctpower_full}
 \begin{tablenotes}\footnotesize
-\item As in \cref{tab:dgp1}.
+\item As in \cref{tab:dgp1}. RM: the centred rolling-means statistic with $\theta = 0.1$.
 \end{tablenotes}
 \end{threeparttable}
 \end{table}
@@ -205,11 +203,13 @@ $2\times10^4$ paths.
 \end{minipage}
 \end{table}
 
+\subsection*{A numerical check of invariance}
+
+The invariance of Proposition~2 of the main text was checked numerically for MSB-GLS and MZ$_t$-GLS on 6000 Gaussian random walks ($n \in \{100, 200, 500\}$, both deterministic cases), each under 3 affine transformations: the lag selected by the MAIC never changed, and MSB changed by at most a relative $3.8\times10^{-13}$. The relative change of MZ$_t$ reached $5.1\times10^{-10}$, on paths on which MZ$_t$ is close to zero ($-3.1\times10^{-4}$ and $-1.1\times10^{-4}$), because its numerator $T^{-1}\uhat_n^2 - s^2$ is then the difference of two nearly equal terms; the absolute change never exceeded $8.5\times10^{-13}$.
+
 \subsection*{The sieve bootstraps}
 
 Three details of the package are not in the main text. First, the SB draws the residuals with replacement from positions $0, \dots, T - l$ only, with $l = \mathrm{round}(1.75\,T^{1/3})$ the default block length, so the last $l - 1$ residuals are never drawn. Second, the regression that defines the bootstrap data-generating process is not trimmed: its missing initial lags are filled with zeros, so the first $p + 1$ residuals are computed with some regressors set to zero, and the first of them is the detrended first observation itself; the autoregressive recursion that generates the bootstrap increments starts at zero, and $\rw^*_0 = 0$. Third, the package reports the $p$-value $\#\{t^* < t\}/B$, while our calibrations use $(1 + \#\{T^{*(r)} \leq T\})/(R + 1)$ and reject when it is at most $0.05$.
-
-The invariance of Proposition~2 of the main text was checked numerically for MSB-GLS and MZ$_t$-GLS on 6000 Gaussian random walks ($n \in \{100, 200, 500\}$, both deterministic cases), each under 3 affine transformations: the lag selected by the MAIC never changed, and MSB changed by at most a relative $3.8\times10^{-13}$. The relative change of MZ$_t$ reached $5.1\times10^{-10}$, on paths on which MZ$_t$ is close to zero ($-3.1\times10^{-4}$ and $-1.1\times10^{-4}$), because its numerator $T^{-1}\uhat_n^2 - s^2$ is then the difference of two nearly equal terms; the absolute change never exceeded $8.5\times10^{-13}$.
 
 The replication was checked against the package before any bootstrap result was computed. On 200 series of length $n = 200$ with $B = 999$ bootstrap replications, the replicated statistic matched the package to a largest absolute difference of $1.7\times10^{-14}$ and the selected lag in every series (SB and SWB). The mean signed difference between the replicated and the package $p$-values was $-0.0007$ (standard error $0.0013$) for the SB and $-0.0015$ (standard error $0.0013$) for the SWB, and the mean absolute difference, $0.0148$ and $0.0140$, was within the bound implied by two independent bootstrap draws ($0.0168$ and $0.0163$). On 2000 paired paths per case, the rejection rates of the replication and of the package were $0.0465$ and $0.0450$ (SB) and $0.0475$ and $0.0475$ (SWB) in the constant case, and $0.0525$ and $0.0480$ (SB) and $0.0465$ and $0.0510$ (SWB) in the trend case.
 
@@ -359,7 +359,7 @@ for ZA). ZA is the test of \citet{zivot1992further} with an
 endogenous break in the intercept. $p$: exact McNemar test of \RMGLS{}
 against DF-GLS-sim. The size of ZA reported in the text uses its asymptotic
 $p$-value on separate paths and lies inside the exact region
-$[0.0440, 0.0562]$ in all six cells.
+$[0.0440, 0.0562]$ in all six cells. RM: the centred rolling-means statistic with $\theta = 0.1$.
 \end{minipage}
 \end{table}
 
@@ -406,7 +406,7 @@ $\alpha = 0.05$.}
 \input{tables/tab_dgp3_audit13}
 \begin{tablenotes}\footnotesize
 \item 5000 common paths per cell; all procedures at simulated critical
-values. Bold: outside $[0.0440, 0.0562]$.
+values. Bold: outside $[0.0440, 0.0562]$. RM: the centred rolling-means statistic with $\theta = 0.1$.
 \end{tablenotes}
 \end{threeparttable}
 \end{table}
@@ -421,7 +421,7 @@ simulated calibration of Definition~1 of the main text, on common paths.}
 \input{tables/tab_awb_audit13}
 \begin{tablenotes}\footnotesize
 \item 2000 common paths per cell; $R = 399$. Bold: outside the exact
-region $[0.0405, 0.0600]$ for 2000 paths. The AWB p-value here is $\#\{S^{*} \leq S\}/R$, not the $(1 + \#)/(R + 1)$ of Section~3.5 of the main text.
+region $[0.0405, 0.0600]$ for 2000 paths. The AWB p-value here is $\#\{S^{*} \leq S\}/R$, not the $(1 + \#)/(R + 1)$ of Section~3.5 of the main text. With $R = 399$, rejecting when $\#/R < 0.05$ gives the same decision as $(1 + \#)/(R + 1) \leq 0.05$: both reject exactly when $\# \leq 19$.
 \end{tablenotes}
 \end{threeparttable}
 \end{table}
@@ -433,6 +433,8 @@ region $[0.0405, 0.0600]$ for 2000 paths. The AWB p-value here is $\#\{S^{*} \le
 of ratio $r$; the null is true.}
 \label{fig:dgp3}
 \end{figure}
+
+The sieve bootstrap (SB) and the sieve wild bootstrap (SWB) calibrations of MZ$_t$-GLS were not evaluated under variance breaks.
 
 \subsection*{Heavy tails and conditional heteroskedasticity}
 
@@ -485,8 +487,6 @@ innovations, in percentage points, for the two specifications evaluated
 up to $n=5000$. Bands: $\pm1.96$ standard errors.}
 \label{fig:sizeshift}
 \end{figure}
-
-The sieve bootstrap (SB) and the sieve wild bootstrap (SWB) calibrations of MZ$_t$-GLS were not evaluated under variance breaks.
 
 \FloatBarrier
 \section{The smoothed family $S_\theta$}\label{supp:s5}
@@ -561,11 +561,9 @@ against the window $\theta$ of the smoothed statistic, at $c \in \{5, 10,
 
 \subsection*{Tables with $\theta = 0.02$}
 
-RM: the centred rolling-means statistic with $\theta = 0.1$.
-
 \begin{table}[htbp]
 \centering
-\caption{As \cref{tab:size}, computed with $\theta = 0.02$. Bold entries follow the rule stated in its note.}
+\caption{As \cref{tab:size}, computed with $\theta = 0.02$.}
 \label{tab:size02}
 \small
 \begin{adjustbox}{max width=\textwidth}
@@ -585,7 +583,7 @@ RM: the centred rolling-means statistic with $\theta = 0.1$.
 
 \begin{table}[htbp]
 \centering
-\caption{As Table~2 of the main text, computed with $\theta = 0.02$. Bold entries follow the rule stated in its note.}
+\caption{As Table~2 of the main text, computed with $\theta = 0.02$.}
 \label{tab:localpower02}
 \small
 \begin{adjustbox}{max width=\textwidth}
@@ -595,32 +593,41 @@ RM: the centred rolling-means statistic with $\theta = 0.1$.
 
 \begin{table}[htbp]
 \centering
-\caption{As \cref{tab:dgp1}, computed with $\theta = 0.02$. Bold entries follow the rule stated in its note.}
+\caption{As \cref{tab:dgp1}, computed with $\theta = 0.02$.}
 \label{tab:dgp102}
 \small
 \begin{adjustbox}{max width=\textwidth}
 \input{tables/s5_tab_dgp1_theta0p02}
 \end{adjustbox}
+\par\medskip\begin{minipage}{\textwidth}\footnotesize
+RM: the centred rolling-means statistic with $\theta = 0.1$.
+\end{minipage}
 \end{table}
 
 \begin{table}[htbp]
 \centering
-\caption{As \cref{tab:ctpower}, computed with $\theta = 0.02$. Bold entries follow the rule stated in its note.}
+\caption{As \cref{tab:ctpower}, computed with $\theta = 0.02$.}
 \label{tab:ctpower02}
 \small
 \begin{adjustbox}{max width=\textwidth}
 \input{tables/s5_tab_ctpower_theta0p02}
 \end{adjustbox}
+\par\medskip\begin{minipage}{\textwidth}\footnotesize
+RM: the centred rolling-means statistic with $\theta = 0.1$.
+\end{minipage}
 \end{table}
 
 \begin{table}[htbp]
 \centering
-\caption{As \cref{tab:dgp2}, computed with $\theta = 0.02$. Bold entries follow the rule stated in its note.}
+\caption{As \cref{tab:dgp2}, computed with $\theta = 0.02$.}
 \label{tab:dgp202}
 \small
 \begin{adjustbox}{max width=\textwidth}
 \input{tables/s5_tab_dgp2_theta0p02}
 \end{adjustbox}
+\par\medskip\begin{minipage}{\textwidth}\footnotesize
+RM: the centred rolling-means statistic with $\theta = 0.1$.
+\end{minipage}
 \end{table}
 
 \begin{table}[htbp]
@@ -631,6 +638,9 @@ RM: the centred rolling-means statistic with $\theta = 0.1$.
 \begin{adjustbox}{max width=\textwidth}
 \input{tables/s5_tab_dgp3_theta0p02}
 \end{adjustbox}
+\par\medskip\begin{minipage}{\textwidth}\footnotesize
+RM: the centred rolling-means statistic with $\theta = 0.1$.
+\end{minipage}
 \end{table}
 
 \begin{table}[htbp]
@@ -655,7 +665,7 @@ RM: the centred rolling-means statistic with $\theta = 0.1$.
 
 \begin{table}[htbp]
 \centering
-\caption{As \cref{tab:dgp5}, computed with $\theta = 0.02$. Bold entries follow the rule stated in its note.}
+\caption{As \cref{tab:dgp5}, computed with $\theta = 0.02$.}
 \label{tab:dgp502}
 \small
 \begin{adjustbox}{max width=\textwidth}
@@ -668,7 +678,7 @@ RM: the centred rolling-means statistic with $\theta = 0.1$.
 
 \begin{table}[htbp]
 \centering
-\caption{As \cref{tab:fp}, computed with $\theta = 0.02$. Bold entries follow the rule stated in its note.}
+\caption{As \cref{tab:fp}, computed with $\theta = 0.02$.}
 \label{tab:fp02}
 \small
 \begin{adjustbox}{max width=\textwidth}
@@ -814,7 +824,7 @@ below the envelope there. \Cref{tab:negvariance,tab:negweight,tab:negrebal,tab:n
 \end{adjustbox}
 \end{table}
 
-The slope of 1/3 follows from the Andrews rule once $\hat a$ settles; it says nothing about the stochastic part.
+Appendix A.5 of the main text proves $(B+1)\hat\sigma^2 \to_p 2\gamma(0)$; the slope of 1/3 is that of the Andrews bandwidth.
 
 \subsection*{The trend case of the consistency theorem}
 
